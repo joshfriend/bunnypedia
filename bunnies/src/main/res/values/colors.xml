@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <color name="background">@color/white</color>
+
+    <color name="colorPrimary">@color/deck_blue</color>
+    <color name="colorPrimaryDark">#00579a</color>
+    <color name="colorAccent">@color/deck_red</color>
+
+    <color name="deck_red">#ea212d</color>
+    <color name="deck_orange">#f59331</color>
+    <color name="deck_yellow">#fef25d</color>
+    <color name="deck_green">#17a554</color>
+    <color name="deck_blue">#158acd</color>
+    <color name="deck_violet">#974c9a</color>
+    <color name="deck_pink">#f089b7</color>
+    <color name="deck_onyx">#4d4c4d</color>
+    <color name="deck_white">#ffffff</color>
+    <color name="deck_steel">#c6cfd4</color>
+    <color name="deck_khaki">#e3b58a</color>
+    <color name="deck_chocolate">#663d1b</color>
+    <color name="deck_fantastic">@color/deck_orange</color>
+    <color name="deck_caramel">@color/deck_chocolate</color>
+
+    <color name="zodiac_element_fire">@color/deck_red</color>
+    <color name="zodiac_element_earth">@color/deck_green</color>
+    <color name="zodiac_element_air">@color/deck_white</color>
+    <color name="zodiac_element_water">@color/deck_blue</color>
+</resources>

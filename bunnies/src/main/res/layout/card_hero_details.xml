@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/cardThumbnail"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/card_0048"
+            android:contentDescription="@string/card_thumbnail"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section_type"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    />
+
+                <TextView
+                    android:id="@+id/cardType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_type_run"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/diceContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="4dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section_dice"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:id="@+id/diceFlexLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:flexWrap="wrap"
+                    app:flexDirection="row"
+                    app:alignItems="flex_start"
+                    app:alignContent="flex_start">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/dice12"
+                        android:tint="@color/deck_onyx"
+                        android:visibility="gone"
+                        android:layout_marginBottom="4dp"
+                        tools:visibility="visible"
+                        tools:ignore="ContentDescription"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/dice12"
+                        android:tint="@color/deck_blue"
+                        android:visibility="gone"
+                        tools:visibility="visible"
+                        tools:ignore="ContentDescription"
+                        />
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/weaponLevelContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="6dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section_weapon_level"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    />
+
+                <TextView
+                    android:id="@+id/weaponLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="12"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/containerFtb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="6dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section_ftb_requirements"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    />
+
+                <TextView
+                    android:id="@+id/ftbRequirement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="2 Cabbage, 1 Water"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/containerRequiresBunny"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="6dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section_requires_bunny"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    />
+
+                <TextView
+                    android:id="@+id/requiresBunny"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Yes"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/containerZodiacSign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="6dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section_zodiac_sign"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    />
+
+                <TextView
+                    android:id="@+id/zodiacSymbol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Aries (Fire)"
+                    android:drawableStart="@drawable/zodiac_type_aries"
+                    android:drawablePadding="8dp"
+                    tools:drawableTint="@color/zodiac_element_fire"
+                    android:gravity="center_vertical"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/containerZodiacDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="6dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section_zodiac_date"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    />
+
+                <TextView
+                    android:id="@+id/zodiacDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="March 21 - April 20"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

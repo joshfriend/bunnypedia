@@ -1,0 +1,65 @@
+package com.fueledbycaffeine.bunnypedia.database
+
+import android.content.Context
+import android.support.annotation.ColorInt
+import android.support.v4.content.ContextCompat
+import com.fueledbycaffeine.bunnypedia.R
+import org.jetbrains.annotations.Nls
+
+enum class Deck {
+  BLUE,
+  YELLOW,
+  RED,
+  VIOLET,
+  ORANGE,
+  GREEN,
+  TWILIGHT_WHITE,
+  STAINLESS_STEEL,
+  PERFECTLY_PINK,
+  WACKY_KHAKI,
+  OMINOUS_ONYX,
+  CHOCOLATE,
+  FANTASTIC,
+  CARAMEL,
+  ;
+
+  @ColorInt fun getColor(context: Context): Int {
+    val colorRes = when (this) {
+      RED -> R.color.deck_red
+      ORANGE -> R.color.deck_orange
+      YELLOW -> R.color.deck_yellow
+      GREEN -> R.color.deck_green
+      BLUE -> R.color.deck_blue
+      VIOLET -> R.color.deck_violet
+      PERFECTLY_PINK -> R.color.deck_pink
+      TWILIGHT_WHITE -> R.color.deck_white
+      STAINLESS_STEEL -> R.color.deck_steel
+      OMINOUS_ONYX -> R.color.deck_onyx
+      WACKY_KHAKI -> R.color.deck_khaki
+      CHOCOLATE -> R.color.deck_chocolate
+      FANTASTIC -> R.color.deck_fantastic
+      CARAMEL -> R.color.deck_caramel
+    }
+    return ContextCompat.getColor(context, colorRes)
+  }
+
+  @Nls fun localizedDescription(context: Context): String {
+    val stringRes = when (this) {
+      RED -> R.string.deck_red_booster
+      ORANGE -> R.string.deck_orange_booster
+      YELLOW -> R.string.deck_yellow_booster
+      GREEN -> R.string.deck_green_booster
+      BLUE -> R.string.deck_blue_starter
+      VIOLET -> R.string.deck_violet_booster
+      PERFECTLY_PINK -> R.string.deck_perfectly_pink_booster
+      TWILIGHT_WHITE -> R.string.deck_twilight_white_booster
+      STAINLESS_STEEL -> R.string.deck_stainless_steel_booster
+      OMINOUS_ONYX -> R.string.deck_ominous_onyx_booster
+      WACKY_KHAKI -> R.string.deck_wacky_khaki_booster
+      CHOCOLATE -> R.string.deck_chocolate_booster
+      FANTASTIC -> R.string.deck_fantastic_booster
+      CARAMEL -> R.string.deck_caramel_swirl_booster
+    }
+    return context.getString(stringRes)
+  }
+}
