@@ -4,6 +4,7 @@ import android.content.res.ColorStateList
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.content.ContextCompat
+import android.support.v7.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -45,6 +46,9 @@ class CardDetailFragment: Fragment() {
     toolbar.title = card.title
     toolbar.subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
     toolbar.setNavigationOnClickListener { activity.finish() }
+    if (activity is AppCompatActivity) {
+      activity.setSupportActionBar(toolbar)
+    }
 
     val deckColor = ContextCompat.getColor(activity, card.deck.color)
     toolbar.setBackgroundColor(deckColor)

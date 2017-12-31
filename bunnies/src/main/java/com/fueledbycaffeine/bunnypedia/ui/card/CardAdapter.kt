@@ -1,21 +1,31 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.support.v7.widget.RecyclerView
-import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.Card
+import com.fueledbycaffeine.bunnypedia.database.Deck
+import org.jetbrains.anko.layoutInflater
 
 class CardAdapter(
-  private val allCards: List<Card>,
+  private var allCards: List<Card>,
   private val onCardSelected: (Card) -> Unit
 ): RecyclerView.Adapter<CardViewHolder>() {
 
-  private var _shownCards = allCards
-  private var shownCards: List<Card>
-    get() = _shownCards
+  var shownDecks: Set<Deck> = Deck.values().toSet()
     set(value) {
-      _shownCards = value
+      field = value
+      computeShownCards()
+    }
+  var query: String? = null
+    set(value) {
+      field = value
+      computeShownCards()
+    }
+
+  private var shownCards: List<Card> = allCards
+    set(value) {
+      field = value
       notifyDataSetChanged()
     }
 
@@ -26,10 +36,8 @@ class CardAdapter(
   }
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
-    val inflater = LayoutInflater.from(parent.context)
-
+    val inflater = parent.context.layoutInflater
     val view = inflater.inflate(R.layout.list_item_card, parent, false)
-
     return CardViewHolder(view)
   }
 
@@ -37,10 +45,21 @@ class CardAdapter(
     return shownCards.size
   }
 
-  fun setQuery(query: String?) {
-    shownCards = when (query) {
-      null -> allCards
-      else -> allCards.filter { it.title.contains(query, ignoreCase = true) }
+  private fun computeShownCards() {
+    val availableCards = allCards.filter { shownDecks.contains(it.deck) }
+    val query = query
+    val cardsMatchingQuery = when (query) {
+      null -> availableCards
+      else -> {
+        val idQuery = query.replace("^0+".toRegex(), "")
+        availableCards.filter { card ->
+          val titleMatch = card.title.contains(query, ignoreCase = true)
+          val idMatch = card.id.toString().startsWith(idQuery)
+          titleMatch || idMatch
+        }
+      }
     }
+
+    shownCards = cardsMatchingQuery
   }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceCategory
+        android:title="@string/pref_available_booster_decks"
+        android:key="@string/pref_key_storage_settings"
+        >
+
+        <MultiSelectListPreference
+            android:key="@string/pref_key_booster_decks"
+            android:summary="@string/pref_summary_booster_decks"
+            android:title="@string/pref_title_booster_decks"
+            android:entries="@array/pref_all_booster_decks_names"
+            android:entryValues="@array/pref_all_booster_decks_values"
+            android:defaultValue="@array/pref_all_booster_decks_values"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
