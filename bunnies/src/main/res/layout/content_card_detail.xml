@@ -47,7 +47,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/sectionAdditionalRules"
+            android:id="@+id/containerAdditionalRules"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"

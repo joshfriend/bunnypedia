@@ -1,10 +1,12 @@
 package com.fueledbycaffeine.bunnypedia.database
 
 import android.content.Context
+import android.support.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
 
 enum class CardType {
   RUN,
+  ROAMING_RED_RUN,
   SPECIAL,
   VERY_SPECIAL,
   DOLLA,
@@ -16,9 +18,10 @@ enum class CardType {
   STARTER,
   ;
 
-  fun localizedDescription(context: Context): String {
-    val stringRes = when (this) {
+  val description: Int @StringRes get() {
+    return when (this) {
       RUN -> R.string.card_type_run
+      ROAMING_RED_RUN -> R.string.card_type_roaming_red_run
       SPECIAL -> R.string.card_type_special
       VERY_SPECIAL -> R.string.card_type_very_special
       DOLLA -> R.string.card_type_kaballa_dolla
@@ -29,6 +32,5 @@ enum class CardType {
       CARROT_SUPPLY -> R.string.card_type_carrot_supply
       STARTER -> R.string.card_type_play_immediately
     }
-    return context.getString(stringRes)
   }
 }

@@ -7,11 +7,20 @@ import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.Card
 
 class CardAdapter(
-  private val cards: List<Card>,
+  private val allCards: List<Card>,
   private val onCardSelected: (Card) -> Unit
 ): RecyclerView.Adapter<CardViewHolder>() {
+
+  private var _shownCards = allCards
+  private var shownCards: List<Card>
+    get() = _shownCards
+    set(value) {
+      _shownCards = value
+      notifyDataSetChanged()
+    }
+
   override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
-    val card = cards[holder.adapterPosition]
+    val card = shownCards[holder.adapterPosition]
     holder.bind(card)
     holder.itemView.setOnClickListener { onCardSelected(card) }
   }
@@ -25,6 +34,13 @@ class CardAdapter(
   }
 
   override fun getItemCount(): Int {
-    return cards.size
+    return shownCards.size
+  }
+
+  fun setQuery(query: String?) {
+    shownCards = when (query) {
+      null -> allCards
+      else -> allCards.filter { it.title.contains(query, ignoreCase = true) }
+    }
   }
 }

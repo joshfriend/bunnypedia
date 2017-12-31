@@ -39,8 +39,8 @@ dependencies {
     kapt "android.arch.lifecycle:compiler:$archComponentsVersion"
 
     // Rx
-    implementation 'io.reactivex.rxjava2:rxjava:2.1.6'
-    implementation 'io.reactivex.rxjava2:rxkotlin:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.7'
+    implementation 'io.reactivex.rxjava2:rxkotlin:2.2.0'
 
     implementation "com.squareup.moshi:moshi-kotlin:1.5.0"
     implementation 'com.squareup.picasso:picasso:3.0.0-SNAPSHOT'

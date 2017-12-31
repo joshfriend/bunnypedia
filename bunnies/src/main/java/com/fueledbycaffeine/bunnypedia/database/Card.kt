@@ -6,19 +6,23 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class Card(
   val id: Int,
-  private val canonicalId: Int?,
+  private val canonicalId: Int? = null,
   val title: String,
-  val description: String,
   val deck: Deck,
-  val hide: Boolean,
   val type: CardType,
-  val zodiacType: ZodiacType?,
-  val requiresBunny: Boolean?,
-  val dice: List<Die>,
-  val pawn: Pawn?,
-  val weaponLevel: String?,
-  val cabbage: Int,
-  val water: Int
+  val description: String = "",
+  val additionalRules: String = "",
+  val rank: Rank? = null,
+  val zodiacType: ZodiacType? = null,
+  val bunnyRequirement: BunnyRequirement = BunnyRequirement.NOT_APPLICABLE,
+  val dice: List<Die> = emptyList(),
+  val symbols: List<Symbol> = emptyList(),
+  val pawn: Pawn? = null,
+  val weaponLevel: String? = null,
+  val cabbage: Int = 0,
+  val water: Int = 0,
+  val psi: Psi? = null,
+  val specialSeries: SpecialSeries? = null
 ): Parcelable {
   companion object {
     const val FTB_RANDOM = -1

@@ -28,8 +28,12 @@ class Database(context: Context) {
 
   val allCards: List<Card> get() { return cards }
 
-  fun getCard(id: Int): Card {
+  fun getCard(id: Int): Card? {
     val index = cards.binarySearch { it.id.compareTo(id) }
-    return cards[index]
+    return if (index < 0) {
+      null
+    } else {
+      cards[index]
+    }
   }
 }

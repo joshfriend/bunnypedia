@@ -20,10 +20,11 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:title="@string/all_cards"
+            app:title="@string/app_name"
+            app:subtitle="@string/all_cards"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:titleTextColor="@color/white"
-            app:layout_scrollFlags="scroll|snap|enterAlways"
+            app:subtitleTextColor="@color/white"
             />
 
     </android.support.design.widget.AppBarLayout>
@@ -35,6 +36,12 @@
         tools:listitem="@layout/list_item_card"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        android:scrollbars="vertical"
+        app:fastScrollEnabled="true"
+        app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+        app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
         />
 
 </android.support.design.widget.CoordinatorLayout>

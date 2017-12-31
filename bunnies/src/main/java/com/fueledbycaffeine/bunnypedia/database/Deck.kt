@@ -1,10 +1,8 @@
 package com.fueledbycaffeine.bunnypedia.database
 
-import android.content.Context
-import android.support.annotation.ColorInt
-import android.support.v4.content.ContextCompat
+import android.support.annotation.ColorRes
+import android.support.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
-import org.jetbrains.annotations.Nls
 
 enum class Deck {
   BLUE,
@@ -23,8 +21,8 @@ enum class Deck {
   CARAMEL,
   ;
 
-  @ColorInt fun getColor(context: Context): Int {
-    val colorRes = when (this) {
+  val color: Int @ColorRes get() {
+    return when (this) {
       RED -> R.color.deck_red
       ORANGE -> R.color.deck_orange
       YELLOW -> R.color.deck_yellow
@@ -40,11 +38,10 @@ enum class Deck {
       FANTASTIC -> R.color.deck_fantastic
       CARAMEL -> R.color.deck_caramel
     }
-    return ContextCompat.getColor(context, colorRes)
   }
 
-  @Nls fun localizedDescription(context: Context): String {
-    val stringRes = when (this) {
+  val description: Int @StringRes get() {
+    return when (this) {
       RED -> R.string.deck_red_booster
       ORANGE -> R.string.deck_orange_booster
       YELLOW -> R.string.deck_yellow_booster
@@ -60,6 +57,5 @@ enum class Deck {
       FANTASTIC -> R.string.deck_fantastic_booster
       CARAMEL -> R.string.deck_caramel_swirl_booster
     }
-    return context.getString(stringRes)
   }
 }

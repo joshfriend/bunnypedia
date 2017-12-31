@@ -2,7 +2,6 @@ package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.content.res.ColorStateList
 import android.os.Bundle
-import android.support.annotation.ColorInt
 import android.support.v4.app.Fragment
 import android.support.v4.content.ContextCompat
 import android.view.LayoutInflater
@@ -10,9 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.Card
-import com.fueledbycaffeine.bunnypedia.database.Die
-import com.fueledbycaffeine.bunnypedia.database.ZodiacType
+import com.fueledbycaffeine.bunnypedia.database.*
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import com.google.android.flexbox.FlexboxLayout
 import com.squareup.picasso.Callback
@@ -46,10 +43,10 @@ class CardDetailFragment: Fragment() {
     val card = cardArgument
 
     toolbar.title = card.title
-    toolbar.subtitle = "${String.format("#%04d", card.id)} – ${card.deck.localizedDescription(activity)}"
+    toolbar.subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
     toolbar.setNavigationOnClickListener { activity.finish() }
 
-    val deckColor = card.deck.getColor(context!!)
+    val deckColor = ContextCompat.getColor(activity, card.deck.color)
     toolbar.setBackgroundColor(deckColor)
     val titleColor = ColorUtil.contrastColor(deckColor)
     toolbar.setTitleTextColor(titleColor)
@@ -69,7 +66,12 @@ class CardDetailFragment: Fragment() {
       description.text = card.description
     }
 
-    cardType.text = card.type.localizedDescription(activity)
+    if (card.additionalRules.isNotEmpty()) {
+      containerAdditionalRules.visibility = View.VISIBLE
+      additionalRules.text = card.additionalRules
+    }
+
+    cardType.text = getString(card.type.description)
 
     Picasso.get()
       .load(card.imageURI)
@@ -86,21 +88,34 @@ class CardDetailFragment: Fragment() {
       setupDiceInfo(card.dice)
     }
 
+    if (card.pawn != null) {
+      setupPawnInfo(card.pawn)
+    }
+
     if (card.weaponLevel != null) {
       weaponLevelContainer.visibility = View.VISIBLE
       weaponLevel.text = card.weaponLevel
     }
 
-    if (card.requiresBunny != null) {
+    if (card.bunnyRequirement != BunnyRequirement.NOT_APPLICABLE) {
       containerRequiresBunny.visibility = View.VISIBLE
-      requiresBunny.text = when (card.requiresBunny) {
-        true -> getString(R.string.yes)
-        false -> getString(R.string.no)
-      }
+      requiresBunny.text = getString(card.bunnyRequirement.description)
     }
 
     if (card.isFtb) {
       setupFtbInfo(card.cabbage, card.water)
+    }
+
+    if (card.rank != null) {
+      setupRankInfo(card.rank)
+    }
+
+    if (card.psi != null) {
+      setupPsiInfo(card.psi)
+    }
+
+    if (card.specialSeries != null) {
+      setupSpecialSeriesInfo(card.specialSeries)
     }
   }
 
@@ -115,15 +130,23 @@ class CardDetailFragment: Fragment() {
   private fun setupDiceInfo(dice: List<Die>) {
     diceContainer.visibility = View.VISIBLE
     for (die in dice) {
-      val img = ImageView(activity)
-      img.setImageDrawable(die.getDrawable(activity!!))
-      // TODO: WTF
+      val img = ImageView(context)
+      img.setImageDrawable(die.getDrawable(context!!))
       img.layoutParams = FlexboxLayout.LayoutParams(
         ViewGroup.LayoutParams.WRAP_CONTENT,
         ViewGroup.LayoutParams.WRAP_CONTENT
       )
-      diceContainer.addView(img)
+      diceFlexLayout.addView(img)
     }
+  }
+
+  private fun setupPawnInfo(pawn: Pawn) {
+    containerPawnInfo.visibility = View.VISIBLE
+
+    pawnSymbol.imageTintList = ColorStateList.valueOf(
+      ContextCompat.getColor(context!!, pawn.color)
+    )
+    pawnName.text = getString(pawn.pawnName)
   }
 
   private fun setupFtbInfo(cabbage: Int, water: Int) {
@@ -162,13 +185,28 @@ class CardDetailFragment: Fragment() {
       .withTimeAtStartOfDay()
       .withDayOfMonth(startMonthDay.dayOfMonth)
       .withMonthOfYear(startMonthDay.monthOfYear)
-    // This works because zodiac dates never end at the end of a month
-    val end = start.plusMonths(1)
+    val end = DateTime()
+      .withTimeAtStartOfDay()
       .withDayOfMonth(endMonthDay.dayOfMonth)
+      .withMonthOfYear(endMonthDay.monthOfYear)
       .plusDays(1)  // Non-inclusive!
-    val now = DateTime()
 
-    if (start <= now && end > now) {
+    val now = DateTime()
+    val isCurrentSign = if (start <= now && end > now) {
+      true
+    } else if (zodiac == ZodiacType.CAPRICORN) {
+      // Before new year?
+      if (start.minusYears(1) <= now && end > now) {
+        true
+      } else {
+        // After new year?
+        start <= now && end.plusYears(1) > now
+      }
+    } else {
+      false
+    }
+
+    if (isCurrentSign) {
       zodiacDate.text = getString(
         R.string.zodiac_date_range_current,
         ZODIAC_DATE_FMT.print(start),
@@ -181,5 +219,32 @@ class CardDetailFragment: Fragment() {
         ZODIAC_DATE_FMT.print(end.minusDays(1))
       )
     }
+  }
+
+  private fun setupRankInfo(rank: Rank) {
+    containerRank.visibility = View.VISIBLE
+
+    val payGrade = when (rank.type) {
+      RankType.ENLISTED -> "E-${rank.grade}"
+      RankType.OFFICER -> "O-${rank.grade}"
+    }
+    rankTitle.text = getString(R.string.rank_pay_grade, getString(rank.description), payGrade)
+    rankSymbol.setImageResource(rank.symbol)
+  }
+
+  private fun setupPsiInfo(psi: Psi) {
+    containerPsiInfo.visibility = View.VISIBLE
+    psiTitle.text = getString(
+      R.string.psi_symbol_title,
+      getString(psi.color.colorName),
+      getString(psi.type.description)
+    )
+  }
+
+  private fun setupSpecialSeriesInfo(series: SpecialSeries) {
+    containerSpecialSeries.visibility = View.VISIBLE
+
+    seriesSymbol.text = series.symbol
+    seriesTitle.text = getString(series.title)
   }
 }

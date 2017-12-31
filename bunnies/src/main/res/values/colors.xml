@@ -28,4 +28,6 @@
     <color name="zodiac_element_earth">@color/deck_green</color>
     <color name="zodiac_element_air">@color/deck_white</color>
     <color name="zodiac_element_water">@color/deck_blue</color>
+
+    <color name="enlisted_rank_fill">#3668c9</color>
 </resources>
