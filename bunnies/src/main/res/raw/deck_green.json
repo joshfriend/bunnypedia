@@ -1,0 +1,98 @@
+[
+  {
+    "id": 352,
+    "deck": "GREEN",
+    "title": "Leif Carrotson",
+    "type": "ROAMING_RED_RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["VIOLET", "BLACK", "RED"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any one player's bunnies which all roam the board clockwise with Leif Carrotson. Leif (and the bunnies) visit one player per round.\n• Red roll high - the player keeps one bunny.\n• Violet roll high - Leif and bunnies keep roaming.\n• Black roll high - one bunny is thrown overboard and drowns."},
+      {"title": "Additional Rules", "text": "When a player gives this card to an opponent, all of the opponent's bunnies that are down (in The Bunny Circle) are taken on board Leif's ship and moved to the next player clockwise. That player rolls the three dice (Violet, Black and Red). If the Red is the highest roll, then the player is allowed to take (and kee) one of the bunnies and immediately place it down in The Bunny Circle. If the Violet is the highest roll, then all fo the bunnies stay on board and continue to roam. If the Black is the highest roll, then the player chooses one bunny to throw overboard (and into the discard pile). Since Leif Carrotson is a Roaming Red Run card, the ship will move to the next player clockwise once every round. When the ship is empty (no bunnies left) Leif Carrotson is discarded."}
+    ]
+  },
+  {
+    "id": 374,
+    "deck": "GREEN",
+    "title": "Aries",
+    "type": "ZODIAC",
+    "zodiacType": "ARIES"
+  },
+  {
+    "id": 375,
+    "deck": "GREEN",
+    "title": "Taurus",
+    "type": "ZODIAC",
+    "zodiacType": "TAURUS"
+  },
+  {
+    "id": 376,
+    "deck": "GREEN",
+    "title": "Gemini",
+    "type": "ZODIAC",
+    "zodiacType": "GEMINI"
+  },
+  {
+    "id": 377,
+    "deck": "GREEN",
+    "title": "Cancer",
+    "type": "ZODIAC",
+    "zodiacType": "CANCER"
+  },
+  {
+    "id": 378,
+    "deck": "GREEN",
+    "title": "Leo",
+    "type": "ZODIAC",
+    "zodiacType": "LEO"
+  },
+  {
+    "id": 379,
+    "deck": "GREEN",
+    "title": "Virgo",
+    "type": "ZODIAC",
+    "zodiacType": "VIRGO"
+  },
+  {
+    "id": 380,
+    "deck": "GREEN",
+    "title": "Libra",
+    "type": "ZODIAC",
+    "zodiacType": "LIBRA"
+  },
+  {
+    "id": 381,
+    "deck": "GREEN",
+    "title": "Scorpio",
+    "type": "ZODIAC",
+    "zodiacType": "SCORPIO"
+  },
+  {
+    "id": 382,
+    "deck": "GREEN",
+    "title": "Sagittarius",
+    "type": "ZODIAC",
+    "zodiacType": "SAGITTARIUS"
+  },
+  {
+    "id": 383,
+    "deck": "GREEN",
+    "title": "Capricorn",
+    "type": "ZODIAC",
+    "zodiacType": "CAPRICORN"
+  },
+  {
+    "id": 384,
+    "deck": "GREEN",
+    "title": "Aquarius",
+    "type": "ZODIAC",
+    "zodiacType": "AQUARIUS"
+  },
+  {
+    "id": 385,
+    "deck": "GREEN",
+    "title": "Pisces",
+    "type": "ZODIAC",
+    "zodiacType": "PISCES"
+  }
+]

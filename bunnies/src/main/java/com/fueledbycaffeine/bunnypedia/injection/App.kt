@@ -1,14 +1,16 @@
-package com.fueledbycaffeine.bunnypedia
+package com.fueledbycaffeine.bunnypedia.injection
 
 import android.app.Application
 import android.os.Build
 import android.os.StrictMode
 import android.support.v7.app.AppCompatDelegate
+import com.fueledbycaffeine.bunnypedia.BuildConfig
 import timber.log.Timber
 
 class App: Application() {
   companion object {
     @JvmStatic lateinit var instance: App
+    @JvmStatic lateinit var graph: AppComponent
 
     init {
       AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
@@ -21,6 +23,11 @@ class App: Application() {
 
   override fun onCreate() {
     super.onCreate()
+
+    graph = DaggerAppComponent.builder()
+      .androidModule(AndroidModule(this))
+      .build()
+    graph.inject(this)
 
     Timber.plant(Timber.DebugTree())
 

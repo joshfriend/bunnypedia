@@ -1,0 +1,213 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "id": {
+        "$id": "http://example.com/example.json/items/properties/id",
+        "type": "integer",
+        "title": "The Id Schema.",
+        "description": "The ID of the card shown in the bottom right corner",
+        "examples": [
+          1
+        ]
+      },
+      "title": {
+        "$id": "http://example.com/example.json/items/properties/title",
+        "type": "string",
+        "title": "The Title Schema.",
+        "description": "The name of the card",
+        "examples": [
+          "Card Title"
+        ]
+      },
+      "deck": {
+        "$id": "http://example.com/example.json/items/properties/deck",
+        "type": "string",
+        "enum": ["RED", "YELLOW", "ORANGE", "GREEN", "BLUE", "VIOLET", "PERFECTLY_PINK", "OMINOUS_ONYX", "CHOCOLATE", "CARAMEL_SWIRL", "FANTASTIC", "TWILIGHT_WHITE", "STAINLESS_STEEL", "WACKY_KHAKI"],
+        "title": "The Deck Schema.",
+        "description": "The deck that the card is from",
+        "default": "BLUE",
+        "examples": [
+          "BLUE"
+        ]
+      },
+      "rules": {
+        "$id": "http://example.com/example.json/items/properties/rules",
+        "type": "array",
+        "items": {
+          "$id": "http://example.com/example.json/items/properties/rules/items",
+          "type": "object",
+          "properties": {
+            "title": {
+              "$id": "http://example.com/example.json/items/properties/rules/items/properties/title",
+              "type": "string",
+              "title": "The Title Schema.",
+              "description": "The title of the section",
+              "default": "",
+              "examples": [
+                "Section Title"
+              ]
+            },
+            "text": {
+              "$id": "http://example.com/example.json/items/properties/rules/items/properties/text",
+              "type": "string",
+              "title": "The Text Schema.",
+              "description": "The text of the section",
+              "default": "",
+              "examples": [
+                "Section Text"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "text"
+          ]
+        }
+      },
+      "rank": {
+        "$id": "http://example.com/example.json/items/properties/rank",
+        "type": "string",
+        "enum": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "O1", "O2", "O3", "O4", "O5", "O6", "O7", "O8", "O9"],
+        "title": "The Rank Schema.",
+        "description": "The rank (E1-E9,O1-O9) if applicable",
+        "default": "",
+        "examples": [
+          "O1"
+        ]
+      },
+      "zodiacType": {
+        "$id": "http://example.com/example.json/items/properties/zodiacType",
+        "type": "string",
+        "enum": ["ARIES", "LEO", "SAGITTARIUS", "TAURUS", "VIRGO", "CAPRICORN", "GEMINI", "LIBRA", "AQUARIUS", "CANCER", "SCORPIO", "PISCES"],
+        "title": "The Zodiactype Schema.",
+        "description": "The zodiac type (if applicable)",
+        "default": "",
+        "examples": [
+          "ARIES"
+        ]
+      },
+      "bunnyRequirement": {
+        "$id": "http://example.com/example.json/items/properties/bunnyRequirement",
+        "type": "string",
+        "enum": ["NOT_APPLICABLE", "NO", "PLAY", "PLAY_AND_SAVE"],
+        "title": "The Bunny Requirement Schema.",
+        "description": "If the card requires a bunny to play or save",
+        "default": "",
+        "examples": [
+          "PLAY"
+        ]
+      },
+      "dice": {
+        "$id": "http://example.com/example.json/items/properties/dice",
+        "type": "array",
+        "items": {
+          "$id": "http://example.com/example.json/items/properties/dice/items",
+          "type": "string",
+          "enum": ["RED", "YELLOW", "ORANGE", "GREEN", "BLUE", "VIOLET", "PINK", "BLACK", "BROWN", "ZODIAC", "CLEAR"],
+          "title": "The 0 Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "BLACK"
+          ]
+        }
+      },
+      "symbols": {
+        "$id": "http://example.com/example.json/items/properties/symbols",
+        "type": "array",
+        "items": {
+          "$id": "http://example.com/example.json/items/properties/symbols/items",
+          "type": "string",
+          "enum": ["MYSTERIOUS_PLACE_BALL", "JUPITER"],
+          "title": "The 0 Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "MYSTERIOUS_PLACE_BALL",
+            "JUPITER"
+          ]
+        }
+      },
+      "pawn": {
+        "$id": "http://example.com/example.json/items/properties/pawn",
+        "type": "string",
+        "enum": ["RED", "YELLOW", "ORANGE", "GREEN", "BLUE", "VIOLET", "PINK", "BLACK"],
+        "title": "The Pawn Schema.",
+        "description": "The associated pawn, if the Card is a P-Card",
+        "default": "",
+        "examples": [
+          "RED"
+        ]
+      },
+      "weaponLevel": {
+        "$id": "http://example.com/example.json/items/properties/weaponLevel",
+        "type": "string",
+        "title": "The Weapon Level Schema.",
+        "description": "The level of the weapon (if applicable)",
+        "default": "",
+        "examples": [
+          "9",
+          "Dated",
+          "50/50"
+        ]
+      },
+      "cabbage": {
+        "$id": "http://example.com/example.json/items/properties/cabbage",
+        "type": "integer",
+        "title": "The Cabbage Schema.",
+        "description": "Number of cabbage to feed (-1 for random, -2 for dated)",
+        "default": 0,
+        "examples": [
+          -1,
+          -2,
+          1
+        ]
+      },
+      "water": {
+        "$id": "http://example.com/example.json/items/properties/water",
+        "type": "integer",
+        "title": "The Water Schema.",
+        "description": "Number of water to feed (-1 for random, -2 for dated)",
+        "default": 0,
+        "examples": [
+          -1,
+          -2,
+          1
+        ]
+      },
+      "psi": {
+        "$id": "http://example.com/example.json/items/properties/psi",
+        "type": "string",
+        "enum": ["PSI01", "PSI02", "PSI03", "PSI04", "PSI05", "PSI08", "PSI09", "PSI10", "PSI11", "PSI12"],
+        "title": "The Psi Schema.",
+        "description": "The Psi designation of the card (if applicable)",
+        "default": "",
+        "examples": [
+          "PSI01"
+        ]
+      },
+      "specialSeries": {
+        "$id": "http://example.com/example.json/items/properties/specialSeries",
+        "type": "string",
+        "enum": ["OMEGA", "PSI", "NU", "THETA", "PHI"],
+        "title": "The Specialseries Schema.",
+        "description": "The greek letter designation given to cards from special series (e.g. Psi)",
+        "default": "",
+        "examples": [
+          "THETA"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "deck"
+    ]
+  }
+}

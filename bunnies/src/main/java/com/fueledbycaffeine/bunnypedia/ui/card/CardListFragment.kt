@@ -10,27 +10,35 @@ import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.Card
 import com.fueledbycaffeine.bunnypedia.database.Database
 import com.fueledbycaffeine.bunnypedia.database.Deck
+import com.fueledbycaffeine.bunnypedia.injection.App
 import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD
 import com.fueledbycaffeine.bunnypedia.ui.settings.SettingsActivity
+import com.jakewharton.rxbinding2.support.v7.widget.queryTextChangeEvents
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.rxkotlin.addTo
+import io.reactivex.rxkotlin.subscribeBy
 import kotlinx.android.synthetic.main.fragment_card_list.*
 import org.jetbrains.anko.support.v4.defaultSharedPreferences
 import org.jetbrains.anko.support.v4.startActivity
 import org.jetbrains.anko.support.v4.startActivityForResult
+import timber.log.Timber
+import javax.inject.Inject
 
 
-class CardListFragment: Fragment(), SearchView.OnQueryTextListener {
+class CardListFragment: Fragment() {
   companion object {
     private const val REQ_SETTINGS = 1
   }
 
-  private lateinit var database: Database
+  @Inject lateinit var database: Database
   private lateinit var adapter: CardAdapter
+  private var optionsMenuSubscribers = CompositeDisposable()
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setHasOptionsMenu(true)
-
-    database = Database(activity!!)
+    App.graph.inject(this)
   }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -39,9 +47,31 @@ class CardListFragment: Fragment(), SearchView.OnQueryTextListener {
 
   override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
     inflater.inflate(R.menu.main_options_menu, menu)
-    val search = menu.findItem(R.id.search).actionView as SearchView
-    search.setOnQueryTextListener(this)
+    val searchMenuItem = menu.findItem(R.id.search)
+    val search = searchMenuItem.actionView as SearchView
     search.queryHint = getString(R.string.search_hint)
+
+    val queryEvents = search.queryTextChangeEvents().share()
+
+    queryEvents.map { it.queryText().toString().trim() }
+      .subscribeBy(onNext = { adapter.query = it })
+      .addTo(this.optionsMenuSubscribers)
+
+    queryEvents.filter { it.isSubmitted }
+      .map { it.queryText().toString().trim() }
+      .map { it.toIntOrNull() ?: -1 }
+      .subscribeBy(
+        onNext = { id ->
+          val card = database.getCard(id)
+          if (card != null) {
+            search.setQuery("", false)
+            searchMenuItem.collapseActionView()
+            this.onCardSelected(card)
+          }
+        },
+        onError = Timber::e
+      )
+      .addTo(this.optionsMenuSubscribers)
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -52,9 +82,19 @@ class CardListFragment: Fragment(), SearchView.OnQueryTextListener {
       activity.setSupportActionBar(toolbar)
     }
 
-    adapter = CardAdapter(database.allCards, this::onCardSelected)
-    adapter.shownDecks = getAvailableDecks()
+    adapter = CardAdapter(emptyList(), this::onCardSelected)
     recyclerView.adapter = adapter
+
+    database.getAllCards()
+      .observeOn(AndroidSchedulers.mainThread())
+      .subscribe { cards ->
+        adapter = CardAdapter(cards, this::onCardSelected)
+        adapter.shownDecks = getAvailableDecks()
+        loadingView.visibility = View.GONE
+        recyclerView.visibility = View.VISIBLE
+        recyclerView.adapter = adapter
+      }
+
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -74,17 +114,9 @@ class CardListFragment: Fragment(), SearchView.OnQueryTextListener {
     }
   }
 
-  override fun onQueryTextSubmit(query: String?): Boolean {
-    val id = query?.trim()?.toIntOrNull()
-    if (id != null) {
-      database.getCard(id)?.let { onCardSelected(it) }
-    }
-    return true
-  }
-
-  override fun onQueryTextChange(newText: String?): Boolean {
-    adapter.query = newText?.trim()
-    return true
+  override fun onDestroyOptionsMenu() {
+    this.optionsMenuSubscribers.clear()
+    super.onDestroyOptionsMenu()
   }
 
   private fun onCardSelected(card: Card) {

@@ -12,6 +12,7 @@ data class Card(
   val type: CardType,
   val description: String = "",
   val additionalRules: String = "",
+  val rules: List<RulesSection> = emptyList(),
   val rank: Rank? = null,
   val zodiacType: ZodiacType? = null,
   val bunnyRequirement: BunnyRequirement = BunnyRequirement.NOT_APPLICABLE,

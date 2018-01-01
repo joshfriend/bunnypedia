@@ -1,0 +1,12 @@
+[
+  {
+    "id": 414,
+    "deck": "TWILIGHT_WHITE",
+    "title": "Return A Carrot",
+    "bunnyRequirement": "PLAY",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force any opponent to return any one of his Carrots to Kaballa's Market."}
+    ]
+  }
+]

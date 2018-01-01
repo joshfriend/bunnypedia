@@ -1,0 +1,13 @@
+[
+  {
+    "id": 463,
+    "deck": "STAINLESS_STEEL",
+    "title": "Neutronium Barrier",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed between any two adjacent players and stops weapons that affect adjacent bunnies. Roaming Red Run cards taht contact a Neutronium Barrier are eliminated."},
+      {"title": "Additional Rules", "text": "More than one Barrier (regular or Neutronium) may be placed between any two adjacent players. It is important to place the two (or more) Barrier cards side by side between the players especially if one of the Barriers is a Neutronium Barrier. This becomes important when a Roaming Red Run card encounters the Barriers. By placing the cards side by side, players will be able to determine if a Roaming Red Run will encounter a regular Barrier and change direction, or a Neutronium Barrier and be eliminated."}
+    ]
+  }
+]

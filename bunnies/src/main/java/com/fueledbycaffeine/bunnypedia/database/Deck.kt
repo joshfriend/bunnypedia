@@ -1,6 +1,7 @@
 package com.fueledbycaffeine.bunnypedia.database
 
 import android.support.annotation.ColorRes
+import android.support.annotation.RawRes
 import android.support.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
 
@@ -18,7 +19,7 @@ enum class Deck {
   OMINOUS_ONYX,
   CHOCOLATE,
   FANTASTIC,
-  CARAMEL,
+  CARAMEL_SWIRL,
   ;
 
   val color: Int @ColorRes get() {
@@ -36,7 +37,7 @@ enum class Deck {
       WACKY_KHAKI -> R.color.deck_khaki
       CHOCOLATE -> R.color.deck_chocolate
       FANTASTIC -> R.color.deck_fantastic
-      CARAMEL -> R.color.deck_caramel
+      CARAMEL_SWIRL -> R.color.deck_caramel
     }
   }
 
@@ -55,7 +56,26 @@ enum class Deck {
       WACKY_KHAKI -> R.string.deck_wacky_khaki_booster
       CHOCOLATE -> R.string.deck_chocolate_booster
       FANTASTIC -> R.string.deck_fantastic_booster
-      CARAMEL -> R.string.deck_caramel_swirl_booster
+      CARAMEL_SWIRL -> R.string.deck_caramel_swirl_booster
+    }
+  }
+
+  val data: Int @RawRes get() {
+    return when (this) {
+      RED -> R.raw.deck_red
+      ORANGE -> R.raw.deck_orange
+      YELLOW -> R.raw.deck_yellow
+      GREEN -> R.raw.deck_green
+      BLUE -> R.raw.deck_blue
+      VIOLET -> R.raw.deck_violet
+      PERFECTLY_PINK -> R.raw.deck_perfectly_pink
+      TWILIGHT_WHITE -> R.raw.deck_twilight_white
+      STAINLESS_STEEL -> R.raw.deck_stainless_steel
+      OMINOUS_ONYX -> R.raw.deck_ominous_onyx
+      WACKY_KHAKI -> R.raw.deck_wacky_khaki
+      CHOCOLATE -> R.raw.deck_chocolate
+      FANTASTIC -> R.raw.deck_fantastic
+      CARAMEL_SWIRL -> R.raw.deck_caramel_swirl
     }
   }
 }

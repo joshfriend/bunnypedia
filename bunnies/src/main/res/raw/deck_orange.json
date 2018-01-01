@@ -1,0 +1,37 @@
+[
+  {
+    "id": 315,
+    "deck": "ORANGE",
+    "title": "Very Large Prune Danish",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "pawn": "VIOLET",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to feed any (or all) bunnies in the Bunny Circle any amounts of Cabbage and Water."}
+    ]
+  },
+  {
+    "id": 283,
+    "deck": "ORANGE",
+    "title": "Choose 3 Carrots",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": 286,
+    "deck": "ORANGE",
+    "title": "Random FTB",
+    "type": "RUN",
+    "dice": ["GREEN", "BLUE"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any Bunny which must feed the amounts rolled by the end of its next turn or die."}
+    ],
+    "cabbage": -1,
+    "water": -1
+  }
+]

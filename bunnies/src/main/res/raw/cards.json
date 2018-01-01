@@ -4,105 +4,135 @@
     "deck": "BLUE",
     "title": "Blue Congenial",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 2,
     "deck": "BLUE",
     "title": "Blue Gleeful",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 3,
     "deck": "BLUE",
     "title": "Blue Lumbering",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 4,
     "deck": "BLUE",
     "title": "Blue Sinister",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 5,
     "deck": "BLUE",
     "title": "Blue Timid",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 6,
     "deck": "BLUE",
     "title": "Green Congenial",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 7,
     "deck": "BLUE",
     "title": "Green Gleeful",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 8,
     "deck": "BLUE",
     "title": "Green Lumbering",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 9,
     "deck": "BLUE",
     "title": "Green Sinister",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 10,
     "deck": "BLUE",
     "title": "Green Timid",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 11,
     "deck": "BLUE",
     "title": "Orange Congenial",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 12,
     "deck": "BLUE",
     "title": "Orange Gleeful",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 13,
     "deck": "BLUE",
     "title": "Orange Lumbering",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 14,
     "deck": "BLUE",
     "title": "Orange Sinister",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 15,
     "deck": "BLUE",
     "title": "Orange Timid",
     "type": "RUN",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
   },
   {
     "id": 16,
@@ -111,7 +141,9 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 17,
@@ -121,7 +153,9 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 18,
@@ -131,7 +165,9 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 19,
@@ -141,7 +177,9 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 20,
@@ -151,7 +189,9 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 21,
@@ -160,7 +200,9 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 22,
@@ -170,7 +212,9 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 23,
@@ -180,7 +224,9 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 24,
@@ -448,7 +494,9 @@
       "BLACK"
     ],
     "bunnyRequirement": "PLAY",
-    "description": "May be placed on any bunny. All bunnies within two spaces are also killed. Clover bunnies may survive",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny. All bunnies within two spaces are also killed. Clover bunnies may survive"}
+    ],
     "weaponLevel": "12"
   },
   {
@@ -881,7 +929,9 @@
     "title": "Yellow Congenial",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 112,
@@ -889,7 +939,9 @@
     "title": "Yellow Gleeful",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 113,
@@ -897,7 +949,9 @@
     "title": "Yellow Lumbering",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 114,
@@ -905,7 +959,9 @@
     "title": "Yellow Sinister",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 115,
@@ -913,7 +969,9 @@
     "title": "Yellow Timid",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 116,
@@ -921,7 +979,9 @@
     "title": "Violet Congenial",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 117,
@@ -929,7 +989,9 @@
     "title": "Violet Gleeful",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 118,
@@ -937,7 +999,9 @@
     "title": "Violet Lumbering",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 119,
@@ -945,7 +1009,9 @@
     "title": "Violet Sinister",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 120,
@@ -953,7 +1019,9 @@
     "title": "Violet Timid",
     "type": "RUN",
     "bunnyRequirement": "NO",
-    "description": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+    "rules": [
+    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+]
   },
   {
     "id": 121,
@@ -963,7 +1031,9 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 122,
@@ -973,7 +1043,9 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 123,
@@ -983,7 +1055,9 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 124,
@@ -993,7 +1067,9 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "aggressive": false,
-    "description": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."
+    "rules": [
+    {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+]
   },
   {
     "id": 125,
@@ -1162,8 +1238,10 @@
     "title": "The Minilith",
     "type": "SPECIAL",
     "bunnyRequirement": "PLAY_AND_SAVE",
-    "description": "The player with this card saved must double the range and level of each weapon. Only weapon levels 1-9 are affected. Weapons affect the target bunny and adjacent bunnies. If at any time the player has no bunnies in The Bunny Circle then The Minilith is discarded.",
-    "additionalRules": "Doubling the Weapon Level may make it nearly impossible for an opponent to survive a weapon. For example, if a player with The Minilith card saved plays the Flame Thrower (Weapon Level 8) on a bunny in The Bunny Circle, then all three bunnies affected would need to roll higher than 16 on the Black 12-sided die to survive (which is not possible). It is, however, possible for any bunny to have enough Clovers underneath it to survive."
+    "rules": [
+      {"title": "Card Text", "text": "The player with this card saved must double the range and level of each weapon. Only weapon levels 1-9 are affected. Weapons affect the target bunny and adjacent bunnies. If at any time the player has no bunnies in The Bunny Circle then The Minilith is discarded."},
+      {"title": "Additional Rules", "text": "Doubling the Weapon Level may make it nearly impossible for an opponent to survive a weapon. For example, if a player with The Minilith card saved plays the Flame Thrower (Weapon Level 8) on a bunny in The Bunny Circle, then all three bunnies affected would need to roll higher than 16 on the Black 12-sided die to survive (which is not possible). It is, however, possible for any bunny to have enough Clovers underneath it to survive."}
+    ]
   },
   {
     "id": 148,
@@ -1302,7 +1380,9 @@
     "type": "RUN",
     "dice": ["GREEN", "BLUE"],
     "bunnyRequirement": "PLAY",
-    "description": "May be placed on any Bunny which must feed the amounts rolled by the end of its next turn or die.",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any Bunny which must feed the amounts rolled by the end of its next turn or die."}
+    ],
     "cabbage": -1,
     "water": -1
   },
@@ -1313,7 +1393,9 @@
     "type": "SPECIAL",
     "bunnyRequirement": "NO",
     "pawn": "VIOLET",
-    "description": "May be used once by a player to feed any (or all) bunnies in the Bunny Circle any amounts of Cabbage and Water."
+    "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to feed any (or all) bunnies in the Bunny Circle any amounts of Cabbage and Water."}
+]
   },
   {
     "id": 352,
@@ -1322,8 +1404,10 @@
     "type": "ROAMING_RED_RUN",
     "bunnyRequirement": "PLAY",
     "dice": ["VIOLET", "BLACK", "RED"],
-    "description": "May be placed on any one player's bunnies which all roam the board clockwise with Leif Carrotson. Leif (and the bunnies) visit one player per round.\n• Red roll high - the player keeps one bunny.\n• Violet roll high - Leif and bunnies keep roaming.\n• Black roll high - one bunny is thrown overboard and drowns.",
-    "additionalRules": "When a player gives this card to an opponent, all of the opponent's bunnies that are down (in The Bunny Circle) are taken on board Leif's ship and moved to the next player clockwise. That player rolls the three dice (Violet, Black and Red). If the Red is the highest roll, then the player is allowed to take (and kee) one of the bunnies and immediately place it down in The Bunny Circle. If the Violet is the highest roll, then all fo the bunnies stay on board and continue to roam. If the Black is the highest roll, then the player chooses one bunny to throw overboard (and into the discard pile). Since Leif Carrotson is a Roaming Red Run card, the ship will move to the next player clockwise once every round. When the ship is empty (no bunnies left) Leif Carrotson is discarded."
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any one player's bunnies which all roam the board clockwise with Leif Carrotson. Leif (and the bunnies) visit one player per round.\n• Red roll high - the player keeps one bunny.\n• Violet roll high - Leif and bunnies keep roaming.\n• Black roll high - one bunny is thrown overboard and drowns."},
+      {"title": "Additional Rules", "text": "When a player gives this card to an opponent, all of the opponent's bunnies that are down (in The Bunny Circle) are taken on board Leif's ship and moved to the next player clockwise. That player rolls the three dice (Violet, Black and Red). If the Red is the highest roll, then the player is allowed to take (and kee) one of the bunnies and immediately place it down in The Bunny Circle. If the Violet is the highest roll, then all fo the bunnies stay on board and continue to roam. If the Black is the highest roll, then the player chooses one bunny to throw overboard (and into the discard pile). Since Leif Carrotson is a Roaming Red Run card, the ship will move to the next player clockwise once every round. When the ship is empty (no bunnies left) Leif Carrotson is discarded."}
+    ]
   },
   {
     "id": 374,
@@ -1415,7 +1499,9 @@
     "title": "Everyone Feed a Bunny",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
-    "description": "May be given to all opponents with a Bunny. Each must feed any one bunny the amounts shown by the end of their next turns their bunny dies.",
+    "rules": [
+      {"title": "Card Text", "text": "May be given to all opponents with a Bunny. Each must feed any one bunny the amounts shown by the end of their next turns their bunny dies."}
+    ],
     "cabbage": 2,
     "water": 2
   },
@@ -1425,7 +1511,9 @@
     "title": "Seaman Recruit",
     "type": "RANK",
     "rank": "E1",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 546,
@@ -1433,7 +1521,9 @@
     "title": "Seaman Apprentice",
     "type": "RANK",
     "rank": "E2",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 547,
@@ -1441,7 +1531,9 @@
     "title": "Seaman",
     "type": "RANK",
     "rank": "E3",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 548,
@@ -1449,7 +1541,9 @@
     "title": "Petty Officer 3rd",
     "type": "RANK",
     "rank": "E4",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 549,
@@ -1457,7 +1551,9 @@
     "title": "Petty Officer 2nd",
     "type": "RANK",
     "rank": "E5",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 550,
@@ -1465,7 +1561,9 @@
     "title": "Petty Officer 1st",
     "type": "RANK",
     "rank": "E6",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 600,
@@ -1473,7 +1571,9 @@
     "title": "Ensign",
     "type": "RANK",
     "rank": "O1",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 601,
@@ -1481,7 +1581,9 @@
     "title": "Lieutenant JG",
     "type": "RANK",
     "rank": "O2",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 602,
@@ -1489,7 +1591,9 @@
     "title": "Lieutenant",
     "type": "RANK",
     "rank": "O3",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 603,
@@ -1497,7 +1601,9 @@
     "title": "Lieutenant Commander",
     "type": "RANK",
     "rank": "O4",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 604,
@@ -1505,7 +1611,9 @@
     "title": "Commander",
     "type": "RANK",
     "rank": "O5",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 605,
@@ -1513,7 +1621,9 @@
     "title": "Captain",
     "type": "RANK",
     "rank": "O6",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 697,
@@ -1521,7 +1631,9 @@
     "title": "Chief",
     "type": "RANK",
     "rank": "E7",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 698,
@@ -1529,7 +1641,9 @@
     "title": "Senior Chief",
     "type": "RANK",
     "rank": "E8",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 699,
@@ -1537,7 +1651,9 @@
     "title": "Master Chief",
     "type": "RANK",
     "rank": "E9",
-    "description": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 700,
@@ -1545,7 +1661,9 @@
     "title": "Lower Rear Admiral",
     "type": "RANK",
     "rank": "O7",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+    {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+]
   },
   {
     "id": 701,
@@ -1553,7 +1671,9 @@
     "title": "Upper Rear Admiral",
     "type": "RANK",
     "rank": "O8",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
   },
   {
     "id": 702,
@@ -1561,14 +1681,18 @@
     "title": "Vice Admiral",
     "type": "RANK",
     "rank": "O9",
-    "description": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
   },
   {
     "id": 706,
     "deck": "OMINOUS_ONYX",
     "title": "Giza Plateau (#4)",
     "type": "MYSTERIOUS_PLACE",
-    "description": "The player who picks the last Mysterious Place card controls all cards played that have a Yellow Bal with a Red Stripe."
+    "rules": [
+      {"title": "Card Text", "text": "The player who picks the last Mysterious Place card controls all cards played that have a Yellow Bal with a Red Stripe."}
+    ]
   },
   {
     "id": 728,
@@ -1588,7 +1712,9 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
     "specialSeries": "PSI",
     "psi": "PSI02",
-    "description": "Roll the dice. The player who is wearing the most clothing of the highest color rolled may Choose a Carrot."
+    "rules": [
+      {"title": "Card Text", "text": "Roll the dice. The player who is wearing the most clothing of the highest color rolled may Choose a Carrot."}
+    ]
   },
   {
     "id": 730,
@@ -1625,8 +1751,10 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
     "specialSeries": "PSI",
     "psi": "PSI06",
-    "description": "May be used once by a player to take one card from the Discard Pile that features a picture of the planet Jupiter for each combination of a role of 4 and 2 on the dice.",
-    "additionalRules": "Hitchbunny’s Guide may be used once by a player to roll theeight 12-sided dice (Violet, Orange, Green, Yellow, Blue, Black, Red and Pink) and five 10-sided dice (Violet, Orange, Green, Yellow and Blue – KinderBunnies®) and to take one card from the Discard Pile that features a picture of the planet Jupiter (either in full or partially) for each combination of a roll of 4 and 2 on the dice. Each of the 12-sided and 10-sided dice may only be combined once. These Jupiter cards must be used immediately if they are Run cards, or they may be saved if they are Special or Very Special cards."
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to take one card from the Discard Pile that features a picture of the planet Jupiter for each combination of a role of 4 and 2 on the dice."},
+      {"title": "Additional Rules", "text": "Hitchbunny’s Guide may be used once by a player to roll theeight 12-sided dice (Violet, Orange, Green, Yellow, Blue, Black, Red and Pink) and five 10-sided dice (Violet, Orange, Green, Yellow and Blue – KinderBunnies®) and to take one card from the Discard Pile that features a picture of the planet Jupiter (either in full or partially) for each combination of a roll of 4 and 2 on the dice. Each of the 12-sided and 10-sided dice may only be combined once. These Jupiter cards must be used immediately if they are Run cards, or they may be saved if they are Special or Very Special cards."}
+    ]
   },
   {
     "id": 734,
@@ -1636,8 +1764,10 @@
     "bunnyRequirement": "PLAY",
     "specialSeries": "PSI",
     "psi": "PSI07",
-    "description": "May be used once by a player to predict who will launch the next weapon and who will choose the next Carrot. If correct, the predicting player will control the target bunny for the weapon and take the Carrot for himself.",
-    "additionalRules": "Dr. Xavi-Hare may be used once by a player to predict who will launch the next weapon and who will choose the next Carrot. If correct, the predicting player will control the target bunny for the weapon and take the Carrot for himself.\n\nThe predicting player must write down the name of the player who he believes will launch the next weapon. That player may be himself. A valid weapon launch must target a bunny. A weapon that is revealed and discarded does not count as a weapon launch. A weapon that is revealed and eliminated (perhaps by the Magic Spatula) before a bunny can be targeted does not count as a weapon launch.\n\nIn order for any player to launch a weapon, he must have a bunny in The Bunny Circle, reveal a Weapon card and announce a target. At this time, if the predicting player chose the correct player, then he may move the weapon from the target bunny to any other bunny. The predicting player may also discard the weapon if he wishes.\n\nThe predicting player must also write down the name of the player who he believes will choose the next Carrot from Kaballa’s Market. Again, that player may be himself. A valid Carrot choosing is any card that allows a player to choose from available Carrots at Kaballa’s Market (such as Choose A Carrot cards or Supplies Surprise). Cards such as Carrot Thief do not allow a player to choose which Carrot he will take and are not valid. The last Carrot taken (or purchased) from Kaballa’s Market is not valid either since the player had no choice. If the predicting player made the correct prediction, then he may take the Carrot for himself.\n\nKeep in mind that if the predicting player himself is the first person to launch a weapon or to choose a Carrot, then no advantage is earned with this card."
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to predict who will launch the next weapon and who will choose the next Carrot. If correct, the predicting player will control the target bunny for the weapon and take the Carrot for himself."},
+      {"title": "Additional Rules", "text": "Dr. Xavi-Hare may be used once by a player to predict who will launch the next weapon and who will choose the next Carrot. If correct, the predicting player will control the target bunny for the weapon and take the Carrot for himself.\n\nThe predicting player must write down the name of the player who he believes will launch the next weapon. That player may be himself. A valid weapon launch must target a bunny. A weapon that is revealed and discarded does not count as a weapon launch. A weapon that is revealed and eliminated (perhaps by the Magic Spatula) before a bunny can be targeted does not count as a weapon launch.\n\nIn order for any player to launch a weapon, he must have a bunny in The Bunny Circle, reveal a Weapon card and announce a target. At this time, if the predicting player chose the correct player, then he may move the weapon from the target bunny to any other bunny. The predicting player may also discard the weapon if he wishes.\n\nThe predicting player must also write down the name of the player who he believes will choose the next Carrot from Kaballa’s Market. Again, that player may be himself. A valid Carrot choosing is any card that allows a player to choose from available Carrots at Kaballa’s Market (such as Choose A Carrot cards or Supplies Surprise). Cards such as Carrot Thief do not allow a player to choose which Carrot he will take and are not valid. The last Carrot taken (or purchased) from Kaballa’s Market is not valid either since the player had no choice. If the predicting player made the correct prediction, then he may take the Carrot for himself.\n\nKeep in mind that if the predicting player himself is the first person to launch a weapon or to choose a Carrot, then no advantage is earned with this card."}
+    ]
   },
   {
     "id": 735,

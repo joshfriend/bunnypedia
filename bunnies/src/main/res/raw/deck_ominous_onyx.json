@@ -1,0 +1,71 @@
+[
+  {
+    "id": 697,
+    "deck": "OMINOUS_ONYX",
+    "title": "Chief",
+    "type": "RANK",
+    "rank": "E7",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 698,
+    "deck": "OMINOUS_ONYX",
+    "title": "Senior Chief",
+    "type": "RANK",
+    "rank": "E8",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 699,
+    "deck": "OMINOUS_ONYX",
+    "title": "Master Chief",
+    "type": "RANK",
+    "rank": "E9",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 700,
+    "deck": "OMINOUS_ONYX",
+    "title": "Lower Rear Admiral",
+    "type": "RANK",
+    "rank": "O7",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 701,
+    "deck": "OMINOUS_ONYX",
+    "title": "Upper Rear Admiral",
+    "type": "RANK",
+    "rank": "O8",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 702,
+    "deck": "OMINOUS_ONYX",
+    "title": "Vice Admiral",
+    "type": "RANK",
+    "rank": "O9",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 706,
+    "deck": "OMINOUS_ONYX",
+    "title": "Giza Plateau (#4)",
+    "type": "MYSTERIOUS_PLACE",
+    "rules": [
+      {"title": "Card Text", "text": "The player who picks the last Mysterious Place card controls all cards played that have a Yellow Bal with a Red Stripe."}
+    ]
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "id": 111,
+    "deck": "YELLOW",
+    "title": "Yellow Congenial",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 112,
+    "deck": "YELLOW",
+    "title": "Yellow Gleeful",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 113,
+    "deck": "YELLOW",
+    "title": "Yellow Lumbering",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 114,
+    "deck": "YELLOW",
+    "title": "Yellow Sinister",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 115,
+    "deck": "YELLOW",
+    "title": "Yellow Timid",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 116,
+    "deck": "YELLOW",
+    "title": "Violet Congenial",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 117,
+    "deck": "YELLOW",
+    "title": "Violet Gleeful",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 118,
+    "deck": "YELLOW",
+    "title": "Violet Lumbering",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 119,
+    "deck": "YELLOW",
+    "title": "Violet Sinister",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 120,
+    "deck": "YELLOW",
+    "title": "Violet Timid",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 121,
+    "canonicalId": 16,
+    "deck": "YELLOW",
+    "title": "Choose A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": 122,
+    "canonicalId": 16,
+    "deck": "YELLOW",
+    "title": "Choose A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": 123,
+    "canonicalId": 21,
+    "deck": "YELLOW",
+    "title": "Choose 2 Carrots",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": 124,
+    "canonicalId": 21,
+    "deck": "YELLOW",
+    "title": "Choose 2 Carrots",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": 125,
+    "deck": "YELLOW",
+    "title": "Feed The Bunny 2/2",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 2,
+    "water": 2
+  },
+  {
+    "id": 126,
+    "deck": "YELLOW",
+    "title": "Feed The Bunny 4/4",
+    "type": "RUN",
+    "canonicalId": 125,
+    "bunnyRequirement": "PLAY",
+    "cabbage": 4,
+    "water": 4
+  },
+  {
+    "id": 127,
+    "deck": "YELLOW",
+    "title": "Gorge The Bunny 10/10",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 10,
+    "water": 10
+  },
+  {
+    "id": 128,
+    "deck": "YELLOW",
+    "title": "Sling Shot",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 129,
+    "deck": "YELLOW",
+    "title": "Scissors",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 130,
+    "deck": "YELLOW",
+    "title": "Loose Stalactite",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 131,
+    "deck": "YELLOW",
+    "title": "Sea Whiz Mount",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 132,
+    "deck": "YELLOW",
+    "title": "Miniature Black Hole",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 133,
+    "deck": "YELLOW",
+    "title": "Stray Asteroid",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 134,
+    "deck": "YELLOW",
+    "title": "Area 51",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 135,
+    "deck": "YELLOW",
+    "title": "Bunny Block Bid",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 136,
+    "deck": "YELLOW",
+    "title": "Carrot Thief",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 137,
+    "deck": "YELLOW",
+    "title": "Double No Trouble",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 138,
+    "deck": "YELLOW",
+    "title": "Free Agent",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 139,
+    "deck": "YELLOW",
+    "title": "Kaballa’s Market – 2/1",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 140,
+    "deck": "YELLOW",
+    "title": "Kaballa’s Market – Closed",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 141,
+    "deck": "YELLOW",
+    "title": "Lucky Clover – Quadruple (Bunny Modifier)",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 142,
+    "deck": "YELLOW",
+    "title": "Rock Bottom",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 143,
+    "deck": "YELLOW",
+    "title": "Russian Roulette",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 144,
+    "deck": "YELLOW",
+    "title": "Weil’s Freshness Center",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 145,
+    "deck": "YELLOW",
+    "title": "Bug Off",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 146,
+    "deck": "YELLOW",
+    "title": "Free Cabbage & Water",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 147,
+    "deck": "YELLOW",
+    "title": "The Minilith",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY_AND_SAVE",
+    "rules": [
+      {"title": "Card Text", "text": "The player with this card saved must double the range and level of each weapon. Only weapon levels 1-9 are affected. Weapons affect the target bunny and adjacent bunnies. If at any time the player has no bunnies in The Bunny Circle then The Minilith is discarded."},
+      {"title": "Additional Rules", "text": "Doubling the Weapon Level may make it nearly impossible for an opponent to survive a weapon. For example, if a player with The Minilith card saved plays the Flame Thrower (Weapon Level 8) on a bunny in The Bunny Circle, then all three bunnies affected would need to roll higher than 16 on the Black 12-sided die to survive (which is not possible). It is, however, possible for any bunny to have enough Clovers underneath it to survive."}
+    ]
+  },
+  {
+    "id": 148,
+    "deck": "YELLOW",
+    "title": "Noah’s Flood",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 149,
+    "deck": "YELLOW",
+    "title": "Rooney’s Weapons Exchange",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 150,
+    "deck": "YELLOW",
+    "title": "Top Run Rotate",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 151,
+    "deck": "YELLOW",
+    "title": "Containment Suit (Bunny Modifier)",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 152,
+    "deck": "YELLOW",
+    "title": "Reversal Of Fortune",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 153,
+    "deck": "YELLOW",
+    "title": "Terrible Misfortune – BBQ",
+    "type": "PLAY_IMMEDIATELY"
+  },
+  {
+    "id": 154,
+    "deck": "YELLOW",
+    "title": "Terrible Misfortune – Lawn Dart",
+    "type": "PLAY_IMMEDIATELY"
+  },
+  {
+    "id": 155,
+    "deck": "YELLOW",
+    "title": "1 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 87
+  },
+  {
+    "id": 156,
+    "deck": "YELLOW",
+    "title": "1 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 87
+  },
+  {
+    "id": 157,
+    "deck": "YELLOW",
+    "title": "1 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 87
+  },
+  {
+    "id": 158,
+    "deck": "YELLOW",
+    "title": "2 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 92
+  },
+  {
+    "id": 159,
+    "deck": "YELLOW",
+    "title": "2 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 92
+  },
+  {
+    "id": 160,
+    "deck": "YELLOW",
+    "title": "5 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 98
+  },
+  {
+    "id": 161,
+    "deck": "YELLOW",
+    "title": "10 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 101,
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": 162,
+    "deck": "YELLOW",
+    "title": "Carrot #09 – Norman",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": 163,
+    "deck": "YELLOW",
+    "title": "Carrot #10 – Dex",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": 164,
+    "deck": "YELLOW",
+    "title": "Carrot #11 – Rick",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": 165,
+    "deck": "YELLOW",
+    "title": "Carrot #12 – Arnie",
+    "type": "CARROT_SUPPLY"
+  }
+]

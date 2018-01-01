@@ -1,0 +1,134 @@
+[
+  {
+    "id": 505,
+    "deck": "PERFECTLY_PINK",
+    "title": "Everyone Feed a Bunny",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be given to all opponents with a Bunny. Each must feed any one bunny the amounts shown by the end of their next turns their bunny dies."}
+    ],
+    "cabbage": 2,
+    "water": 2
+  },
+  {
+    "id": 545,
+    "deck": "PERFECTLY_PINK",
+    "title": "Seaman Recruit",
+    "type": "RANK",
+    "rank": "E1",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 546,
+    "deck": "PERFECTLY_PINK",
+    "title": "Seaman Apprentice",
+    "type": "RANK",
+    "rank": "E2",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 547,
+    "deck": "PERFECTLY_PINK",
+    "title": "Seaman",
+    "type": "RANK",
+    "rank": "E3",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 548,
+    "deck": "PERFECTLY_PINK",
+    "title": "Petty Officer 3rd",
+    "type": "RANK",
+    "rank": "E4",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 549,
+    "deck": "PERFECTLY_PINK",
+    "title": "Petty Officer 2nd",
+    "type": "RANK",
+    "rank": "E5",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 550,
+    "deck": "PERFECTLY_PINK",
+    "title": "Petty Officer 1st",
+    "type": "RANK",
+    "rank": "E6",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 600,
+    "deck": "PERFECTLY_PINK",
+    "title": "Ensign",
+    "type": "RANK",
+    "rank": "O1",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 601,
+    "deck": "PERFECTLY_PINK",
+    "title": "Lieutenant JG",
+    "type": "RANK",
+    "rank": "O2",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 602,
+    "deck": "PERFECTLY_PINK",
+    "title": "Lieutenant",
+    "type": "RANK",
+    "rank": "O3",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 603,
+    "deck": "PERFECTLY_PINK",
+    "title": "Lieutenant Commander",
+    "type": "RANK",
+    "rank": "O4",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 604,
+    "deck": "PERFECTLY_PINK",
+    "title": "Commander",
+    "type": "RANK",
+    "rank": "O5",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  },
+  {
+    "id": 605,
+    "deck": "PERFECTLY_PINK",
+    "title": "Captain",
+    "type": "RANK",
+    "rank": "O6",
+    "rules": [
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
+    ]
+  }
+]

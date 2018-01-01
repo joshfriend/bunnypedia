@@ -1,5 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
+import android.arch.lifecycle.ViewModelProviders
 import android.content.res.ColorStateList
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -7,20 +8,25 @@ import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.FOCUS_UP
 import android.view.ViewGroup
 import android.widget.ImageView
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.*
+import com.fueledbycaffeine.bunnypedia.injection.App
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import com.google.android.flexbox.FlexboxLayout
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.rxkotlin.addTo
 import kotlinx.android.synthetic.main.card_hero_details.*
 import kotlinx.android.synthetic.main.content_card_detail.*
 import kotlinx.android.synthetic.main.fragment_card_detail.*
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
 import timber.log.Timber
+import javax.inject.Inject
 
 class CardDetailFragment: Fragment() {
   companion object {
@@ -33,6 +39,16 @@ class CardDetailFragment: Fragment() {
     arguments!!.getParcelable(ARG_CARD) as Card
   }
 
+  @Inject lateinit var database: Database
+  private lateinit var navigation: CardNavigationViewModel
+  private val subscribers = CompositeDisposable()
+
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    App.graph.inject(this)
+    navigation = ViewModelProviders.of(activity!!).get(CardNavigationViewModel::class.java)
+  }
+
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
     return inflater.inflate(R.layout.fragment_card_detail, container, false)
   }
@@ -42,6 +58,9 @@ class CardDetailFragment: Fragment() {
 
     val activity = activity ?: return
     val card = cardArgument
+
+    // It likes to scroll to the bottom by default for some reason...
+    scrollView.fullScroll(FOCUS_UP)
 
     toolbar.title = card.title
     toolbar.subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
@@ -65,17 +84,23 @@ class CardDetailFragment: Fragment() {
       view.systemUiVisibility = flags
     }
 
-    if (card.description.isNotEmpty()) {
-      containerDescription.visibility = View.VISIBLE
-      description.text = card.description
-    }
-
-    if (card.additionalRules.isNotEmpty()) {
-      containerAdditionalRules.visibility = View.VISIBLE
-      additionalRules.text = card.additionalRules
-    }
-
     cardType.text = getString(card.type.description)
+
+    val adapter = RuleSectionAdapter(card.rules)
+    adapter.linksClicked
+      .subscribe { uri ->
+        try {
+          val cardId = uri.pathSegments[0].toInt()
+          val selectedCard = database.getCard(cardId)
+          if (selectedCard != null) {
+            navigation.viewCard(selectedCard)
+          }
+        } catch (e: Exception) {
+          Timber.e(e)
+        }
+      }
+      .addTo(subscribers)
+    recyclerView.adapter = adapter
 
     Picasso.get()
       .load(card.imageURI)
@@ -129,6 +154,11 @@ class CardDetailFragment: Fragment() {
     if (card.zodiacType != null) {
       setupZodiacInfo(card.zodiacType)
     }
+  }
+
+  override fun onDestroyView() {
+    subscribers.clear()
+    super.onDestroyView()
   }
 
   private fun setupDiceInfo(dice: List<Die>) {
