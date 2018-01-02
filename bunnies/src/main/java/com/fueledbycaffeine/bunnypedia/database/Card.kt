@@ -30,7 +30,7 @@ data class Card(
     const val FTB_DATED= -2
   }
 
-  val imageURI: String = "file:///android_asset/card_thumbnails/${String.format("%04d.png", canonicalId ?: id)}"
+  val imageURI: String get() = "file:///android_asset/card_thumbnails/${String.format("%04d.png", canonicalId ?: id)}"
 
-  val isFtb: Boolean = cabbage != 0 && water != 0
+  val isFtb: Boolean get() = cabbage != 0 && water != 0
 }

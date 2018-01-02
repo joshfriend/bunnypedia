@@ -35,7 +35,7 @@ class CardDetailActivity: AppCompatActivity() {
         val fragment = CardDetailFragment()
         fragment.arguments = bundleOf(ARG_CARD to card)
         supportFragmentManager.beginTransaction()
-          .replace(R.id.content_frame, fragment, TAG_CARD_DETAIL)
+          .replace(R.id.content_frame, fragment)
           .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
           .addToBackStack(null)
           .commit()

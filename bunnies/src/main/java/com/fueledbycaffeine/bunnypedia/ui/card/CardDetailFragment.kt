@@ -1,6 +1,7 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.arch.lifecycle.ViewModelProviders
+import android.content.Context
 import android.content.res.ColorStateList
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -45,16 +46,19 @@ class CardDetailFragment: Fragment() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
+    Timber.d("onCreate() ${cardArgument.title}")
     App.graph.inject(this)
     navigation = ViewModelProviders.of(activity!!).get(CardNavigationViewModel::class.java)
   }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    Timber.d("onCreateView() ${cardArgument.title}")
     return inflater.inflate(R.layout.fragment_card_detail, container, false)
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
+    Timber.d("onViewCreated() ${cardArgument.title}")
 
     val activity = activity ?: return
     val card = cardArgument
@@ -150,6 +154,7 @@ class CardDetailFragment: Fragment() {
 
   override fun onResume() {
     super.onResume()
+    Timber.d("onResume() ${cardArgument.title}")
     val card = cardArgument
     if (card.zodiacType != null) {
       setupZodiacInfo(card.zodiacType)
@@ -157,8 +162,29 @@ class CardDetailFragment: Fragment() {
   }
 
   override fun onDestroyView() {
+    Timber.d("onDestroyView() ${cardArgument.title}")
     subscribers.clear()
     super.onDestroyView()
+  }
+
+  override fun onAttach(context: Context?) {
+    super.onAttach(context)
+    Timber.d("onAttach() ${cardArgument.title}")
+  }
+
+  override fun onDetach() {
+    super.onDetach()
+    Timber.d("onDetach() ${cardArgument.title}")
+  }
+
+  override fun onPause() {
+    super.onPause()
+    Timber.d("onPause() ${cardArgument.title}")
+  }
+
+  override fun onSaveInstanceState(outState: Bundle) {
+    super.onSaveInstanceState(outState)
+    Timber.d("onSaveInstanceState() ${cardArgument.title}")
   }
 
   private fun setupDiceInfo(dice: List<Die>) {
