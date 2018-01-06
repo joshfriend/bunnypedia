@@ -1,6 +1,5 @@
 package com.fueledbycaffeine.bunnypedia.database
 
-import android.content.Context
 import android.support.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
 

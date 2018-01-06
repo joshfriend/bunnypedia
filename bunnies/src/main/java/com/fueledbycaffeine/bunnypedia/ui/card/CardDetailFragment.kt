@@ -68,9 +68,9 @@ class CardDetailFragment: Fragment() {
 
     toolbar.title = card.title
     toolbar.subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
-    toolbar.setNavigationOnClickListener { activity.finish() }
     if (activity is AppCompatActivity) {
       activity.setSupportActionBar(toolbar)
+      activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     val deckColor = ContextCompat.getColor(activity, card.deck.color)

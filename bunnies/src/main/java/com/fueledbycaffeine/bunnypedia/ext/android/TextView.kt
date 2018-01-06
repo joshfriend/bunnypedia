@@ -6,7 +6,7 @@ import android.widget.TextView
 
 fun TextView.setHtmlText(html: String) {
   if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1) {
-    text = Html.fromHtml(html, Html.FROM_HTML_MODE_LEGACY)
+    text = Html.fromHtml(html, Html.FROM_HTML_MODE_COMPACT)
   } else {
     @Suppress("DEPRECATION")
     text = Html.fromHtml(html)

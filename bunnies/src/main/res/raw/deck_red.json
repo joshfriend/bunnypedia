@@ -1,27 +1,554 @@
 [
-  {
-    "id": 175,
-    "deck": "RED",
-    "title": "Feed All Your Bunnies",
-    "type": "RUN",
-    "bunnyRequirement": "PLAY",
-    "cabbage": 2,
-    "water": 2
-  },
-  {
-    "id": 185,
-    "deck": "RED",
-    "title": "Barrier",
-    "type": "RUN",
-    "bunnyRequirement": "NO",
-    "rules": [
-      {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roamin Red Run cards."}
-    ]
-  },
-  {
-    "id": 210,
-    "deck": "RED",
-    "title": "3 Dolla",
-    "type": "DOLLA"
-  }
+    {
+        "id": 166,
+        "title": "Red Congenial",
+        "deck": "RED",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "This bunny may feed up to three Cabbage and Water per turn. Supplies may not be stockpiled."}
+        ]
+    },
+    {
+        "id": 167,
+        "title": "Red Gleeful",
+        "deck": "RED",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "This bunny may spend up to three Dolla per turn at any open market. Dolla may not be stockpiled."}
+        ]
+    },
+    {
+        "id": 168,
+        "title": "Red Lumbering",
+        "deck": "RED",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "This bunny has a Triple Lucky Clover which lowers the strength of any weapon by three."}
+        ]
+    },
+    {
+        "id": 169,
+        "title": "Red Sinister",
+        "deck": "RED",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "This bunny is protected by a Bounce Back Force Field. Any weapon used against this bunny that is not successful is turned against the initial launcher."}
+        ]
+    },
+    {
+        "id": 170,
+        "title": "Red Timid",
+        "deck": "RED",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "The player with this bunny down may reroll any action that involves dice."}
+        ]
+    },
+    {
+        "id": 171,
+        "canonicalId": 16,
+        "title": "Choose A Carrot",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "aggressive": false,
+        "rules": [
+          {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        ]
+    },
+    {
+        "id": 172,
+        "canonicalId": 16,
+        "title": "Choose A Carrot",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "aggressive": false,
+        "rules": [
+          {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        ]
+    },
+    {
+        "id": 173,
+        "canonicalId": 21,
+        "title": "Choose 2 Carrots",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "aggressive": false,
+        "rules": [
+          {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        ]
+    },
+    {
+        "id": 174,
+        "title": "Feed The Bunny 3/3",
+        "deck": "RED",
+        "type": "RUN",
+        "canonicalId": 125,
+        "bunnyRequirement": "PLAY",
+        "cabbage": 3,
+        "water": 3,
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+        ]
+    },
+    {
+        "id": 175,
+        "title": "Feed All Your Bunnies 1/1",
+        "deck": "RED",
+        "type": "RUN",
+        "canonicalId": 504,
+        "bunnyRequirement": "PLAY",
+        "cabbage": 1,
+        "water": 1,
+        "rules": [
+            {"title": "Card Text", "text": "May be given to any opponent whose bunnies must each feed the amounts show above by the end of his next turn or die."}
+        ]
+    },
+    {
+        "id": 176,
+        "canonicalId": 505,
+        "deck": "RED",
+        "title": "Everyone Feed a Bunny 1/1",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+          {"title": "Card Text", "text": "May be given to all opponents with a Bunny. Each must feed any one bunny the amounts shown by the end of their next turns their bunny dies."}
+        ],
+        "cabbage": 1,
+        "water": 1
+    },
+    {
+        "id": 177,
+        "title": "Suction Cup",
+        "deck": "RED",
+        "type": "RUN",
+        "weaponLevel": "1",
+        "bunnyRequirement": "PLAY",
+        "dice": ["BLACK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 01 to survive."}
+        ]
+    },
+    {
+        "id": 178,
+        "title": "Mousetrap",
+        "deck": "RED",
+        "type": "RUN",
+        "weaponLevel": "3",
+        "bunnyRequirement": "PLAY",
+        "dice": ["BLACK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 03 to survive."}
+        ]
+    },
+    {
+        "id": 179,
+        "title": "Grappling Hook",
+        "deck": "RED",
+        "type": "RUN",
+        "weaponLevel": "5",
+        "bunnyRequirement": "PLAY",
+        "dice": ["BLACK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 05 to survive."}
+        ]
+    },
+    {
+        "id": 180,
+        "title": "Centrifuge",
+        "deck": "RED",
+        "type": "RUN",
+        "weaponLevel": "7",
+        "bunnyRequirement": "PLAY",
+        "dice": ["BLACK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 07 to survive."}
+        ]
+    },
+    {
+        "id": 181,
+        "title": "Cruise Missile Prime",
+        "deck": "RED",
+        "type": "ROAMING_RED_RUN",
+        "weaponLevel": "9",
+        "bunnyRequirement": "PLAY",
+        "dice": ["BLACK", "RED"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny and roams the board clockwise. Players roll the Red die as Cruise Missile Prime visits their bunnies. The first player to roll a Prime Number on the Red die detonates the missile. The target bunny must roll higher than 9 on the Black die to survive and adjacent bunnies must roll higher than 8 to survive."},
+            {"title": "Additional Rules", "text": "If Cruise Missile Prime has no viable bunny targets left in The Bunny Circle, then it is discarded. If Cruise Missile Prime is confined to an area of The Bunny Circle by two or more Barriers and cannot reach a viable bunny target on the other side, then it is removed (discarded). Just like all Roaming Red Run cards, if Cruise Missile Prime hits a Barrier, it will reverse direction and may affect the same player’s bunnies on two consecutive turns."},
+            {"title": "Prime Numbers", "text": "Prime numbers which can be rolled on a 12-sided die are: 2, 3, 5, 7, and 11."}
+        ]
+    },
+    {
+        "id": 182,
+        "title": "Quite Irascible Diffractable Cheese Balls",
+        "deck": "RED",
+        "type": "RUN",
+        "weaponLevel": "11",
+        "bunnyRequirement": "PLAY",
+        "dice": ["BLACK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 01 to survive."}
+        ]
+    },
+    {
+        "id": 183,
+        "title": "Activate: The Minilith",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED"],
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to steal the Minilith from any opponent or to force the opponent with the Minilith saved to roll the dice. Each Even number rolled forces the opponent to return a Carrot or to discard a bunny. Seven even numbers forces all players to return all Carrots and to discard all bunnies."}
+        ]
+    },
+    {
+        "id": 184,
+        "title": "Bankruptcy",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be given to any player who immediately loses all of his Dolla!"},
+            {"title": "Additional Rules", "text": "The player also loses any Dolla Vouchers that he may have been saving."}
+        ]
+    },
+    {
+        "id": 185,
+        "title": "Barrier",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a Nuclear Warhead may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as Cyber Bunny or Cruise Missile Prime). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
+            {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
+            {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."}
+        ]
+    },
+    {
+        "id": 186,
+        "canonicalId": 185,
+        "title": "Barrier",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a Nuclear Warhead may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as Cyber Bunny or Cruise Missile Prime). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
+            {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
+            {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."}
+        ]
+    },
+    {
+        "id": 187,
+        "title": "Carrot Exchange",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to force any opponent to exchange two of his Carrots for one of yours."},
+            {"title": "Additional Rules", "text": "In order to use this card against an opponent, that player must have at least two Carrots. Carrot Exchange cannot be used for a one to one exchange. The player chooses all three Carrots in the exchange."}
+        ]
+    },
+    {
+        "id": 188,
+        "title": "Clumsy Congenial",
+        "deck": "RED",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any Congenial Bunny which, while opening a package of Melba Toast, flings two sharp pieces in opposite directions instantly killing the two adjacent bunnies. The original target Congenial Bunny is not harmed."},
+            {"title": "Interaction with Barriers", "text": "Clumsy Congenial is not stopped by a <a href=\"bunnypedia://card/185\">Barrier</a>."},
+            {"title": "Can be removed by", "text": "Clumsy Congenial can be eliminated by <a href=\"bunnypedia://card/426\">Blue Angels</a>."}
+        ]
+    },
+    {
+        "id": 189,
+        "title": "Dude, Where’s My Carrot?",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["RED", "CLEAR"],
+        "rules": [
+            {"title": "Card Text", "text": "All large carrot cards are placed face down (even those at Kaballa's Market). The die (or dice) is rolled. The player will receive the Carrots with the same number if he can remember who is holding them."},
+            {"title": "Additional Rules", "text": "The Red 12-sided die is rolled and if the player can say who owns the Carrot with the same number, then he will take the Carrot from the opponent or Kaballa’s Market. A wrong guess forces the player to return one of his Carrots to Kaballa’s Market (even if the market is closed). Therefore, it is necessary for a player to have a Carrot to play this card.<br><br>Notice that the capital letter T appears in the last die box. This is for the Clear 20-sided die (Violet Booster Deck). Once you have this die in play, a player may use Dude, Where’s My Carrot? twice and try for two Carrots.<br><br>If a player does not have one (or two) Carrots to chance, then he may wish to force an opponent to attempt the Dude, Where’s My Carrot? challenge. The opponent must already have one (or two) Carrots to risk because a wrong guess by the opponent will mean that he will lose one (or two) of his Carrots."}
+        ]
+    },
+    {
+        "id": 190,
+        "title": "Europan Robotic Titanium Termites",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to eliminate any one <a href=\"bunnypedia://card/185\">Barrier</a>. Cannot be used to eliminate a <a href=\"bunnypedia://card/463\">Neutronium Barrier</a>."}
+        ]
+    },
+    {
+        "id": 191,
+        "title": "Holographic Bunny",
+        "deck": "RED",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "A Red Bunny that does not need to feed and cannot be used to win the game since it is not technically alive, This bunny can only be harmed by the <a href=\"bunnypedia://card/45\">Laser Gun</a>, <a href=\"bunnypedia://card/48\">Nuclear Warhead</a>, <a href=\"bunnypedia://card/132\">Miniature Black Hole</a>, <a href=\"bunnypedia://card/182\">Cheese Balls</a>, <a href=\"bunnypedia://card/237\">Anti-Matter Rasins</a>, <a href=\"bunnypedia://card/294\">Plutonium</a>, <a href=\"bunnypedia://card/400\">Psychic Waves</a>, and <a href=\"bunnypedia://card/455\">Sharks WFLB</a>."},
+            {"title": "Additional Rules", "text": "The Holographic Bunny may be transformed into a live bunny by using the Ancient Star Rod (Violet Booster Deck). If the Holographic Bunny should become alive, it will be vulnerable to all weapons and Feed The Bunny cards, and may be used to win the game. Regardless of whether the bunny is Holographic or it becomes alive by using the Ancient Star Rod, it is still a Red bunny and can be used to form a Bunny Triplet with other Red bunnies."}
+        ]
+    },
+    {
+        "id": 192,
+        "title": "Lucky Clover – Quindruple (Bunny Modifier)",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Quindruple lowers the level of any weapon by five."},
+            {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a> must also discard all Clover."}
+        ]
+    },
+    {
+        "id": 193,
+        "title": "The Mystery Urn",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["VIOLET"],
+        "rules": [
+            {"title": "Card Text", "text": "THe player rolls the Violet die. The next player clockwise must roll higher or else donate either a bunny or a Carrot to the kitty. Each player who has at least one bunny or Carrot must play, The first player to roll a 12 wins the kitty."},
+            {"title": "Additional Rules", "text": "Play continues clockwise. Each player who has at least one bunny in The Bunny Circle or one saved Carrot must play. The  rst player to roll a 12 wins the kitty. However, the player who started The Mystery Urn activity will get a final chance to roll a 12 and win the kitty.<br><br>If a player gives up his last bunny or Carrot, then he is finished with The Mystery Urn activity and cannot win the kitty.<br><br>If all players have lost all of their bunnies and Carrots, then no player wins. All of the bunnies are discarded, and all of the Carrots are returned to Kaballa’s Market (even if the market is closed).<br><br>If the initial roll by the player is a 12, then The Mystery Urn activity is over and no one wins anything.<br><br>Later, players may feed the kitty with Zodiac cards (Green Booster Deck) and Mysterious Place cards (Ominous Onyx Booster Deck)."}
+
+        ]
+    },
+    {
+        "id": 194,
+        "title": "Rainbo",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be given to any player who must roll the dice. All bunnies that are the same color (or half color) as the lowest die rolled are killed. If Black is the lowest die rolled then all bunnies die. Players isolated by barriers are protected."},
+            {"title": "Additional Rules", "text": "Rainbo cannot kill a bunny with The Heavenly Halo or the Holographic Bunny."}
+        ]
+    },
+    {
+        "id": 195,
+        "title": "Red Light District",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to purchase a Red item from any opponent for 5 Dolla: a Red bunny, a Red pawn, or a saved Fire Zodiac card."}
+        ]
+    },
+    {
+        "id": 196,
+        "title": "Rooney’s Weapons Emporium – Closed",
+        "deck": "RED",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY"
+    },
+    {
+        "id": 197,
+        "title": "Bounty Mounty",
+        "deck": "RED",
+        "type": "SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny along with a Dolla conation. The player who kills the bunny gets the money."}
+        ]
+    },
+    {
+        "id": 198,
+        "canonicalId": 146,
+        "title": "Free Cabbage and Free Water",
+        "deck": "RED",
+        "type": "SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to take one Cabbage Card and one Water Card from Kaballa's Market"}
+        ]
+    },
+    {
+        "id": 199,
+        "title": "Free Defense",
+        "deck": "RED",
+        "type": "SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to take two Defense Cards from Rooney's Weapons Emporium."},
+            {"title": "Additional Rules", "text": "Free Defense may not be used if Rooney’s Weapons Emporium is closed."}
+        ]
+    },
+    {
+        "id": 200,
+        "title": "H. E. M. P. (Highly Explosive Missile Package)",
+        "deck": "RED",
+        "type": "SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "dice": ["YELLOW"],
+        "pawn": ["YELLOW"],
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to attack any abducting aliens.<br>9-12 = THe aliens and abducted bunnies are destroyed. In addition, the wreckage lands on the player whose bunny was abducted killing all of his other bunnies as well.<br>5-8 = Only the aliens and abducted bunnies are destroyed.<br>1-4 = The missile is a dud. Nothing happens!"}
+        ]
+    },
+    {
+        "id": 201,
+        "title": "Half Price Coupon (Rooney’s Weapon Emporium)",
+        "deck": "RED",
+        "type": "SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used for one turn by a player to purchase any items from Rooney's Weapons Emporium for half price."}
+        ]
+    },
+    {
+        "id": 202,
+        "title": "Show Me The Bunny",
+        "deck": "RED",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to force all opponents to show any bunnies in their five-card hand. The player may trade any one card in his five-card hand for any one opponent's bunny."}
+        ]
+    },
+    {
+        "id": 203,
+        "title": "Bunny To The Future",
+        "deck": "RED",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "Allows a bunnyt o avoid the outcome of any weapon by traveling three rounds into the future. If the game ends before the bunny returns, then the bunny is lost. May be used at any time!"}
+        ]
+    },
+    {
+        "id": 204,
+        "title": "Guardian Angle",
+        "deck": "RED",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to eliminate any Terrible Misfortune. May be used at any time!"}
+        ]
+    },
+    {
+        "id": 205,
+        "title": "Terrible Misfortune – Gas Main",
+        "deck": "RED",
+        "type": "PLAY_IMMEDIATELY",
+        "rules": [
+            {"title": "Card Text", "text": "One of your bunnies experiments with flint stones while kneeling near a leaking gas main!"}
+        ]
+    },
+    {
+        "id": 206,
+        "title": "Terrible Misfortune – Quicksand",
+        "deck": "RED",
+        "type": "PLAY_IMMEDIATELY",
+        "rules": [
+            {"title": "Card Text", "text": "While carrying an anvil one of your bunnies stumbles upon a patch of quicksand!"}
+        ]
+    },
+    {
+        "id": 207,
+        "title": "Zep Tepi",
+        "deck": "RED",
+        "type": "PLAY_IMMEDIATELY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by (or given to) any First Time player who may take any saved Special or Very Special card from each adjacent player."},
+            {"title": "Additional Rules", "text": "If the player who picked the card is not a First Time player, then he must give the card to the first First Time player counter-clockwise from him. If no one is a First Time player, then the player who drew the card may use it himself."}
+        ]
+    },
+    {
+        "id": 208,
+        "canonicalId": 87,
+        "title": "1 Dolla",
+        "deck": "RED",
+        "type": "RUN"
+    },
+    {
+        "id": 209,
+        "canonicalId": 92,
+        "title": "2 Dolla",
+        "deck": "RED",
+        "type": "RUN"
+    },
+    {
+        "id": 210,
+        "canonicalId": 210,
+        "title": "3 Dolla",
+        "deck": "RED",
+        "type": "RUN"
+    },
+    {
+        "id": 211,
+        "canonicalId": 210,
+        "title": "3 Dolla",
+        "deck": "RED",
+        "type": "RUN"
+    },
+    {
+        "id": 212,
+        "canonicalId": 210,
+        "title": "3 Dolla",
+        "deck": "RED",
+        "type": "RUN"
+    },
+    {
+        "id": 213,
+        "canonicalId": 98,
+        "title": "5 Dolla",
+        "deck": "RED",
+        "type": "RUN"
+    },
+    {
+        "id": 214,
+        "canonicalId": 98,
+        "title": "5 Dolla",
+        "deck": "RED",
+        "type": "RUN"
+    },
+    {
+        "id": 215,
+        "canonicalId": 101,
+        "title": "10 Dolla",
+        "deck": "RED",
+        "type": "RUN"
+    },
+    {
+        "id": 216,
+        "title": "Rooney’s Weapons Emporium – 3/Level (Starter)",
+        "deck": "RED",
+        "type": "STARTER",
+        "rules": [
+            {"title": "Card Text", "text": "Starting prices for supplies:<br>3 Dolla - for each Defense Card<br>Level - for each Weapon Card<br>(Weapons must be run through)"}
+        ]
+    },
+    {
+        "id": 217,
+        "title": "Carrot #13 – Teal'c",
+        "deck": "RED",
+        "type": "CARROT_SUPPLY"
+    },
+    {
+        "id": 218,
+        "title": "Carrot #14 – Russell",
+        "deck": "RED",
+        "type": "CARROT_SUPPLY"
+    },
+    {
+        "id": 219,
+        "title": "Carrot #15 – Buck",
+        "deck": "RED",
+        "type": "CARROT_SUPPLY"
+    },
+    {
+        "id": 220,
+        "title": "Carrot #16 – Gus",
+        "deck": "RED",
+        "type": "CARROT_SUPPLY"
+    }
 ]
