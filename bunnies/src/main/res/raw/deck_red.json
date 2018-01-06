@@ -190,7 +190,8 @@
         "bunnyRequirement": "PLAY",
         "dice": ["BLACK"],
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 01 to survive."}
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 11 to survive."},
+            {"title": "Additional Rules", "text": "Even though every other bunny is initially skipped, wrap around damage may cause a bunny to be hit in the other direction. If a bunny is two spaces to the left of the target bunny and four spaces to the right of the target bunny, then it will be hit twice!"}
         ]
     },
     {
@@ -200,6 +201,7 @@
         "type": "RUN",
         "bunnyRequirement": "PLAY",
         "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED"],
+        "symbols": ["JUPITER"],
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to steal the Minilith from any opponent or to force the opponent with the Minilith saved to roll the dice. Each Even number rolled forces the opponent to return a Carrot or to discard a bunny. Seven even numbers forces all players to return all Carrots and to discard all bunnies."}
         ]
@@ -331,7 +333,7 @@
         "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
         "rules": [
             {"title": "Card Text", "text": "May be given to any player who must roll the dice. All bunnies that are the same color (or half color) as the lowest die rolled are killed. If Black is the lowest die rolled then all bunnies die. Players isolated by barriers are protected."},
-            {"title": "Additional Rules", "text": "Rainbo cannot kill a bunny with The Heavenly Halo or the Holographic Bunny."}
+            {"title": "Additional Rules", "text": "Rainbo cannot kill a bunny with <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
         ]
     },
     {
@@ -390,7 +392,7 @@
         "type": "SPECIAL",
         "bunnyRequirement": "PLAY",
         "dice": ["YELLOW"],
-        "pawn": ["YELLOW"],
+        "pawn": "YELLOW",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to attack any abducting aliens.<br>9-12 = THe aliens and abducted bunnies are destroyed. In addition, the wreckage lands on the player whose bunny was abducted killing all of his other bunnies as well.<br>5-8 = Only the aliens and abducted bunnies are destroyed.<br>1-4 = The missile is a dud. Nothing happens!"}
         ]
@@ -421,7 +423,7 @@
         "type": "VERY_SPECIAL",
         "bunnyRequirement": "PLAY",
         "rules": [
-            {"title": "Card Text", "text": "Allows a bunnyt o avoid the outcome of any weapon by traveling three rounds into the future. If the game ends before the bunny returns, then the bunny is lost. May be used at any time!"}
+            {"title": "Card Text", "text": "Allows a bunny to avoid the outcome of any weapon by traveling three rounds into the future. If the game ends before the bunny returns, then the bunny is lost. May be used at any time!"}
         ]
     },
     {

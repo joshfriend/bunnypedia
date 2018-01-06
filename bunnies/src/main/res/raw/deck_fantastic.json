@@ -1,1 +1,605 @@
-[]
+[
+    {
+        "id":1046,
+        "title": "Celebrity Bunny - Single (Matt)",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "This is a single Celebrity Bunny. Players that have three in The Bunny Circle may play two cards per turn."}
+        ]
+    },
+    {
+        "id":1047,
+        "title": "Celebrity Bunny - Quintet (Aaron, Andrew, Joe, Pat & Roger)",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "This is a quintet Celebrity Bunny. Players with this bunny in The Bunny Circle may play two cards per turn."}
+        ]
+    },
+    {
+        "id":1048,
+        "title": "Anvil",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle. The two adjacent bunnies leave the game for two rounds of play. When the adjacent bunnies return, the bunny in between them is crushed by the Anvil."}
+        ]
+    },
+    {
+        "id":1049,
+        "title": "Blake Take",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to liberate seven cards from play. Cards may be taken from any player's saved Special or Very Special cards or randomly chosen from any player's five-card hand. All liberated cards are discarded."},
+            {"title": "Additional Rules", "text": "The player may choose to liberate his own cards. All cards may be taken from a single player. or a combination of several players. All liberated cards are discarded. Starting withe the player who played Blake take and proceeding in the order of play, all players who had cards taken from their five-card hand must draw new cards from the Draw Pile."}
+        ]
+    },
+    {
+        "id":1050,
+        "title": "Bunny and Clyde",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to force all opponents to roll a die. The low roller must give all of his Dolla to the player."}
+        ]
+    },
+    {
+        "id":1051,
+        "title": "Furry Wall",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to make any three of his adjacent bunnies in the bunny circle into a Bunny Triplet."},
+            {"title": "Additional Rules", "text": "The Furry Wall card is placed underneat the tree bunnies which can be any type of bunny (single kind, single color, half color, Specialty, Super, and Celebrity). If any of the three bunnies is moved for any reason, abducted or killed, then the Bunny Triplet is broken and Furry Wall is discarded."}
+        ]
+    },
+    {
+        "id":1052,
+        "title": "Jay Is Okay",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May only be used once by a player whose first name starts with the letter J to take one Carrot, one Weapon, and one bunny from Kaballa, Rooney, and Weil."},
+            {"title": "Additional Rules", "text": "The player may only take items from the stores that are open."}
+        ]
+    },
+    {
+        "id":1053,
+        "title": "Pillars of Gulu",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to steal one bunny and one carrot from any one opponent. The Pillars, bunny and Carrot become the property of the first player to roll a 7 in his own turn."},
+            {"title": "Additional Rules", "text": "The player may not steal a bunny from one player and a Carrot from another player. The Pillars, bunny and Carrot start in the center of the table and become the property of the first player to roll a 7 on any die, for any reason, on his own turn."}
+        ]
+    },
+    {
+        "id":1054,
+        "title": "Carrot K - Nick",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "CARROT_SUPPLY",
+        "rules": [
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a> or <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>"},
+            {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
+        ]
+    },
+    {
+        "id":1055,
+        "title": "Carrot L - Steve",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "CARROT_SUPPLY",
+        "rules": [
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a> or <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>"},
+            {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
+        ]
+    },
+    {
+        "id":1056,
+        "title": "Mysterious Place - 1856 Sheridan Road",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "MYSTERIOUS_PLACE"
+    },
+    {
+        "id":1057,
+        "title": "Mysterious Place - Arch Bridge",
+        "deck": "FANTASTIC",
+        "specialSeries": "THETA",
+        "type": "MYSTERIOUS_PLACE"
+    },
+    {
+        "id": 1058,
+        "title": "Weapon 50/50 - Drazi Feud",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["VIOLET", "GREEN"],
+        "weaponLevel": "50/50 Ultimate",
+        "pawn": "BLACK",
+        "rules": [
+            {"title": "Card Text", "text": "May be given to any player who must correctly guess either the Violet or the Green roll to be the higher number for all of his bunnies in The Bunny Circle to survive."}
+        ]
+    },
+    {
+        "id": 1059,
+        "title": "Guardin’ Gnome",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["RED"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed under any bunny in The Bunny circle. If the player's bunny is attacked and killed, then Guardin' Gnome immediately attacks one of the opponent's bunnies which must roll higher than 9 to survive."},
+            {"title": "Additional Rules", "text": "The player chooses which of the opponent's bunnies to attack."}
+        ]
+    },
+    {
+        "id": 1060,
+        "title": "High Rollers",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to choose a Carrot if he can stack all eight 12-sided dice in 12 seconds."},
+            {"title": "Additional Rules", "text": "No opponent may disrupt the player either physically or verbally"}
+        ]
+    },
+    {
+        "id": 1061,
+        "title": "Make It Sow",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "dice": ["GREEN", "RED"],
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to take Cabbage Units or Radish Units that total the number rolled on either die. If the same number appears on both dice, then the player receives no supplies."}
+        ]
+    },
+    {
+        "id": 1062,
+        "title": "Paparazzi",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to scare off (discard) all Celebrity bunnies (and Super Celebrity bunnies) in The Bunny Circle."}
+        ]
+    },
+    {
+        "id": 1063,
+        "title": "Pawn Clowning",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to clone a Pawn. Pawn Cloning moves with the pawn if it is traded but is discarded if it is returned to Weil's Pawn Shop."},
+            {"title": "Additional Rules", "text": "The new Pawn gives the player all of the privileges of the first Pawn. Pawn Cloning moves with the Pawn if it is traded or stolen, but is discarded if the Pawn is returned to Weil's Pawn Shop."}
+        ]
+    },
+    {
+        "id": 1064,
+        "title": "Sixplosion",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to collect and redistribute all players' Top and Bottom Run cards if the total numbers on the dice is a factor of 6."},
+            {"title": "Additional Rules", "text": "The player reads through the cards first and then replaces the cards in any position that he wishes. The player may keep the best cards for himself. When the Top and Bottom Run cards have been restored for all of the players, then play continues."},
+            {"title": "Factors of 6", "text": "6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96"}
+        ]
+    },
+    {
+        "id": 1065,
+        "title": "Transmogrifier",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["BLUE"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 9 to survive. If the bunny does not survive, then the player may take Water Units or Milk Units that total the number rolled on the die."},
+            {"title": "Additional Rules", "text": "If the bunny does not survive, then the player may take Water Units or Milk Units (or a combination of both) from any open store that total the number rolled on the die by the opponent."}
+        ]
+    },
+    {
+        "id": 1066,
+        "title": "Fat Bunny Sings",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to place any one Aggressive card from his hand off to the side and to use it just after the last Carrot is claimed."},
+            {"title": "Additional Rules", "text": "Fat Bunny Sings may be used once by a player to place any one Aggressive card (a card with a Pink Rectangular Box) from his hand off to the side and to use it just after the last Carrot is claimed but before any of the small cards (Mysterious Place, Zodiac or Carrot) are revealed. The player must till have a bunny in The Bunny Circle to use the Aggressive card."}
+        ]
+    },
+    {
+        "id": 1067,
+        "title": "Trip’s Trips",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY_AND_SAVE",
+        "rules": [
+            {"title": "Card Text", "text": "Allows a player to play an extra card every turn for each Bunny Triplet that he has in play. If at any time the player has ho bunnies in The Bunny Circle then Trip's Trips is discarded."},
+            {"title": "Additional Rules", "text": "Other situations (such as owning certain groups of Zodiac cards) do not allow the player to play extra cards."}
+        ]
+    },
+    {
+        "id": 1068,
+        "title": "For The King",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to immediately sacrifice any one of his pawns to eliminate any weapon targeting one of his won bunnies. May be used at any time!"},
+            {"title": "Additional Rules", "text": "The Pawn is returned to Weil's Pawn Shop and may be purchased again. Any card representing a Pawn (<a href=\"bunnypedia://card/1063\">Pawn Cloning</a>) May not be used."}
+        ]
+    },
+    {
+        "id": 1069,
+        "title": "Ultimate Chaos",
+        "deck": "FANTASTIC",
+        "specialSeries": "PHI",
+        "type": "PLAY_IMMEDIATELY",
+        "rules": [
+            {"title": "Card Text", "text": "Forces all players to discard their Top and Bottom Run cards, and five-card hands. All saved cards and supplies remain. Players draw new cards."},
+            {"title": "Additional Rules", "text": "All players draw new cards, discarding any Play Immediately or Rank cards, saving any Kaballa Dolla cards, placing two cards down as the Top and Bottom Run cards and keeping five cards in their hands."}
+        ]
+    },
+    {
+        "id": 1070,
+        "title": "Angry Nerds",
+        "deck": "FANTASTIC",
+        "specialSeries": "OMEGA",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to eliminate any one one opponent's bunny that forms a Bunny Triplet including a Triple Specialty Bunny or a Triple Celebrity Bunny. May not be used to eliminate an opponent's last bunny."}
+        ]
+    },
+    {
+        "id": 1071,
+        "title": "Angry Nerds",
+        "deck": "FANTASTIC",
+        "specialSeries": "OMEGA",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to force any one die roll by any player to be re-rolled. May be used at any time!"}
+        ]
+    },
+    {
+        "id": 1072,
+        "title": "Omega Thirteen",
+        "deck": "FANTASTIC",
+        "specialSeries": "OMEGA",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": ""}
+        ]
+    },
+    {
+        "id": 1073,
+        "title": "I Dream Of Bunny",
+        "deck": "FANTASTIC",
+        "specialSeries": "OMEGA",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player with no bunnies in play to take any one bunny from the Discard Pile and to place it directly into The Bunny Circle."},
+            {"title": "Additional Rules", "text": "Super bunnies may not be brought back into the game using this card."}
+        ]
+    },
+    {
+        "id": 1074,
+        "title": "Kubrickian Glee",
+        "deck": "FANTASTIC",
+        "specialSeries": "OMEGA",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must kill at least one bunny before he may choose a Carrot."}
+        ]
+    },
+    {
+        "id": 1075,
+        "title": "Soft Kitty Warm Kitty",
+        "deck": "FANTASTIC",
+        "specialSeries": "OMEGA",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to immediately cure all bunnies in The Bunny Circle of any sickness or hunger. May be used at any time!"}
+        ]
+    },
+    {
+        "id": 1076,
+        "title": "Celebrity Bunny - Double (Jeffrey & Jonathan)",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "This is a double Celebrity Bunny. Players that have three in The Bunny Circle may play two cards per turn."}
+        ]
+    },
+    {
+        "id": 1077,
+        "title": "Celebrity Bunny - Triple (Noah, Gabriel & Claire)",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "This is a triple Celebrity Bunny. Players with this bunny in The Bunny Circle may play two cards per turn."}
+        ]
+    },
+    {
+        "id": 1078,
+        "canonicalId": 16,
+        "title": "Choose A Carrot",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "aggressive": false,
+        "rules": [
+            {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        ]
+    },
+    {
+        "id": 1079,
+        "canonicalId": 21,
+        "title": "Choose 2 Carrots",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "aggressive": false,
+        "rules": [
+            {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        ]
+    },
+    {
+        "id": 1080,
+        "canonicalId": 24,
+        "title": "Feed The Bunny",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "cabbage": 1,
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+        ]
+    },
+    {
+        "id": 1081,
+        "title": "Feed The Bunny",
+        "canonicalId": 24,
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "water": 2,
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+        ]
+    },
+    {
+        "id": 1082,
+        "title": "Weapon 50/50 - Walker Wars",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "weaponLevel": "50/50",
+        "dice": ["BLACK", "RED"],
+        "pawn": "BLACK",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either Jimmie's (Black) or Nancy's (Red) roll to be the higher number."}
+        ]
+    },
+    {
+        "id": 1083,
+        "canonicalId": 185,
+        "title": "Barrier",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a Nuclear Warhead may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as Cyber Bunny or Cruise Missile Prime). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
+            {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
+            {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."}
+        ]
+    },
+    {
+        "id": 1084,
+        "title": "Blinky Madison",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to challenge an opponent for a saved Carrot. Both players look directly at each other and after a countdown from three, the last player to blink takes the Carrot."},
+            {"title": "Additional Rules", "text": "The player chooses the opponent's Carrot."}
+        ]
+    },
+    {
+        "id": 1085,
+        "title": "Dollar Make Me Holler",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "The player holding the US Dollar bill with the highest serial number may take any one saved Special or Very Special card from any opponent and the Carrot with the same city identification letter from an Opponent or Kaballa's Market."},
+            {"title": "Additional Rules", "text": "The serial number is an eight-digit number printed twice on the front of every US Dollar bill. The city identification letter is a large single letter printed inside a black circular design on the left side of the front of every US Dollar bill."},
+            {"title": "City Identification Letters", "text": "There are 12 Federal Reserve Banks in the United States responsible for printing paper money. Their designation letters are:<br><ul><li>A - Boston</li><li>B - New York</li><li>C - Philadelphia</li><li>D - Cleveland</li><li>E - Richmond</li><li>F - Atlanta</li><li>G - Chicago</li><li>H - St. Louis</li><li>I - Minneapolis</li><li>J - Kansas City</li><li>K - Dallas</li><li>L - San Francisco</li></ul>"}
+        ]
+    },
+    {
+        "id": 1086,
+        "title": "Fantastic Fez",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed under any bunny and allows the player to roll the d10 dice anytime that he rolls any of the d12 dice that match in color and choose which number to use."},
+            {"title": "Additional Rules", "text": "The diamond shaped icons indicate the five d10 dice (Violet, Orange, Green, Yellow, and Blue) that came in the KinderBunnies game. The player may continue to use the d10 dice until such a time when the bunny with the Fantastic Fez is abducted or killed."}
+        ]
+    },
+    {
+        "id": 1087,
+        "title": "Gazpacho Soup",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must immediately attempt to kill one of his own bunnies. The opponent may use only the cards from his five-card hand. If none of his bunnies has been killed, then the opponent must discard the remaining cards in his five-card hand and all of his bunnies in The Bunny Circle."},
+            {"title": "Additional Rules", "text": "Gazpacho Soup may be used once by a player and given to any opponent who must immediately attempt to kill one of his own bunnies. The opponent may use only the cards from his five-card hand. These cards may be weapon cards or other cards that kill bunnies during the same turn (not Feed The Bunny cards). If the opponent has exhausted all of his options and none of his bunnies has been killed, then the opponent must discard the remaining cards in his five-card hand and all of his bunnies (including <a href=\"bunnypedia://card/191\">Holographic</a>) in The bunny Circle. Bunnies with a <a href=\"bunnypedia://card/58\">Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a> bunny modifier remain. The opponent must draw five new cards from the Draw Pile."}
+        ]
+    },
+    {
+        "id": 1088,
+        "title": "Text Time",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "All opponents may send the player a text message of this card title. The opponent whose text arrives last loses his next turn."},
+            {"title": "Additional Rules", "text": "If a number of players are unwilling or unable to send a text message within one minute, then they all lose their next turns."}
+        ]
+    },
+    {
+        "id": 1089,
+        "title": "Internet 8",
+        "deck": "FANTASTIC",
+        "type": "SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to change any roll of 4, 5, or 6 to an 8."}
+        ]
+    },
+    {
+        "id": 1090,
+        "title": "Zero Protection",
+        "deck": "FANTASTIC",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "symbols": ["MYSTERIOUS_PLACE_BALL"],
+        "rules": [
+            {"title": "Card Text", "text": "The player with this card saved may immediately replace any Zero Value small card with a new one from the draw pile (if any exist)."}
+        ]
+    },
+    {
+        "id": 1091,
+        "title": "Bad Hare Day",
+        "deck": "FANTASTIC",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to force the first player to kill a bunny to return all of his Carrots to Kaballa's Market. Must be used during the turn in which the first bunny was killed! "}
+        ]
+    },
+    {
+        "id": 1092,
+        "title": "Out of Harm’s Way",
+        "deck": "FANTASTIC",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to immediately move a bunny out of harms way if it will be affected by a range weapon or if it will become the next target of a Roaming Red Run card. Directly targeted bunnies cannot be moved. May be used at any time!"},
+            {"title": "Additional Rules", "text": "Out Of Harm's Way may be used once by a player to immediately move a bunny out of harms way to any position in THe Bunny Circle if it will be affected by a range weapon or if it will become the next target of a Roaming Red Run card. Directly targeted bunnies cannot be moved. May be used at any time!"}
+        ]
+    },
+    {
+        "id": 1093,
+        "title": "Terrible Misfortune - Thunderstorm",
+        "deck": "FANTASTIC",
+        "type": "PLAY_IMMEDIATELY",
+        "rules": [
+            {"title": "Card Text", "text": "During a freak thunderstorm near a clocktower at exactly 10:04pm, one of your bunnies is struck by a bolt of lightning!"}
+        ]
+    },
+    {
+        "id": 1094,
+        "canonicalId": 101,
+        "title": "10 Dolla",
+        "deck": "FANTASTIC",
+        "type": "DOLLA"
+    },
+    {
+        "id": 1095,
+        "title": "Dated Dolla",
+        "deck": "FANTASTIC",
+        "type": "DOLLA",
+        "rules": [
+            {"title": "Additional Rules", "text": "When a player draws the Dated Dolla card, he must immediately spend an amount of Dolla equal to the date (01 - 31) at any open store. Dated Dolla may not be saved. If no stores are open, then the player is out of luck."}
+        ]
+    },
+    {
+        "id": 1096,
+        "title": "Random Dolla",
+        "deck": "FANTASTIC",
+        "type": "DOLLA",
+        "rules": [
+            {"title": "Card Text", "text": "When the player draws the Random Dolla card, he must roll the Clear 20-sided di immediately and spend the amount of Dolla rolled at any open store. Random Dolla may not be saved. If no stores are open, then the player is out of luck."}
+        ]
+    },
+    {
+        "id": 1097,
+        "title": "Carrot M - Merlin",
+        "deck": "FANTASTIC",
+        "type": "CARROT_SUPPLY",
+        "rules": [
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a> or <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>"},
+            {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
+        ]
+    },
+    {
+        "id": 1098,
+        "title": "Carrot N - Nena",
+        "deck": "FANTASTIC",
+        "type": "CARROT_SUPPLY",
+        "rules": [
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a> or <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>"},
+            {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
+        ]
+    },
+    {
+        "id": 1099,
+        "title": "Mysterious Place - Gobekli Tepe",
+        "deck": "FANTASTIC",
+        "type": "MYSTERIOUS_PLACE",
+        "rules": [
+            {"title": "Card Text", "text": ""}
+        ]
+    },
+    {
+        "id": 1100,
+        "title": "Mysterious Place - Puma Puma",
+        "deck": "FANTASTIC",
+        "type": "MYSTERIOUS_PLACE",
+        "rules": [
+            {"title": "Card Text", "text": ""}
+        ]
+    }
+]
