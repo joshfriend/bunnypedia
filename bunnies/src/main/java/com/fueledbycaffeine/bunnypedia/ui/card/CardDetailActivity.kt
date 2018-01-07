@@ -4,6 +4,7 @@ import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
 import android.support.v4.app.FragmentTransaction
 import android.support.v7.app.AppCompatActivity
+import android.view.MenuItem
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD
 import io.reactivex.disposables.CompositeDisposable
@@ -29,7 +30,8 @@ class CardDetailActivity: AppCompatActivity() {
         .commit()
     }
 
-    val navigation = ViewModelProviders.of(this).get(CardNavigationViewModel::class.java)
+    val navigation = ViewModelProviders.of(this)
+      .get(CardNavigationViewModel::class.java)
     navigation.getNavigationEvents()
       .subscribe { card ->
         val fragment = CardDetailFragment()
@@ -41,6 +43,16 @@ class CardDetailActivity: AppCompatActivity() {
           .commit()
       }
       .addTo(subscribers)
+  }
+
+  override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    return when (item.itemId) {
+      android.R.id.home -> {
+        onBackPressed()
+        true
+      }
+      else -> super.onOptionsItemSelected(item)
+    }
   }
 
   override fun onDestroy() {

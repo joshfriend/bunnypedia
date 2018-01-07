@@ -317,6 +317,7 @@
     "title": "The Minilith",
     "type": "SPECIAL",
     "bunnyRequirement": "PLAY_AND_SAVE",
+    "symbols": ["JUPITER"],
     "rules": [
       {"title": "Card Text", "text": "The player with this card saved must double the range and level of each weapon. Only weapon levels 1-9 are affected. Weapons affect the target bunny and adjacent bunnies. If at any time the player has no bunnies in The Bunny Circle then The Minilith is discarded."},
       {"title": "Additional Rules", "text": "Doubling the Weapon Level may make it nearly impossible for an opponent to survive a weapon. For example, if a player with The Minilith card saved plays the Flame Thrower (Weapon Level 8) on a bunny in The Bunny Circle, then all three bunnies affected would need to roll higher than 16 on the Black 12-sided die to survive (which is not possible). It is, however, possible for any bunny to have enough Clovers underneath it to survive."}

@@ -1,7 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.arch.lifecycle.ViewModelProviders
-import android.content.Context
 import android.content.res.ColorStateList
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -46,34 +45,25 @@ class CardDetailFragment: Fragment() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    Timber.d("onCreate() ${cardArgument.title}")
     App.graph.inject(this)
-    navigation = ViewModelProviders.of(activity!!).get(CardNavigationViewModel::class.java)
+    navigation = ViewModelProviders.of(activity!!)
+      .get(CardNavigationViewModel::class.java)
   }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    Timber.d("onCreateView() ${cardArgument.title}")
     return inflater.inflate(R.layout.fragment_card_detail, container, false)
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
-    Timber.d("onViewCreated() ${cardArgument.title}")
 
     val activity = activity ?: return
-    val card = cardArgument
-
-    // It likes to scroll to the bottom by default for some reason...
-    scrollView.fullScroll(FOCUS_UP)
-
-    toolbar.title = card.title
-    toolbar.subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
     if (activity is AppCompatActivity) {
       activity.setSupportActionBar(toolbar)
       activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
-    val deckColor = ContextCompat.getColor(activity, card.deck.color)
+    val deckColor = ContextCompat.getColor(activity, cardArgument.deck.color)
     toolbar.setBackgroundColor(deckColor)
     val titleColor = ColorUtil.contrastColor(deckColor)
     toolbar.setTitleTextColor(titleColor)
@@ -88,6 +78,28 @@ class CardDetailFragment: Fragment() {
       view.systemUiVisibility = flags
     }
 
+    // It likes to scroll to the bottom by default for some reason...
+    scrollView.fullScroll(FOCUS_UP)
+
+    bind(cardArgument)
+  }
+
+  override fun onResume() {
+    super.onResume()
+    val card = cardArgument
+    if (card.zodiacType != null) {
+      setupZodiacInfo(card.zodiacType)
+    }
+  }
+
+  override fun onDestroyView() {
+    subscribers.clear()
+    super.onDestroyView()
+  }
+
+  private fun bind(card: Card) {
+    toolbar.title = card.title
+    toolbar.subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
     cardType.text = getString(card.type.description)
 
     val adapter = RuleSectionAdapter(card.rules)
@@ -150,41 +162,6 @@ class CardDetailFragment: Fragment() {
     if (card.specialSeries != null) {
       setupSpecialSeriesInfo(card.specialSeries)
     }
-  }
-
-  override fun onResume() {
-    super.onResume()
-    Timber.d("onResume() ${cardArgument.title}")
-    val card = cardArgument
-    if (card.zodiacType != null) {
-      setupZodiacInfo(card.zodiacType)
-    }
-  }
-
-  override fun onDestroyView() {
-    Timber.d("onDestroyView() ${cardArgument.title}")
-    subscribers.clear()
-    super.onDestroyView()
-  }
-
-  override fun onAttach(context: Context?) {
-    super.onAttach(context)
-    Timber.d("onAttach() ${cardArgument.title}")
-  }
-
-  override fun onDetach() {
-    super.onDetach()
-    Timber.d("onDetach() ${cardArgument.title}")
-  }
-
-  override fun onPause() {
-    super.onPause()
-    Timber.d("onPause() ${cardArgument.title}")
-  }
-
-  override fun onSaveInstanceState(outState: Bundle) {
-    super.onSaveInstanceState(outState)
-    Timber.d("onSaveInstanceState() ${cardArgument.title}")
   }
 
   private fun setupDiceInfo(dice: List<Die>) {
