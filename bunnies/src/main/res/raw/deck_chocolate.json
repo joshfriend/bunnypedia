@@ -145,7 +145,7 @@
     "specialSeries": "PSI",
     "psi": "PSI01",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player ot elimiinate either Carrot Theif, Pilfer The Pawn, Zodiac Theif, Pumpkin Ridge or Pinch Your Place. Or may be used once to keep a player's bunnies in place during a Shockwave. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player ot eliminate either Carrot Thief, Pilfer The Pawn, Zodiac Thief, Pumpkin Ridge or Pinch Your Place. Or may be used once to keep a player's bunnies in place during a Shockwave. May be used at any time!"}
     ]
   },
   {
@@ -518,7 +518,11 @@
     "canonicalId": 414,
     "deck": "CHOCOLATE",
     "title": "Return A Carrot",
-    "type": "RUN"
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to force any opponent to return any one of his Carrots to Kaballa's Market."}
+    ]
   },
   {
     "id": 760,

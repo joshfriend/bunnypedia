@@ -178,7 +178,8 @@
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny and roams the board clockwise. Players roll the Red die as Cruise Missile Prime visits their bunnies. The first player to roll a Prime Number on the Red die detonates the missile. The target bunny must roll higher than 9 on the Black die to survive and adjacent bunnies must roll higher than 8 to survive."},
             {"title": "Additional Rules", "text": "If Cruise Missile Prime has no viable bunny targets left in The Bunny Circle, then it is discarded. If Cruise Missile Prime is confined to an area of The Bunny Circle by two or more Barriers and cannot reach a viable bunny target on the other side, then it is removed (discarded). Just like all Roaming Red Run cards, if Cruise Missile Prime hits a Barrier, it will reverse direction and may affect the same player’s bunnies on two consecutive turns."},
-            {"title": "Prime Numbers", "text": "Prime numbers which can be rolled on a 12-sided die are: 2, 3, 5, 7, and 11."}
+            {"title": "Prime Numbers", "text": "Prime numbers which can be rolled on a 12-sided die are: 2, 3, 5, 7, and 11."},
+            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Cruise Missile Prime."}
         ]
     },
     {
@@ -265,7 +266,8 @@
         "rules": [
             {"title": "Card Text", "text": "May be placed on any Congenial Bunny which, while opening a package of Melba Toast, flings two sharp pieces in opposite directions instantly killing the two adjacent bunnies. The original target Congenial Bunny is not harmed."},
             {"title": "Interaction with Barriers", "text": "Clumsy Congenial is not stopped by a <a href=\"bunnypedia://card/185\">Barrier</a>."},
-            {"title": "Can be removed by", "text": "Clumsy Congenial can be eliminated by <a href=\"bunnypedia://card/426\">Blue Angels</a>."}
+            {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://card/426\">Blue Angels</a> can be used to eliminate the Sea Whiz Mount."},
+            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Blue Angels."}
         ]
     },
     {
@@ -297,7 +299,7 @@
         "type": "RUN",
         "rules": [
             {"title": "Card Text", "text": "A Red Bunny that does not need to feed and cannot be used to win the game since it is not technically alive, This bunny can only be harmed by the <a href=\"bunnypedia://card/45\">Laser Gun</a>, <a href=\"bunnypedia://card/48\">Nuclear Warhead</a>, <a href=\"bunnypedia://card/132\">Miniature Black Hole</a>, <a href=\"bunnypedia://card/182\">Cheese Balls</a>, <a href=\"bunnypedia://card/237\">Anti-Matter Rasins</a>, <a href=\"bunnypedia://card/294\">Plutonium</a>, <a href=\"bunnypedia://card/400\">Psychic Waves</a>, and <a href=\"bunnypedia://card/455\">Sharks WFLB</a>."},
-            {"title": "Additional Rules", "text": "The Holographic Bunny may be transformed into a live bunny by using the Ancient Star Rod (Violet Booster Deck). If the Holographic Bunny should become alive, it will be vulnerable to all weapons and Feed The Bunny cards, and may be used to win the game. Regardless of whether the bunny is Holographic or it becomes alive by using the Ancient Star Rod, it is still a Red bunny and can be used to form a Bunny Triplet with other Red bunnies."}
+            {"title": "Additional Rules", "text": "The Holographic Bunny may be transformed into a live bunny by using the <a href=\"bunnypedia://card/257\">Ancient Star Rod</a>. If the Holographic Bunny should become alive, it will be vulnerable to all weapons and Feed The Bunny cards, and may be used to win the game. Regardless of whether the bunny is Holographic or it becomes alive by using the Ancient Star Rod, it is still a Red bunny and can be used to form a Bunny Triplet with other Red bunnies."}
         ]
     },
     {
@@ -351,7 +353,7 @@
         "title": "Rooney’s Weapons Emporium – Closed",
         "deck": "RED",
         "type": "RUN",
-        "bunnyRequirement": "PLAY"
+        "bunnyRequirement": "NO"
     },
     {
         "id": 197,
@@ -394,7 +396,8 @@
         "dice": ["YELLOW"],
         "pawn": "YELLOW",
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to attack any abducting aliens.<br>9-12 = THe aliens and abducted bunnies are destroyed. In addition, the wreckage lands on the player whose bunny was abducted killing all of his other bunnies as well.<br>5-8 = Only the aliens and abducted bunnies are destroyed.<br>1-4 = The missile is a dud. Nothing happens!"}
+            {"title": "Card Text", "text": "May be used once by a player to attack any abducting aliens.<br>9-12 = THe aliens and abducted bunnies are destroyed. In addition, the wreckage lands on the player whose bunny was abducted killing all of his other bunnies as well.<br>5-8 = Only the aliens and abducted bunnies are destroyed.<br>1-4 = The missile is a dud. Nothing happens!"},
+            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate H.E.M.P."}
         ]
     },
     {
@@ -431,7 +434,7 @@
         "title": "Guardian Angle",
         "deck": "RED",
         "type": "VERY_SPECIAL",
-        "bunnyRequirement": "PLAY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to eliminate any Terrible Misfortune. May be used at any time!"}
         ]

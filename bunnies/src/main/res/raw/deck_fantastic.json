@@ -95,7 +95,7 @@
         "specialSeries": "THETA",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a> or <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>"},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
         ]
     },
@@ -106,7 +106,7 @@
         "specialSeries": "THETA",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a> or <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>"},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
         ]
     },
@@ -570,7 +570,7 @@
         "deck": "FANTASTIC",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a> or <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>"},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
         ]
     },
@@ -580,7 +580,7 @@
         "deck": "FANTASTIC",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a> or <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>"},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
         ]
     },

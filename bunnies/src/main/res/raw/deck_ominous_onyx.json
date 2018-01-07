@@ -1,5 +1,15 @@
 [
   {
+    "id": 661,
+    "deck": "OMINOUS_ONYX",
+    "title": "White Party",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to receive <a href=\"bunnypedia://card/430\">The White Stuff</a>, the White Pawn, and all White Bunnies (<a href=\"bunnypedia://card/57\">Free Agent</a>, <a href=\"bunnypedia://card/296\">Double Free Agent</a>, and <a href=\"bunnypedia://card/515\">Blanch</a>) in The Bunny Circle."}
+    ]
+  },
+  {
     "id": 697,
     "deck": "OMINOUS_ONYX",
     "title": "Chief",

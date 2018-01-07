@@ -201,7 +201,10 @@
     "deck": "YELLOW",
     "title": "Sea Whiz Mount",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://card/426\">Blue Angels</a> can be used to eliminate the Sea Whiz Mount."}
+    ]
   },
   {
     "id": 132,

@@ -1,12 +1,586 @@
 [
-  {
-    "id": 414,
-    "deck": "TWILIGHT_WHITE",
-    "title": "Return A Carrot",
-    "bunnyRequirement": "PLAY",
-    "type": "RUN",
-    "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to force any opponent to return any one of his Carrots to Kaballa's Market."}
-    ]
-  }
+    {
+        "id": 386,
+        "title": "Blue/Orange Congenial",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Blue or an Orange Congenial Bunny."}
+        ]
+    },
+    {
+        "id": 387,
+        "title": "Violet/Green Gleeful",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Violet or a Green Gleeful Bunny."}
+        ]
+    },
+    {
+        "id": 388,
+        "title": "Green/Orange Lumbering",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Green or an Orange Lumbering Bunny."}
+        ]
+    },
+    {
+        "id": 389,
+        "title": "Blue/Violet Sinister",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Blue or a Violet Sinister Bunny."}
+        ]
+    },
+    {
+        "id": 390,
+        "title": "Orange/Violet Timid",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "rules": [
+            {"title": "Card Text", "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Orange or a Violet Sinister Bunny."}
+        ]
+    },
+    {
+        "id": 391,
+        "canonicalId": 16,
+        "title": "Choose A Carrot",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "aggressive": false,
+        "rules": [
+            {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        ]
+    },
+    {
+        "id": 392,
+        "canonicalId": 16,
+        "title": "Choose A Carrot",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "aggressive": false,
+        "rules": [
+            {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        ]
+    },
+    {
+        "id": 393,
+        "canonicalId": 21,
+        "title": "Choose 2 Carrots",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "aggressive": false,
+        "rules": [
+            {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        ]
+    },
+    {
+        "id": 394,
+        "canonicalId": 125,
+        "title": "Feed The Bunny 1/4",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "cabbage": 1,
+        "water": 4,
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+        ]
+    },
+    {
+        "id": 395,
+        "canonicalId": 125,
+        "title": "Feed The Bunny 4/2",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "cabbage": 4,
+        "water": 2,
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+        ]
+    },
+    {
+        "id": 396,
+        "canonicalId": 286,
+        "title": "Random FTB",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "dice": ["GREEN", "BLUE"],
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any Bunny which must feed the amounts rolled by the end of its next turn or die."}
+        ],
+        "cabbage": -1,
+        "water": -1
+    },
+    {
+        "id": 397,
+        "title": "Potentially Poisonous Plant Spores",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "weaponLevel": "17",
+        "dice": ["CLEAR"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 01 to survive."}
+        ]
+    },
+    {
+        "id": 398,
+        "title": "Anti-Strung Tennis Racket",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "weaponLevel": "18",
+        "dice": ["CLEAR"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 18 to survive."}
+        ]
+    },
+    {
+        "id": 399,
+        "title": "Rocket Exhaust",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "weaponLevel": "19",
+        "dice": ["CLEAR"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 19 to survive."}
+        ]
+    },
+    {
+        "id": 400,
+        "title": "Psychic Waves",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "weaponLevel": "20",
+        "dice": ["CLEAR"],
+        "rules": [
+            {"title": "Card Text", "text": "Before playing Psychic Waves on any opponent's bunny the player must secretly write down one of the six Symbols. If the opponent guesses the incorrect Symbol then his bunny dies (Clover bunnies may survive). Psychic Waves is then placed on the next bunny clockwise and the process is repeated."},
+            {"title": "Additional Rules", "text": "Before playing Psychic Waves on any opponent’s bunny in The Bunny Circle, the player must secretly write down one of the six Symbols (Triangle, Rectangle, Spiral, Ellipse, Star or Cross) on a piece of paper hidden from all of the other players.<br><br>The opponent whose bunny was targeted by Psychic Waves will try to guess the Symbol chosen by the player. If the opponent guesses the incorrect Symbol, then his bunny dies. Clover bunnies (bunnies with Clover cards underneath them) may survive since Clovers lower the level of an attacking weapon.<br><br>Psychic Waves is then placed on the next bunny clockwise in The Bunny Circle and the process is repeated. This continues up to five times, or until the correct Symbol is guessed. Obviously as Psychic Waves continues, it becomes easier to guess the Symbol with fewer choices.<br><br>Psychic Waves is played during one player’s turn, and no <a href=\"bunnypedia://card/185\">Barrier</a> can stop Psychic Waves."}
+        ]
+    },
+    {
+        "id": 401,
+        "title": "Anode Anomaly",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "weaponLevel": "50/50",
+        "dice": ["BLACK", "RED"],
+        "pawn": "BLACK",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Cathode (Black) or Anode (Red) roll to be the higher number."}
+        ]
+    },
+    {
+        "id": 402,
+        "title": "Dueling Grandmothers",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "weaponLevel": "50/50",
+        "dice": ["BLUE", "RED"],
+        "pawn": "BLACK",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing either Esther's (Blue) or Betty's (Red) roll to be the higher number."}
+        ]
+    },
+    {
+        "id": 403,
+        "title": "Mob Hit",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "weaponLevel": "Variable",
+        "dice": ["BLACK"],
+        "rules": [
+            {"title": "Card Text", "text": "Players donate Dolla to increase the Weapon Level. May be placed on any bunny which must roll higher than the Dolla amount collected to survive."},
+            {"title": "Additional Rules", "text": "Mob Hit may be placed on any bunny in The Bunny Circle which must roll higher than the Dolla amount collected on the Black 12-sided die to survive.<br><br>To use this weapon, a player places MobHit on any opponent’s bunny. The other players are then asked to donate Dolla to increase the weapon level. The  nal weapon level is equal to the amount of Dolla donated by all of the players.<br><br>Although the opponent is asked to roll the Black 12-sided die to defend against Mob Hit, the weapon level does not have to stop at 12 and may reach any level with generous donations of Dolla. The opponent may save his bunny by using Defense Cards that are equal to the weapon level reached by the other players’ donations. After the weapon has been used, the Dolla is given to Kaballa (discarded). Mob Hit may not be purchased from Rooney’s Weapons Emporium for any price."}
+        ]
+    },
+    {
+        "id": 404,
+        "canonicalId": 185,
+        "title": "Barrier",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a Nuclear Warhead may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as Cyber Bunny or Cruise Missile Prime). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
+            {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
+            {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."}
+        ]
+    },
+    {
+        "id": 405,
+        "title": "Calcite Conundrum",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "Allows a player to start and maintain a second set of Bottom and Top Run cards. If at any time the player has no bunnies in The Bunny Circle then all cards are immediately replaced and normal play begins again with seven new cards."},
+            {"title": "Additional Rules", "text": "Calcite Conundrum allows a player to start and maintain a second set of Bottom and Top Run cards using cards from his five-card hand. The player lays down a second Bottom and Top Run card right next to his first. The player’s bunnies in The Bunny Circle are used to play both sets of Bottom and Top Run cards. As play continues (either clockwise or counter-clockwise) the player plays the Top Run card of his first set of cards (and the Bottom Run if he has a Bunny Triplet), finishes using his first set of cards, and then moves on to his second set of cards. After playing the second set of cards, the player’s turn is over. This player will keep four cards down and three cards in his hand at all times.<br><br>If at any time the player has no bunnies in The Bunny Circle, then all cards are immediately replaced with cards from the Draw Pile and normal play begins again for that player with seven new cards."}
+        ]
+    },
+    {
+        "id": 406,
+        "title": "Carousel",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["GREEN", "RED"],
+        "rules": [
+            {"title": "Card Text", "text": "All players who have reached their 30th birthday must roll the dice. If a player's Red die roll is higher then one of his bunnies dies. If the player has no bunnies then he must discard all of his Mysterious Place cards."},
+            {"title": "Additional Rules", "text": "The player may choose which bunny to sacrfice. If a player has no bunnies in The Bunny Circle, no Mysterious Place cards or rolled higher on the Green die, then he loses nothing."}
+        ]
+    },
+    {
+        "id": 407,
+        "title": "Cloning",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to clone any of his single color bunnies. The same player must own both of the bunnies (the original and the clone) and keep them adjacent in The Bunny Circle. If the original bunny is abducted, moved, traded or killed the the clone will die."},
+            {"title": "Additional Rules", "text": "The Cloning card is used to denote the cloned bunny. If the original bunny is abducted, moved, traded or killed, then the clone will die. If the original bunny changes color (perhaps due to a <a href=\"bunnypedia://card/254\">Random Paintball Assault</a>), then the clone will change color as well. The original bunny and the clone do not share Bunny Modifiers. If the clone is given <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>, then it can survive independently of the original bunny."}
+        ]
+    },
+    {
+        "id": 408,
+        "title": "E-M Pulse",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once to force any player to immediately lose all of his Defense Units."},
+            {"title": "Magnetic Shielding", "text": "<a href=\"bunnypedia://card/478\">Magnetic Shielding</a> allows a player to immediately counteract E-M Pulse before losing all Defense cards"}
+        ]
+    },
+    {
+        "id": 409,
+        "title": "Heavenly Halo Handoff",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "dice": ["YELLOW"],
+        "pawn": "YELLOW",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to remove <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> from any bunny and place it under another bunny the same number of spaces away in The Bunny Circle as rolled. The Halo moves clockwise in the AM or counter-clockwise in the PM."}
+        ]
+    },
+    {
+        "id": 410,
+        "title": "Lucky Clover - Nondruple (Bunny Modifier)",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Nondruple lowers the level of any weapon by nine."},
+            {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a> must also discard all Clover."}
+        ]
+    },
+    {
+        "id": 411,
+        "title": "O. R. P. (Obnoxious Roaming Pest)",
+        "deck": "TWILIGHT_WHITE",
+        "type": "ROAMING_RED_RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
+        "rules": [
+            {"title": "Card Text", "text": "May be given to any player and roams the board counter-clockwise. O.R.P. visits one player per round who must roll the dice. The die with the lowest number rolled is the supply that the player loses in its entirety."},
+            {"title": "Additional Rules", "text": "If two dice are tied for the lowest roll, then the player will lose both supplies. The O.R.P. will skip any player who has at least one saved Zodiac card."},
+            {"title": "Supply Legend", "text": "<ul><li>Violet - discard all bunnies</li><li>Orange - discard all carrots</li><li>Green - discard all cabbage</li><li>Yellow - discard all dollas</li><li>Blue - discard all water</li><li>Black - discard all defense</li><li>Red - return all pawns</li><li>Clear - discard O.R.P.</li></ul>"}
+        ]
+    },
+    {
+        "id": 412,
+        "title": "Pawn Recall",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once to force all players to return their Pawns to Weil's Pawn Shop. Pawns may be purchased again starting with the next player's turn."}
+        ]
+    },
+    {
+        "id": 413,
+        "title": "Random Rotational Roaming",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["CLEAR"],
+        "rules": [
+            {"title": "Card Text", "text": "May be placed on any bunny, Zodiac or Mysterious Place card and moves (clockwise on an Even numbered day or counter-clockwise on an Odd numbered day) to the player the same number of spaces away as rolled on the die."}
+        ]
+    },
+    {
+        "id": 414,
+        "title": "Return A Carrot",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to force any opponent to return any one of his Carrots to Kaballa's Market."}
+        ]
+    },
+    {
+        "id": 415,
+        "title": "Shockwave",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be placed between any two players. Shockwave pushes all of the bunnies of the two players (one player on each side of the card) to the next adjacent player away from the Shockwave. Bunnies pushed against a <a href=\"bunnypedia://card/185\">Barrier</a> are squished."},
+            {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://card/728\">Spider Bunny</a> may be used to keep a player's bunnies in place during a Shockwave."}
+        ]
+    },
+    {
+        "id": 416,
+        "title": "Signs of Portent",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "dice": ["ZODIAC"],
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to view cards from the top of the small Zodiac Card deck down to the zodiac sign rolled."},
+            {"title": "Additional Rules", "text": "All players are allowed to see the revealed Zodiac Cards."}
+        ]
+    },
+    {
+        "id": 417,
+        "title": "Weil’s Pawn Shop - 3/10",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "Reopens the store. New prices:<br>3 Dolla - for each Pawn<br>10 Dolla - for each Bunny<br>(Bunnies may be placed in The Bunny Circle)"}
+        ]
+    },
+    {
+        "id": 418,
+        "title": "Zodiac Thief",
+        "deck": "TWILIGHT_WHITE",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
+        "dice": ["ZODIAC"],
+        "rules": [
+            {"title": "Card Text", "text": "Allows a player to steal saved Zodiac cards from any opponent(s) with the same sign as rolled on the top and bottom faces of the Zodiac die."},
+            {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://card/728\">Spider Bunny</a> may be used to eliminate Zodiac Thief."}
+        ]
+    },
+    {
+        "id": 419,
+        "title": "Bonanza",
+        "deck": "TWILIGHT_WHITE",
+        "type": "SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "Allows a player to take one Cabbage Card, Water Card, Defense Card and Pawn from any open stores."}
+        ]
+    },
+    {
+        "id": 420,
+        "title": "Forever Fed",
+        "deck": "TWILIGHT_WHITE",
+        "type": "SPECIAL",
+        "bunnyRequirement": "PLAY_AND_SAVE",
+        "rules": [
+            {"title": "Card Text", "text": "The player with this card saved has no need to feed. If at any time the player has no bunnies in The Bunny Circle then Forever Fed is discarded."}
+        ]
+    },
+    {
+        "id": 421,
+        "canonicalId": 306,
+        "title": "Free Pawn",
+        "deck": "TWILIGHT_WHITE",
+        "type": "SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to take any two Pawns from Weil's Pawn Shop."},
+            {"title": "Additional Rules", "text": "Free Pawn may not be used if Weil's Pawn Shop is closed."}
+        ]
+    },
+    {
+        "id": 422,
+        "title": "Free Weapon",
+        "deck": "TWILIGHT_WHITE",
+        "type": "SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "dice": ["CLEAR"],
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to take any weapon from Rooney's with the same level (or lower) as the number rolled. The weapon must be used immediately!"},
+            {"title": "Additional Rules", "text": "Free Weapon may not be used if Rooney's Weapons Emporium is closed."}
+        ]
+    },
+    {
+        "id": 423,
+        "title": "Gift Certificate (Rooney’s Weapons Emporium)",
+        "deck": "TWILIGHT_WHITE",
+        "type": "SPECIAL",
+        "bunnyRequirement": "NO",
+        "dice": ["BLACK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be used only at Rooney's Weapons Emporium. The Dolla amount is determined by the roll and must be spent immediately."},
+            {"title": "Additional Rules", "text": "Gift Certificate may not be used if Rooney's Weapons Emporium is closed."}
+        ]
+    },
+    {
+        "id": 424,
+        "title": "Golden Ratio (Almost)",
+        "deck": "TWILIGHT_WHITE",
+        "type": "SPECIAL",
+        "bunnyRequirement":"NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by two players (one with eight Carrots and one with five Carrots). Each player may choose a Carrot from Kaballa's Market and take a Zodiac card from any opponent(s). If either player owns the Yellow Pawn then the rewards are doubled."}
+        ]
+    },
+    {
+        "id": 425,
+        "title": "Retrieval",
+        "deck": "TWILIGHT_WHITE",
+        "type": "SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to retrieve and immediately use any of the last five Run cards played."},
+            {"title": "Additional Rules", "text": "Retrieval may only be used on the general discard pile (not the bunny or weapon discard piles) and cannot retrieve Special or Very Special cards."}
+        ]
+    },
+    {
+        "id": 426,
+        "title": "Blue Angels",
+        "deck": "TWILIGHT_WHITE",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to eliminate the <a href=\"bunnypedia://card/131\">Sea Whiz Mount</a>, <a href=\"bunnypedia://card/188\">Clumsy Congenial</a>, <a href=\"bunnypedia://card/258\">Anti-Missile</a>, <a href=\"bunnypedia://card/287\">Boomerang</a>, <a href=\"bunnypedia://card/457\">Flying Fritters</a>, <a href=\"bunnypedia://card/513\">Vampire Bats</a> or <a href=\"bunnypedia://card/570\">Bunny Dearest</a>. May be used at any time and kept for the entire game if the player owns the Blue Pawn."},
+            {"title": "Additional Rules", "text": "May be used at any time and kept for the entire game if the player owns the Blue Pawn. If that is the case, then after Blue Angels is played it is simply saved off to the side with a player’s other saved Special (or Very Special) cards and used again when needed. If the player loses or trades the Blue Pawn, then he may use Blue Angels one more time before discarding it."}
+        ]
+    },
+    {
+        "id": 427,
+        "title": "Defense Card Suspender",
+        "deck": "TWILIGHT_WHITE",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to suspend the use of all Defense Cards for one round of play. May be used at any time!"}
+        ]
+    },
+    {
+        "id": 428,
+        "title": "Return To Sender",
+        "deck": "TWILIGHT_WHITE",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "NO",
+        "rules": [
+            {"title": "Card Text", "text": "May be used once by a player to return any one bunny that was forced from a player (for any reason except death) back to the previous owner. May be used at any time (even after the Winning Zodiac sign has been revealed)!"}
+        ]
+    },
+    {
+        "id": 429,
+        "title": "Weapon Booster",
+        "deck": "TWILIGHT_WHITE",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "dice": ["BLACK"],
+        "rules": [
+            {"title": "Card Text", "text": "May be used onc by a player to boost the weapon level of any weapon placed on any bunny by the amount rolled. ALl weapon ranges remain unchanged. May be used at any time!"},
+            {"title": "Additional Rules", "text": "Weapon Booster cannot be used to change a 50/50 Weapon."}
+        ]
+    },
+    {
+        "id": 430,
+        "title": "White Stuff",
+        "deck": "TWILIGHT_WHITE",
+        "type": "VERY_SPECIAL",
+        "bunnyRequirement": "PLAY",
+        "rules": [
+            {"title": "Card Text", "text": "The player with this card saved has exclusive use of the White die which may be rolled and substituted for the roll of any other 12-sided die any time during play. May be used once per card consequence."},
+            {"title": "Additional Rules", "text": "Neither the <a href=\"bunnypedia://card/170\">Red Timid Bunny</a> nor the White Pawn will allow a re-roll of the White die."},
+            {"title": "White Party", "text": "<a href=\"bunnypedia://card/611\">White Party</a> may be used to steal the White Stuff."}
+        ]
+    },
+    {
+        "id": 431,
+        "title": "Melding",
+        "deck": "TWILIGHT_WHITE",
+        "type": "PLAY_IMMEDIATELY",
+        "rules": [
+            {"title": "Card Text", "text": "Every player must choose two cards form his five-card hand and pass them to the adjacent player counter-clockwise."}
+        ]
+    },
+    {
+        "id": 432,
+        "title": "Terrible Misfortune - Bungee",
+        "deck": "TWILIGHT_WHITE",
+        "type": "PLAY_IMMEDIATELY",
+        "rules": [
+            {"title": "Card Text", "text": "One of your bunnies attempts bungee jumping but measures the length of the cord incorrectly. Too much slack!"}
+        ]
+    },
+    {
+        "id": 433,
+        "canonicalId": 87,
+        "title": "1 Dolla",
+        "deck": "TWILIGHT_WHITE",
+        "type": "DOLLA"
+    },
+    {
+        "id": 434,
+        "canonicalId": 92,
+        "title": "2 Dolla",
+        "deck": "TWILIGHT_WHITE",
+        "type": "DOLLA"
+    },
+    {
+        "id": 435,
+        "canonicalId": 92,
+        "title": "2 Dolla",
+        "deck": "TWILIGHT_WHITE",
+        "type": "DOLLA"
+    },
+    {
+        "id": 436,
+        "canonicalId": 210,
+        "title": "3 Dolla",
+        "deck": "TWILIGHT_WHITE",
+        "type": "DOLLA"
+    },
+    {
+        "id": 437,
+        "canonicalId": 210,
+        "title": "3 Dolla",
+        "deck": "TWILIGHT_WHITE",
+        "type": "DOLLA"
+    },
+    {
+        "id": 438,
+        "canonicalId": 98,
+        "title": "5 Dolla",
+        "deck": "TWILIGHT_WHITE",
+        "type": "DOLLA"
+    },
+    {
+        "id": 439,
+        "canonicalId": 98,
+        "title": "5 Dolla",
+        "deck": "TWILIGHT_WHITE",
+        "type": "DOLLA"
+    },
+    {
+        "id": 440,
+        "canonicalId": 101,
+        "title": "10 Dolla",
+        "deck": "TWILIGHT_WHITE",
+        "type": "DOLLA"
+    }
 ]

@@ -516,7 +516,8 @@
     ],
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny. All bunnies within two spaces are also killed. Clover bunnies may survive"}
+      {"title": "Card Text", "text": "May be placed on any bunny. All bunnies within two spaces are also killed. Clover bunnies may survive"},
+      {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Nuclear Warhead."}
     ],
     "weaponLevel": "12"
   },
