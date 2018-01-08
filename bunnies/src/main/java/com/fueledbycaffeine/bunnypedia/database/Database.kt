@@ -13,9 +13,11 @@ import io.reactivex.Single
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
+import org.joda.time.DateTime.now
 import timber.log.Timber
 import java.io.BufferedReader
 import java.io.InputStreamReader
+import java.util.zip.GZIPInputStream
 
 class Database(context: Context) {
   data class UnreadableDeck(val deck: Deck, override val cause: Throwable): Exception()
@@ -95,12 +97,19 @@ class Database(context: Context) {
   }
 
   private fun readData(context: Context, deck: Deck): List<Card> {
+    var start = now().millis
     val json = context.resources.openRawResource(deck.data).use { stream ->
-      val reader = BufferedReader(InputStreamReader(stream))
-      reader.readText()
+      val reader = BufferedReader(InputStreamReader(GZIPInputStream(stream)))
+      reader.use { it.readText() }
     }
+    var end = now().millis
+    Timber.d("Deck ${deck.name} read: ${end - start}ms")
     return try {
-      adapter.fromJson(json)!!
+      start = now().millis
+      val cards = adapter.fromJson(json)!!
+      end = now().millis
+      Timber.d("Deck ${deck.name} read: ${end - start}ms")
+      cards
     } catch (e: Exception) {
       throw UnreadableDeck(deck, e)
     }

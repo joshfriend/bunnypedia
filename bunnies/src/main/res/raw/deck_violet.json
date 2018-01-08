@@ -266,7 +266,8 @@
         "bunnyRequirement": "NO",
         "dice": ["CLEAR"],
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to take the Carrot with the same number rolled on the Clear die from either Kaballa's Market or an opponent. If a player owned the carrot then he must return all of his other Carrots back to Kaballa's Market (even if the market is closed)."}
+            {"title": "Card Text", "text": "May be used once by a player to take the Carrot with the same number rolled on the Clear die from either Kaballa's Market or an opponent. If a player owned the carrot then he must return all of his other Carrots back to Kaballa's Market (even if the market is closed)."},
+            {"title": "The Magic Spatula", "text": "<a href=\"bunnypedia://card/80\">The Magic Spatula</a> can be used to eliminate Low Jack Kojak."}
         ]
     },
     {

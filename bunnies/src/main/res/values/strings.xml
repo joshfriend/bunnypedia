@@ -3,7 +3,10 @@
     <string name="placeholder_darth_plagueis1" translatable="false">Did you ever hear the tragedy of Darth Plagueis The Wise?</string>
     <string name="placeholder_darth_plagueis2" translatable="false">I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side, he could even keep the ones he cared about from dying.</string>
     <string name="pref_key_storage_settings" translatable="false">pref_key_storage_settings</string>
+    <string name="pref_key_view_settings" translatable="false">pref_key_view_settings</string>
     <string name="pref_key_booster_decks" translatable="false">available_booster_decks</string>
+    <string name="pref_key_view_type" translatable="false">view_type</string>
+    <string name="pref_default_view_type" translatable="false">LIST</string>
     <!-- END DO NOT TRANSLATE -->
 
     <string name="app_name">Bunnypedia</string>
@@ -119,4 +122,9 @@
     <string name="pref_title_booster_decks">Booster Decks</string>
     <string name="settings">Settings</string>
     <string name="loading_cards">Loading Cards…</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+    <string name="pref_view_settings">View Settings</string>
+    <string name="pref_title_view_type">Cards View</string>
+    <string name="pref_summary_view_type">How would you like to view the list of cards.</string>
 </resources>

@@ -10,9 +10,26 @@
         app:actionViewClass="android.support.v7.widget.SearchView" />
 
     <item
+        android:id="@+id/viewList"
+        android:title="@string/list_view"
+        android:icon="@drawable/view_list"
+        android:visible="false"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/white" />
+
+    <item
+        android:id="@+id/viewGrid"
+        android:title="@string/grid_view"
+        android:icon="@drawable/view_grid"
+        android:visible="false"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/white" />
+
+    <item
         android:id="@+id/settings"
         android:title="@string/settings"
         android:icon="@drawable/settings"
         app:showAsAction="ifRoom"
         app:iconTint="@color/white" />
+
 </menu>

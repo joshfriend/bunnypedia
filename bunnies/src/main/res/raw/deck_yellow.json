@@ -173,7 +173,10 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "cabbage": 10,
-    "water": 10
+    "water": 10,
+    "rules": [
+      {"title": "Sunny Day", "text": "<a href=\"bunnypedia://card/82\">Sunny Day</a> can be used to eliminate the Gorge The Bunny."}
+    ]
   },
   {
     "id": 128,

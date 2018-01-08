@@ -321,7 +321,8 @@
         "dice": ["VIOLET"],
         "rules": [
             {"title": "Card Text", "text": "THe player rolls the Violet die. The next player clockwise must roll higher or else donate either a bunny or a Carrot to the kitty. Each player who has at least one bunny or Carrot must play, The first player to roll a 12 wins the kitty."},
-            {"title": "Additional Rules", "text": "Play continues clockwise. Each player who has at least one bunny in The Bunny Circle or one saved Carrot must play. The  rst player to roll a 12 wins the kitty. However, the player who started The Mystery Urn activity will get a final chance to roll a 12 and win the kitty.<br><br>If a player gives up his last bunny or Carrot, then he is finished with The Mystery Urn activity and cannot win the kitty.<br><br>If all players have lost all of their bunnies and Carrots, then no player wins. All of the bunnies are discarded, and all of the Carrots are returned to Kaballa’s Market (even if the market is closed).<br><br>If the initial roll by the player is a 12, then The Mystery Urn activity is over and no one wins anything.<br><br>Later, players may feed the kitty with Zodiac cards (Green Booster Deck) and Mysterious Place cards (Ominous Onyx Booster Deck)."}
+            {"title": "Additional Rules", "text": "Play continues clockwise. Each player who has at least one bunny in The Bunny Circle or one saved Carrot must play. The first player to roll a 12 wins the kitty. However, the player who started The Mystery Urn activity will get a final chance to roll a 12 and win the kitty.<br><br>If a player gives up his last bunny or Carrot, then he is finished with The Mystery Urn activity and cannot win the kitty.<br><br>If all players have lost all of their bunnies and Carrots, then no player wins. All of the bunnies are discarded, and all of the Carrots are returned to Kaballa’s Market (even if the market is closed).<br><br>If the initial roll by the player is a 12, then The Mystery Urn activity is over and no one wins anything.<br><br>Later, players may feed the kitty with Zodiac cards (Green Booster Deck) and Mysterious Place cards (Ominous Onyx Booster Deck)."},
+            {"title": "The Magic Spatula", "text": "<a href=\"bunnypedia://card/80\">The Magic Spatula</a> can be used to eliminate The Mystery Urn."}
 
         ]
     },
@@ -333,8 +334,9 @@
         "bunnyRequirement": "PLAY",
         "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
         "rules": [
-            {"title": "Card Text", "text": "May be given to any player who must roll the dice. All bunnies that are the same color (or half color) as the lowest die rolled are killed. If Black is the lowest die rolled then all bunnies die. Players isolated by barriers are protected."},
-            {"title": "Additional Rules", "text": "Rainbo cannot kill a bunny with <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
+            {"title": "Card Text", "text": "May be given to any player who must roll the dice. All bunnies that are the same color (or half color) as the lowest die rolled are killed. If Black is the lowest die rolled then all bunnies die. Players isolated by <a href=\"bunnypedia://card/185\">Barriers</a> are protected."},
+            {"title": "Additional Rules", "text": "Rainbo cannot kill a bunny with <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."},
+            {"title": "The Magic Spatula", "text": "<a href=\"bunnypedia://card/80\">The Magic Spatula</a> can be used to eliminate Rainbo."}
         ]
     },
     {

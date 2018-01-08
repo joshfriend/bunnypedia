@@ -5,11 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
+    android:clipToPadding="false"
     tools:context=".ui.MainActivity"
     >
 
     <FrameLayout
         android:id="@+id/content_frame"
+        android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
+        android:clipToPadding="false"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />

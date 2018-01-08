@@ -32,4 +32,15 @@
         <item>FANTASTIC</item>
         <item>CARAMEL_SWIRL</item>
     </string-array>
+
+    <string-array name="pref_all_view_type_names">
+        <item>List</item>
+        <item>Grid</item>
+    </string-array>
+
+    <!-- These should match the enum names in CardViewType -->
+    <string-array name="pref_all_view_type_values">
+        <item>LIST</item>
+        <item>GRID</item>
+    </string-array>
 </resources>

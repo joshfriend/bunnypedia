@@ -324,202 +324,227 @@
     "deck": "BLUE",
     "title": "Kitchen Whisk",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "1"
+    "weaponLevel": "1",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 1 to survive."}
+    ]
   },
   {
     "id": 32,
     "deck": "BLUE",
     "title": "Green Gelatin (with Evil Pineapple Chunks)",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "2"
+    "weaponLevel": "2",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 2 to survive."}
+    ]
   },
   {
     "id": 33,
     "deck": "BLUE",
     "title": "Ice Pick",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "3"
+    "weaponLevel": "3",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 3 to survive."}
+    ]
   },
   {
     "id": 34,
     "deck": "BLUE",
     "title": "Butcher’s Cleaver",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "4"
+    "weaponLevel": "4",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 4 to survive."}
+    ]
   },
   {
     "id": 35,
     "deck": "BLUE",
     "title": "Food Processor",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "4"
+    "weaponLevel": "4",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 4 to survive."}
+    ]
   },
   {
     "id": 36,
     "deck": "BLUE",
     "title": "Boiling Tar",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "5"
+    "weaponLevel": "5",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 5 to survive."}
+    ]
   },
   {
     "id": 37,
     "deck": "BLUE",
     "title": "Roaches",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "5"
+    "weaponLevel": "5",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 5 to survive."},
+      {"title": "Bug Off!", "text": "<a href=\"bunnypedia://card/145\">Bug Off!</a> can be used to counteract Roaches."}
+    ]
   },
   {
     "id": 38,
     "deck": "BLUE",
     "title": "Bow & Arrow",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "6"
+    "weaponLevel": "6",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 6 to survive."}
+    ]
   },
   {
     "id": 39,
     "deck": "BLUE",
     "title": "Chain Saw",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "6"
+    "weaponLevel": "6",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 6 to survive."}
+    ]
   },
   {
     "id": 40,
     "deck": "BLUE",
     "title": "Guillotine",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "7"
+    "weaponLevel": "7",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 7 to survive."}
+    ]
   },
   {
     "id": 41,
     "deck": "BLUE",
     "title": "Sword",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "7"
+    "weaponLevel": "7",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 7 to survive."}
+    ]
   },
   {
     "id": 42,
     "deck": "BLUE",
     "title": "Flame Thrower",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "8"
+    "weaponLevel": "8",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 8 to survive."}
+    ]
   },
   {
     "id": 43,
     "deck": "BLUE",
     "title": "Torus Ring",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "8"
+    "weaponLevel": "8",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 8 to survive."},
+      {"title": "Magnetic Shielding", "text": "<a href=\"bunnypedia://card/478\">Magnetic Shielding</a> can be used to remove Torus Ring."}
+    ]
   },
   {
     "id": 44,
     "deck": "BLUE",
     "title": "Fluorine Gas",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "9"
+    "weaponLevel": "9",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 9 to survive."},
+      {"title": "Containment Suit", "text": "The <a href=\"bunnypedia://card/151\">Containment Suit</a> will protect a bunny against Fluorine Gas."}
+    ]
   },
   {
     "id": 45,
     "deck": "BLUE",
     "title": "Laser Gun",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "9"
+    "weaponLevel": "9",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 9 to survive."},
+      {"title": "Holographic Bunny", "text": "The Laser Gun can be used to kill the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
+    ]
   },
   {
     "id": 46,
     "deck": "BLUE",
     "title": "Trojan Bunny",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "10"
+    "weaponLevel": "10",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 10 to survive."},
+      {"title": "Additional Rules", "text": "Until the player launches any weapon, The Trojan Bunny card is placed under the bunny in The Bunny Circle and could remain dormant the entire game. The player may choose to discard Weapon cards already in the Bottom or Top Run position to avoid the explosion. If the player launches any weapon, then the bunny and adjacent bunnies to the target bunny in The Bunny Circle must roll higher than 10 on the Black 12-sided die to survive.<br><br>If the bunny with The Trojan Bunny card placed under it is killed by other means (or abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or <a href=\"bunnypedia://card/299\">Mothership</a>), then The Trojan Bunny card is discarded."},
+      {"title": "Blown Trojan", "text": "<a href=\"bunnypedia://card/248\">Blown Trojan</a> can be used to explode Trojan Bunny immediately."}
+    ]
   },
   {
     "id": 47,
     "deck": "BLUE",
     "title": "Ebola Virus",
-    "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "type": "ROAMING_RED_RUN",
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
-    "weaponLevel": "11"
+    "weaponLevel": "11",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll 12 to survive. Ebola Virus continues by infecting one bunny per round counter-clockwise around The Bunny circle"},
+      {"title": "Additional Rules", "text": "After an infection, The Ebola Virus moves to the next viable bunny target and waits until the next round of play. The Ebola Virus cannot infect the same bunny more than once during its time in The Bunny Circle. If a bunny survives The Ebola Virus once, then it cannot be infected again for the entire game (it is no longer a viable bunny target).<br><br>During a round of play, the bunny carrying The Ebola Virus may be attacked and eliminated using any Weapon card. If the bunny dies, then The Ebola Virus is eliminated from The Bunny Circle.<br><br>If The Ebola Virus has no viable bunny targets left in The Bunny Circle, then it is discarded. A bunny with <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> would be an example of a non-viable bunny target since it cannot be killed by The Ebola Virus. If The Ebola Virus is confined to an area of The Bunny Circle by two or more <a href=\"bunnypedia://card/185\">Barriers</a> and cannot reach a viable bunny target on the other side, then it is discarded. If the bunny carrying The Ebola Virus is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>, then The Ebola Virus is discarded."},
+      {"title": "Sunny Day", "text": "<a href=\"bunnypedia://card/82\">Sunny Day</a> can be used to eliminate the Ebola Virus."},
+      {"title": "Containment Suit", "text": "The <a href=\"bunnypedia://card/151\">Containment Suit</a> will protect a bunny against Fluorine Gas."}
+    ]
   },
   {
     "id": 48,
     "deck": "BLUE",
     "title": "Nuclear Warhead",
     "type": "RUN",
-    "dice": [
-      "BLACK"
-    ],
+    "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
+    "weaponLevel": "12",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny. All bunnies within two spaces are also killed. Clover bunnies may survive"},
-      {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Nuclear Warhead."}
-    ],
-    "weaponLevel": "12"
+      {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Nuclear Warhead."},
+      {"title": "Holographic Bunny", "text": "The Nuclear Warhead can be used to kill the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
+    ]
   },
   {
     "id": 49,
@@ -527,18 +552,25 @@
     "title": "Area 51",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
+    "symbols": ["JUPITER"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."}
+      {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."},
+      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
     ]
   },
   {
     "id": 50,
+    "canonicalId": 49,
     "deck": "BLUE",
     "title": "Area 51",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
+    "symbols": ["JUPITER"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."}
+      {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."},
+      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
     ]
   },
   {
@@ -547,147 +579,251 @@
     "title": "Bad Karma",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
-    "symbols": ["JUPITER", "MYSTERIOUS_PLACE_BALL"]
+    "symbols": ["JUPITER", "MYSTERIOUS_PLACE_BALL"],
+    "rules": [
+      {"title": "Card Text", "text": "May be given to any player forcing him to direct his next weapon onto one of his own bunnies."},
+      {"title": "Additional Rules", "text": "Bad Karma may be given to any player forcing him to direct his next weapon onto one of his own bunnies. The Bad Karma card is given to a particular player, not placed on a bunny.<br><br>If the player has a Weapon card in either the Bottom or Top Run position, then he must play the Weapon card on one of his own bunnies (he may not discard it). If a player flips a Weapon card and has no bunny in The Bunny Circle, then the weapon is discarded (of course), but the Bad Karma will remain until the player launches a Weapon card at one of his own bunnies."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733>\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+    ]
   },
   {
     "id": 52,
     "deck": "BLUE",
     "title": "Baker Street",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be given to any player who, while winding his way down Baker Street, gets lost causing him to lose his next turn."}
+    ]
   },
   {
     "id": 53,
     "deck": "BLUE",
     "title": "Black Cat",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "dice": ["GREEN"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to remove all <a href=\"bunnypedia://card/61\">Clover</a> cards from any one bunny. An Odd roll allows the player to keep the Clover cards and to place them under any bunny."}
+    ]
   },
   {
     "id": 54,
     "deck": "BLUE",
     "title": "Cyber Bunny",
-    "type": "RUN",
-    "bunnyRequirement": "NO"
+    "type": "ROAMING_RED_RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["VIOLET"],
+    "symbols": ["JUPITER"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 9 to survive. Cyber Bunny continues by attacking one bunny per round clockwise around The Bunny Circle. Cyber Bunny may be killed using any weapon."},
+      {"title": "Additional Rules", "text": "Since it is a Roaming Red Run card, Cyber Bunny will attack one bunny per round of play (traveling in a clockwise direction) in The Bunny Circle. Any bunny attacked must roll higher than 9 on the Violet 12-sided die to survive. Cyber Bunny is not a weapon and cannot be subjugated by using Clovers or Defense Cards.<br><br>After the attack, Cyber Bunny moves to the next viable bunny target and waits until the next round of play. Cyber Bunny can attack the same bunny more than once during its time in The Bunny Circle. When Cyber Bunny encounters a <a href=\"bunnypedia://card/185\">Barrier</a>, it will change direction and could easily attack the same bunny twice (on consecutive turns).<br><br>Cyber Bunny itself may be attacked and eliminated using any Weapon card. The player who launched Cyber Bunny rolls for its defense against a Weapon card even if the same player also launched the weapon. During play, Cyber Bunny will be waiting on top of a bunny (the next viable bunny target). If a weapon is designed to attack a single bunny, then a player may direct it onto Cyber Bunny, or the bunny underneath, but not both. If the weapon is a range weapon (such as <a href=\"bunnypedia://card/132\">Miniature Black Hole</a> or <a href=\"bunnypedia://card/131\">Sea Whiz Mount</a>), then both Cyber Bunny and the bunny underneath are affected equally (whether they were the direct target of the weapon or within the weapon’s range). If the weapon wanders from one bunny to another (such as <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then Cyber Bunny will roll before the bunny underneath.<br><br>If Cyber Bunny has no viable bunny targets left in The Bunny Circle, then it is discarded. A bunny with <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> would be an example of a non-viable bunny target since it cannot be killed by Cyber Bunny. If Cyber Bunny is con ned to an area of The Bunny Circle by two or more Barriers and cannot reach a viable bunny target on the other side, then it is discarded. Keep in mind that Cyber Bunny is not a bunny. Cyber Bunny is an alien-enhanced killing machine. Cyber Bunny cannot be abducted by the Beyea Aliens (<a href=\"bunnypedia://card/49\">Area 51</a> and the <a href=\"bunnypedia://card/299\">Mothership</a>). They are the ones who sent him to Earth in the first place."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733>\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
+    ]
   },
   {
     "id": 55,
     "deck": "BLUE",
     "title": "Defector Detector",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny. All players roll a die. The highest roller takes the bunny. The player may re-roll the die."},
+      {"title": "Additional Rules", "text": "The player who played Defector Detector may re-roll the die if he does not like his  rst roll. If two players tie for the highest roll, then both players must roll the 12-sided die again (and keep rolling) until the tie is broken."},
+      {"title": "Heavenly Halo", "text": "Defector Detector is one of the few cards which can be used to take a bunny wearing <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>"},
+      {"title": "The Magic Spatula", "text": "<a href=\"bunnypedia://card/80\">The Magic Spatula</a> can be used to eliminate Defector Detector."}
+    ]
   },
   {
     "id": 56,
     "deck": "BLUE",
     "title": "Drought",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once to force any player to immediately lose all of his Water Units."},
+      {"title": "Additional Rules", "text": "The player also loses any Water Vouchers that he may have been saving."},
+      {"title": "Noah's Flood", "text": "<a href=\"bunnypedia://card/148\">Noah's Flood</a> can be used to counteract Drought."}
+    ]
   },
   {
     "id": 57,
     "deck": "BLUE",
     "title": "Free Agent",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player as a bunny of any kind and any color (except Red or Pink)."},
+      {"title": "Additional Rules", "text": "Free Agent bunny may be used by a player as any bunny of any kind (Congenial, Gleeful, Lumbering, Sinister or Timid) and any color (except Red or Pink). The identity of the bunny may change at any time during play as the need arises. Free Agent bunnies make forming a Bunny Triplet much easier. Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies."}
+    ]
   },
   {
     "id": 58,
     "deck": "BLUE",
     "title": "The Heavenly Halo",
     "type": "VERY_SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny and protects it form all harm, hunger, misfortune and abduction. A bunny with The Heavenly Halo may, however, defect, be auctioned, be exchanged, or gambled."},
+      {"title": "Additional Rules", "text": "Once assigned to a bunny, The Heavenly Halo cannot be moved to another bunny. If the bunny with The Heavenly Halo changes owners, then the Halo goes with it. If a player runs The Heavenly Halo card but has no bunny in The Bunny Circle, then he may either place it on any opponent’s bunny in The Bunny Circle or simply discard the card.<br><br>The Heavenly Halo is a Modifier card, and by itself is not a bunny. The Heavenly Halo protects any one bunny from all harm (Weapons), hunger (<a href=\"bunnypedia://card/21\">Feed The Bunny</a> or <a href=\"bunnypedia://card/127\">Gorge The Bunny</a>), misfortune (Terrible) and abduction (<a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>). A bunny with The Heavenly Halo may, however, defect (<a href=\"bunnypedia://card/55\">Defector Detector</a>), be auctioned (<a href=\"bunnypedia://card/135\">Bunny Block Bid</a>), be exchanged (<a href=\"bunnypedia://card/240\">Bunny Exchange</a>) or gambled (<a href=\"bunnypedia://card/65\">Poverty Poker</a>).<br><br>If a player’s only bunny has The Heavenly Halo, then he may not play any Aggressive cards (cards that have a Pink rectangular box). Remember that Choose A Carrot cards are not Aggressive cards even though they have the Pink rectangular box."}
+    ]
   },
   {
     "id": 59,
     "deck": "BLUE",
-    "title": "Single Lucky Clover",
+    "title": "Kaballa’s Market – 4/5",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Reopens the store. New prices:<br>4 Dolla - for each Cabbage Card<br>5 Dolla - for each Water Card<br>10 Dolla - for each Carrot"}
+    ]
   },
   {
     "id": 60,
     "deck": "BLUE",
-    "title": "Double Lucky Clover",
+    "title": "Kaballa’s Market – Closed",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "CLOSED. Players may still take <a href=\"bunnypedia://card/16\">Carrots using Choose A Carrot</a> cards."}
+    ]
   },
   {
     "id": 61,
     "deck": "BLUE",
-    "title": "Triple Lucky Clover",
+    "title": "Single Lucky Clover",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Single lowers the level of any weapon by one."},
+      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
+      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+    ]
   },
   {
     "id": 62,
     "deck": "BLUE",
-    "title": "Kaballa’s Market – 4/5",
+    "title": "Double Lucky Clover",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Double lowers the level of any weapon by two."},
+      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
+      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+    ]
   },
   {
     "id": 63,
     "deck": "BLUE",
-    "title": "Kaballa’s Market – Closed",
+    "title": "Triple Lucky Clover",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Triple lowers the level of any weapon by three."},
+      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
+      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+    ]
   },
   {
     "id": 64,
     "deck": "BLUE",
     "title": "Maggots",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once to force any player to immediately lose all of his Cabbage Units."},
+      {"title": "Additional Rules", "text": "The player also loses any Cabbage Vouchers that he may have been saving."},
+      {"title": "Bug Off!", "text": "<a href=\"bunnypedia://card/145\">Bug Off!</a> can be used to counteract Maggots."}
+    ]
   },
   {
     "id": 65,
     "deck": "BLUE",
     "title": "Poverty Poker",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "Allows player to force his opponents to gamble for any number of objects. Everyone who can play must play. The highest roller takes all. The player may re-roll the die."},
+      {"title": "Additional Rules", "text": "The player who uses Poverty Poker must decide what the stakes will be for the gamble. Everyone who can play must play. For example, let’s pretend that a fictional player Carol decided to play Poverty Poker for 2 Kaballa Dolla and 1 Carrot. Each player with at least 2 Kaballa Dolla and 1 Carrot must play. All players involved in the gamble roll any one of the 12-sided dice. The highest roller takes all of the Kaballa Dolla and all of the Carrots. Of course Carol must participate in her own gamble.<br><br>The player who played Poverty Poker may re-roll the die if he does not like his  first roll. If two players tie for the highest roll, then both players must roll the 12-sided die again (and keep rolling) until the tie is broken.<br><br>If the stakes involve a Carrot or a bunny, then each opponent may choose which Carrot or bunny to risk. If the player’s stakes include a bunny and an opponent’s only bunny has <a href=\"bunnypedia://card/58\"</a>The Heavenly Halo</a>, then he must risk the bunny."}
+
+    ]
   },
   {
     "id": 66,
     "deck": "BLUE",
     "title": "Carrot Top Casino",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
+    "pawn": "GREEN",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle.<ul><li>If all of the dice show different numbers then the player may choose a carrot from Kaballa's Market and take 7 Dolla from the Discard Pile.</li><li>If any two dice show the same number then feed the bunny 1 Cabbage Unit and 1 Water Unit.</li><li>If any three dice show the same number then the bunny is snuffed by the casino bosses.</li></ul>"},
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn."}
+    ]
   },
   {
     "id": 67,
+    "canonicalId": 66,
     "deck": "BLUE",
     "title": "Carrot Top Casino",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
+    "pawn": "GREEN",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle.<ul><li>If all of the dice show different numbers then the player may choose a carrot from Kaballa's Market and take 7 Dolla from the Discard Pile.</li><li>If any two dice show the same number then feed the bunny 1 Cabbage Unit and 1 Water Unit.</li><li>If any three dice show the same number then the bunny is snuffed by the casino bosses.</li></ul>"},
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn."}
+    ]
   },
   {
     "id": 68,
     "deck": "BLUE",
     "title": "Free Cabbage",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to take two Cabbage Cards from Kaballa's Market."},
+      {"title": "Additional Rules", "text": "Free Cabbage may not be used if Kaballa’s Market is closed."}
+    ]
   },
   {
     "id": 69,
     "deck": "BLUE",
     "title": "Free Water",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to take two Water Cards from Kaballa's Market."},
+      {"title": "Additional Rules", "text": "Free Water may not be used if Kaballa’s Market is closed."}
+    ]
   },
   {
     "id": 70,
     "deck": "BLUE",
     "title": "Geneva Convention",
     "type": "RUN",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once to force any one player to discard all of the Weapon cards in his five-card hand. Bottom and Top Run cards are not affected."}
+    ]
   },
   {
     "id": 71,
     "deck": "BLUE",
     "title": "Half Price Coupon (Kaballa’s Market)",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used for one turn by a player to purchase any items from Kaballa's Market for half price."},
+      {"title": "Additional Rules", "text": "If the total price of an item or items requires a Half Dolla and no Half Dolla is available, then the player must round up to the nearest Dolla."}
+    ]
   },
   {
     "id": 72,
@@ -697,43 +833,74 @@
     "bunnyRequirement": "NO",
     "pawn": "VIOLET",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to feed the bunny. One bunny is fed any amounts of Cabbage Units and Water Units."}
+      {"title": "Card Text", "text": "May be used once by a player to feed the bunny. One bunny is fed any amounts of Cabbage Units and Water Units."},
+      {"title": "Strawberry Tart", "text": "The Large Prune Danish can be transformed into a <a href=\"bunnypedia://card/657\">Strawberry Tart</a> which may only be used to feed Red, half-Red and Pink bunnies."}
     ]
   },
   {
     "id": 73,
+    "canonicalId": 72,
     "deck": "BLUE",
     "title": "Large Prune Danish",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "pawn": "VIOLET",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to feed the bunny. One bunny is fed any amounts of Cabbage Units and Water Units."},
+      {"title": "Strawberry Tart", "text": "The Large Prune Danish can be transformed into a <a href=\"bunnypedia://card/657\">Strawberry Tart</a> which may only be used to feed Red, half-Red and Pink bunnies."}
+    ]
   },
   {
     "id": 74,
     "deck": "BLUE",
     "title": "The Mad, Mad Donnelaith Bakery",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "pawn": "RED",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle<br>10-11-12 = Choose a Carrot from Kaballa's Market<br>7-8-9 = Take one Cabbage Card and one Water Card<br>4-5-6 = Feed the bunny 1 Cabbage Unit and 1 Water Unit<br>2-3 = The bunny gets whacked by the Mad Scotsman!<br>1 = A well-thrown pitchfork kills the bunny and adjacent bunnies!"},
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa’s Market (if the market is open)."}
+    ]
   },
   {
     "id": 75,
+    "canonicalId": 74,
     "deck": "BLUE",
     "title": "The Mad, Mad Donnelaith Bakery",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "pawn": "RED",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle<br>10-11-12 = Choose a Carrot from Kaballa's Market<br>7-8-9 = Take one Cabbage Card and one Water Card<br>4-5-6 = Feed the bunny 1 Cabbage Unit and 1 Water Unit<br>2-3 = The bunny gets whacked by the Mad Scotsman!<br>1 = A well-thrown pitchfork kills the bunny and adjacent bunnies!"},
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa’s Market (if the market is open)."}
+    ]
   },
   {
     "id": 76,
     "deck": "BLUE",
     "title": "The Magic Fountain",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
+    "pawn": "ORANGE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a number (1-12) and to roll the dice. The number of correct rolls is the number of bunnies a player may revive from the Discard Pile and immediately place in The Bunny Circle."},
+      {"title": "Super Bunnies", "text": "Super and semi-Super bunnies may not be brought back using The Magic Fountain."}
+    ]
   },
   {
     "id": 77,
+    "canonicalId": 76,
     "deck": "BLUE",
     "title": "The Magic Fountain",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
+    "pawn": "ORANGE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a number (1-12) and to roll the dice. The number of correct rolls is the number of bunnies a player may revive from the Discard Pile and immediately place in The Bunny Circle."},
+      {"title": "Super Bunnies", "text": "Super and semi-Super bunnies may not be brought back using The Magic Fountain."}
+    ]
   },
   {
     "id": 78,
@@ -742,62 +909,94 @@
     "type": "SPECIAL",
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
     "bunnyRequirement": "NO",
-    "pawn": "BLUE"
+    "pawn": "BLUE",
+    "rules": [
+      {"title": "Card Text", "text": "The color die that has the lowest roll is the supply taken by the player.<ul><li>Violet = A bunny</li><li>Orange = A Carrot</li><li>Green = A Cabbage Card</li><li>Yellow = 10 Dolla</li><li>Blue = A Water Card</li></ul>"},
+      {"title": "Additional Rules", "text": "Carrots, Cabbage Cards and Water Cards are taken from Kaballa’s Market (if the market is open). Bunnies and Dolla are taken from the Discard Pile if they are available."}
+    ]
   },
   {
     "id": 79,
+    "canonicalId": 78,
     "deck": "BLUE",
     "title": "Supplies Surprise",
     "type": "SPECIAL",
-    "canonicalId": 78,
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
     "bunnyRequirement": "NO",
-    "pawn": "BLUE"
+    "pawn": "BLUE",
+    "rules": [
+      {"title": "Card Text", "text": "The color die that has the lowest roll is the supply taken by the player.<ul><li>Violet = A bunny</li><li>Orange = A Carrot</li><li>Green = A Cabbage Card</li><li>Yellow = 10 Dolla</li><li>Blue = A Water Card</li></ul>"},
+      {"title": "Additional Rules", "text": "Carrots, Cabbage Cards and Water Cards are taken from Kaballa’s Market (if the market is open). Bunnies and Dolla are taken from the Discard Pile if they are available."}
+    ]
   },
   {
     "id": 80,
     "deck": "BLUE",
     "title": "The Magic Spatula",
     "type": "VERY_SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be once by a player to eliminate any weapon, Roaming Red Run<a href=\"bunnypedia://card/55\">Defector</a>, all <a href=\"bunnypedia://card/185\">Barriers</a>, <a href=\"bunnypedia://card/193\">The Mystery Urn</a>, <a href=\"bunnypedia://card/194\">Rainbo</a>, <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>, or <a href=\"bunnypedia://card/648\">Identity Crisis</a>. Or may be used once to prevent either an abduction or the draw of the Winning Zodiac sign. May be used at any time!"}
+    ]
   },
   {
     "id": 81,
     "deck": "BLUE",
     "title": "Rooney’s Reusables",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to re-use any of his weapons a second time during the same turn of play before it is discarded. May be used at any time!"},
+      {"title": "Additional Rules", "text": "If the weapon is <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>, then the player may re-use the weapon immediately after it is removed from play (which could be many turns away). It is possible that this could happen during another player’s turn.<br><br>Remember that <a href=\"bunnypedia://card/54\">Cyber Bunny</a> is not a weapon, and therefore cannot be re-used with Rooney’s Reusables."}
+    ]
   },
   {
     "id": 82,
     "deck": "BLUE",
     "title": "Sunny Day",
     "type": "VERY_SPECIAL",
-    "bunnyRequirement": "NO"
+    "bunnyRequirement": "NO",
+    "symbols": ["MYSTERIOUS_PLACE_BALL"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to eliminate all pending <a href=\"bunnypedia://card/24\">Feed The Bunny</a>, a href=\"bunnypedia://card/47\">The Ebola Virus</a>, a href=\"bunnypedia://card/291\">C.O.M.A.</a>, a href=\"bunnypedia://card/511\">Poison Cups</a>, and a href=\"bunnypedia://card/578\">Mad Bunny Disease</a>. Or may be exchanged once per game for a href=\"bunnypedia://card/430\">The White Stuff</a>. May be used at any time!"},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+    ]
   },
   {
     "id": 83,
     "deck": "BLUE",
     "title": "Terrible Misfortune – Fiat",
-    "type": "PLAY_IMMEDIATELY"
+    "type": "PLAY_IMMEDIATELY",
+    "rules": [
+      {"title": "Card Text", "text": "One of your bunnies is trapped in an old Fiat just before it is sent to a local junkyard compactor."}
+    ]
   },
   {
     "id": 84,
     "deck": "BLUE",
     "title": "Terrible Misfortune – Hedge",
-    "type": "PLAY_IMMEDIATELY"
+    "type": "PLAY_IMMEDIATELY",
+    "rules": [
+      {"title": "Card Text", "text": "One of your bunnies dies at the hands of an overzealous human with a power hedge clipper."}
+    ]
   },
   {
     "id": 85,
     "deck": "BLUE",
     "title": "Terrible Misfortune – Plutonium",
-    "type": "PLAY_IMMEDIATELY"
+    "type": "PLAY_IMMEDIATELY",
+    "rules": [
+      {"title": "Card Text", "text": "One of your bunnies is exposed to illegally buried Plutonium, loses its fur, convulses for a bit and dies."}
+    ]
   },
   {
     "id": 86,
     "deck": "BLUE",
     "title": "Terrible Misfortune – Yogurt",
-    "type": "PLAY_IMMEDIATELY"
+    "type": "PLAY_IMMEDIATELY",
+    "rules": [
+      {"title": "Card Text", "text": "One of your bunnies is turned into road pizza by a reckless yogurt delivery truck."}
+    ]
   },
   {
     "id": 87,

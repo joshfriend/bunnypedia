@@ -19,4 +19,20 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/pref_view_settings"
+        android:key="@string/pref_key_view_settings"
+        >
+
+        <ListPreference
+            android:key="@string/pref_key_view_type"
+            android:title="@string/pref_title_view_type"
+            android:summary="@string/pref_summary_view_type"
+            android:entries="@array/pref_all_view_type_names"
+            android:entryValues="@array/pref_all_view_type_values"
+            android:defaultValue="@string/pref_default_view_type"
+            />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

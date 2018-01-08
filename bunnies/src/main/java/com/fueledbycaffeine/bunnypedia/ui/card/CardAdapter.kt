@@ -8,9 +8,16 @@ import com.fueledbycaffeine.bunnypedia.database.Deck
 import org.jetbrains.anko.layoutInflater
 
 class CardAdapter(
+  viewType: CardViewType,
   private var allCards: List<Card>,
   private val onCardSelected: (Card) -> Unit
 ): RecyclerView.Adapter<CardViewHolder>() {
+
+  enum class CardViewType {
+    LIST,
+    GRID,
+    ;
+  }
 
   var shownDecks: Set<Deck> = Deck.values().toSet()
     set(value) {
@@ -22,12 +29,21 @@ class CardAdapter(
       field = value
       computeShownCards()
     }
+  var viewType: CardViewType = viewType
+    set(value) {
+      field = value
+      notifyDataSetChanged()
+    }
 
   private var shownCards: List<Card> = allCards
     set(value) {
       field = value
       notifyDataSetChanged()
     }
+
+  override fun getItemViewType(position: Int): Int {
+    return viewType.ordinal
+  }
 
   override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
     val card = shownCards[holder.adapterPosition]
@@ -36,9 +52,18 @@ class CardAdapter(
   }
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
+    val type = CardViewType.values()[viewType]
     val inflater = parent.context.layoutInflater
-    val view = inflater.inflate(R.layout.list_item_card, parent, false)
-    return CardViewHolder(view)
+    return when (type) {
+      CardViewType.LIST -> {
+        val view = inflater.inflate(R.layout.card_view_list_item, parent, false)
+        CardListViewHolder(view)
+      }
+      CardViewType.GRID -> {
+        val view = inflater.inflate(R.layout.card_view_grid_item, parent, false)
+        CardGridViewHolder(view)
+      }
+    }
   }
 
   override fun getItemCount(): Int {

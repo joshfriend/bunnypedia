@@ -5,15 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
+    android:clipToPadding="false"
     tools:context=".ui.card.CardDetailFragment"
     android:background="@color/background"
     >
 
     <android.support.design.widget.AppBarLayout
-        android:id="@+id/app_bar"
+        android:id="@+id/barLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fitsSystemWindows="true"
+        android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
         >
 
         <android.support.v7.widget.Toolbar
@@ -32,6 +34,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
+        android:clipToPadding="false"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         >
 
@@ -65,8 +69,9 @@
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/list_item_card"
-            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            tools:listitem="@layout/card_view_list_item"
+            android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
+            android:clipToPadding="false"
             android:scrollbars="vertical"
             app:fastScrollEnabled="true"
             app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"

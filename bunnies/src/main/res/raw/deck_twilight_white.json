@@ -507,7 +507,8 @@
         "rules": [
             {"title": "Card Text", "text": "The player with this card saved has exclusive use of the White die which may be rolled and substituted for the roll of any other 12-sided die any time during play. May be used once per card consequence."},
             {"title": "Additional Rules", "text": "Neither the <a href=\"bunnypedia://card/170\">Red Timid Bunny</a> nor the White Pawn will allow a re-roll of the White die."},
-            {"title": "White Party", "text": "<a href=\"bunnypedia://card/611\">White Party</a> may be used to steal the White Stuff."}
+            {"title": "White Party", "text": "<a href=\"bunnypedia://card/611\">White Party</a> may be used to steal the White Stuff."},
+            {"title": "Sunny Day", "text": "<a href=\"bunnypedia://card/82\">Sunny Day</a> may be exchanged for The White Stuff."}
         ]
     },
     {
