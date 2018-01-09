@@ -958,7 +958,7 @@
     "bunnyRequirement": "NO",
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate all pending <a href=\"bunnypedia://card/24\">Feed The Bunny</a>, a href=\"bunnypedia://card/47\">The Ebola Virus</a>, a href=\"bunnypedia://card/291\">C.O.M.A.</a>, a href=\"bunnypedia://card/511\">Poison Cups</a>, and a href=\"bunnypedia://card/578\">Mad Bunny Disease</a>. Or may be exchanged once per game for a href=\"bunnypedia://card/430\">The White Stuff</a>. May be used at any time!"},
+      {"title": "Card Text", "text": "May be used once by a player to eliminate all pending <a href=\"bunnypedia://card/24\">Feed The Bunny</a>, <a href=\"bunnypedia://card/47\">The Ebola Virus</a>, <a href=\"bunnypedia://card/291\">C.O.M.A.</a>, <a href=\"bunnypedia://card/511\">Poison Cups</a>, and <a href=\"bunnypedia://card/578\">Mad Bunny Disease</a>. Or may be exchanged once per game for <a href=\"bunnypedia://card/430\">The White Stuff</a>. May be used at any time!"},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },

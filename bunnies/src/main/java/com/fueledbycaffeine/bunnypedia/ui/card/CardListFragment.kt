@@ -11,6 +11,7 @@ import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.SearchView
 import android.view.*
+import android.widget.RelativeLayout
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.Card
 import com.fueledbycaffeine.bunnypedia.database.Database
@@ -28,6 +29,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import io.reactivex.rxkotlin.subscribeBy
 import kotlinx.android.synthetic.main.fragment_card_list.*
+import org.jetbrains.anko.alignParentEnd
 import org.jetbrains.anko.support.v4.defaultSharedPreferences
 import org.jetbrains.anko.support.v4.startActivity
 import org.jetbrains.anko.support.v4.startActivityForResult
@@ -118,6 +120,10 @@ class CardListFragment: Fragment() {
         recyclerView.paddingRight,
         recyclerView.paddingBottom + resources.navBarHeight
       )
+      val lp = RelativeLayout.LayoutParams(fastScroller.layoutParams)
+      lp.alignParentEnd()
+      lp.bottomMargin += resources.navBarHeight
+      fastScroller.layoutParams = lp
     }
 
     val frame = Rect()
@@ -136,6 +142,8 @@ class CardListFragment: Fragment() {
     recyclerView.adapter = adapter
     setupLayoutManager()
 
+    fastScroller.setRecyclerView(recyclerView)
+
     database.getAllCards()
       .observeOn(AndroidSchedulers.mainThread())
       .subscribe { cards ->
@@ -144,6 +152,7 @@ class CardListFragment: Fragment() {
         loadingView.visibility = View.GONE
         recyclerView.visibility = View.VISIBLE
         recyclerView.adapter = adapter
+        fastScroller.setRecyclerView(recyclerView)
       }
   }
 

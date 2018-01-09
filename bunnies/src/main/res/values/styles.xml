@@ -24,4 +24,9 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark"/>
 
+    <style name="FastScrollBubbleText" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">26dp</item>
+    </style>
+
 </resources>

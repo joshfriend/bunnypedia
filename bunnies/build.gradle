@@ -58,6 +58,7 @@ dependencies {
     implementation "com.squareup.moshi:moshi-kotlin:1.5.0"
     implementation 'com.squareup.picasso:picasso:3.0.0-SNAPSHOT'
     implementation "me.saket:better-link-movement-method:2"
+    implementation 'com.futuremind.recyclerfastscroll:fastscroll:0.2.5'
 
     // Logging
     implementation 'com.jakewharton.timber:timber:4.6.0'

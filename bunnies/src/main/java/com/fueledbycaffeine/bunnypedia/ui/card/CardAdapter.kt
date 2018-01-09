@@ -5,13 +5,14 @@ import android.view.ViewGroup
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.Card
 import com.fueledbycaffeine.bunnypedia.database.Deck
+import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
 import org.jetbrains.anko.layoutInflater
 
 class CardAdapter(
   viewType: CardViewType,
   private var allCards: List<Card>,
   private val onCardSelected: (Card) -> Unit
-): RecyclerView.Adapter<CardViewHolder>() {
+): RecyclerView.Adapter<CardViewHolder>(), SectionTitleProvider {
 
   enum class CardViewType {
     LIST,
@@ -68,6 +69,11 @@ class CardAdapter(
 
   override fun getItemCount(): Int {
     return shownCards.size
+  }
+
+  override fun getSectionTitle(position: Int): String {
+    val card = allCards[position]
+    return card.id.toString()
   }
 
   private fun computeShownCards() {

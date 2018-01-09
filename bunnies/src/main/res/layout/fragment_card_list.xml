@@ -65,22 +65,35 @@
 
         </LinearLayout>
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerView"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/card_view_list_item"
             android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
             android:clipToPadding="false"
-            android:scrollbars="vertical"
-            app:fastScrollEnabled="true"
-            app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
-            app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
-            app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
-            app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
-            android:visibility="gone"
-            tools:visibility="visible"
-            />
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/card_view_list_item"
+                android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
+                android:clipToPadding="false"
+                android:visibility="gone"
+                tools:visibility="visible"
+                />
+
+            <com.futuremind.recyclerviewfastscroll.FastScroller
+                android:id="@+id/fastScroller"
+                android:orientation="vertical"
+                android:layout_marginEnd="-8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                app:fastscroll__bubbleTextAppearance="@style/FastScrollBubbleText"
+                />
+
+        </RelativeLayout>
 
     </RelativeLayout>
 
