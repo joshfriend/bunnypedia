@@ -1,14 +1,17 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
+import android.support.v4.app.Fragment
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.Card
 import com.fueledbycaffeine.bunnypedia.database.Deck
+import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
 import org.jetbrains.anko.layoutInflater
 
 class CardAdapter(
+  val fragment: Fragment,
   viewType: CardViewType,
   private var allCards: List<Card>,
   private val onCardSelected: (Card) -> Unit
@@ -48,7 +51,10 @@ class CardAdapter(
 
   override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
     val card = shownCards[holder.adapterPosition]
-    holder.bind(card)
+    when (holder) {
+      is CardGridViewHolder -> holder.bind(GlideApp.with(fragment), card)
+      else -> holder.bind(card)
+    }
     holder.itemView.setOnClickListener { onCardSelected(card) }
   }
 

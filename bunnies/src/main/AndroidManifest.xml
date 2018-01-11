@@ -3,6 +3,8 @@
           package="com.fueledbycaffeine.bunnypedia"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".injection.App"
         android:allowBackup="true"
@@ -13,6 +15,11 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="7c15a90e316b94fd0281837b3feb1f0aca5e19e4"
+            />
+
         <activity
             android:name=".ui.MainActivity"
             android:theme="@style/AppTheme.Fullscreen"
@@ -20,11 +27,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
-                <!--<action android:name="android.intent.action.SEARCH" />-->
             </intent-filter>
-            <!--<meta-data-->
-                <!--android:name="android.app.searchable"-->
-                <!--android:resource="@xml/searchable" />-->
         </activity>
 
         <activity

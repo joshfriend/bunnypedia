@@ -4,7 +4,10 @@ import android.app.Application
 import android.os.Build
 import android.os.StrictMode
 import android.support.v7.app.AppCompatDelegate
+import com.crashlytics.android.Crashlytics
 import com.fueledbycaffeine.bunnypedia.BuildConfig
+import io.fabric.sdk.android.Fabric
+import net.danlew.android.joda.JodaTimeAndroid
 import timber.log.Timber
 
 class App: Application() {
@@ -24,11 +27,14 @@ class App: Application() {
   override fun onCreate() {
     super.onCreate()
 
+    Fabric.with(this, Crashlytics())
+
     graph = DaggerAppComponent.builder()
       .androidModule(AndroidModule(this))
       .build()
     graph.inject(this)
 
+    JodaTimeAndroid.init(this)
     Timber.plant(Timber.DebugTree())
 
     if (BuildConfig.DEBUG) {

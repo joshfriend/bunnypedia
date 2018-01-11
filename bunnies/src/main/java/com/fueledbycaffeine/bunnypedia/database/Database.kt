@@ -3,8 +3,6 @@
 package com.fueledbycaffeine.bunnypedia.database
 
 import android.content.Context
-import com.fueledbycaffeine.bunnypedia.R
-import com.squareup.moshi.JsonDataException
 import com.squareup.moshi.KotlinJsonAdapterFactory
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
@@ -33,29 +31,7 @@ class Database(context: Context) {
     }
   }
 
-//  private val cards: List<Card>
-//
-//  init {
-//    val json = context.resources.openRawResource(R.raw.cards).use { stream ->
-//      val reader = BufferedReader(InputStreamReader(stream))
-//      reader.readText()
-//    }
-//
-//    cards = adapter.fromJson(json)!!
-//  }
-//
-//  val allCards: List<Card> get() { return cards }
-//
-//  fun getCard(id: Int): Card? {
-//    val index = cards.binarySearch { it.id.compareTo(id) }
-//    return if (index < 0) {
-//      null
-//    } else {
-//      cards[index]
-//    }
-//  }
-
-  val cardsSubject = BehaviorSubject.createDefault(emptyList<Card>())
+  private val cardsSubject = BehaviorSubject.createDefault(emptyList<Card>())
 
   init {
     readData(context)
@@ -108,7 +84,7 @@ class Database(context: Context) {
       start = now().millis
       val cards = adapter.fromJson(json)!!
       end = now().millis
-      Timber.d("Deck ${deck.name} read: ${end - start}ms")
+      Timber.d("Deck ${deck.name} parse: ${end - start}ms")
       cards
     } catch (e: Exception) {
       throw UnreadableDeck(deck, e)

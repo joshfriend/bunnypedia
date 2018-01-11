@@ -14,10 +14,9 @@ import android.widget.ImageView
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.*
 import com.fueledbycaffeine.bunnypedia.injection.App
+import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import com.google.android.flexbox.FlexboxLayout
-import com.squareup.picasso.Callback
-import com.squareup.picasso.Picasso
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import kotlinx.android.synthetic.main.card_hero_details.*
@@ -118,16 +117,10 @@ class CardDetailFragment: Fragment() {
       .addTo(subscribers)
     recyclerView.adapter = adapter
 
-    Picasso.get()
+    GlideApp.with(this)
       .load(card.imageURI)
-      .fit()
-      .into(cardThumbnail, object: Callback {
-        override fun onSuccess() {}
-
-        override fun onError(e: Exception) {
-          Timber.e(e, "Unable to load image")
-        }
-      })
+      .centerCrop()
+      .into(cardThumbnail)
 
     if (card.dice.isNotEmpty()) {
       setupDiceInfo(card.dice)

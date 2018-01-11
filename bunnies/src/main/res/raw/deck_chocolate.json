@@ -90,7 +90,8 @@
     "specialSeries": "OMEGA",
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to take The Magic Spatula or any Magic Fountain fromt he Discard Pile which may be used immediately or saved."}
+      {"title": "Card Text", "text": "May be used once by a player to take The Magic Spatula or any Magic Fountain from the Discard Pile which may be used immediately or saved."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },
   {

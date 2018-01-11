@@ -95,7 +95,7 @@
         "specialSeries": "THETA",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://card/137\">Carrot Thief</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
         ]
     },
@@ -106,7 +106,7 @@
         "specialSeries": "THETA",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://card/137\">Carrot Thief</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
         ]
     },
@@ -506,7 +506,8 @@
         "bunnyRequirement": "NO",
         "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
-            {"title": "Card Text", "text": "The player with this card saved may immediately replace any Zero Value small card with a new one from the draw pile (if any exist)."}
+            {"title": "Card Text", "text": "The player with this card saved may immediately replace any Zero Value small card with a new one from the draw pile (if any exist)."},
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
         ]
     },
     {
@@ -536,7 +537,9 @@
         "deck": "FANTASTIC",
         "type": "PLAY_IMMEDIATELY",
         "rules": [
-            {"title": "Card Text", "text": "During a freak thunderstorm near a clocktower at exactly 10:04pm, one of your bunnies is struck by a bolt of lightning!"}
+            {"title": "Card Text", "text": "During a freak thunderstorm near a clocktower at exactly 10:04pm, one of your bunnies is struck by a bolt of lightning!"},
+            {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+            {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
         ]
     },
     {
@@ -570,7 +573,7 @@
         "deck": "FANTASTIC",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://card/137\">Carrot Thief</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
         ]
     },
@@ -580,7 +583,7 @@
         "deck": "FANTASTIC",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://card/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://card/744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://card/137\">Carrot Thief</a>, or <a href=\"bunnypedia://card/243\">Low Jack Kojak</a>"},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://card/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot"}
         ]
     },

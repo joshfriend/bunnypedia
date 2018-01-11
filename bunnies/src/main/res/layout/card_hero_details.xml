@@ -21,7 +21,7 @@
             android:id="@+id/cardThumbnail"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
+            android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/card_0048"

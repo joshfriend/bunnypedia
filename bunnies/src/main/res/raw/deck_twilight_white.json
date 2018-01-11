@@ -126,7 +126,8 @@
         "weaponLevel": "17",
         "dice": ["CLEAR"],
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 01 to survive."}
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 17 to survive."},
+            {"title": "Containment Suit", "text": "The <a href=\"bunnypedia://card/151\">Containment Suit</a> will protect a bunny against Plant Spores."}
         ]
     },
     {
@@ -162,7 +163,7 @@
         "weaponLevel": "20",
         "dice": ["CLEAR"],
         "rules": [
-            {"title": "Card Text", "text": "Before playing Psychic Waves on any opponent's bunny the player must secretly write down one of the six Symbols. If the opponent guesses the incorrect Symbol then his bunny dies (Clover bunnies may survive). Psychic Waves is then placed on the next bunny clockwise and the process is repeated."},
+            {"title": "Card Text", "text": "Before playing Psychic Waves on any opponent's bunny the player must secretly write down one of the six Symbols. If the opponent guesses the incorrect Symbol then his bunny dies (<a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive). Psychic Waves is then placed on the next bunny clockwise and the process is repeated."},
             {"title": "Additional Rules", "text": "Before playing Psychic Waves on any opponent’s bunny in The Bunny Circle, the player must secretly write down one of the six Symbols (Triangle, Rectangle, Spiral, Ellipse, Star or Cross) on a piece of paper hidden from all of the other players.<br><br>The opponent whose bunny was targeted by Psychic Waves will try to guess the Symbol chosen by the player. If the opponent guesses the incorrect Symbol, then his bunny dies. Clover bunnies (bunnies with Clover cards underneath them) may survive since Clovers lower the level of an attacking weapon.<br><br>Psychic Waves is then placed on the next bunny clockwise in The Bunny Circle and the process is repeated. This continues up to five times, or until the correct Symbol is guessed. Obviously as Psychic Waves continues, it becomes easier to guess the Symbol with fewer choices.<br><br>Psychic Waves is played during one player’s turn, and no <a href=\"bunnypedia://card/185\">Barrier</a> can stop Psychic Waves."}
         ]
     },
@@ -526,7 +527,9 @@
         "deck": "TWILIGHT_WHITE",
         "type": "PLAY_IMMEDIATELY",
         "rules": [
-            {"title": "Card Text", "text": "One of your bunnies attempts bungee jumping but measures the length of the cord incorrectly. Too much slack!"}
+            {"title": "Card Text", "text": "One of your bunnies attempts bungee jumping but measures the length of the cord incorrectly. Too much slack!"},
+            {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+            {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
         ]
     },
     {

@@ -2,6 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'io.fabric'
+apply plugin: 'io.fabric'
 
 androidExtensions {
     experimental = true
@@ -9,6 +11,7 @@ androidExtensions {
 
 android {
     compileSdkVersion 27
+
     defaultConfig {
         applicationId "com.fueledbycaffeine.bunnypedia"
         minSdkVersion 23
@@ -18,12 +21,39 @@ android {
 
         multiDexEnabled true
     }
-    buildTypes {
+
+    dexOptions {
+        preDexLibraries true
+    }
+
+    signingConfigs {
         release {
-            minifyEnabled false
+            def password = getPassword(defaultConfig.applicationId)
+            storeFile file("$rootProject.projectDir/bunnypedia.jks")
+            storePassword password
+            keyAlias 'bunnypedia'
+            keyPassword password
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix '.debug'
+        }
+        release {
+            signingConfig signingConfigs.release
+
+            minifyEnabled true
+            debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+repositories {
+    jcenter()
+    google()
+    maven { url 'https://maven.fabric.io/public' }
 }
 
 dependencies {
@@ -40,7 +70,6 @@ dependencies {
     def archComponentsVersion = "1.0.0"
     implementation "android.arch.lifecycle:runtime:$archComponentsVersion"
     implementation "android.arch.lifecycle:extensions:$archComponentsVersion"
-    kapt "android.arch.lifecycle:compiler:$archComponentsVersion"
 
     // Dependency injection
     def daggerVersion = "2.12"
@@ -55,8 +84,10 @@ dependencies {
     implementation "com.jakewharton.rxbinding2:rxbinding-kotlin:$rxBindingVersion"
     implementation "com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:$rxBindingVersion"
 
+    def glideVersion = '4.5.0'
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    kapt "com.github.bumptech.glide:compiler:$glideVersion"
     implementation "com.squareup.moshi:moshi-kotlin:1.5.0"
-    implementation 'com.squareup.picasso:picasso:3.0.0-SNAPSHOT'
     implementation "me.saket:better-link-movement-method:2"
     implementation 'com.futuremind.recyclerfastscroll:fastscroll:0.2.5'
 
@@ -73,4 +104,21 @@ dependencies {
     implementation "org.jetbrains.anko:anko-sdk23:$ankoVersion"
     implementation "org.jetbrains.anko:anko-support-v4-commons:$ankoVersion"
     implementation "org.jetbrains.anko:anko-appcompat-v7-commons:$ankoVersion"
+
+    implementation('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
+        transitive = true
+    }
+}
+
+def getPassword(String item) {
+    def stdout = new ByteArrayOutputStream()
+    def stderr = new ByteArrayOutputStream()
+    exec {
+        commandLine 'security', '-q', 'find-generic-password', '-s', item, '-w'
+        standardOutput = stdout
+        errorOutput = stderr
+        ignoreExitValue true
+    }
+    //noinspection GroovyAssignabilityCheck
+    stdout.toString().trim()
 }

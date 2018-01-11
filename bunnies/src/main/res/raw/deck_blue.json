@@ -461,7 +461,8 @@
     "bunnyRequirement": "PLAY",
     "weaponLevel": "8",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 8 to survive."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 8 to survive."},
+      {"title": "Noah's Flood", "text": "<a href=\"bunnypedia://card/148\">Noah's Flood</a> can be used to counteract the Flame Thrower."}
     ]
   },
   {
@@ -541,7 +542,7 @@
     "bunnyRequirement": "PLAY",
     "weaponLevel": "12",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny. All bunnies within two spaces are also killed. Clover bunnies may survive"},
+      {"title": "Card Text", "text": "May be placed on any bunny. All bunnies within two spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive"},
       {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Nuclear Warhead."},
       {"title": "Holographic Bunny", "text": "The Nuclear Warhead can be used to kill the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
     ]
@@ -655,7 +656,8 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player as a bunny of any kind and any color (except Red or Pink)."},
-      {"title": "Additional Rules", "text": "Free Agent bunny may be used by a player as any bunny of any kind (Congenial, Gleeful, Lumbering, Sinister or Timid) and any color (except Red or Pink). The identity of the bunny may change at any time during play as the need arises. Free Agent bunnies make forming a Bunny Triplet much easier. Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies."}
+      {"title": "Additional Rules", "text": "Free Agent bunny may be used by a player as any bunny of any kind (Congenial, Gleeful, Lumbering, Sinister or Timid) and any color (except Red or Pink). The identity of the bunny may change at any time during play as the need arises. Free Agent bunnies make forming a Bunny Triplet much easier. Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies."},
+      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://card/407\">Cloned</a>"}
     ]
   },
   {
@@ -968,7 +970,9 @@
     "title": "Terrible Misfortune – Fiat",
     "type": "PLAY_IMMEDIATELY",
     "rules": [
-      {"title": "Card Text", "text": "One of your bunnies is trapped in an old Fiat just before it is sent to a local junkyard compactor."}
+      {"title": "Card Text", "text": "One of your bunnies is trapped in an old Fiat just before it is sent to a local junkyard compactor."},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
     ]
   },
   {
@@ -977,7 +981,9 @@
     "title": "Terrible Misfortune – Hedge",
     "type": "PLAY_IMMEDIATELY",
     "rules": [
-      {"title": "Card Text", "text": "One of your bunnies dies at the hands of an overzealous human with a power hedge clipper."}
+      {"title": "Card Text", "text": "One of your bunnies dies at the hands of an overzealous human with a power hedge clipper."},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
     ]
   },
   {
@@ -986,7 +992,9 @@
     "title": "Terrible Misfortune – Plutonium",
     "type": "PLAY_IMMEDIATELY",
     "rules": [
-      {"title": "Card Text", "text": "One of your bunnies is exposed to illegally buried Plutonium, loses its fur, convulses for a bit and dies."}
+      {"title": "Card Text", "text": "One of your bunnies is exposed to illegally buried Plutonium, loses its fur, convulses for a bit and dies."},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
     ]
   },
   {
@@ -995,7 +1003,9 @@
     "title": "Terrible Misfortune – Yogurt",
     "type": "PLAY_IMMEDIATELY",
     "rules": [
-      {"title": "Card Text", "text": "One of your bunnies is turned into road pizza by a reckless yogurt delivery truck."}
+      {"title": "Card Text", "text": "One of your bunnies is turned into road pizza by a reckless yogurt delivery truck."},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
     ]
   },
   {

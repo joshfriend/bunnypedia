@@ -138,7 +138,8 @@ class CardListFragment: Fragment() {
       )
     }
 
-    adapter = CardAdapter(viewType, emptyList(), this::onCardSelected)
+    // TODO: https://github.com/bumptech/glide/tree/master/integration/recyclerview
+    adapter = CardAdapter(this, viewType, emptyList(), this::onCardSelected)
     recyclerView.adapter = adapter
     setupLayoutManager()
 
@@ -147,7 +148,7 @@ class CardListFragment: Fragment() {
     database.getAllCards()
       .observeOn(AndroidSchedulers.mainThread())
       .subscribe { cards ->
-        adapter = CardAdapter(viewType, cards, this::onCardSelected)
+        adapter = CardAdapter(this, viewType, cards, this::onCardSelected)
         adapter.shownDecks = getAvailableDecks()
         loadingView.visibility = View.GONE
         recyclerView.visibility = View.VISIBLE
