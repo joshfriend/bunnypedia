@@ -257,7 +257,8 @@
     "bunnyRequirement": "PLAY",
     "weaponLevel": "12",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within three spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive."}
+      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within three spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive."},
+      {"title": "Paradise Syndrome", "text": "<a href=\"bunnypedia://card/528\">Paradise Syndrome</a> can be used to eliminate the Stray Asteroid if it is a saved Special."}
     ]
   },
   {
@@ -483,6 +484,7 @@
     "deck": "YELLOW",
     "title": "Terrible Misfortune – BBQ",
     "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies is smothered in barbecue sauce, bound to a stick and slowly cooked for a Hillbilly Hoe Down!"},
       {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
@@ -495,6 +497,7 @@
     "deck": "YELLOW",
     "title": "Terrible Misfortune – Lawn Dart",
     "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies impaled by a stray lawn dart during a family outing."},

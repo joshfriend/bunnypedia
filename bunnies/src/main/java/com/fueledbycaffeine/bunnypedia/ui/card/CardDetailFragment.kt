@@ -13,6 +13,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.*
+import com.fueledbycaffeine.bunnypedia.database.model.*
 import com.fueledbycaffeine.bunnypedia.injection.App
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
@@ -59,7 +60,11 @@ class CardDetailFragment: Fragment() {
     val activity = activity ?: return
     if (activity is AppCompatActivity) {
       activity.setSupportActionBar(toolbar)
-      activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
+      activity.supportActionBar?.apply {
+        setDisplayHomeAsUpEnabled(true)
+        title = cardArgument.title
+        subtitle = "${String.format("#%04d", cardArgument.id)} – ${getString(cardArgument.deck.description)}"
+      }
     }
 
     val deckColor = ContextCompat.getColor(activity, cardArgument.deck.color)
@@ -97,8 +102,6 @@ class CardDetailFragment: Fragment() {
   }
 
   private fun bind(card: Card) {
-    toolbar.title = card.title
-    toolbar.subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
     cardType.text = getString(card.type.description)
 
     val adapter = RuleSectionAdapter(card.rules)

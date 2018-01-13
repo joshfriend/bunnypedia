@@ -526,6 +526,7 @@
         "title": "Terrible Misfortune - Bungee",
         "deck": "TWILIGHT_WHITE",
         "type": "PLAY_IMMEDIATELY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "One of your bunnies attempts bungee jumping but measures the length of the cord incorrectly. Too much slack!"},
             {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},

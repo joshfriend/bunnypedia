@@ -13,9 +13,9 @@ import android.support.v7.widget.SearchView
 import android.view.*
 import android.widget.RelativeLayout
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.Card
+import com.fueledbycaffeine.bunnypedia.database.model.Card
 import com.fueledbycaffeine.bunnypedia.database.Database
-import com.fueledbycaffeine.bunnypedia.database.Deck
+import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import com.fueledbycaffeine.bunnypedia.ext.android.hasNavBar
 import com.fueledbycaffeine.bunnypedia.ext.android.isTablet
 import com.fueledbycaffeine.bunnypedia.ext.android.navBarHeight
@@ -77,7 +77,10 @@ class CardListFragment: Fragment() {
     val queryEvents = search.queryTextChangeEvents().share()
 
     queryEvents.map { it.queryText().toString().trim() }
-      .subscribeBy(onNext = { adapter.query = it })
+      .subscribeBy(onNext = {
+        Timber.i("Search query changed: $it")
+        adapter.query = it
+      })
       .addTo(this.optionsMenuSubscribers)
 
     queryEvents.filter { it.isSubmitted }
@@ -154,6 +157,7 @@ class CardListFragment: Fragment() {
         recyclerView.visibility = View.VISIBLE
         recyclerView.adapter = adapter
         fastScroller.setRecyclerView(recyclerView)
+        Timber.w("Cards loaded")
       }
   }
 

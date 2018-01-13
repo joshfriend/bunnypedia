@@ -1,4 +1,4 @@
-package com.fueledbycaffeine.bunnypedia.database
+package com.fueledbycaffeine.bunnypedia.database.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

@@ -4,11 +4,12 @@ import android.support.v4.app.Fragment
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.Card
-import com.fueledbycaffeine.bunnypedia.database.Deck
+import com.fueledbycaffeine.bunnypedia.database.model.Card
+import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
 import org.jetbrains.anko.layoutInflater
+import timber.log.Timber
 
 class CardAdapter(
   val fragment: Fragment,

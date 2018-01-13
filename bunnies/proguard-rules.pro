@@ -20,6 +20,9 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
+# Its open source, cmon
+-dontobfuscate
+
 ### OkHttp
 -dontwarn okhttp3.**
 -dontwarn okio.**
@@ -73,3 +76,4 @@
 -keep public class android.support.design.R$* { *; }
 
 -keepclassmembers enum com.fueledbycaffeine.bunnypedia.** { *; }
+-keep class com.fueledbycaffeine.bunnypedia.database.model.** { *; }

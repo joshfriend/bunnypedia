@@ -1,4 +1,4 @@
-package com.fueledbycaffeine.bunnypedia.database
+package com.fueledbycaffeine.bunnypedia.database.model
 
 import android.support.annotation.ColorRes
 import android.support.annotation.RawRes

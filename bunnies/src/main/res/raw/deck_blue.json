@@ -238,7 +238,7 @@
     "cabbage": 1,
     "water": 1,
     "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
   },
   {
@@ -251,7 +251,7 @@
     "cabbage": 2,
     "water": 1,
     "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
   },
   {
@@ -264,7 +264,7 @@
     "cabbage": 1,
     "water": 3,
     "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
   },
   {
@@ -277,7 +277,7 @@
     "cabbage": 3,
     "water": 1,
     "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
   },
   {
@@ -290,7 +290,7 @@
     "cabbage": 3,
     "water": 4,
     "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
   },
   {
@@ -303,7 +303,7 @@
     "cabbage": 5,
     "water": 4,
     "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
   },
   {
@@ -316,7 +316,7 @@
     "cabbage": 5,
     "water": 5,
     "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
   },
   {
@@ -557,6 +557,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."},
       {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733>\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
       {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
     ]
   },
@@ -571,6 +572,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."},
       {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733>\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
       {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
     ]
   },
@@ -767,7 +769,8 @@
     "pawn": "GREEN",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle.<ul><li>If all of the dice show different numbers then the player may choose a carrot from Kaballa's Market and take 7 Dolla from the Discard Pile.</li><li>If any two dice show the same number then feed the bunny 1 Cabbage Unit and 1 Water Unit.</li><li>If any three dice show the same number then the bunny is snuffed by the casino bosses.</li></ul>"},
-      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn."}
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn."},
+      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Casino may be stolen using <a href=\"bunnypedia://card/716\">Bunny's Eleven</a>"}
     ]
   },
   {
@@ -781,7 +784,8 @@
     "pawn": "GREEN",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle.<ul><li>If all of the dice show different numbers then the player may choose a carrot from Kaballa's Market and take 7 Dolla from the Discard Pile.</li><li>If any two dice show the same number then feed the bunny 1 Cabbage Unit and 1 Water Unit.</li><li>If any three dice show the same number then the bunny is snuffed by the casino bosses.</li></ul>"},
-      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn."}
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn."},
+      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Casino may be stolen using <a href=\"bunnypedia://card/716\">Bunny's Eleven</a>"}
     ]
   },
   {
@@ -969,6 +973,7 @@
     "deck": "BLUE",
     "title": "Terrible Misfortune – Fiat",
     "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies is trapped in an old Fiat just before it is sent to a local junkyard compactor."},
       {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
@@ -980,6 +985,7 @@
     "deck": "BLUE",
     "title": "Terrible Misfortune – Hedge",
     "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies dies at the hands of an overzealous human with a power hedge clipper."},
       {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
@@ -991,6 +997,7 @@
     "deck": "BLUE",
     "title": "Terrible Misfortune – Plutonium",
     "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies is exposed to illegally buried Plutonium, loses its fur, convulses for a bit and dies."},
       {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
@@ -1002,6 +1009,7 @@
     "deck": "BLUE",
     "title": "Terrible Misfortune – Yogurt",
     "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies is turned into road pizza by a reckless yogurt delivery truck."},
       {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},

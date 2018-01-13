@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView
 import android.text.util.Linkify
 import android.view.ViewGroup
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.RulesSection
+import com.fueledbycaffeine.bunnypedia.database.model.RulesSection
 import io.reactivex.subjects.PublishSubject
 import kotlinx.android.synthetic.main.list_item_rule_section.*
 import me.saket.bettermovementmethod.BetterLinkMovementMethod

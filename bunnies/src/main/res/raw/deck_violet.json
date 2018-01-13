@@ -457,6 +457,7 @@
         "title": "Terrible Misfortune - Waterfall",
         "deck": "VIOLET",
         "type": "PLAY_IMMEDIATELY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "One of your bunnies enthusiastically goes white water rafting but just a bit too far down stream!"},
             {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
@@ -468,6 +469,7 @@
         "title": "Terrible Misfortune - Grenade",
         "deck": "VIOLET",
         "type": "PLAY_IMMEDIATELY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "One of your bunnies pulls the pin of a grenade thinking it would make absolutely fabulous jewelry!"},
             {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},

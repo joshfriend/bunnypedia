@@ -1,4 +1,4 @@
-package com.fueledbycaffeine.bunnypedia.database
+package com.fueledbycaffeine.bunnypedia.database.model
 
 import android.content.Context
 import android.graphics.drawable.Drawable

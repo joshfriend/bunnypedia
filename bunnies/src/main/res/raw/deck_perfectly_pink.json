@@ -1,5 +1,106 @@
 [
   {
+    "id": 496,
+    "title": "Pink Congenial",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "This bunny may feed up to 5 Cabbage Units and 5 Water Units per turn. Supplies may not be saved to another turn."},
+      {"title": "Additional Rules", "text": "The 5 Cabbage Units and 5 Water Units are for the exclusive use of this bunny and may not be shared with other bunnies in The Bunny Circle."}
+    ]
+  },
+  {
+    "id": 497,
+    "title": "Pink Gleeful",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "The player with this bunny may spend 5 Dolla per turn at any open store. Dolla may not be saved to another turn."}
+    ]
+  },
+  {
+    "id": 498,
+    "title": "Pink Lumbering",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "This bunny has a Lucky Clover Quindruple which lowers the level of any weapon by five."}
+    ]
+  },
+  {
+    "id": 499,
+    "title": "Pink Sinister",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "This bunny is protected by a Bounce Away Force Field. Any weapon that directly targets this bunny but is not successful may be redirected onto any other bunny."}
+    ]
+  },
+  {
+    "id": 500,
+    "title": "Pink Timid",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "The player with this bunny saved may substitute the roll of the Pink die for any of his other rolls during play."},
+      {"title": "Additional Rules", "text": "The Pink 12-sided die may only be used once per any card consequence."}
+    ]
+  },
+  {
+    "id": 501,
+    "canonicalId": 16,
+    "title": "Choose A Carrot",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market."}
+    ]
+  },
+  {
+    "id": 502,
+    "canonicalId": 21,
+    "title": "Choose 2 Carrots",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market."}
+    ]
+  },
+  {
+    "id": 503,
+    "canonicalId": 125,
+    "title": "Feed The Bunny 4/5",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 4,
+    "water": 5,
+    "rules": [
+        {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": 504,
+    "title": "Feed All Your Bunnies 2/2",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 1,
+    "water": 1,
+    "rules": [
+        {"title": "Card Text", "text": "May be given to any opponent whose bunnies must each feed the amounts show above by the end of his next turn or die."}
+    ]
+  },
+  {
     "id": 505,
     "deck": "PERFECTLY_PINK",
     "title": "Everyone Feed a Bunny",
@@ -12,13 +113,432 @@
     "water": 2
   },
   {
+    "id": 506,
+    "title": "Twister",
+    "deck": "PERFECTLY_PINK",
+    "type": "ROAMING_RED_RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "14",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any single color bunny which must roll higher than 14 to survive. Once Twister has targeted a particular color of bunny, it will not target that color of bunny again. Twister continues by attacking one bunny per round of play clockwise around The Bunny Circle. If Twister has no more viable targets, then the storm is discarded."},
+      {"title": "Additional Rules", "text": "Specialty bunnies and Celebrity bunnies are never viable bunny targets. <a href=\"bunnypedia://card/57\">Free Agent</a> and <a href=\"bunnypedia://card/296\">Double Free Agent</a> bunnies may be targeted by Twister, but only as the initial target of the weapon. This is true because once Twister has targeted any color of bunny, a Free Agent may instantly become one of those colors and avoid becoming avilable bunny target. If the player does attack a Free Agent or Double Free Agent bunny as the first target, then the owner of the bunny must declare its color so that Twister cannot target another bunny of the same color.<br><br>If Twister has no more viable bunny targets in The Bunny Circle, then the storm dissipates and it is discarded. If Twister is contained within a section of The Bunny Circle by two Barriers, and that section contains no viable bunny targets, then Twister is also discarded. Use the colored Chips to keep track of the colors of the bunnies that Twister has already targeted."}
+    ]
+  },
+  {
+    "id": 507,
+    "title": "Leaky Tiki Torch",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "16",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 16 to survive."}
+    ]
+  },
+  {
+    "id": 508,
+    "title": "Wood Chipper",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "18",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 18 to survive."}
+    ]
+  },
+  {
+    "id": 509,
+    "title": "Necro Fasci",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "20",
+    "dice": ["CLEAR", "ZODIAC", "PINK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny. Roll the Pink die to determine the range of the weapon. If the Pink die roll is the same as the numerical value of the current month or if the zodiac sign rolled is the same as the current zodiac sign the no harm comes to any bunny and Necro Fasci is shuffled back into the Draw Pile."},
+      {"title": "Containment Suit", "text": "The <a href=\"bunnypedia://card/151\">Containment Suit</a> will protect a bunny against Necro Fasci."}
+    ]
+  },
+  {
+    "id": 510,
+    "title": "Fertile Turtle",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "50/50",
+    "dice": ["BLUE", "PINK"],
+    "pawn": "BLACK",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the boy (Blue) or the girl (Pink) roll to be the higher number."}
+    ]
+  },
+  {
+    "id": 511,
+    "title": "Poison Cups",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "50/50",
+    "dice": ["VIOLET", "PINK"],
+    "pawn": "BLACK",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the dark (Violet) or the light (Pink) poison roll to be the higher number."},
+      {"title": "Sunny Day", "text": "<a href=\"bunnypedia://card/82\">Sunny Day</a> may be used to eliminate Poison Cups."}
+    ]
+  },
+  {
+    "id": 512,
+    "title": "Bunny Gump Shrimp",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "Dated",
+    "dice": ["BLACK", "CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total"},
+      {"title": "Additional Rules", "text": "No bunny belonging to a player born on the 17th of any month can be attacked using a Dated Weapon."}
+    ]
+  },
+  {
+    "id": 513,
+    "title": "Vampire Bats",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "Dated",
+    "dice": ["BLACK", "CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total"},
+      {"title": "Additional Rules", "text": "No bunny belonging to a player born on the 17th of any month can be attacked using a Dated Weapon."},
+      {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://card/426\">Blue Angels</a> can be used to eliminate the Vampire Bats."}
+    ]
+  },
+  {
+    "id": 514,
+    "title": "Bitter’s End",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["ORANGE", "YELLOW", "PINK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to take all of the Enlisted bunnies in The Bunny Circle if the three dice total less than 10 or greater than 29."}
+    ]
+  },
+  {
+    "id": 515,
+    "title": "Blanch (Bunny Modifier)",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny and removes its color turning it into a <a href=\"bunnypedia://card/57\">Free Agent</a>. Red and Pink bunnies lose their special features"},
+      {"title": "Additional Rules", "text": "Blanch cannot not be used on Specialty bunnies, Super bunnies or Celebrity bunnies."}
+    ]
+  },
+  {
+    "id": 516,
+    "title": "Blue Bunny Group",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to purchase a Blue item from any opponent for 5 Dolla: a Blue bunny, a Blue pawn or a saved Water Zodiac card."}
+    ]
+  },
+  {
+    "id": 517,
+    "title": "Bunny Gras",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["VIOLET", "GREEN", "YELLOW"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used onc by a  player to return any number of his Cabbage, Water or Defense Cards to their Draw Piles and draw cards back if he can roll either three of the same number or three consecutive numbers on the dice."}
+    ]
+  },
+  {
+    "id": 518,
+    "title": "The Church Bunny",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force any opponent to take all of his saved Special and Very Special cards off the table and place them back into his hand. One at a time the player chooses a card and asks \"Isn't that Special?\" If the card is a Special card then the player takes the card for himself. The player continues guessing until he chooses a card that is not a Special."},
+      {"title": "Additional Rules", "text": "The player is allowed to save all Special (or Very Special) cards that he finds even if they were not initially saved by the opponent. The player continues guessing until he chooses a card that is not a Special (or Very Special) card. The opponent will then replace all of his remaining Special (and Very Special) cards back on the table that were saved before The Church Bunny was played. If the opponent has less than  ve cards in his hand, then he must draw replacement cards immediately.<br><br>Or The Church Bunny may also be used once by a player to eliminate the <a href=\"bunnypedia://card/460\">Hostile Pentecostal</a>."}
+    ]
+  },
+  {
+    "id": 519,
+    "title": "Lucky Clover – Hendecadruple (Bunny Modifier)",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Hendecadruple lowers the level of any weapon by eleven."},
+      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
+      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+    ]
+  },
+  {
+    "id": 520,
+    "title": "Mother Tucker",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force any opponent to return Carrots to Kaballa's Market if he cannot roll at least one double on the dice. The number of Carrots returned to Kaballa's Market is the same as the highest number rolled on the dice."},
+      {"title": "Additional Rules", "text": "If a player owns <a href=\"bunnypedia://card/103\">Carrot #1 (Tucker)</a>, then he may not be targeted with Mother Tucker. Opponents who lose Carrots should feel free to shout the title of this card as loudly as they wish."}
+    ]
+  },
+  {
+    "id": 521,
+    "title": "Pinky Tusca-Hare-O",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "A Pink bunny that has the power to jump over (reposition) herself in The Bunny Circle between any two players' turns."},
+      {"title": "Additional Rules", "text": "This special feature will not allow Pinky to avoid most weapon attacks, but very nicely helps her to avoid Roaming Red Run cards by repositioning herself out of the way before they visit. If Pinky is repositioned into another player’s area of The Bunny Circle, then she will belong to the other player. Pinky may not switch owners more than once per game."}
+    ]
+  },
+  {
+    "id": 522,
+    "title": "Rank Exchange",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force any opponent to exchange the Rank card under any of his bunnies for the Rank card under any of your bunnies."},
+      {"title": "Additional Rules", "text": "The player chooses both Rank cards in the exchange."}
+    ]
+  },
+  {
+    "id": 523,
+    "title": "Tybo",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "symbols": ["JUPITER"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to take all of the discarded Cabbage and Water Cards and to shuffle them back into their Draw Piles."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733>\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
+    ]
+  },
+  {
+    "id": 524,
+    "title": "Tug of War",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to challenge any opponent. Both players roll 12-sided dice equal to the number of bunnies that each player has in The Bunny Circle and add the numbers. The player with the lower total loses all of his bunnies."},
+      {"title": "Additional Rules", "text": "If the totals are the same, then neither player loses their bunnies. <a href=\"bunnypedia://card/296\">Double Free Agent</a>, Specialty Bunny (double or triplet) or Celebrity Bunny (double or triplet) cards count as a single bunny, and allow the player a single die roll each for Tug Of War."}
+    ]
+  },
+  {
+    "id": 525,
+    "title": "Viva Las Vegas",
+    "deck": "PERFECTLY_PINK",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to challenge any opponent. The stakes are determined by the player and may be any amount of Dolla, saved Zodiac or Mysterious Place cards. Both players roll three 12-sided dice and keep all rolls of 7. The first player to get three 7s is the winner."}
+    ]
+  },
+  {
+    "id": 526,
+    "title": "Appetite Suppressant",
+    "deck": "PERFECTLY_PINK",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "dice": ["GREEN", "BLUE"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to lower the amounts of Cabbage and Water Units on any pending Feed The Bunny card by the amounts rolled on the dice."},
+      {"title": "Additional Rules", "text": "If the amount of Cabbage Units or Water Units becomes a negative number, then the player pays nothing (and receives nothing)."}
+    ]
+  },
+  {
+    "id": 527,
+    "title": "Bingo Flamingo",
+    "deck": "PERFECTLY_PINK",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "pawn": "PINK",
+    "dice": ["CLEAR", "PINK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to steal five Carrots from any opponent if the numbers of those carrots form an unbroken chain on the Bingo Card. Diagonals do not count. The opponent may keep his Carrots by rolling any of the five numbers of the Carrots on either the Clear or Pink die."}
+    ]
+  },
+  {
+    "id": 528,
+    "title": "Paradise Syndrome",
+    "deck": "PERFECTLY_PINK",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY_AND_SAVE",
+    "rules": [
+      {"title": "Card Text", "text": "The player with this card saved will be skipped by all Roaming Red Run cards or may be used once to eliminate the <a href=\"bunnypedia://card/133\">Stray Asteroid</a>. If at any time the player has no bunnies in The Bunny Circle then Paradise Syndrome is discarded."},
+      {"title": "Additional Rules", "text": "All Roaming Red Run cards already placed on the player (or his bunnies) are immediately discarded.<br><br>Paradise Syndrome may also be used once by a player to eliminate the <a href=\"bunnypedia://card/133\">Stray Asteroid</a>. This card must be a saved Special to be used immediately. Unlike Very Special cards, Paradise Syndrome may not be used to save other players’ bunnies from harm. This card is for the exclusive use of the player who has it saved."}
+    ]
+  },
+  {
+    "id": 529,
+    "title": "Day Old Bread",
+    "deck": "PERFECTLY_PINK",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to postpone the feeding of any bunny by one turn. May be used at any time."}
+    ]
+  },
+  {
+    "id": 530,
+    "title": "Pink Slip",
+    "deck": "PERFECTLY_PINK",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "NO",
+    "symbols": ["MYSTERIOUS_PLACE_BALL"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to slip the Pink box off any card. The card may be played without a bunny. May be used at any time!"},
+      {"title": "Additional Rules", "text": "Since the card is no longer an Aggressive card,it may be played without a bunny in The Bunny Circle. May be used at any time!"},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+    ]
+  },
+  {
+    "id": 531,
+    "title": "Transcendental Run",
+    "deck": "PERFECTLY_PINK",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "NO",
+    "symbols": ["JUPITER"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to transform any Run card into a Very Special card. May be used at any time!"},
+      {"title": "Additional Rules", "text": "Since both Transcendental Run and the Run card will both be Very Special cards, they may be used at any time!"},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733>\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
+    ]
+  },
+  {
+    "id": 532,
+    "title": "Vel Crows",
+    "deck": "PERFECTLY_PINK",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to stop any action that moves his bunnies from their place in The Bunny Circle. Cannot be used to save bunnies that are killed or discarded. May be used at any time!"},
+      {"title": "Additional Rules", "text": "Vel Crows must be used during the same turn that the bunny was taken."}
+    ]
+  },
+  {
+    "id": 533,
+    "title": "Famine, Pestilence & Death",
+    "deck": "PERFECTLY_PINK",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Every player without a saved zodiac card must immediately feed one of their bunnies 1 Cabbage Unit and 1 Water Unit."},
+      {"title": "Additional Rules", "text": "Famine Pestilence And Death does not affect players with no bunnies in The Bunny Circle. Each player may choose which bunny to feed. If you have the <a href=\"bunnypedia://card/166\">Red Congenial</a> or <a href=\"bunnypedia://card/496\">Pink Congenial</a> bunny, <a href=\"bunnypedia://card/191\">Holographic Bunny</a> or a bunny with <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>, then you may choose one of these bunnies since they do not need to feed."}
+    ]
+  },
+  {
+    "id": 534,
+    "title": "Terrible Misfortune – Bunny Witch Project",
+    "deck": "PERFECTLY_PINK",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "One of your bunnies wanders into the woods and becomes a victim of the Bunny Witch Project!"},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
+    ]
+  },
+  {
+    "id": 535,
+    "title": "Terrible Misfortune – Van de Graaff Generator",
+    "deck": "PERFECTLY_PINK",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "One of your bunnies (with quite a bit of potential) mistakes a fully charged Van de Graaff generator for a lollipop. After one lick, it's  your bunny that pops!"},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
+    ]
+  },
+  {
+    "id": 536,
+    "canonicalId": 87,
+    "title": "1 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
+    "id": 537,
+    "canonicalId": 87,
+    "title": "1 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
+    "id": 538,
+    "canonicalId": 92,
+    "title": "2 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
+    "id": 539,
+    "canonicalId": 92,
+    "title": "2 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
+    "id": 540,
+    "canonicalId": 210,
+    "title": "3 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
+    "id": 541,
+    "canonicalId": 210,
+    "title": "3 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
+    "id": 542,
+    "canonicalId": 98,
+    "title": "5 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
+    "id": 543,
+    "canonicalId": 98,
+    "title": "5 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
+    "id": 544,
+    "canonicalId": 101,
+    "title": "10 Dolla",
+    "deck": "PERFECTLY_PINK",
+    "type": "DOLLA"
+  },
+  {
     "id": 545,
     "deck": "PERFECTLY_PINK",
     "title": "Seaman Recruit",
     "type": "RANK",
     "rank": "E1",
     "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange can be used to swap the ranks of two bunnies.</a>"}
     ]
   },
   {
@@ -69,66 +589,6 @@
     "rank": "E6",
     "rules": [
       {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
-    ]
-  },
-  {
-    "id": 600,
-    "deck": "PERFECTLY_PINK",
-    "title": "Ensign",
-    "type": "RANK",
-    "rank": "O1",
-    "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
-    ]
-  },
-  {
-    "id": 601,
-    "deck": "PERFECTLY_PINK",
-    "title": "Lieutenant JG",
-    "type": "RANK",
-    "rank": "O2",
-    "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
-    ]
-  },
-  {
-    "id": 602,
-    "deck": "PERFECTLY_PINK",
-    "title": "Lieutenant",
-    "type": "RANK",
-    "rank": "O3",
-    "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
-    ]
-  },
-  {
-    "id": 603,
-    "deck": "PERFECTLY_PINK",
-    "title": "Lieutenant Commander",
-    "type": "RANK",
-    "rank": "O4",
-    "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
-    ]
-  },
-  {
-    "id": 604,
-    "deck": "PERFECTLY_PINK",
-    "title": "Commander",
-    "type": "RANK",
-    "rank": "O5",
-    "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
-    ]
-  },
-  {
-    "id": 605,
-    "deck": "PERFECTLY_PINK",
-    "title": "Captain",
-    "type": "RANK",
-    "rank": "O6",
-    "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."}
     ]
   }
 ]

@@ -3,6 +3,8 @@
 package com.fueledbycaffeine.bunnypedia.database
 
 import android.content.Context
+import com.fueledbycaffeine.bunnypedia.database.model.Card
+import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import com.squareup.moshi.KotlinJsonAdapterFactory
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
@@ -68,23 +70,23 @@ class Database(context: Context) {
       val cards = data
         .flatMap { it as List<Card> }
         .sortedBy { it.id }
+
+      Timber.w("Card count: ${cards.size}")
       cards
     }
   }
 
   private fun readData(context: Context, deck: Deck): List<Card> {
-    var start = now().millis
+    val start = now().millis
     val json = context.resources.openRawResource(deck.data).use { stream ->
       val reader = BufferedReader(InputStreamReader(GZIPInputStream(stream)))
       reader.use { it.readText() }
     }
-    var end = now().millis
-    Timber.d("Deck ${deck.name} read: ${end - start}ms")
+    val readEnd = now().millis
     return try {
-      start = now().millis
       val cards = adapter.fromJson(json)!!
-      end = now().millis
-      Timber.d("Deck ${deck.name} parse: ${end - start}ms")
+      val parseEnd = now().millis
+      Timber.d("Deck ${deck.name} read: ${readEnd - start}ms, parse: ${parseEnd - readEnd}ms")
       cards
     } catch (e: Exception) {
       throw UnreadableDeck(deck, e)

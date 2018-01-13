@@ -266,7 +266,7 @@
         "rules": [
             {"title": "Card Text", "text": "May be placed on any Congenial Bunny which, while opening a package of Melba Toast, flings two sharp pieces in opposite directions instantly killing the two adjacent bunnies. The original target Congenial Bunny is not harmed."},
             {"title": "Interaction with Barriers", "text": "Clumsy Congenial is not stopped by a <a href=\"bunnypedia://card/185\">Barrier</a>."},
-            {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://card/426\">Blue Angels</a> can be used to eliminate the <a href=\"bunnypedia://card/131\">Sea Whiz Mount</a>."}
+            {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://card/426\">Blue Angels</a> can be used to eliminate the Clumsy Congenial."}
         ]
     },
     {
@@ -445,6 +445,7 @@
         "title": "Terrible Misfortune – Gas Main",
         "deck": "RED",
         "type": "PLAY_IMMEDIATELY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "One of your bunnies experiments with flint stones while kneeling near a leaking gas main!"},
             {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
@@ -456,6 +457,7 @@
         "title": "Terrible Misfortune – Quicksand",
         "deck": "RED",
         "type": "PLAY_IMMEDIATELY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "While carrying an anvil one of your bunnies stumbles upon a patch of quicksand!"},
             {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
@@ -467,6 +469,7 @@
         "title": "Zep Tepi",
         "deck": "RED",
         "type": "PLAY_IMMEDIATELY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be used once by (or given to) any First Time player who may take any saved Special or Very Special card from each adjacent player."},
             {"title": "Additional Rules", "text": "If the player who picked the card is not a First Time player, then he must give the card to the first First Time player counter-clockwise from him. If no one is a First Time player, then the player who drew the card may use it himself."}

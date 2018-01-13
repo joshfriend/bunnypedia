@@ -1,9 +1,8 @@
-package com.fueledbycaffeine.bunnypedia.database
+package com.fueledbycaffeine.bunnypedia.database.model
 
 import android.support.annotation.DrawableRes
 import android.support.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
-import org.joda.time.DateTime
 import org.joda.time.DateTimeConstants.*
 import org.joda.time.MonthDay
 

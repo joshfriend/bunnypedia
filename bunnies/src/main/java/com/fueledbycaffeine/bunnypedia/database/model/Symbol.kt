@@ -1,4 +1,4 @@
-package com.fueledbycaffeine.bunnypedia.database
+package com.fueledbycaffeine.bunnypedia.database.model
 
 enum class Symbol {
   MYSTERIOUS_PLACE_BALL,

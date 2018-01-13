@@ -238,7 +238,7 @@
     "psi": "PSI08",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any Semi-Super, Super, or Extra Super bunny in The Bunny Circle which looses all of its special features and becomes a regular bunny of the same color or classification."},
-      {"title": "Additional Rules", "text": "The special features that Semi-Super, Super, or Extra Super bunnies may lose are:<ol><li>Eliminating all other bunnies of the same color (or half color) or classification from The Bunny Circle.</li><li>Automatically playing two cards each turn.</li><li>Rolling the Clear 20-sided die for weapons with levels 1-12.</li><li>All Red and Pink special features.</li></ol>A bunny that is abducted by the Beyea Aliens (Area 51 or Mothership) will have Meteor Rocks removed (discarded). If the bunny returns to The Bunny Circle, then it will have its special features again."}
+      {"title": "Additional Rules", "text": "The special features that Semi-Super, Super, or Extra Super bunnies may lose are:<ol><li>Eliminating all other bunnies of the same color (or half color) or classification from The Bunny Circle.</li><li>Automatically playing two cards each turn.</li><li>Rolling the Clear 20-sided die for weapons with levels 1-12.</li><li>All Red and Pink special features.</li></ol>A bunny that is abducted by the Beyea Aliens (<a href=\"bunnypedia://card/49\">Area 51</a> or <a href=\"bunnypedia://card/299\">Mothership</a>) will have Meteor Rocks removed (discarded). If the bunny returns to The Bunny Circle, then it will have its special features again."}
     ]
   },
   {
