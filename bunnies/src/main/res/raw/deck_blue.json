@@ -692,7 +692,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "CLOSED. Players may still take <a href=\"bunnypedia://card/16\">Carrots using Choose A Carrot</a> cards."}
+      {"title": "Card Text", "text": "CLOSED. Players may still take Carrots using <a href=\"bunnypedia://card/16\">Choose A Carrot</a> cards."}
     ]
   },
   {
