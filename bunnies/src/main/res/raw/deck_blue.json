@@ -635,8 +635,8 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny. All players roll a die. The highest roller takes the bunny. The player may re-roll the die."},
-      {"title": "Additional Rules", "text": "The player who played Defector Detector may re-roll the die if he does not like his  rst roll. If two players tie for the highest roll, then both players must roll the 12-sided die again (and keep rolling) until the tie is broken."},
-      {"title": "Heavenly Halo", "text": "Defector Detector is one of the few cards which can be used to take a bunny wearing <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>"},
+      {"title": "Additional Rules", "text": "The player who played Defector Detector may re-roll the die if he does not like his first roll. If two players tie for the highest roll, then both players must roll the 12-sided die again (and keep rolling) until the tie is broken."},
+      {"title": "Heavenly Halo", "text": "Defector Detector is one of the few cards which can be used to take a bunny wearing <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
       {"title": "The Magic Spatula", "text": "<a href=\"bunnypedia://card/80\">The Magic Spatula</a> can be used to eliminate Defector Detector."}
     ]
   },

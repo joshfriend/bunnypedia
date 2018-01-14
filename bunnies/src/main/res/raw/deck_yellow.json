@@ -284,7 +284,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to auction any bunny in The Bunny Circle. The highest bidder pays Kaballa (the Discard Pile) for the bunny."},
       {"title": "Additional Rules", "text": "The player bids first, and bidding continues in the order of play."},
-      {"title": "Heavenly Halo", "text": "Bunny Block Bid is one of the few cards which can be used to take a bunny wearing <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>"}
+      {"title": "Heavenly Halo", "text": "Bunny Block Bid is one of the few cards which can be used to take a bunny wearing <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."}
     ]
   },
   {
