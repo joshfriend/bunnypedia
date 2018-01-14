@@ -1,1 +1,593 @@
-[]
+[
+    {
+      "id": 551,
+      "title": "Red/Violet Congenial",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "rules": [
+        {"title": "Card Text", "text": "This bunny may feed 1 Cabbage Unit and 1 Water Unit per turn. Supplies may not be saved to another turn."},
+        {"title": "Additional Rules", "text": "The 1 Cabbage Unit and 1 Water Unit are for the exclusive use of this bunny and may not be shared with other bunnies in The Bunny Circle."}
+      ]
+    },
+    {
+      "id": 552,
+      "title": "Red/Orange Gleeful",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "rules": [
+        {"title": "Card Text", "text": "The player with this bunny may spend 1 Dolla per turn at any open store. Dolla may not be saved to another turn."}
+      ]
+    },
+    {
+      "id": 553,
+      "title": "Red/Blue Lumbering",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "rules": [
+        {"title": "Card Text", "text": "This bunny has a Single Lucky Clover which lowers the level of any weapon used against this bunny by one."}
+      ]
+    },
+    {
+      "id": 554,
+      "title": "Red/Green Sinister",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "rules": [
+        {"title": "Card Text", "text": "This bunny is protected by a Hemi-Bounce Force Field which protects it from any weapon with original weapon levels (1-6)."},
+        {"title": "Additional Rules", "text": "The bunny is affected normally by weapons with a weapon level higher than 6."}
+      ]
+    },
+    {
+      "id": 555,
+      "title": "Red/Yellow Timid",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "rules": [
+        {"title": "Card Text", "text": "The player with this bunny in The Bunny Circle may re-roll any one die one time during his turn only."}
+      ]
+    },
+    {
+      "id": 556,
+      "canonicalId": 16,
+      "title": "Choose A Carrot",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "aggressive": false,
+      "rules": [
+        {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      ]
+    },
+    {
+      "id": 557,
+      "canonicalId": 16,
+      "title": "Choose A Carrot",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "aggressive": false,
+      "rules": [
+        {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      ]
+    },
+    {
+      "id": 558,
+      "canonicalId": 21,
+      "title": "Choose 2 Carrots",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "aggressive": false,
+      "rules": [
+        {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      ]
+    },
+    {
+      "id": 559,
+      "canonicalId": 125,
+      "title": "Feed The Bunny Dated Cabbage",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "cabbage": -2,
+      "water": 0,
+      "rules": [
+        {"title": "Card Text", "text": "May be placed on any bunny which must feed an amount of Cabbage the same as the last digit of today's date by the end of it's next turn or die."},
+        {"title": "Additional Rules", "text": "Any bunny belonging to a player born on the 17th of any month must double the amount of Units needed to Feed The Bunny."}
+      ]
+    },
+    {
+      "id": 560,
+      "canonicalId": 125,
+      "title": "Feed The Bunny Dated Water",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "cabbage": 0,
+      "water": -1,
+      "rules": [
+        {"title": "Card Text", "text": "May be placed on any bunny which must feed an amount of Water the same as the last digit of today's date by the end of it's next turn or die."},
+        {"title": "Additional Rules", "text": "Any bunny belonging to a player born on the 17th of any month must double the amount of Units needed to Feed The Bunny."}
+      ]
+    },
+    {
+      "id": 561,
+      "title": "Baseball Blues",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "weaponLevel": "50/50",
+      "pawn": "BLACK",
+      "dice": ["BLUE", "RED"],
+      "rules": [
+        {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Pitcher (Blue) or the Catcher (Red) roll to be the higher number."},
+        {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+      ]
+    },
+    {
+      "id": 562,
+      "title": "Condition Y/Z",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "weaponLevel": "50/50",
+      "pawn": "BLACK",
+      "dice": ["YELLOW", "BLACK"],
+      "rules": [
+        {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Condition Yoke (Yellow) or Zebra (Black) roll to be the higher number."},
+        {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+      ]
+    },
+    {
+      "id": 563,
+      "title": "Baby Velociraptors",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "dice": ["BLACK", "CLEAR"],
+      "symbols": ["MYSTERIOUS_PLACE_BALL"],
+      "rules": [
+        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total"},
+        {"title": "Additional Rules", "text": "No bunny belonging to a player born on the 17th of any month can be attacked using a Dated Weapon."},
+        {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      ]
+    },
+    {
+      "id": 564,
+      "title": "Liberty Daze",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "dice": ["BLACK", "CLEAR"],
+      "rules": [
+        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total"},
+        {"title": "Additional Rules", "text": "No bunny belonging to a player born on the 17th of any month can be attacked using a Dated Weapon."}
+      ]
+    },
+    {
+      "id": 565,
+      "title": "Army of the 12 Bunnies",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "dice": ["YELLOW"],
+      "rules": [
+        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than the current hour to survive. The Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The ARmy ends when the hour number is zero or there are no more viable targets."},
+        {"title": "Additional Rules", "text": "All players are encouraged to use an AM/PM system of time measurement to determine the hour of play (from 1 to 12).<br><br>Regardless of the outcome of the first bunny’s roll, the Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The next bunny must also roll the Yellow 12-sided die. The Army Of The 12 Bunnies is played entirely during one player’s turn and ends when the hour number is zero, or when there are no more viable bunny targets in The Bunny Circle. Army Of The 12 Bunnies is not impeded byaBarrier. Since the Army is not a weapon, Clovers cannot lower its effect, and Defense Cards cannot be used to stop an attack."}
+      ]
+    },
+    {
+      "id": 566,
+      "title": "Athena",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to purchase a Green item from any opponent for 5 Dolla: a Green bunny, a Green Pawn or a saved Earth Zodiac card."}
+      ]
+    },
+    {
+      "id": 567,
+      "title": "B-Flat",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "The first player to balance their front door key on it's edge may choose a Carrot from Kaballa's Market."},
+        {"title": "Additional Rules", "text": "Players must remove their front door key from any chain or ring before playing B-Flat. When all players are ready, a countdown from three will begin the contest. The first player to balance their front door key on any edge may choose a Carrot from Kaballa’s Market (if the market is open)."}
+      ]
+    },
+    {
+      "id": 568,
+      "title": "Better Bunny Booster (Bunny Modifier)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be placed under any bunny and changes its color to Pink. Bunnies that become Pink will inherit the special feature for that type of bunny."},
+        {"title": "Pink Bunny Benefits", "text": "<ul><li> <a href=\"bunnypedia://card/496\">Pink Congenial</a> - 5 Cabbage and Water Units</li><li> <a href=\"bunnypedia://card/497\">Pink Gleeful</a> - 5 Dolla</li><li> <a href=\"bunnypedia://card/498\">Pink Lumbering</a> - Quindruple Lucky Clover</li><li> <a href=\"bunnypedia://card/499\">Pink Sinister</a> - Bounce-Back Force Field</li><li> <a href=\"bunnypedia://card/500\">Pink Timid</a> - Substitute Pink die for any roll</li></ul>"}
+      ]
+    },
+    {
+      "id": 569,
+      "title": "Bottoms Up",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to switch the positions of any opponent's Bottom and Top Run cards."}
+      ]
+    },
+    {
+      "id": 570,
+      "title": "Bunny Dearest",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rules": [
+        {"title": "Card Text", "text": "May be placed on any single color bunny which must roll higher than the current month using the same color die as the bunny to survive. All bunnies of the same color (or half color) as the target bunny must also roll"},
+        {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://card/426\">Blue Angels</a> can be used to eliminate Bunny Dearest."}
+      ]
+    },
+    {
+      "id": 571,
+      "title": "The Bunnymooners",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rules": [
+        {"title": "Card Text", "text": "Must be used by (or given to) any player who has been playing Killer Bunnies for less than a year. The player may choose a Carrot from Kaballa's Market or take a Carrot from any opponent."},
+        {"title": "Additional Rules", "text": "If no person playing the game is a Bunnymooner, then the player of the card may choose a Carrot from Kaballa’s Market (if the market is open) or take a Carrot from any opponent. If Kaballa’s Market is closed, then the Carrot may only be taken from an opponent."}
+      ]
+    },
+    {
+      "id": 572,
+      "title": "Bunnyshop Quartet",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to take any Pawn from Weil's Pawn Shop or any opponent that has the same color as any die that rolled a 4."}
+      ]
+    },
+    {
+      "id": 573,
+      "title": "Ice Nine",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "symbols": ["MYSTERIOUS_PLACE_BALL"],
+      "rules": [
+        {"title": "Card Text", "text": "May be given to any player who must keep the card until he plays any other card that requires the rolling of dice. All rolls of dice will automatically have a value of 9 for the other card."},
+        {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      ]
+    },
+    {
+      "id": 574,
+      "title": "Joint Custody",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to share ownership and privileges of any opponent's bunny. Joint Custody is discarded when the bunny is moved, traded, abducted, or killed."},
+        {"title": "Additional Rules", "text": "A player with Joint Custody of an opponent’s bunny is also the owner of the bunny. Therefore, any card that affects the player’s bunny (or bunnies) will affect the bunny in Joint Custody. A bunny in Joint Custody may be used to win the game. "}
+      ]
+    },
+    {
+      "id": 575,
+      "title": "Locked In",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to force any opponents to play his Top and Bottom Run cards on his next turn(s)."},
+        {"title": "Additional Rules", "text": "All cards that can be used, must be used, even if the consequences are bad for the opponent. If the Top or Bottom Run card was a Special or Very Special card that could not be used at the time of play, then they must be discarded."}
+      ]
+    },
+    {
+      "id": 576,
+      "title": "The Lonely Ranger",
+      "deck": "WACKY_KHAKI",
+      "type": "ROAMING_RED_RUN",
+      "rules": [
+        {"title": "Card Text", "text": "A Blue bunny that roams to a new player every round of play in a counter-clockwise direction."},
+        {"title": "Additional Rules", "text": "As the player receives The Lonely Ranger, he may place him in any position among his bunnies in The Bunny Circle. Like all Roaming Red Run cards, The Lonely Ranger will move at the end of the turn of the player who introduced him to The Bunny Circle. Also, The Lonely Ranger changes direction when encountering a <a href=\"bunnypedia://card/185\">Barrier</a> and is discarded if he encounters a <a href=\"bunnypedia://card/463\">Neutronium Barrier</a>."}
+      ]
+    },
+    {
+      "id": 577,
+      "title": "Lucky Clover – Dodecadruple (Bunny Modifier)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Dodecadruple lowers the level of any weapon by twelve."},
+        {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a> must also discard all Clover."}
+      ]
+    },
+    {
+      "id": 578,
+      "title": "Mad Bunny Disease",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rules": [
+        {"title": "Card Text", "text": "May be given to any player whose bunnies all become infected. The player must return one Carrot at the start of each of his turns. To discard Mad Bunny Disease the player must eliminate all of his bunnies."},
+        {"title": "Additional Rules", "text": "If the player adds bunnies to The Bunny Circle during play, then they will also become infected. To discard Mad Bunny Disease, the player must first eliminate all of his bunnies from The Bunny Circle.<br><br>If a bunny is traded to another player or changes owners in The Bunny Circle, then all of the other players’ bunnies will also become infected with Mad Bunny Disease. It is possible for more than one player’s bunnies to become infected with Mad Bunny Disease. Once a player has returned all of his Carrots to Kaballa’s Market, he will still have to eliminate all of his bunnies from The Bunny Circle before he can discard Mad Bunny Disease.<br><br>A bunny that is abducted by the Beyea Aliens is returned free of Mad Bunny Disease. A bunny that is abducted by any other card will still have Mad Bunny Disease and may spread it to other players’ bunnies. Any two bunnies that share the <a href\"bunnypedia://card/349\">Fingercuffs</a> will also share Mad Bunny Disease. <a href=\"bunnypedia://card/82\">Sunny Day</a> may be used once to eliminate Mad Bunny Disease from all bunnies in The Bunny Circle."}
+      ]
+    },
+    {
+      "id": 579,
+      "title": "Matta-Hare-E",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to look at any oppnent's five-card hand."}
+      ]
+    },
+    {
+      "id": 580,
+      "title": "Q.C.P. (Quantum Chromodynamic Pulse)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
+      "rules": [
+        {"title": "Card Text", "text": "May be used onc to force all players that have a <a href=\"bunnypedia://card/57\">Free Agent</a> or <a href=\"bunnypedia://card/296\">Double Free Agent</a> bunny to roll the dice. The bunny becomes the color (or colors) of the highest die (or dice) rolled."}
+      ]
+    },
+    {
+      "id": 581,
+      "title": "Refried Peas",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to take any P-Card form the Discard Pile. THe card may be used immediately or saved if it is a Special card."},
+        {"title": "Additional Rules", "text": "The card must be used immediately if it is a Run card, or it may be saved if it is a Special card."}
+      ]
+    },
+    {
+      "id": 582,
+      "title": "Thirty Helens",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "dice": ["ORANGE", "GREEN", "YELLOW", "RED", "PINK"],
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to take any weapon from Rooney's Weapons Emporium and launch it immediately if the total on any of the dice rolled adds to thirty."},
+        {"title": "Additional Rules", "text": "Thirty Helens cannot be used if Rooney’s Weapons Emporium is closed. No person who has the letters H-E-L-E-N (yes, you will need two Es) anywhere in their full name may be directly targeted by the weapon taken with Thirty Helens."}
+      ]
+    },
+    {
+      "id": 583,
+      "title": "Truth or Hare",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rules": [
+        {"title": "Card Text", "text": "May be given to any opponent who must state the title of his Top Run card. If the opponent can deceive the player then he will take a bunny. If the opponent cannot deceive the player then he will give up a bunny."},
+        {"title": "Additional Rules", "text": "Four possible outcomes exist:<br>1) The opponent is telling the truth and the player believes him.<br>2) The opponent is telling a lie and the player does not believe him.<br>3) The opponent is telling the truth and the player does not believe him.<br>4) The opponent is telling a lie and the player believes him.<br><br>For outcomes 1 and 2, the player chooses which bunny to take from the opponent. For outcomes 3 and 4, the player chooses which bunny to give to the opponent."}
+      ]
+    },
+    {
+      "id": 584,
+      "title": "Venus Cycle",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to choose a Carrot if at least one 8 is rolled on any of the dice. If the current year is 2009, 2017, 2025, or 2033 then the player may choose four Carrots."},
+        {"title": "Additional Rules", "text": "More than one roll of 8 does not allow a player to choose more than one Carrot. If the current year is 2009, 2017, 2025, 2033, 2041 or any 8th year thereafter, and at least one 8 is rolled on any of the eight 12-sided dice, then the player may choose four Carrots."}
+      ]
+    },
+    {
+      "id": 585,
+      "title": "Carpe Scriblita",
+      "deck": "WACKY_KHAKI",
+      "type": "SPECIAL",
+      "bunnyRequirement": "PLAY",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to take all saved <a href=\"bunnypedia://card/72\">Danishes</a> from all opponents except the player who owns the Violet Pawn."}
+      ]
+    },
+    {
+      "id": 586,
+      "title": "Two-Time Tizzy Toss",
+      "deck": "WACKY_KHAKI",
+      "type": "SPECIAL",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "The player with this card saved may re-roll both the Clear and Zodiac dice one time each per card consequence."}
+      ]
+    },
+    {
+      "id": 587,
+      "title": "Get Out Of Death Free",
+      "deck": "WACKY_KHAKI",
+      "type": "VERY_SPECIAL",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to bring any one bunny back to life immediately. Must be used during the same turn as the death. May be used at any time!"},
+        {"title": "Additional Rules", "text": "If the bunny was carrying any Bunny Modifiers, then they are discarded since the bunny was technically dead first, and then brought back to life."}
+      ]
+    },
+    {
+      "id": 588,
+      "title": "Sky Waitress",
+      "deck": "WACKY_KHAKI",
+      "type": "VERY_SPECIAL",
+      "bunnyRequirement": "PLAY",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to move a weapon from the original target bunny to an adjacent bunny in The Bunny Circle. May be used at any time!"}
+      ]
+    },
+    {
+      "id": 589,
+      "title": "Tachyon Turnaround",
+      "deck": "WACKY_KHAKI",
+      "type": "VERY_SPECIAL",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "May be used once by a player to counteract <a href=\"bunnypedia://card/52\">Baker Street</a>, <a href=\"bunnypedia://card/316\">Bunny On The Edge Of Forever</a>, <a href=\"bunnypedia://card/203\">Bunny To The Future</a>, or <a href=\"bunnypedia://card/483\">Temporal Flux</a>. May be used at any time!"}
+      ]
+    },
+    {
+      "id": 590,
+      "title": "Terrible Misfortune – Pamplona",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "NO",
+      "rules": [
+        {"title": "Card Text", "text": "One of your bunnies is trampled while running with the bulls in Pamplona!"},
+        {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+        {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
+      ]
+    },
+    {
+      "id": 591,
+      "canonicalId": 87,
+      "title": "1 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 592,
+      "canonicalId": 87,
+      "title": "1 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 593,
+      "canonicalId": 92,
+      "title": "2 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 594,
+      "canonicalId": 92,
+      "title": "2 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 595,
+      "canonicalId": 210,
+      "title": "3 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 596,
+      "canonicalId": 210,
+      "title": "3 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 597,
+      "canonicalId": 98,
+      "title": "5 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 598,
+      "canonicalId": 98,
+      "title": "5 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 599,
+      "canonicalId": 101,
+      "title": "10 Dolla",
+      "deck": "WACKY_KHAKI",
+      "type": "DOLLA"
+    },
+    {
+      "id": 600,
+      "title": "Ensign Rank O-1 (Bunny Modifier)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rank": "O1",
+      "rules": [
+        {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
+        {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+      ]
+    },
+    {
+      "id": 601,
+      "title": "Lieutenant JG Rank O-2 (Bunny Modifier)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rank": "O2",
+      "rules": [
+        {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
+        {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+      ]
+    },
+    {
+      "id": 602,
+      "title": "Lieutenant Rank O-3 (Bunny Modifier)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rank": "O3",
+      "rules": [
+        {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
+        {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+      ]
+    },
+    {
+      "id": 603,
+      "title": "LT Commander Rank O-4 (Bunny Modifier)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rank": "O4",
+      "rules": [
+        {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
+        {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+      ]
+    },
+    {
+      "id": 604,
+      "title": "Commander Rank O-5 (Bunny Modifier)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rank": "O5",
+      "rules": [
+        {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
+        {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+      ]
+    },
+    {
+      "id": 605,
+      "title": "Captain Rank O-6 (Bunny Modifier)",
+      "deck": "WACKY_KHAKI",
+      "type": "RUN",
+      "bunnyRequirement": "PLAY",
+      "rank": "O6",
+      "symbols": ["JUPITER"],
+      "rules": [
+        {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
+        {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733>\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
+      ]
+    }
+  ]

@@ -135,7 +135,8 @@
         "weaponLevel": "50/50 Ultimate",
         "pawn": "BLACK",
         "rules": [
-            {"title": "Card Text", "text": "May be given to any player who must correctly guess either the Violet or the Green roll to be the higher number for all of his bunnies in The Bunny Circle to survive."}
+            {"title": "Card Text", "text": "May be given to any player who must correctly guess either the Violet or the Green roll to be the higher number for all of his bunnies in The Bunny Circle to survive."},
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
         ]
     },
     {
@@ -188,7 +189,7 @@
     },
     {
         "id": 1063,
-        "title": "Pawn Clowning",
+        "title": "Pawn Cloning",
         "deck": "FANTASTIC",
         "specialSeries": "PHI",
         "type": "RUN",

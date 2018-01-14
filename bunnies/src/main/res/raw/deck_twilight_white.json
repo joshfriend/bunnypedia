@@ -177,7 +177,8 @@
         "dice": ["BLACK", "RED"],
         "pawn": "BLACK",
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Cathode (Black) or Anode (Red) roll to be the higher number."}
+            {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Cathode (Black) or Anode (Red) roll to be the higher number."},
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
         ]
     },
     {
@@ -190,7 +191,8 @@
         "dice": ["BLUE", "RED"],
         "pawn": "BLACK",
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing either Esther's (Blue) or Betty's (Red) roll to be the higher number."}
+            {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing either Esther's (Blue) or Betty's (Red) roll to be the higher number."},
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
         ]
     },
     {

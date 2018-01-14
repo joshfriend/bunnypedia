@@ -172,7 +172,8 @@
     "dice": ["BLUE", "PINK"],
     "pawn": "BLACK",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the boy (Blue) or the girl (Pink) roll to be the higher number."}
+      {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the boy (Blue) or the girl (Pink) roll to be the higher number."},
+      {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
     ]
   },
   {
@@ -186,6 +187,7 @@
     "pawn": "BLACK",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the dark (Violet) or the light (Pink) poison roll to be the higher number."},
+      {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
       {"title": "Sunny Day", "text": "<a href=\"bunnypedia://card/82\">Sunny Day</a> may be used to eliminate Poison Cups."}
     ]
   },
@@ -538,7 +540,8 @@
     "rank": "E1",
     "rules": [
       {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
-      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange can be used to swap the ranks of two bunnies.</a>"}
+      {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone’s permission."},
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
     ]
   },
   {
@@ -548,7 +551,9 @@
     "type": "RANK",
     "rank": "E2",
     "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
+      {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone’s permission."},
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
     ]
   },
   {
@@ -558,7 +563,9 @@
     "type": "RANK",
     "rank": "E3",
     "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
+      {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone’s permission."},
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
     ]
   },
   {
@@ -568,7 +575,9 @@
     "type": "RANK",
     "rank": "E4",
     "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
+      {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone’s permission."},
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
     ]
   },
   {
@@ -578,7 +587,9 @@
     "type": "RANK",
     "rank": "E5",
     "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
+      {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone’s permission."},
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
     ]
   },
   {
@@ -588,7 +599,9 @@
     "type": "RANK",
     "rank": "E6",
     "rules": [
-      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."}
+      {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
+      {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone’s permission."},
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
     ]
   }
 ]

@@ -597,7 +597,8 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be given to any player who, while winding his way down Baker Street, gets lost causing him to lose his next turn."}
+      {"title": "Card Text", "text": "May be given to any player who, while winding his way down Baker Street, gets lost causing him to lose his next turn."},
+      {"title": "Tachyon Turnaround", "text": "a href=\"bunnypedia://card/589\">Tachyon Turnaround</a> may be used to counteract Baker Street."}
     ]
   },
   {
