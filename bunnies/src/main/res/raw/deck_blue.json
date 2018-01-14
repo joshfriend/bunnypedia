@@ -668,7 +668,7 @@
     "id": 58,
     "deck": "BLUE",
     "title": "The Heavenly Halo",
-    "type": "VERY_SPECIAL",
+    "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny and protects it form all harm, hunger, misfortune and abduction. A bunny with The Heavenly Halo may, however, defect, be auctioned, be exchanged, or gambled."},
