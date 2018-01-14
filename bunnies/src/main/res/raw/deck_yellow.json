@@ -466,7 +466,8 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be placed under any bunny and protects it from <a href=\"bunnypedia://card/44\">Fluorine Gas</a>, <a href=\"bunnypedia://card/47\">The Ebola Virus</a>, <a href=\"bunnypedia://card/235\">Curry Spiced Poppadoms</a>, <a href=\"bunnypedia://card/397\">Plant Spores</a>, and <a href=\"bunnypedia://card/509\">Necro Fasci</a>. May be used at any time!"}
+      {"title": "Card Text", "text": "May be placed under any bunny and protects it from <a href=\"bunnypedia://card/44\">Fluorine Gas</a>, <a href=\"bunnypedia://card/47\">The Ebola Virus</a>, <a href=\"bunnypedia://card/235\">Curry Spiced Poppadoms</a>, <a href=\"bunnypedia://card/397\">Plant Spores</a>, and <a href=\"bunnypedia://card/509\">Necro Fasci</a>. May be used at any time!"},
+      {"title": "Fingercuffs", "text": "Containment Suit may be shared by two bunnies if they are connected by <a href\"bunnypedia://card/349\">Fingercuffs</a>"}
     ]
   },
   {

@@ -8,7 +8,7 @@
     "specialSeries": "OMEGA",
     "dice": ["GREEN"],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to stea the winnings of any opponent who is successful at either Carrot Top Casino or Carrot Top Royale. A roll of 7 or 11 doubles the winnings. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player to steal the winnings of any opponent who is successful at either <a href=\"bunnypedia://card/66\">Carrot Top Casino> or <a href=\"bunnypedia://card/304\">Carrot Top Royale</a>. A roll of 7 or 11 doubles the winnings. May be used at any time!"}
     ]
   },
   {
@@ -19,7 +19,7 @@
     "bunnyRequirement": "NO",
     "specialSeries": "OMEGA",
     "rules": [
-      {"title": "Card Text", "text": "May be placed between any two adjacent players and prevents them from using any Agressive cards against each other."},
+      {"title": "Card Text", "text": "May be placed between any two adjacent players and prevents them from using any Aggressive cards against each other."},
       {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of Choose A Carrot (any amount of Carrots) cards."}
     ]
   },
@@ -90,7 +90,7 @@
     "specialSeries": "OMEGA",
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to take The Magic Spatula or any Magic Fountain from the Discard Pile which may be used immediately or saved."},
+      {"title": "Card Text", "text": "May be used once by a player to take <a href=\"bunnypedia://card/80\">The Magic Spatula</a> or any <a href=\"bunnypedia://card/76\">Magic Fountain</a> from the Discard Pile which may be used immediately or saved."},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },
@@ -146,7 +146,7 @@
     "specialSeries": "PSI",
     "psi": "PSI01",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player ot eliminate either Carrot Thief, Pilfer The Pawn, Zodiac Thief, Pumpkin Ridge or Pinch Your Place. Or may be used once to keep a player's bunnies in place during a Shockwave. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player ot eliminate either <a href=\"bunnypedia://card/137\">Carrot Thief</a>, <a href=\"bunnypedia://card/300\">Pilfer The Pawn</a>, <a href=\"bunnypedia://card/137\">Zodiac Thief</a>, <a href=\"bunnypedia://card/452\">Pumpkin Ridge</a> or <a href=\"bunnypedia://card/654\">Pinch Your Place</a>. Or may be used once to keep a player's bunnies in place during a <a href=\"bunnypedia://card/415\">Shockwave</a>. May be used at any time!"}
     ]
   },
   {
