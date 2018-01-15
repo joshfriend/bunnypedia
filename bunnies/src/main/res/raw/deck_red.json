@@ -128,7 +128,7 @@
         "bunnyRequirement": "PLAY",
         "dice": ["BLACK"],
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 01 to survive."}
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 1 to survive."}
         ]
     },
     {
@@ -140,7 +140,7 @@
         "bunnyRequirement": "PLAY",
         "dice": ["BLACK"],
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 03 to survive."}
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 3 to survive."}
         ]
     },
     {
@@ -152,7 +152,7 @@
         "bunnyRequirement": "PLAY",
         "dice": ["BLACK"],
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 05 to survive."}
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 5 to survive."}
         ]
     },
     {
@@ -164,7 +164,7 @@
         "bunnyRequirement": "PLAY",
         "dice": ["BLACK"],
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 07 to survive."}
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 7 to survive."}
         ]
     },
     {

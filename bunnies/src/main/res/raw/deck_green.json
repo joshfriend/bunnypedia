@@ -189,7 +189,7 @@
     "weaponLevel": "01 X 7",
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 01 on all seven dice to survive."},
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 1 on all seven dice to survive."},
       {"title": "Additional Rules", "text": "A Defense Card of 7 Units or higher is needed to eliminate this weapon."}
     ]
   },
