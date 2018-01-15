@@ -114,7 +114,7 @@
         "type": "RUN",
         "bunnyRequirement": "PLAY",
         "rules": [
-          {"title": "Card Text", "text": "May be given to all opponents with a Bunny. Each must feed any one bunny the amounts shown by the end of their next turns their bunny dies."}
+          {"title": "Card Text", "text": "May be given to all opponents with a bunny. Each must feed any one bunny the amounts shown by the end of their next turns their bunny dies."}
         ],
         "cabbage": 1,
         "water": 1
@@ -308,7 +308,7 @@
         "type": "RUN",
         "bunnyRequirement": "NO",
         "rules": [
-            {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Quindruple lowers the level of any weapon by five."},
+            {"title": "Card Text", "text": "May be placed under any bunny. Quindruple Lucky Clover lowers the level of any weapon by five."},
             {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a> must also discard all Clover."}
         ]
     },
@@ -320,7 +320,7 @@
         "bunnyRequirement": "PLAY",
         "dice": ["VIOLET"],
         "rules": [
-            {"title": "Card Text", "text": "THe player rolls the Violet die. The next player clockwise must roll higher or else donate either a bunny or a Carrot to the kitty. Each player who has at least one bunny or Carrot must play, The first player to roll a 12 wins the kitty."},
+            {"title": "Card Text", "text": "The player rolls the Violet die. The next player clockwise must roll higher or else donate either a bunny or a Carrot to the kitty. Each player who has at least one bunny or Carrot must play, The first player to roll a 12 wins the kitty."},
             {"title": "Additional Rules", "text": "Play continues clockwise. Each player who has at least one bunny in The Bunny Circle or one saved Carrot must play. The first player to roll a 12 wins the kitty. However, the player who started The Mystery Urn activity will get a final chance to roll a 12 and win the kitty.<br><br>If a player gives up his last bunny or Carrot, then he is finished with The Mystery Urn activity and cannot win the kitty.<br><br>If all players have lost all of their bunnies and Carrots, then no player wins. All of the bunnies are discarded, and all of the Carrots are returned to Kaballa’s Market (even if the market is closed).<br><br>If the initial roll by the player is a 12, then The Mystery Urn activity is over and no one wins anything.<br><br>Later, players may feed the kitty with Zodiac cards (Green Booster Deck) and Mysterious Place cards (Ominous Onyx Booster Deck)."},
             {"title": "The Magic Spatula", "text": "<a href=\"bunnypedia://card/80\">The Magic Spatula</a> can be used to eliminate The Mystery Urn."}
 
@@ -397,7 +397,7 @@
         "dice": ["YELLOW"],
         "pawn": "YELLOW",
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to attack any abducting aliens.<br>9-12 = THe aliens and abducted bunnies are destroyed. In addition, the wreckage lands on the player whose bunny was abducted killing all of his other bunnies as well.<br>5-8 = Only the aliens and abducted bunnies are destroyed.<br>1-4 = The missile is a dud. Nothing happens!"},
+            {"title": "Card Text", "text": "May be used once by a player to attack any abducting aliens.<br>9-12 = The aliens and abducted bunnies are destroyed. In addition, the wreckage lands on the player whose bunny was abducted killing all of his other bunnies as well.<br>5-8 = Only the aliens and abducted bunnies are destroyed.<br>1-4 = The missile is a dud. Nothing happens!"},
             {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate H.E.M.P."}
         ]
     },
