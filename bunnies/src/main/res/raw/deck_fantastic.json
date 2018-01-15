@@ -286,13 +286,14 @@
     },
     {
         "id": 1071,
+        "canonicalId": 1070,
         "title": "Angry Nerds",
         "deck": "FANTASTIC",
         "specialSeries": "OMEGA",
         "type": "VERY_SPECIAL",
         "bunnyRequirement": "NO",
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to force any one die roll by any player to be re-rolled. May be used at any time!"}
+            {"title": "Card Text", "text": "May be used once by a player to eliminate any one one opponent's bunny that forms a Bunny Triplet including a Triple Specialty Bunny or a Triple Celebrity Bunny. May not be used to eliminate an opponent's last bunny."}
         ]
     },
     {
@@ -302,7 +303,7 @@
         "specialSeries": "OMEGA",
         "type": "RUN",
         "rules": [
-            {"title": "Card Text", "text": ""}
+            {"title": "Card Text", "text": "May be used once by a player to force any one die roll by any player to be re-rolled. May be used at any time!"}
         ]
     },
     {
@@ -383,7 +384,7 @@
     },
     {
         "id": 1080,
-        "canonicalId": 24,
+        "canonicalId": 125,
         "title": "Feed The Bunny",
         "deck": "FANTASTIC",
         "type": "RUN",
@@ -395,8 +396,8 @@
     },
     {
         "id": 1081,
+        "canonicalId": 125,
         "title": "Feed The Bunny",
-        "canonicalId": 24,
         "deck": "FANTASTIC",
         "type": "RUN",
         "bunnyRequirement": "PLAY",
@@ -427,7 +428,7 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
-            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a Nuclear Warhead may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://card/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
             {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
             {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
             {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."}
@@ -541,7 +542,7 @@
         "rules": [
             {"title": "Card Text", "text": "During a freak thunderstorm near a clocktower at exactly 10:04pm, one of your bunnies is struck by a bolt of lightning!"},
             {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
-            {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
+            {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
         ]
     },
     {
@@ -596,7 +597,8 @@
         "deck": "FANTASTIC",
         "type": "MYSTERIOUS_PLACE",
         "rules": [
-            {"title": "Card Text", "text": ""}
+            {"title": "Card Text", "text": "The player who picks the last Mysterious Place card controls all cards played that have a Yellow Ball with a Red Stripe"},
+            {"title": "Additional Rules", "text": "When you draw a Mysterious Place Card, you must immediately place it face up in front of you and draw another card. Mysterious Place Cards may not be kept in your hand. If a player is given a Mysterious Place card during the initial deal at the start of the game, or picks one from the Draw Pile during play, then the card is saved and the player draws another card. This is very similar to how players save Kaballa Dolla and Zodiac cards. Many new cards will refer to these saved Mysterious Place cards during play.<br><br>After the initial deal, and once game play begins, any player who draws a Mysterious Place card will take control of the Yellow Ball (with the Red Stripe). The Yellow Ball will always be placed on top of the last Mysterious Place card that was drawn. The player who has control of the Yellow Ball may control the destiny of any card played by any opponent that has a Yellow Ball in the picture. The opponent must play the card first, then the player may redirect it to any other player, bunny or the Discard Pile. Control of the Yellow Ball will always reside with the player who drew the last Mysterious Place card.<br><br>At the end of the game (before the Winning Zodiac is revealed), the small deck of Mysterious Place Cards, hidden away at the start of the game, is inspected. The player holding the Mysterious Place card that matches the picture on the small Mysterious Place Card at the bottom of the deck is allowed to steal all saved Zodiac cards of any one type (Air, Earth, Fire, Water) from any opponents.<br><br>It is possible that at the end of the game no player is holding the matching Mysterious Place card. If this is the case, then the game simply continues by revealing the Winning Zodiac using the small deck of Zodiac Cards."}
         ]
     },
     {
@@ -605,7 +607,8 @@
         "deck": "FANTASTIC",
         "type": "MYSTERIOUS_PLACE",
         "rules": [
-            {"title": "Card Text", "text": ""}
+            {"title": "Card Text", "text": "The player who picks the last Mysterious Place card controls all cards played that have a Yellow Ball with a Red Stripe"},
+            {"title": "Additional Rules", "text": "When you draw a Mysterious Place Card, you must immediately place it face up in front of you and draw another card. Mysterious Place Cards may not be kept in your hand. If a player is given a Mysterious Place card during the initial deal at the start of the game, or picks one from the Draw Pile during play, then the card is saved and the player draws another card. This is very similar to how players save Kaballa Dolla and Zodiac cards. Many new cards will refer to these saved Mysterious Place cards during play.<br><br>After the initial deal, and once game play begins, any player who draws a Mysterious Place card will take control of the Yellow Ball (with the Red Stripe). The Yellow Ball will always be placed on top of the last Mysterious Place card that was drawn. The player who has control of the Yellow Ball may control the destiny of any card played by any opponent that has a Yellow Ball in the picture. The opponent must play the card first, then the player may redirect it to any other player, bunny or the Discard Pile. Control of the Yellow Ball will always reside with the player who drew the last Mysterious Place card.<br><br>At the end of the game (before the Winning Zodiac is revealed), the small deck of Mysterious Place Cards, hidden away at the start of the game, is inspected. The player holding the Mysterious Place card that matches the picture on the small Mysterious Place Card at the bottom of the deck is allowed to steal all saved Zodiac cards of any one type (Air, Earth, Fire, Water) from any opponents.<br><br>It is possible that at the end of the game no player is holding the matching Mysterious Place card. If this is the case, then the game simply continues by revealing the Winning Zodiac using the small deck of Zodiac Cards."}
         ]
     }
 ]

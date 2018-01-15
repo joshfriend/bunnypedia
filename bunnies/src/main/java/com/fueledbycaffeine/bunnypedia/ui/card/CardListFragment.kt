@@ -44,6 +44,7 @@ class CardListFragment: Fragment() {
   @Inject lateinit var database: Database
   private lateinit var adapter: CardAdapter
   private var optionsMenuSubscribers = CompositeDisposable()
+  private var subscribers = CompositeDisposable()
 
   private var viewType: CardAdapter.CardViewType
     get() = CardAdapter.CardViewType.valueOf(
@@ -159,6 +160,7 @@ class CardListFragment: Fragment() {
         fastScroller.setRecyclerView(recyclerView)
         Timber.w("Cards loaded")
       }
+      .addTo(this.subscribers)
   }
 
   override fun onPrepareOptionsMenu(menu: Menu) {
@@ -206,6 +208,11 @@ class CardListFragment: Fragment() {
   override fun onDestroyOptionsMenu() {
     this.optionsMenuSubscribers.clear()
     super.onDestroyOptionsMenu()
+  }
+
+  override fun onDestroyView() {
+    this.subscribers.clear()
+    super.onDestroyView()
   }
 
   private fun setupLayoutManager() {

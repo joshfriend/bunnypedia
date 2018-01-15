@@ -226,7 +226,7 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
-            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a Nuclear Warhead may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://card/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
             {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
             {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
             {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."}
@@ -241,7 +241,7 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
-            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a Nuclear Warhead may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://card/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
             {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
             {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
             {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."}
@@ -438,7 +438,7 @@
         "type": "VERY_SPECIAL",
         "bunnyRequirement": "NO",
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to eliminate any Terrible Misfortune. May be used at any time!"}
+            {"title": "Card Text", "text": "May be used once by a player to eliminate any Terrible Misfortune (including Very and Extremely Terrible Misfortune). May be used at any time!"}
         ]
     },
     {
@@ -450,7 +450,7 @@
         "rules": [
             {"title": "Card Text", "text": "One of your bunnies experiments with flint stones while kneeling near a leaking gas main!"},
             {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
-            {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
+            {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
         ]
     },
     {
@@ -462,7 +462,7 @@
         "rules": [
             {"title": "Card Text", "text": "While carrying an anvil one of your bunnies stumbles upon a patch of quicksand!"},
             {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
-            {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
+            {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
         ]
     },
     {

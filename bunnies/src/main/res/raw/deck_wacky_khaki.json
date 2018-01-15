@@ -444,7 +444,7 @@
       "rules": [
         {"title": "Card Text", "text": "One of your bunnies is trampled while running with the bulls in Pamplona!"},
         {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
-        {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a>"}
+        {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
       ]
     },
     {
@@ -520,7 +520,8 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"}
       ]
     },
     {
@@ -533,7 +534,8 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"}
       ]
     },
     {
@@ -546,7 +548,8 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"}
       ]
     },
     {
@@ -559,7 +562,8 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"}
       ]
     },
     {
@@ -572,7 +576,8 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"}
       ]
     },
     {
@@ -587,6 +592,7 @@
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player’s turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
         {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
         {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">>Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
       ]
     }
