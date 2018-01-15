@@ -6,7 +6,7 @@
     <string name="pref_key_view_settings" translatable="false">pref_key_view_settings</string>
     <string name="pref_key_booster_decks" translatable="false">available_booster_decks</string>
     <string name="pref_key_view_type" translatable="false">view_type</string>
-    <string name="pref_default_view_type" translatable="false">LIST</string>
+    <string name="pref_default_view_type" translatable="false">GRID</string>
     <!-- END DO NOT TRANSLATE -->
 
     <string name="app_name">Bunnypedia</string>
