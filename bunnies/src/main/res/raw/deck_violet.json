@@ -133,7 +133,7 @@
         "dice": ["BLACK"],
         "weaponLevel": "2",
         "rules": [
-            {"title": "Card Text", "text": ""}
+            {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 2 to survive."}
         ]
     },
     {
