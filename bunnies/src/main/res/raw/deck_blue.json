@@ -866,7 +866,7 @@
     "bunnyRequirement": "NO",
     "pawn": "RED",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle<br>10-11-12 = Choose a Carrot from Kaballa's Market<br>7-8-9 = Take one Cabbage Card and one Water Card<br>4-5-6 = Feed the bunny 1 Cabbage Unit and 1 Water Unit<br>2-3 = The bunny gets whacked by the Mad Scotsman!<br>1 = A well-thrown pitchfork kills the bunny and adjacent bunnies!"},
+      {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle<br>10-11-12 = Choose a Carrot from Kaballa's Market<br>7-8-9 = Take 1 Cabbage Card and 1 Water Card<br>4-5-6 = Feed the bunny 1 Cabbage Unit and 1 Water Unit<br>2-3 = The bunny gets whacked by the Mad Scotsman!<br>1 = A well-thrown pitchfork kills the bunny and adjacent bunnies!"},
       {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa’s Market (if the market is open)."}
     ]
   },
@@ -879,7 +879,7 @@
     "bunnyRequirement": "NO",
     "pawn": "RED",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle<br>10-11-12 = Choose a Carrot from Kaballa's Market<br>7-8-9 = Take one Cabbage Card and one Water Card<br>4-5-6 = Feed the bunny 1 Cabbage Unit and 1 Water Unit<br>2-3 = The bunny gets whacked by the Mad Scotsman!<br>1 = A well-thrown pitchfork kills the bunny and adjacent bunnies!"},
+      {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle<br>10-11-12 = Choose a Carrot from Kaballa's Market<br>7-8-9 = Take 1 Cabbage Card and 1 Water Card<br>4-5-6 = Feed the bunny 1 Cabbage Unit and 1 Water Unit<br>2-3 = The bunny gets whacked by the Mad Scotsman!<br>1 = A well-thrown pitchfork kills the bunny and adjacent bunnies!"},
       {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa’s Market (if the market is open)."}
     ]
   },
