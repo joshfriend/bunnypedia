@@ -259,6 +259,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Octdruple Lucky Clover lowers the level of any weapon by eight."},
+      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://card/462\">Miracle Growth</a> can be used to double the amount of clover"},
       {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
@@ -316,7 +317,8 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "RED", "ZODIAC", "CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "If any die rolled matches the current day of the month then the player holding the Zodiac Card that matches the symbol rolled on the Zodiac die must discard all possessions, draw new cards and start the game over."},
-      {"title": "Additional Rules", "text": "Zodiac Terminator cannot be played after the 20th day of any month since no die rolled for this card has more than twenty sides."}
+      {"title": "Additional Rules", "text": "Zodiac Terminator cannot be played after the 20th day of any month since no die rolled for this card has more than twenty sides."},
+      {"title": "Happy Scrappy Hero Pup", "text": "<a href=\"bunnypedia://card/482\">Happy Scrappy Hero Pup</a> can be used to eliminate the Zodiac Terminator."}
     ]
   },
   {

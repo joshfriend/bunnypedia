@@ -55,7 +55,7 @@
                 android:id="@+id/cardType"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="Weapon lvl 12"
+                tools:text="Run"
                 style="@style/TextAppearance.AppCompat.Caption"
                 />
 

@@ -244,7 +244,7 @@
     "weaponLevel": "11",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must roll 12 to survive. Adjacent bunnies must roll higher than 10 to survive. Bunnies two spaces away must roll higher than 9 to survive and so on until all bunnies in The Bunny Circle have rolled."},
-      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">>Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
       {"title": "Holographic Bunny", "text": "Miniature Black Hole can be used to kill the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
     ]
   },
@@ -352,6 +352,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Quadruple Lucky Clover lowers the level of any weapon by four."},
+      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://card/462\">Miracle Growth</a> can be used to double the amount of clover"},
       {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
@@ -423,7 +424,7 @@
     "rules": [
       {"title": "Card Text", "text": "The player with this card saved must double the range and level of each weapon. Only weapon levels 1-9 are affected. Weapons affect the target bunny and adjacent bunnies. If at any time the player has no bunnies in The Bunny Circle then The Minilith is discarded."},
       {"title": "Additional Rules", "text": "Doubling the Weapon Level may make it nearly impossible for an opponent to survive a weapon. For example, if a player with The Minilith card saved plays the Flame Thrower (Weapon Level 8) on a bunny in The Bunny Circle, then all three bunnies affected would need to roll higher than 16 on the Black 12-sided die to survive (which is not possible). It is, however, possible for any bunny to have enough Clovers underneath it to survive."},
-      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">>Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
       {"title": "Activate: The Minilith", "text": "<a href=\"bunnypedia://card/183\">Activate: The Minilith</a> can be used to steal The Minilith or force the player with The Minilith saved to risk losing carrots."}
     ]
   },

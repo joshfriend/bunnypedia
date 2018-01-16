@@ -280,6 +280,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Hendecadruple lowers the level of any weapon by eleven."},
+      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://card/462\">Miracle Growth</a> can be used to double the amount of clover"},
       {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
@@ -328,7 +329,7 @@
     "symbols": ["JUPITER"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to take all of the discarded Cabbage and Water Cards and to shuffle them back into their Draw Piles."},
-      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">>Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
     ]
   },
   {
@@ -420,7 +421,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to transform any Run card into a Very Special card. May be used at any time!"},
       {"title": "Additional Rules", "text": "Since both Transcendental Run and the Run card will both be Very Special cards, they may be used at any time!"},
-      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">>Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
     ]
   },
   {
