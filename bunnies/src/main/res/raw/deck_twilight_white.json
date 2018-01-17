@@ -163,8 +163,8 @@
         "weaponLevel": "20",
         "dice": ["CLEAR"],
         "rules": [
-            {"title": "Card Text", "text": "Before playing Psychic Waves on any opponent's bunny the player must secretly write down one of the six Symbols. If the opponent guesses the incorrect Symbol then his bunny dies (<a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive). Psychic Waves is then placed on the next bunny clockwise and the process is repeated."},
-            {"title": "Additional Rules", "text": "Before playing Psychic Waves on any opponent’s bunny in The Bunny Circle, the player must secretly write down one of the six Symbols (Triangle, Rectangle, Spiral, Ellipse, Star or Cross) on a piece of paper hidden from all of the other players.<br><br>The opponent whose bunny was targeted by Psychic Waves will try to guess the Symbol chosen by the player. If the opponent guesses the incorrect Symbol, then his bunny dies. Clover bunnies (bunnies with Clover cards underneath them) may survive since Clovers lower the level of an attacking weapon.<br><br>Psychic Waves is then placed on the next bunny clockwise in The Bunny Circle and the process is repeated. This continues up to five times, or until the correct Symbol is guessed. Obviously as Psychic Waves continues, it becomes easier to guess the Symbol with fewer choices.<br><br>Psychic Waves is played during one player’s turn, and no <a href=\"bunnypedia://card/185\">Barrier</a> can stop Psychic Waves."}
+            {"title": "Card Text", "text": "Before playing Psychic Waves on any opponent's bunny the player must secretly write down one of the six symbols. If the opponent guesses the incorrect symbol then his bunny dies (<a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive). Psychic Waves is then placed on the next bunny clockwise and the process is repeated."},
+            {"title": "Additional Rules", "text": "Before playing Psychic Waves on any opponent’s bunny in The Bunny Circle, the player must secretly write down one of the six symbols (Triangle, Rectangle, Spiral, Ellipse, Star or Cross) on a piece of paper hidden from all of the other players.<br><br>The opponent whose bunny was targeted by Psychic Waves will try to guess the symbol chosen by the player. If the opponent guesses the incorrect symbol, then his bunny dies. Clover bunnies (bunnies with Clover cards underneath them) may survive since Clovers lower the level of an attacking weapon.<br><br>Psychic Waves is then placed on the next bunny clockwise in The Bunny Circle and the process is repeated. This continues up to five times, or until the correct symbol is guessed. Obviously as Psychic Waves continues, it becomes easier to guess the symbol with fewer choices.<br><br>Psychic Waves is played during one player’s turn, and no <a href=\"bunnypedia://card/185\">Barrier</a> can stop Psychic Waves."}
         ]
     },
     {
@@ -178,7 +178,7 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Cathode (Black) or Anode (Red) roll to be the higher number."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
         ]
     },
     {
@@ -192,7 +192,7 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing either Esther's (Blue) or Betty's (Red) roll to be the higher number."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
         ]
     },
     {
@@ -205,7 +205,7 @@
         "dice": ["BLACK"],
         "rules": [
             {"title": "Card Text", "text": "Players donate Dolla to increase the Weapon Level. May be placed on any bunny which must roll higher than the Dolla amount collected to survive."},
-            {"title": "Additional Rules", "text": "Mob Hit may be placed on any bunny in The Bunny Circle which must roll higher than the Dolla amount collected on the Black 12-sided die to survive.<br><br>To use this weapon, a player places MobHit on any opponent’s bunny. The other players are then asked to donate Dolla to increase the weapon level. The  nal weapon level is equal to the amount of Dolla donated by all of the players.<br><br>Although the opponent is asked to roll the Black 12-sided die to defend against Mob Hit, the weapon level does not have to stop at 12 and may reach any level with generous donations of Dolla. The opponent may save his bunny by using Defense Cards that are equal to the weapon level reached by the other players’ donations. After the weapon has been used, the Dolla is given to Kaballa (discarded). Mob Hit may not be purchased from Rooney’s Weapons Emporium for any price."}
+            {"title": "Additional Rules", "text": "Mob Hit may be placed on any bunny in The Bunny Circle which must roll higher than the Dolla amount collected on the Black 12-sided die to survive.<br><br>To use this weapon, a player places Mob Hit on any opponent’s bunny. The other players are then asked to donate Dolla to increase the weapon level. The final weapon level is equal to the amount of Dolla donated by all of the players.<br><br>Although the opponent is asked to roll the Black 12-sided die to defend against Mob Hit, the weapon level does not have to stop at 12 and may reach any level with generous donations of Dolla. The opponent may save his bunny by using Defense Cards that are equal to the weapon level reached by the other players’ donations. After the weapon has been used, the Dolla is given to Kaballa (discarded). Mob Hit may not be purchased from Rooney’s Weapons Emporium for any price."}
         ]
     },
     {
@@ -288,7 +288,7 @@
         "type": "RUN",
         "bunnyRequirement": "NO",
         "rules": [
-            {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Nondruple lowers the level of any weapon by nine."},
+            {"title": "Card Text", "text": "May be placed under any bunny. Nondruple Lucky Clover lowers the level of any weapon by nine."},
             {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a> must also discard all Clover."}
         ]
     },
@@ -498,7 +498,7 @@
         "bunnyRequirement": "PLAY",
         "dice": ["BLACK"],
         "rules": [
-            {"title": "Card Text", "text": "May be used onc by a player to boost the weapon level of any weapon placed on any bunny by the amount rolled. ALl weapon ranges remain unchanged. May be used at any time!"},
+            {"title": "Card Text", "text": "May be used once by a player to boost the weapon level of any weapon placed on any bunny by the amount rolled. All weapon ranges remain unchanged. May be used at any time!"},
             {"title": "Additional Rules", "text": "Weapon Booster cannot be used to change a 50/50 Weapon."}
         ]
     },
@@ -511,7 +511,7 @@
         "rules": [
             {"title": "Card Text", "text": "The player with this card saved has exclusive use of the White die which may be rolled and substituted for the roll of any other 12-sided die any time during play. May be used once per card consequence."},
             {"title": "Additional Rules", "text": "Neither the <a href=\"bunnypedia://card/170\">Red Timid Bunny</a> nor the White Pawn will allow a re-roll of the White die."},
-            {"title": "White Party", "text": "<a href=\"bunnypedia://card/611\">White Party</a> may be used to steal the White Stuff."},
+            {"title": "White Party", "text": "<a href=\"bunnypedia://card/661\">White Party</a> may be used to steal the White Stuff."},
             {"title": "Sunny Day", "text": "<a href=\"bunnypedia://card/82\">Sunny Day</a> may be exchanged for The White Stuff."}
         ]
     },
