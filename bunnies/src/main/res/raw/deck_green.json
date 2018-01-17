@@ -202,7 +202,7 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
     "rules": [
       {"title": "Card Text", "text": "Each die may be rolled three times. Put rolls of six aside. If three sixes are rolled then the player revives three bunnies (of those colors) back from the dead or discard pile (if available)."},
-      {"title": "Additional Rules", "text": "Half color bunnies may be revived as well provided that at least one of the colors match. Free Agent, Specialty bunnies and Celebrity bunnies may not be revived using this card. The maximum number of bunnies that a player may revive is three. Extra rolls of 6 may give a player more color choices, but not more bunnies."}
+      {"title": "Additional Rules", "text": "Half color bunnies may be revived as well provided that at least one of the colors match. <a href=\"bunnypedia://card/57\">Free Agent</a>, Specialty bunnies and Celebrity bunnies may not be revived using this card. The maximum number of bunnies that a player may revive is three. Extra rolls of 6 may give a player more color choices, but not more bunnies."}
     ]
   },
   {
@@ -212,7 +212,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once to connect the fate of two adjacent bunnies. Bunnies share <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>, Clover, Bunny Booster, <a href=\"bunnypedia://card/151\">Containment Suit</a>, and Rank."},
+      {"title": "Card Text", "text": "May be used once to connect the fate of two adjacent bunnies. Bunnies share <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>, <a href=\"bunnypedia://card/61\">Clover</a>, <a href=\"bunnypedia://card/239\">Bunny Booster</a>, <a href=\"bunnypedia://card/151\">Containment Suit</a>, and Rank."},
       {"title": "Additional Rules", "text": "If one bunny is killed, then the other one dies as well. Bunnies separated by a Barrier may not be joined. Any object (a bunny, a <a href=\"bunnypedia://card/185\">Barrier</a> or <a href=\"bunnypedia://card/717\">The Djarnak</a>) placed between two joined bunnies breaks the connection and discards the Fingercuffs."}
     ]
   },
@@ -247,8 +247,8 @@
     "bunnyRequirement": "PLAY",
     "dice": ["VIOLET", "BLACK", "RED"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any one player's bunnies which all roam the board clockwise with Leif Carrotson. Leif (and the bunnies) visit one player per round.\n• Red roll high - the player keeps one bunny.\n• Violet roll high - Leif and bunnies keep roaming.\n• Black roll high - one bunny is thrown overboard and drowns."},
-      {"title": "Additional Rules", "text": "When a player gives this card to an opponent, all of the opponent's bunnies that are down (in The Bunny Circle) are taken on board Leif's ship and moved to the next player clockwise. That player rolls the three dice (Violet, Black and Red). If the Red is the highest roll, then the player is allowed to take (and kee) one of the bunnies and immediately place it down in The Bunny Circle. If the Violet is the highest roll, then all fo the bunnies stay on board and continue to roam. If the Black is the highest roll, then the player chooses one bunny to throw overboard (and into the discard pile). Since Leif Carrotson is a Roaming Red Run card, the ship will move to the next player clockwise once every round. When the ship is empty (no bunnies left) Leif Carrotson is discarded."}
+      {"title": "Card Text", "text": "May be placed on any one player's bunnies which all roam the board clockwise with Leif Carrotson. Leif (and the bunnies) visit one player per round.<br>• Red roll high - the player keeps one bunny.<br>• Violet roll high - Leif and bunnies keep roaming.<br>• Black roll high - one bunny is thrown overboard and drowns."},
+      {"title": "Additional Rules", "text": "When a player gives this card to an opponent, all of the opponent's bunnies that are down (in The Bunny Circle) are taken on board Leif's ship and moved to the next player clockwise. That player rolls the three dice (Violet, Black and Red). If the Red is the highest roll, then the player is allowed to take (and keep) one of the bunnies and immediately place it down in The Bunny Circle. If the Violet is the highest roll, then all of the bunnies stay on board and continue to roam. If the Black is the highest roll, then the player chooses one bunny to throw overboard (and into the discard pile). Since Leif Carrotson is a Roaming Red Run card, the ship will move to the next player clockwise once every round. When the ship is empty (no bunnies left) Leif Carrotson is discarded."}
     ]
   },
   {
@@ -258,7 +258,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Octdruple lowers the level of any weapon by eight."},
+      {"title": "Card Text", "text": "May be placed under any bunny. Octdruple Lucky Clover lowers the level of any weapon by eight."},
       {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
@@ -350,7 +350,7 @@
     "type": "SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once to double the amount of cabbage on any pending Feed The Bunny card."}
+      {"title": "Card Text", "text": "May be used once to double the amount of cabbage on any pending <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card."}
     ]
   },
   {
@@ -373,7 +373,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player. Any consequence of death suffered by the player's bunny (or bunnies) will also befall the opponent's bunny (or bunnies). May be used at any time!"},
-      {"title": "Additional Rules", "text": "Operation Spoilsport may be used by a player to avenge only his own bunny (or bunnies). Any consequence of death suffered by the player’s bunny (or bunnies) in The Bunny Circle will also be suffered by the opponent’s bunny (or bunnies) in The Bunny Circle. For example, let’s suppose that an opponent kills a player’s bunny with a Leviathan. The player may use Operation Spoilsport to automatically kill one of the opponent’s bunnies. The player must, however, use Operation Spoilsport before the next player starts his turn. For another example, if the opponent uses the Sea Whiz Mount on the player and kills three of his bunnies, then the player may immediately use Operation Spoilsport to kill up to three of the opponent’s bunnies (if the opponent has three bunnies in The Bunny Circle)."}
+      {"title": "Additional Rules", "text": "Operation Spoilsport may be used by a player to avenge only his own bunny (or bunnies). Any consequence of death suffered by the player’s bunny (or bunnies) in The Bunny Circle will also be suffered by the opponent’s bunny (or bunnies) in The Bunny Circle. For example, let’s suppose that an opponent kills a player’s bunny with a <a href=\"bunnypedia://card/346\">Leviathan</a>. The player may use Operation Spoilsport to automatically kill one of the opponent’s bunnies. The player must, however, use Operation Spoilsport before the next player starts his turn. For another example, if the opponent uses the <a href=\"bunnypedia://card/131\">Sea Whiz Mount</a> on the player and kills three of his bunnies, then the player may immediately use Operation Spoilsport to kill up to three of the opponent’s bunnies (if the opponent has three bunnies in The Bunny Circle)."}
     ]
   },
   {
