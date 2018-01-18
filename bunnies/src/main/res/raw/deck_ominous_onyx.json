@@ -90,7 +90,7 @@
     "rules": [
       {"title": "Card Text", "text": "This bunny possesses all of the advantages of Super bunnies and all of the special features of all of the Red bunnies."},
       {"title": "Additional Rules", "text": "The advantages of Super bunnies:<br><ol><li> The player with a Super Bunny in The Bunny Circle may automatically play two cards per turn.</li><li> When a Super Bunny is attacked with a Weapon card, the player may roll the Clear 20-sided die regardless of the weapon level. Even though this has no advantage if the weapon level is 13 or higher, it is a great advantage for weapons with levels 1-12.</li><li> When a Super Bunny is placed in The Bunny Circle, all bunnies that are the same color (or half color) as the Super Bunny are immediately eliminated from The Bunny Circle. Until the Super Bunny itself is eliminated, no bunny of the same color (or half color) can survive in The Bunny Circle.<br>A Red or Pink bunny that has The <a href=\"bunnypedia://card/58\">Heavenly Halo</a> is not eliminated from The Bunny Circle if a Red or Pink Extra Super Bunny of the same color arrives. If The Heavenly Halo is placed on the Extra Super Bunny, then all bunnies of the same color arriving in The Bunny Circle are safe (not discarded).</li><br><br>Once an Extra Super Bunny has been eliminated, it cannot be purchased from Weil’s Pawn Shop nor can it be brought back into the game for any reason using any card. In addition, an Extra Super Bunny cannot be affected by the cards: <a href=\"bunnypedia://card/407\">Cloning</a>, <a href=\"bunnypedia://card/239\">Bunny Booster</a>, <a href=\"bunnypedia://card/254\">Random Paintball Assault</a>, <a href=\"bunnypedia://card/568\">Better Bunny Booster</a> or <a href=\"bunnypedia://card/515\">Blanch</a>."},
-      {"title": "Red Bunny Benefits", "text": "<ul><li><a href=\"bunnypedia://card/166\">Red Congenial Bunny</a> - has 3 Cabbage Units and 3 Water Units available.</li><li><a href=\"bunnypedia://card/167\">Red Gleeful Bunny</a> - has 3 Dolla available.</li><li><a href=\"bunnypedia://card/168\">Red Lumbering Bunny</a> - has Lucky Clover Triple which lowers the strength of weapons.</li><li><a href=\"bunnypedia://card/169\">Red Sinister Bunny</a> - has a Bounce Back Force Field to re-launch weapons.</li><li><a href=\"bunnypedia://card/170\">Red Timid Bunny</a> - has re-roll capabilities for all of the dice.</li></ul>"}
+      {"title": "Red Bunny Benefits", "text": "<ul><li><a href=\"bunnypedia://card/166\">Red Congenial Bunny</a> - 3 Cabbage and 3 Water Units</li><li><a href=\"bunnypedia://card/167\">Red Gleeful Bunny</a> - 3 Dolla</li><li><a href=\"bunnypedia://card/168\">Red Lumbering Bunny</a> - Triple Lucky Clover</li><li><a href=\"bunnypedia://card/169\">Red Sinister Bunny</a> - Bounce Back Force Field</li><li><a href=\"bunnypedia://card/170\">Red Timid Bunny</a> - re-roll capabilities for all of the dice.</li></ul>"}
     ]
   },
   {
@@ -113,7 +113,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -125,7 +125,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -201,7 +201,7 @@
     "weaponLevel": "Guy/Gal",
     "dice": ["BLUE", "BLACK"],
     "rules": [
-      {"title": "Card Text", "text": "Must be used by a GUy player against a Gal opponent's bunny. The player rolls the Blue die first to determine the Weapon Level. The opponent rolls the Black die which must be higher than the Blue die for the bunny to survive."},
+      {"title": "Card Text", "text": "Must be used by a Guy player against a Gal opponent's bunny. The player rolls the Blue die first to determine the Weapon Level. The opponent rolls the Black die which must be higher than the Blue die for the bunny to survive."},
       {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol’s bunnies, she cannot use <a href=\"bunnypedia://card/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://card/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker’s bunnies if the gender conditions were satisfied."}
     ]
   },
@@ -261,7 +261,7 @@
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "A Violet bunny that is owned by one player but is placed in any opponent's area in The Bunny Circle."},
-      {"title": "Additional Rules", "text": "The bunny is owned exclusively by the  rst player, and does not allow the opponent (host player) to use the bunny to play Aggressive cards. At the end of the game, Ambassador Bunny may be used by the player to win the game."}
+      {"title": "Additional Rules", "text": "The bunny is owned exclusively by the first player, and does not allow the opponent (host player) to use the bunny to play Aggressive cards. At the end of the game, Ambassador Bunny may be used by the player to win the game."}
     ]
   },
   {
@@ -282,7 +282,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to freeze any opponent's food supply. Arctic Caribou is removed once the opponent kills any bunny in The Bunny Circle (or in space)."},
-      {"title": "Additional Rules", "text": "Cabbage Units or Water Units as cards or Vouchers that are owned by the opponent at the time that Arctic Caribou is played may not be used to Feed The Bunny or to trade with other players. Cabbage Units or Water Units purchased afterwards will be available to the opponent.<br><br>Also, the opponent’s Cabbage Units and Water Units may not be taken for any reason by cards such as <a href=\"bunnypedia://card/56\">Drought</a>, <a href=\"bunnypedia://card/64\">Maggots</a> or <a href=\"bunnypedia://card/142\">Rock Bottom</a>."}
+      {"title": "Additional Rules", "text": "Cabbage Units or Water Units as cards or Vouchers that are owned by the opponent at the time that Arctic Caribou is played may not be used to <a href=\"bunnypedia://card/24\">Feed The Bunny</a> or to trade with other players. Cabbage Units or Water Units purchased afterwards will be available to the opponent.<br><br>Also, the opponent’s Cabbage Units and Water Units may not be taken for any reason by cards such as <a href=\"bunnypedia://card/56\">Drought</a>, <a href=\"bunnypedia://card/64\">Maggots</a> or <a href=\"bunnypedia://card/142\">Rock Bottom</a>."}
     ]
   },
   {
@@ -293,7 +293,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to assign all Rank cards in the Discard Pile to any bunnies in The Bunny Circle."},
-      {"title": "Additional Rules", "text": "Not all Rank cards in the Discard Pile have to be usedi f there are not enough bunnies in The Bunny Circle. No Rank card already assigned to a bunny may be removed or exchanged."}
+      {"title": "Additional Rules", "text": "Not all Rank cards in the Discard Pile have to be used if there are not enough bunnies in The Bunny Circle. No Rank card already assigned to a bunny may be removed or exchanged."}
     ]
   },
   {
@@ -323,7 +323,7 @@
     "deck": "OMINOUS_ONYX",
     "type": "RUN",
     "rules": [
-      {"title": "Card Text", "text": "An Orange bunny that cannot be directly targeted by any weapon or safety hazard. All FTB cards placed on this bunny require twice the amounts (or two <a href=\"bunnypedia://card/72\">Danish</a>"}
+      {"title": "Card Text", "text": "An Orange bunny that cannot be directly targeted by any weapon or safety hazard. All <a href=\"bunnypedia://card/24\">FTB</a> cards placed on this bunny require twice the amounts (or two <a href=\"bunnypedia://card/72\">Danish</a>)"}
     ]
   },
   {
@@ -431,7 +431,7 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to take any one bunny in The Bunny Circle, saved Zodiac card, or Mysterious Place card that has a 5 in the card identification number if at least one 5 is rolled."},
-      {"title": "Additional Rules", "text": "If at least  ve 5s are rolled, then the player may take all of the bunnies in The Bunny Circle, saved Zodiac cards and saved Mysterious Place cards that have a 5 in the Card Identification Number."}
+      {"title": "Additional Rules", "text": "If at least five 5s are rolled, then the player may take all of the bunnies in The Bunny Circle, saved Zodiac cards and saved Mysterious Place cards that have a 5 in the Card Identification Number."}
     ]
   },
   {
@@ -543,7 +543,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed in The Bunny Circle and attacked in any way that a bunny is attacked. The highest Officer ranked bunny must ask permission from the President to play an extra card."},
-      {"title": "Additional Rules", "text": "President Ficus may be placed in The Bunny Circle and attacked in any way that a bunny is attacked (and killed) including weapons and Terrible Misfortune. The player with the highest Of cer ranked bunny (HORB) must ask permission from the player with President Ficus to play an extra card. President Ficus can supercede the HORB’s decision to allow (or not allow) the highest Enlisted ranked bunny (HERB) to play an extra card.<br><br>Just before the Magic Carrot is revealed, the player with President Ficus can order all bunnies with a Rank card in The Bunny Circle into the Discard Pile. President Ficus itself is not a bunny, and therefore cannot be used to play Aggressive cards or to win the game."}
+      {"title": "Additional Rules", "text": "President Ficus may be placed in The Bunny Circle and attacked in any way that a bunny is attacked (and killed) including weapons and Terrible Misfortune. The player with the highest Officer ranked bunny (HORB) must ask permission from the player with President Ficus to play an extra card. President Ficus can supercede the HORB’s decision to allow (or not allow) the highest Enlisted ranked bunny (HERB) to play an extra card.<br><br>Just before the Magic Carrot is revealed, the player with President Ficus can order all bunnies with a Rank card in The Bunny Circle into the Discard Pile. President Ficus itself is not a bunny, and therefore cannot be used to play Aggressive cards or to win the game."}
     ]
   },
   {
@@ -661,7 +661,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny along with 5 Dolla. If the bunny is killed then the player may return it to The Bunny Circle and discard both Insurance Porpoises and the 5 Dolla."},
-      {"title": "Additional Rules", "text": "If the bunny is killed, then the player may return it to The Bunny Circle at the start of his next turn and discard both Insurance Porpoises and the 5 Dolla. All Bunny Modi ers remain with the bunny."}
+      {"title": "Additional Rules", "text": "If the bunny is killed, then the player may return it to The Bunny Circle at the start of his next turn and discard both Insurance Porpoises and the 5 Dolla. All Bunny Modifers remain with the bunny."}
     ]
   },
   {
@@ -699,7 +699,7 @@
     "title": "Time Worf",
     "deck": "OMINOUS_ONYX",
     "type": "SPECIAL",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once to force all players to move their Top Run card to the next player clockwise and their Bottom Run card to the next player counter-clockwise."},
       {"title": "Additional Rules", "text": "If the player decides to use Time Worf right away, he must first slide his Bottom Run card into the Top Run card position and replace his Bottom Run card."}
@@ -723,7 +723,7 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to protect any one bunny from the effects of a range weeapon. The bunny cannot be the direct target of the weapon. May be used at any time!"},
+      {"title": "Card Text", "text": "May be used once by a player to protect any one bunny from the effects of a range weapon. The bunny cannot be the direct target of the weapon. May be used at any time!"},
       {"title": "Additional Rules", "text": "Bunny Bunker may be used once by a player to protect any one bunny from the effects of a range weapon such as the <a href=\"bunnypedia://card/48\">Nuclear Warhead</a>. The bunny cannot be the direct target of the weapon or connected to the direct target using <a href\"bunnypedia://card/349\">Fingercuffs</a>. May be used at any time!"}
     ]
   },
@@ -754,7 +754,7 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to force any player with a pending Feed The Bunny on one of his bunnies to Feed Now Or Die. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player to force any player with a pending <a href=\"bunnypedia://card/24\">Feed The Bunny</a> on one of his bunnies to Feed Now Or Die. May be used at any time!"}
     ]
   },
   {
@@ -775,7 +775,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to control the destiny of any opponent's Top Run card. Must be played before the opponent starts his turn. May be played at any time."},
-      {"title": "Additional Rules", "text": "After the opponent reveals the Top Run card, the player  rst decides whether the opponent may use it, or if he wishes the opponent to discard it. Next, the player may decide where the card will be placed (if it is a weapon card), or force the opponent to play a dangerous card on one of his own bunnies. Finally, if the card is beneficial, the player may insist that the opponent give the card to him."}
+      {"title": "Additional Rules", "text": "After the opponent reveals the Top Run card, the player first decides whether the opponent may use it, or if he wishes the opponent to discard it. Next, the player may decide where the card will be placed (if it is a weapon card), or force the opponent to play a dangerous card on one of his own bunnies. Finally, if the card is beneficial, the player may insist that the opponent give the card to him."}
     ]
   },
   {
@@ -787,7 +787,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to place any one of his bunnies from The Bunny Circle back into his five-card hand and to discard any unwanted card. May be used between any two player's turns!"},
-      {"title": "Additional Rules", "text": "When bunnies are Rerun,they lose all of their Bunny Modifiers."},
+      {"title": "Additional Rules", "text": "When bunnies are Rerun, they lose all of their Bunny Modifiers."},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },
@@ -799,7 +799,7 @@
     "bunnyRequirement": "NO",
     "dice": ["ORANGE", "PINK"],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to stop the commandeering of a Yellow Ball card if either die (or both dice combined) total today's date. Or may be used once to stop Switch-A-Roo. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player to stop the commandeering of a Yellow Ball card if either die (or both dice combined) total today's date, or may be used once to stop Switch-A-Roo. May be used at any time!"}
     ]
   },
   {
@@ -1161,7 +1161,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May e given to any player that has Much More bunnies, Cabbage Units, Water Units, Defense Units, Pawns, Zodiac cards, or Mysterious Place cards than all of the other players. The player must distribute his possessions equally amongst himself and the other players."},
+      {"title": "Card Text", "text": "May be given to any player that has Much More bunnies, Cabbage Units, Water Units, Defense Units, Pawns, Zodiac cards, or Mysterious Place cards than all of the other players. The player must distribute his possessions equally amongst himself and the other players."},
       {"title": "Additional Rules", "text": "Much More is defined as more than twice the amount of any opponent. Each of the items listed on the card must be evaluated separately. The player must distribute his possessions equally amongst himself and his opponents. Equally is defined as meaning that each player will receive one item (or Unit) before any player gets a second of the same item (or Unit)."}
     ]
   }

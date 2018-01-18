@@ -55,7 +55,7 @@
       "bunnyRequirement": "PLAY",
       "aggressive": false,
       "rules": [
-        {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
       ]
     },
     {
@@ -67,7 +67,7 @@
       "bunnyRequirement": "PLAY",
       "aggressive": false,
       "rules": [
-        {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
       ]
     },
     {
@@ -79,7 +79,7 @@
       "bunnyRequirement": "PLAY",
       "aggressive": false,
       "rules": [
-        {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+        {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
       ]
     },
     {
@@ -147,7 +147,7 @@
       "dice": ["BLACK", "CLEAR"],
       "symbols": ["MYSTERIOUS_PLACE_BALL"],
       "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total"},
+        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total."},
         {"title": "Additional Rules", "text": "No bunny belonging to a player born on the 17th of any month can be attacked using a Dated Weapon."},
         {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
       ]
@@ -160,7 +160,7 @@
       "bunnyRequirement": "PLAY",
       "dice": ["BLACK", "CLEAR"],
       "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total"},
+        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total."},
         {"title": "Additional Rules", "text": "No bunny belonging to a player born on the 17th of any month can be attacked using a Dated Weapon."}
       ]
     },
@@ -172,8 +172,8 @@
       "bunnyRequirement": "PLAY",
       "dice": ["YELLOW"],
       "rules": [
-        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than the current hour to survive. The Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The ARmy ends when the hour number is zero or there are no more viable targets."},
-        {"title": "Additional Rules", "text": "All players are encouraged to use an AM/PM system of time measurement to determine the hour of play (from 1 to 12).<br><br>Regardless of the outcome of the first bunny’s roll, the Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The next bunny must also roll the Yellow 12-sided die. The Army Of The 12 Bunnies is played entirely during one player’s turn and ends when the hour number is zero, or when there are no more viable bunny targets in The Bunny Circle. Army Of The 12 Bunnies is not impeded byaBarrier. Since the Army is not a weapon, Clovers cannot lower its effect, and Defense Cards cannot be used to stop an attack."}
+        {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than the current hour to survive. The Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The Army ends when the hour number is zero or there are no more viable targets."},
+        {"title": "Additional Rules", "text": "All players are encouraged to use an AM/PM system of time measurement to determine the hour of play (from 1 to 12).<br><br>Regardless of the outcome of the first bunny’s roll, the Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The next bunny must also roll the Yellow 12-sided die. The Army Of The 12 Bunnies is played entirely during one player’s turn and ends when the hour number is zero, or when there are no more viable bunny targets in The Bunny Circle. Army Of The 12 Bunnies is not impeded by a <a href=\"bunnypedia://card/185\">Barrier</a>. Since the Army is not a weapon, <a href=\"bunnypedia://card/61\">Clovers</a> cannot lower its effect, and Defense Cards cannot be used to stop an attack."}
       ]
     },
     {
@@ -302,7 +302,7 @@
       "type": "RUN",
       "bunnyRequirement": "NO",
       "rules": [
-        {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Dodecadruple lowers the level of any weapon by twelve."},
+        {"title": "Card Text", "text": "May be placed under any bunny. Dodecadruple Lucky Clover lowers the level of any weapon by twelve."},
         {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a> must also discard all Clover."}
       ]
     },
@@ -324,7 +324,7 @@
       "type": "RUN",
       "bunnyRequirement": "NO",
       "rules": [
-        {"title": "Card Text", "text": "May be used once by a player to look at any oppnent's five-card hand."}
+        {"title": "Card Text", "text": "May be used once by a player to look at any opponent's five-card hand."}
       ]
     },
     {
@@ -345,7 +345,7 @@
       "type": "RUN",
       "bunnyRequirement": "NO",
       "rules": [
-        {"title": "Card Text", "text": "May be used once by a player to take any P-Card form the Discard Pile. THe card may be used immediately or saved if it is a Special card."},
+        {"title": "Card Text", "text": "May be used once by a player to take any P-Card form the Discard Pile. The card may be used immediately or saved if it is a Special card."},
         {"title": "Additional Rules", "text": "The card must be used immediately if it is a Run card, or it may be saved if it is a Special card."}
       ]
     },

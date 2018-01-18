@@ -8,7 +8,7 @@
     "specialSeries": "OMEGA",
     "dice": ["GREEN"],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to steal the winnings of any opponent who is successful at either <a href=\"bunnypedia://card/66\">Carrot Top Casino> or <a href=\"bunnypedia://card/304\">Carrot Top Royale</a>. A roll of 7 or 11 doubles the winnings. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player to steal the winnings of any opponent who is successful at either <a href=\"bunnypedia://card/66\">Carrot Top Casino</a> or <a href=\"bunnypedia://card/304\">Carrot Top Royale</a>. A roll of 7 or 11 doubles the winnings. May be used at any time!"}
     ]
   },
   {
@@ -20,7 +20,7 @@
     "specialSeries": "OMEGA",
     "rules": [
       {"title": "Card Text", "text": "May be placed between any two adjacent players and prevents them from using any Aggressive cards against each other."},
-      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of Choose A Carrot (any amount of Carrots) cards."}
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
     ]
   },
   {
@@ -31,8 +31,7 @@
     "bunnyRequirement": "PLAY",
     "specialSeries": "OMEGA",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to exchange any saved Special or Very Special card with any opponent for Carrot #4 (Flo)."},
-      {"title": "Aggressive Cards", "text": "A player who speaks must return a Carrot to Kaballa’s Market (even if the market is closed), discard a saved Zodiac card or a saved Mysterious Place card for every word that is spoken during the two rounds of silence. Players without objects will forfeit turns of play."}
+      {"title": "Card Text", "text": "May be used once by a player to exchange any saved Special or Very Special card with any opponent for <a href=\"bunnypedia://card/106\">Carrot #4 (Flo)</a>."},
     ]
   },
   {
@@ -44,7 +43,7 @@
     "specialSeries": "OMEGA",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to silence all opponents for two full rounds of play. Only the player holding The Conch may speak and therefore make deals or exchanges of any kind with other players."},
-      {"title": "Aggressive Cards", "text": "A player who speaks must return a Carrot to Kaballa’s Market (even if the market is closed), discard a saved Zodiac card or a saved Mysterious Place card for every word that is spoken during the two rounds of silence. Players without objects will forfeit turns of play."}
+      {"title": "Additional Rules", "text": "A player who speaks must return a Carrot to Kaballa’s Market (even if the market is closed), or discard a saved Zodiac card or a saved Mysterious Place card for every word that is spoken during the two rounds of silence. Players without objects will forfeit turns of play."}
     ]
   },
   {
@@ -55,7 +54,7 @@
     "specialSeries": "OMEGA",
     "rules": [
       {"title": "Card Text", "text": "Players with this bunny in The Bunny Circle may play two cards per turn. All Specialty bunnies in The Bunny Circle are eliminated."},
-      {"title": "Additional Rules", "text": "Players with this bunny in The Bunny Circle may play two cards per turn. All Specialty bunnies in The Bunny Circle are eliminated. Unlike Super bunnies, the player who owns this card may not roll the Clear 20-sided die for weapons with levels 1-12.\nA Specialty Bunny that has The Heavenly Halo is not eliminated from The Bunny Circle. If The Heavenly Halo is placed on the Semi-Super Specialty bunny, then all Specialty bunnies arriving in The Bunny Circle are safe (not discarded). Semi-Super Specialty cannot be bought back from Weil’s Pawn Shop."}
+      {"title": "Additional Rules", "text": "Players with this bunny in The Bunny Circle may play two cards per turn. All Specialty bunnies in The Bunny Circle are eliminated. Unlike Super bunnies, the player who owns this card may not roll the Clear 20-sided die for weapons with levels 1-12.\nA Specialty Bunny that has <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> is not eliminated from The Bunny Circle. If The Heavenly Halo is placed on the Semi-Super Specialty bunny, then all Specialty bunnies arriving in The Bunny Circle are safe (not discarded). Semi-Super Specialty cannot be bought back from Weil’s Pawn Shop."}
     ]
   },
   {
@@ -111,7 +110,7 @@
     "type": "RUN",
     "specialSeries": "OMEGA",
     "rules": [
-      {"title": "Card Text", "text": "The player that has this card saved and at least one Kinder bunny may roll both the 10-sided dice and the 12-sided dice of the same color any time that a card requests a die roll and choose which number to use"}
+      {"title": "Card Text", "text": "The player that has this card saved and at least one Kinder bunny may roll both the 10-sided dice and the 12-sided dice of the same color any time that a card requests a die roll and choose which number to use."}
     ]
   },
   {
@@ -146,7 +145,7 @@
     "specialSeries": "PSI",
     "psi": "PSI01",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player ot eliminate either <a href=\"bunnypedia://card/137\">Carrot Thief</a>, <a href=\"bunnypedia://card/300\">Pilfer The Pawn</a>, <a href=\"bunnypedia://card/137\">Zodiac Thief</a>, <a href=\"bunnypedia://card/452\">Pumpkin Ridge</a> or <a href=\"bunnypedia://card/654\">Pinch Your Place</a>. Or may be used once to keep a player's bunnies in place during a <a href=\"bunnypedia://card/415\">Shockwave</a>. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player ot eliminate either <a href=\"bunnypedia://card/136\">Carrot Thief</a>, <a href=\"bunnypedia://card/300\">Pilfer The Pawn</a>, <a href=\"bunnypedia://card/418\">Zodiac Thief</a>, <a href=\"bunnypedia://card/452\">Pumpkin Ridge</a> or <a href=\"bunnypedia://card/654\">Pinch Your Place</a>. Or may be used once to keep a player's bunnies in place during a <a href=\"bunnypedia://card/415\">Shockwave</a>. May be used at any time!"}
     ]
   },
   {
@@ -159,7 +158,7 @@
     "specialSeries": "PSI",
     "psi": "PSI02",
     "rules": [
-      {"title": "Card Text", "text": "Roll the dice. The player who is wearing the most clothing of the highest color rolled may Choose a Carrot."},
+      {"title": "Card Text", "text": "Roll the dice. The player who is wearing the most clothing of the highest color rolled may choose a Carrot."},
       {"title": "Additional Rules", "text": "Bunny Eye For The Carrot Guy may be used once by a player to roll the eight 12-sided dice (Violet, Orange, Green, Yellow, Blue, Black, Red and Pink) and to choose a Carrot from Kaballa’s Market (if the market is open) if he is the player wearing the most clothing with the color that matches the highest die rolled.\nIf two (or more) colors are tied for the highest die rolled, then give one Carrot to each player who is wearing the most clothing for each color. This may, of course, be the same player who would then take both Carrots. If the highest color rolled is not worn by any of the players, then no one takes a Carrot. Undergarments count as clothing!"}
     ]
   },
@@ -171,7 +170,7 @@
     "specialSeries": "PSI",
     "psi": "PSI03",
     "rules": [
-      {"title": "Card Text", "text": "May be given to any player, The player must return one Carrot to Kaballa's Market for each curse or naughty) word that he speaks during the game. The player may pay 10 Dolla to remove this card."},
+      {"title": "Card Text", "text": "May be given to any player, The player must return one Carrot to Kaballa's Market for each curse (or naughty) word that he speaks during the game. The player may pay 10 Dolla to remove this card."},
       {"title": "Additional Rules", "text": "A curse (or naughty) word can only be defined by the people playing the game. Since words change from group to group, country to country and language to language, it is impossible to provide a list of these words. Each group will have to decide for itself which words are not allowed. The word Shazbot is a safe word, and may therefore be used freely during play as a substitute for all curse (or naughty) words."}
     ]
   },
@@ -184,7 +183,7 @@
     "specialSeries": "PSI",
     "psi": "PSI04",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate any 50/50 weapon at any time after sunset or before sunrise. may be used at any time (during the game)!"}
+      {"title": "Card Text", "text": "May be used once by a player to eliminate any 50/50 weapon at any time after sunset or before sunrise. May be used at any time (during the game)!"}
     ]
   },
   {
@@ -196,7 +195,7 @@
     "specialSeries": "PSI",
     "psi": "PSI05",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to force all opponents to roll a die. The opponent who rolled the lowest number must either kiss the player or give him one Carrot, Zodiac card and Mysterious Place card if the opponent has at least one of each"},
+      {"title": "Card Text", "text": "May be used once by a player to force all opponents to roll a die. The opponent who rolled the lowest number must either kiss the player or give him one Carrot, Zodiac card and Mysterious Place card if the opponent has at least one of each."},
       {"title": "Additional Rules", "text": "The opponent who rolled the lowest number on the 12-sided die may choose to kiss or not to kiss. If several opponents roll the same lowest numbers, then they must each choose whether to kiss the player, or to give him one saved Carrot, saved Zodiac card and saved Mysterious Place card.<br>Before the roll, the player must state exactly what kind of kiss he wants (and where). This will make it easier for all of the players in the game to decide whether or not the opponent’s kiss is ‘valid’."}
     ]
   },
@@ -211,7 +210,7 @@
     "psi": "PSI06",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to take one card from the Discard Pile that features a picture of the planet Jupiter for each combination of a role of 4 and 2 on the dice."},
-      {"title": "Additional Rules", "text": "Hitchbunny’s Guide may be used once by a player to roll theeight 12-sided dice (Violet, Orange, Green, Yellow, Blue, Black, Red and Pink) and five 10-sided dice (Violet, Orange, Green, Yellow and Blue – KinderBunnies®) and to take one card from the Discard Pile that features a picture of the planet Jupiter (either in full or partially) for each combination of a roll of 4 and 2 on the dice. Each of the 12-sided and 10-sided dice may only be combined once. These Jupiter cards must be used immediately if they are Run cards, or they may be saved if they are Special or Very Special cards."},
+      {"title": "Additional Rules", "text": "Hitchbunny’s Guide may be used once by a player to roll the eight 12-sided dice (Violet, Orange, Green, Yellow, Blue, Black, Red and Pink) and five 10-sided dice (Violet, Orange, Green, Yellow and Blue – KinderBunnies®) and to take one card from the Discard Pile that features a picture of the planet Jupiter (either in full or partially) for each combination of a roll of 4 and 2 on the dice. Each of the 12-sided and 10-sided dice may only be combined once. These Jupiter cards must be used immediately if they are Run cards, or they may be saved if they are Special or Very Special cards."},
       {"title": "Related Cards", "text": "The Jupiter symbol appears on the following cards:<ul><li><a href=\"bunnypedia://card/49\">Area 51</a></li><li><a href=\"bunnypedia://card/51\">Bad Karma</a></li><li><a href=\"bunnypedia://card/54\">Cyber Bunny</a></li><li><a href=\"bunnypedia://card/132\">Miniature Black Hole</a></li><li><a href=\"bunnypedia://card/147\">The Minilith</a></li><li><a href=\"bunnypedia://card/183\">Activate: The Minilith</a></li><li><a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a></li><li><a href=\"bunnypedia://card/299\">Mothership</a></li><li><a href=\"bunnypedia://card/470\">Where No Bunny Has Gone Before</a></li><li><a href=\"bunnypedia://card/523\">Tybo</a></li><li><a href=\"bunnypedia://card/531\">Transcendental Run</a></li><li><a href=\"bunnypedia://card/566\">Athena</a></li><li><a href=\"bunnypedia://card/605\">Captain (Rank O-6)</a></li><li><a href=\"bunnypedia://card/607\">Celebrity Bunny – Carl</a></li></ul>"}
     ]
   },
@@ -225,7 +224,7 @@
     "psi": "PSI07",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to predict who will launch the next weapon and who will choose the next Carrot. If correct, the predicting player will control the target bunny for the weapon and take the Carrot for himself."},
-      {"title": "Additional Rules", "text": "Dr. Xavi-Hare may be used once by a player to predict who will launch the next weapon and who will choose the next Carrot. If correct, the predicting player will control the target bunny for the weapon and take the Carrot for himself.\n\nThe predicting player must write down the name of the player who he believes will launch the next weapon. That player may be himself. A valid weapon launch must target a bunny. A weapon that is revealed and discarded does not count as a weapon launch. A weapon that is revealed and eliminated (perhaps by the Magic Spatula) before a bunny can be targeted does not count as a weapon launch.\n\nIn order for any player to launch a weapon, he must have a bunny in The Bunny Circle, reveal a Weapon card and announce a target. At this time, if the predicting player chose the correct player, then he may move the weapon from the target bunny to any other bunny. The predicting player may also discard the weapon if he wishes.\n\nThe predicting player must also write down the name of the player who he believes will choose the next Carrot from Kaballa’s Market. Again, that player may be himself. A valid Carrot choosing is any card that allows a player to choose from available Carrots at Kaballa’s Market (such as Choose A Carrot cards or Supplies Surprise). Cards such as Carrot Thief do not allow a player to choose which Carrot he will take and are not valid. The last Carrot taken (or purchased) from Kaballa’s Market is not valid either since the player had no choice. If the predicting player made the correct prediction, then he may take the Carrot for himself.\n\nKeep in mind that if the predicting player himself is the first person to launch a weapon or to choose a Carrot, then no advantage is earned with this card."}
+      {"title": "Additional Rules", "text": "Dr. Xavi-Hare may be used once by a player to predict who will launch the next weapon and who will choose the next Carrot. If correct, the predicting player will control the target bunny for the weapon and take the Carrot for himself.\n\nThe predicting player must write down the name of the player who he believes will launch the next weapon. That player may be himself. A valid weapon launch must target a bunny. A weapon that is revealed and discarded does not count as a weapon launch. A weapon that is revealed and eliminated (perhaps by <a href=\"bunnypedia://card/80\">The Magic Spatula</a>) before a bunny can be targeted does not count as a weapon launch.\n\nIn order for any player to launch a weapon, he must have a bunny in The Bunny Circle, reveal a Weapon card and announce a target. At this time, if the predicting player chose the correct player, then he may move the weapon from the target bunny to any other bunny. The predicting player may also discard the weapon if he wishes.\n\nThe predicting player must also write down the name of the player who he believes will choose the next Carrot from Kaballa’s Market. Again, that player may be himself. A valid Carrot choosing is any card that allows a player to choose from available Carrots at Kaballa’s Market (such as <a href=\"bunnypedia://card/16\">Choose A Carrot</a> cards or <a href=\"bunnypedia://card/78\">Supplies Surprise</a>). Cards such as <a href=\"bunnypedia://card/137\">Carrot Thief</a> do not allow a player to choose which Carrot he will take and are not valid. The last Carrot taken (or purchased) from Kaballa’s Market is not valid either since the player had no choice. If the predicting player made the correct prediction, then he may take the Carrot for himself.\n\nKeep in mind that if the predicting player himself is the first person to launch a weapon or to choose a Carrot, then no advantage is earned with this card."}
     ]
   },
   {
@@ -238,7 +237,7 @@
     "psi": "PSI08",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any Semi-Super, Super, or Extra Super bunny in The Bunny Circle which looses all of its special features and becomes a regular bunny of the same color or classification."},
-      {"title": "Additional Rules", "text": "The special features that Semi-Super, Super, or Extra Super bunnies may lose are:<ol><li>Eliminating all other bunnies of the same color (or half color) or classification from The Bunny Circle.</li><li>Automatically playing two cards each turn.</li><li>Rolling the Clear 20-sided die for weapons with levels 1-12.</li><li>All Red and Pink special features.</li></ol>A bunny that is abducted by the Beyea Aliens (<a href=\"bunnypedia://card/49\">Area 51</a> or <a href=\"bunnypedia://card/299\">Mothership</a>) will have Meteor Rocks removed (discarded). If the bunny returns to The Bunny Circle, then it will have its special features again."}
+      {"title": "Additional Rules", "text": "The special features that Semi-Super, Super, or Extra Super bunnies may lose are:<ol><li>Eliminating all other bunnies of the same color (or half color) or classification from The Bunny Circle.</li><li>Automatically playing two cards each turn.</li><li>Rolling the Clear 20-sided die for weapons with levels 1-12.</li><li>All Red and Pink special features.</li></ol><br><br>A bunny that is abducted by the Beyea Aliens (<a href=\"bunnypedia://card/49\">Area 51</a> or <a href=\"bunnypedia://card/299\">Mothership</a>) will have Meteor Rocks removed (discarded). If the bunny returns to The Bunny Circle, then it will have its special features again."}
     ]
   },
   {
@@ -263,7 +262,7 @@
     "psi": "PSI10",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to pat up to six bunnies in The Bunny Circle (one of each color). To pat a bunny, simply turn the card 45 degrees counter-clockwise. The player must un-pat one bunny at the start of each turn until they are all back. Patted bunnies may not play Aggressive cards."},
-      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of Choose A Carrot (any amount of Carrots) cards."}
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
     ]
   },
   {
@@ -275,7 +274,7 @@
     "specialSeries": "PSI",
     "psi": "PSI11",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a layer to discard his entire five-card hand and replace it with any five Weapon cards from Rooney's Weapons Emporium."},
+      {"title": "Card Text", "text": "May be used once by a player to discard his entire five-card hand and replace it with any five Weapon cards from Rooney's Weapons Emporium."},
       {"title": "Additional Rules", "text": "Indiana Clones may not be used if Rooney’s Weapons Emporium is closed."}
     ]
   },
@@ -331,7 +330,7 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
     "specialSeries": "NU",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to force all of the players to change their seats. If a number of dice (equal to the number of players) roll any identical number then all players move to the adjacent seat. All players leave their saved cards and tak an opponent's cards. Players keep their five-card hands."},
+      {"title": "Card Text", "text": "May be used once by a player to force all of the players to change their seats. If a number of dice (equal to the number of players) roll any identical number then all players move to the adjacent seat. All players leave their saved cards and take an opponent's cards. Players keep their five-card hands."},
       {"title": "Additional Rules", "text": "The player who played the card chooses the direction of movement for all of the players (either clockwise or counterclockwise)."}
     ]
   },
@@ -357,7 +356,6 @@
     "specialSeries": "NU",
     "rules": [
       {"title": "Card Text", "text": "May be used once to force all players to place their five card hand into a separate pile in the center of The Bunny Circle. All of the cards are shuffled and the player deals five cards back to each player."},
-      {"title": "Additional Rules", "text": "Carrots that are not numbered (like those in KinderBunnies®) may not be taken using Even Stephen Odd Todd."}
     ]
   },
   {
@@ -369,7 +367,7 @@
     "bunnyRequirement": "PLAY",
     "specialSeries": "NU",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to aduct bunnies. Each player rolls the die once in the order of play. Players who roll an Odd number must place one of their bunnies into the Red October whie players who roll an Even number may take a bunny out. The player who played the card rolls last and may roll twice."},
+      {"title": "Card Text", "text": "May be used once by a player to aduct bunnies. Each player rolls the die once in the order of play. Players who roll an Odd number must place one of their bunnies into the Red October while players who roll an Even number may take a bunny out. The player who played the card rolls last and may roll twice."},
       {"title": "Additional Rules", "text": "If a player rolls an Even number, and no bunnies have been placed into the Red October, then he is out of luck. After the last player has rolled (and possibly re-rolled), any bunnies that are left in the Red October sink into the Discard Pile."}
     ]
   },
@@ -406,7 +404,7 @@
     "specialSeries": "NU",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player or given to an opponent to increase (Odd rolls) or decrease (Even rolls) their Cabbage or Water supplies by the amounts rolled."},
-      {"title": "Additional Rules", "text": "TIf a player gains Cabbage Units or Water Units by rolling an Odd number, then he must take them from the Discard Piles for those supplies. If the correct amounts of Cabbage Units and Water Units do not exist in the Discard Piles, then a player may either take Vouchers or keep track of what the game owes him. The player may take the supplies later when they become available in the Discard Piles.<br>If a player pays Cabbage Units and Water Units by rolling an Even number, then he must discard the amounts to the Discard Piles. If a player does not have enough (or any) of a supply, then he discards what he can. The player never owes the game any supplies after the card is played."}
+      {"title": "Additional Rules", "text": "If a player gains Cabbage Units or Water Units by rolling an Odd number, then he must take them from the Discard Piles for those supplies. If the correct amounts of Cabbage Units and Water Units do not exist in the Discard Piles, then a player may either take Vouchers or keep track of what the game owes him. The player may take the supplies later when they become available in the Discard Piles.<br>If a player pays Cabbage Units and Water Units by rolling an Even number, then he must discard the amounts to the Discard Piles. If a player does not have enough (or any) of a supply, then he discards what he can. The player never owes the game any supplies after the card is played."}
     ]
   },
   {
@@ -441,7 +439,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -453,7 +451,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -465,7 +463,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -477,7 +475,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose three Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
