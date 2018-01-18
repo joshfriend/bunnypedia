@@ -6,7 +6,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "This bunny may feed up to 5 Cabbage Units and 5 Water Units per turn. Supplies may not be saved to another turn."},
+      {"title": "Card Text", "text": "This bunny may feed up to 5 Cabbage Units and 5 Water Units per turn. Supplies may not be stockpiled."},
       {"title": "Additional Rules", "text": "The 5 Cabbage Units and 5 Water Units are for the exclusive use of this bunny and may not be shared with other bunnies in The Bunny Circle."}
     ]
   },
@@ -17,7 +17,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "The player with this bunny may spend 5 Dolla per turn at any open store. Dolla may not be saved to another turn."}
+      {"title": "Card Text", "text": "The player with this bunny may spend 5 Dolla per turn at any open store. Dolla may not be stockpiled."}
     ]
   },
   {
@@ -27,7 +27,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "This bunny has a Lucky Clover Quindruple which lowers the level of any weapon by five."}
+      {"title": "Card Text", "text": "This bunny has a Quindruple Lucky Clover which lowers the level of any weapon by five."}
     ]
   },
   {
@@ -103,11 +103,11 @@
   {
     "id": 505,
     "deck": "PERFECTLY_PINK",
-    "title": "Everyone Feed a Bunny",
+    "title": "Everyone Feed A Bunny",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be given to all opponents with a Bunny. Each must feed any one bunny the amounts shown by the end of their next turns their bunny dies."}
+      {"title": "Card Text", "text": "May be given to all opponents with a bunny. Each must feed any one bunny the amounts shown by the end of their next turns or their bunny dies."}
     ],
     "cabbage": 2,
     "water": 2
@@ -122,7 +122,7 @@
     "dice": ["CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "May be placed on any single color bunny which must roll higher than 14 to survive. Once Twister has targeted a particular color of bunny, it will not target that color of bunny again. Twister continues by attacking one bunny per round of play clockwise around The Bunny Circle. If Twister has no more viable targets, then the storm is discarded."},
-      {"title": "Additional Rules", "text": "Specialty bunnies and Celebrity bunnies are never viable bunny targets. <a href=\"bunnypedia://card/57\">Free Agent</a> and <a href=\"bunnypedia://card/296\">Double Free Agent</a> bunnies may be targeted by Twister, but only as the initial target of the weapon. This is true because once Twister has targeted any color of bunny, a Free Agent may instantly become one of those colors and avoid becoming avilable bunny target. If the player does attack a Free Agent or Double Free Agent bunny as the first target, then the owner of the bunny must declare its color so that Twister cannot target another bunny of the same color.<br><br>If Twister has no more viable bunny targets in The Bunny Circle, then the storm dissipates and it is discarded. If Twister is contained within a section of The Bunny Circle by two Barriers, and that section contains no viable bunny targets, then Twister is also discarded. Use the colored Chips to keep track of the colors of the bunnies that Twister has already targeted."}
+      {"title": "Additional Rules", "text": "Specialty bunnies and Celebrity bunnies are never viable bunny targets. <a href=\"bunnypedia://card/57\">Free Agent</a> and <a href=\"bunnypedia://card/296\">Double Free Agent</a> bunnies may be targeted by Twister, but only as the initial target of the weapon. This is true because once Twister has targeted any color of bunny, a Free Agent may instantly become one of those colors and avoid becoming an available bunny target. If the player does attack a Free Agent or Double Free Agent bunny as the first target, then the owner of the bunny must declare its color so that Twister cannot target another bunny of the same color.<br><br>If Twister has no more viable bunny targets in The Bunny Circle, then the storm dissipates and it is discarded. If Twister is contained within a section of The Bunny Circle by two <a href=\"bunnypedia://card/185\">Barriers</a>, and that section contains no viable bunny targets, then Twister is also discarded. Use the colored Chips to keep track of the colors of the bunnies that Twister has already targeted."}
     ]
   },
   {
@@ -200,7 +200,7 @@
     "weaponLevel": "Dated",
     "dice": ["BLACK", "CLEAR"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total"},
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than today's date to survive. Add the numbers on both dice for the total."},
       {"title": "Additional Rules", "text": "No bunny belonging to a player born on the 17th of any month can be attacked using a Dated Weapon."}
     ]
   },
@@ -258,7 +258,7 @@
     "bunnyRequirement": "PLAY",
     "dice": ["VIOLET", "GREEN", "YELLOW"],
     "rules": [
-      {"title": "Card Text", "text": "May be used onc by a  player to return any number of his Cabbage, Water or Defense Cards to their Draw Piles and draw cards back if he can roll either three of the same number or three consecutive numbers on the dice."}
+      {"title": "Card Text", "text": "May be used once by a player to return any number of his Cabbage, Water and Defense Cards to their Draw Piles and draw cards back if he can roll either three of the same number or three consecutive numbers on the dice."}
     ]
   },
   {
@@ -269,7 +269,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to force any opponent to take all of his saved Special and Very Special cards off the table and place them back into his hand. One at a time the player chooses a card and asks \"Isn't that Special?\" If the card is a Special card then the player takes the card for himself. The player continues guessing until he chooses a card that is not a Special."},
-      {"title": "Additional Rules", "text": "The player is allowed to save all Special (or Very Special) cards that he finds even if they were not initially saved by the opponent. The player continues guessing until he chooses a card that is not a Special (or Very Special) card. The opponent will then replace all of his remaining Special (and Very Special) cards back on the table that were saved before The Church Bunny was played. If the opponent has less than  ve cards in his hand, then he must draw replacement cards immediately.<br><br>Or The Church Bunny may also be used once by a player to eliminate the <a href=\"bunnypedia://card/460\">Hostile Pentecostal</a>."}
+      {"title": "Additional Rules", "text": "The player is allowed to save all Special (or Very Special) cards that he finds even if they were not initially saved by the opponent. The player continues guessing until he chooses a card that is not a Special (or Very Special) card. The opponent will then replace all of his remaining Special (and Very Special) cards back on the table that were saved before The Church Bunny was played. If the opponent has less than five cards in his hand, then he must draw replacement cards immediately.<br><br>Or The Church Bunny may also be used once by a player to eliminate the <a href=\"bunnypedia://card/460\">Hostile Pentecostal</a>."}
     ]
   },
   {
@@ -279,7 +279,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Clover Hendecadruple lowers the level of any weapon by eleven."},
+      {"title": "Card Text", "text": "May be placed under any bunny. Hendecadruple Lucky Clover lowers the level of any weapon by eleven."},
       {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://card/462\">Miracle Growth</a> can be used to double the amount of clover"},
       {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
@@ -361,7 +361,7 @@
     "bunnyRequirement": "NO",
     "dice": ["GREEN", "BLUE"],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to lower the amounts of Cabbage and Water Units on any pending Feed The Bunny card by the amounts rolled on the dice."},
+      {"title": "Card Text", "text": "May be used once by a player to lower the amounts of Cabbage and Water Units on any pending <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card by the amounts rolled on the dice."},
       {"title": "Additional Rules", "text": "If the amount of Cabbage Units or Water Units becomes a negative number, then the player pays nothing (and receives nothing)."}
     ]
   },
@@ -407,7 +407,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to slip the Pink box off any card. The card may be played without a bunny. May be used at any time!"},
-      {"title": "Additional Rules", "text": "Since the card is no longer an Aggressive card,it may be played without a bunny in The Bunny Circle. May be used at any time!"},
+      {"title": "Additional Rules", "text": "Since the card is no longer an Aggressive card, it may be played without a bunny in The Bunny Circle. May be used at any time!"},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },
