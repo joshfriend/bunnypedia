@@ -27,7 +27,9 @@ class App: Application() {
   override fun onCreate() {
     super.onCreate()
 
-    Fabric.with(this, Crashlytics())
+    if (!BuildConfig.DEBUG) {
+      Fabric.with(this, Crashlytics())
+    }
 
     graph = DaggerAppComponent.builder()
       .androidModule(AndroidModule(this))

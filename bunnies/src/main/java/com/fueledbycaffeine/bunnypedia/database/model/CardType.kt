@@ -9,10 +9,12 @@ enum class CardType {
   SPECIAL,
   VERY_SPECIAL,
   DOLLA,
+  METAL,
   PLAY_IMMEDIATELY,
   ZODIAC,
   MYSTERIOUS_PLACE,
   RANK,
+  SENATOR,
   CARROT_SUPPLY,
   STARTER,
   ;
@@ -24,10 +26,12 @@ enum class CardType {
       SPECIAL -> R.string.card_type_special
       VERY_SPECIAL -> R.string.card_type_very_special
       DOLLA -> R.string.card_type_kaballa_dolla
+      METAL -> R.string.card_type_metal
       PLAY_IMMEDIATELY -> R.string.card_type_play_immediately
       ZODIAC -> R.string.card_type_zodiac
       MYSTERIOUS_PLACE -> R.string.card_type_mysterious_place
       RANK -> R.string.card_type_rank
+      SENATOR -> R.string.card_type_senator
       CARROT_SUPPLY -> R.string.card_type_carrot_supply
       STARTER -> R.string.card_type_play_immediately
     }

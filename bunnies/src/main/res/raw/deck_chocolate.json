@@ -31,7 +31,7 @@
     "bunnyRequirement": "PLAY",
     "specialSeries": "OMEGA",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to exchange any saved Special or Very Special card with any opponent for <a href=\"bunnypedia://card/106\">Carrot #4 (Flo)</a>."},
+      {"title": "Card Text", "text": "May be used once by a player to exchange any saved Special or Very Special card with any opponent for <a href=\"bunnypedia://card/106\">Carrot #4 (Flo)</a>."}
     ]
   },
   {
@@ -355,7 +355,7 @@
     "bunnyRequirement": "NO",
     "specialSeries": "NU",
     "rules": [
-      {"title": "Card Text", "text": "May be used once to force all players to place their five card hand into a separate pile in the center of The Bunny Circle. All of the cards are shuffled and the player deals five cards back to each player."},
+      {"title": "Card Text", "text": "May be used once to force all players to place their five card hand into a separate pile in the center of The Bunny Circle. All of the cards are shuffled and the player deals five cards back to each player."}
     ]
   },
   {

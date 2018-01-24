@@ -1,1 +1,586 @@
-[]
+[
+  {
+    "id": 1101,
+    "title": "Minion Bunny",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "This is a single Specialty Bunny. Players that have three in The Bunny Circle may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 1102,
+    "title": "Breaking Bunnies",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "This is a double Specialty Bunny. Players that have three in The Bunny Circle may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 1103,
+    "title": "Bang Bunnies",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "This is a triple Specialty Bunny. Players that have three in The Bunny Circle may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 1104,
+    "title": "Yankee Doodle Bunnies",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "This is a triple Specialty Bunny. Players that have three in The Bunny Circle may play two cards per turn."}
+    ]
+  },
+  {
+    "id": 1105,
+    "canonicalId": 16,
+    "title": "Choose A Carrot",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": 1106,
+    "canonicalId": 16,
+    "title": "Choose A Carrot",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": 1107,
+    "canonicalId": 21,
+    "title": "Choose 2 Carrots",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": 1108,
+    "canonicalId": 125,
+    "title": "Feed The Bunny 2/0",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 2,
+    "water": 0,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": 1109,
+    "canonicalId": 125,
+    "title": "Feed The Bunny 0/1",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 0,
+    "water": 1,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": 1110,
+    "title": "Red–Headed Step Children",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "13",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 13 to survive."}
+    ]
+  },
+  {
+    "id": 1111,
+    "title": "Olly Olly Oxen Free",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "14",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 14 to survive."}
+    ]
+  },
+  {
+    "id": 1112,
+    "title": "Verminator",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "15",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 15 to survive."}
+    ]
+  },
+  {
+    "id": 1113,
+    "title": "Magnetic Monopole",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "16",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 16 to survive."}
+    ]
+  },
+  {
+    "id": 1114,
+    "title": "Golgotham",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "weaponLevel": "17",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 17 to survive."}
+    ]
+  },
+  {
+    "id": 1115,
+    "title": "Alternate Uhura",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "18",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 18 to survive."}
+    ]
+  },
+  {
+    "id": 1116,
+    "title": "Brazillian Beach Parasites",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "19",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 19 to survive."}
+    ]
+  },
+  {
+    "id": 1117,
+    "title": "Omega Mu",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "20",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 20 to survive."}
+    ]
+  },
+  {
+    "id": 1118,
+    "title": "Bakery Rolls",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "dice": ["BROWN"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to roll the die and to take a number of flavor cards from the Draw Pile equal to the number rolled. The player does not draw again until he has less than seven cards."},
+      {"title": "Additional Rules", "text": "Cards are drawn from the top of the Discard Pile."}
+    ]
+  },
+  {
+    "id": 1119,
+    "title": "Bunny Bytes",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used by the first opponent to show the player a picture of a bunny on their phone to retrieve any bunny from Weil's Pawn Shop. The player may take any one of the opponent's bunnies already in The Bunny Circle."},
+      {"title": "Additional Rules", "text": "First, the player reads the card text out loud. Next, the player counts down (3 - 2 - 1 - Go!) and announces, \"Bunny Bytes\". Bunny Bytes may be used once by the first opponent to show the player a picture of a bunny on their phone to retrieve any bunny from Weil's Pawn Shop. The player may take any one of the winning opponent's bunnies already in The Bunny Circle."}
+    ]
+  },
+  {
+    "id": 1120,
+    "title": "Freaking Boron",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to steal five saved Special or Very Special cards from his opponents."},
+      {"title": "Additional Rules", "text": "The player may steal all of the cards from one or several different opponents, and may steal less than five cards if he chooses or if five cards are not available."}
+    ]
+  },
+  {
+    "id": 1121,
+    "title": "Single Funky Fungus – (Bunny Modifier)",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Single raises the level of any weapon by one."}
+    ]
+  },
+  {
+    "id": 1120,
+    "title": "Double Funky Fungus – (Bunny Modifier)",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Single raises the level of any weapon by one."}
+    ]
+  },
+  {
+    "id": 1123,
+    "title": "Goldistocks",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "symbols": ["MYSTERIOUS_PLACE_BALL"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once to force all players to sell their Metal cards and coins at the current Exchange Rate and to close Morden's Medals Exchange for one round of play. The shop opens again during the current player's next turn."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+    ]
+  },
+  {
+    "id": 1124,
+    "title": "Island Vote",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by all players to vote on which bunny in The Bunny Circle should be discarded. If a majority agree then the bunny voted is discarded. Voting starts with the player and proceeds clockwise."}
+    ]
+  },
+  {
+    "id": 1125,
+    "title": "Johnny Wishbone",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to guess the month in which each of his opponents was born and to take one Carrot from any Kaballa's Market for each correct guess."}
+    ]
+  },
+  {
+    "id": 1126,
+    "title": "Lone Wolf (Bunny Modifier)",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any single bunny in The Bunny Circle and prevents the bunny from forming a Bunny Triplet with any other bunnies."}
+    ]
+  },
+  {
+    "id": 1127,
+    "title": "Lucky Horseshoe – Heptdruple (Bunny Modifier)",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Heptdruple lowers the level of any weapon by seven."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+    ]
+  },
+  {
+    "id": 1128,
+    "title": "Morden’s Metals Exchange",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Metals ay be bought or sold for the current Exchange Rate. All metal dice may be re-rolled at the end of any turn during which a player received a Carrot. The Exchange Rate for Silver is doubled."}
+    ]
+  },
+  {
+    "id": 1129,
+    "title": "OEOH Fully Purple Bunny Eater",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to purchase a Violet item from any opponent for 5 Dolla: a Violet bunny, a Violet Pawn or a <a href=\"bunnypedia://card/1145\">Whiner Senator Bunny Modifier</a> card."}
+    ]
+  },
+  {
+    "id": 1130,
+    "title": "Order Sorter",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by the first opponent to sort the cards in his hand numerically to exchange any unwanted cards in his hand for new ones from the Draw Pile."},
+      {"title": "Additional Rules", "text": "First, the player reads the card text out loud. Next, the player counts down (3 - 2 - 1 - Go!) and announces, \"Order Sorter\". Order Sorter may be used once by the first opponent to sort the cards in his five-card hand numerically (using the Card Identification Number) to exchange any unwanted cards in his five-card hand for new ones from the Draw Pile. The player may exchange any of the cards in his five-card hand for any cards discarded by the winning opponent."}
+    ]
+  },
+  {
+    "id": 1131,
+    "title": "Rare Perfect Square",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "dice": ["YELLOW", "RED", "CLEAR", "BROWN"],
+    "rules": [
+      {"title": "Card Text", "text": "Allows the player to roll the dice and to receive one Metal card or coin for each number rolled that is a perfect square (1 - 4 - 9 - 16)."},
+      {"title": "Additional Rules", "text": "If no Metal cards or coins exist at Morden's Metals Exchange, then the player is out of luck. Players may not sell their new Metal cards or coins until their next turn."}
+    ]
+  },
+  {
+    "id": 1132,
+    "title": "Sacred Chalice of Rixx",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to add the current Exchange Rates of the Gold, Silver and Copper at Morden's Metal Exchange and to spend that amount of Dolla at any open store."},
+      {"title": "Additional Rules", "text": "Dolla earned with the Sacren Chalice of Rixx may not be saved. If no stores are open, then the player is out of luck."}
+    ]
+  },
+  {
+    "id": 1133,
+    "title": "Where The Buffalo Roam",
+    "deck": "CARAMEL_SWIRL",
+    "type": "ROAMING_RED_RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any player which must feed the buffalo 5 units of any food (in any combination) or lose a Carrot. Buffalo continues visiting one player per round counter-clockwise around The Bunny Circle. If Buffalo encounters a player that has no food to offer, or not enough food, then it starves and is eliminated. Buffalo may be eliminated using any weapon."}
+    ]
+  },
+  {
+    "id": 1134,
+    "title": "Yellow–Bellied Sapsucker",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to purchase a Yellow item from any opponent for 5 Dolla: a Yellow bunny, a Yelow Pawn or a <a href=\"bunnypedia://card/1144\">Shiner Senator Bunny Modifier</a> card."}
+    ]
+  },
+  {
+    "id": 1135,
+    "title": "Cow By A River",
+    "deck": "CARAMEL_SWIRL",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "dice": ["BLUE"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to roll the die and to take the number of Water and Milk units equal to the number rolled from the discard piles."},
+      {"title": "Additional Rules", "text": "The units may be all Water, all Milk or a combination of both that total the number rolled."}
+    ]
+  },
+  {
+    "id": 1136,
+    "title": "Independence Day",
+    "deck": "CARAMEL_SWIRL",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be given to any opponent who may not play an extra card from a Bunny Triplet. The player may pay 7 + 4 Dolla to discard Independence Day."}
+    ]
+  },
+  {
+    "id": 1137,
+    "title": "Marvin Gardens",
+    "deck": "CARAMEL_SWIRL",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "dice": ["GREEN"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to roll the die and to take a number of Cabbage and Radish units equal to the number rolled from the discard piles."},
+      {"title": "Additional Rules", "text": "The units may be all Cabbage, all Radish or a combination of both that total the number rolled."}
+    ]
+  },
+  {
+    "id": 1138,
+    "title": "Protein Resequencer",
+    "deck": "CARAMEL_SWIRL",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "The player with this card saved may use the units on any food small cards interchangeably. The unit numbers remain the same, however they may be used for any type of food (Radish, Milk, Cabbage or Water)."}
+    ]
+  },
+  {
+    "id": 1139,
+    "title": "Small Potatoes",
+    "deck": "CARAMEL_SWIRL",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to exchange any one or two unit small card with a new one of the same type from the Draw Piles (if any exist). Newly drawn small cards may not be exchanged again."}
+    ]
+  },
+  {
+    "id": 1140,
+    "title": "Beating A Dead Horse",
+    "deck": "CARAMEL_SWIRL",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "dice": ["BROWN"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once to force any opponent who has just lost a bunny to roll the die and to lose another bunny (player's choice) if the opponent rolls an Even number. Must be used during the turn in which the first bunny was killed!"}
+    ]
+  },
+  {
+    "id": 1141,
+    "title": "Cherry Cordial",
+    "deck": "CARAMEL_SWIRL",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be given to all players simultaneously once a curse word is heard during play and forces the first player that utters the next curse word to discard one saved card of each category (if he has one): Special, Very Special, Zodiac, Mysterious Place, Bunderground Station and Relative. May be used at any time!"},
+      {"title": "Additional Rules", "text": "A curse (or naughty) word can only be defined by the people playing the game. Each group will have to decide for itself which words are not allowed."}
+    ]
+  },
+  {
+    "id": 1142,
+    "title": "Southpaw",
+    "deck": "CARAMEL_SWIRL",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a left-handed player while the directino of play is counter-clockwise to immediately choose any five Carrots from Kaballa's Market. Or may be used immediately to eliminate Baseball Blues or Narcoleptic Dog. May be used at any time!"}
+    ]
+  },
+  {
+    "id": 1143,
+    "title": "You Go Girl",
+    "deck": "CARAMEL_SWIRL",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a female player to automatically take the next turn of play thereby skipping all of the player's turns in between. Play continues in the same direction as before. May be used between any two player's turns!"}
+    ]
+  },
+  {
+    "id": 1144,
+    "title": "Shiner Senator (Bunny Modifier)",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+    ]
+  },
+  {
+    "id": 1145,
+    "title": "Whiner Senator (Bunny Modifier)",
+    "deck": "CARAMEL_SWIRL",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+    ]
+  },
+  {
+    "id": 1146,
+    "title": "Counter–Clock Warlock",
+    "deck": "CARAMEL_SWIRL",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "All Bunny Modifier cards under bunnies in The Bunny Circle are moved to the next bunny counter-clockwise."}
+    ]
+  },
+  {
+    "id": 1147,
+    "title": "Smell That Shoe",
+    "deck": "CARAMEL_SWIRL",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Allows the player wearing the largest shoe to take any three Metal cards or coins from Morden's metal Exchange if he agrees to take a deep breath from inside his shoe. If the player refuses to participate then the player with the next largest shoe may participate (and so on)."}
+    ]
+  },
+  {
+    "id": 1148,
+    "title": "Terrible Misfortune (Casting) – Fjord",
+    "deck": "CARAMEL_SWIRL",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "While water skiing in the Arctic Circle, one of your bunnies hits a frozen fjord!"},
+      {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ]
+  },
+  {
+    "id": 1149,
+    "title": "Terrible Misfortune (Casting) – Rice Picker",
+    "deck": "CARAMEL_SWIRL",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "One of your bunnies caught his head in a mechanical rice picker!"},
+      {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ]
+  },
+  {
+    "id": 1150,
+    "canonicalId": 87,
+    "title": "1 Dolla",
+    "deck": "CARAMEL_SWIRL",
+    "type": "DOLLA"
+  },
+  {
+    "id": 1151,
+    "canonicalId": 210,
+    "title": "3 Dolla",
+    "deck": "CARAMEL_SWIRL",
+    "type": "DOLLA"
+  },
+  {
+    "id": 1152,
+    "canonicalId": 101,
+    "title": "10 Dolla",
+    "deck": "CARAMEL_SWIRL",
+    "type": "DOLLA"
+  },
+  {
+    "id": 1153,
+    "title": "Copper",
+    "deck": "CARAMEL_SWIRL",
+    "type": "METAL",
+    "rules": [
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to Morden's Metals Exchange for the current Exchange Rate."}
+    ]
+  },
+  {
+    "id": 1154,
+    "title": "Silver",
+    "deck": "CARAMEL_SWIRL",
+    "type": "METAL",
+    "rules": [
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to Morden's Metals Exchange for the current Exchange Rate."}
+    ]
+  },
+  {
+    "id": 1155,
+    "title": "Gold",
+    "deck": "CARAMEL_SWIRL",
+    "type": "METAL",
+    "rules": [
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to Morden's Metals Exchange for the current Exchange Rate."}
+    ]
+  }
+]

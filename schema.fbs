@@ -1,0 +1,13 @@
+table CardList {
+    cards: [Card];
+}
+
+enum Die: byte { Violet = 1, Orange, Green, Yellow, Blue, Black, Red, Pink, Clear, Zodiac }
+
+table Card {
+    id: ushort;
+    canonicalId: ushort;
+	dice: [Die];
+}
+
+root_type CardList;
