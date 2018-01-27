@@ -56,11 +56,6 @@
   public *;
 }
 
-### Kotlin extensions @Parcelize
-# https://youtrack.jetbrains.com/issue/KT-21628
--keep class kotlin.internal.annotations.AvoidUninitializedObjectCopyingCheck { *; }
--dontwarn kotlin.internal.annotations.AvoidUninitializedObjectCopyingCheck
-
 ### Support v7 appcompat
 -keep public class android.support.v7.widget.** { *; }
 -keep public class android.support.v7.internal.widget.** { *; }
