@@ -237,13 +237,13 @@
     ]
   },
   {
-    "id": 1120,
+    "id": 1122,
     "title": "Double Funky Fungus – (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Single raises the level of any weapon by one."}
+      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Double raises the level of any weapon by one."}
     ]
   },
   {
@@ -308,7 +308,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "Metals ay be bought or sold for the current Exchange Rate. All metal dice may be re-rolled at the end of any turn during which a player received a Carrot. The Exchange Rate for Silver is doubled."}
+      {"title": "Card Text", "text": "Metals may be bought or sold for the current Exchange Rate. All metal dice may be re-rolled at the end of any turn during which a player received a Carrot. The Exchange Rate for Silver is doubled."}
     ]
   },
   {
@@ -318,7 +318,7 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to purchase a Violet item from any opponent for 5 Dolla: a Violet bunny, a Violet Pawn or a <a href=\"bunnypedia://card/1145\">Whiner Senator Bunny Modifier</a> card."}
+      {"title": "Card Text", "text": "May be used once by a player to purchase a Violet item from any opponent for 5 Dolla: a Violet bunny, a Violet Pawn or a <a href=\"bunnypedia://card/1145\">Whiner Senator</a> Bunny Modifier card."}
     ]
   },
   {
@@ -329,7 +329,8 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by the first opponent to sort the cards in his hand numerically to exchange any unwanted cards in his hand for new ones from the Draw Pile."},
-      {"title": "Additional Rules", "text": "First, the player reads the card text out loud. Next, the player counts down (3 - 2 - 1 - Go!) and announces, \"Order Sorter\". Order Sorter may be used once by the first opponent to sort the cards in his five-card hand numerically (using the Card Identification Number) to exchange any unwanted cards in his five-card hand for new ones from the Draw Pile. The player may exchange any of the cards in his five-card hand for any cards discarded by the winning opponent."}
+      {"title": "Additional Rules", "text": "First, the player reads the card text out loud. Next, the player counts down (3 - 2 - 1 - Go!) and announces, \"Order Sorter\". Order Sorter may be used once by the first opponent to sort the cards in his five-card hand numerically (using the Card Identification Number) to exchange any unwanted cards in his five-card hand for new ones from the Draw Pile. The player may exchange any of the cards in his five-card hand for any cards discarded by the winning opponent."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },
   {
@@ -372,7 +373,7 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to purchase a Yellow item from any opponent for 5 Dolla: a Yellow bunny, a Yelow Pawn or a <a href=\"bunnypedia://card/1144\">Shiner Senator Bunny Modifier</a> card."}
+      {"title": "Card Text", "text": "May be used once by a player to purchase a Yellow item from any opponent for 5 Dolla: a Yellow bunny, a Yelow Pawn or a <a href=\"bunnypedia://card/1144\">Shiner Senator</a> Bunny Modifier card."}
     ]
   },
   {
@@ -458,7 +459,7 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a left-handed player while the directino of play is counter-clockwise to immediately choose any five Carrots from Kaballa's Market. Or may be used immediately to eliminate Baseball Blues or Narcoleptic Dog. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a left-handed player while the direction of play is counter-clockwise to immediately choose any five Carrots from Kaballa's Market. Or may be used immediately to eliminate <a href=\"bunnypedia://card/561\">Baseball Blues</a> or Narcoleptic Dog. May be used at any time!"}
     ]
   },
   {
@@ -508,7 +509,7 @@
     "type": "PLAY_IMMEDIATELY",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "Allows the player wearing the largest shoe to take any three Metal cards or coins from Morden's metal Exchange if he agrees to take a deep breath from inside his shoe. If the player refuses to participate then the player with the next largest shoe may participate (and so on)."}
+      {"title": "Card Text", "text": "Allows the player wearing the largest shoe to take any three Metal cards or coins from Morden's Metal Exchange if he agrees to take a deep breath from inside his shoe. If the player refuses to participate then the player with the next largest shoe may participate (and so on)."}
     ]
   },
   {
