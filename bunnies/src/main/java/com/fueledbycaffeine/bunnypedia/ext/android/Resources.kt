@@ -1,11 +1,12 @@
 package com.fueledbycaffeine.bunnypedia.ext.android
 
 import android.content.res.Resources
+import android.support.annotation.Px
 import com.fueledbycaffeine.bunnypedia.R
 
 val Resources.isTablet: Boolean get() = getBoolean(R.bool.is_tablet)
 
-val Resources.navBarHeight: Int get() {
+val Resources.navBarHeight: Int @Px get() {
   val id = getIdentifier("navigation_bar_height", "dimen", "android")
   return if (id > 0) {
     getDimensionPixelSize(id)
@@ -14,7 +15,7 @@ val Resources.navBarHeight: Int get() {
   }
 }
 
-val Resources.statusBarHeight: Int get() {
+val Resources.statusBarHeight: Int @Px get() {
   val id = getIdentifier("status_bar_height", "dimen", "android")
   return if (id > 0) {
     getDimensionPixelSize(id)

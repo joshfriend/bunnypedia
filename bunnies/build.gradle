@@ -86,9 +86,9 @@ dependencies {
 
     // Rx
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    implementation 'io.reactivex.rxjava2:rxjava:2.1.7'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
     implementation 'io.reactivex.rxjava2:rxkotlin:2.2.0'
-    def rxBindingVersion = "2.0.0"
+    def rxBindingVersion = "2.1.0"
     implementation "com.jakewharton.rxbinding2:rxbinding-kotlin:$rxBindingVersion"
     implementation "com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:$rxBindingVersion"
 

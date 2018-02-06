@@ -2,6 +2,7 @@ package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.content.Intent
 import android.content.res.Configuration
+import android.content.res.Configuration.ORIENTATION_PORTRAIT
 import android.graphics.Rect
 import android.os.Build
 import android.os.Bundle
@@ -109,38 +110,7 @@ class CardListFragment: Fragment() {
       activity.setSupportActionBar(toolbar)
     }
 
-    val fitSystemWindows = resources.getBoolean(R.bool.fullscreen_style_fit_system_windows)
-    val isPortrait = resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT
-    val navBarAtBottom = resources.isTablet || isPortrait
-    val isMultiWindow = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-      activity?.isInMultiWindowMode ?: false
-    } else {
-      false
-    }
-    if (resources.hasNavBar && navBarAtBottom && !isMultiWindow) {
-      recyclerView.setPadding(
-        recyclerView.paddingLeft,
-        recyclerView.paddingTop,
-        recyclerView.paddingRight,
-        recyclerView.paddingBottom + resources.navBarHeight
-      )
-      val lp = RelativeLayout.LayoutParams(fastScroller.layoutParams)
-      lp.alignParentEnd()
-      lp.bottomMargin += resources.navBarHeight
-      fastScroller.layoutParams = lp
-    }
-
-    val frame = Rect()
-    activity!!.window.decorView.getWindowVisibleDisplayFrame(frame)
-    val statusBarHeight = resources.statusBarHeight
-    if (isPortrait || !fitSystemWindows) {
-      barLayout.setPadding(
-        barLayout.paddingLeft,
-        barLayout.paddingTop + statusBarHeight,
-        barLayout.paddingRight,
-        barLayout.paddingBottom
-      )
-    }
+    makeSystemBarsFancy()
 
     // TODO: https://github.com/bumptech/glide/tree/master/integration/recyclerview
     adapter = CardAdapter(this, viewType, emptyList(), this::onCardSelected)
@@ -213,6 +183,50 @@ class CardListFragment: Fragment() {
   override fun onDestroyView() {
     this.subscribers.clear()
     super.onDestroyView()
+  }
+
+  private fun makeSystemBarsFancy() {
+    val isMultiWindow = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+      activity?.isInMultiWindowMode == true
+    } else {
+      false
+    }
+
+    // It is not possible to tell which window your app occupies in multiwindow
+    // mode when fitsSystemWindows is false. Apps can't draw under the navbar
+    // in multiwindow mode anyways.
+    val fitSystemWindows = if (isMultiWindow) {
+      true
+    } else {
+      resources.getBoolean(R.bool.fullscreen_style_fit_system_windows)
+    }
+    // Override the activity's theme when in multiwindow.
+    coordinator.fitsSystemWindows = fitSystemWindows
+
+    // Navbar rotates with device if its category is sw600dp or above
+    val navBarAtBottom = resources.isTablet || resources.configuration.orientation == ORIENTATION_PORTRAIT
+
+    if (!fitSystemWindows) {
+      // Inset bottom of content if drawing under the translucent navbar, but
+      // only if the navbar is a software bar and is on the bottom of the
+      // screen.
+      if (resources.hasNavBar && navBarAtBottom) {
+        recyclerView.setPadding(
+          recyclerView.paddingLeft,
+          recyclerView.paddingTop,
+          recyclerView.paddingRight,
+          recyclerView.paddingBottom + resources.navBarHeight
+        )
+      }
+
+      // Inset the toolbar when it is drawn under the statusbar.
+      barLayout.setPadding(
+        barLayout.paddingLeft,
+        barLayout.paddingTop + resources.statusBarHeight,
+        barLayout.paddingRight,
+        barLayout.paddingBottom
+      )
+    }
   }
 
   private fun setupLayoutManager() {

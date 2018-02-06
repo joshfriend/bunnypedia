@@ -88,8 +88,10 @@
         "type": "RUN",
         "cabbage": 1,
         "water": 4,
+        "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
-            {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+            {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."},
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
         ]
     },
     {

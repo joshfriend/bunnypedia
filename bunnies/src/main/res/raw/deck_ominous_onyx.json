@@ -585,7 +585,7 @@
     "bunnyRequirement": "PLAY",
     "dice": ["BLUE", "CLEAR"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any Mysterious Place card and travels counter-clockwize visiting Mysterious Place cards in ascending numerical order. Each Mysterious Place card is destroyed unless the player can roll its number on either the Blue or Clear die then Two Fish are destroyed."},
+      {"title": "Card Text", "text": "May be placed on any Mysterious Place card and travels counter-clockwise visiting Mysterious Place cards in ascending numerical order. Each Mysterious Place card is destroyed unless the player can roll its number on either the Blue or Clear die then Two Fish are destroyed."},
       {"title": "Additional Rules", "text": "The player who must roll to protect his saved Mysterious Place card may choose which die to roll. As they travel around The Bunny Circle, Two Fish destroy any <a href=\"bunnypedia://card/185\">Barriers</a> that they encounter between players, but are destroyed themselves by <a href=\"bunnypedia://card/463\">Neutronium Barriers</a>. If at any time, no player has a Mysterious Place card saved, then Two Fish is discarded."}
     ]
   },

@@ -72,3 +72,6 @@
 
 -keepclassmembers enum com.fueledbycaffeine.bunnypedia.** { *; }
 -keep class com.fueledbycaffeine.bunnypedia.database.model.** { *; }
+
+# TODO: https://github.com/JakeWharton/RxBinding/pull/428
+-dontwarn com.google.auto.value.AutoValue
