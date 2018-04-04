@@ -10,6 +10,7 @@ Debug APK:
   stage: build
   image: circleci/android:api-27-alpha
   script:
+    - ./minify_json.sh
     - ./gradlew assembleDebugMinified
   artifacts:
     paths:
@@ -24,6 +25,7 @@ Release APK:
   stage: build
   image: circleci/android:api-27-alpha
   script:
+    - ./minify_json.sh
     - ./gradlew assembleRelease
   artifacts:
     paths:
@@ -36,6 +38,7 @@ Android Lint:
   stage: lint
   image: circleci/android:api-27-alpha
   script:
+    - ./minify_json.sh
     - ./gradlew lint
   artifacts:
     paths:
