@@ -1,0 +1,43 @@
+stages:
+  - lint
+  - build
+
+Debug APK:
+  tags:
+    - docker
+  except:
+    - master
+  stage: build
+  image: circleci/android:api-27-alpha
+  script:
+    - ./gradlew assembleDebugMinified
+  artifacts:
+    paths:
+      - ./bunnies/build/outputs/apk/debugMinified/*.apk
+      - ./bunnies/build/outputs/mapping/debugMinified/mapping.txt
+
+Release APK:
+  tags:
+    - docker
+  only:
+    - master
+  stage: build
+  image: circleci/android:api-27-alpha
+  script:
+    - ./gradlew assembleRelease
+  artifacts:
+    paths:
+      - ./bunnies/build/outputs/apk/release/*.apk
+      - ./bunnies/build/outputs/mapping/release/mapping.txt
+
+Android Lint:
+  tags:
+    - docker
+  stage: lint
+  image: circleci/android:api-27-alpha
+  script:
+    - ./gradlew lint
+  artifacts:
+    paths:
+      - ./bunnies/build/reports/lint-results.html
+      - ./bunnies/build/reports/lint-results.xml
