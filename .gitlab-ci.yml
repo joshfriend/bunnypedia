@@ -13,6 +13,7 @@ Debug APK:
     - ./minify_json.sh
     - ./gradlew assembleDebugMinified
   artifacts:
+    name: "apk-debug-$CI_COMMIT_SHA"
     paths:
       - ./bunnies/build/outputs/apk/debugMinified/*.apk
       - ./bunnies/build/outputs/mapping/debugMinified/mapping.txt
@@ -28,6 +29,7 @@ Release APK:
     - ./minify_json.sh
     - ./gradlew assembleRelease
   artifacts:
+    name: "apk-release-$CI_COMMIT_SHA"
     paths:
       - ./bunnies/build/outputs/apk/release/*.apk
       - ./bunnies/build/outputs/mapping/release/mapping.txt
@@ -41,6 +43,7 @@ Android Lint:
     - ./minify_json.sh
     - ./gradlew lint
   artifacts:
+    name: "lint-$CI_COMMIT_SHA"
     paths:
       - ./bunnies/build/reports/lint-results.html
       - ./bunnies/build/reports/lint-results.xml
