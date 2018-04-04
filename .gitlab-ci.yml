@@ -1,5 +1,4 @@
 stages:
-  - lint
   - build
 
 Debug APK:
@@ -8,15 +7,24 @@ Debug APK:
   except:
     - master
   stage: build
+  environment:
+    name: Testing
+    url: "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/bunnies/build/outputs/apk/debugMinified/bunnies-debugMinified.apk"
   image: circleci/android:api-27-alpha
+  cache:
+    key: "$CI_COMMIT_REF_NAME"
+    paths:
+      - build/
+      - bunnies/build/
   script:
     - ./minify_json.sh
     - ./gradlew assembleDebugMinified
   artifacts:
-    name: "apk-debug-$CI_COMMIT_SHA"
+    name: "bunnypedia-debug-$CI_COMMIT_SHA"
     paths:
       - ./bunnies/build/outputs/apk/debugMinified/*.apk
       - ./bunnies/build/outputs/mapping/debugMinified/mapping.txt
+    expire_in: 1 month
 
 Release APK:
   tags:
@@ -24,12 +32,15 @@ Release APK:
   only:
     - master
   stage: build
+  environment:
+    name: Play Store
+    url: "https://play.google.com/store/apps/details?id=com.fueledbycaffeine.bunnypedia"
   image: circleci/android:api-27-alpha
   script:
     - ./minify_json.sh
     - ./gradlew assembleRelease
   artifacts:
-    name: "apk-release-$CI_COMMIT_SHA"
+    name: "bunnypedia-release-$CI_COMMIT_SHA"
     paths:
       - ./bunnies/build/outputs/apk/release/*.apk
       - ./bunnies/build/outputs/mapping/release/mapping.txt
@@ -37,13 +48,20 @@ Release APK:
 Android Lint:
   tags:
     - docker
-  stage: lint
+  stage: build
+  allow_failure: true
   image: circleci/android:api-27-alpha
+  cache:
+    key: "$CI_COMMIT_REF_NAME"
+    paths:
+      - build/
+      - bunnies/build/
   script:
     - ./minify_json.sh
     - ./gradlew lint
   artifacts:
-    name: "lint-$CI_COMMIT_SHA"
+    name: "bunnypedia-lint-$CI_COMMIT_SHA"
     paths:
       - ./bunnies/build/reports/lint-results.html
       - ./bunnies/build/reports/lint-results.xml
+    expire_in: 1 month
