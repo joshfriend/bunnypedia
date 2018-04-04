@@ -100,7 +100,7 @@ dependencies {
     implementation 'com.futuremind.recyclerfastscroll:fastscroll:0.2.5'
 
     // Logging
-    implementation 'com.jakewharton.timber:timber:4.6.0'
+    implementation 'com.jakewharton.timber:timber:4.7.0'
 
     // Date/Time
     implementation 'net.danlew:android.joda:2.9.9.1'
@@ -113,7 +113,7 @@ dependencies {
     implementation "org.jetbrains.anko:anko-support-v4-commons:$ankoVersion"
     implementation "org.jetbrains.anko:anko-appcompat-v7-commons:$ankoVersion"
 
-    implementation('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.1@aar') {
         transitive = true
     }
 }
