@@ -1,14 +1,14 @@
 stages:
-  - build
+  - Build
 
 Debug APK:
   tags:
     - docker
   except:
     - master
-  stage: build
+  stage: Build
   environment:
-    name: Testing
+    name: "$CI_COMMIT_REF_NAME"
     url: "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/bunnies/build/outputs/apk/debugMinified/bunnies-debugMinified.apk"
   image: circleci/android:api-27-alpha
   cache:
@@ -31,7 +31,7 @@ Release APK:
     - docker
   only:
     - master
-  stage: build
+  stage: Build
   environment:
     name: Play Store
     url: "https://play.google.com/store/apps/details?id=com.fueledbycaffeine.bunnypedia"
@@ -48,7 +48,7 @@ Release APK:
 Android Lint:
   tags:
     - docker
-  stage: build
+  stage: Build
   allow_failure: true
   image: circleci/android:api-27-alpha
   cache:
