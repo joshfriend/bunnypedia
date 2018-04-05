@@ -66,16 +66,16 @@ repositories {
 
 dependencies {
     // Support
-    def supportVersion = "27.0.2"
+    def supportVersion = "27.1.0"
     implementation "com.android.support:appcompat-v7:$supportVersion"
     implementation "com.android.support:design:$supportVersion"
     implementation "com.android.support:recyclerview-v7:$supportVersion"
     implementation "com.android.support:cardview-v7:$supportVersion"
     implementation "com.android.support:palette-v7:$supportVersion"
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0-beta6'
     implementation 'com.google.android:flexbox:0.3.2'
 
-    def archComponentsVersion = "1.1.0"
+    def archComponentsVersion = "1.1.1"
     implementation "android.arch.lifecycle:runtime:$archComponentsVersion"
     implementation "android.arch.lifecycle:extensions:$archComponentsVersion"
 
@@ -88,7 +88,7 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
     implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
     implementation 'io.reactivex.rxjava2:rxkotlin:2.2.0'
-    def rxBindingVersion = "2.1.0"
+    def rxBindingVersion = "2.1.1"
     implementation "com.jakewharton.rxbinding2:rxbinding-kotlin:$rxBindingVersion"
     implementation "com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:$rxBindingVersion"
 
@@ -100,7 +100,7 @@ dependencies {
     implementation 'com.futuremind.recyclerfastscroll:fastscroll:0.2.5'
 
     // Logging
-    implementation 'com.jakewharton.timber:timber:4.6.0'
+    implementation 'com.jakewharton.timber:timber:4.7.0'
 
     // Date/Time
     implementation 'net.danlew:android.joda:2.9.9.1'
@@ -113,20 +113,24 @@ dependencies {
     implementation "org.jetbrains.anko:anko-support-v4-commons:$ankoVersion"
     implementation "org.jetbrains.anko:anko-appcompat-v7-commons:$ankoVersion"
 
-    implementation('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.1@aar') {
         transitive = true
     }
 }
 
 def getPassword(String item) {
-    def stdout = new ByteArrayOutputStream()
-    def stderr = new ByteArrayOutputStream()
-    exec {
-        commandLine 'security', '-q', 'find-generic-password', '-s', item, '-w'
-        standardOutput = stdout
-        errorOutput = stderr
-        ignoreExitValue true
+    if (System.getenv('CI') != null) {
+        System.getenv('ANDROID_KEYSTORE_PASSWORD')
+    } else {
+        def stdout = new ByteArrayOutputStream()
+        def stderr = new ByteArrayOutputStream()
+        exec {
+            commandLine 'security', '-q', 'find-generic-password', '-s', item, '-w'
+            standardOutput = stdout
+            errorOutput = stderr
+            ignoreExitValue true
+        }
+        //noinspection GroovyAssignabilityCheck
+        stdout.toString().trim()
     }
-    //noinspection GroovyAssignabilityCheck
-    stdout.toString().trim()
 }
