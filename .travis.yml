@@ -1,0 +1,19 @@
+language: android
+android:
+  components:
+  - build-tools-27.0.3
+  - android-27
+before_cache:
+- rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+- rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/wrapper/"
+  - "$HOME/.android/build-cache"
+script:
+  - ./minify_json.sh
+  - ./gradlew assembleRelease
+env:
+  global:
+    - secure: "StUBsmyHrwO04PdbN1sjzIgUnD47wyqW4FwsHuCH9ZOQRkGGY8qz2YQdtYmsspzYXp0yJnDHCZ6tR8dx6M/et5HHrZMEH6yBVNg0Q9Zp77OPuhqY76qRDxRBghBjoX19PS/w2wKybwBCte9N33qAhFIfCSlcEumrinBAh9IoNeZnlMIUJxbQxNMI34vpV8HX+kTdKGnoWgXQMe2yjgQAJKFg9MqAp6pnYqZLilC1pF9+jQ9rvc33BhJAH3qqq9t4oFh0zNGID7gJOb2l1mA3GWX8WVkLyHBkznChW3DsBuqLp2P+j+69hsoCaHFzgjmMiA7WA8Xu3cVdJtyxGhowpe9GpdOqFuI6EI1819xi0/ujbvfxySZ2TR+Oqtuu+mNchfCOLUA6RcsuHzj8ALCNhksTM49Vwx80O6r/X9JBJkkH+Xa8KJlMB0bvpmFzprAeKHF0nxcA0dx6FPWeZWG3TyKExW91WqFyjRP5YjhlG6NGKMI/AqktDUrXpzW7mCxPSwbAZ9VrBvCf6FJlG7vn/pMN3YjUZ8lpUb6okBLxjSmZZHYWbiFy7C/Vwykqi1IahFozh6/z6vnnq/2lOovwCCypBQPeWCuKBjZHEGLcGgupDj6Jj13LcjooWC/La09ILIOLA1c1s8bwcYft5tRmc9GPi/+fTZnUiOLQPrGWjw0="
