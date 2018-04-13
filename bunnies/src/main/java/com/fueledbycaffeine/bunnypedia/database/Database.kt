@@ -50,7 +50,7 @@ class Database(context: Context) {
   }
 
   fun getCard(id: Int): Card? {
-    val cards = cardsSubject.value
+    val cards = cardsSubject.value ?: return null
     val index = cards.binarySearch { it.id.compareTo(id) }
     return if (index < 0) {
       null
