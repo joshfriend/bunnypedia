@@ -59,23 +59,4 @@ enum class Deck {
       CARAMEL_SWIRL -> R.string.deck_caramel_swirl_booster
     }
   }
-
-  val data: Int @RawRes get() {
-    return when (this) {
-      RED -> R.raw.deck_red_min
-      ORANGE -> R.raw.deck_orange_min
-      YELLOW -> R.raw.deck_yellow_min
-      GREEN -> R.raw.deck_green_min
-      BLUE -> R.raw.deck_blue_min
-      VIOLET -> R.raw.deck_violet_min
-      PERFECTLY_PINK -> R.raw.deck_perfectly_pink_min
-      TWILIGHT_WHITE -> R.raw.deck_twilight_white_min
-      STAINLESS_STEEL -> R.raw.deck_stainless_steel_min
-      OMINOUS_ONYX -> R.raw.deck_ominous_onyx_min
-      WACKY_KHAKI -> R.raw.deck_wacky_khaki_min
-      CHOCOLATE -> R.raw.deck_chocolate_min
-      FANTASTIC -> R.raw.deck_fantastic_min
-      CARAMEL_SWIRL -> R.raw.deck_caramel_swirl_min
-    }
-  }
 }

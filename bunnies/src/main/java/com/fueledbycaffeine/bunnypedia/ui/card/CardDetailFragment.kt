@@ -2,6 +2,7 @@ package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.arch.lifecycle.ViewModelProviders
 import android.content.res.ColorStateList
+import android.graphics.Color
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.content.ContextCompat
@@ -14,12 +15,19 @@ import android.widget.ImageView
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.*
 import com.fueledbycaffeine.bunnypedia.database.model.*
+import com.fueledbycaffeine.bunnypedia.ext.android.useDarkStatusBarStyle
+import com.fueledbycaffeine.bunnypedia.ext.android.useLightStatusBarStyle
+import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.injection.App
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import com.google.android.flexbox.FlexboxLayout
+import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
+import io.reactivex.rxkotlin.subscribeBy
+import io.reactivex.schedulers.Schedulers
+import io.reactivex.subjects.BehaviorSubject
 import kotlinx.android.synthetic.main.card_hero_details.*
 import kotlinx.android.synthetic.main.content_card_detail.*
 import kotlinx.android.synthetic.main.fragment_card_detail.*
@@ -30,17 +38,18 @@ import javax.inject.Inject
 
 class CardDetailFragment: Fragment() {
   companion object {
-    const val ARG_CARD = "CARD"
+    const val ARG_CARD_ID = "CARD_ID"
 
     private val ZODIAC_DATE_FMT = DateTimeFormat.forPattern("MMMM d")
   }
 
-  private val cardArgument by lazy {
-    arguments!!.getParcelable(ARG_CARD) as Card
+  private val cardIdArgument by lazy {
+    arguments!!.getInt(ARG_CARD_ID)
   }
 
-  @Inject lateinit var database: Database
+  @Inject lateinit var cardStore: CardStore
   private lateinit var navigation: CardNavigationViewModel
+  private val reloadSubject = BehaviorSubject.createDefault(true)
   private val subscribers = CompositeDisposable()
 
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,17 +66,46 @@ class CardDetailFragment: Fragment() {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
 
+    recyclerView.adapter = RuleSectionAdapter(emptyList())
+
+    reloadSubject
+      .observeOn(Schedulers.io())
+      .flatMapSingle {
+        cardStore.getCard(cardIdArgument)
+      }
+      .observeOn(AndroidSchedulers.mainThread())
+      .subscribeBy(
+        onNext = { card ->
+          setupViewForCard(view, card)
+        },
+        onError = Timber::e
+      )
+      .addTo(this.subscribers)
+  }
+
+  override fun onResume() {
+    super.onResume()
+    reloadSubject.onNext(true)
+  }
+
+  override fun onDestroyView() {
+    subscribers.clear()
+    super.onDestroyView()
+  }
+
+  private fun setupViewForCard(view: View, data: CardWithRules) {
+    val (card) = data
     val activity = activity ?: return
     if (activity is AppCompatActivity) {
       activity.setSupportActionBar(toolbar)
       activity.supportActionBar?.apply {
         setDisplayHomeAsUpEnabled(true)
-        title = cardArgument.title
-        subtitle = "${String.format("#%04d", cardArgument.id)} – ${getString(cardArgument.deck.description)}"
+        title = card.title
+        subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
       }
     }
 
-    val deckColor = ContextCompat.getColor(activity, cardArgument.deck.color)
+    val deckColor = ContextCompat.getColor(activity, card.deck.color)
     toolbar.setBackgroundColor(deckColor)
     val titleColor = ColorUtil.contrastColor(deckColor)
     toolbar.setTitleTextColor(titleColor)
@@ -76,45 +114,35 @@ class CardDetailFragment: Fragment() {
     activity.window?.statusBarColor = statusbarColor
     toolbar.navigationIcon?.setTint(titleColor)
 
-    if (ColorUtil.getLuminance(statusbarColor) < 0.5) {
-      var flags = view.systemUiVisibility
-      flags = flags or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-      view.systemUiVisibility = flags
+    // Ensure status bar icons will still be legible with the new color
+    when (titleColor) {
+      Color.BLACK -> view.useLightStatusBarStyle()
+      else -> view.useDarkStatusBarStyle()
     }
 
     // It likes to scroll to the bottom by default for some reason...
     scrollView.fullScroll(FOCUS_UP)
 
-    bind(cardArgument)
+    bind(data)
   }
 
-  override fun onResume() {
-    super.onResume()
-    val card = cardArgument
-    if (card.zodiacType != null) {
-      setupZodiacInfo(card.zodiacType)
-    }
-  }
-
-  override fun onDestroyView() {
-    subscribers.clear()
-    super.onDestroyView()
-  }
-
-  private fun bind(card: Card) {
+  private fun bind(data: CardWithRules) {
+    val (card, rules) = data
     cardType.text = getString(card.type.description)
 
-    val adapter = RuleSectionAdapter(card.rules)
+    val adapter = RuleSectionAdapter(rules)
     adapter.linksClicked
-      .subscribe { uri ->
-        try {
-          val cardId = uri.pathSegments[0].toInt()
-          val selectedCard = database.getCard(cardId)
-          if (selectedCard != null) {
-            navigation.viewCard(selectedCard)
-          }
-        } catch (e: Exception) {
-          Timber.e(e)
+      .observeOn(Schedulers.io())
+      .map { uri ->
+        uri.pathSegments[0].toIntOrNull() ?: -1
+      }
+      .flatMapSingle { cardId ->
+        cardStore.getCard(cardId).mapToResult()
+      }
+      .subscribe { result ->
+        if (result is QueryResult.Found<*>) {
+          val (selectedCard) = result.item as CardWithRules
+          navigation.viewCard(selectedCard.id)
         }
       }
       .addTo(subscribers)
@@ -158,10 +186,15 @@ class CardDetailFragment: Fragment() {
     if (card.specialSeries != null) {
       setupSpecialSeriesInfo(card.specialSeries)
     }
+
+    if (card.zodiacType != null) {
+      setupZodiacInfo(card.zodiacType)
+    }
   }
 
   private fun setupDiceInfo(dice: List<Die>) {
     diceContainer.visibility = View.VISIBLE
+    diceFlexLayout.removeAllViews()
     for (die in dice) {
       val img = ImageView(context)
       img.setImageDrawable(die.getDrawable(context!!))

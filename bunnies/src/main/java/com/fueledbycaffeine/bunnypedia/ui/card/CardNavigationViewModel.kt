@@ -1,18 +1,17 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.arch.lifecycle.ViewModel
-import com.fueledbycaffeine.bunnypedia.database.model.Card
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 
 class CardNavigationViewModel: ViewModel() {
-  private val cardSubject = PublishSubject.create<Card>()
+  private val cardSubject = PublishSubject.create<Int>()
 
-  fun viewCard(card: Card) {
+  fun viewCard(card: Int) {
     cardSubject.onNext(card)
   }
 
-  fun getNavigationEvents(): Observable<Card> {
+  fun getNavigationEvents(): Observable<Int> {
     return cardSubject.share()
   }
 

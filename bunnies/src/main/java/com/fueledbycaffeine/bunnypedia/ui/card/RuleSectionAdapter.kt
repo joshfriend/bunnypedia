@@ -7,13 +7,13 @@ import android.support.v7.widget.RecyclerView
 import android.text.util.Linkify
 import android.view.ViewGroup
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.model.RulesSection
+import com.fueledbycaffeine.bunnypedia.database.model.Rule
 import io.reactivex.subjects.PublishSubject
 import kotlinx.android.synthetic.main.list_item_rule_section.*
 import me.saket.bettermovementmethod.BetterLinkMovementMethod
 import org.jetbrains.anko.layoutInflater
 
-class RuleSectionAdapter(val rules: List<RulesSection>): RecyclerView.Adapter<RuleSectionViewHolder>() {
+class RuleSectionAdapter(val rules: List<Rule>): RecyclerView.Adapter<RuleSectionViewHolder>() {
   val linksClicked = PublishSubject.create<Uri>()
 
   override fun getItemCount() = rules.size

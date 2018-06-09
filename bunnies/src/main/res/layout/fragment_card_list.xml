@@ -48,7 +48,7 @@
             android:layout_centerInParent="true"
             android:orientation="vertical"
             android:gravity="center"
-            android:visibility="visible"
+            android:visibility="gone"
             tools:visibility="visible"
             >
 
@@ -81,7 +81,7 @@
                 tools:listitem="@layout/card_view_list_item"
                 android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
                 android:clipToPadding="false"
-                android:visibility="gone"
+                android:visibility="visible"
                 tools:visibility="visible"
                 />
 

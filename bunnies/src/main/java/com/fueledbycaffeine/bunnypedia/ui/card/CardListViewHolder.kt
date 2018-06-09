@@ -2,6 +2,7 @@ package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.support.v4.content.ContextCompat
 import android.view.View
+import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.Card
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import kotlinx.android.extensions.LayoutContainer
@@ -18,6 +19,15 @@ class CardListViewHolder(override val containerView: View?): CardViewHolder(cont
     title.text = card.title
 
     cardType.text = itemView.context.getString(card.type.description)
+  }
+
+  override fun clear() {
+    cardType.text = ""
+    title.text = ""
+    cardNumber.text = "#???"
+    cardNumber.setBackgroundColor(
+      ContextCompat.getColor(itemView.context, R.color.deck_blue)
+    )
   }
 }
 

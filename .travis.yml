@@ -3,6 +3,8 @@ android:
   components:
   - build-tools-27.0.3
   - android-27
+python:
+  - "3.6"
 before_cache:
 - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
 - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
@@ -12,7 +14,7 @@ cache:
   - "$HOME/.gradle/wrapper/"
   - "$HOME/.android/build-cache"
 script:
-  - ./minify_json.sh
+  - python ./database/dbseed.py
   - ./gradlew assembleRelease
 env:
   global:

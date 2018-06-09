@@ -1,34 +1,36 @@
 package com.fueledbycaffeine.bunnypedia.database.model
 
-import android.os.Parcelable
-import kotlinx.android.parcel.Parcelize
+import android.arch.persistence.room.Entity
+import android.arch.persistence.room.PrimaryKey
 
-@Parcelize
+@Entity
 data class Card(
+  @PrimaryKey
   val id: Int,
-  private val canonicalId: Int? = null,
+
+  val canonicalId: Int?,
   val title: String,
   val deck: Deck,
   val type: CardType,
-  val description: String = "",
-  val additionalRules: String = "",
-  val rules: List<RulesSection> = emptyList(),
-  val rank: Rank? = null,
-  val zodiacType: ZodiacType? = null,
-  val bunnyRequirement: BunnyRequirement = BunnyRequirement.NOT_APPLICABLE,
-  val dice: List<Die> = emptyList(),
-  val symbols: List<Symbol> = emptyList(),
-  val pawn: Pawn? = null,
-  val weaponLevel: String? = null,
-  val cabbage: Int = 0,
-  val water: Int = 0,
-  val psi: Psi? = null,
-  val specialSeries: SpecialSeries? = null
-): Parcelable {
+  val rank: Rank?,
+  val zodiacType: ZodiacType?,
+  val bunnyRequirement: BunnyRequirement,
+  val dice: List<Die>,
+  val symbols: List<Symbol>,
+  val pawn: Pawn?,
+  val weaponLevel: String?,
+  val cabbage: Int,
+  val water: Int,
+  val psi: Psi?,
+  val specialSeries: SpecialSeries?
+) {
   companion object {
     const val FTB_RANDOM = -1
     const val FTB_DATED= -2
   }
+
+//  @Relation(parentColumn = "id", entityColumn = "cardId")
+//  var rules: List<Rule> = emptyList()
 
   val imageURI: String get() = "file:///android_asset/card_thumbnails/${String.format("%04d.png", canonicalId ?: id)}"
 

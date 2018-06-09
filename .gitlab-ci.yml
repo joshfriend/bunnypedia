@@ -10,14 +10,14 @@ Debug APK:
   environment:
     name: "$CI_COMMIT_REF_NAME"
     url: "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/bunnies/build/outputs/apk/debugMinified/bunnies-debugMinified.apk"
-  image: circleci/android:api-27-alpha
+  image: michiganlabs/android:api-27-alpha
   cache:
     key: "$CI_COMMIT_REF_NAME"
     paths:
       - build/
       - bunnies/build/
   script:
-    - ./minify_json.sh
+    - python ./database/dbseed.py
     - ./gradlew assembleDebugMinified
   artifacts:
     name: "bunnypedia-debug-$CI_COMMIT_SHA"
@@ -35,9 +35,9 @@ Release APK:
   environment:
     name: Play Store
     url: "https://play.google.com/store/apps/details?id=com.fueledbycaffeine.bunnypedia"
-  image: circleci/android:api-27-alpha
+  image: michiganlabs/android:api-27-alpha
   script:
-    - ./minify_json.sh
+    - python ./database/dbseed.py
     - ./gradlew assembleRelease
   artifacts:
     name: "bunnypedia-release-$CI_COMMIT_SHA"
@@ -50,14 +50,14 @@ Android Lint:
     - docker
   stage: Build
   allow_failure: true
-  image: circleci/android:api-27-alpha
+  image: michiganlabs/android:api-27-alpha
   cache:
     key: "$CI_COMMIT_REF_NAME"
     paths:
       - build/
       - bunnies/build/
   script:
-    - ./minify_json.sh
+    - python ./database/dbseed.py
     - ./gradlew lint
   artifacts:
     name: "bunnypedia-lint-$CI_COMMIT_SHA"

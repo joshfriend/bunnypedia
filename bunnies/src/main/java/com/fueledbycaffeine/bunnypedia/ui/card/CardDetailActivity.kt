@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentTransaction
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD
+import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import org.jetbrains.anko.bundleOf
@@ -33,9 +33,9 @@ class CardDetailActivity: AppCompatActivity() {
     val navigation = ViewModelProviders.of(this)
       .get(CardNavigationViewModel::class.java)
     navigation.getNavigationEvents()
-      .subscribe { card ->
+      .subscribe { cardId ->
         val fragment = CardDetailFragment()
-        fragment.arguments = bundleOf(ARG_CARD to card)
+        fragment.arguments = bundleOf(ARG_CARD_ID to cardId)
         supportFragmentManager.beginTransaction()
           .replace(R.id.content_frame, fragment)
           .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)

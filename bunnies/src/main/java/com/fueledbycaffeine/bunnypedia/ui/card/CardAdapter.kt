@@ -1,22 +1,27 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
+import android.arch.paging.PagedListAdapter
 import android.support.v4.app.Fragment
-import android.support.v7.widget.RecyclerView
+import android.support.v7.util.DiffUtil
 import android.view.ViewGroup
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.Card
-import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
 import org.jetbrains.anko.layoutInflater
-import timber.log.Timber
 
 class CardAdapter(
   val fragment: Fragment,
   viewType: CardViewType,
-  private var allCards: List<Card>,
-  private val onCardSelected: (Card) -> Unit
-): RecyclerView.Adapter<CardViewHolder>(), SectionTitleProvider {
+  private val onCardSelected: (Int) -> Unit
+): PagedListAdapter<Card, CardViewHolder>(CARD_COMPARATOR), SectionTitleProvider {
+
+  companion object {
+    private val CARD_COMPARATOR = object : DiffUtil.ItemCallback<Card>() {
+      override fun areItemsTheSame(oldItem: Card, newItem: Card) = oldItem.id == newItem.id
+      override fun areContentsTheSame(oldItem: Card, newItem: Card) = oldItem == newItem
+    }
+  }
 
   enum class CardViewType {
     LIST,
@@ -24,23 +29,7 @@ class CardAdapter(
     ;
   }
 
-  var shownDecks: Set<Deck> = Deck.values().toSet()
-    set(value) {
-      field = value
-      computeShownCards()
-    }
-  var query: String? = null
-    set(value) {
-      field = value
-      computeShownCards()
-    }
   var viewType: CardViewType = viewType
-    set(value) {
-      field = value
-      notifyDataSetChanged()
-    }
-
-  private var shownCards: List<Card> = allCards
     set(value) {
       field = value
       notifyDataSetChanged()
@@ -51,12 +40,16 @@ class CardAdapter(
   }
 
   override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
-    val card = shownCards[holder.adapterPosition]
-    when (holder) {
-      is CardGridViewHolder -> holder.bind(GlideApp.with(fragment), card)
-      else -> holder.bind(card)
+    val card = getItem(holder.adapterPosition)
+    if (card == null) {
+      holder.clear()
+    } else {
+      when (holder) {
+        is CardGridViewHolder -> holder.bind(GlideApp.with(fragment), card)
+        else -> holder.bind(card)
+      }
+      holder.itemView.setOnClickListener { onCardSelected(card.id) }
     }
-    holder.itemView.setOnClickListener { onCardSelected(card) }
   }
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
@@ -74,30 +67,8 @@ class CardAdapter(
     }
   }
 
-  override fun getItemCount(): Int {
-    return shownCards.size
-  }
-
   override fun getSectionTitle(position: Int): String {
-    val card = allCards[position]
+    val card = getItem(position) ?: return "???"
     return card.id.toString()
-  }
-
-  private fun computeShownCards() {
-    val availableCards = allCards.filter { shownDecks.contains(it.deck) }
-    val query = query
-    val cardsMatchingQuery = when (query) {
-      null -> availableCards
-      else -> {
-        val idQuery = query.replace("^0+".toRegex(), "")
-        availableCards.filter { card ->
-          val titleMatch = card.title.contains(query, ignoreCase = true)
-          val idMatch = card.id.toString().startsWith(idQuery)
-          titleMatch || idMatch
-        }
-      }
-    }
-
-    shownCards = cardsMatchingQuery
   }
 }

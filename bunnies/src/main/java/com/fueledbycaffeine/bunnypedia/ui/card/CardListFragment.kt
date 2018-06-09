@@ -1,10 +1,7 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
+import android.arch.paging.RxPagedListBuilder
 import android.content.Intent
-import android.content.res.Configuration
-import android.content.res.Configuration.ORIENTATION_PORTRAIT
-import android.graphics.Rect
-import android.os.Build
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
@@ -12,25 +9,25 @@ import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.SearchView
 import android.view.*
-import android.widget.RelativeLayout
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.Card
-import com.fueledbycaffeine.bunnypedia.database.Database
+import com.fueledbycaffeine.bunnypedia.database.CardStore
+import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
-import com.fueledbycaffeine.bunnypedia.ext.android.hasNavBar
-import com.fueledbycaffeine.bunnypedia.ext.android.isTablet
-import com.fueledbycaffeine.bunnypedia.ext.android.navBarHeight
-import com.fueledbycaffeine.bunnypedia.ext.android.statusBarHeight
+import com.fueledbycaffeine.bunnypedia.ext.android.*
+import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.injection.App
-import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD
+import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
 import com.fueledbycaffeine.bunnypedia.ui.settings.SettingsActivity
 import com.jakewharton.rxbinding2.support.v7.widget.queryTextChangeEvents
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.rxkotlin.Observables
 import io.reactivex.rxkotlin.addTo
 import io.reactivex.rxkotlin.subscribeBy
+import io.reactivex.schedulers.Schedulers
+import io.reactivex.subjects.BehaviorSubject
 import kotlinx.android.synthetic.main.fragment_card_list.*
-import org.jetbrains.anko.alignParentEnd
 import org.jetbrains.anko.support.v4.defaultSharedPreferences
 import org.jetbrains.anko.support.v4.startActivity
 import org.jetbrains.anko.support.v4.startActivityForResult
@@ -42,10 +39,12 @@ class CardListFragment: Fragment() {
     private const val REQ_SETTINGS = 1
   }
 
-  @Inject lateinit var database: Database
+  @Inject lateinit var cardStore: CardStore
   private lateinit var adapter: CardAdapter
   private var optionsMenuSubscribers = CompositeDisposable()
   private var subscribers = CompositeDisposable()
+  private val shownDecks = BehaviorSubject.create<Set<Deck>>()
+  private val querySubject = BehaviorSubject.create<String>()
 
   private var viewType: CardAdapter.CardViewType
     get() = CardAdapter.CardViewType.valueOf(
@@ -62,8 +61,10 @@ class CardListFragment: Fragment() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setHasOptionsMenu(true)
     App.graph.inject(this)
+
+    shownDecks.onNext(getAvailableDecks())
+    setHasOptionsMenu(true)
   }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -79,22 +80,27 @@ class CardListFragment: Fragment() {
     val queryEvents = search.queryTextChangeEvents().share()
 
     queryEvents.map { it.queryText().toString().trim() }
-      .subscribeBy(onNext = {
-        Timber.i("Search query changed: $it")
-        adapter.query = it
-      })
+      .subscribe { querySubject.onNext(it) }
       .addTo(this.optionsMenuSubscribers)
 
     queryEvents.filter { it.isSubmitted }
       .map { it.queryText().toString().trim() }
       .map { it.toIntOrNull() ?: -1 }
+      .observeOn(Schedulers.io())
+      .flatMapSingle { cardId ->
+        cardStore.getCard(cardId).mapToResult()
+      }
+      .observeOn(AndroidSchedulers.mainThread())
       .subscribeBy(
-        onNext = { id ->
-          val card = database.getCard(id)
-          if (card != null) {
-            search.setQuery("", false)
-            searchMenuItem.collapseActionView()
-            this.onCardSelected(card)
+        onNext = { result ->
+          when (result) {
+            is QueryResult.Found<*> -> {
+              val card = result.item as Card
+              search.setQuery("", false)
+              searchMenuItem.collapseActionView()
+              this.onCardSelected(card.id)
+            }
+            is QueryResult.Error -> Timber.w("${result.error}")
           }
         },
         onError = Timber::e
@@ -110,26 +116,20 @@ class CardListFragment: Fragment() {
       activity.setSupportActionBar(toolbar)
     }
 
-    makeSystemBarsFancy()
+    makeNavBarsFancy()
 
     // TODO: https://github.com/bumptech/glide/tree/master/integration/recyclerview
-    adapter = CardAdapter(this, viewType, emptyList(), this::onCardSelected)
+    adapter = CardAdapter(this, viewType, this::onCardSelected)
     recyclerView.adapter = adapter
     setupLayoutManager()
 
     fastScroller.setRecyclerView(recyclerView)
 
-    database.getAllCards()
-      .observeOn(AndroidSchedulers.mainThread())
-      .subscribe { cards ->
-        adapter = CardAdapter(this, viewType, cards, this::onCardSelected)
-        adapter.shownDecks = getAvailableDecks()
-        loadingView.visibility = View.GONE
-        recyclerView.visibility = View.VISIBLE
-        recyclerView.adapter = adapter
-        fastScroller.setRecyclerView(recyclerView)
-        Timber.w("Cards loaded")
-      }
+    Observables
+      .combineLatest(shownDecks, querySubject)
+      .map { (decks, search) -> cardStore.getCards(decks, search) }
+      .flatMap { dsf -> RxPagedListBuilder(dsf, 100).buildObservable() }
+      .subscribe { pl -> adapter.submitList(pl) }
       .addTo(this.subscribers)
   }
 
@@ -166,7 +166,7 @@ class CardListFragment: Fragment() {
   override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
     when (requestCode) {
       REQ_SETTINGS -> {
-        adapter.shownDecks = getAvailableDecks()
+        shownDecks.onNext(getAvailableDecks())
         adapter.viewType = viewType
         setupLayoutManager()
         activity?.invalidateOptionsMenu()
@@ -185,17 +185,11 @@ class CardListFragment: Fragment() {
     super.onDestroyView()
   }
 
-  private fun makeSystemBarsFancy() {
-    val isMultiWindow = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-      activity?.isInMultiWindowMode == true
-    } else {
-      false
-    }
-
+  private fun makeNavBarsFancy() {
     // It is not possible to tell which window your app occupies in multiwindow
     // mode when fitsSystemWindows is false. Apps can't draw under the navbar
     // in multiwindow mode anyways.
-    val fitSystemWindows = if (isMultiWindow) {
+    val fitSystemWindows = if (activity?.isInMultiWindow == true) {
       true
     } else {
       resources.getBoolean(R.bool.fullscreen_style_fit_system_windows)
@@ -203,28 +197,19 @@ class CardListFragment: Fragment() {
     // Override the activity's theme when in multiwindow.
     coordinator.fitsSystemWindows = fitSystemWindows
 
-    // Navbar rotates with device if its category is sw600dp or above
-    val navBarAtBottom = resources.isTablet || resources.configuration.orientation == ORIENTATION_PORTRAIT
-
     if (!fitSystemWindows) {
       // Inset bottom of content if drawing under the translucent navbar, but
       // only if the navbar is a software bar and is on the bottom of the
       // screen.
-      if (resources.hasNavBar && navBarAtBottom) {
-        recyclerView.setPadding(
-          recyclerView.paddingLeft,
-          recyclerView.paddingTop,
-          recyclerView.paddingRight,
-          recyclerView.paddingBottom + resources.navBarHeight
+      if (resources.showsSoftwareNavBar && resources.isNavBarAtBottom) {
+        recyclerView.updatePaddingRelative(
+          bottom = recyclerView.paddingBottom + resources.navBarHeight
         )
       }
 
-      // Inset the toolbar when it is drawn under the statusbar.
-      barLayout.setPadding(
-        barLayout.paddingLeft,
-        barLayout.paddingTop + resources.statusBarHeight,
-        barLayout.paddingRight,
-        barLayout.paddingBottom
+      // Inset the toolbar when it is drawn under the status bar.
+      barLayout.updatePaddingRelative(
+        top = barLayout.paddingTop + resources.statusBarHeight
       )
     }
   }
@@ -234,16 +219,16 @@ class CardListFragment: Fragment() {
       CardAdapter.CardViewType.GRID -> {
         val displayMetrics = resources.displayMetrics
         val columns = (displayMetrics.widthPixels / resources.getDimension(R.dimen.card_width)).toInt()
-        recyclerView.layoutManager = GridLayoutManager(context!!, columns)
+        recyclerView.layoutManager = GridLayoutManager(requireContext(), columns)
       }
       CardAdapter.CardViewType.LIST -> {
-        recyclerView.layoutManager = LinearLayoutManager(context!!)
+        recyclerView.layoutManager = LinearLayoutManager(requireContext())
       }
     }
   }
 
-  private fun onCardSelected(card: Card) {
-    startActivity<CardDetailActivity>(ARG_CARD to card)
+  private fun onCardSelected(cardId: Int) {
+    startActivity<CardDetailActivity>(ARG_CARD_ID to cardId)
   }
 
   private fun getAvailableDecks(): Set<Deck> {
