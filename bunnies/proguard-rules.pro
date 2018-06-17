@@ -23,31 +23,6 @@
 # Its open source, cmon
 -dontobfuscate
 
-### OkHttp
--dontwarn okhttp3.**
--dontwarn okio.**
--dontwarn javax.annotation.**
-# A resource is loaded with a relative path so the package of this class must be preserved.
--keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
-
-### Retrofit
--dontwarn okio.**
--dontwarn javax.annotation.**
-
-### Moshi
--dontwarn okio.**
--dontwarn javax.annotation.**
--keepclasseswithmembers class * {
-    @com.squareup.moshi.* <methods>;
-}
--keep @com.squareup.moshi.JsonQualifier interface *
--keepclassmembers class kotlin.Metadata {
-    public <methods>;
-}
-# https://github.com/square/moshi/issues/402
--dontwarn kotlin.reflect.jvm.internal.**
--keep class kotlin.reflect.jvm.internal.** { *; }
-
 ### Glide
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep public class * extends com.bumptech.glide.module.AppGlideModule
@@ -69,9 +44,3 @@
 -keep class android.support.design.** { *; }
 -keep interface android.support.design.** { *; }
 -keep public class android.support.design.R$* { *; }
-
--keepclassmembers enum com.fueledbycaffeine.bunnypedia.** { *; }
--keep class com.fueledbycaffeine.bunnypedia.database.model.** { *; }
-
-# TODO: https://github.com/JakeWharton/RxBinding/pull/428
--dontwarn com.google.auto.value.AutoValue
