@@ -2,6 +2,7 @@
 
 import json
 import glob
+import gzip
 import sqlite3
 import os
 from os.path import join, dirname, abspath
@@ -106,7 +107,8 @@ ROOT_DIR = abspath(join(dirname(__file__), '..'))
 SRC_DIR = join(ROOT_DIR, 'bunnies/src/main')
 ASSETS_DIR = join(SRC_DIR, 'assets')
 JSON_FILES = join(ROOT_DIR, 'database/*.json')
-DB_FILE = join(ASSETS_DIR, 'databases/db.sqlite3')
+DB_FILE = join(ROOT_DIR, 'database/db.sqlite3')
+DB_GZ_FILE = join(ASSETS_DIR, 'databases/db.sqlite3.gz')
 
 cards_data = []
 for deck in glob.glob(JSON_FILES):
@@ -141,4 +143,8 @@ conn.execute("pragma user_version = 1")
 conn.execute("pragma foreign_keys = 1")
 conn.commit()
 conn.close()
-print(DB_FILE)
+
+with open(DB_FILE, 'rb') as orig_file:
+    with gzip.open(DB_GZ_FILE, 'wb') as zipped_file:
+        zipped_file.writelines(orig_file)
+print(DB_GZ_FILE)
