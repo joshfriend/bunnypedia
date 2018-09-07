@@ -32,7 +32,7 @@ data class Card(
 //  @Relation(parentColumn = "id", entityColumn = "cardId")
 //  var rules: List<Rule> = emptyList()
 
-  val imageURI: String get() = "file:///android_asset/card_thumbnails/${String.format("%04d.png", canonicalId ?: id)}"
+  val imageURI: String get() = "file:///android_asset/card_thumbnails/${String.format("%04d.jpg", canonicalId ?: id)}"
 
   val isFtb: Boolean get() = cabbage != 0 && water != 0
 }
