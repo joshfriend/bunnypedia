@@ -150,7 +150,6 @@ class CardDetailFragment: Fragment() {
 
     GlideApp.with(this)
       .load(card.imageURI)
-      .centerCrop()
       .into(cardThumbnail)
 
     if (card.dice.isNotEmpty()) {

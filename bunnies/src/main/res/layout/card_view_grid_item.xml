@@ -33,6 +33,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintDimensionRatio="3:4"
                 tools:src="@drawable/card_0048"
+                tools:ignore="ContentDescription"
                 />
 
             <TextView

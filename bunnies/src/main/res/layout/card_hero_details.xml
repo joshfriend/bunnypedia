@@ -14,14 +14,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:elevation="8dp"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="16dp"
         >
 
         <ImageView
             android:id="@+id/cardThumbnail"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:scaleType="centerCrop"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/card_0048"
