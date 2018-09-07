@@ -87,7 +87,6 @@
     },
     {
         "id": 229,
-        "canonicalId": 125,
         "title": "Feed The Bunny 3/2",
         "deck": "VIOLET",
         "type": "RUN",
@@ -100,7 +99,6 @@
     },
     {
         "id": 230,
-        "canonicalId": 504,
         "title": "Feed All Your Bunnies 3/3",
         "deck": "VIOLET",
         "type": "RUN",
@@ -113,7 +111,6 @@
     },
     {
         "id": 231,
-        "canonicalId": 505,
         "title": "Everyone Feed A Bunny 3/3",
         "deck": "VIOLET",
         "type": "RUN",
