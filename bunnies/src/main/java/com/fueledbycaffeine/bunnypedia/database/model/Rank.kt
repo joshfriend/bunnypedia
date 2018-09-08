@@ -1,7 +1,7 @@
 package com.fueledbycaffeine.bunnypedia.database.model
 
-import android.support.annotation.DrawableRes
-import android.support.annotation.StringRes
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.RankType.*
 

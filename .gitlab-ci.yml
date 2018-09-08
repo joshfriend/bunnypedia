@@ -10,7 +10,7 @@ Debug APK:
   environment:
     name: "$CI_COMMIT_REF_NAME"
     url: "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/bunnies/build/outputs/apk/debugMinified/bunnies-debugMinified.apk"
-  image: michiganlabs/android:api-27-alpha
+  image: michiganlabs/android:api-28-alpha
   cache:
     key: "$CI_COMMIT_REF_NAME"
     paths:
@@ -35,7 +35,7 @@ Release APK:
   environment:
     name: Play Store
     url: "https://play.google.com/store/apps/details?id=com.fueledbycaffeine.bunnypedia"
-  image: michiganlabs/android:api-27-alpha
+  image: michiganlabs/android:api-28-alpha
   script:
     - python ./database/dbseed.py
     - ./gradlew assembleRelease
@@ -50,7 +50,7 @@ Android Lint:
     - docker
   stage: Build
   allow_failure: true
-  image: michiganlabs/android:api-27-alpha
+  image: michiganlabs/android:api-28-alpha
   cache:
     key: "$CI_COMMIT_REF_NAME"
     paths:

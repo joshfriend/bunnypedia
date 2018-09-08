@@ -1,6 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.database.model
 
-import android.support.annotation.StringRes
+import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
 
 enum class Psi(val type: Type, val color: Color) {

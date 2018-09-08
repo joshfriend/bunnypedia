@@ -3,9 +3,9 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.net.Uri
-import android.support.v7.widget.RecyclerView
 import android.text.util.Linkify
 import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.Rule
 import io.reactivex.subjects.PublishSubject

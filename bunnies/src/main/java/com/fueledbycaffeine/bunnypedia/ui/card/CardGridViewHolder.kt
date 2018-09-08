@@ -1,6 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import android.view.View
 import com.bumptech.glide.RequestManager
 import com.fueledbycaffeine.bunnypedia.R
@@ -9,7 +9,7 @@ import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.card_view_grid_item.*
 
-class CardGridViewHolder(override val containerView: View?): CardViewHolder(containerView), LayoutContainer {
+class CardGridViewHolder(override val containerView: View): CardViewHolder(containerView), LayoutContainer {
   fun bind(requestManager: RequestManager, card: Card) {
     this.bind(card)
 

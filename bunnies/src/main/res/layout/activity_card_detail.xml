@@ -8,10 +8,11 @@
     tools:context=".ui.card.CardDetailActivity"
     >
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--tools:ignore="UselessParent"-->
+        <!--&gt;-->
 
         <FrameLayout
             android:id="@+id/content_frame"
@@ -19,6 +20,6 @@
             android:layout_height="match_parent"
             />
 
-    </RelativeLayout>
+    <!--</RelativeLayout>-->
 
 </LinearLayout>

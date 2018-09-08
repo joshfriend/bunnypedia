@@ -1,7 +1,7 @@
 package com.fueledbycaffeine.bunnypedia.util
 
 import android.graphics.Color
-import android.support.annotation.ColorInt
+import androidx.annotation.ColorInt
 
 object ColorUtil {
   fun getLuminance(@ColorInt color: Int): Double {

@@ -1,6 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.database.model
 
-import android.arch.persistence.room.*
+import androidx.room.*
 
 @Entity(
   foreignKeys = [

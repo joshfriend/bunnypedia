@@ -1,7 +1,7 @@
 package com.fueledbycaffeine.bunnypedia.ext.android
 
 import android.content.res.Resources
-import android.support.annotation.Px
+import androidx.annotation.Px
 import com.fueledbycaffeine.bunnypedia.R
 
 /**

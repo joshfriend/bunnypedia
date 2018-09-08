@@ -1,6 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.ui
 
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import com.fueledbycaffeine.bunnypedia.database.model.Card
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject

@@ -1,7 +1,7 @@
 package com.fueledbycaffeine.bunnypedia.database.model
 
-import android.support.annotation.ColorRes
-import android.support.annotation.StringRes
+import androidx.annotation.ColorRes
+import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
 
 enum class ZodiacElement {

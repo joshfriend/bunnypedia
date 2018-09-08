@@ -1,14 +1,14 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
-import android.arch.paging.RxPagedListBuilder
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.SearchView
 import android.view.*
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SearchView
+import androidx.fragment.app.Fragment
+import androidx.paging.RxPagedListBuilder
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.Card
 import com.fueledbycaffeine.bunnypedia.database.CardStore
@@ -27,10 +27,8 @@ import io.reactivex.rxkotlin.addTo
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
+import org.jetbrains.anko.defaultSharedPreferences
 import kotlinx.android.synthetic.main.fragment_card_list.*
-import org.jetbrains.anko.support.v4.defaultSharedPreferences
-import org.jetbrains.anko.support.v4.startActivity
-import org.jetbrains.anko.support.v4.startActivityForResult
 import timber.log.Timber
 import javax.inject.Inject
 
@@ -51,7 +49,7 @@ class CardListFragment: Fragment() {
       defaultSharedPreferences.getString(
         getString(R.string.pref_key_view_type),
         getString(R.string.pref_default_view_type)
-      )
+      )!!
     )
     set(value) {
       defaultSharedPreferences.edit()
@@ -235,6 +233,6 @@ class CardListFragment: Fragment() {
     return defaultSharedPreferences.getStringSet(
       getString(R.string.pref_key_booster_decks),
       resources.getStringArray(R.array.pref_all_booster_decks_values).toSet()
-    ).map { Deck.valueOf(it) }.toSet() + setOf(Deck.BLUE)
+    )!!.map { Deck.valueOf(it) }.toSet() + setOf(Deck.BLUE)
   }
 }

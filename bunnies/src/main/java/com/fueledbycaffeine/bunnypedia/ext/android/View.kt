@@ -2,8 +2,8 @@ package com.fueledbycaffeine.bunnypedia.ext.android
 
 import android.graphics.Paint
 import android.os.Build
-import android.support.annotation.Px
-import android.support.annotation.RequiresApi
+import androidx.annotation.Px
+import androidx.annotation.RequiresApi
 import android.view.View
 
 @RequiresApi(Build.VERSION_CODES.M)

@@ -1,9 +1,9 @@
 package com.fueledbycaffeine.bunnypedia.ui
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.ui.card.CardListFragment
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil

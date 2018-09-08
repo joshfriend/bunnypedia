@@ -2,7 +2,7 @@ package com.fueledbycaffeine.bunnypedia.injection
 
 import android.app.Application
 import android.os.StrictMode
-import android.support.v7.app.AppCompatDelegate
+import androidx.appcompat.app.AppCompatDelegate
 import com.crashlytics.android.Crashlytics
 import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.database.AppDatabase

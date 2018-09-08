@@ -1,9 +1,9 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
-import android.arch.paging.PagedListAdapter
-import android.support.v4.app.Fragment
-import android.support.v7.util.DiffUtil
+import androidx.paging.PagedListAdapter
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.DiffUtil
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.Card
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp

@@ -2,8 +2,8 @@ package com.fueledbycaffeine.bunnypedia.database.model
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import android.support.annotation.ColorRes
-import android.support.v4.content.ContextCompat
+import androidx.annotation.ColorRes
+import androidx.core.content.ContextCompat
 import com.fueledbycaffeine.bunnypedia.R
 
 enum class Die(val sides: Int) {

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tool="http://schemas.android.com/tools">
     <!-- DO NOT TRANSLATE: -->
     <string name="placeholder_darth_plagueis1" translatable="false">Did you ever hear the tragedy of Darth Plagueis The Wise?</string>
     <string name="placeholder_darth_plagueis2" translatable="false">I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side, he could even keep the ones he cared about from dying.</string>
@@ -46,9 +46,9 @@
     <string name="card_type_kaballa_dolla">Kaballa Dolla</string>
     <string name="card_type_rank">Rank</string>
     <string name="section_ftb_requirements">Cabbage/Water Required</string>
-    <string name="ftb_cabbage_water">%1$d Cabbage &amp; %2$d Water</string>
-    <string name="ftb_cabbage">%1$d Cabbage</string>
-    <string name="ftb_water">%1$d Water</string>
+    <string name="ftb_cabbage_water" tool:ignore="PluralsCandidate">%1$d Cabbage &amp; %2$d Water</string>
+    <string name="ftb_cabbage" tool:ignore="PluralsCandidate">%1$d Cabbage</string>
+    <string name="ftb_water" tool:ignore="PluralsCandidate">%1$d Water</string>
     <string name="ftb_random">Roll for amounts</string>
     <string name="ftb_dated_water">Dated Water</string>
     <string name="ftb_dated_cabbage">Dated Cabbage</string>
