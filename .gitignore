@@ -36,7 +36,18 @@ captures/
 
 # Intellij
 *.iml
-/.idea/
+# .idea stuff
+.idea/gradle.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/libraries.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/kotlinc.xml
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/libraries/
+.idea/dictionaries/
 
 # Keystore files
 *.jks
