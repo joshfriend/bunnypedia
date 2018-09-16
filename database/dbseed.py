@@ -145,7 +145,10 @@ conn.execute("pragma foreign_keys = 1")
 conn.commit()
 conn.close()
 
-os.makedirs(DB_GZ_FOLDER)
+try:
+    os.makedirs(DB_GZ_FOLDER)
+except:
+    pass
 with open(DB_FILE, 'rb') as orig_file:
     with gzip.open(DB_GZ_FILE, 'wb') as zipped_file:
         zipped_file.writelines(orig_file)
