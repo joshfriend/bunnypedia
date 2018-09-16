@@ -8,10 +8,11 @@ import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.ui.card.CardListFragment
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import android.app.SearchManager
+import dagger.android.support.DaggerAppCompatActivity
 import timber.log.Timber
 
 
-class MainActivity: AppCompatActivity() {
+class MainActivity: DaggerAppCompatActivity() {
   companion object {
     private const val TAG_CARD_LIST = "cardList"
   }

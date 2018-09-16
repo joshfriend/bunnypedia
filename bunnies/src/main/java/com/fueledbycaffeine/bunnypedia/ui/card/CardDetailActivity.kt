@@ -7,11 +7,12 @@ import android.view.MenuItem
 import androidx.fragment.app.FragmentTransaction
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
+import dagger.android.support.DaggerAppCompatActivity
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import org.jetbrains.anko.bundleOf
 
-class CardDetailActivity: AppCompatActivity() {
+class CardDetailActivity: DaggerAppCompatActivity() {
   companion object {
     private const val TAG_CARD_DETAIL = "cardDetail"
   }

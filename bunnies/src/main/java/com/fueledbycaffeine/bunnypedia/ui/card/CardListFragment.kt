@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
-import androidx.fragment.app.Fragment
 import androidx.paging.RxPagedListBuilder
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -16,10 +15,10 @@ import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import com.fueledbycaffeine.bunnypedia.ext.android.*
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
-import com.fueledbycaffeine.bunnypedia.injection.App
 import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
 import com.fueledbycaffeine.bunnypedia.ui.settings.SettingsActivity
 import com.jakewharton.rxbinding2.support.v7.widget.queryTextChangeEvents
+import dagger.android.support.DaggerFragment
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.Observables
@@ -27,12 +26,11 @@ import io.reactivex.rxkotlin.addTo
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
-import org.jetbrains.anko.defaultSharedPreferences
 import kotlinx.android.synthetic.main.fragment_card_list.*
 import timber.log.Timber
 import javax.inject.Inject
 
-class CardListFragment: Fragment() {
+class CardListFragment: DaggerFragment() {
   companion object {
     private const val REQ_SETTINGS = 1
   }
@@ -59,7 +57,6 @@ class CardListFragment: Fragment() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    App.graph.inject(this)
 
     shownDecks.onNext(getAvailableDecks())
     setHasOptionsMenu(true)

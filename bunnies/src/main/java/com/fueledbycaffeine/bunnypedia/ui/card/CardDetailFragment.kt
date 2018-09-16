@@ -1,5 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
+import android.content.Context
 import androidx.lifecycle.ViewModelProviders
 import android.content.res.ColorStateList
 import android.graphics.Color
@@ -11,17 +12,16 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.fragment.app.Fragment
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.*
 import com.fueledbycaffeine.bunnypedia.database.model.*
 import com.fueledbycaffeine.bunnypedia.ext.android.useDarkStatusBarStyle
 import com.fueledbycaffeine.bunnypedia.ext.android.useLightStatusBarStyle
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
-import com.fueledbycaffeine.bunnypedia.injection.App
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import com.google.android.flexbox.FlexboxLayout
+import dagger.android.support.DaggerFragment
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
@@ -36,7 +36,7 @@ import org.joda.time.format.DateTimeFormat
 import timber.log.Timber
 import javax.inject.Inject
 
-class CardDetailFragment: Fragment() {
+class CardDetailFragment: DaggerFragment() {
   companion object {
     const val ARG_CARD_ID = "CARD_ID"
 
@@ -52,10 +52,9 @@ class CardDetailFragment: Fragment() {
   private val reloadSubject = BehaviorSubject.createDefault(true)
   private val subscribers = CompositeDisposable()
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    App.graph.inject(this)
-    navigation = ViewModelProviders.of(activity!!)
+  override fun onAttach(context: Context?) {
+    super.onAttach(context)
+    navigation = ViewModelProviders.of(requireActivity())
       .get(CardNavigationViewModel::class.java)
   }
 
@@ -195,8 +194,8 @@ class CardDetailFragment: Fragment() {
     diceContainer.visibility = View.VISIBLE
     diceFlexLayout.removeAllViews()
     for (die in dice) {
-      val img = ImageView(context)
-      img.setImageDrawable(die.getDrawable(context!!))
+      val img = ImageView(requireContext())
+      img.setImageDrawable(die.getDrawable(requireContext()))
       img.layoutParams = FlexboxLayout.LayoutParams(
         ViewGroup.LayoutParams.WRAP_CONTENT,
         ViewGroup.LayoutParams.WRAP_CONTENT
@@ -209,7 +208,7 @@ class CardDetailFragment: Fragment() {
     containerPawnInfo.visibility = View.VISIBLE
 
     pawnSymbol.imageTintList = ColorStateList.valueOf(
-      ContextCompat.getColor(context!!, pawn.color)
+      ContextCompat.getColor(requireContext(), pawn.color)
     )
     pawnName.text = getString(pawn.pawnName)
   }
@@ -242,7 +241,7 @@ class CardDetailFragment: Fragment() {
     )
     zodiacSymbol.setCompoundDrawablesWithIntrinsicBounds(zodiac.symbol, 0, 0, 0)
     zodiacSymbol.compoundDrawableTintList = ColorStateList.valueOf(
-      ContextCompat.getColor(context!!, zodiac.element.tintColor)
+      ContextCompat.getColor(requireContext(), zodiac.element.tintColor)
     )
 
     val (startMonthDay, endMonthDay) = zodiac.range
