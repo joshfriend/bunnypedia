@@ -27,7 +27,7 @@ class App: DaggerApplication() {
     super.onCreate()
 
     val previousVersion = defaultSharedPreferences.getInt(KEY_APP_VERSION, 0)
-    if (previousVersion < BuildConfig.VERSION_CODE) {
+    if (BuildConfig.DEBUG || previousVersion < BuildConfig.VERSION_CODE) {
       defaultSharedPreferences.edit()
         .remove(KEY_ROOM_ASSET_INSTANTIATED)
         .putInt(KEY_APP_VERSION, BuildConfig.VERSION_CODE)

@@ -291,7 +291,8 @@
       "type": "ROAMING_RED_RUN",
       "rules": [
         {"title": "Card Text", "text": "A Blue bunny that roams to a new player every round of play in a counter-clockwise direction."},
-        {"title": "Additional Rules", "text": "As the player receives The Lonely Ranger, he may place him in any position among his bunnies in The Bunny Circle. Like all Roaming Red Run cards, The Lonely Ranger will move at the end of the turn of the player who introduced him to The Bunny Circle. Also, The Lonely Ranger changes direction when encountering a <a href=\"bunnypedia://card/185\">Barrier</a> and is discarded if he encounters a <a href=\"bunnypedia://card/463\">Neutronium Barrier</a>."}
+        {"title": "Additional Rules", "text": "As the player receives The Lonely Ranger, he may place him in any position among his bunnies in The Bunny Circle. Like all Roaming Red Run cards, The Lonely Ranger will move at the end of the turn of the player who introduced him to The Bunny Circle. Also, The Lonely Ranger changes direction when encountering a <a href=\"bunnypedia://card/185\">Barrier</a> and is discarded if he encounters a <a href=\"bunnypedia://card/463\">Neutronium Barrier</a>."},
+        {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
       ]
     },
     {

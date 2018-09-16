@@ -16,6 +16,9 @@ class CardTypeConverter {
   @TypeConverter fun zodiacToString(zodiacType: ZodiacType) = zodiacType.name
   @TypeConverter fun stringToZodiac(zodiacName: String?) = zodiacName?.let { ZodiacType.valueOf(it) }
 
+  @TypeConverter fun zodiacAnimalToString(zodiacType: ZodiacAnimal) = zodiacType.name
+  @TypeConverter fun stringToZodiacAnimal(zodiacName: String?) = zodiacName?.let { ZodiacAnimal.valueOf(it) }
+
   @TypeConverter fun bunnyRequirementToString(bunnyRequirement: BunnyRequirement) = bunnyRequirement.name
   @TypeConverter fun stringToBunnyRequirement(bunnyRequirementName: String) = BunnyRequirement.valueOf(bunnyRequirementName)
 

@@ -1,0 +1,612 @@
+[
+  {
+    "id": "1156",
+    "title": "Chipper Bunnies (Law Enforcement Bunnies)",
+    "type": "RUN",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "A player with a Law Enforcement Bunny in The Bunny Circle cannot have any of his saved objects stolen or traded without his consent."},
+      {"title": "Additional Rules", "text": "A Law Enforcement Bunny may be combined with another Law Enforcement Bunny to form a Bunny Triplet."}
+    ]
+  },
+  {
+    "id": "1157",
+    "title": "National Bunnies (Law Enforcement Bunnies)",
+    "type": "RUN",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "A player with a Law Enforcement Bunny in The Bunny Circle cannot have any of his saved objects stolen or traded without his consent."},
+      {"title": "Additional Rules", "text": "A Law Enforcement Bunny may be combined with another Law Enforcement Bunny to form a Bunny Triplet."}
+    ]
+  },
+  {
+    "id": "1158",
+    "title": "Hazzardous Bunnies (Law Enforcement Bunnies)",
+    "type": "RUN",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "A player with a Law Enforcement Bunny in The Bunny Circle cannot have any of his saved objects stolen or traded without his consent."},
+      {"title": "Additional Rules", "text": "A Law Enforcement Bunny may be combined with another Law Enforcement Bunny to form a Bunny Triplet."}
+    ]
+  },
+  {
+    "id": "1159",
+    "title": "Greatest Bunnies (Law Enforcement Bunnies)",
+    "type": "RUN",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "A player with a Law Enforcement Bunny in The Bunny Circle cannot have any of his saved objects stolen or traded without his consent."},
+      {"title": "Additional Rules", "text": "A Law Enforcement Bunny may be combined with another Law Enforcement Bunny to form a Bunny Triplet."}
+    ]
+  },
+  {
+    "id": "1160",
+    "title": "Renoish Bunnies (Law Enforcement Bunnies)",
+    "type": "RUN",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "A player with a Law Enforcement Bunny in The Bunny Circle cannot have any of his saved objects stolen or traded without his consent."},
+      {"title": "Additional Rules", "text": "A Law Enforcement Bunny may be combined with another Law Enforcement Bunny to form a Bunny Triplet."}
+    ]
+  },
+  {
+    "id": "1161",
+    "title": "Torched Bunnies (Law Enforcement Bunnies)",
+    "type": "RUN",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "A player with a Law Enforcement Bunny in The Bunny Circle cannot have any of his saved objects stolen or traded without his consent."},
+      {"title": "Additional Rules", "text": "A Law Enforcement Bunny may be combined with another Law Enforcement Bunny to form a Bunny Triplet."}
+    ]
+  },
+  {
+    "id": "1162",
+    "title": "Choose A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market"}
+    ]
+  },
+  {
+    "id": "1163",
+    "title": "Choose 2 Carrots",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market"}
+    ]
+  },
+  {
+    "id": "1164",
+    "title": "Choose A Carrot – Zodiac",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "ZODIAC",
+      "CHINESE_ZODIAC"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to roll the dice and choose a Carrot for each of his saved Zodiac cards if either of the symbols rolled is the current Zodiac"}
+    ]
+  },
+  {
+    "id": "1165",
+    "title": "Feed The Bunny",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "water": 0,
+    "cabbage": 3,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": "1166",
+    "title": "Feed The Bunny",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "water": 3,
+    "cabbage": 0,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": "1167",
+    "title": "Smelly Cat",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BLACK"
+    ],
+    "weaponLevel": "1",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 1 to survive."}
+    ]
+  },
+  {
+    "id": "1168",
+    "title": "Breaking Crab",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BLACK"
+    ],
+    "weaponLevel": "3",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 3 to survive."}
+    ]
+  },
+  {
+    "id": "1169",
+    "title": "Wiffle Ball Bat",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BLACK"
+    ],
+    "weaponLevel": "5",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 5 to survive."}
+    ]
+  },
+  {
+    "id": "1170",
+    "title": "Unpleasant Pheasant",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BLACK"
+    ],
+    "weaponLevel": "7",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 7 to survive."}
+    ]
+  },
+  {
+    "id": "1171",
+    "title": "Goa’uld Snake",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BLACK"
+    ],
+    "weaponLevel": "9",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 9 to survive."}
+    ]
+  },
+  {
+    "id": "1172",
+    "title": "Cereal Ape-ist",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BLACK"
+    ],
+    "weaponLevel": "11",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 11 to survive."}
+    ]
+  },
+  {
+    "id": "1173",
+    "title": "Dates And Smoked Salmon",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "ZODIAC",
+      "BROWN",
+      "CHINESE_ZODIAC"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to roll the dice and to spend an amount of Dolla at any open store equal to the number rolled on the Brown die if it matches either of the olled."},
+      {"title": "Additional Rules", "text": "Each Zodiac sign has a corresponding number. If the number rolled on the Brown die matches both of the two Zodiac numbers rolled, then the player may spend twice the amount.<br><br>Chinese Zodiacs:<br><ol><li><a href=\"bunnypedia://card/1199\">Snake</a> (1)</li><li><a href=\"bunnypedia://card/1200\">Horse</a> (2)</li><li><a href=\"bunnypedia://card/1201\">Goat</a> (3)</li><li><a href=\"bunnypedia://card/1202\">Monkey</a> (4)</li><li><a href=\"bunnypedia://card/1203\">Rooster</a> (5)</li><li><a href=\"bunnypedia://card/1204\">Dog</a> (6)</li><li><a href=\"bunnypedia://card/1205\">Pig</a> (7)</li><li><a href=\"bunnypedia://card/1206\">Rat</a> (8)</li><li><a href=\"bunnypedia://card/1207\">Ox</a> (9)</li><li><a href=\"bunnypedia://card/1208\">Tiger</a> (10)</li><li><a href=\"bunnypedia://card/1209\">Rabbit</a> (11)</li><li><a href=\"bunnypedia://card/1210\">Dragon</a> (12)</li></ol><br>Zodiacs (Green Booster Deck):<br><ol><li><a href=\"bunnypedia://card/374\">Aries</a> (1)</li><li><a href=\"bunnypedia://card/375\">Taurus</a> (2)</li><li><a href=\"bunnypedia://card/376\">Gemini</a> (3)</li><li><a href=\"bunnypedia://card/377\">Cancer</a> (4)</li><li><a href=\"bunnypedia://card/378\">Leo</a> (5)</li><li><a href=\"bunnypedia://card/379\">Virgo</a> (6)</li><li><a href=\"bunnypedia://card/380\">Libra</a> (7)</li><li><a href=\"bunnypedia://card/381\">Scorpio</a> (8)</li><li><a href=\"bunnypedia://card/382\">Sagittarius</a> (9)</li><li><a href=\"bunnypedia://card/383\">Capricorn</a> (10)</li><li><a href=\"bunnypedia://card/384\">Aquarius</a> (11)</li><li><a href=\"bunnypedia://card/385\">Pisces</a> (12)</li></ol>"}
+    ]
+  },
+  {
+    "id": "1174",
+    "title": "Falcon Fracas",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BROWN"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to attack Chinese Zodiac cards. Opponents must roll the die once for each Zodiac. Determine which was the last year that the Zodiac ract it from the current year. Next, add it to the number rolled on the die and if the combination is higher than 12, then the opponent keeps the Zodiac."}
+    ]
+  },
+  {
+    "id": "1175",
+    "title": "Fargans",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "CHINESE_ZODIAC"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force any opponent to state the last year that the Zodiac sign rolled was valid and to make the sound of the animal shown or give the nnies in The Bunny Circle."},
+      {"title": "Additional Rules", "text": "The opponent may choose which two of his bunnies in The Bunny Circle he will give to the player. When Fargans is announced, players may either flip their saved Chinese Zodiac cards face down or help the opponent by showing them the dates on their cards. All players are encouraged to grant a generous amount of leeway when judging mimicked animal sounds."}
+    ]
+  },
+  {
+    "id": "1176",
+    "title": "Funky Fungus Triple – (Bunny Modifier)",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Triple raises the level of any weapon by three."}
+    ]
+  },
+  {
+    "id": "1177",
+    "title": "General Tso (And Lieutenant Tang)",
+    "type": "ROAMING_RED_RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "CHINESE_ZODIAC"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be given to any player who places General Tso in his area of The Bunny Circle. General Tso visits one player per round clockwise forcing players to return Carrots if tches any of their saved Zodiac cards."},
+      {"title": "Additional Rules", "text": "While General Tso is visiting, any player with at least one saved Chinese Zodiac card must roll the Chinese Zodiac die. If the symbol rolled is the same as any of the player’s saved Chinese Zodiac cards, then the player must return a number of Carrots to any Kaballa's Market equal to the number of bunnies that he has in The Bunny Circle (including General Tso).<br><br>In addition to their Roaming Red Run capabilities, General Tso (and Lieutenant Tang) are also a double Yellow bunny and may be combined with another Yellow (or half Yellow) bunny to form a Bunny Triplet. General Tso may be attacked and eliminated using any Weapon card. The player who launched General Tso rolls for his defense against a Weapon card even if the same player also launched the weapon. Each of the General’s chicken regiment acts like a <a href=\"bunnypedia://card/61\">Lucky Clover</a> or <a href=\"bunnypedia://card/1127\">Lucky Horseshoe</a> and lowers the level of any weapon used against him."},
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+    ]
+  },
+  {
+    "id": "1178",
+    "title": "Grand Poobah (Bunny Modifier)",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny in The Bunny Circle and allows the player to owns the bunny to cast two votes on all Casting Terrible Misfortune cards."}
+    ]
+  },
+  {
+    "id": "1179",
+    "title": "Hay",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player who must hold up the card for all of the opponents to see as he announces the title. Any opponent who looks his way must return a Carrot."}
+    ]
+  },
+  {
+    "id": "1180",
+    "title": "Leaping Lizards",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "GREEN"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to challenge any opponent who has a Leaping saved Zodiac card. Both players roll the die and if the player can roll a higher number then iac card."},
+      {"title": "Additional Rules", "text": "The Leaping Chinese Zodiac cards are: <a href=\"bunnypedia://card/1202\">Monkey</a>, <a href=\"bunnypedia://card/1206\">Rat</a> and <a href=\"bunnypedia://card/2110\">Dragon</a> (because they are always current during a Leap Year). Both players roll the Green die and if the player can roll a higher number than the opponent, then he may steal the Leaping Chinese Zodiac card. If it is currently a Leap Year (2020, 2024, 2028, 2032, 2036, 2040, 2044, 2048…), then the player may re-roll the Green die if his first roll was too low."}
+    ]
+  },
+  {
+    "id": "1181",
+    "title": "Lucky Horseshoe – Octdruple (Bunny Modifier)",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Octdruple lowers the level of any weapon by eight."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+    ]
+  },
+  {
+    "id": "1182",
+    "title": "Muskrat Love",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to take all of the discarded Radish and Milk Cards and to shuffle them back into their Draw Piles."}
+    ]
+  },
+  {
+    "id": "1183",
+    "title": "Narcoleptic Dog",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "symbols": [
+      "MYSTERIOUS_PLACE_BALL"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player and given to any opponent whose bunnies all take a two round nap. The opponent may not play any Aggressive cards during his next two turns."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."},
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
+    ]
+  },
+  {
+    "id": "1184",
+    "title": "Puptastics",
+    "type": "RUN",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "Puptastics may not be attacked by any card that has an animal on the picture or title. Puptastics are a double Orange bunny and may be combined with another Orange (or o form a Bunny Triplet."}
+    ]
+  },
+  {
+    "id": "1185",
+    "title": "Swordfish Of Damocles",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "VIOLET",
+      "ORANGE",
+      "GREEN",
+      "YELLOW",
+      "BLUE",
+      "RED",
+      "PINK",
+      "BROWN"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player and given to the opponent who has the most Carrots. If the opponent rolls the digits of the current year, then he loses all of his ."},
+      {"title": "Additional Rules", "text": "A roll of 10 is used as a Zero, and rolls of 11 and 12 do not count at all. All Carrots are returned to any Kaballa’s Market. If no opponent has the most Carrots, then Swordfish Of Damocles must be discarded. Any player(s) with a matching pair of saved Atomic Pastry may use (discard) them to eliminate Swordfish Of Damocles before the opponent is forced to roll the dice."}
+    ]
+  },
+  {
+    "id": "1186",
+    "title": "Two-Kilo Mockingbird",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "VIOLET",
+      "BLACK",
+      "RED",
+      "BROWN"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to steal any four Zodiac cards and any four Carrot cards if he can roll any combination of numbers that multiply to 2000. Each die may be ."},
+      {"title": "Additional Rules", "text": "All four dice must be multiplied."}
+    ]
+  },
+  {
+    "id": "1187",
+    "title": "Vile Reptile",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to exchange any opponent's Top Run card with a card from his five-card hand. The player may not look at any opponent's Top Run card before ."}
+    ]
+  },
+  {
+    "id": "1188",
+    "title": "Yeti Spaghetti",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "VIOLET",
+      "ORANGE",
+      "GREEN",
+      "YELLOW",
+      "BLUE",
+      "RED",
+      "CLEAR",
+      "BROWN"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to roll the first die (Violet) and to take the Carrot from any opponent with the same number rolled. The player may roll the next die mber to the first and take another Carrot and so on."},
+      {"title": "Additional Rules", "text": "No Carrots may be taken from any Kaballa’s Market. If any two dice roll the same number, then all of the Carrots are returned and the player loses a bunny. The player may stop rolling dice at any time."}
+    ]
+  },
+  {
+    "id": "1189",
+    "title": "Chocolate Eclair",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "deck": "CREATURE_FEATURE",
+    "pawn": "VIOLET",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to feed the bunny. One bunny is fed any amounts of Radish Units and Milk Units. Or may be used immediately by a player to eliminate the <a card/1145\">Whiner</a> vote. This card must be a saved Special to be used immediately."}
+    ]
+  },
+  {
+    "id": "1190",
+    "title": "Horrible Hens",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BROWN"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to roll the die and to distract (discard) the same number of <a href=\"bunnypedia://card/1156\">Law Enforcement Bunny</a> cards in The Bunny  rolled. The player with the Horrible Hens saved is never visited by <a href=\"bunnypedia://card/1177\">General Tso</a>."}
+    ]
+  },
+  {
+    "id": "1191",
+    "title": "Kelpies",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "Allows a player to place all of his saved Specia, Very Special, and Carrot cards underneath Kelpies and hidden from other players' view."}
+    ]
+  },
+  {
+    "id": "1192",
+    "title": "Ace Buntura",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "dice": [
+      "BLACK"
+    ],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to lower or raise the power of any weapon card that has an animal in the picture or title by the amount rolled. May be used at any !"}
+    ]
+  },
+  {
+    "id": "1193",
+    "title": "Bad Mood Ood",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to eliminate either Banned From Argo, Zero Zero, any Exchange card or all Roaming Red Run cards in play. May be used at any time!"},
+      {"title": "Additional Rules", "text": "An Exchange card is any card with \"Exchange\" in the title. This includes:<ul><li><a href=\"bunnypedia://card/149\">Rooney's Weapons Exchange</a></li><li><a href=\"bunnypedia://card/187\">Carrot Exchange</a></li><li><a href=\"bunnypedia://card/240\">Bunny Exchange</a></li><li><a href=\"bunnypedia://card/471\">Zodiac Exchange</a></li><li><a href=\"bunnypedia://card/522\">Rank Exchange</a></li></ul>"}
+    ]
+  },
+  {
+    "id": "1194",
+    "title": "Toucan Play That Game",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to replay any card that was used by the current player. All card conditions apply. May be used at the end of any player's turn!"}
+    ]
+  },
+  {
+    "id": "1195",
+    "title": "Terrible Misfortune – Honey Badger",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "NO",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "One of your bunnies becomes an involuntary playmate for a rambunctious honey badger!"},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ]
+  },
+  {
+    "id": "1196",
+    "title": "Terrible Misfortune (Casting) – Hot Air Balloon",
+    "type": "PLAY_IMMEDIATELY",
+    "bunnyRequirement": "PLAY",
+    "deck": "CREATURE_FEATURE",
+    "rules": [
+      {"title": "Card Text", "text": "One of the bunnies in play goes hot air ballooning far too close to a high-speed industrial wind farm!"},
+      {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ]
+  },
+  {
+    "id": "1197",
+    "deck": "CREATURE_FEATURE",
+    "title": "2 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 92
+  },
+  {
+    "id": "1198",
+    "deck": "CREATURE_FEATURE",
+    "title": "5 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 98
+  },
+  {
+    "id": "1199",
+    "title": "Snake",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "SNAKE"
+  },
+  {
+    "id": "1200",
+    "title": "Horse",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "HORSE"
+  },
+  {
+    "id": "1201",
+    "title": "Goat",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "GOAT"
+  },
+  {
+    "id": "1202",
+    "title": "Monkey",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "MONKEY"
+  },
+  {
+    "id": "1203",
+    "title": "Rooster",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "ROOSTER"
+  },
+  {
+    "id": "1204",
+    "title": "Dog",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "DOG"
+  },
+  {
+    "id": "1205",
+    "title": "Pig",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "PIG"
+  },
+  {
+    "id": "1206",
+    "title": "Rat",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "RAT"
+  },
+  {
+    "id": "1207",
+    "title": "Ox",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "OX"
+  },
+  {
+    "id": "1208",
+    "title": "Tiger",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "TIGER"
+  },
+  {
+    "id": "1209",
+    "title": "Rabbit",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "RABBIT"
+  },
+  {
+    "id": "1210",
+    "title": "Dragon",
+    "type": "CHINESE_ZODIAC",
+    "deck": "CREATURE_FEATURE",
+    "zodiacAnimal": "DRAGON"
+  }
+]

@@ -13,7 +13,7 @@ class Card:
     CREATE TABLE Card (
         id INTEGER PRIMARY KEY NOT NULL, canonicalId INTEGER,
         title TEXT NOT NULL, deck TEXT NOT NULL, type TEXT NOT NULL, rank TEXT,
-        zodiacType TEXT, bunnyRequirement TEXT NOT NULL, dice TEXT NOT NULL,
+        zodiacType TEXT, zodiacAnimal TEXT, bunnyRequirement TEXT NOT NULL, dice TEXT NOT NULL,
         symbols TEXT NOT NULL, pawn TEXT, weaponLevel TEXT,
         cabbage INTEGER NOT NULL, water INTEGER NOT NULL, psi TEXT,
         specialSeries TEXT
@@ -23,23 +23,24 @@ class Card:
 
     INSERT_STMT = """
     INSERT INTO Card (
-        id, canonicalId, title, deck, type, rank, zodiacType, bunnyRequirement,
+        id, canonicalId, title, deck, type, rank, zodiacType, zodiacAnimal, bunnyRequirement,
         dice, symbols, pawn, weaponLevel, cabbage, water, psi, specialSeries
     ) VALUES (
         :id, :canonicalId, :title, :deck, :type, :rank, :zodiacType,
-        :bunnyRequirement, :dice, :symbols, :pawn, :weaponLevel, :cabbage,
-        :water, :psi, :specialSeries
+        :zodiacAnimal, :bunnyRequirement, :dice, :symbols, :pawn, :weaponLevel,
+        :cabbage, :water, :psi, :specialSeries
     );
     """
 
     def __init__(self, **kwargs):
-        self.id = kwargs.get('id')
+        self.id = int(kwargs.get('id'))
         self.canonicalId = kwargs.get('canonicalId')
         self.title = kwargs.get('title')
         self.deck = kwargs.get('deck')
         self.type = kwargs.get('type')
         self.rank = kwargs.get('rank')
         self.zodiacType = kwargs.get('zodiacType')
+        self.zodiacAnimal = kwargs.get('zodiacAnimal')
         self.bunnyRequirement = kwargs.get('bunnyRequirement', 'NOT_APPLICABLE')
         dice = kwargs.get('dice')
         if dice:

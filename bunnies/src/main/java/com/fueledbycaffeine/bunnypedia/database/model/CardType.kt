@@ -12,6 +12,7 @@ enum class CardType {
   METAL,
   PLAY_IMMEDIATELY,
   ZODIAC,
+  CHINESE_ZODIAC,
   MYSTERIOUS_PLACE,
   RANK,
   SENATOR,
@@ -29,6 +30,7 @@ enum class CardType {
       METAL -> R.string.card_type_metal
       PLAY_IMMEDIATELY -> R.string.card_type_play_immediately
       ZODIAC -> R.string.card_type_zodiac
+      CHINESE_ZODIAC -> R.string.card_type_chinese_zodiac
       MYSTERIOUS_PLACE -> R.string.card_type_mysterious_place
       RANK -> R.string.card_type_rank
       SENATOR -> R.string.card_type_senator

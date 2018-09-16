@@ -188,6 +188,10 @@ class CardDetailFragment: DaggerFragment() {
     if (card.zodiacType != null) {
       setupZodiacInfo(card.zodiacType)
     }
+
+    if (card.zodiacAnimal != null) {
+      setupZodiacAnimal(card.zodiacAnimal)
+    }
   }
 
   private fun setupDiceInfo(dice: List<Die>) {
@@ -282,6 +286,27 @@ class CardDetailFragment: DaggerFragment() {
         ZODIAC_DATE_FMT.print(start),
         ZODIAC_DATE_FMT.print(end.minusDays(1))
       )
+    }
+  }
+
+  private fun setupZodiacAnimal(zodiacAnimal: ZodiacAnimal) {
+    containerZodiacYears.visibility = View.VISIBLE
+
+    val currentYear = DateTime().year().get()
+    val currentAnimal = ZodiacAnimal.values()[currentYear % 12]
+    val isCurrentAnimal = zodiacAnimal == currentAnimal
+
+    val cycleStartYear = currentYear - currentAnimal.index
+
+    var previousYear = cycleStartYear + zodiacAnimal.index
+    previousYear -= if (previousYear >= currentYear) 12 else 0
+    var nextYear = previousYear + 12
+    nextYear += if (nextYear <= currentYear) 12 else 0
+
+    if (isCurrentAnimal) {
+      zodiacYears.text = getString(R.string.zodiac_year_current, previousYear, nextYear)
+    } else {
+      zodiacYears.text = getString(R.string.zodiac_year, previousYear, nextYear)
     }
   }
 

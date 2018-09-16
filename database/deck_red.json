@@ -178,7 +178,8 @@
             {"title": "Card Text", "text": "May be placed on any bunny and roams the board clockwise. Players roll the Red die as Cruise Missile Prime visits their bunnies. The first player to roll a Prime Number on the Red die detonates the missile. The target bunny must roll higher than 9 on the Black die to survive and adjacent bunnies must roll higher than 8 to survive."},
             {"title": "Additional Rules", "text": "If Cruise Missile Prime has no viable bunny targets left in The Bunny Circle, then it is discarded. If Cruise Missile Prime is confined to an area of The Bunny Circle by two or more <a href=\"bunnypedia://card/185\">Barriers</a> and cannot reach a viable bunny target on the other side, then it is removed (discarded). Just like all Roaming Red Run cards, if Cruise Missile Prime hits a Barrier, it will reverse direction and may affect the same player’s bunnies on two consecutive turns."},
             {"title": "Prime Numbers", "text": "Prime numbers which can be rolled on a 12-sided die are: 2, 3, 5, 7, and 11."},
-            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Cruise Missile Prime."}
+            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Cruise Missile Prime."},
+            {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
         ]
     },
     {
@@ -256,7 +257,8 @@
         "bunnyRequirement": "PLAY",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to force any opponent to exchange two of his Carrots for one of yours."},
-            {"title": "Additional Rules", "text": "In order to use this card against an opponent, that player must have at least two Carrots. Carrot Exchange cannot be used for a one to one exchange. The player chooses all three Carrots in the exchange."}
+            {"title": "Additional Rules", "text": "In order to use this card against an opponent, that player must have at least two Carrots. Carrot Exchange cannot be used for a one to one exchange. The player chooses all three Carrots in the exchange."},
+            {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
         ]
     },
     {

@@ -18,6 +18,7 @@ enum class Die(val sides: Int) {
   BROWN(12),
   CLEAR(20),
   ZODIAC(12),
+  CHINESE_ZODIAC(12),
   ;
 
   val color: Int @ColorRes get() {
@@ -31,14 +32,14 @@ enum class Die(val sides: Int) {
       PINK -> R.color.deck_pink
       BLACK, ZODIAC -> R.color.deck_onyx
       BROWN -> R.color.deck_chocolate
-      CLEAR -> R.color.white
+      CLEAR, CHINESE_ZODIAC -> R.color.white
     }
   }
 
   fun getDrawable(context: Context): Drawable {
     val drawableRes = when (this) {
       CLEAR -> R.drawable.dice20
-      ZODIAC -> R.drawable.dice12  // TODO
+      ZODIAC, CHINESE_ZODIAC -> R.drawable.dice12  // TODO
       else -> R.drawable.dice12
     }
     val drawable = ContextCompat.getDrawable(context, drawableRes)!!

@@ -302,6 +302,33 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/containerZodiacYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="6dp"
+            tools:visibility="visible"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/section_zodiac_years"
+                style="@style/TextAppearance.AppCompat.Caption"
+                />
+
+            <TextView
+                android:id="@+id/zodiacYears"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Current! Previous: 2006, Next: 2030"
+                style="@style/TextAppearance.AppCompat.Body1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/containerRank"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

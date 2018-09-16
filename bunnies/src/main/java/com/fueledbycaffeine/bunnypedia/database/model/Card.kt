@@ -14,6 +14,7 @@ data class Card(
   val type: CardType,
   val rank: Rank?,
   val zodiacType: ZodiacType?,
+  val zodiacAnimal: ZodiacAnimal?,
   val bunnyRequirement: BunnyRequirement,
   val dice: List<Die>,
   val symbols: List<Symbol>,

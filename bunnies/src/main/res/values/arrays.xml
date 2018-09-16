@@ -14,6 +14,7 @@
         <item>Chocolate</item>
         <item>Fantastic</item>
         <item>Caramel Swirl</item>
+        <item>Creature Feature</item>
     </string-array>
 
     <!-- These should match the enum names in Deck.kt -->
@@ -31,6 +32,7 @@
         <item>CHOCOLATE</item>
         <item>FANTASTIC</item>
         <item>CARAMEL_SWIRL</item>
+        <item>CREATURE_FEATURE</item>
     </string-array>
 
     <string-array name="pref_all_view_type_names">

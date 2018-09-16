@@ -446,7 +446,8 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to force any one opponent (or Rooney) to exchange any weapon of his for any weapon of yours."},
-      {"title": "Additional Rules", "text": "The player must have at least one Weapon card in his five-card hand to use this card. First, choose any opponent. If the opponent has any Weapon cards in his hand, then he must show them to the player. Next, the player may exchange any of his Weapon cards for any of the opponent’s Weapon cards. Of course if the opponent had no Weapon cards in his five-card hand, then the player is out of luck and Rooney’s Weapons Exchange is discarded.<br><br>Starting with the Red Booster Deck, all weapon cards that are used in the game are stored (face up) at Rooney’s Weapons Emporium. The player may also exchange one of his Weapon cards for any Weapon card that was already used in the game."}
+      {"title": "Additional Rules", "text": "The player must have at least one Weapon card in his five-card hand to use this card. First, choose any opponent. If the opponent has any Weapon cards in his hand, then he must show them to the player. Next, the player may exchange any of his Weapon cards for any of the opponent’s Weapon cards. Of course if the opponent had no Weapon cards in his five-card hand, then the player is out of luck and Rooney’s Weapons Exchange is discarded.<br><br>Starting with the Red Booster Deck, all weapon cards that are used in the game are stored (face up) at Rooney’s Weapons Emporium. The player may also exchange one of his Weapon cards for any Weapon card that was already used in the game."},
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {

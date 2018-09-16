@@ -7,6 +7,7 @@
     <string name="card_type_very_special">Very Special</string>
     <string name="card_type_play_immediately">Play Immediately</string>
     <string name="card_type_zodiac">Zodiac</string>
+    <string name="card_type_chinese_zodiac">Chinese Zodiac</string>
     <string name="card_type_mysterious_place">Mysterious Place</string>
     <string name="card_type_starter">Starter</string>
     <string name="card_type_carrot_supply">Carrot Supply</string>
@@ -33,6 +34,7 @@
     <string name="deck_chocolate_booster">Chocolate Booster</string>
     <string name="deck_fantastic_booster">Fantastic Booster</string>
     <string name="deck_caramel_swirl_booster">Caramel Swirl Booster</string>
+    <string name="deck_creature_feature_booster">Creature Feature Booster</string>
     <string name="card_type_kaballa_dolla">Kaballa Dolla</string>
     <string name="card_type_rank">Rank</string>
     <string name="section_ftb_requirements">Cabbage/Water Required</string>
@@ -61,9 +63,12 @@
     <string name="section_zodiac_sign">Zodiac Sign</string>
     <string name="section_zodiac_element">Zodiac Element</string>
     <string name="section_zodiac_date">Zodiac Date</string>
+    <string name="section_zodiac_years">Zodiac Years</string>
     <string name="zodiac_info">%1$s (%2$s)</string>
     <string name="zodiac_date_range">%1$s - %2$s</string>
     <string name="zodiac_date_range_current">%1$s - %2$s (Current)</string>
+    <string name="zodiac_year_current">Current! Previous: %1$d, Next: %2$d</string>
+    <string name="zodiac_year">Previous: %1$d, Next: %2$d</string>
     <string name="rank_e1">Seaman Recruit</string>
     <string name="rank_e2">Seaman Apprentice</string>
     <string name="rank_e3">Seaman</string>
@@ -103,6 +108,7 @@
     <string name="series_nu">Nu</string>
     <string name="series_theta">Theta</string>
     <string name="series_phi">Phi</string>
+    <string name="series_pi">Pi</string>
     <string name="section_psi">Psi</string>
     <string name="psi_symbol_title">%1$s %2$s</string>
     <string name="search_title">Search</string>

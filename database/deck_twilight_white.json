@@ -302,7 +302,8 @@
         "rules": [
             {"title": "Card Text", "text": "May be given to any player and roams the board counter-clockwise. O.R.P. visits one player per round who must roll the dice. The die with the lowest number rolled is the supply that the player loses in its entirety."},
             {"title": "Additional Rules", "text": "If two dice are tied for the lowest roll, then the player will lose both supplies. The O.R.P. will skip any player who has at least one saved Zodiac card."},
-            {"title": "Supply Legend", "text": "<ul><li>Violet - discard all bunnies</li><li>Orange - discard all carrots</li><li>Green - discard all cabbage</li><li>Yellow - discard all dollas</li><li>Blue - discard all water</li><li>Black - discard all defense</li><li>Red - return all pawns</li><li>Clear - discard O.R.P.</li></ul>"}
+            {"title": "Supply Legend", "text": "<ul><li>Violet - discard all bunnies</li><li>Orange - discard all carrots</li><li>Green - discard all cabbage</li><li>Yellow - discard all dollas</li><li>Blue - discard all water</li><li>Black - discard all defense</li><li>Red - return all pawns</li><li>Clear - discard O.R.P.</li></ul>"},
+            {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
         ]
     },
     {

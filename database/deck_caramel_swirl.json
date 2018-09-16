@@ -226,7 +226,7 @@
   },
   {
     "id": 1121,
-    "title": "Single Funky Fungus – (Bunny Modifier)",
+    "title": "Funky Fungus Single – (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "bunnyRequirement": "NO",
@@ -236,7 +236,7 @@
   },
   {
     "id": 1122,
-    "title": "Double Funky Fungus – (Bunny Modifier)",
+    "title": "Funky Fungus Double– (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "bunnyRequirement": "NO",
@@ -361,7 +361,8 @@
     "type": "ROAMING_RED_RUN",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any player which must feed the buffalo 5 units of any food (in any combination) or lose a Carrot. Buffalo continues visiting one player per round counter-clockwise around The Bunny Circle. If Buffalo encounters a player that has no food to offer, or not enough food, then it starves and is eliminated. Buffalo may be eliminated using any weapon."}
+      {"title": "Card Text", "text": "May be placed on any player which must feed the buffalo 5 units of any food (in any combination) or lose a Carrot. Buffalo continues visiting one player per round counter-clockwise around The Bunny Circle. If Buffalo encounters a player that has no food to offer, or not enough food, then it starves and is eliminated. Buffalo may be eliminated using any weapon."},
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {
