@@ -31,7 +31,7 @@
   },
   {
     "id": 279,
-    "title": "Those 70’s Bunnies - Triple Specialty Bunny",
+    "title": "Those 70's Bunnies - Triple Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
@@ -48,7 +48,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -60,7 +60,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -72,7 +72,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -83,7 +83,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose three Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose three Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -195,7 +195,7 @@
     "weaponLevel": "18",
     "rules": [
       {"title": "Card Text", "text": "A player must put two bunnies into the Hornet to use this weapon. Hornet moves around The Bunny Circle counter-clockwise and attacks one bunny per player every round. An opponent must roll higher than 18 to survive. If an opponent survives then the Hornet is destroyed. The bunnies are returned and the weapon is discarded when the Hornet returns to the player."},
-      {"title": "Additional Rules", "text": "Double Free Agents, Specialty Bunny (double or triplet) and Celebrity Bunny (double or triplet) may be used in the Hornet, however, each counts as a single bunny. While these bunnies are away, a player may not use any Aggressive cards unless he has other bunnies in The Bunny Circle. The Hornet visits the first player counter-clockwise (that has at least one bunny in The Bunny Circle) and attacks one of his bunnies. The Hornet continues visiting only players with bunnies in a counter-clockwise direction and only attacks one bunny per player before moving on to the next player.<br><br>If any opponent rolls higher than 18 on the Clear 20-sided die, then the Hornet and the bunnies are destroyed. If an opponent survives the attack by using Defense Cards, then the Hornet and the bunnies are not destroyed.<br><br>If the Hornet makes it back to the player who initially launched it, then the weapon is discarded and the bunnies are returned to The Bunny Circle. <a href=\"bunnypedia://card/185\">Barriers</a> placed after the launch of the Hornet may prevent it from ever returning to the original player.<br><br>If the Hornet has no viable bunny targets left in The Bunny Circle or if the Hornet is confined to an area of The Bunny Circle by two or more Barriers and cannot reach a viable bunny target on the other side, then the Hornet is removed (discarded) and the bunnies are returned to the player and placed in The Bunny Circle. Just like all Roaming Red Run cards, if the Hornet hits a Barrier, it will reverse direction and may affect the same player’s bunnies on two consecutive turns."},
+      {"title": "Additional Rules", "text": "Double Free Agents, Specialty Bunny (double or triplet) and Celebrity Bunny (double or triplet) may be used in the Hornet, however, each counts as a single bunny. While these bunnies are away, a player may not use any Aggressive cards unless he has other bunnies in The Bunny Circle. The Hornet visits the first player counter-clockwise (that has at least one bunny in The Bunny Circle) and attacks one of his bunnies. The Hornet continues visiting only players with bunnies in a counter-clockwise direction and only attacks one bunny per player before moving on to the next player.<br><br>If any opponent rolls higher than 18 on the Clear 20-sided die, then the Hornet and the bunnies are destroyed. If an opponent survives the attack by using Defense Cards, then the Hornet and the bunnies are not destroyed.<br><br>If the Hornet makes it back to the player who initially launched it, then the weapon is discarded and the bunnies are returned to The Bunny Circle. <a href=\"bunnypedia://card/185\">Barriers</a> placed after the launch of the Hornet may prevent it from ever returning to the original player.<br><br>If the Hornet has no viable bunny targets left in The Bunny Circle or if the Hornet is confined to an area of The Bunny Circle by two or more Barriers and cannot reach a viable bunny target on the other side, then the Hornet is removed (discarded) and the bunnies are returned to the player and placed in The Bunny Circle. Just like all Roaming Red Run cards, if the Hornet hits a Barrier, it will reverse direction and may affect the same player's bunnies on two consecutive turns."},
       {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate the F-18 Hornet."},
       {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
@@ -302,7 +302,7 @@
   },
   {
     "id": 301,
-    "title": "Rooney’s Weapons Emporium – 1/Half Level",
+    "title": "Rooney's Weapons Emporium – 1/Half Level",
     "deck": "ORANGE",
     "type": "RUN",
     "bunnyRequirement": "NO",
@@ -322,7 +322,7 @@
   },
   {
     "id": 303,
-    "title": "Weil’s Pawn Shop – Closed",
+    "title": "Weil's Pawn Shop – Closed",
     "deck": "ORANGE",
     "type": "RUN",
     "bunnyRequirement": "NO"
@@ -364,12 +364,12 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "Allows a player to receive any two Pawns from Weil's Pawn Sho (if available)."},
-      {"title": "Additional Rules", "text": "Free Pawn may not be used if Weil’s Pawn Shop is closed."}
+      {"title": "Additional Rules", "text": "Free Pawn may not be used if Weil's Pawn Shop is closed."}
     ]
   },
   {
     "id": 307,
-    "title": "Half Price Coupon (Weil’s Pawn Shop)",
+    "title": "Half Price Coupon (Weil's Pawn Shop)",
     "deck": "ORANGE",
     "type": "SPECIAL",
     "bunnyRequirement": "NO",
@@ -415,7 +415,7 @@
     "dice": ["RED"],
     "rules": [
       {"title": "Card Text", "text": "(12-11-10) = Receive 3, 2 or 1 Carrot(s) from Kaballa.<br>(09-07) = Take 2 Cabbage & 3 Water Cards.<br>(06-04) = Feed your bunny 5 Cabbage & 5 Water immediately!<br>03 = A bag of sugar is dropped killing your bunny!<br>02 = A pitchfork kills your bunny & adjacent bunnies!<br>01 = Disaster! Lose all of your bunnies and Carrots!"},
-      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa’s Market (if the market is open)."}
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa's Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open)."}
     ]
   },
   {
@@ -429,7 +429,7 @@
     "dice": ["RED"],
     "rules": [
       {"title": "Card Text", "text": "(12-11-10) = Receive 3, 2 or 1 Carrot(s) from Kaballa.<br>(09-07) = Take 2 Cabbage & 3 Water Cards.<br>(06-04) = Feed your bunny 5 Cabbage & 5 Water immediately!<br>03 = A bag of sugar is dropped killing your bunny!<br>02 = A pitchfork kills your bunny & adjacent bunnies!<br>01 = Disaster! Lose all of your bunnies and Carrots!"},
-      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa’s Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa’s Market (if the market is open)."}
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa's Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open)."}
     ]
   },
   {
@@ -442,7 +442,7 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "Lowest roll is the supply received by the player:<ul><li> Green - 2 Cabbage Cards</li><li> Blue - 2 Water Cards</li><li> Orange - 2 Carrot Cards</li><li> Yellow - 20 Dolla</li><li> Violet - 2 Bunnies</li><li> Black - 2 Defense Cards</li><li> Red - 2 Pawns</li><li> Clear - All of the items listed</li></ul>"},
-      {"title": "Additional Rules", "text": "Cabbage Cards, Water Cards, and Carrots are taken from Kaballa’s Market (if the market is open), Dolla and bunnies are taken from the Discard Pile if they are available, Defense Cards are taken from Rooney’s Weapons Emporium (if the emporium is open) and Pawns are taken from Weil’s Pawn Shop (if the shop is open)."}
+      {"title": "Additional Rules", "text": "Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open), Dolla and bunnies are taken from the Discard Pile if they are available, Defense Cards are taken from Rooney's Weapons Emporium (if the emporium is open) and Pawns are taken from Weil's Pawn Shop (if the shop is open)."}
     ]
   },
   {
@@ -456,7 +456,7 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "Lowest roll is the supply received by the player:<ul><li> Green - 2 Cabbage Cards</li><li> Blue - 2 Water Cards</li><li> Orange - 2 Carrot Cards</li><li> Yellow - 20 Dolla</li><li> Violet - 2 Bunnies</li><li> Black - 2 Defense Cards</li><li> Red - 2 Pawns</li><li> Clear - All of the items listed</li></ul>"},
-      {"title": "Additional Rules", "text": "Cabbage Cards, Water Cards, and Carrots are taken from Kaballa’s Market (if the market is open), Dolla and bunnies are taken from the Discard Pile if they are available, Defense Cards are taken from Rooney’s Weapons Emporium (if the emporium is open) and Pawns are taken from Weil’s Pawn Shop (if the shop is open)."}
+      {"title": "Additional Rules", "text": "Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open), Dolla and bunnies are taken from the Discard Pile if they are available, Defense Cards are taken from Rooney's Weapons Emporium (if the emporium is open) and Pawns are taken from Weil's Pawn Shop (if the shop is open)."}
     ]
   },
   {
@@ -490,13 +490,13 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to force the current player to replay his turn. Essentially a \"Do-Over\". May be used at any time!"},
-      {"title": "Additional Rules", "text": "All cards played during the turn are returned to their starting positions at the beginning of the turn in the same order as they were before the turn began (except for the Bunny On The Edge Of Forever card, which is placed in the Discard Pile). The cards may need to be returned to the Draw Pile, Discard Pile or player’s five-card hands. The current player’s turn starts again. Play may very well continue exactly as it did the first time, unless a player changes his mind about an important decision, or unless a die rolls differently than it did before."},
+      {"title": "Additional Rules", "text": "All cards played during the turn are returned to their starting positions at the beginning of the turn in the same order as they were before the turn began (except for the Bunny On The Edge Of Forever card, which is placed in the Discard Pile). The cards may need to be returned to the Draw Pile, Discard Pile or player's five-card hands. The current player's turn starts again. Play may very well continue exactly as it did the first time, unless a player changes his mind about an important decision, or unless a die rolls differently than it did before."},
       {"title": "Tachyon Turnaround", "text": "<a href=\"bunnypedia://card/589\">Tachyon Turnaround</a> may be used to counteract Bunny On The Edge Of Forever."}
     ]
   },
   {
     "id": 317,
-    "title": "Uriel’s Machine",
+    "title": "Uriel's Machine",
     "deck": "ORANGE",
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "NO",
@@ -523,7 +523,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies (suffering from acute myopia) jumps into a pool before checking the water level!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."},
       {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
@@ -602,7 +602,7 @@
   },
   {
     "id": 330,
-    "title": "Weil’s Pawn Shop – 5/10 (Starter)",
+    "title": "Weil's Pawn Shop – 5/10 (Starter)",
     "deck": "ORANGE",
     "type": "STARTER",
     "rules": [

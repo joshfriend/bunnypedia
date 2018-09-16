@@ -44,7 +44,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -56,7 +56,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -68,7 +68,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -301,12 +301,13 @@
   },
   {
     "id": 1128,
-    "title": "Morden’s Metals Exchange",
+    "title": "Morden's Metals Exchange",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "Metals may be bought or sold for the current Exchange Rate. All metal dice may be re-rolled at the end of any turn during which a player received a Carrot. The Exchange Rate for Silver is doubled."}
+      {"title": "Card Text", "text": "Metals may be bought or sold for the current Exchange Rate. All metal dice may be re-rolled at the end of any turn during which a player received a Carrot. The Exchange Rate for Silver is doubled."},
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {

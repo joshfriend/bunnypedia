@@ -53,7 +53,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -65,7 +65,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -77,7 +77,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -89,7 +89,7 @@
     "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
     ]
   },
   {
@@ -274,12 +274,12 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "ZODIAC"],
     "rules": [
       {"title": "Card Text", "text": "The player may roll the dice as many times as the numerical value of the current month. If the Zodiac is either the player's sign or the current sign and the numbers 2 - 1 - 6 - 10 appear on at least one die each then the player receives all of the remaining Zodiac Cards from the Draw Pile."},
-      {"title": "Additional Rules", "text": "While rolling for Precession, a player may not save a die roll from one attempt to the next. All dice must be rolled for each attempt. Since the current age in the zodiac is <a href=\"bunnypedia://card/385\">Pisces</a>, any player rolling the Pisces zodiac sign during any attempt will win Precession automatically regardless of the outcome of the other seven 12-sided dice.<br><br>If you are still playing Killer Bunnies® and the Quest for the Magic Carrot in the year 2060, the automatic win zodiac sign will change to <a href=\"bunnypedia://card/384\">Aquarius</a>. Please note that the exact date for the ‘Dawning of the Age of Aquarius’ is not known with any certainty. So please accept the year 2060 as our best bunny guess."}
+      {"title": "Additional Rules", "text": "While rolling for Precession, a player may not save a die roll from one attempt to the next. All dice must be rolled for each attempt. Since the current age in the zodiac is <a href=\"bunnypedia://card/385\">Pisces</a>, any player rolling the Pisces zodiac sign during any attempt will win Precession automatically regardless of the outcome of the other seven 12-sided dice.<br><br>If you are still playing Killer Bunnies® and the Quest for the Magic Carrot in the year 2060, the automatic win zodiac sign will change to <a href=\"bunnypedia://card/384\">Aquarius</a>. Please note that the exact date for the ‘Dawning of the Age of Aquarius' is not known with any certainty. So please accept the year 2060 as our best bunny guess."}
     ]
   },
   {
     "id": 355,
-    "title": "Weil’s Pawn Shop – 7/10",
+    "title": "Weil's Pawn Shop – 7/10",
     "deck": "GREEN",
     "type": "RUN",
     "bunnyRequirement": "NO",
@@ -290,7 +290,7 @@
   {
     "id": 356,
     "canonicalId": 303,
-    "title": "Weil’s Pawn Shop – Closed!",
+    "title": "Weil's Pawn Shop – Closed!",
     "deck": "GREEN",
     "type": "RUN",
     "bunnyRequirement": "NO"
@@ -329,12 +329,12 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to take two Defense Cards from Rooney's Weapons Emporium."},
-      {"title": "Additional Rules", "text": "Free Defense may not be used if Rooney’s Weapons Emporium is closed."}
+      {"title": "Additional Rules", "text": "Free Defense may not be used if Rooney's Weapons Emporium is closed."}
     ]
   },
   {
     "id": 360,
-    "title": "Gift Certificate (Kaballa’s Market)",
+    "title": "Gift Certificate (Kaballa's Market)",
     "deck": "GREEN",
     "type": "SPECIAL",
     "bunnyRequirement": "NO",
@@ -374,7 +374,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player. Any consequence of death suffered by the player's bunny (or bunnies) will also befall the opponent's bunny (or bunnies). May be used at any time!"},
-      {"title": "Additional Rules", "text": "Operation Spoilsport may be used by a player to avenge only his own bunny (or bunnies). Any consequence of death suffered by the player’s bunny (or bunnies) in The Bunny Circle will also be suffered by the opponent’s bunny (or bunnies) in The Bunny Circle. For example, let’s suppose that an opponent kills a player’s bunny with a <a href=\"bunnypedia://card/346\">Leviathan</a>. The player may use Operation Spoilsport to automatically kill one of the opponent’s bunnies. The player must, however, use Operation Spoilsport before the next player starts his turn. For another example, if the opponent uses the <a href=\"bunnypedia://card/131\">Sea Whiz Mount</a> on the player and kills three of his bunnies, then the player may immediately use Operation Spoilsport to kill up to three of the opponent’s bunnies (if the opponent has three bunnies in The Bunny Circle)."}
+      {"title": "Additional Rules", "text": "Operation Spoilsport may be used by a player to avenge only his own bunny (or bunnies). Any consequence of death suffered by the player's bunny (or bunnies) in The Bunny Circle will also be suffered by the opponent's bunny (or bunnies) in The Bunny Circle. For example, let's suppose that an opponent kills a player's bunny with a <a href=\"bunnypedia://card/346\">Leviathan</a>. The player may use Operation Spoilsport to automatically kill one of the opponent's bunnies. The player must, however, use Operation Spoilsport before the next player starts his turn. For another example, if the opponent uses the <a href=\"bunnypedia://card/131\">Sea Whiz Mount</a> on the player and kills three of his bunnies, then the player may immediately use Operation Spoilsport to kill up to three of the opponent's bunnies (if the opponent has three bunnies in The Bunny Circle)."}
     ]
   },
   {
@@ -406,7 +406,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "While hang gliding for the first time one of your bunnies is caught in a serious down draft!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
       {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },

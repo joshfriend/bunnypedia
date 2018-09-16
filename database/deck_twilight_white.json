@@ -53,7 +53,7 @@
         "bunnyRequirement": "PLAY",
         "aggressive": false,
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+            {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
         ]
     },
     {
@@ -65,7 +65,7 @@
         "bunnyRequirement": "PLAY",
         "aggressive": false,
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+            {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
         ]
     },
     {
@@ -77,7 +77,7 @@
         "bunnyRequirement": "PLAY",
         "aggressive": false,
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa’s Market the game is over and The Magic Carrot is revealed."}
+            {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
         ]
     },
     {
@@ -164,7 +164,7 @@
         "dice": ["CLEAR"],
         "rules": [
             {"title": "Card Text", "text": "Before playing Psychic Waves on any opponent's bunny the player must secretly write down one of the six symbols. If the opponent guesses the incorrect symbol then his bunny dies (<a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive). Psychic Waves is then placed on the next bunny clockwise and the process is repeated."},
-            {"title": "Additional Rules", "text": "Before playing Psychic Waves on any opponent’s bunny in The Bunny Circle, the player must secretly write down one of the six symbols (Triangle, Rectangle, Spiral, Ellipse, Star or Cross) on a piece of paper hidden from all of the other players.<br><br>The opponent whose bunny was targeted by Psychic Waves will try to guess the symbol chosen by the player. If the opponent guesses the incorrect symbol, then his bunny dies. Clover bunnies (bunnies with Clover cards underneath them) may survive since Clovers lower the level of an attacking weapon.<br><br>Psychic Waves is then placed on the next bunny clockwise in The Bunny Circle and the process is repeated. This continues up to five times, or until the correct symbol is guessed. Obviously as Psychic Waves continues, it becomes easier to guess the symbol with fewer choices.<br><br>Psychic Waves is played during one player’s turn, and no <a href=\"bunnypedia://card/185\">Barrier</a> can stop Psychic Waves."}
+            {"title": "Additional Rules", "text": "Before playing Psychic Waves on any opponent's bunny in The Bunny Circle, the player must secretly write down one of the six symbols (Triangle, Rectangle, Spiral, Ellipse, Star or Cross) on a piece of paper hidden from all of the other players.<br><br>The opponent whose bunny was targeted by Psychic Waves will try to guess the symbol chosen by the player. If the opponent guesses the incorrect symbol, then his bunny dies. Clover bunnies (bunnies with Clover cards underneath them) may survive since Clovers lower the level of an attacking weapon.<br><br>Psychic Waves is then placed on the next bunny clockwise in The Bunny Circle and the process is repeated. This continues up to five times, or until the correct symbol is guessed. Obviously as Psychic Waves continues, it becomes easier to guess the symbol with fewer choices.<br><br>Psychic Waves is played during one player's turn, and no <a href=\"bunnypedia://card/185\">Barrier</a> can stop Psychic Waves."}
         ]
     },
     {
@@ -178,7 +178,7 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Cathode (Black) or Anode (Red) roll to be the higher number."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
         ]
     },
     {
@@ -192,7 +192,7 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing either Esther's (Blue) or Betty's (Red) roll to be the higher number."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney’s Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
         ]
     },
     {
@@ -205,7 +205,7 @@
         "dice": ["BLACK"],
         "rules": [
             {"title": "Card Text", "text": "Players donate Dolla to increase the Weapon Level. May be placed on any bunny which must roll higher than the Dolla amount collected to survive."},
-            {"title": "Additional Rules", "text": "Mob Hit may be placed on any bunny in The Bunny Circle which must roll higher than the Dolla amount collected on the Black 12-sided die to survive.<br><br>To use this weapon, a player places Mob Hit on any opponent’s bunny. The other players are then asked to donate Dolla to increase the weapon level. The final weapon level is equal to the amount of Dolla donated by all of the players.<br><br>Although the opponent is asked to roll the Black 12-sided die to defend against Mob Hit, the weapon level does not have to stop at 12 and may reach any level with generous donations of Dolla. The opponent may save his bunny by using Defense Cards that are equal to the weapon level reached by the other players’ donations. After the weapon has been used, the Dolla is given to Kaballa (discarded). Mob Hit may not be purchased from Rooney’s Weapons Emporium for any price."}
+            {"title": "Additional Rules", "text": "Mob Hit may be placed on any bunny in The Bunny Circle which must roll higher than the Dolla amount collected on the Black 12-sided die to survive.<br><br>To use this weapon, a player places Mob Hit on any opponent's bunny. The other players are then asked to donate Dolla to increase the weapon level. The final weapon level is equal to the amount of Dolla donated by all of the players.<br><br>Although the opponent is asked to roll the Black 12-sided die to defend against Mob Hit, the weapon level does not have to stop at 12 and may reach any level with generous donations of Dolla. The opponent may save his bunny by using Defense Cards that are equal to the weapon level reached by the other players' donations. After the weapon has been used, the Dolla is given to Kaballa (discarded). Mob Hit may not be purchased from Rooney's Weapons Emporium for any price."}
         ]
     },
     {
@@ -232,7 +232,7 @@
         "bunnyRequirement": "PLAY",
         "rules": [
             {"title": "Card Text", "text": "Allows a player to start and maintain a second set of Bottom and Top Run cards. If at any time the player has no bunnies in The Bunny Circle then all cards are immediately replaced and normal play begins again with seven new cards."},
-            {"title": "Additional Rules", "text": "Calcite Conundrum allows a player to start and maintain a second set of Bottom and Top Run cards using cards from his five-card hand. The player lays down a second Bottom and Top Run card right next to his first. The player’s bunnies in The Bunny Circle are used to play both sets of Bottom and Top Run cards. As play continues (either clockwise or counter-clockwise) the player plays the Top Run card of his first set of cards (and the Bottom Run if he has a Bunny Triplet), finishes using his first set of cards, and then moves on to his second set of cards. After playing the second set of cards, the player’s turn is over. This player will keep four cards down and three cards in his hand at all times.<br><br>If at any time the player has no bunnies in The Bunny Circle, then all cards are immediately replaced with cards from the Draw Pile and normal play begins again for that player with seven new cards."}
+            {"title": "Additional Rules", "text": "Calcite Conundrum allows a player to start and maintain a second set of Bottom and Top Run cards using cards from his five-card hand. The player lays down a second Bottom and Top Run card right next to his first. The player's bunnies in The Bunny Circle are used to play both sets of Bottom and Top Run cards. As play continues (either clockwise or counter-clockwise) the player plays the Top Run card of his first set of cards (and the Bottom Run if he has a Bunny Triplet), finishes using his first set of cards, and then moves on to his second set of cards. After playing the second set of cards, the player's turn is over. This player will keep four cards down and three cards in his hand at all times.<br><br>If at any time the player has no bunnies in The Bunny Circle, then all cards are immediately replaced with cards from the Draw Pile and normal play begins again for that player with seven new cards."}
         ]
     },
     {
@@ -362,7 +362,7 @@
     },
     {
         "id": 417,
-        "title": "Weil’s Pawn Shop - 3/10",
+        "title": "Weil's Pawn Shop - 3/10",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
         "bunnyRequirement": "NO",
@@ -428,7 +428,7 @@
     },
     {
         "id": 423,
-        "title": "Gift Certificate (Rooney’s Weapons Emporium)",
+        "title": "Gift Certificate (Rooney's Weapons Emporium)",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
         "bunnyRequirement": "NO",
@@ -467,7 +467,7 @@
         "bunnyRequirement": "PLAY",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to eliminate the <a href=\"bunnypedia://card/131\">Sea Whiz Mount</a>, <a href=\"bunnypedia://card/188\">Clumsy Congenial</a>, <a href=\"bunnypedia://card/258\">Anti-Missile</a>, <a href=\"bunnypedia://card/287\">Boomerang</a>, <a href=\"bunnypedia://card/457\">Flying Fritters</a>, <a href=\"bunnypedia://card/513\">Vampire Bats</a> or <a href=\"bunnypedia://card/570\">Bunny Dearest</a>. May be used at any time and kept for the entire game if the player owns the Blue Pawn."},
-            {"title": "Additional Rules", "text": "May be used at any time and kept for the entire game if the player owns the Blue Pawn. If that is the case, then after Blue Angels is played it is simply saved off to the side with a player’s other saved Special (or Very Special) cards and used again when needed. If the player loses or trades the Blue Pawn, then he may use Blue Angels one more time before discarding it."},
+            {"title": "Additional Rules", "text": "May be used at any time and kept for the entire game if the player owns the Blue Pawn. If that is the case, then after Blue Angels is played it is simply saved off to the side with a player's other saved Special (or Very Special) cards and used again when needed. If the player loses or trades the Blue Pawn, then he may use Blue Angels one more time before discarding it."},
             {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Blue Angels."}
         ]
     },
@@ -533,7 +533,7 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "One of your bunnies attempts bungee jumping but measures the length of the cord incorrectly. Too much slack!"},
-            {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+            {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
             {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
         ]
     },

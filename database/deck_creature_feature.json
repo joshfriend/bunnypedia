@@ -175,7 +175,7 @@
   },
   {
     "id": "1171",
-    "title": "Goa’uld Snake",
+    "title": "Goa'uld Snake",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "deck": "CREATURE_FEATURE",
@@ -265,7 +265,7 @@
     ],
     "rules": [
       {"title": "Card Text", "text": "May be given to any player who places General Tso in his area of The Bunny Circle. General Tso visits one player per round clockwise forcing players to return Carrots if tches any of their saved Zodiac cards."},
-      {"title": "Additional Rules", "text": "While General Tso is visiting, any player with at least one saved Chinese Zodiac card must roll the Chinese Zodiac die. If the symbol rolled is the same as any of the player’s saved Chinese Zodiac cards, then the player must return a number of Carrots to any Kaballa's Market equal to the number of bunnies that he has in The Bunny Circle (including General Tso).<br><br>In addition to their Roaming Red Run capabilities, General Tso (and Lieutenant Tang) are also a double Yellow bunny and may be combined with another Yellow (or half Yellow) bunny to form a Bunny Triplet. General Tso may be attacked and eliminated using any Weapon card. The player who launched General Tso rolls for his defense against a Weapon card even if the same player also launched the weapon. Each of the General’s chicken regiment acts like a <a href=\"bunnypedia://card/61\">Lucky Clover</a> or <a href=\"bunnypedia://card/1127\">Lucky Horseshoe</a> and lowers the level of any weapon used against him."},
+      {"title": "Additional Rules", "text": "While General Tso is visiting, any player with at least one saved Chinese Zodiac card must roll the Chinese Zodiac die. If the symbol rolled is the same as any of the player's saved Chinese Zodiac cards, then the player must return a number of Carrots to any Kaballa's Market equal to the number of bunnies that he has in The Bunny Circle (including General Tso).<br><br>In addition to their Roaming Red Run capabilities, General Tso (and Lieutenant Tang) are also a double Yellow bunny and may be combined with another Yellow (or half Yellow) bunny to form a Bunny Triplet. General Tso may be attacked and eliminated using any Weapon card. The player who launched General Tso rolls for his defense against a Weapon card even if the same player also launched the weapon. Each of the General's chicken regiment acts like a <a href=\"bunnypedia://card/61\">Lucky Clover</a> or <a href=\"bunnypedia://card/1127\">Lucky Horseshoe</a> and lowers the level of any weapon used against him."},
       {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
@@ -368,7 +368,7 @@
     ],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player and given to the opponent who has the most Carrots. If the opponent rolls the digits of the current year, then he loses all of his ."},
-      {"title": "Additional Rules", "text": "A roll of 10 is used as a Zero, and rolls of 11 and 12 do not count at all. All Carrots are returned to any Kaballa’s Market. If no opponent has the most Carrots, then Swordfish Of Damocles must be discarded. Any player(s) with a matching pair of saved Atomic Pastry may use (discard) them to eliminate Swordfish Of Damocles before the opponent is forced to roll the dice."}
+      {"title": "Additional Rules", "text": "A roll of 10 is used as a Zero, and rolls of 11 and 12 do not count at all. All Carrots are returned to any Kaballa's Market. If no opponent has the most Carrots, then Swordfish Of Damocles must be discarded. Any player(s) with a matching pair of saved Atomic Pastry may use (discard) them to eliminate Swordfish Of Damocles before the opponent is forced to roll the dice."}
     ]
   },
   {
@@ -416,7 +416,7 @@
     ],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to roll the first die (Violet) and to take the Carrot from any opponent with the same number rolled. The player may roll the next die mber to the first and take another Carrot and so on."},
-      {"title": "Additional Rules", "text": "No Carrots may be taken from any Kaballa’s Market. If any two dice roll the same number, then all of the Carrots are returned and the player loses a bunny. The player may stop rolling dice at any time."}
+      {"title": "Additional Rules", "text": "No Carrots may be taken from any Kaballa's Market. If any two dice roll the same number, then all of the Carrots are returned and the player loses a bunny. The player may stop rolling dice at any time."}
     ]
   },
   {
@@ -474,7 +474,7 @@
     "deck": "CREATURE_FEATURE",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to eliminate either Banned From Argo, Zero Zero, any Exchange card or all Roaming Red Run cards in play. May be used at any time!"},
-      {"title": "Additional Rules", "text": "An Exchange card is any card with \"Exchange\" in the title. This includes:<ul><li><a href=\"bunnypedia://card/149\">Rooney's Weapons Exchange</a></li><li><a href=\"bunnypedia://card/187\">Carrot Exchange</a></li><li><a href=\"bunnypedia://card/240\">Bunny Exchange</a></li><li><a href=\"bunnypedia://card/471\">Zodiac Exchange</a></li><li><a href=\"bunnypedia://card/522\">Rank Exchange</a></li></ul>"}
+      {"title": "Additional Rules", "text": "An Exchange card is any card with \"Exchange\" in the title. This includes:<ul><li><a href=\"bunnypedia://card/149\">Rooney's Weapons Exchange</a></li><li><a href=\"bunnypedia://card/187\">Carrot Exchange</a></li><li><a href=\"bunnypedia://card/240\">Bunny Exchange</a></li><li><a href=\"bunnypedia://card/471\">Zodiac Exchange</a></li><li><a href=\"bunnypedia://card/522\">Rank Exchange</a></li><li><a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a></li></ul>"}
     ]
   },
   {
@@ -495,7 +495,7 @@
     "deck": "CREATURE_FEATURE",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies becomes an involuntary playmate for a rambunctious honey badger!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent’s bunny in The Bunny Circle causing it to die (discarded). This is also true if the player’s only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
       {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
