@@ -19,7 +19,7 @@ android {
         applicationId "com.fueledbycaffeine.bunnypedia"
         minSdkVersion 23
         targetSdkVersion 28
-        versionCode 16
+        versionCode 17
         versionName "0.11"
 
         multiDexEnabled true
