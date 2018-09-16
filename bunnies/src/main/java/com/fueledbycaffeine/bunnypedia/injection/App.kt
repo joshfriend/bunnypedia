@@ -1,10 +1,11 @@
 package com.fueledbycaffeine.bunnypedia.injection
 
-import android.os.StrictMode
 import androidx.appcompat.app.AppCompatDelegate
 import com.crashlytics.android.Crashlytics
 import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.database.AppDatabase
+import com.fueledbycaffeine.bunnypedia.util.CrashlyticsTree
+import com.fueledbycaffeine.bunnypedia.util.configureStrictMode
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
 import io.fabric.sdk.android.Fabric
@@ -36,35 +37,18 @@ class App: DaggerApplication() {
       getDatabasePath(AppDatabase.DATABASE_NAME).delete()
     }
 
-    if (!BuildConfig.DEBUG) {
+    if (BuildConfig.DEBUG) {
+      Timber.plant(Timber.DebugTree())
+    } else {
       Fabric.with(this, Crashlytics())
+      Timber.plant(CrashlyticsTree())
     }
 
     JodaTimeAndroid.init(this)
-    Timber.plant(Timber.DebugTree())
 
-    if (BuildConfig.DEBUG) {
-      StrictMode.setThreadPolicy(
-        StrictMode.ThreadPolicy.Builder()
-          .detectAll()
-          .penaltyLog()
-          .permitDiskReads()
-          .permitDiskWrites()
-          .penaltyDeathOnNetwork()
-          .build()
-      )
-      StrictMode.setVmPolicy(
-        StrictMode.VmPolicy.Builder()
-          .detectAll()
-          .penaltyLog()
-          .build()
-      )
+    this.configureStrictMode()
+  }
 
-      val vmp = StrictMode.VmPolicy.Builder()
-        .penaltyLog()
-        .detectAll()
-      StrictMode.setVmPolicy(vmp.build())
-    }
   override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
     return DaggerAppComponent.builder().create(this)
   }
