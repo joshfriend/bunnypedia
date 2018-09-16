@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="placeholder_darth_plagueis1">Did you ever hear the tragedy of Darth Plagueis The Wise?</string>
+    <string name="placeholder_darth_plagueis2">I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side, he could even keep the ones he cared about from dying.</string>
+    <string name="pref_key_storage_settings">pref_key_storage_settings</string>
+    <string name="pref_key_view_settings">pref_key_view_settings</string>
+    <string name="pref_key_booster_decks">available_booster_decks</string>
+    <string name="pref_key_view_type">view_type</string>
+    <string name="pref_default_view_type">GRID</string>
+</resources>

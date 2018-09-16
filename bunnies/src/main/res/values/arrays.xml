@@ -39,7 +39,7 @@
     </string-array>
 
     <!-- These should match the enum names in CardViewType -->
-    <string-array name="pref_all_view_type_values">
+    <string-array name="pref_all_view_type_values" translateable="false">
         <item>LIST</item>
         <item>GRID</item>
     </string-array>
