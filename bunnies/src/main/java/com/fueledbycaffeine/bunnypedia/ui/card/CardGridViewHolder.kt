@@ -20,14 +20,17 @@ class CardGridViewHolder(override val containerView: View): CardViewHolder(conta
 
   override fun bind(card: Card) {
     val chipColor = ContextCompat.getColor(itemView.context, card.deck.color)
-    title.setBackgroundColor(chipColor)
+    titleBackground.setBackgroundColor(chipColor)
     title.setTextColor(ColorUtil.contrastColor(chipColor))
     title.text = card.title
   }
 
   override fun clear() {
     title.text = ""
-    title.setBackgroundColor(
+    title.setTextColor(
+      ContextCompat.getColor(itemView.context, R.color.white)
+    )
+    titleBackground.setBackgroundColor(
       ContextCompat.getColor(itemView.context, R.color.deck_blue)
     )
     image.setImageDrawable(null)
