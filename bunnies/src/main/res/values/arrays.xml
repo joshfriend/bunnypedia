@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_all_booster_decks_names">
-        <item>Yellow</item>
-        <item>Red</item>
-        <item>Violet</item>
-        <item>Orange</item>
-        <item>Green</item>
-        <item>Twilight White</item>
-        <item>Stainless Steel</item>
-        <item>Perfectly Pink</item>
-        <item>Wacky Khaki</item>
-        <item>Ominous Onyx</item>
-        <item>Chocolate</item>
-        <item>Fantastic</item>
-        <item>Caramel Swirl</item>
-        <item>Creature Feature</item>
+        <item>@string/deck_yellow_booster</item>
+        <item>@string/deck_red_booster</item>
+        <item>@string/deck_violet_booster</item>
+        <item>@string/deck_orange_booster</item>
+        <item>@string/deck_green_booster</item>
+        <item>@string/deck_twilight_white_booster</item>
+        <item>@string/deck_stainless_steel_booster</item>
+        <item>@string/deck_perfectly_pink_booster</item>
+        <item>@string/deck_wacky_khaki_booster</item>
+        <item>@string/deck_ominous_onyx_booster</item>
+        <item>@string/deck_chocolate_booster</item>
+        <item>@string/deck_fantastic_booster</item>
+        <item>@string/deck_caramel_swirl_booster</item>
+        <item>@string/deck_creature_feature_booster</item>
+        <item>@string/deck_pumpkin_spice_booster</item>
     </string-array>
 
     <!-- These should match the enum names in Deck.kt -->
@@ -33,6 +34,7 @@
         <item>FANTASTIC</item>
         <item>CARAMEL_SWIRL</item>
         <item>CREATURE_FEATURE</item>
+        <item>PUMPKIN_SPICE</item>
     </string-array>
 
     <string-array name="pref_all_view_type_names">

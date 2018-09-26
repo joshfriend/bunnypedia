@@ -24,6 +24,7 @@
     <color name="deck_fantastic">@color/deck_orange</color>
     <color name="deck_caramel">@color/deck_chocolate</color>
     <color name="deck_creature_feature">#83BD63</color>
+    <color name="deck_pumpkin_spice">#D79240</color>
 
     <color name="zodiac_element_fire">@color/deck_red</color>
     <color name="zodiac_element_earth">@color/deck_green</color>

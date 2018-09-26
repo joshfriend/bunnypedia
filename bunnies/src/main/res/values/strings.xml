@@ -128,4 +128,5 @@
     <string name="pref_summary_view_type">How would you like to view the list of cards.</string>
     <string name="card_type_senator">Senator</string>
     <string name="card_type_metal">Metal</string>
+    <string name="deck_pumpkin_spice_booster">Pumpkin Spice Booster</string>
 </resources>

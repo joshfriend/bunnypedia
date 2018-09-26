@@ -1,0 +1,573 @@
+[
+  {
+    "id": "1211",
+    "title": "Blue Breakdown Bunny",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "Breakdown Bunny may breakdown (share) the strength of a Weapon or Feed The Bunny card used against it between itself and adjacent bunnies."},
+      {"title": "Additional Rules", "text": "For a weapon card, the strength of the weapon is divided by three. If the weapon strength is not evenly divisible by three, then break down the number into three integral numbers (with a maximum difference of 1) that add to the weapon strength (don't use fractions).<br><br>The player may choose which bunny is assigned which weapon strength number. Remember, the three weapon strength numbers (with a maximum difference of 1) must add to the total weapon strength. Each bunny must roll individually to survive using the die indicated on the weapon card. If less than three bunnies are present in The Bunny Circle or an adjacent bunny is separated by a Barrier, then a Breakdown Bunny must take the full weapon strength itself.<br><br>Using the same division rules, Feed The Bunny cards work in a similar fashion to the weapon cards, with the total amounts being divided between three adjacent bunnies (with a maximum difference of 1 for each food unit individually) during the turn in which the Feed The Bunny card was played. Again, the player may choose which bunny is assigned which amounts to feed. If less than three bunnies are present in The Bunny Circle, then a Breakdown Bunny must feed the full amounts of a Feed The Bunny itself.<br><br>A Breakdown Bunny placed adjacent to another Breakdown Bunny may cascade the affect of Weapon and Feed The Bunny cards.<br><br>A Breakdown Bunny must be the direct target of the weapon in order to use its break down abilities.<br><br>A Breakdown Bunny cannot break down damage from a weapon directly targeting another bunny. Any bunny positioned adjacent to a Breakdown Bunny must roll for the break down damage separate from other damage caused by the weapon.<br><br>For any one weapon or Feed The Bunny card, a Breakdown Bunny may break down the affect only once."}
+    ]
+  },
+  {
+    "id": "1212",
+    "title": "Green Breakdown Bunny",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "Breakdown Bunny may breakdown (share) the strength of a Weapon or Feed The Bunny card used against it between itself and adjacent bunnies."},
+      {"title": "Additional Rules", "text": "For a weapon card, the strength of the weapon is divided by three. If the weapon strength is not evenly divisible by three, then break down the number into three integral numbers (with a maximum difference of 1) that add to the weapon strength (don't use fractions).<br><br>The player may choose which bunny is assigned which weapon strength number. Remember, the three weapon strength numbers (with a maximum difference of 1) must add to the total weapon strength. Each bunny must roll individually to survive using the die indicated on the weapon card. If less than three bunnies are present in The Bunny Circle or an adjacent bunny is separated by a Barrier, then a Breakdown Bunny must take the full weapon strength itself.<br><br>Using the same division rules, Feed The Bunny cards work in a similar fashion to the weapon cards, with the total amounts being divided between three adjacent bunnies (with a maximum difference of 1 for each food unit individually) during the turn in which the Feed The Bunny card was played. Again, the player may choose which bunny is assigned which amounts to feed. If less than three bunnies are present in The Bunny Circle, then a Breakdown Bunny must feed the full amounts of a Feed The Bunny itself.<br><br>A Breakdown Bunny placed adjacent to another Breakdown Bunny may cascade the affect of Weapon and Feed The Bunny cards.<br><br>A Breakdown Bunny must be the direct target of the weapon in order to use its break down abilities.<br><br>A Breakdown Bunny cannot break down damage from a weapon directly targeting another bunny. Any bunny positioned adjacent to a Breakdown Bunny must roll for the break down damage separate from other damage caused by the weapon.<br><br>For any one weapon or Feed The Bunny card, a Breakdown Bunny may break down the affect only once."}
+    ]
+  },
+  {
+    "id": "1213",
+    "title": "Orange Breakdown Bunny",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "Breakdown Bunny may breakdown (share) the strength of a Weapon or Feed The Bunny card used against it between itself and adjacent bunnies."},
+      {"title": "Additional Rules", "text": "For a weapon card, the strength of the weapon is divided by three. If the weapon strength is not evenly divisible by three, then break down the number into three integral numbers (with a maximum difference of 1) that add to the weapon strength (don't use fractions).<br><br>The player may choose which bunny is assigned which weapon strength number. Remember, the three weapon strength numbers (with a maximum difference of 1) must add to the total weapon strength. Each bunny must roll individually to survive using the die indicated on the weapon card. If less than three bunnies are present in The Bunny Circle or an adjacent bunny is separated by a Barrier, then a Breakdown Bunny must take the full weapon strength itself.<br><br>Using the same division rules, Feed The Bunny cards work in a similar fashion to the weapon cards, with the total amounts being divided between three adjacent bunnies (with a maximum difference of 1 for each food unit individually) during the turn in which the Feed The Bunny card was played. Again, the player may choose which bunny is assigned which amounts to feed. If less than three bunnies are present in The Bunny Circle, then a Breakdown Bunny must feed the full amounts of a Feed The Bunny itself.<br><br>A Breakdown Bunny placed adjacent to another Breakdown Bunny may cascade the affect of Weapon and Feed The Bunny cards.<br><br>A Breakdown Bunny must be the direct target of the weapon in order to use its break down abilities.<br><br>A Breakdown Bunny cannot break down damage from a weapon directly targeting another bunny. Any bunny positioned adjacent to a Breakdown Bunny must roll for the break down damage separate from other damage caused by the weapon.<br><br>For any one weapon or Feed The Bunny card, a Breakdown Bunny may break down the affect only once."}
+    ]
+  },
+  {
+    "id": "1214",
+    "title": "Red Breakdown Bunny",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "Breakdown Bunny may breakdown (share) the strength of a Weapon or Feed The Bunny card used against it between itself and adjacent bunnies."},
+      {"title": "Additional Rules", "text": "For a weapon card, the strength of the weapon is divided by three. If the weapon strength is not evenly divisible by three, then break down the number into three integral numbers (with a maximum difference of 1) that add to the weapon strength (don't use fractions).<br><br>The player may choose which bunny is assigned which weapon strength number. Remember, the three weapon strength numbers (with a maximum difference of 1) must add to the total weapon strength. Each bunny must roll individually to survive using the die indicated on the weapon card. If less than three bunnies are present in The Bunny Circle or an adjacent bunny is separated by a Barrier, then a Breakdown Bunny must take the full weapon strength itself.<br><br>Using the same division rules, Feed The Bunny cards work in a similar fashion to the weapon cards, with the total amounts being divided between three adjacent bunnies (with a maximum difference of 1 for each food unit individually) during the turn in which the Feed The Bunny card was played. Again, the player may choose which bunny is assigned which amounts to feed. If less than three bunnies are present in The Bunny Circle, then a Breakdown Bunny must feed the full amounts of a Feed The Bunny itself.<br><br>A Breakdown Bunny placed adjacent to another Breakdown Bunny may cascade the affect of Weapon and Feed The Bunny cards.<br><br>A Breakdown Bunny must be the direct target of the weapon in order to use its break down abilities.<br><br>A Breakdown Bunny cannot break down damage from a weapon directly targeting another bunny. Any bunny positioned adjacent to a Breakdown Bunny must roll for the break down damage separate from other damage caused by the weapon.<br><br>For any one weapon or Feed The Bunny card, a Breakdown Bunny may break down the affect only once."}
+    ]
+  },
+  {
+    "id": "1215",
+    "title": "Violet Breakdown Bunny",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "Breakdown Bunny may breakdown (share) the strength of a Weapon or Feed The Bunny card used against it between itself and adjacent bunnies."},
+      {"title": "Additional Rules", "text": "For a weapon card, the strength of the weapon is divided by three. If the weapon strength is not evenly divisible by three, then break down the number into three integral numbers (with a maximum difference of 1) that add to the weapon strength (don't use fractions).<br><br>The player may choose which bunny is assigned which weapon strength number. Remember, the three weapon strength numbers (with a maximum difference of 1) must add to the total weapon strength. Each bunny must roll individually to survive using the die indicated on the weapon card. If less than three bunnies are present in The Bunny Circle or an adjacent bunny is separated by a Barrier, then a Breakdown Bunny must take the full weapon strength itself.<br><br>Using the same division rules, Feed The Bunny cards work in a similar fashion to the weapon cards, with the total amounts being divided between three adjacent bunnies (with a maximum difference of 1 for each food unit individually) during the turn in which the Feed The Bunny card was played. Again, the player may choose which bunny is assigned which amounts to feed. If less than three bunnies are present in The Bunny Circle, then a Breakdown Bunny must feed the full amounts of a Feed The Bunny itself.<br><br>A Breakdown Bunny placed adjacent to another Breakdown Bunny may cascade the affect of Weapon and Feed The Bunny cards.<br><br>A Breakdown Bunny must be the direct target of the weapon in order to use its break down abilities.<br><br>A Breakdown Bunny cannot break down damage from a weapon directly targeting another bunny. Any bunny positioned adjacent to a Breakdown Bunny must roll for the break down damage separate from other damage caused by the weapon.<br><br>For any one weapon or Feed The Bunny card, a Breakdown Bunny may break down the affect only once."}
+    ]
+  },
+  {
+    "id": "1216",
+    "title": "Yellow Breakdown Bunny",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "Breakdown Bunny may breakdown (share) the strength of a Weapon or Feed The Bunny card used against it between itself and adjacent bunnies."},
+      {"title": "Additional Rules", "text": "For a weapon card, the strength of the weapon is divided by three. If the weapon strength is not evenly divisible by three, then break down the number into three integral numbers (with a maximum difference of 1) that add to the weapon strength (don't use fractions).<br><br>The player may choose which bunny is assigned which weapon strength number. Remember, the three weapon strength numbers (with a maximum difference of 1) must add to the total weapon strength. Each bunny must roll individually to survive using the die indicated on the weapon card. If less than three bunnies are present in The Bunny Circle or an adjacent bunny is separated by a Barrier, then a Breakdown Bunny must take the full weapon strength itself.<br><br>Using the same division rules, Feed The Bunny cards work in a similar fashion to the weapon cards, with the total amounts being divided between three adjacent bunnies (with a maximum difference of 1 for each food unit individually) during the turn in which the Feed The Bunny card was played. Again, the player may choose which bunny is assigned which amounts to feed. If less than three bunnies are present in The Bunny Circle, then a Breakdown Bunny must feed the full amounts of a Feed The Bunny itself.<br><br>A Breakdown Bunny placed adjacent to another Breakdown Bunny may cascade the affect of Weapon and Feed The Bunny cards.<br><br>A Breakdown Bunny must be the direct target of the weapon in order to use its break down abilities.<br><br>A Breakdown Bunny cannot break down damage from a weapon directly targeting another bunny. Any bunny positioned adjacent to a Breakdown Bunny must roll for the break down damage separate from other damage caused by the weapon.<br><br>For any one weapon or Feed The Bunny card, a Breakdown Bunny may break down the affect only once."}
+    ]
+  },
+  {
+    "id": "1217",
+    "title": "Choose A Carrot",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market."}
+    ]
+  },
+  {
+    "id": "1218",
+    "title": "Choose 2 Carrots",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market."}
+    ]
+  },
+  {
+    "id": "1219",
+    "title": "Choose A Carrot – Low Roll",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "dice": ["ORANGE", "GREEN", "YELLOW", "PINK", "BROWN"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a number of Carrots equal to the lowest number rolled on any of the dice."}
+    ]
+  },
+  {
+    "id": "1220",
+    "title": "Feed The Bunny 4/1",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "radish": 4,
+    "milk": 1,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amount shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": "1221",
+    "title": "Feed The Bunny 1/4",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "radish": 1,
+    "milk": 4,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amount shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": "1222",
+    "title": "Random FTB",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "radish": -1,
+    "milk": -1,
+    "dice": ["GREEN", "BLUE"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amount rolled by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": "1223",
+    "title": "Infinity Mitten",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "weaponLevel": "2",
+    "dice": ["BLACK"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 2 to survive."}
+    ]
+  },
+  {
+    "id": "1224",
+    "title": "Sultana Boiler",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "weaponLevel": "4",
+    "dice": ["BLACK"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 4 to survive."}
+    ]
+  },
+  {
+    "id": "1225",
+    "title": "White Citadel Burger",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "weaponLevel": "6",
+    "dice": ["BLACK"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 6 to survive."}
+    ]
+  },
+  {
+    "id": "1226",
+    "title": "Molotov Cocktail",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "weaponLevel": "8",
+    "dice": ["BLACK"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 8 to survive."}
+    ]
+  },
+  {
+    "id": "1227",
+    "title": "Imperfect Storm",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "weaponLevel": "10",
+    "dice": ["BLACK"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 10 to survive. Adjacent bunnies must roll higher than 9 to survive."}
+    ]
+  },
+  {
+    "id": "1228",
+    "title": "Thermo Nuclear Chicken Wings",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "weaponLevel": "12",
+    "dice": ["BLACK"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within two spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> or <a href=\"bunnypedia://card/1127\">Horseshoe</a> bunnies may survive."}
+    ]
+  },
+  {
+    "id": "1229",
+    "title": "Gumdrop Grievance",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "weaponLevel": "2x8",
+    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "RED", "PINK", "BROWN"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 2 on each of the eight dice to survive."}
+    ]
+  },
+  {
+    "id": "1230",
+    "title": "Against All Odds",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force all of his opponents to discard any card in their five-card hand with an Odd Card Identification Number. Replacement cards are drawn immediately."}
+    ]
+  },
+  {
+    "id": "1231",
+    "title": "Banality",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player who has not used an Aggressive card against any opponent to choose three Carrots."},
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
+    ]
+  },
+  {
+    "id": "1232",
+    "title": "Banjaxers",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "Banjaxers may be used once by a player to replace any bunny in any player's area of The Bunny Circle. Banjaxers is a double Violet bunny and may be combined with another Violet (or half Violet) bunny to form a Bunny Triplet."}
+    ]
+  },
+  {
+    "id": "1233",
+    "title": "Banned From Argo",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must roll the dice and give away any of his bunnies that are the same color (or half color) as both the highest and lowest rolls."},
+      {"title": "Additional Rules", "text": "If there is a tie for the highest or lowest roll, then the bunnies of all of the colors (or half colors) are given away. The bunnies may be given to any of the players, in any area of The Bunny Circle that the opponent chooses. Those color bunnies will continue to be banned from the opponent's area of The Bunny Circle until he pays 10 Dolla to the player to remove the card.<br><br>Use the colored Chips (Wacky Khaki and Ominous Onyx booster decks) to keep track of the opponent's banned colors."}
+    ]
+  },
+  {
+    "id": "1234",
+    "title": "Daft Draft",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used by all players to pass any one card in their five card hand to the next player. Repeat the draft two more times. Any player with a bunny that has a Rank Bunny Modifier card may choose not to participate."}
+    ]
+  },
+  {
+    "id": "1235",
+    "title": "Didymous Discard",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to eliminate all double bunnies in The Bunny Circle (Specialty, Celebrity and color)."}
+    ]
+  },
+  {
+    "id": "1236",
+    "title": "Do The Shuffle",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to collect all of the cards in every player's five-card hand, to shuffle the cards and to randomly redistribute them back to the players."}
+    ]
+  },
+  {
+    "id": "1237",
+    "title": "Funky Fungus – Quad (Bunny Modifier)",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Quadruple raises the level of any weapon by four."},
+      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+    ]
+  },
+  {
+    "id": "1238",
+    "title": "Jejune Jinx",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player and his two adjacent opponents to discard any uninteresting cards in their five-card hands and to replace them immediately with new cards from the Draw Pile."}
+    ]
+  },
+  {
+    "id": "1239",
+    "title": "Lucky Horseshoe – Nondruple (Bunny Modifier)",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Nondruple lowers the level of any weapon by nine."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
+      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."}
+    ]
+  },
+  {
+    "id": "1240",
+    "title": "Market Meltdown",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to close <a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a> and to set all Metal prices to 1 Dolla. Morden's Metals Exchange reopens after one round of play starting with the player's next turn"}
+    ]
+  },
+  {
+    "id": "1241",
+    "title": "Nothing Is Forever",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once to force all players to discard all Forever small cards or any other card (saved and in their five-card hand) with the word Forever in the title."},
+      {"title": "Forever Cards", "text": "TBD"}
+    ]
+  },
+  {
+    "id": "1242",
+    "title": "Planet Of The Grapes",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force all bunnies in The Bunny Circle with a <a href=\"bunnypedia://card/1145\">Whiner Senator Bunny Modifier</a> card to flee the game (be discarded)."}
+    ]
+  },
+  {
+    "id": "1243",
+    "title": "Rooneys Weapons Emporium Two (Lower)",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Reopens the store. New prices:<br>1 Dolla - for each Defense Card<br>5 Dolla - for each Water Card<br>Half Level - for each Weapon card (Weapons may be used immediately)"}
+    ]
+  },
+  {
+    "id": "1244",
+    "title": "Sunburn",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force all bunnies in The Bunny Circle with a <a href=\"bunnypedia://card/1144\">Shiner Senator Bunny Modifier</a> card to flee the game (be discarded)."}
+    ]
+  },
+  {
+    "id": "1245",
+    "title": "Tivy Telos",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to end the game immediately if he can roll a 2, 10, 12, or 20 on the die. Any opponent may pay the player the amount rolled to counteract Tivy Telos and continue the game."},
+      {"title": "Additional Rules", "text": "Please note that Tivy Telos requires a player to have two bunnies in The Bunny Circle."}
+    ]
+  },
+  {
+    "id": "1246",
+    "title": "Treksters",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "Treksters may not be attacked by any card that has a science fiction reference in the picture or title. Treksters is a double Blue bunny and may be combined with another Blue (or half Blue) bunny to form a Bunny Triplet"}
+    ]
+  },
+  {
+    "id": "1247",
+    "title": "Under Blunder",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to eliminate all Bunny Modifier cards under every bunny in The Bunny Circle."}
+    ]
+  },
+  {
+    "id": "1248",
+    "title": "Royal Fizzbin",
+    "type": "SPECIAL",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots if all of the cards in his five-card hand are Run cards. If there are two players named Jack in the game (a half Fizzbin), then the player may only choose one Carrot."}
+    ]
+  },
+  {
+    "id": "1249",
+    "title": "Skint Scenario",
+    "type": "SPECIAL",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY_AND_SAVE",
+    "rules": [
+      {"title": "Card Text", "text": "May be given to any opponent who must immediately cash in all of his Metal cards and spend all of his Dolla (or Dolla equivalent). Any new Metal cards of Dolla drawn by the player must be sold and spent each turn. If at any time the player has no bunnies in The Bunny Circle, then Skint Scenario is discarded."}
+    ]
+  },
+  {
+    "id": "1250",
+    "title": "Meek Shall Inherit",
+    "type": "VERY_SPECIAL",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by the player with the least number of Carrots to take all of the Carrots from players who do not have at least one bunny in The Bunny Circle. May only be played immediately after the Winning Zodiac is revealed!"},
+      {"title": "Additional Rules", "text": "Meek Shall Inherit bypasses the rule that awards the Carrots to the player with the most Kaballa Dolla saved, and therefore must be played before the Magic Carrot is revealed!"}
+    ]
+  },
+  {
+    "id": "1251",
+    "title": "Oh Look, A Butterfly",
+    "type": "VERY_SPECIAL",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to take two Carrots and two Kinder Bunnies from any opponent who has just sneezed. May be used at any time."}
+    ]
+  },
+  {
+    "id": "1252",
+    "canonicalId": 1144,
+    "type": "SENATOR",
+    "deck": "PUMPKIN_SPICE",
+    "title": "Shiner Senator (Bunny Modifier)",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+    ]
+  },
+  {
+    "id": "1253",
+    "canonicalId": 1145,
+    "title": "Whiner Senator",
+    "type": "SENATOR",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+    ]
+  },
+  {
+    "id": "1254",
+    "title": "Horseshoes And Hand Grenade",
+    "type": "PLAY_IMMEDIATELY",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "All bunnies with <a href=\"bunnypedia://card/1127\">Lucky Horseshoe Bunny Modifier</a> cards must roll higher than their number of Horseshoes to survive."}
+    ]
+  },
+  {
+    "id": "1255",
+    "title": "Mayfair Emerald",
+    "type": "PLAY_IMMEDIATELY",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Allows all players with at least one card in their five-ard hand that has the color Green in the picture and the letter L anywhere in the title to choose a Carrot."}
+    ]
+  },
+  {
+    "id": "1256",
+    "title": "Terrible Misfortune (Casting) – Roller Coaster",
+    "type": "PLAY_IMMEDIATELY",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "A joyful ride on a hundred-year-old roller coaster ends badly for one of the bunnies in play when the card tips off the track!"},
+      {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ]
+  },
+  {
+    "id": "1257",
+    "title": "Very Terrible Misfortune – Myxomatosis",
+    "type": "PLAY_IMMEDIATELY",
+    "deck": "PUMPKIN_SPICE",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "A sudden outbreak of Myxomatosis eliminates all of your bunnies in The Bunny Circle!"},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ]
+  },
+  {
+    "id": "1258",
+    "canonicalId": 87,
+    "title": "1 Dolla",
+    "type": "DOLLA",
+    "deck": "PUMPKIN_SPICE"
+  },
+  {
+    "id": "1259",
+    "canonicalId": 92,
+    "title": "2 Dolla",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE"
+  },
+  {
+    "id": "1260",
+    "canonicalId": 210,
+    "title": "3 Dolla",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE"
+  },
+  {
+    "id": "1261",
+    "canonicalId": 98,
+    "title": "5 Dolla",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE"
+  },
+  {
+    "id": "1262",
+    "canonicalId": 101,
+    "title": "10 Dolla",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE"
+  },
+  {
+    "id": "1263",
+    "title": "Billon (Copper/Silver)",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
+      {"title": "Additional Rules", "text": "The metal must be declared by the player (buying or selling) and that declaration must remain in place for a player's entire turn. Therefore, a player may not sell a Double Metal Alloy at one price and then buy it back at another price during the same turn."}
+    ]
+  },
+  {
+    "id": "1264",
+    "title": "Electrum (Silver/Gold)",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
+      {"title": "Additional Rules", "text": "The metal must be declared by the player (buying or selling) and that declaration must remain in place for a player's entire turn. Therefore, a player may not sell a Double Metal Alloy at one price and then buy it back at another price during the same turn."}
+    ]
+  },
+  {
+    "id": "1265",
+    "title": "Tumbaga (Gold/Copper)",
+    "type": "RUN",
+    "deck": "PUMPKIN_SPICE",
+    "rules": [
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
+      {"title": "Additional Rules", "text": "The metal must be declared by the player (buying or selling) and that declaration must remain in place for a player's entire turn. Therefore, a player may not sell a Double Metal Alloy at one price and then buy it back at another price during the same turn."}
+    ]
+  }
+]
