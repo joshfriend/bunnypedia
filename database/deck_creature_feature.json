@@ -251,7 +251,8 @@
     "bunnyRequirement": "PLAY",
     "deck": "CREATURE_FEATURE",
     "rules": [
-      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Triple raises the level of any weapon by three."}
+      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Triple raises the level of any weapon by three."},
+      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
     ]
   },
   {

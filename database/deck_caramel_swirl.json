@@ -231,7 +231,8 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Single raises the level of any weapon by one."}
+      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Single raises the level of any weapon by one."},
+      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
     ]
   },
   {
@@ -241,7 +242,8 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Double raises the level of any weapon by one."}
+      {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Double raises the level of any weapon by one."},
+      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
     ]
   },
   {
@@ -476,7 +478,7 @@
     "id": 1144,
     "title": "Shiner Senator (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
-    "type": "RUN",
+    "type": "SENATOR",
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
@@ -486,7 +488,7 @@
     "id": 1145,
     "title": "Whiner Senator (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
-    "type": "RUN",
+    "type": "SENATOR",
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
