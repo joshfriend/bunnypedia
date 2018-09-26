@@ -1,6 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
-import android.content.Intent
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -10,52 +10,41 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
-import androidx.paging.RxPagedListBuilder
+import androidx.core.content.ContextCompat
+import androidx.core.os.bundleOf
+import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.observe
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
-import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
-import com.fueledbycaffeine.bunnypedia.ext.android.isInMultiWindow
-import com.fueledbycaffeine.bunnypedia.ext.android.isNavBarAtBottom
-import com.fueledbycaffeine.bunnypedia.ext.android.navBarHeight
-import com.fueledbycaffeine.bunnypedia.ext.android.showsSoftwareNavBar
-import com.fueledbycaffeine.bunnypedia.ext.android.startActivity
-import com.fueledbycaffeine.bunnypedia.ext.android.startActivityForResult
-import com.fueledbycaffeine.bunnypedia.ext.android.statusBarHeight
-import com.fueledbycaffeine.bunnypedia.ext.android.updatePaddingRelative
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.ui.AboutDialogFragment
-import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
-import com.fueledbycaffeine.bunnypedia.ui.settings.SettingsActivity
+import com.fueledbycaffeine.bunnypedia.ui.CardsViewModel
+import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import com.jakewharton.rxbinding3.appcompat.queryTextChangeEvents
 import dagger.android.support.DaggerFragment
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.rxkotlin.Observables
 import io.reactivex.rxkotlin.addTo
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.schedulers.Schedulers
-import io.reactivex.subjects.BehaviorSubject
 import kotlinx.android.synthetic.main.fragment_card_list.*
 import timber.log.Timber
 import javax.inject.Inject
 
 class CardListFragment : DaggerFragment() {
-  companion object {
-    private const val REQ_SETTINGS = 1
-  }
+  @Inject lateinit var cardStore: CardStore
+  @Inject lateinit var cardsViewModelProvider: CardsViewModel.Provider
+  private lateinit var cardsViewModel: CardsViewModel
 
-  @Inject
-  lateinit var cardStore: CardStore
   private lateinit var adapter: CardAdapter
   private var optionsMenuSubscribers = CompositeDisposable()
   private var subscribers = CompositeDisposable()
-  private val shownDecks = BehaviorSubject.create<Set<Deck>>()
-  private val querySubject = BehaviorSubject.create<String>()
 
   private var viewType: CardAdapter.CardViewType
     get() = CardAdapter.CardViewType.valueOf(
@@ -70,10 +59,16 @@ class CardListFragment : DaggerFragment() {
         .apply()
     }
 
+  override fun onAttach(context: Context) {
+    super.onAttach(context)
+
+    cardsViewModel = ViewModelProviders.of(this, cardsViewModelProvider)
+      .get(CardsViewModel::class.java)
+  }
+
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 
-    shownDecks.onNext(getAvailableDecks())
     setHasOptionsMenu(true)
   }
 
@@ -90,7 +85,7 @@ class CardListFragment : DaggerFragment() {
     val queryEvents = search.queryTextChangeEvents().share()
 
     queryEvents.map { it.queryText.toString().trim() }
-      .subscribe { querySubject.onNext(it) }
+      .subscribe { cardsViewModel.setQuery(it) }
       .addTo(this.optionsMenuSubscribers)
 
     queryEvents.filter { it.isSubmitted }
@@ -126,8 +121,6 @@ class CardListFragment : DaggerFragment() {
       activity.setSupportActionBar(toolbar)
     }
 
-    makeNavBarsFancy()
-
     // TODO: https://github.com/bumptech/glide/tree/master/integration/recyclerview
     adapter = CardAdapter(this, viewType, this::onCardSelected)
     recyclerView.adapter = adapter
@@ -135,11 +128,10 @@ class CardListFragment : DaggerFragment() {
 
     fastScroller.setRecyclerView(recyclerView)
 
-    Observables
-      .combineLatest(shownDecks, querySubject)
-      .map { (decks, search) -> cardStore.getCards(decks, search) }
-      .flatMap { dsf -> RxPagedListBuilder(dsf, 100).buildObservable() }
-      .subscribe { pl -> adapter.submitList(pl) }
+    cardsViewModel.observe()
+      .subscribe { data ->
+        data.observe(this, adapter::submitList)
+      }
       .addTo(this.subscribers)
   }
 
@@ -149,10 +141,22 @@ class CardListFragment : DaggerFragment() {
     menu.findItem(R.id.viewGrid).isVisible = !isGrid
   }
 
+  override fun onResume() {
+    super.onResume()
+
+    cardsViewModel.reloadAvailableDecks()
+
+    val statusbarColor = ColorUtil.darkenColor(
+      ContextCompat.getColor(requireContext(), R.color.deck_blue),
+      byAmount = 0.20f
+    )
+    activity?.window?.statusBarColor = statusbarColor
+  }
+
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
     return when (item.itemId) {
       R.id.settings -> {
-        startActivityForResult<SettingsActivity>(REQ_SETTINGS)
+        findNavController().navigate(R.id.openSettings)
         true
       }
       R.id.viewList -> {
@@ -177,18 +181,6 @@ class CardListFragment : DaggerFragment() {
     }
   }
 
-  override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-    when (requestCode) {
-      REQ_SETTINGS -> {
-        shownDecks.onNext(getAvailableDecks())
-        adapter.viewType = viewType
-        setupLayoutManager()
-        activity?.invalidateOptionsMenu()
-      }
-      else -> super.onActivityResult(requestCode, resultCode, data)
-    }
-  }
-
   override fun onDestroyOptionsMenu() {
     this.optionsMenuSubscribers.clear()
     super.onDestroyOptionsMenu()
@@ -197,35 +189,6 @@ class CardListFragment : DaggerFragment() {
   override fun onDestroyView() {
     this.subscribers.clear()
     super.onDestroyView()
-  }
-
-  private fun makeNavBarsFancy() {
-    // It is not possible to tell which window your app occupies in multiwindow
-    // mode when fitsSystemWindows is false. Apps can't draw under the navbar
-    // in multiwindow mode anyways.
-    val fitSystemWindows = if (activity?.isInMultiWindow == true) {
-      true
-    } else {
-      resources.getBoolean(R.bool.fullscreen_style_fit_system_windows)
-    }
-    // Override the activity's theme when in multiwindow.
-    coordinator.fitsSystemWindows = fitSystemWindows
-
-    if (!fitSystemWindows) {
-      // Inset bottom of content if drawing under the translucent navbar, but
-      // only if the navbar is a software bar and is on the bottom of the
-      // screen.
-      if (resources.showsSoftwareNavBar && resources.isNavBarAtBottom) {
-        recyclerView.updatePaddingRelative(
-          bottom = recyclerView.paddingBottom + resources.navBarHeight
-        )
-      }
-
-      // Inset the toolbar when it is drawn under the status bar.
-      barLayout.updatePaddingRelative(
-        top = barLayout.paddingTop + resources.statusBarHeight
-      )
-    }
   }
 
   private fun setupLayoutManager() {
@@ -242,24 +205,6 @@ class CardListFragment : DaggerFragment() {
   }
 
   private fun onCardSelected(cardId: Int) {
-    startActivity<CardDetailActivity>(ARG_CARD_ID to cardId)
-  }
-
-  private fun getAvailableDecks(): Set<Deck> {
-    val allDecks = resources.getStringArray(R.array.pref_all_booster_decks_values).toSet()
-    val enabledDecks = defaultSharedPreferences
-      .getStringSet(
-        getString(R.string.pref_key_booster_decks),
-        allDecks
-      )!!
-
-    val decklist = when (enabledDecks.isNotEmpty()) {
-      true -> enabledDecks
-      else -> allDecks
-    }
-
-    return decklist.asSequence()
-      .map { Deck.valueOf(it) }
-      .toSet()
+    findNavController().navigate(R.id.showDetail, bundleOf("id" to cardId))
   }
 }

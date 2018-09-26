@@ -242,7 +242,7 @@
     "weaponLevel": "12",
     "dice": ["BLACK"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within three spaces are also killed. <a href=\"bunnypedia://card/828\">Horseshoe</a> bunnies may survive."}
+      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within three spaces are also killed. <a href=\"bunnypedia://cards/828\">Horseshoe</a> bunnies may survive."}
     ]
   },
   {
@@ -254,9 +254,9 @@
     "symbols": ["JUPITER"],
     "rules": [
       {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."},
-      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
-      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
-      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
+      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://cards/61\">Clover</a> or the <a href=\"bunnypedia://cards/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://cards/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://cards/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://cards/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
     ]
   },
   {
@@ -278,7 +278,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must sacrifice any one of his bunnies in The Bunny Circle before he may play an Aggressive card."},
       {"title": "Additional Rules", "text": "Dead Zone may be given to an opponent who has no bunnies."},
-      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://cards/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
     ]
   },
   {
@@ -301,7 +301,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player as a bunny of any kind and any color (except Red or Pink)."},
       {"title": "Additional Rules", "text": "Free Agent bunny may be used by a player as any bunny of any kind (Evil, Hypnotic, Ludicrous, Spiffy and Truculent) and any color (except Red or Pink). The identity of the bunny may change at any time during play as the need arises. Free Agent bunnies make forming a Bunny Triplet much easier. Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies."},
-      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://card/407\">Cloned</a>"}
+      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://cards/407\">Cloned</a>"}
     ]
   },
   {
@@ -344,9 +344,9 @@
       {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Quadruple lowers the level of any weapon by four."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
-      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
-      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
-      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://card/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."},
+      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://cards/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://cards/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
     ]
   },
   {
@@ -410,7 +410,7 @@
     "type": "SPECIAL",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate <a href=\"bunnypedia://card/804\">Angry Beet Farmer</a> or to counteract <a href=\"bunnypedia://card/832\">Sour Hour</a> before losing all of his Milk Units. This card  must be a saved Special to be used immediately."},
+      {"title": "Card Text", "text": "May be used once by a player to eliminate <a href=\"bunnypedia://cards/804\">Angry Beet Farmer</a> or to counteract <a href=\"bunnypedia://cards/832\">Sour Hour</a> before losing all of his Milk Units. This card  must be a saved Special to be used immediately."},
       {"title": "Additional Rules", "text": "Unlike Very Special cards, Beefed Up Production may not be used to save other players' bunnies from harm. This card is for the exclusive use of the player who has it saved."}
     ]
   },
@@ -442,7 +442,7 @@
     "type": "SPECIAL",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to either eliminate <a href=\"bunnpedia://card/811\">Gremlins</a> or to counteract <a href=\"bunnypedia://card/833\">Starving Snails</a> before losing all of his Radish Units. This card must be a saved Special to be used immediately."},
+      {"title": "Card Text", "text": "May be used once by a player to either eliminate <a href=\"bunnpedia://card/811\">Gremlins</a> or to counteract <a href=\"bunnypedia://cards/833\">Starving Snails</a> before losing all of his Radish Units. This card must be a saved Special to be used immediately."},
       {"title": "Additional Rules", "text": "Unlike Very Special cards, Shell Repel may not be used to save other players' bunnies from harm. This card is for the exclusive use of the player who has it saved."}
     ]
   },
@@ -455,7 +455,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to place any one of his own bunnies from The Bunny Circle off to the side and to return it to The Bunny Circle just before the Magic Carrot is revealed."},
       {"title": "Additional Rules", "text": "While off to the side, the bunny may not be attacked, made to feed, or be abducted by any opponent. A player with only this bunny may not play Aggressive cards."},
-      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://cards/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
     ]
   },
   {
@@ -506,8 +506,8 @@
     "type": "PLAY_IMMEDIATELY",
     "rules": [
       {"title": "Card Text", "text": "Without giving any thought to an exit strategy, one of your bunnies flippantly insults 300 Spartan warriors."},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -517,8 +517,8 @@
     "type": "PLAY_IMMEDIATELY",
     "rules": [
       {"title": "Card Text", "text": "While quenching his thirst for adventure, one of your bunnies attempts to fly with wax wings on a far too sunny day!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {

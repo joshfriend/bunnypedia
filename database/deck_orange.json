@@ -180,7 +180,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 17 to escape. A bunny in a C.O.M.A. cannot play any aggressive cards (sinct it is unconscious) but may be used to win the game (since it is still alive)."},
       {"title": "Additional Rules", "text": "Red and Pink bunnies in a C.O.M.A. still have their special feature active."},
-      {"title": "Sunny Day", "text": "<a href=\"bunnypedia://card/82\">Sunny Day</a> can be used to awake a bunny from a C.O.M.A."}
+      {"title": "Sunny Day", "text": "<a href=\"bunnypedia://cards/82\">Sunny Day</a> can be used to awake a bunny from a C.O.M.A."}
     ]
   },
   {
@@ -193,9 +193,9 @@
     "weaponLevel": "18",
     "rules": [
       {"title": "Card Text", "text": "A player must put two bunnies into the Hornet to use this weapon. Hornet moves around The Bunny Circle counter-clockwise and attacks one bunny per player every round. An opponent must roll higher than 18 to survive. If an opponent survives then the Hornet is destroyed. The bunnies are returned and the weapon is discarded when the Hornet returns to the player."},
-      {"title": "Additional Rules", "text": "Double Free Agents, Specialty Bunny (double or triplet) and Celebrity Bunny (double or triplet) may be used in the Hornet, however, each counts as a single bunny. While these bunnies are away, a player may not use any Aggressive cards unless he has other bunnies in The Bunny Circle. The Hornet visits the first player counter-clockwise (that has at least one bunny in The Bunny Circle) and attacks one of his bunnies. The Hornet continues visiting only players with bunnies in a counter-clockwise direction and only attacks one bunny per player before moving on to the next player.<br><br>If any opponent rolls higher than 18 on the Clear 20-sided die, then the Hornet and the bunnies are destroyed. If an opponent survives the attack by using Defense Cards, then the Hornet and the bunnies are not destroyed.<br><br>If the Hornet makes it back to the player who initially launched it, then the weapon is discarded and the bunnies are returned to The Bunny Circle. <a href=\"bunnypedia://card/185\">Barriers</a> placed after the launch of the Hornet may prevent it from ever returning to the original player.<br><br>If the Hornet has no viable bunny targets left in The Bunny Circle or if the Hornet is confined to an area of The Bunny Circle by two or more Barriers and cannot reach a viable bunny target on the other side, then the Hornet is removed (discarded) and the bunnies are returned to the player and placed in The Bunny Circle. Just like all Roaming Red Run cards, if the Hornet hits a Barrier, it will reverse direction and may affect the same player's bunnies on two consecutive turns."},
-      {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate the F-18 Hornet."},
-      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+      {"title": "Additional Rules", "text": "Double Free Agents, Specialty Bunny (double or triplet) and Celebrity Bunny (double or triplet) may be used in the Hornet, however, each counts as a single bunny. While these bunnies are away, a player may not use any Aggressive cards unless he has other bunnies in The Bunny Circle. The Hornet visits the first player counter-clockwise (that has at least one bunny in The Bunny Circle) and attacks one of his bunnies. The Hornet continues visiting only players with bunnies in a counter-clockwise direction and only attacks one bunny per player before moving on to the next player.<br><br>If any opponent rolls higher than 18 on the Clear 20-sided die, then the Hornet and the bunnies are destroyed. If an opponent survives the attack by using Defense Cards, then the Hornet and the bunnies are not destroyed.<br><br>If the Hornet makes it back to the player who initially launched it, then the weapon is discarded and the bunnies are returned to The Bunny Circle. <a href=\"bunnypedia://cards/185\">Barriers</a> placed after the launch of the Hornet may prevent it from ever returning to the original player.<br><br>If the Hornet has no viable bunny targets left in The Bunny Circle or if the Hornet is confined to an area of The Bunny Circle by two or more Barriers and cannot reach a viable bunny target on the other side, then the Hornet is removed (discarded) and the bunnies are returned to the player and placed in The Bunny Circle. Just like all Roaming Red Run cards, if the Hornet hits a Barrier, it will reverse direction and may affect the same player's bunnies on two consecutive turns."},
+      {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://cards/258\">Anti-Missile</a> can be used to eliminate the F-18 Hornet."},
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://cards/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {
@@ -219,9 +219,9 @@
     "dice": ["CLEAR"],
     "weaponLevel": "20",
     "rules": [
-      {"title": "Card Text", "text": "May be paced on any bunny which dies immediately. Plutonium remains in The Bunny Circle. Adjacent bunnies to the Plutonium die for two more rounds as it becomes the player's turn again. <a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive."},
+      {"title": "Card Text", "text": "May be paced on any bunny which dies immediately. Plutonium remains in The Bunny Circle. Adjacent bunnies to the Plutonium die for two more rounds as it becomes the player's turn again. <a href=\"bunnypedia://cards/61\">Clover</a> bunnies may survive."},
       {"title": "Additional Rules", "text": "If a bunny does survive (using Clover or Defense), it will have to roll or defend again on the next turn."},
-      {"title": "Albino Baby 5000", "text": "The <a href=\"bunnypedia://card/362\">Albino Baby 5000</a> can be used to protect bunnies from Plutonium Radiation."}
+      {"title": "Albino Baby 5000", "text": "The <a href=\"bunnypedia://cards/362\">Albino Baby 5000</a> can be used to protect bunnies from Plutonium Radiation."}
     ]
   },
   {
@@ -241,8 +241,8 @@
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "May be used by a player as any two bunnies of any color (except Red or Pink) If one bunny dies, then they both die."},
-      {"title": "Additional Rules", "text": "Double Free Agent bunnies may be used by a player as any two bunnies of any two kinds (Congenial, Gleeful, Lumbering, Sinister or Timid) and of any two colors (except Red or Pink). The identity of the two bunnies may be the same or different bunnies. The identity of the two bunnies may change at any time during play as the need arises. Double Free Agent bunnies make forming a Bunny Triplet much easier. A Double Free Agent must be treated as a single target when hit with a weapon or <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card. Double Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies"},
-      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://card/407\">Cloned</a>"}
+      {"title": "Additional Rules", "text": "Double Free Agent bunnies may be used by a player as any two bunnies of any two kinds (Congenial, Gleeful, Lumbering, Sinister or Timid) and of any two colors (except Red or Pink). The identity of the two bunnies may be the same or different bunnies. The identity of the two bunnies may change at any time during play as the need arises. Double Free Agent bunnies make forming a Bunny Triplet much easier. A Double Free Agent must be treated as a single target when hit with a weapon or <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> card. Double Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies"},
+      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://cards/407\">Cloned</a>"}
     ]
   },
   {
@@ -253,8 +253,8 @@
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "May be used by a player as any two bunnies of any color (except Red or Pink) If one bunny dies, then they both die."},
-      {"title": "Additional Rules", "text": "Double Free Agent bunnies may be used by a player as any two bunnies of any two kinds (Congenial, Gleeful, Lumbering, Sinister or Timid) and of any two colors (except Red or Pink). The identity of the two bunnies may be the same or different bunnies. The identity of the two bunnies may change at any time during play as the need arises. Double Free Agent bunnies make forming a Bunny Triplet much easier. A Double Free Agent must be treated as a single target when hit with a weapon or <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card. Double Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies"},
-      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://card/407\">Cloned</a>"}
+      {"title": "Additional Rules", "text": "Double Free Agent bunnies may be used by a player as any two bunnies of any two kinds (Congenial, Gleeful, Lumbering, Sinister or Timid) and of any two colors (except Red or Pink). The identity of the two bunnies may be the same or different bunnies. The identity of the two bunnies may change at any time during play as the need arises. Double Free Agent bunnies make forming a Bunny Triplet much easier. A Double Free Agent must be treated as a single target when hit with a weapon or <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> card. Double Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies"},
+      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://cards/407\">Cloned</a>"}
     ]
   },
   {
@@ -265,11 +265,11 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny. Heptdruple Lucky Clover lowers the strength of any weapon by seven."},
-      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://card/462\">Miracle Growth</a> can be used to double the amount of clover"},
-      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
+      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://cards/462\">Miracle Growth</a> can be used to double the amount of clover"},
+      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://cards/53\">Black Cat</a> can remove clover modifiers from a bunny."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
-      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."}
     ]
   },
   {
@@ -280,10 +280,10 @@
     "bunnyRequirement": "PLAY",
     "symbols": ["JUPITER"],
     "rules": [
-      {"title": "Card Text", "text": "The alien Mother abducts all of the bunnies of a single player. All bunnies are returned when another single bunny is taken using <a href=\"bunnypedia://card/49\">Area 51</a>."},
-      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
-      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
-      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
+      {"title": "Card Text", "text": "The alien Mother abducts all of the bunnies of a single player. All bunnies are returned when another single bunny is taken using <a href=\"bunnypedia://cards/49\">Area 51</a>."},
+      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://cards/61\">Clover</a> or the <a href=\"bunnypedia://cards/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://cards/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://cards/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://cards/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
     ]
   },
   {
@@ -336,7 +336,7 @@
     "rules": [
       {"title": "Card Text", "text": "If all dice show different numbers then the player receives 1 Carrot and 10 Dolla. If any two dice show the same number (doubles) then one of your bunnies gets snuffed by the Casino bosses.<br><br>Optional Gamble: Roll the Red die. If no doubles appear then receive another 10 Dolla and receive two bunnies from the discard pile. If doubles is rolled then all bunnies, Carrots and Dolla are taken"},
       {"title": "Additional Rules", "text": "The player may only take the Carrot if Kaballa's Market is open, but if he loses his Carrots in the optional gamble, they must be returned even if the market is closed.<br>The revived bunnies must be placed in The Bunny Circle."},
-      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Royale may be stolen using <a href=\"bunnypedia://card/716\">Bunny's Eleven</a>."},
+      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Royale may be stolen using <a href=\"bunnypedia://cards/716\">Bunny's Eleven</a>."},
       {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
@@ -352,7 +352,7 @@
     "rules": [
       {"title": "Card Text", "text": "If all dice show different numbers then the player receives 1 Carrot and 10 Dolla. If any two dice show the same number (doubles) then one of your bunnies gets snuffed by the Casino bosses.<br><br>Optional Gamble: Roll the Red die. If no doubles appear then receive another 10 Dolla and receive two bunnies from the discard pile. If doubles is rolled then all bunnies, Carrots and Dolla are taken"},
       {"title": "Additional Rules", "text": "The player may only take the Carrot if Kaballa's Market is open, but if he loses his Carrots in the optional gamble, they must be returned even if the market is closed.<br>The revived bunnies must be placed in The Bunny Circle."},
-      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Royale may be stolen using <a href=\"bunnypedia://card/716\">Bunny's Eleven</a>."},
+      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Royale may be stolen using <a href=\"bunnypedia://cards/716\">Bunny's Eleven</a>."},
       {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
@@ -499,8 +499,8 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to force the current player to replay his turn. Essentially a \"Do-Over\". May be used at any time!"},
       {"title": "Additional Rules", "text": "All cards played during the turn are returned to their starting positions at the beginning of the turn in the same order as they were before the turn began (except for the Bunny On The Edge Of Forever card, which is placed in the Discard Pile). The cards may need to be returned to the Draw Pile, Discard Pile or player's five-card hands. The current player's turn starts again. Play may very well continue exactly as it did the first time, unless a player changes his mind about an important decision, or unless a die rolls differently than it did before."},
-      {"title": "Tachyon Turnaround", "text": "<a href=\"bunnypedia://card/589\">Tachyon Turnaround</a> may be used to counteract Bunny On The Edge Of Forever."},
-      {"title": "Nothing Is Forever", "text": "<a href=\"bunnypedia://card/1241\">Nothing Is Forever</a> may be used to eliminate this card."}
+      {"title": "Tachyon Turnaround", "text": "<a href=\"bunnypedia://cards/589\">Tachyon Turnaround</a> may be used to counteract Bunny On The Edge Of Forever."},
+      {"title": "Nothing Is Forever", "text": "<a href=\"bunnypedia://cards/1241\">Nothing Is Forever</a> may be used to eliminate this card."}
     ]
   },
   {
@@ -521,7 +521,7 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to counteract <a href=\"bunnypedia://card/144\">Weil's Freshness Center</a> by keeping all his Carrots fresh (and tasty). May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player to counteract <a href=\"bunnypedia://cards/144\">Weil's Freshness Center</a> by keeping all his Carrots fresh (and tasty). May be used at any time!"}
     ]
   },
   {
@@ -532,9 +532,9 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies (suffering from acute myopia) jumps into a pool before checking the water level!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {

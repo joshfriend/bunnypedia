@@ -180,7 +180,7 @@
     "cabbage": 10,
     "water": 10,
     "rules": [
-      {"title": "Sunny Day", "text": "<a href=\"bunnypedia://card/82\">Sunny Day</a> can be used to eliminate the Gorge The Bunny."}
+      {"title": "Sunny Day", "text": "<a href=\"bunnypedia://cards/82\">Sunny Day</a> can be used to eliminate the Gorge The Bunny."}
     ]
   },
   {
@@ -230,7 +230,7 @@
     "weaponLevel": "10",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 10 to survive. Adjacent bunnies must roll higher than 9 to survive."},
-      {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://card/426\">Blue Angels</a> can be used to eliminate the Sea Whiz Mount."}
+      {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://cards/426\">Blue Angels</a> can be used to eliminate the Sea Whiz Mount."}
     ]
   },
   {
@@ -243,8 +243,8 @@
     "weaponLevel": "11",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must roll 12 to survive. Adjacent bunnies must roll higher than 10 to survive. Bunnies two spaces away must roll higher than 9 to survive and so on until all bunnies in The Bunny Circle have rolled."},
-      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
-      {"title": "Holographic Bunny", "text": "Miniature Black Hole can be used to kill the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Holographic Bunny", "text": "Miniature Black Hole can be used to kill the <a href=\"bunnypedia://cards/191\">Holographic Bunny</a>."}
     ]
   },
   {
@@ -256,8 +256,8 @@
     "bunnyRequirement": "PLAY",
     "weaponLevel": "12",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within three spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive."},
-      {"title": "Paradise Syndrome", "text": "<a href=\"bunnypedia://card/528\">Paradise Syndrome</a> can be used to eliminate the Stray Asteroid if it is a saved Special."}
+      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within three spaces are also killed. <a href=\"bunnypedia://cards/61\">Clover</a> bunnies may survive."},
+      {"title": "Paradise Syndrome", "text": "<a href=\"bunnypedia://cards/528\">Paradise Syndrome</a> can be used to eliminate the Stray Asteroid if it is a saved Special."}
     ]
   },
   {
@@ -269,8 +269,8 @@
     "symbols": ["JUPITER"],
     "rules": [
       {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."},
-      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
-      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
+      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://cards/61\">Clover</a> or the <a href=\"bunnypedia://cards/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://cards/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://cards/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://cards/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
     ]
   },
   {
@@ -282,7 +282,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to auction any bunny in The Bunny Circle. The highest bidder pays Kaballa (the Discard Pile) for the bunny."},
       {"title": "Additional Rules", "text": "The player bids first, and bidding continues in the order of play."},
-      {"title": "Heavenly Halo", "text": "Bunny Block Bid is one of the few cards which can be used to take a bunny wearing <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."}
+      {"title": "Heavenly Halo", "text": "Bunny Block Bid is one of the few cards which can be used to take a bunny wearing <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a>."}
     ]
   },
   {
@@ -318,7 +318,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player as a bunny of any kind and any color (except Red or Pink)."},
       {"title": "Additional Rules", "text": "Free Agent bunny may be used by a player as any bunny of any kind (Congenial, Gleeful, Lumbering, Sinister or Timid) and any color (except Red or Pink). The identity of the bunny may change at any time during play as the need arises. Free Agent bunnies make forming a Bunny Triplet much easier. Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies."},
-      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://card/407\">Cloned</a>"}
+      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://cards/407\">Cloned</a>"}
     ]
   },
   {
@@ -339,7 +339,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "CLOSED. Players may still take Carrots using <a href=\"bunnypedia://card/16\">Choose A Carrot</a> cards."}
+      {"title": "Card Text", "text": "CLOSED. Players may still take Carrots using <a href=\"bunnypedia://cards/16\">Choose A Carrot</a> cards."}
     ]
   },
   {
@@ -350,11 +350,11 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Quadruple Lucky Clover lowers the level of any weapon by four."},
-      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://card/462\">Miracle Growth</a> can be used to double the amount of clover"},
-      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can remove clover modifiers from a bunny."},
+      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://cards/462\">Miracle Growth</a> can be used to double the amount of clover"},
+      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://cards/53\">Black Cat</a> can remove clover modifiers from a bunny."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
-      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."}
     ]
   },
   {
@@ -376,7 +376,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "All players with at least one bunny in The Bunny Circle must roll a die. The lowest roller loses his bunny. The player may re-roll the die."},
-      {"title": "Additional Rules", "text": "Each player gets to choose which of his bunnies will participate. If a player's only bunny has <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>, then he may not participate since the bunny cannot be harmed.<br><br>If two players tie for the lowest roll, then both players must roll one of the dice again (and keep rolling) until the tie is broken."}
+      {"title": "Additional Rules", "text": "Each player gets to choose which of his bunnies will participate. If a player's only bunny has <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a>, then he may not participate since the bunny cannot be harmed.<br><br>If two players tie for the lowest roll, then both players must roll one of the dice again (and keep rolling) until the tie is broken."}
     ]
   },
   {
@@ -387,7 +387,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to force any opponent to either pay 2 Dolla each to keep his carrots fresh or return them to Kaballa's Market."},
-      {"title": "Weilerware", "text": "<a href=\"bunnypedia://card/318\">Weilerware</a> allows a player to counteract Weil's Freshness Center."}
+      {"title": "Weilerware", "text": "<a href=\"bunnypedia://cards/318\">Weilerware</a> allows a player to counteract Weil's Freshness Center."}
     ]
   },
   {
@@ -397,7 +397,7 @@
     "type": "SPECIAL",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate the <a href=\"bunnypedia://card/37\">Roaches</a> or to counteract the <a href=\"bunnypedia://card/64\">Maggots</a> before losing all of his Cabbage Units. This card must be a saved Special to be used immediately."},
+      {"title": "Card Text", "text": "May be used once by a player to eliminate the <a href=\"bunnypedia://cards/37\">Roaches</a> or to counteract the <a href=\"bunnypedia://cards/64\">Maggots</a> before losing all of his Cabbage Units. This card must be a saved Special to be used immediately."},
       {"title": "Additional Rules", "text": "Unlike Very Special cards, Bug Off may not be used to save other player's bunnies from harm. This card is for the exclusive use of the player who has it saved."}
     ]
   },
@@ -422,8 +422,8 @@
     "rules": [
       {"title": "Card Text", "text": "The player with this card saved must double the range and level of each weapon. Only weapon levels 1-9 are affected. Weapons affect the target bunny and adjacent bunnies. If at any time the player has no bunnies in The Bunny Circle then The Minilith is discarded."},
       {"title": "Additional Rules", "text": "Doubling the Weapon Level may make it nearly impossible for an opponent to survive a weapon. For example, if a player with The Minilith card saved plays the Flame Thrower (Weapon Level 8) on a bunny in The Bunny Circle, then all three bunnies affected would need to roll higher than 16 on the Black 12-sided die to survive (which is not possible). It is, however, possible for any bunny to have enough Clovers underneath it to survive."},
-      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
-      {"title": "Activate: The Minilith", "text": "<a href=\"bunnypedia://card/183\">Activate: The Minilith</a> can be used to steal The Minilith or force the player with The Minilith saved to risk losing carrots."}
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Activate: The Minilith", "text": "<a href=\"bunnypedia://cards/183\">Activate: The Minilith</a> can be used to steal The Minilith or force the player with The Minilith saved to risk losing carrots."}
     ]
   },
   {
@@ -433,7 +433,7 @@
     "type": "SPECIAL",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate the <a href=\"bunnypedia://card/42\">Flame Thrower</a> or to counteract <a href=\"bunnypedia://card/56\">Drought</a> before losing all of his Water Units. This card must be a saved Special to be used immediately."},
+      {"title": "Card Text", "text": "May be used once by a player to eliminate the <a href=\"bunnypedia://cards/42\">Flame Thrower</a> or to counteract <a href=\"bunnypedia://cards/56\">Drought</a> before losing all of his Water Units. This card must be a saved Special to be used immediately."},
       {"title": "Additional Rules", "text": "Unlike Very Special cards, Noah's Flood may not be used to save other player's bunnies from harm. This card is for the exclusive use of the player who has it saved."}
     ]
   },
@@ -446,7 +446,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to force any one opponent (or Rooney) to exchange any weapon of his for any weapon of yours."},
       {"title": "Additional Rules", "text": "The player must have at least one Weapon card in his five-card hand to use this card. First, choose any opponent. If the opponent has any Weapon cards in his hand, then he must show them to the player. Next, the player may exchange any of his Weapon cards for any of the opponent's Weapon cards. Of course if the opponent had no Weapon cards in his five-card hand, then the player is out of luck and Rooney's Weapons Exchange is discarded.<br><br>Starting with the Red Booster Deck, all weapon cards that are used in the game are stored (face up) at Rooney's Weapons Emporium. The player may also exchange one of his Weapon cards for any Weapon card that was already used in the game."},
-      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://cards/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {
@@ -466,8 +466,8 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be placed under any bunny and protects it from <a href=\"bunnypedia://card/44\">Fluorine Gas</a>, <a href=\"bunnypedia://card/47\">The Ebola Virus</a>, <a href=\"bunnypedia://card/235\">Curry Spiced Poppadoms</a>, <a href=\"bunnypedia://card/397\">Plant Spores</a>, and <a href=\"bunnypedia://card/509\">Necro Fasci</a>. May be used at any time!"},
-      {"title": "Fingercuffs", "text": "Containment Suit may be shared by two bunnies if they are connected by <a href\"bunnypedia://card/349\">Fingercuffs</a>"}
+      {"title": "Card Text", "text": "May be placed under any bunny and protects it from <a href=\"bunnypedia://cards/44\">Fluorine Gas</a>, <a href=\"bunnypedia://cards/47\">The Ebola Virus</a>, <a href=\"bunnypedia://cards/235\">Curry Spiced Poppadoms</a>, <a href=\"bunnypedia://cards/397\">Plant Spores</a>, and <a href=\"bunnypedia://cards/509\">Necro Fasci</a>. May be used at any time!"},
+      {"title": "Fingercuffs", "text": "Containment Suit may be shared by two bunnies if they are connected by <a href\"bunnypedia://cards/349\">Fingercuffs</a>"}
     ]
   },
   {
@@ -488,9 +488,9 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies is smothered in barbecue sauce, bound to a stick and slowly cooked for a Hillbilly Hoe Down!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -502,9 +502,9 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies is impaled by a stray lawn dart during a family outing."},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {

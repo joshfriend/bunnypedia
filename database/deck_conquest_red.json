@@ -23,7 +23,7 @@
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "rules": [
-    {"title": "Card Text", "text": "This bunny has a <a href=\"bunnypedia://card/830\">Lucky Horseshoe Triple</a> which lowers the level of any weapon by three."}
+    {"title": "Card Text", "text": "This bunny has a <a href=\"bunnypedia://cards/830\">Lucky Horseshoe Triple</a> which lowers the level of any weapon by three."}
   ]
 },
 {
@@ -113,7 +113,7 @@
   "milk": 1,
   "rules": [
     {"title": "Card Text", "text": "May be given to all opponents with a bunny. Each must feed any one bunny the amounts shown by the end of their next turns or their bunny dies."},
-    {"title": "Additional Rules", "text": "When this card is played, each opponent that has at least one bunny must feed. If an opponent has more than one bunny, then the opponent may choose which bunny to feed. Any bunnies that arrive in The Bunny Circle between the time that the card was played and the end of the player's turn do not have to feed. If a player has the <a href=\"bunnypedia://card/936\">Red Evil Bunny</a>, <a href=\"bunnypedia://card/958\">Holographic Bunny</a. or a bunny with the <a href=\"bunnypedia://card/819\">Angle Wings</a>, then he may choose one of these bunnies since none of them need to feed."}
+    {"title": "Additional Rules", "text": "When this card is played, each opponent that has at least one bunny must feed. If an opponent has more than one bunny, then the opponent may choose which bunny to feed. Any bunnies that arrive in The Bunny Circle between the time that the card was played and the end of the player's turn do not have to feed. If a player has the <a href=\"bunnypedia://cards/936\">Red Evil Bunny</a>, <a href=\"bunnypedia://cards/958\">Holographic Bunny</a. or a bunny with the <a href=\"bunnypedia://cards/819\">Angle Wings</a>, then he may choose one of these bunnies since none of them need to feed."}
   ]
 },
 {
@@ -197,11 +197,11 @@
   "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
-    {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://card/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
-    {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
-    {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
-    {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
-    {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://card/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
+    {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://cards/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> or <a href=\"bunnypedia://cards/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+    {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://cards/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://cards/80\">Magic Spatula</a>."},
+    {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://cards/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://cards/287\">Boomerang</a><li><a href=\"bunnypedia://cards/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://cards/480\">Electron Tunneling</a><li><a href=\"bunnypedia://cards/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://cards/400\">Psychic Waves</a><li><a href=\"bunnypedia://cards/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://cards/343\">Snowball</a></ul>"},
+    {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://cards/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
+    {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://cards/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
   ]
 },
 {
@@ -212,11 +212,11 @@
   "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
-    {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://card/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
-    {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
-    {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
-    {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
-    {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://card/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
+    {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://cards/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> or <a href=\"bunnypedia://cards/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+    {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://cards/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://cards/80\">Magic Spatula</a>."},
+    {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://cards/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://cards/287\">Boomerang</a><li><a href=\"bunnypedia://cards/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://cards/480\">Electron Tunneling</a><li><a href=\"bunnypedia://cards/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://cards/400\">Psychic Waves</a><li><a href=\"bunnypedia://cards/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://cards/343\">Snowball</a></ul>"},
+    {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://cards/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
+    {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://cards/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
   ]
 },
 {
@@ -238,7 +238,7 @@
   "rules": [
     {"title": "Card Text", "text": "May be used once by a player to force any opponent to exchange two of his Carrots for one of yours."},
     {"title": "Additional Rules", "text": "In order to use this card, the opponent must have at least two Carrots. Carrot Exchange cannot be used for a one to one exchange. The player chooses all three Carrots in the exchange."},
-    {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+    {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://cards/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
   ]
 },
 {
@@ -257,7 +257,7 @@
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "rules": [
-    {"title": "Card Text", "text": "A Red Bunny that does not need to feed and cannot be used to win the game since it is not technically alive. This bunny can only be harmed by <a href=\"bunnypedia://card/806\">Quantum Singu-harity</a>, <a href=\"bunnypedia://card/809\">Ruby Laser Slippers</a>, <a href=\"bunnypedia://card/813\">Servo Pen</a>, <a href=\"bunnypedia://card/1006\">Blipverts</a>, <a href=\"bunnypedia://card/1113\">Magnetic Monopole</a>, <a href=\"bunnypedia://card/1228\">Thermo-Nuclear Chicken Wings</a>, and Spectral Cleansing."},
+    {"title": "Card Text", "text": "A Red Bunny that does not need to feed and cannot be used to win the game since it is not technically alive. This bunny can only be harmed by <a href=\"bunnypedia://cards/806\">Quantum Singu-harity</a>, <a href=\"bunnypedia://cards/809\">Ruby Laser Slippers</a>, <a href=\"bunnypedia://cards/813\">Servo Pen</a>, <a href=\"bunnypedia://cards/1006\">Blipverts</a>, <a href=\"bunnypedia://cards/1113\">Magnetic Monopole</a>, <a href=\"bunnypedia://cards/1228\">Thermo-Nuclear Chicken Wings</a>, and Spectral Cleansing."},
     {"title": "Additional Rules", "text": "Holographic Bunny can be used to form a Bunny Triplet with other Red bunnies."}
   ]
 },
@@ -282,9 +282,9 @@
     {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Single lowers the level of any weapon by five."},
     {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
     {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
-    {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
-    {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
-    {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://card/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+    {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."},
+    {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://cards/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+    {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://cards/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
   ]
 },
 {
@@ -306,7 +306,7 @@
   "dice": ["BLUE", "RED"],
   "rules": [
     {"title": "Card Text", "text": "OMP will attack one player every round in a counter-clockwise direction. The bunny that has the highest Card Identification Number is the direct target. The bunny attacked must roll higher than 9 to survive and adjacent bunnies must roll higher than 8 to survive."},
-    {"title": "Additional Rules", "text": "As Orbital Missile Platform travels from one player to the next, the player's bunny that has the highest Card Identification Number is the direct target of the attack.<br><br>Adjacent bunnies to the target bunny may belong to the same player of his opponents.<br><br>After the attack, Orbital Missile Platform moves to the next player counter-clockwise and waits until the next round of play. If the next player has not bunnies in The Bunny Circle, then Orbital Missile Platform does not attack. When Orbital Missile Platform encounters a <a href=\"bunnypedia://card/185\">Barrier</a>, it will change direction and attack the same player on consecutive turns.<br><br>Orbital Missile Platform may be immediately eliminated (discarded) anytime during an attack that a player rolls the same number on both 12-side dice (Blue and Red) without incurring any damage to the bunny."}
+    {"title": "Additional Rules", "text": "As Orbital Missile Platform travels from one player to the next, the player's bunny that has the highest Card Identification Number is the direct target of the attack.<br><br>Adjacent bunnies to the target bunny may belong to the same player of his opponents.<br><br>After the attack, Orbital Missile Platform moves to the next player counter-clockwise and waits until the next round of play. If the next player has not bunnies in The Bunny Circle, then Orbital Missile Platform does not attack. When Orbital Missile Platform encounters a <a href=\"bunnypedia://cards/185\">Barrier</a>, it will change direction and attack the same player on consecutive turns.<br><br>Orbital Missile Platform may be immediately eliminated (discarded) anytime during an attack that a player rolls the same number on both 12-side dice (Blue and Red) without incurring any damage to the bunny."}
   ]
 },
 {
@@ -415,7 +415,7 @@
   "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "May be used once by a player to immediately restore all bunnies back into their positions if all of the bunnies in The Bunny Circle were killed during the same turn. Bunny Modifiers are not returned. May be used at any time!"},
-    {"title": "Additional Rules", "text": "If even one bunny in The Bunny Circle survives, then Everybody's Dead Dave cannot be played because clearly everybody is not dead. Bunny Modifiers (such as <a href=\"bunnypedia://card/828\">Lucky Horseshoe</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>) are not returned. May be used at any time!"}
+    {"title": "Additional Rules", "text": "If even one bunny in The Bunny Circle survives, then Everybody's Dead Dave cannot be played because clearly everybody is not dead. Bunny Modifiers (such as <a href=\"bunnypedia://cards/828\">Lucky Horseshoe</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>) are not returned. May be used at any time!"}
   ]
 },
 {
@@ -425,7 +425,7 @@
   "type": "VERY_SPECIAL",
   "bunnyRequirement": "NO",
   "rules": [
-    {"title": "Card Text", "text": "May be used once by a player to eliminate any <a href=\"bunnypedia://card/83\">Terrible Misfortune</a>. May be used at any time!"},
+    {"title": "Card Text", "text": "May be used once by a player to eliminate any <a href=\"bunnypedia://cards/83\">Terrible Misfortune</a>. May be used at any time!"},
     {"title": "Additional Rules", "text": "Guardian Angel also eliminates Very and Extremely Terrible Misfortune. May be used at any time!"}
   ]
 },
@@ -447,7 +447,7 @@
   "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
-    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
+    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
   ]
 },
 {
@@ -459,7 +459,7 @@
   "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
-    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
+    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
   ]
 },
 {
@@ -470,7 +470,7 @@
   "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
-    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
+    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
   ]
 },
 {
@@ -482,7 +482,7 @@
   "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
-    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
+    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
   ]
 },
 {

@@ -4,6 +4,7 @@ import android.content.res.ColorStateList
 import android.view.View
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.RequestManager
+import com.bumptech.glide.request.target.Target
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.ext.android.stripHtmlTags
@@ -15,6 +16,7 @@ class CardListViewHolder(override val containerView: View) : CardViewHolder(cont
   override fun bind(requestManager: RequestManager, cardAndRules: CardWithRules) {
     requestManager
       .load(cardAndRules.card.imageURI)
+      .override(Target.SIZE_ORIGINAL)
       .into(image)
 
     val (card, rules) = cardAndRules

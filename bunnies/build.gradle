@@ -85,9 +85,16 @@ dependencies {
     implementation 'com.google.android:flexbox:1.1.0'
     implementation 'androidx.core:core-ktx:1.0.1'
 
-    def archComponentsVersion = "2.0.0"
+    def archComponentsVersion = "2.1.0-alpha04"
     implementation "androidx.lifecycle:lifecycle-runtime:$archComponentsVersion"
     implementation "androidx.lifecycle:lifecycle-extensions:$archComponentsVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$archComponentsVersion"
+    def navVersion = "1.0.0"
+    implementation "android.arch.navigation:navigation-fragment:$navVersion"
+    implementation "android.arch.navigation:navigation-fragment-ktx:$navVersion"
+    implementation "android.arch.navigation:navigation-ui:$navVersion"
+    implementation "android.arch.navigation:navigation-ui-ktx:$navVersion"
+    implementation "android.arch.navigation:navigation-fragment:$navVersion"
     def roomVersion = "2.1.0-alpha06"
     implementation "androidx.room:room-runtime:$roomVersion"
     implementation "androidx.room:room-rxjava2:$roomVersion"

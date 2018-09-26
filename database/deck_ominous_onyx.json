@@ -89,8 +89,8 @@
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "This bunny possesses all of the advantages of Super bunnies and all of the special features of all of the Red bunnies."},
-      {"title": "Additional Rules", "text": "The advantages of Super bunnies:<br><ol><li> The player with a Super Bunny in The Bunny Circle may automatically play two cards per turn.</li><li> When a Super Bunny is attacked with a Weapon card, the player may roll the Clear 20-sided die regardless of the weapon level. Even though this has no advantage if the weapon level is 13 or higher, it is a great advantage for weapons with levels 1-12.</li><li> When a Super Bunny is placed in The Bunny Circle, all bunnies that are the same color (or half color) as the Super Bunny are immediately eliminated from The Bunny Circle. Until the Super Bunny itself is eliminated, no bunny of the same color (or half color) can survive in The Bunny Circle.<br><br>A Red or Pink bunny that has The <a href=\"bunnypedia://card/58\">Heavenly Halo</a> is not eliminated from The Bunny Circle if a Red or Pink Extra Super Bunny of the same color arrives. If The Heavenly Halo is placed on the Extra Super Bunny, then all bunnies of the same color arriving in The Bunny Circle are safe (not discarded).</li><br><br>Once an Extra Super Bunny has been eliminated, it cannot be purchased from Weil's Pawn Shop nor can it be brought back into the game for any reason using any card. In addition, an Extra Super Bunny cannot be affected by the cards: <a href=\"bunnypedia://card/407\">Cloning</a>, <a href=\"bunnypedia://card/239\">Bunny Booster</a>, <a href=\"bunnypedia://card/254\">Random Paintball Assault</a>, <a href=\"bunnypedia://card/568\">Better Bunny Booster</a> or <a href=\"bunnypedia://card/515\">Blanch</a>."},
-      {"title": "Red Bunny Benefits", "text": "<ul><li><a href=\"bunnypedia://card/166\">Red Congenial Bunny</a> - 3 Cabbage and 3 Water Units</li><li><a href=\"bunnypedia://card/167\">Red Gleeful Bunny</a> - 3 Dolla</li><li><a href=\"bunnypedia://card/168\">Red Lumbering Bunny</a> - Triple Lucky Clover</li><li><a href=\"bunnypedia://card/169\">Red Sinister Bunny</a> - Bounce Back Force Field</li><li><a href=\"bunnypedia://card/170\">Red Timid Bunny</a> - re-roll capabilities for all of the dice.</li></ul>"}
+      {"title": "Additional Rules", "text": "The advantages of Super bunnies:<br><ol><li> The player with a Super Bunny in The Bunny Circle may automatically play two cards per turn.</li><li> When a Super Bunny is attacked with a Weapon card, the player may roll the Clear 20-sided die regardless of the weapon level. Even though this has no advantage if the weapon level is 13 or higher, it is a great advantage for weapons with levels 1-12.</li><li> When a Super Bunny is placed in The Bunny Circle, all bunnies that are the same color (or half color) as the Super Bunny are immediately eliminated from The Bunny Circle. Until the Super Bunny itself is eliminated, no bunny of the same color (or half color) can survive in The Bunny Circle.<br><br>A Red or Pink bunny that has The <a href=\"bunnypedia://cards/58\">Heavenly Halo</a> is not eliminated from The Bunny Circle if a Red or Pink Extra Super Bunny of the same color arrives. If The Heavenly Halo is placed on the Extra Super Bunny, then all bunnies of the same color arriving in The Bunny Circle are safe (not discarded).</li><br><br>Once an Extra Super Bunny has been eliminated, it cannot be purchased from Weil's Pawn Shop nor can it be brought back into the game for any reason using any card. In addition, an Extra Super Bunny cannot be affected by the cards: <a href=\"bunnypedia://cards/407\">Cloning</a>, <a href=\"bunnypedia://cards/239\">Bunny Booster</a>, <a href=\"bunnypedia://cards/254\">Random Paintball Assault</a>, <a href=\"bunnypedia://cards/568\">Better Bunny Booster</a> or <a href=\"bunnypedia://cards/515\">Blanch</a>."},
+      {"title": "Red Bunny Benefits", "text": "<ul><li><a href=\"bunnypedia://cards/166\">Red Congenial Bunny</a> - 3 Cabbage and 3 Water Units</li><li><a href=\"bunnypedia://cards/167\">Red Gleeful Bunny</a> - 3 Dolla</li><li><a href=\"bunnypedia://cards/168\">Red Lumbering Bunny</a> - Triple Lucky Clover</li><li><a href=\"bunnypedia://cards/169\">Red Sinister Bunny</a> - Bounce Back Force Field</li><li><a href=\"bunnypedia://cards/170\">Red Timid Bunny</a> - re-roll capabilities for all of the dice.</li></ul>"}
     ]
   },
   {
@@ -100,8 +100,8 @@
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "This bunny possesses all of the advantages of Super bunnies and all of the special features of all of the Pink bunnies."},
-      {"title": "Additional Rules", "text": "The advantages of Super bunnies:<br><ol><li> The player with a Super Bunny in The Bunny Circle may automatically play two cards per turn.</li><li> When a Super Bunny is attacked with a Weapon card, the player may roll the Clear 20-sided die regardless of the weapon level. Even though this has no advantage if the weapon level is 13 or higher, it is a great advantage for weapons with levels 1-12.</li><li> When a Super Bunny is placed in The Bunny Circle, all bunnies that are the same color (or half color) as the Super Bunny are immediately eliminated from The Bunny Circle. Until the Super Bunny itself is eliminated, no bunny of the same color (or half color) can survive in The Bunny Circle.<br>A Red or Pink bunny that has The <a href=\"bunnypedia://card/58\">Heavenly Halo</a> is not eliminated from The Bunny Circle if a Red or Pink Extra Super Bunny of the same color arrives. If The Heavenly Halo is placed on the Extra Super Bunny, then all bunnies of the same color arriving in The Bunny Circle are safe (not discarded).</li><br><br>Once an Extra Super Bunny has been eliminated, it cannot be purchased from Weil's Pawn Shop nor can it be brought back into the game for any reason using any card. In addition, an Extra Super Bunny cannot be affected by the cards: <a href=\"bunnypedia://card/407\">Cloning</a>, <a href=\"bunnypedia://card/239\">Bunny Booster</a>, <a href=\"bunnypedia://card/254\">Random Paintball Assault</a>, <a href=\"bunnypedia://card/568\">Better Bunny Booster</a> or <a href=\"bunnypedia://card/515\">Blanch</a>."},
-      {"title": "Pink Bunny Benefits", "text": "<ul><li> <a href=\"bunnypedia://card/496\">Pink Congenial</a> - 5 Cabbage and Water Units</li><li> <a href=\"bunnypedia://card/497\">Pink Gleeful</a> - 5 Dolla</li><li> <a href=\"bunnypedia://card/498\">Pink Lumbering</a> - Quindruple Lucky Clover</li><li> <a href=\"bunnypedia://card/499\">Pink Sinister</a> - Bounce-Back Force Field</li><li> <a href=\"bunnypedia://card/500\">Pink Timid</a> - Substitute Pink die for any roll</li></ul>"}
+      {"title": "Additional Rules", "text": "The advantages of Super bunnies:<br><ol><li> The player with a Super Bunny in The Bunny Circle may automatically play two cards per turn.</li><li> When a Super Bunny is attacked with a Weapon card, the player may roll the Clear 20-sided die regardless of the weapon level. Even though this has no advantage if the weapon level is 13 or higher, it is a great advantage for weapons with levels 1-12.</li><li> When a Super Bunny is placed in The Bunny Circle, all bunnies that are the same color (or half color) as the Super Bunny are immediately eliminated from The Bunny Circle. Until the Super Bunny itself is eliminated, no bunny of the same color (or half color) can survive in The Bunny Circle.<br>A Red or Pink bunny that has The <a href=\"bunnypedia://cards/58\">Heavenly Halo</a> is not eliminated from The Bunny Circle if a Red or Pink Extra Super Bunny of the same color arrives. If The Heavenly Halo is placed on the Extra Super Bunny, then all bunnies of the same color arriving in The Bunny Circle are safe (not discarded).</li><br><br>Once an Extra Super Bunny has been eliminated, it cannot be purchased from Weil's Pawn Shop nor can it be brought back into the game for any reason using any card. In addition, an Extra Super Bunny cannot be affected by the cards: <a href=\"bunnypedia://cards/407\">Cloning</a>, <a href=\"bunnypedia://cards/239\">Bunny Booster</a>, <a href=\"bunnypedia://cards/254\">Random Paintball Assault</a>, <a href=\"bunnypedia://cards/568\">Better Bunny Booster</a> or <a href=\"bunnypedia://cards/515\">Blanch</a>."},
+      {"title": "Pink Bunny Benefits", "text": "<ul><li> <a href=\"bunnypedia://cards/496\">Pink Congenial</a> - 5 Cabbage and Water Units</li><li> <a href=\"bunnypedia://cards/497\">Pink Gleeful</a> - 5 Dolla</li><li> <a href=\"bunnypedia://cards/498\">Pink Lumbering</a> - Quindruple Lucky Clover</li><li> <a href=\"bunnypedia://cards/499\">Pink Sinister</a> - Bounce-Back Force Field</li><li> <a href=\"bunnypedia://cards/500\">Pink Timid</a> - Substitute Pink die for any roll</li></ul>"}
     ]
   },
   {
@@ -184,7 +184,7 @@
     "dice": ["BLUE", "BLACK"],
     "rules": [
       {"title": "Card Text", "text": "Must be used by a Guy player against a Guy opponent's bunny. The player rolls the Blue die first to determine the Weapon Level. The opponent rolls the Black die which must be higher than the Blue die for the bunny to survive."},
-      {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol's bunnies, she cannot use <a href=\"bunnypedia://card/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://card/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker's bunnies if the gender conditions were satisfied."}
+      {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol's bunnies, she cannot use <a href=\"bunnypedia://cards/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://cards/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker's bunnies if the gender conditions were satisfied."}
     ]
   },
   {
@@ -196,7 +196,7 @@
     "dice": ["BLUE", "BLACK"],
     "rules": [
       {"title": "Card Text", "text": "Must be used by a Guy player against a Gal opponent's bunny. The player rolls the Blue die first to determine the Weapon Level. The opponent rolls the Black die which must be higher than the Blue die for the bunny to survive."},
-      {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol's bunnies, she cannot use <a href=\"bunnypedia://card/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://card/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker's bunnies if the gender conditions were satisfied."}
+      {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol's bunnies, she cannot use <a href=\"bunnypedia://cards/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://cards/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker's bunnies if the gender conditions were satisfied."}
     ]
   },
   {
@@ -209,7 +209,7 @@
     "dice": ["BLACK", "PINK"],
     "rules": [
       {"title": "Card Text", "text": "Must be used by a Gal player against a Guy opponent's Bunny. The player rolls the Pink die first to determine the Weapon Level. The opponent rolls the Black die which must be higher than the Pink die for the bunny to survive."},
-      {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol's bunnies, she cannot use <a href=\"bunnypedia://card/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://card/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker's bunnies if the gender conditions were satisfied."}
+      {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol's bunnies, she cannot use <a href=\"bunnypedia://cards/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://cards/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker's bunnies if the gender conditions were satisfied."}
     ]
   },
   {
@@ -222,7 +222,7 @@
     "dice": ["BLACK", "PINK"],
     "rules": [
       {"title": "Card Text", "text": "Must be used by a Gal player against a Gal opponent's Bunny. The player rolls the Pink die first to determine the Weapon Level. The opponent rolls the Black die which must be higher than the Pink die for the bunny to survive."},
-      {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol's bunnies, she cannot use <a href=\"bunnypedia://card/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://card/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker's bunnies if the gender conditions were satisfied."}
+      {"title": "Additional Rules", "text": "If you have a Gender Weapon in your hand that you cannot play, then you may either trade it to another player, or run it through the Bottom and Top Run card cycle and discard it.<br><br>Players may declare themselves male or female before the start of the game if they wish to choose their gender.<br><br>Gender Weapons that are reversed, bounced back or otherwise redirected by a player must still follow the gender restrictions. For example, if Tim plays a Guy/Gal weapon on one of Carol's bunnies, she cannot use <a href=\"bunnypedia://cards/152\">Reversal Of Fortune</a> to send it back to Tim since she is not a Guy and he is not a Gal. If a <a href=\"bunnypedia://cards/169\">Red Sinister</a> (with a Bounce Back Force Field) is unsuccessfully attacked with a Gender Weapon, then it would only return to one of the attacker's bunnies if the gender conditions were satisfied."}
     ]
   },
   {
@@ -276,7 +276,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to freeze any opponent's food supply. Arctic Caribou is removed once the opponent kills any bunny in The Bunny Circle (or in space)."},
-      {"title": "Additional Rules", "text": "Cabbage Units or Water Units as cards or Vouchers that are owned by the opponent at the time that Arctic Caribou is played may not be used to <a href=\"bunnypedia://card/24\">Feed The Bunny</a> or to trade with other players. Cabbage Units or Water Units purchased afterwards will be available to the opponent.<br><br>Also, the opponent's Cabbage Units and Water Units may not be taken for any reason by cards such as <a href=\"bunnypedia://card/56\">Drought</a>, <a href=\"bunnypedia://card/64\">Maggots</a> or <a href=\"bunnypedia://card/142\">Rock Bottom</a>."}
+      {"title": "Additional Rules", "text": "Cabbage Units or Water Units as cards or Vouchers that are owned by the opponent at the time that Arctic Caribou is played may not be used to <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> or to trade with other players. Cabbage Units or Water Units purchased afterwards will be available to the opponent.<br><br>Also, the opponent's Cabbage Units and Water Units may not be taken for any reason by cards such as <a href=\"bunnypedia://cards/56\">Drought</a>, <a href=\"bunnypedia://cards/64\">Maggots</a> or <a href=\"bunnypedia://cards/142\">Rock Bottom</a>."}
     ]
   },
   {
@@ -317,7 +317,7 @@
     "deck": "OMINOUS_ONYX",
     "type": "RUN",
     "rules": [
-      {"title": "Card Text", "text": "An Orange bunny that cannot be directly targeted by any weapon or safety hazard. All <a href=\"bunnypedia://card/24\">FTB</a> cards placed on this bunny require twice the amounts (or two <a href=\"bunnypedia://card/72\">Danish</a>)"}
+      {"title": "Card Text", "text": "An Orange bunny that cannot be directly targeted by any weapon or safety hazard. All <a href=\"bunnypedia://cards/24\">FTB</a> cards placed on this bunny require twice the amounts (or two <a href=\"bunnypedia://cards/72\">Danish</a>)"}
     ]
   },
   {
@@ -459,7 +459,7 @@
     "dice": ["ZODIAC"],
     "rules": [
       {"title": "Card Text", "text": "May be used once to force players whose birth zodiac sign is the same as the one rolled to switch positions exchanging all of their possessions with another player."},
-      {"title": "Additional Rules", "text": "Identity Crisis may be stopped by <a href=\"bunnypedia://card/80\">The Magic Spatula</a>. If only one player has the birth zodiac sign rolled, then no switching occurs."}
+      {"title": "Additional Rules", "text": "Identity Crisis may be stopped by <a href=\"bunnypedia://cards/80\">The Magic Spatula</a>. If only one player has the birth zodiac sign rolled, then no switching occurs."}
     ]
   },
   {
@@ -526,7 +526,7 @@
     "dice": ["RED"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to pinch (steal) the Mysterious Place card that matches the number rolled."},
-      {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://card/728\">Spider Bunny</a> may be used to counteract Pinch Your Place."}
+      {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://cards/728\">Spider Bunny</a> may be used to counteract Pinch Your Place."}
     ]
   },
   {
@@ -557,7 +557,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to change any saved <a href=\"bunnypedia://card/72\">Danish</a> to a Strawberry Tart that may only be used to feed Red, half Red, or Pink bunnies."}
+      {"title": "Card Text", "text": "May be used once by a player to change any saved <a href=\"bunnypedia://cards/72\">Danish</a> to a Strawberry Tart that may only be used to feed Red, half Red, or Pink bunnies."}
     ]
   },
   {
@@ -580,8 +580,8 @@
     "dice": ["BLUE", "CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "May be placed on any Mysterious Place card and travels counter-clockwise visiting Mysterious Place cards in ascending numerical order. Each Mysterious Place card is destroyed unless the player can roll its number on either the Blue or Clear die then Two Fish are destroyed."},
-      {"title": "Additional Rules", "text": "The player who must roll to protect his saved Mysterious Place card may choose which die to roll. As they travel around The Bunny Circle, Two Fish destroy any <a href=\"bunnypedia://card/185\">Barriers</a> that they encounter between players, but are destroyed themselves by <a href=\"bunnypedia://card/463\">Neutronium Barriers</a>. If at any time, no player has a Mysterious Place card saved, then Two Fish is discarded."},
-      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+      {"title": "Additional Rules", "text": "The player who must roll to protect his saved Mysterious Place card may choose which die to roll. As they travel around The Bunny Circle, Two Fish destroy any <a href=\"bunnypedia://cards/185\">Barriers</a> that they encounter between players, but are destroyed themselves by <a href=\"bunnypedia://cards/463\">Neutronium Barriers</a>. If at any time, no player has a Mysterious Place card saved, then Two Fish is discarded."},
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://cards/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {
@@ -601,7 +601,7 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to receive <a href=\"bunnypedia://card/430\">The White Stuff</a>, the White Pawn, and all White Bunnies (<a href=\"bunnypedia://card/57\">Free Agent</a>, <a href=\"bunnypedia://card/296\">Double Free Agent</a>, and <a href=\"bunnypedia://card/515\">Blanch</a>) in The Bunny Circle."},
+      {"title": "Card Text", "text": "May be used once by a player to receive <a href=\"bunnypedia://cards/430\">The White Stuff</a>, the White Pawn, and all White Bunnies (<a href=\"bunnypedia://cards/57\">Free Agent</a>, <a href=\"bunnypedia://cards/296\">Double Free Agent</a>, and <a href=\"bunnypedia://cards/515\">Blanch</a>) in The Bunny Circle."},
       {"title": "Additional Rules", "text": "The player may give the items to any opponent or opponents that he wishes or keep them for himself."}
     ]
   },
@@ -622,8 +622,8 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any Roaming Red Run card currently roaming which prevents the card from changing direction when it encounters a <a href=\"bunnypedia://card/185\">Barrier</a>."},
-      {"title": "Additional Rules", "text": "If it should encounter a Barrier, then Zener Diode and the Roaming Red Run card will remain dormant until the Barrier is either moved, or eliminated (discarded). Zener Diode does not prevent a Roaming Red Run from being destroyed by a <a href=\"bunnypedia://card/463\">Neutronium Barrier</a>."}
+      {"title": "Card Text", "text": "May be placed on any Roaming Red Run card currently roaming which prevents the card from changing direction when it encounters a <a href=\"bunnypedia://cards/185\">Barrier</a>."},
+      {"title": "Additional Rules", "text": "If it should encounter a Barrier, then Zener Diode and the Roaming Red Run card will remain dormant until the Barrier is either moved, or eliminated (discarded). Zener Diode does not prevent a Roaming Red Run from being destroyed by a <a href=\"bunnypedia://cards/463\">Neutronium Barrier</a>."}
     ]
   },
   {
@@ -686,7 +686,7 @@
     "type": "SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate any bunny that is alone between two <a href=\"bunnypedia://card/185\">Barriers</a>."}
+      {"title": "Card Text", "text": "May be used once by a player to eliminate any bunny that is alone between two <a href=\"bunnypedia://cards/185\">Barriers</a>."}
     ]
   },
   {
@@ -719,7 +719,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to protect any one bunny from the effects of a range weapon. The bunny cannot be the direct target of the weapon. May be used at any time!"},
-      {"title": "Additional Rules", "text": "Bunny Bunker may be used once by a player to protect any one bunny from the effects of a range weapon such as the <a href=\"bunnypedia://card/48\">Nuclear Warhead</a>. The bunny cannot be the direct target of the weapon or connected to the direct target using <a href\"bunnypedia://card/349\">Fingercuffs</a>. May be used at any time!"}
+      {"title": "Additional Rules", "text": "Bunny Bunker may be used once by a player to protect any one bunny from the effects of a range weapon such as the <a href=\"bunnypedia://cards/48\">Nuclear Warhead</a>. The bunny cannot be the direct target of the weapon or connected to the direct target using <a href\"bunnypedia://cards/349\">Fingercuffs</a>. May be used at any time!"}
     ]
   },
   {
@@ -749,7 +749,7 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to force any player with a pending <a href=\"bunnypedia://card/24\">Feed The Bunny</a> on one of his bunnies to Feed Now Or Die. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a player to force any player with a pending <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> on one of his bunnies to Feed Now Or Die. May be used at any time!"}
     ]
   },
   {
@@ -816,8 +816,8 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies was just a bit too slow while playing chicken near a set of railroad tracks!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -828,8 +828,8 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "Because of an argument over the bill all of your bunnies in The Bunny Circle get pecked to death by dastardly irate ducks!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -840,8 +840,8 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "All bunnies in The Bunny Circle (and in space) experience instantaneous proton decay and disappear."},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -960,8 +960,8 @@
     "rules": [
       {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
       {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone's permission."},
-      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"}
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"}
     ]
   },
   {
@@ -973,8 +973,8 @@
     "rules": [
       {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
       {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone's permission."},
-      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"}
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"}
     ]
   },
   {
@@ -986,8 +986,8 @@
     "rules": [
       {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Enlisted ranked bunny may play one card directly from his five-card hand each turn."},
       {"title": "Highest Enlisted Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Enlisted ranked bunny (HERB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of the player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HERB may use the special privilege during the turn it was acquired. A player who has the second highest Enlisted ranked bunny is encouraged to kill the HERB so that he may obtain the special privilege for himself.<br><br>If any bunnies in The Bunny Circle have Officer ranks, then the player who owns the HERB must ask the permission of the player who owns the HORB to use the special privilege. If the player who owns the HORB replies in the negative, then the player who owns the HERB loses the special privilege for one round of play. The player who owns the HERB may ask permission each round of play, but the decision to allow him the special privilege, or to disallow him the special privilege, lies solely with the player who owns the HORB at the time.<br><br>If at any time, no bunnies with Officer ranks are in The Bunny Circle, then the player who owns the HERB may use the special privilege without asking anyone's permission."},
-      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"}
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"}
     ]
   },
   {
@@ -999,9 +999,9 @@
     "rules": [
       {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
       {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-      {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+      {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
     ]
   },
   {
@@ -1013,9 +1013,9 @@
     "rules": [
       {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
       {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-      {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+      {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
     ]
   },
   {
@@ -1027,9 +1027,9 @@
     "rules": [
       {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
       {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-      {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
+      {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+      {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+      {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
     ]
   },
   {

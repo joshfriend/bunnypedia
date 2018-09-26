@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:tools="http://schemas.android.com/tools"
-          package="com.fueledbycaffeine.bunnypedia"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fueledbycaffeine.bunnypedia"
+    >
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:name=".injection.App"
@@ -13,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
-        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        >
 
         <meta-data
             android:name="io.fabric.ApiKey"
@@ -22,26 +25,15 @@
 
         <activity
             android:name=".ui.MainActivity"
-            android:theme="@style/AppTheme.Fullscreen"
-            android:launchMode="singleTop">
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTask"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            <nav-graph android:value="@navigation/nav_graph" />
         </activity>
-
-        <activity
-            android:name=".ui.card.CardDetailActivity"
-            android:parentActivityName=".ui.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            />
-
-        <activity
-            android:name=".ui.settings.SettingsActivity"
-            android:parentActivityName=".ui.MainActivity"
-            android:theme="@style/AppTheme"
-            android:label="@string/settings"
-            />
 
     </application>
 

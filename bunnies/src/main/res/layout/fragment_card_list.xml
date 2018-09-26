@@ -6,7 +6,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
     android:clipToPadding="false"
     tools:context=".ui.card.CardDetailFragment"
     android:background="@color/background"
@@ -16,7 +15,6 @@
         android:id="@+id/barLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
         >
 
         <androidx.appcompat.widget.Toolbar
@@ -36,7 +34,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
         android:clipToPadding="false"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         >
@@ -70,7 +67,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
             android:clipToPadding="false"
             >
 
@@ -79,7 +75,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:listitem="@layout/card_view_list_item"
-                android:fitsSystemWindows="@bool/fullscreen_style_fit_system_windows"
                 android:clipToPadding="false"
                 android:visibility="visible"
                 tools:visibility="visible"

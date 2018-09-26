@@ -119,8 +119,8 @@
       "dice": ["BLUE", "RED"],
       "rules": [
         {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Pitcher (Blue) or the Catcher (Red) roll to be the higher number."},
-        {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
-        {"title": "Southpaw", "text": "<a href=\"bunnypedia://card/1142\">Southpaw</a> may be used to eliminate Baseball Blues."},
+        {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://cards/429\">Weapon Booster</a> or <a href=\"bunnypedia://cards/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
+        {"title": "Southpaw", "text": "<a href=\"bunnypedia://cards/1142\">Southpaw</a> may be used to eliminate Baseball Blues."},
         {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
       ]
     },
@@ -135,7 +135,7 @@
       "dice": ["YELLOW", "BLACK"],
       "rules": [
         {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Condition Yoke (Yellow) or Zebra (Black) roll to be the higher number."},
-        {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
+        {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://cards/429\">Weapon Booster</a> or <a href=\"bunnypedia://cards/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
         {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
       ]
     },
@@ -174,7 +174,7 @@
       "dice": ["YELLOW"],
       "rules": [
         {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than the current hour to survive. The Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The Army ends when the hour number is zero or there are no more viable targets."},
-        {"title": "Additional Rules", "text": "All players are encouraged to use an AM/PM system of time measurement to determine the hour of play (from 1 to 12).<br><br>Regardless of the outcome of the first bunny's roll, the Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The next bunny must also roll the Yellow 12-sided die. The Army Of The 12 Bunnies is played entirely during one player's turn and ends when the hour number is zero, or when there are no more viable bunny targets in The Bunny Circle. Army Of The 12 Bunnies is not impeded by a <a href=\"bunnypedia://card/185\">Barrier</a>. Since the Army is not a weapon, <a href=\"bunnypedia://card/61\">Clovers</a> cannot lower its effect, and Defense Cards cannot be used to stop an attack."}
+        {"title": "Additional Rules", "text": "All players are encouraged to use an AM/PM system of time measurement to determine the hour of play (from 1 to 12).<br><br>Regardless of the outcome of the first bunny's roll, the Army is moved immediately to the next bunny clockwise and the hour number is lowered by one. The next bunny must also roll the Yellow 12-sided die. The Army Of The 12 Bunnies is played entirely during one player's turn and ends when the hour number is zero, or when there are no more viable bunny targets in The Bunny Circle. Army Of The 12 Bunnies is not impeded by a <a href=\"bunnypedia://cards/185\">Barrier</a>. Since the Army is not a weapon, <a href=\"bunnypedia://cards/61\">Clovers</a> cannot lower its effect, and Defense Cards cannot be used to stop an attack."}
       ]
     },
     {
@@ -186,7 +186,7 @@
       "symbols": ["JUPITER"],
       "rules": [
         {"title": "Card Text", "text": "May be used once by a player to purchase a Green item from any opponent for 5 Dolla: a Green bunny, a Green Pawn or a saved Earth Zodiac card."},
-        {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
+        {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
       ]
     },
     {
@@ -208,7 +208,7 @@
       "bunnyRequirement": "NO",
       "rules": [
         {"title": "Card Text", "text": "May be placed under any bunny and changes its color to Pink. Bunnies that become Pink will inherit the special feature for that type of bunny."},
-        {"title": "Pink Bunny Benefits", "text": "<ul><li> <a href=\"bunnypedia://card/496\">Pink Congenial</a> - 5 Cabbage and Water Units</li><li> <a href=\"bunnypedia://card/497\">Pink Gleeful</a> - 5 Dolla</li><li> <a href=\"bunnypedia://card/498\">Pink Lumbering</a> - Quindruple Lucky Clover</li><li> <a href=\"bunnypedia://card/499\">Pink Sinister</a> - Bounce-Back Force Field</li><li> <a href=\"bunnypedia://card/500\">Pink Timid</a> - Substitute Pink die for any roll</li></ul>"}
+        {"title": "Pink Bunny Benefits", "text": "<ul><li> <a href=\"bunnypedia://cards/496\">Pink Congenial</a> - 5 Cabbage and Water Units</li><li> <a href=\"bunnypedia://cards/497\">Pink Gleeful</a> - 5 Dolla</li><li> <a href=\"bunnypedia://cards/498\">Pink Lumbering</a> - Quindruple Lucky Clover</li><li> <a href=\"bunnypedia://cards/499\">Pink Sinister</a> - Bounce-Back Force Field</li><li> <a href=\"bunnypedia://cards/500\">Pink Timid</a> - Substitute Pink die for any roll</li></ul>"}
       ]
     },
     {
@@ -229,7 +229,7 @@
       "bunnyRequirement": "PLAY",
       "rules": [
         {"title": "Card Text", "text": "May be placed on any single color bunny which must roll higher than the current month using the same color die as the bunny to survive. All bunnies of the same color (or half color) as the target bunny must also roll"},
-        {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://card/426\">Blue Angels</a> can be used to eliminate Bunny Dearest."}
+        {"title": "Blue Angels", "text": "The <a href=\"bunnypedia://cards/426\">Blue Angels</a> can be used to eliminate Bunny Dearest."}
       ]
     },
     {
@@ -295,8 +295,8 @@
       "type": "ROAMING_RED_RUN",
       "rules": [
         {"title": "Card Text", "text": "A Blue bunny that roams to a new player every round of play in a counter-clockwise direction."},
-        {"title": "Additional Rules", "text": "As the player receives The Lonely Ranger, he may place him in any position among his bunnies in The Bunny Circle. Like all Roaming Red Run cards, The Lonely Ranger will move at the end of the turn of the player who introduced him to The Bunny Circle. Also, The Lonely Ranger changes direction when encountering a <a href=\"bunnypedia://card/185\">Barrier</a> and is discarded if he encounters a <a href=\"bunnypedia://card/463\">Neutronium Barrier</a>."},
-        {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+        {"title": "Additional Rules", "text": "As the player receives The Lonely Ranger, he may place him in any position among his bunnies in The Bunny Circle. Like all Roaming Red Run cards, The Lonely Ranger will move at the end of the turn of the player who introduced him to The Bunny Circle. Also, The Lonely Ranger changes direction when encountering a <a href=\"bunnypedia://cards/185\">Barrier</a> and is discarded if he encounters a <a href=\"bunnypedia://cards/463\">Neutronium Barrier</a>."},
+        {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://cards/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
       ]
     },
     {
@@ -307,7 +307,7 @@
       "bunnyRequirement": "NO",
       "rules": [
         {"title": "Card Text", "text": "May be placed under any bunny. Dodecadruple Lucky Clover lowers the level of any weapon by twelve."},
-        {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://card/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a> must also discard all Clover."}
+        {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://cards/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a> must also discard all Clover."}
       ]
     },
     {
@@ -318,7 +318,7 @@
       "bunnyRequirement": "PLAY",
       "rules": [
         {"title": "Card Text", "text": "May be given to any player whose bunnies all become infected. The player must return one Carrot at the start of each of his turns. To discard Mad Bunny Disease the player must eliminate all of his bunnies."},
-        {"title": "Additional Rules", "text": "If the player adds bunnies to The Bunny Circle during play, then they will also become infected. To discard Mad Bunny Disease, the player must first eliminate all of his bunnies from The Bunny Circle.<br><br>If a bunny is traded to another player or changes owners in The Bunny Circle, then all of the other players' bunnies will also become infected with Mad Bunny Disease. It is possible for more than one player's bunnies to become infected with Mad Bunny Disease. Once a player has returned all of his Carrots to Kaballa's Market, he will still have to eliminate all of his bunnies from The Bunny Circle before he can discard Mad Bunny Disease.<br><br>A bunny that is abducted by the Beyea Aliens is returned free of Mad Bunny Disease. A bunny that is abducted by any other card will still have Mad Bunny Disease and may spread it to other players' bunnies. Any two bunnies that share the <a href\"bunnypedia://card/349\">Fingercuffs</a> will also share Mad Bunny Disease. <a href=\"bunnypedia://card/82\">Sunny Day</a> may be used once to eliminate Mad Bunny Disease from all bunnies in The Bunny Circle."}
+        {"title": "Additional Rules", "text": "If the player adds bunnies to The Bunny Circle during play, then they will also become infected. To discard Mad Bunny Disease, the player must first eliminate all of his bunnies from The Bunny Circle.<br><br>If a bunny is traded to another player or changes owners in The Bunny Circle, then all of the other players' bunnies will also become infected with Mad Bunny Disease. It is possible for more than one player's bunnies to become infected with Mad Bunny Disease. Once a player has returned all of his Carrots to Kaballa's Market, he will still have to eliminate all of his bunnies from The Bunny Circle before he can discard Mad Bunny Disease.<br><br>A bunny that is abducted by the Beyea Aliens is returned free of Mad Bunny Disease. A bunny that is abducted by any other card will still have Mad Bunny Disease and may spread it to other players' bunnies. Any two bunnies that share the <a href\"bunnypedia://cards/349\">Fingercuffs</a> will also share Mad Bunny Disease. <a href=\"bunnypedia://cards/82\">Sunny Day</a> may be used once to eliminate Mad Bunny Disease from all bunnies in The Bunny Circle."}
       ]
     },
     {
@@ -339,7 +339,7 @@
       "bunnyRequirement": "PLAY",
       "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
       "rules": [
-        {"title": "Card Text", "text": "May be used onc to force all players that have a <a href=\"bunnypedia://card/57\">Free Agent</a> or <a href=\"bunnypedia://card/296\">Double Free Agent</a> bunny to roll the dice. The bunny becomes the color (or colors) of the highest die (or dice) rolled."}
+        {"title": "Card Text", "text": "May be used onc to force all players that have a <a href=\"bunnypedia://cards/57\">Free Agent</a> or <a href=\"bunnypedia://cards/296\">Double Free Agent</a> bunny to roll the dice. The bunny becomes the color (or colors) of the highest die (or dice) rolled."}
       ]
     },
     {
@@ -395,7 +395,7 @@
       "type": "SPECIAL",
       "bunnyRequirement": "PLAY",
       "rules": [
-        {"title": "Card Text", "text": "May be used once by a player to take all saved <a href=\"bunnypedia://card/72\">Danishes</a> from all opponents except the player who owns the Violet Pawn."}
+        {"title": "Card Text", "text": "May be used once by a player to take all saved <a href=\"bunnypedia://cards/72\">Danishes</a> from all opponents except the player who owns the Violet Pawn."}
       ]
     },
     {
@@ -436,7 +436,7 @@
       "type": "VERY_SPECIAL",
       "bunnyRequirement": "NO",
       "rules": [
-        {"title": "Card Text", "text": "May be used once by a player to counteract <a href=\"bunnypedia://card/52\">Baker Street</a>, <a href=\"bunnypedia://card/316\">Bunny On The Edge Of Forever</a>, <a href=\"bunnypedia://card/203\">Bunny To The Future</a>, or <a href=\"bunnypedia://card/483\">Temporal Flux</a>. May be used at any time!"}
+        {"title": "Card Text", "text": "May be used once by a player to counteract <a href=\"bunnypedia://cards/52\">Baker Street</a>, <a href=\"bunnypedia://cards/316\">Bunny On The Edge Of Forever</a>, <a href=\"bunnypedia://cards/203\">Bunny To The Future</a>, or <a href=\"bunnypedia://cards/483\">Temporal Flux</a>. May be used at any time!"}
       ]
     },
     {
@@ -447,8 +447,8 @@
       "bunnyRequirement": "NO",
       "rules": [
         {"title": "Card Text", "text": "One of your bunnies is trampled while running with the bulls in Pamplona!"},
-        {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
-        {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+        {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
+        {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
       ]
     },
     {
@@ -524,9 +524,9 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
       ]
     },
     {
@@ -539,9 +539,9 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
       ]
     },
     {
@@ -554,9 +554,9 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
       ]
     },
     {
@@ -569,9 +569,9 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
       ]
     },
     {
@@ -584,9 +584,9 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"}
       ]
     },
     {
@@ -600,10 +600,10 @@
       "rules": [
         {"title": "Card Text", "text": "Must immediately be placed under any bunny. The player with the highest Officer ranked bunny may play one card directly from his five-card hand each turn."},
         {"title": "Highest Officer Ranked Bunny", "text": "The special privilege awarded to the player who owns the highest Officer ranked bunny (HORB) is the ability to play an extra card directly from his five-card hand each turn. The card may be played at the start, middle or end of a player's turn. If the card is a Run card, then the player may use or discard it. If the card is a Special (or Very Special) card, then the player may use or save it. A player who obtains the HORB may use the special privilege during the turn it was acquired. A player who has the second highest Officer ranked bunny is encouraged to kill the HORB so that he may obtain the special privilege for himself."},
-        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://card/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
-        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://card/642\">Court Marshalled</a>"},
-        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://card/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"},
-        {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
+        {"title": "Rank Exchange", "text": "<a href=\"bunnypedia://cards/522\">Rank Exchange</a> can be used to swap the ranks of two bunnies."},
+        {"title": "Court Marshall", "text": "Rank is lost if the bunny <a href=\"bunnypedia://cards/642\">Court Marshalled</a>"},
+        {"title": "Incriminating Photos", "text": "The player who has <a href=\"bunnypedia://cards/655\">Incriminating Photos</a> may control the special privilege (extra) card played every round by the opponent who has the highest Officer ranked bunny (HORB)"},
+        {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
       ]
     }
   ]

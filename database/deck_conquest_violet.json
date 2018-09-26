@@ -196,7 +196,7 @@
     "weaponLevel": "12",
     "dice": ["BLACK"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within four spaces are also killed. <a href=\"bunnypedia://card/828\">Horseshoe</a> bunnies may survive."}
+      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within four spaces are also killed. <a href=\"bunnypedia://cards/828\">Horseshoe</a> bunnies may survive."}
     ]
   },
   {
@@ -207,11 +207,11 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
-      {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://card/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
-      {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
-      {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
-      {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
-      {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://card/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
+      {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://cards/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> or <a href=\"bunnypedia://cards/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+      {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://cards/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://cards/80\">Magic Spatula</a>."},
+      {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://cards/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://cards/287\">Boomerang</a><li><a href=\"bunnypedia://cards/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://cards/480\">Electron Tunneling</a><li><a href=\"bunnypedia://cards/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://cards/400\">Psychic Waves</a><li><a href=\"bunnypedia://cards/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://cards/343\">Snowball</a></ul>"},
+      {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://cards/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
+      {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://cards/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
     ]
   },
   {
@@ -234,7 +234,7 @@
     "rules": [
         {"title": "Card Text", "text": "May be placed under any bunny and changes its color to Red. Bunnies that become Red will inherit the special feature for that type of bunny."},
         {"title": "Additional Rules", "text": "Bunny Booster may be placed under single color (or half color) Evil, Hypnotic, Ludicrous, Spiffy or Truculent bunnies. Bunny Booster may not be placed under a Specialty Bunny because it is not a single color (or half color) bunny."},
-        {"title": "Red Bunny Benefits", "text": "<ul><li><a href=\"bunnypedia://card/936\">Red Evil</a> - This bunny may feed up to 3 Cabbage Units and 3 Water Units per turn. Supplies may not be saved to another turn. The Cabbage and Water units are for the exclusive use of this bunny and may not be shared with other bunnies in The Bunny Circle.</li><li><a href=\"bunnypedia://card/937\">Red Hypnotic</a> - The player with this bunny in The Bunny Circle may spend 3 Dolla per turn at any open store. Dolla may not be saved to another turn.</li><li><a href=\"bunnypedia://card/938\">Red Ludicrous</a> - This bunny has a Lucky Clover Triple which lowers the level of any weapon used against this bunny by three.</li><li><a href=\"bunnypedia://card/939\">Red Spiffy</a> - This bunny is protected by a Bounce Back Force Field. Any weapon that directly targets this bunny, but is not successful, is placed back onto one of the bunnies of the attacking player.</li><li><a href=\"bunnypedia://card/940\">Red Truculent</a> - The player with this bunny in The Bunny Circle may re-roll any action during play that involves any die.</li></ul>"}
+        {"title": "Red Bunny Benefits", "text": "<ul><li><a href=\"bunnypedia://cards/936\">Red Evil</a> - This bunny may feed up to 3 Cabbage Units and 3 Water Units per turn. Supplies may not be saved to another turn. The Cabbage and Water units are for the exclusive use of this bunny and may not be shared with other bunnies in The Bunny Circle.</li><li><a href=\"bunnypedia://cards/937\">Red Hypnotic</a> - The player with this bunny in The Bunny Circle may spend 3 Dolla per turn at any open store. Dolla may not be saved to another turn.</li><li><a href=\"bunnypedia://cards/938\">Red Ludicrous</a> - This bunny has a Lucky Clover Triple which lowers the level of any weapon used against this bunny by three.</li><li><a href=\"bunnypedia://cards/939\">Red Spiffy</a> - This bunny is protected by a Bounce Back Force Field. Any weapon that directly targets this bunny, but is not successful, is placed back onto one of the bunnies of the attacking player.</li><li><a href=\"bunnypedia://cards/940\">Red Truculent</a> - The player with this bunny in The Bunny Circle may re-roll any action during play that involves any die.</li></ul>"}
     ]
   },
   {
@@ -245,8 +245,8 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to force any opponent to exchange two of his bunnies for one of yours."},
-      {"title": "Additional Rules", "text": "In order to use this card against an opponent, that player must have at least two bunnies. Bunny Exchange cannot be used for a one to one exchange. The player chooses all three bunnies in the exchange. A bunny with <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> may be taken with the Bunny Exchange card."},
-      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+      {"title": "Additional Rules", "text": "In order to use this card against an opponent, that player must have at least two bunnies. Bunny Exchange cannot be used for a one to one exchange. The player chooses all three bunnies in the exchange. A bunny with <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> may be taken with the Bunny Exchange card."},
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://cards/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {
@@ -256,7 +256,7 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-        {"title": "Card Text", "text": "May be used once by a player to eliminate any one <a href=\"bunnypedia://card/185\">Barrier</a>. Cannot be used to eliminate a <a href=\"bunnypedia://card/463\">Neutronium Barrier</a>."}
+        {"title": "Card Text", "text": "May be used once by a player to eliminate any one <a href=\"bunnypedia://cards/185\">Barrier</a>. Cannot be used to eliminate a <a href=\"bunnypedia://cards/463\">Neutronium Barrier</a>."}
     ]
   },
   {
@@ -267,7 +267,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to eliminate (discard) any Bunny Modifier under any bunny in The Bunny Circle."},
-      {"title": "Heavenly Halo", "text": "Hades Hayday is one of the few cards which can be used to remove <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> from a bunny."}
+      {"title": "Heavenly Halo", "text": "Hades Hayday is one of the few cards which can be used to remove <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> from a bunny."}
     ]
   },
   {
@@ -291,9 +291,9 @@
       {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Hexdruple lowers the level of any weapon by six."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
-      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
-      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
-      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://card/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."},
+      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://cards/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://cards/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
     ]
   },
   {
@@ -357,7 +357,7 @@
     "bunnyRequirement": "NO",
     "pawn": "VIOLET",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to feed the bunny. One bunny is fed any amounts of Radish Units and Milk Units. Or may be used immediately by a player to eliminate the <a href=\"bunnypedia://card/977\">Whiner</a> vote. This card must be a saved Special to be used immediately."},
+      {"title": "Card Text", "text": "May be used once by a player to feed the bunny. One bunny is fed any amounts of Radish Units and Milk Units. Or may be used immediately by a player to eliminate the <a href=\"bunnypedia://cards/977\">Whiner</a> vote. This card must be a saved Special to be used immediately."},
       {"title": "Additional Rules", "text": "The player may choose which party to control each time a Casting Terrible Misfortune is drawn by any player."}
     ]
   },
@@ -442,7 +442,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
-      {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
+      {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
     ]
   },
   {
@@ -453,7 +453,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Winer Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
-      {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
+      {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
     ]
   },
   {
@@ -465,7 +465,7 @@
     "rules": [
       {"title": "Card Text", "text": "While collecting large white marbles, one of the bunnies in play is devoured by hungry hungry hippos."},
       {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -477,7 +477,7 @@
     "rules": [
       {"title": "Card Text", "text": "One of the bunnies in play with very little sense of his surroundings is sucked into a get engine intake."},
       {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {

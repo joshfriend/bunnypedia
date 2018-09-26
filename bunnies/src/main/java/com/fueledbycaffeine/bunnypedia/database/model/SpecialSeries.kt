@@ -9,6 +9,7 @@ enum class SpecialSeries {
   NU,
   THETA,
   PHI,
+  PI,
   ;
 
   val symbol: String get() {
@@ -18,6 +19,7 @@ enum class SpecialSeries {
       NU -> "Ν"
       THETA -> "ϴ"
       PHI -> "Φ"
+      PI -> "π"
     }
   }
 
@@ -28,6 +30,7 @@ enum class SpecialSeries {
       NU -> R.string.series_nu
       THETA -> R.string.series_theta
       PHI -> R.string.series_phi
+      PI -> R.string.series_pi
     }
   }
 }

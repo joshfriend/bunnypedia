@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/cardList"
+    >
+
+    <fragment
+        android:id="@+id/cardList"
+        android:name="com.fueledbycaffeine.bunnypedia.ui.card.CardListFragment"
+        android:label="CardListFragment"
+        >
+        <deepLink app:uri="https://bunnypedia.app/cards"/>
+        <deepLink app:uri="bunnypedia://cards"/>
+        <action
+            android:id="@+id/showDetail"
+            app:destination="@id/cardDetail"
+            app:enterAnim="@anim/transition_enter"
+            app:exitAnim="@anim/transition_exit"
+            app:popEnterAnim="@anim/transition_enter_pop"
+            app:popExitAnim="@anim/transition_exit_pop"
+            app:launchSingleTop="false"
+            />
+        <action
+            android:id="@+id/openSettings"
+            app:destination="@id/settings"
+            app:enterAnim="@anim/transition_enter"
+            app:exitAnim="@anim/transition_exit"
+            app:popEnterAnim="@anim/transition_enter_pop"
+            app:popExitAnim="@anim/transition_exit_pop"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/cardDetail"
+        android:name="com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment"
+        android:label="fragment_card_detail"
+        tools:layout="@layout/fragment_card_detail"
+        >
+        <deepLink app:uri="https://bunnypedia.app/cards/{id}"/>
+        <deepLink app:uri="bunnypedia://cards/{id}"/>
+        <argument
+            android:name="id"
+            app:argType="integer"
+            />
+        <action
+            android:id="@+id/nextCard"
+            app:destination="@id/cardDetail"
+            app:enterAnim="@anim/transition_enter"
+            app:exitAnim="@anim/transition_exit"
+            app:popEnterAnim="@anim/transition_enter_pop"
+            app:popExitAnim="@anim/transition_exit_pop"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.fueledbycaffeine.bunnypedia.ui.settings.SettingsFragment"
+        android:label="SettingsFragment"
+        />
+</navigation>

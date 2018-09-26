@@ -198,8 +198,8 @@
     "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within two spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> or <a href=\"bunnypedia://card/828\">Horseshoe</a> bunnies may survive."},
-      {"title": "Holographic Bunny", "text": "Thermo-Nuclear Chicken Wings can be used to kill the <a href=\"bunnypedia://card/958\">Holographic Bunny</a>."}
+      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within two spaces are also killed. <a href=\"bunnypedia://cards/61\">Clover</a> or <a href=\"bunnypedia://cards/828\">Horseshoe</a> bunnies may survive."},
+      {"title": "Holographic Bunny", "text": "Thermo-Nuclear Chicken Wings can be used to kill the <a href=\"bunnypedia://cards/958\">Holographic Bunny</a>."}
     ]
   },
   {
@@ -232,7 +232,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player who has not used an Aggressive card against any opponent to choose three Carrots."},
-      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://cards/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
     ]
   },
   {
@@ -255,7 +255,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must roll the dice and give away any of his bunnies that are the same color (or half color) as both the highest and lowest rolls."},
       {"title": "Additional Rules", "text": "If there is a tie for the highest or lowest roll, then the bunnies of all of the colors (or half colors) are given away. The bunnies may be given to any of the players, in any area of The Bunny Circle that the opponent chooses. Those color bunnies will continue to be banned from the opponent's area of The Bunny Circle until he pays 10 Dolla to the player to remove the card.<br><br>Use the colored Chips (Wacky Khaki and Ominous Onyx booster decks) to keep track of the opponent's banned colors."},
-      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://cards/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {
@@ -295,7 +295,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Quadruple raises the level of any weapon by four."},
-      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."}
+      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."}
     ]
   },
   {
@@ -318,9 +318,9 @@
       {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Nondruple lowers the level of any weapon by nine."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
-      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
-      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
-      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://card/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."},
+      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://cards/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://cards/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
     ]
   },
   {
@@ -330,7 +330,7 @@
     "deck": "PUMPKIN_SPICE",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to close <a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a> and to set all Metal prices to 1 Dolla. Morden's Metals Exchange reopens after one round of play starting with the player's next turn"}
+      {"title": "Card Text", "text": "May be used once by a player to close <a href=\"bunnypedia://cards/1128\">Morden's Metals Exchange</a> and to set all Metal prices to 1 Dolla. Morden's Metals Exchange reopens after one round of play starting with the player's next turn"}
     ]
   },
   {
@@ -351,7 +351,7 @@
     "deck": "PUMPKIN_SPICE",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to force all bunnies in The Bunny Circle with a <a href=\"bunnypedia://card/1145\">Whiner Senator Bunny Modifier</a> card to flee the game (be discarded)."}
+      {"title": "Card Text", "text": "May be used once by a player to force all bunnies in The Bunny Circle with a <a href=\"bunnypedia://cards/1145\">Whiner Senator Bunny Modifier</a> card to flee the game (be discarded)."}
     ]
   },
   {
@@ -371,7 +371,7 @@
     "deck": "PUMPKIN_SPICE",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to force all bunnies in The Bunny Circle with a <a href=\"bunnypedia://card/1144\">Shiner Senator Bunny Modifier</a> card to flee the game (be discarded)."}
+      {"title": "Card Text", "text": "May be used once by a player to force all bunnies in The Bunny Circle with a <a href=\"bunnypedia://cards/1144\">Shiner Senator Bunny Modifier</a> card to flee the game (be discarded)."}
     ]
   },
   {
@@ -403,7 +403,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to eliminate all Bunny Modifier cards under every bunny in The Bunny Circle."},
-      {"title": "Heavenly Halo", "text": "Under Blunder is one of the few cards which can be used to remove <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> from a bunny."}
+      {"title": "Heavenly Halo", "text": "Under Blunder is one of the few cards which can be used to remove <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> from a bunny."}
     ]
   },
   {
@@ -456,7 +456,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
-      {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
+      {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
     ]
   },
   {
@@ -467,7 +467,7 @@
     "deck": "PUMPKIN_SPICE",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
-      {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
+      {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
     ]
   },
   {
@@ -477,7 +477,7 @@
     "deck": "PUMPKIN_SPICE",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "All bunnies with <a href=\"bunnypedia://card/828\">Lucky Horseshoe Bunny Modifier</a> cards must roll higher than their number of Horseshoes to survive."}
+      {"title": "Card Text", "text": "All bunnies with <a href=\"bunnypedia://cards/828\">Lucky Horseshoe Bunny Modifier</a> cards must roll higher than their number of Horseshoes to survive."}
     ]
   },
   {
@@ -499,7 +499,7 @@
     "rules": [
       {"title": "Card Text", "text": "A joyful ride on a hundred-year-old roller coaster ends badly for one of the bunnies in play when the card tips off the track!"},
       {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -510,8 +510,8 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "A sudden outbreak of Myxomatosis eliminates all of your bunnies in The Bunny Circle!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -555,7 +555,7 @@
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "rules": [
-      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://cards/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
       {"title": "Additional Rules", "text": "The metal must be declared by the player (buying or selling) and that declaration must remain in place for a player's entire turn. Therefore, a player may not sell a Double Metal Alloy at one price and then buy it back at another price during the same turn."}
     ]
   },
@@ -565,7 +565,7 @@
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "rules": [
-      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://cards/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
       {"title": "Additional Rules", "text": "The metal must be declared by the player (buying or selling) and that declaration must remain in place for a player's entire turn. Therefore, a player may not sell a Double Metal Alloy at one price and then buy it back at another price during the same turn."}
     ]
   },
@@ -575,7 +575,7 @@
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "rules": [
-      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
+      {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://cards/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
       {"title": "Additional Rules", "text": "The metal must be declared by the player (buying or selling) and that declaration must remain in place for a player's entire turn. Therefore, a player may not sell a Double Metal Alloy at one price and then buy it back at another price during the same turn."}
     ]
   }

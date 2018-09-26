@@ -1,6 +1,5 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
-import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
@@ -8,10 +7,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.View.FOCUS_UP
 import android.view.ViewGroup
+import android.view.animation.Animation
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.ViewModelProviders
+import androidx.core.os.bundleOf
+import androidx.fragment.app.FragmentTransaction
+import androidx.navigation.fragment.findNavController
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
@@ -50,25 +52,16 @@ import javax.inject.Inject
 
 class CardDetailFragment : DaggerFragment() {
   companion object {
-    const val ARG_CARD_ID = "CARD_ID"
-
     private val ZODIAC_DATE_FMT = DateTimeFormat.forPattern("MMMM d")
   }
 
   private val cardIdArgument by lazy {
-    arguments!!.getInt(ARG_CARD_ID)
+    arguments!!.getInt("id")
   }
 
   @Inject lateinit var cardStore: CardStore
-  private lateinit var navigation: CardNavigationViewModel
   private val reloadSubject = BehaviorSubject.createDefault(true)
   private val subscribers = CompositeDisposable()
-
-  override fun onAttach(context: Context?) {
-    super.onAttach(context)
-    navigation = ViewModelProviders.of(requireActivity())
-      .get(CardNavigationViewModel::class.java)
-  }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
     return inflater.inflate(R.layout.fragment_card_detail, container, false)
@@ -76,6 +69,9 @@ class CardDetailFragment : DaggerFragment() {
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
+
+    val tx = childFragmentManager.beginTransaction()
+    tx.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
 
     recyclerView.adapter = RuleSectionAdapter(emptyList())
 
@@ -92,6 +88,16 @@ class CardDetailFragment : DaggerFragment() {
         onError = Timber::e
       )
       .addTo(this.subscribers)
+  }
+
+  override fun onCreateAnimation(transit: Int, enter: Boolean, nextAnim: Int): Animation? {
+    view?.translationZ = if (nextAnim == R.anim.transition_exit && !enter) {
+      0f
+    } else {
+      1f
+    }
+
+    return super.onCreateAnimation(transit, enter, nextAnim)
   }
 
   override fun onResume() {
@@ -153,7 +159,7 @@ class CardDetailFragment : DaggerFragment() {
       .subscribe { result ->
         if (result is QueryResult.Found<*>) {
           val (selectedCard) = result.item as CardWithRules
-          navigation.viewCard(selectedCard.id)
+          findNavController().navigate(R.id.nextCard, bundleOf("id" to selectedCard.id))
         }
       }
       .addTo(subscribers)
