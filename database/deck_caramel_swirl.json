@@ -78,7 +78,7 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "cabbage": 2,
-    "water": 0,
+    "radish": 2,
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
@@ -89,7 +89,7 @@
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
-    "cabbage": 0,
+    "milk": 1,
     "water": 1,
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}

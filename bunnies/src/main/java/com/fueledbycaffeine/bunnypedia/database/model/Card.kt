@@ -1,5 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.database.model
 
+import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -20,10 +21,11 @@ data class Card(
   val symbols: List<Symbol>,
   val pawn: Pawn?,
   val weaponLevel: String?,
-  val cabbage: Int,
-  val water: Int,
   val psi: Psi?,
-  val specialSeries: SpecialSeries?
+  val specialSeries: SpecialSeries?,
+
+  @Embedded
+  val ftb: FeedTheBunny
 ) {
   companion object {
     const val FTB_RANDOM = -1
@@ -34,6 +36,4 @@ data class Card(
 //  var rules: List<Rule> = emptyList()
 
   val imageURI: String get() = "file:///android_asset/card_thumbnails/${String.format("%04d.jpg", canonicalId ?: id)}"
-
-  val isFtb: Boolean get() = cabbage != 0 && water != 0
 }

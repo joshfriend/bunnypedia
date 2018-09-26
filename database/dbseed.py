@@ -15,7 +15,8 @@ class Card:
         title TEXT NOT NULL, deck TEXT NOT NULL, type TEXT NOT NULL, rank TEXT,
         zodiacType TEXT, zodiacAnimal TEXT, bunnyRequirement TEXT NOT NULL, dice TEXT NOT NULL,
         symbols TEXT NOT NULL, pawn TEXT, weaponLevel TEXT,
-        cabbage INTEGER NOT NULL, water INTEGER NOT NULL, psi TEXT,
+        cabbage INTEGER NOT NULL, radish INTEGER NOT NULL,
+        water INTEGER NOT NULL, milk INTEGER NOT NULL, psi TEXT,
         specialSeries TEXT
     );
     """,
@@ -24,11 +25,11 @@ class Card:
     INSERT_STMT = """
     INSERT INTO Card (
         id, canonicalId, title, deck, type, rank, zodiacType, zodiacAnimal, bunnyRequirement,
-        dice, symbols, pawn, weaponLevel, cabbage, water, psi, specialSeries
+        dice, symbols, pawn, weaponLevel, cabbage, radish, water, milk, psi, specialSeries
     ) VALUES (
         :id, :canonicalId, :title, :deck, :type, :rank, :zodiacType,
         :zodiacAnimal, :bunnyRequirement, :dice, :symbols, :pawn, :weaponLevel,
-        :cabbage, :water, :psi, :specialSeries
+        :cabbage, :radish, :water, :milk, :psi, :specialSeries
     );
     """
 
@@ -55,7 +56,9 @@ class Card:
         self.pawn = kwargs.get('pawn')
         self.weaponLevel = kwargs.get('weaponLevel')
         self.cabbage = kwargs.get('cabbage', 0)
+        self.radish = kwargs.get('radish', 0)
         self.water = kwargs.get('water', 0)
+        self.milk = kwargs.get('milk', 0)
         self.psi = kwargs.get('psi')
         self.specialSeries = kwargs.get('specialSeries')
 

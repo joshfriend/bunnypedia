@@ -95,24 +95,24 @@
   },
   {
     "id": "1165",
-    "title": "Feed The Bunny",
+    "title": "Feed The Bunny 3/0",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "deck": "CREATURE_FEATURE",
-    "water": 0,
     "cabbage": 3,
+    "radish": 3,
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
   },
   {
     "id": "1166",
-    "title": "Feed The Bunny",
+    "title": "Feed The Bunny 0/3",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "deck": "CREATURE_FEATURE",
     "water": 3,
-    "cabbage": 0,
+    "milk": 3,
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]

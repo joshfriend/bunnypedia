@@ -393,22 +393,24 @@
     },
     {
         "id": 1080,
-        "title": "Feed The Bunny - 1 Cabbage Or Radish",
+        "title": "Feed The Bunny 1/0",
         "deck": "FANTASTIC",
         "type": "RUN",
         "bunnyRequirement": "PLAY",
         "cabbage": 1,
+        "radish": 1,
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
         ]
     },
     {
         "id": 1081,
-        "title": "Feed The Bunny - 2 Water or Milk",
+        "title": "Feed The Bunny 0/2",
         "deck": "FANTASTIC",
         "type": "RUN",
         "bunnyRequirement": "PLAY",
         "water": 2,
+        "milk": 2,
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
         ]

@@ -37,8 +37,11 @@
     <string name="deck_creature_feature_booster">Creature Feature Booster</string>
     <string name="card_type_kaballa_dolla">Kaballa Dolla</string>
     <string name="card_type_rank">Rank</string>
-    <string name="section_ftb_requirements">Cabbage/Water Required</string>
+    <string name="section_ftb_requirements">Food Units Required</string>
     <string name="ftb_cabbage_water" tool:ignore="PluralsCandidate">%1$d Cabbage &amp; %2$d Water</string>
+    <string name="ftb_radish_milk" tool:ignore="PluralsCandidate">%1$d Radish &amp; %2$d Milk</string>
+    <string name="ftb_cabbage_radish" tool:ignore="PluralsCandidate">%1$d Cabbage or %1$d Radish</string>
+    <string name="ftb_water_milk" tool:ignore="PluralsCandidate">%1$d Water or %1$d Milk</string>
     <string name="ftb_cabbage" tool:ignore="PluralsCandidate">%1$d Cabbage</string>
     <string name="ftb_water" tool:ignore="PluralsCandidate">%1$d Water</string>
     <string name="ftb_random">Roll for amounts</string>

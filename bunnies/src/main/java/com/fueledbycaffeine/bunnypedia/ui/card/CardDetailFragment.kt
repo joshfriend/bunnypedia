@@ -169,8 +169,8 @@ class CardDetailFragment: DaggerFragment() {
       requiresBunny.text = getString(card.bunnyRequirement.description)
     }
 
-    if (card.isFtb) {
-      setupFtbInfo(card.cabbage, card.water)
+    if (card.ftb.applicable) {
+      setupFtbInfo(card.ftb)
     }
 
     if (card.rank != null) {
@@ -217,15 +217,22 @@ class CardDetailFragment: DaggerFragment() {
     pawnName.text = getString(pawn.pawnName)
   }
 
-  private fun setupFtbInfo(cabbage: Int, water: Int) {
+  private fun setupFtbInfo(ftb: FeedTheBunny) {
+    val (cabbage, radish, water, milk) = ftb
     containerFtb.visibility = View.VISIBLE
-    if (cabbage > 0 && water > 0) {
+    if (ftb.cabbageAndWater) {
       ftbRequirement.text = getString(R.string.ftb_cabbage_water, cabbage, water)
+    } else if (ftb.radishAndMilk) {
+      ftbRequirement.text = getString(R.string.ftb_radish_milk, radish, milk)
+    } else if (ftb.cabbageOrRadish) {
+      ftbRequirement.text = getString(R.string.ftb_cabbage_radish, cabbage)
+    } else if (ftb.waterOrMilk) {
+      ftbRequirement.text = getString(R.string.ftb_water_milk, water)
     } else if (cabbage > 0) {
       ftbRequirement.text = getString(R.string.ftb_cabbage, cabbage)
     } else if (water > 0) {
       ftbRequirement.text = getString(R.string.ftb_water, water)
-    } else if (cabbage == Card.FTB_RANDOM) {
+    } else if (cabbage == Card.FTB_RANDOM || radish == Card.FTB_RANDOM) {
       ftbRequirement.text = getString(R.string.ftb_random)
     } else if (cabbage == Card.FTB_DATED) {
       ftbRequirement.text = getString(R.string.ftb_dated_cabbage)
