@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DiffUtil
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.model.Card
+import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
 import org.jetbrains.anko.layoutInflater
@@ -14,12 +14,12 @@ class CardAdapter(
   val fragment: Fragment,
   viewType: CardViewType,
   private val onCardSelected: (Int) -> Unit
-): PagedListAdapter<Card, CardViewHolder>(CARD_COMPARATOR), SectionTitleProvider {
+): PagedListAdapter<CardWithRules, CardViewHolder>(CARD_COMPARATOR), SectionTitleProvider {
 
   companion object {
-    private val CARD_COMPARATOR = object : DiffUtil.ItemCallback<Card>() {
-      override fun areItemsTheSame(oldItem: Card, newItem: Card) = oldItem.id == newItem.id
-      override fun areContentsTheSame(oldItem: Card, newItem: Card) = oldItem == newItem
+    private val CARD_COMPARATOR = object : DiffUtil.ItemCallback<CardWithRules>() {
+      override fun areItemsTheSame(oldItem: CardWithRules, newItem: CardWithRules) = oldItem.card.id == newItem.card.id
+      override fun areContentsTheSame(oldItem: CardWithRules, newItem: CardWithRules) = oldItem == newItem
     }
   }
 
@@ -40,15 +40,12 @@ class CardAdapter(
   }
 
   override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
-    val card = getItem(holder.adapterPosition)
-    if (card == null) {
+    val cardWithRules = getItem(holder.adapterPosition)
+    if (cardWithRules == null) {
       holder.clear()
     } else {
-      when (holder) {
-        is CardGridViewHolder -> holder.bind(GlideApp.with(fragment), card)
-        else -> holder.bind(card)
-      }
-      holder.itemView.setOnClickListener { onCardSelected(card.id) }
+      holder.bind(GlideApp.with(fragment), cardWithRules)
+      holder.itemView.setOnClickListener { onCardSelected(cardWithRules.card.id) }
     }
   }
 
@@ -68,7 +65,7 @@ class CardAdapter(
   }
 
   override fun getSectionTitle(position: Int): String {
-    val card = getItem(position) ?: return "???"
+    val (card) = getItem(position) ?: return "???"
     return card.id.toString()
   }
 }

@@ -216,7 +216,7 @@ class CardListFragment: DaggerFragment() {
         val columns = (displayMetrics.widthPixels / resources.getDimension(R.dimen.card_width)).toInt()
         recyclerView.layoutManager = GridLayoutManager(requireContext(), columns)
       }
-      CardAdapter.CardViewType.LIST -> {
+      else -> {
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
       }
     }

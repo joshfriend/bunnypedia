@@ -1,66 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:layout_margin="4dp"
     android:foreground="?attr/selectableItemBackground"
     android:clickable="true"
     android:focusable="true"
+    android:backgroundTint="#222"
+    app:cardCornerRadius="12dp"
     >
 
-    <TextView
-        android:id="@+id/cardNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:padding="8dp"
-        tools:text="#0032"
-        style="@style/TextAppearance.AppCompat.Caption"
-        android:background="@color/deck_blue"
-        android:textColor="@color/white"
-        android:gravity="center_vertical"
-        />
-
-    <LinearLayout
-        android:layout_width="0dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         >
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="Green Gelatin (with Evil Pineapple Chunks)"
-            android:maxLines="1"
-            app:autoSizeTextType="uniform"
-            style="@style/TextAppearance.AppCompat.Title"
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintDimensionRatio="3:4"
+            tools:src="@drawable/card_0048"
+            tools:ignore="ContentDescription"
             />
 
-        <LinearLayout
-            android:id="@+id/cardPropertiesRow"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            tools:text="Nuclear Warhead"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="bottom"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            style="@style/TextAppearance.AppCompat.Title"
+            app:layout_constraintStart_toEndOf="@id/image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
 
-            <TextView
-                android:id="@+id/cardType"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="Run"
-                style="@style/TextAppearance.AppCompat.Caption"
-                />
+        <TextView
+            android:id="@+id/cardNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:padding="4dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            tools:text="#0032"
+            android:background="@drawable/chip"
+            tools:backgroundTint="@color/deck_blue"
+            tools:textColor="@color/white"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:gravity="center_vertical"
+            app:layout_constraintStart_toEndOf="@id/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintHorizontal_bias="0"
+            />
 
-        </LinearLayout>
+        <TextView
+            android:id="@+id/cardText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:lines="4"
+            android:text="@string/placeholder_darth_plagueis2"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:gravity="top"
+            app:layout_constraintStart_toEndOf="@id/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardNumber"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</LinearLayout>
+</androidx.cardview.widget.CardView>
