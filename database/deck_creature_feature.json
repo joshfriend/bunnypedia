@@ -442,7 +442,7 @@
       "BROWN"
     ],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to roll the die and to distract (discard) the same number of <a href=\"bunnypedia://card/1156\">Law Enforcement Bunny</a> cards in The Bunny  rolled. The player with the Horrible Hens saved is never visited by <a href=\"bunnypedia://card/1177\">General Tso</a>."}
+      {"title": "Card Text", "text": "May be used once by a player to roll the die and to distract (discard) the same number of <a href=\"bunnypedia://card/1156\">Law Enforcement Bunny</a> cards in The Bunny rolled. The player with the Horrible Hens saved is never visited by <a href=\"bunnypedia://card/1177\">General Tso</a>."}
     ]
   },
   {
@@ -452,7 +452,7 @@
     "bunnyRequirement": "NO",
     "deck": "CREATURE_FEATURE",
     "rules": [
-      {"title": "Card Text", "text": "Allows a player to place all of his saved Specia, Very Special, and Carrot cards underneath Kelpies and hidden from other players' view."}
+      {"title": "Card Text", "text": "Allows a player to place all of his saved Special, Very Special, and Carrot cards underneath Kelpies and hidden from other players' view."}
     ]
   },
   {
