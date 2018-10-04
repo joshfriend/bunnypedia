@@ -375,7 +375,7 @@
     "title": "Tivy Telos",
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "PLAY_X2",
     "dice": ["CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to end the game immediately if he can roll a 2, 10, 12, or 20 on the die. Any opponent may pay the player the amount rolled to counteract Tivy Telos and continue the game."},

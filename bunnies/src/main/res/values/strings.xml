@@ -93,6 +93,7 @@
     <string name="section_rank">Rank</string>
     <string name="rank_pay_grade">%1$s (%2$s)</string>
     <string name="bunny_required_to_play">Yes</string>
+    <string name="bunny_required_to_play_x2">Yes (requires 2 bunnies)</string>
     <string name="bunny_required_to_play_and_save">Yes (to play and keep saved)</string>
     <string name="section_pawn">Pawn</string>
     <string name="red">Red</string>
