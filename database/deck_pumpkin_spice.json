@@ -1,4 +1,4 @@
-o[
+[
   {
     "id": "1211",
     "title": "Blue Breakdown Bunny",
@@ -238,7 +238,7 @@ o[
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "rules": [
-      {"title": "Card Text", "text": "Banjaxers may be used once by a player to replace any bunny in any player's area of The Bunny Circle. Banjaxers is a double Violet bunny and may be combined with another Violet (or half Violet) bunny to form a Bunny Triplet."}
+      {"title": "Card Text", "text": "Banjaxers may be used once by a player to replace any bunny in any player's area of The Bunny Circle. Banjaxers is a double Violet bunny and may be combined with another Violet (or half Violet) bunny to form a Bunny Triplet."},
       {"title": "Additional Rules", "text": "The replaced bunny (and all of its Bunny Modifier cards) is discarded."}
     ]
   },
