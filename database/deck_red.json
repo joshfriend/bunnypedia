@@ -401,7 +401,8 @@
         "pawn": "YELLOW",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to attack any abducting aliens.<br>9-12 = The aliens and abducted bunnies are destroyed. In addition, the wreckage lands on the player whose bunny was abducted killing all of his other bunnies as well.<br>5-8 = Only the aliens and abducted bunnies are destroyed.<br>1-4 = The missile is a dud. Nothing happens!"},
-            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate H.E.M.P."}
+            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate H.E.M.P."},
+            {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
         ]
     },
     {

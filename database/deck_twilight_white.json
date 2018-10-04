@@ -178,7 +178,8 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Cathode (Black) or Anode (Red) roll to be the higher number."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
+            {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
         ]
     },
     {
@@ -192,7 +193,8 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing either Esther's (Blue) or Betty's (Red) roll to be the higher number."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
+            {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
         ]
     },
     {
@@ -278,7 +280,8 @@
         "dice": ["YELLOW"],
         "pawn": "YELLOW",
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to remove <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> from any bunny and place it under another bunny the same number of spaces away in The Bunny Circle as rolled. The Halo moves clockwise in the AM or counter-clockwise in the PM."}
+            {"title": "Card Text", "text": "May be used once by a player to remove <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> from any bunny and place it under another bunny the same number of spaces away in The Bunny Circle as rolled. The Halo moves clockwise in the AM or counter-clockwise in the PM."},
+            {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
         ]
     },
     {
