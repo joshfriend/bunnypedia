@@ -1,4 +1,4 @@
-[
+o[
   {
     "id": "1211",
     "title": "Blue Breakdown Bunny",
@@ -189,7 +189,7 @@
   },
   {
     "id": "1228",
-    "title": "Thermo Nuclear Chicken Wings",
+    "title": "Thermo-Nuclear Chicken Wings",
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "weaponLevel": "12",
@@ -239,6 +239,7 @@
     "deck": "PUMPKIN_SPICE",
     "rules": [
       {"title": "Card Text", "text": "Banjaxers may be used once by a player to replace any bunny in any player's area of The Bunny Circle. Banjaxers is a double Violet bunny and may be combined with another Violet (or half Violet) bunny to form a Bunny Triplet."}
+      {"title": "Additional Rules", "text": "The replaced bunny (and all of its Bunny Modifier cards) is discarded."}
     ]
   },
   {
@@ -250,7 +251,8 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must roll the dice and give away any of his bunnies that are the same color (or half color) as both the highest and lowest rolls."},
-      {"title": "Additional Rules", "text": "If there is a tie for the highest or lowest roll, then the bunnies of all of the colors (or half colors) are given away. The bunnies may be given to any of the players, in any area of The Bunny Circle that the opponent chooses. Those color bunnies will continue to be banned from the opponent's area of The Bunny Circle until he pays 10 Dolla to the player to remove the card.<br><br>Use the colored Chips (Wacky Khaki and Ominous Onyx booster decks) to keep track of the opponent's banned colors."}
+      {"title": "Additional Rules", "text": "If there is a tie for the highest or lowest roll, then the bunnies of all of the colors (or half colors) are given away. The bunnies may be given to any of the players, in any area of The Bunny Circle that the opponent chooses. Those color bunnies will continue to be banned from the opponent's area of The Bunny Circle until he pays 10 Dolla to the player to remove the card.<br><br>Use the colored Chips (Wacky Khaki and Ominous Onyx booster decks) to keep track of the opponent's banned colors."},
+      {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
   {
@@ -350,7 +352,7 @@
   },
   {
     "id": "1243",
-    "title": "Rooneys Weapons Emporium Two (Lower)",
+    "title": "Rooney's Weapons Emporium Two (Low)",
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "bunnyRequirement": "NO",
@@ -377,7 +379,7 @@
     "dice": ["CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to end the game immediately if he can roll a 2, 10, 12, or 20 on the die. Any opponent may pay the player the amount rolled to counteract Tivy Telos and continue the game."},
-      {"title": "Additional Rules", "text": "Please note that Tivy Telos requires a player to have two bunnies in The Bunny Circle."}
+      {"title": "Additional Rules", "text": "Please note that Tivy Telos requires a player to have two bunnies in The Bunny Circle.<br><br>If Tivy Telos is successful, then all Carrots left at any Kaballa’s Market must be given to the player that has at least one bunny in The Bunny Circle and the most Kaballa Dolla saved."}
     ]
   },
   {
