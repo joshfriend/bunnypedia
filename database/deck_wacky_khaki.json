@@ -120,7 +120,8 @@
       "rules": [
         {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Pitcher (Blue) or the Catcher (Red) roll to be the higher number."},
         {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
-        {"title": "Southpaw", "text": "<a href=\"bunnypedia://card/1142\">Southpaw</a> may be used to eliminate Baseball Blues."}
+        {"title": "Southpaw", "text": "<a href=\"bunnypedia://card/1142\">Southpaw</a> may be used to eliminate Baseball Blues."},
+        {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
       ]
     },
     {
@@ -134,7 +135,8 @@
       "dice": ["YELLOW", "BLACK"],
       "rules": [
         {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Condition Yoke (Yellow) or Zebra (Black) roll to be the higher number."},
-        {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."}
+        {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://card/429\">Weapon Booster</a> or <a href=\"bunnypedia://card/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
+        {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
       ]
     },
     {

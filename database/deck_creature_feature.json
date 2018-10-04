@@ -429,7 +429,8 @@
     "deck": "CREATURE_FEATURE",
     "pawn": "VIOLET",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to feed the bunny. One bunny is fed any amounts of Radish Units and Milk Units. Or may be used immediately by a player to eliminate the <a card/1145\">Whiner</a> vote. This card must be a saved Special to be used immediately."}
+      {"title": "Card Text", "text": "May be used once by a player to feed the bunny. One bunny is fed any amounts of Radish Units and Milk Units. Or may be used immediately by a player to eliminate the <a card/1145\">Whiner</a> vote. This card must be a saved Special to be used immediately."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {

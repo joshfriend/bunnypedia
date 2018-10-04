@@ -338,7 +338,8 @@
     "rules": [
       {"title": "Card Text", "text": "If all dice show different numbers then the player receives 1 Carrot and 10 Dolla. If any two dice show the same number (doubles) then one of your bunnies gets snuffed by the Casino bosses.<br><br>Optional Gamble: Roll the Red die. If no doubles appear then receive another 10 Dolla and receive two bunnies from the discard pile. If doubles is rolled then all bunnies, Carrots and Dolla are taken"},
       {"title": "Additional Rules", "text": "The player may only take the Carrot if Kaballa's Market is open, but if he loses his Carrots in the optional gamble, they must be returned even if the market is closed.<br>The revived bunnies must be placed in The Bunny Circle."},
-      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Royale may be stolen using <a href=\"bunnypedia://card/716\">Bunny's Eleven</a>."}
+      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Royale may be stolen using <a href=\"bunnypedia://card/716\">Bunny's Eleven</a>."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -353,7 +354,8 @@
     "rules": [
       {"title": "Card Text", "text": "If all dice show different numbers then the player receives 1 Carrot and 10 Dolla. If any two dice show the same number (doubles) then one of your bunnies gets snuffed by the Casino bosses.<br><br>Optional Gamble: Roll the Red die. If no doubles appear then receive another 10 Dolla and receive two bunnies from the discard pile. If doubles is rolled then all bunnies, Carrots and Dolla are taken"},
       {"title": "Additional Rules", "text": "The player may only take the Carrot if Kaballa's Market is open, but if he loses his Carrots in the optional gamble, they must be returned even if the market is closed.<br>The revived bunnies must be placed in The Bunny Circle."},
-      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Royale may be stolen using <a href=\"bunnypedia://card/716\">Bunny's Eleven</a>."}
+      {"title": "Bunny's Eleven", "text": "The winnings from Carrot Top Royale may be stolen using <a href=\"bunnypedia://card/716\">Bunny's Eleven</a>."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -388,7 +390,8 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "Allows a player to choose any number (1-12) and roll the dice. The number of correct rolls is the number of bunnies a player receives back from the dead (the discard pile)."},
-      {"title": "Additional Rules", "text": "The revived bunnies are placed in The Bunny Circle immediately."}
+      {"title": "Additional Rules", "text": "The revived bunnies are placed in The Bunny Circle immediately."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -402,7 +405,8 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "Allows a player to choose any number (1-12) and roll the dice. The number of correct rolls is the number of bunnies a player receives back from the dead (the discard pile)."},
-      {"title": "Additional Rules", "text": "The revived bunnies are placed in The Bunny Circle immediately."}
+      {"title": "Additional Rules", "text": "The revived bunnies are placed in The Bunny Circle immediately."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -415,7 +419,8 @@
     "dice": ["RED"],
     "rules": [
       {"title": "Card Text", "text": "(12-11-10) = Receive 3, 2 or 1 Carrot(s) from Kaballa.<br>(09-07) = Take 2 Cabbage & 3 Water Cards.<br>(06-04) = Feed your bunny 5 Cabbage & 5 Water immediately!<br>03 = A bag of sugar is dropped killing your bunny!<br>02 = A pitchfork kills your bunny & adjacent bunnies!<br>01 = Disaster! Lose all of your bunnies and Carrots!"},
-      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa's Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open)."}
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa's Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open)."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -429,7 +434,8 @@
     "dice": ["RED"],
     "rules": [
       {"title": "Card Text", "text": "(12-11-10) = Receive 3, 2 or 1 Carrot(s) from Kaballa.<br>(09-07) = Take 2 Cabbage & 3 Water Cards.<br>(06-04) = Feed your bunny 5 Cabbage & 5 Water immediately!<br>03 = A bag of sugar is dropped killing your bunny!<br>02 = A pitchfork kills your bunny & adjacent bunnies!<br>01 = Disaster! Lose all of your bunnies and Carrots!"},
-      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa's Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open)."}
+      {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Cabbage Units or saved Water Units will not have the opportunity to buy supplies from Kaballa's Market since it will not be his turn. Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open)."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -442,7 +448,8 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "Lowest roll is the supply received by the player:<ul><li> Green - 2 Cabbage Cards</li><li> Blue - 2 Water Cards</li><li> Orange - 2 Carrot Cards</li><li> Yellow - 20 Dolla</li><li> Violet - 2 Bunnies</li><li> Black - 2 Defense Cards</li><li> Red - 2 Pawns</li><li> Clear - All of the items listed</li></ul>"},
-      {"title": "Additional Rules", "text": "Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open), Dolla and bunnies are taken from the Discard Pile if they are available, Defense Cards are taken from Rooney's Weapons Emporium (if the emporium is open) and Pawns are taken from Weil's Pawn Shop (if the shop is open)."}
+      {"title": "Additional Rules", "text": "Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open), Dolla and bunnies are taken from the Discard Pile if they are available, Defense Cards are taken from Rooney's Weapons Emporium (if the emporium is open) and Pawns are taken from Weil's Pawn Shop (if the shop is open)."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -456,7 +463,8 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "Lowest roll is the supply received by the player:<ul><li> Green - 2 Cabbage Cards</li><li> Blue - 2 Water Cards</li><li> Orange - 2 Carrot Cards</li><li> Yellow - 20 Dolla</li><li> Violet - 2 Bunnies</li><li> Black - 2 Defense Cards</li><li> Red - 2 Pawns</li><li> Clear - All of the items listed</li></ul>"},
-      {"title": "Additional Rules", "text": "Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open), Dolla and bunnies are taken from the Discard Pile if they are available, Defense Cards are taken from Rooney's Weapons Emporium (if the emporium is open) and Pawns are taken from Weil's Pawn Shop (if the shop is open)."}
+      {"title": "Additional Rules", "text": "Cabbage Cards, Water Cards, and Carrots are taken from Kaballa's Market (if the market is open), Dolla and bunnies are taken from the Discard Pile if they are available, Defense Cards are taken from Rooney's Weapons Emporium (if the emporium is open) and Pawns are taken from Weil's Pawn Shop (if the shop is open)."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -467,7 +475,8 @@
     "bunnyRequirement": "NO",
     "pawn": "VIOLET",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to feed any (or all) bunnies in the Bunny Circle any amounts of Cabbage and Water."}
+      {"title": "Card Text", "text": "May be used once by a player to feed any (or all) bunnies in the Bunny Circle any amounts of Cabbage and Water."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
@@ -479,7 +488,8 @@
     "bunnyRequirement": "NO",
     "pawn": "VIOLET",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to feed any (or all) bunnies in the Bunny Circle any amounts of Cabbage and Water."}
+      {"title": "Card Text", "text": "May be used once by a player to feed any (or all) bunnies in the Bunny Circle any amounts of Cabbage and Water."},
+      {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
     ]
   },
   {
