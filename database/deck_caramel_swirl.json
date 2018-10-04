@@ -462,7 +462,7 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a left-handed player while the direction of play is counter-clockwise to immediately choose any five Carrots from Kaballa's Market. Or may be used immediately to eliminate <a href=\"bunnypedia://card/561\">Baseball Blues</a> or Narcoleptic Dog. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a left-handed player while the direction of play is counter-clockwise to immediately choose any five Carrots from Kaballa's Market. Or may be used immediately to eliminate <a href=\"bunnypedia://card/561\">Baseball Blues</a> or <a href=\"bunnypedia://card/1183\">Narcoleptic Dog</a>. May be used at any time!"}
     ]
   },
   {
