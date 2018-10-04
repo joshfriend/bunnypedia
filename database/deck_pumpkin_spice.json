@@ -31,7 +31,7 @@
   },
   {
     "id": "1214",
-    "title": "Red Breakdown Bunny",
+    "title": "Yellow Breakdown Bunny",
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "rules": [
@@ -51,7 +51,7 @@
   },
   {
     "id": "1216",
-    "title": "Yellow Breakdown Bunny",
+    "title": "Red Breakdown Bunny",
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "rules": [
@@ -286,7 +286,7 @@
   },
   {
     "id": "1237",
-    "title": "Funky Fungus – Quad (Bunny Modifier)",
+    "title": "Funky Fungus – Quadruple (Bunny Modifier)",
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
     "bunnyRequirement": "NO",
