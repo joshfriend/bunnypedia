@@ -112,7 +112,7 @@
     },
     {
         "id": 1056,
-        "title": "Mysterious Place - 1856 Sheridan Road",
+        "title": "1856 Sheridan Road",
         "deck": "FANTASTIC",
         "specialSeries": "THETA",
         "type": "MYSTERIOUS_PLACE",
@@ -123,7 +123,7 @@
     },
     {
         "id": 1057,
-        "title": "Mysterious Place - Arch Bridge",
+        "title": "Arch Bridge",
         "deck": "FANTASTIC",
         "specialSeries": "THETA",
         "type": "MYSTERIOUS_PLACE",
@@ -605,7 +605,7 @@
     },
     {
         "id": 1099,
-        "title": "Mysterious Place - Gobekli Tepe",
+        "title": "Gobekli Tepe",
         "deck": "FANTASTIC",
         "type": "MYSTERIOUS_PLACE",
         "rules": [
@@ -615,7 +615,7 @@
     },
     {
         "id": 1100,
-        "title": "Mysterious Place - Puma Puma",
+        "title": "Puma Puma",
         "deck": "FANTASTIC",
         "type": "MYSTERIOUS_PLACE",
         "rules": [

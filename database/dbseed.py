@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import json
 import glob
@@ -118,7 +118,10 @@ DB_GZ_FILE = join(DB_GZ_FOLDER, 'db.sqlite3.gz')
 cards_data = []
 for deck in glob.glob(JSON_FILES):
     with open(deck, 'rb') as fp:
-        data = json.load(fp)
+        try:
+            data = json.load(fp)
+        except Exception as e:
+            raise Exception("Unable to load %s" % deck, e)
     cards_data.extend(data)
 
 try:
