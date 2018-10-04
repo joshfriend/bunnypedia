@@ -399,7 +399,8 @@
         "type": "SPECIAL",
         "bunnyRequirement": "PLAY_AND_SAVE",
         "rules": [
-            {"title": "Card Text", "text": "The player with this card saved has no need to feed. If at any time the player has no bunnies in The Bunny Circle then Forever Fed is discarded."}
+            {"title": "Card Text", "text": "The player with this card saved has no need to feed. If at any time the player has no bunnies in The Bunny Circle then Forever Fed is discarded."},
+            {"title": "Nothing Is Forever", "text": "<a href=\"bunnypedia://card/1241\">Nothing Is Forever</a> may be used to eliminate this card."}
         ]
     },
     {

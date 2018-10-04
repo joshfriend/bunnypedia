@@ -491,7 +491,8 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to force the current player to replay his turn. Essentially a \"Do-Over\". May be used at any time!"},
       {"title": "Additional Rules", "text": "All cards played during the turn are returned to their starting positions at the beginning of the turn in the same order as they were before the turn began (except for the Bunny On The Edge Of Forever card, which is placed in the Discard Pile). The cards may need to be returned to the Draw Pile, Discard Pile or player's five-card hands. The current player's turn starts again. Play may very well continue exactly as it did the first time, unless a player changes his mind about an important decision, or unless a die rolls differently than it did before."},
-      {"title": "Tachyon Turnaround", "text": "<a href=\"bunnypedia://card/589\">Tachyon Turnaround</a> may be used to counteract Bunny On The Edge Of Forever."}
+      {"title": "Tachyon Turnaround", "text": "<a href=\"bunnypedia://card/589\">Tachyon Turnaround</a> may be used to counteract Bunny On The Edge Of Forever."},
+      {"title": "Nothing Is Forever", "text": "<a href=\"bunnypedia://card/1241\">Nothing Is Forever</a> may be used to eliminate this card."}
     ]
   },
   {

@@ -475,7 +475,7 @@
     "bunnyRequirement": "PLAY",
     "deck": "CREATURE_FEATURE",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate either Banned From Argo, Zero Zero, any Exchange card or all Roaming Red Run cards in play. May be used at any time!"},
+      {"title": "Card Text", "text": "May be used once by a player to eliminate either <a href=\"bunnypedia://card/1233\">Banned From Argo</a>, Zero Zero, any Exchange card or all Roaming Red Run cards in play. May be used at any time!"},
       {"title": "Additional Rules", "text": "An Exchange card is any card with \"Exchange\" in the title. This includes:<ul><li><a href=\"bunnypedia://card/149\">Rooney's Weapons Exchange</a></li><li><a href=\"bunnypedia://card/187\">Carrot Exchange</a></li><li><a href=\"bunnypedia://card/240\">Bunny Exchange</a></li><li><a href=\"bunnypedia://card/471\">Zodiac Exchange</a></li><li><a href=\"bunnypedia://card/522\">Rank Exchange</a></li><li><a href=\"bunnypedia://card/1128\">Morden's Metals Exchange</a></li></ul>"}
     ]
   },
