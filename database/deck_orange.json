@@ -190,7 +190,7 @@
     "title": "F-18 Hornet",
     "deck": "ORANGE",
     "type": "ROAMING_RED_RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "PLAY_X2",
     "dice": ["CLEAR"],
     "weaponLevel": "18",
     "rules": [
