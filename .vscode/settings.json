@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        ".gradletasknamecache": true,
+        ".idea": true,
+        "**/*.gz": true,
+        "**/*.iml": true,
+        "**/*.jar": true,
+        "**/build": true,
+        "gradlew*": true
+    }
+}
