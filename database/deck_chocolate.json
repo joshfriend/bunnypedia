@@ -480,13 +480,16 @@
   },
   {
     "id": 756,
-    "canonicalId": 49,
     "deck": "CHOCOLATE",
     "title": "Area 51",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
+    "symbols": ["JUPITER"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."}
+      {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."},
+      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
     ]
   },
   {

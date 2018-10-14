@@ -139,8 +139,10 @@
   "title": "Choose A Carrot",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "aggressive": false,
   "rules": [
-    {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
   ]
 },
 {
@@ -524,7 +526,7 @@
   "dice": ["BLACK"],
   "bunnyRequirement": "PLAY",
   "rules": [
-    {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within two spaces are also killed. Horseshoe bunnies may survive."}
+    {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within two spaces are also killed. <a href=\"bunnypedia://card/828\">Horseshoe</a> bunnies may survive."}
   ]
 },
 {
@@ -542,7 +544,6 @@
 },
 {
   "id": "0820",
-  "canonicalId": 49,
   "title": "Area 51",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
@@ -557,7 +558,6 @@
 },
 {
   "id": "0821",
-  "canonicalId": 49,
   "title": "Area 51",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
@@ -929,7 +929,7 @@
   "symbols": ["MYSTERIOUS_PLACE_BALL"],
   "rules": [
     {"title": "Card Text", "text": "While attempting to birl a log, your bunny slips and abruptly realizes that he can't just roll with it."},
-    {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+    {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
     {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."},
     {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
   ]
@@ -941,7 +941,7 @@
   "type": "RUN",
   "rules": [
     {"title": "Card Text", "text": "One of your bunnies becomes the victim of a poorly calibrated heart defibrillator."},
-    {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+    {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
     {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
   ]
 },
@@ -952,7 +952,7 @@
   "type": "RUN",
   "rules": [
     {"title": "Card Text", "text": "One of your bunnies attempts to take over a high rise building on Christmas Eve and dies hard."},
-    {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+    {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
     {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
   ]
 },
@@ -963,7 +963,7 @@
   "type": "RUN",
   "rules": [
     {"title": "Card Text", "text": "While attempting to steal an ancient artifact, your bunny is squished by a giant rolling rock"},
-    {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a>."},
+    {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
     {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
   ]
 },

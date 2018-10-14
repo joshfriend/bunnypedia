@@ -1,0 +1,565 @@
+[
+  {
+    "id": "0881",
+    "title": "Yellow Evil",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0882",
+    "title": "Yellow Hypnotic",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0883",
+    "title": "Yellow Ludicrous",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0884",
+    "title": "Yellow Spiffy",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0885",
+    "title": "Yellow Truculent",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0886",
+    "title": "Violet Evil",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0887",
+    "title": "Violet Hypnotic",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0888",
+    "title": "Violet Ludicrous",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0889",
+    "title": "Violet Spiffy",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0890",
+    "title": "Violet Truculent",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "rules": [
+      {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
+    ]
+  },
+  {
+    "id": "0891",
+    "title": "Choose A Carrot",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": "0892",
+    "title": "Choose A Carrot",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": "0893",
+    "title": "Choose 2 Carrots",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": "0894",
+    "title": "Choose 2 Carrots",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
+    ]
+  },
+  {
+    "id": "0895",
+    "title": "Feed The Bunny 2/2",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "radish": 2,
+    "milk": 2,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": "0896",
+    "title": "Feed The Bunny 4/4",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "radish": 4,
+    "milk": 4,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": "0897",
+    "title": "Feed The Bunny 10/10",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "radish": 10,
+    "milk": 10,
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+    ]
+  },
+  {
+    "id": "0898",
+    "title": "Ice, Ice Baby",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "1",
+    "dice": ["BLACK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 1 to survive."}
+    ]
+  },
+  {
+    "id": "0899",
+    "title": "Baneful Asp",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "2",
+    "dice": ["BLACK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 2 to survive."}
+    ]
+  },
+  {
+    "id": "0900",
+    "title": "Xanadude",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "3",
+    "dice": ["BLACK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 3 to survive."}
+    ]
+  },
+  {
+    "id": "0901",
+    "title": "Terminators",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "10",
+    "dice": ["BLACK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 10 to survive. Adjacent bunnies must roll higher than 9 to survive."}
+    ]
+  },
+  {
+    "id": "0902",
+    "title": "Googol Plexing",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "11",
+    "dice": ["BLACK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll 12 to survive. Adjacent bunnies must roll higher than 10 to survive, bunnies two spaces away must roll higher than 0 to survive and so on until all bunnies in The Bunny Circle have rolled."}
+    ]
+  },
+  {
+    "id": "0903",
+    "title": "Clue Cast",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "weaponLevel": "12",
+    "dice": ["BLACK"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within three spaces are also killed. <a href=\"bunnypedia://card/828\">Horseshoe</a> bunnies may survive."}
+    ]
+  },
+  {
+    "id": "0904",
+    "title": "Area 51",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "symbols": ["JUPITER"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any one bunny which is abducted by the Beyea Aliens. The bunny is returned when another is taken."},
+      {"title": "Additional Rules", "text": "If an abducted bunny has any Bunny Modifier cards (such as <a href=\"bunnypedia://card/61\">Clover</a> or the <a href=\"bunnypedia://card/151\">Containment Suit</a>), or a pending card (such as a <a href=\"bunnypedia://card/24\">Feed The Bunny</a> card, <a href=\"bunnypedia://card/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://card/47\">The Ebola Virus</a>), then those cards are immediately discarded.<br><br>If the bunny that is abducted has <a href=\"bunnypedia://card/54\">Cyber Bunny</a> on top of it, then the bunny goes away with the Beyea Aliens and Cyber Bunny moves on to the next viable bunny target in The Bunny Circle.<br><br>A player with an abducted bunny and no other bunny in The Bunny Circle may not play any Aggressive cards (cards that have a Pink rectangular box) or a Choose A Carrot card. An abducted bunny cannot count towards a Bunny Triplet because it is not in The Bunny Circle. At the end of the game, a player with only an abducted bunny may still win the game (since the bunny is still alive)."},
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
+      {"title": "Bunnies In Black", "text": "<a href=\"bunnypedia://card/259\">Bunnies In Black</a> can be used to protect a player's bunnies from abduction, or used to return all abducted bunnies."}
+    ]
+  },
+  {
+    "id": "0905",
+    "title": "Butter Side Up",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to throw this card into the air and to take any one opponent's entire Radish and Milk supply if the card lands Butter Side Up."}
+    ]
+  },
+  {
+    "id": "0906",
+    "title": "Dead Zone",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must sacrifice any one of his bunnies in The Bunny Circle before he may play an Aggressive card."},
+      {"title": "Additional Rules", "text": "Dead Zone may be given to an opponent who has no bunnies."},
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
+    ]
+  },
+  {
+    "id": "0907",
+    "title": "Doe Si Doe",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once to force all players to rotate one of their bunnies to the next player counter-clockwise. Players without bunnies do not participate."},
+      {"title": "Additional Rules", "text": "Each player may choose which of his bunnies to rotate."}
+    ]
+  },
+  {
+    "id": "0908",
+    "title": "Free Agent!",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player as a bunny of any kind and any color (except Red or Pink)."},
+      {"title": "Additional Rules", "text": "Free Agent bunny may be used by a player as any bunny of any kind (Evil, Hypnotic, Ludicrous, Spiffy and Truculent) and any color (except Red or Pink). The identity of the bunny may change at any time during play as the need arises. Free Agent bunnies make forming a Bunny Triplet much easier. Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies."},
+      {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://card/407\">Cloned</a>"}
+    ]
+  },
+  {
+    "id": "0909",
+    "title": "Hecklers",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force any one opponent to either pay 2 Dolla for each or to return a Carrot for each RUN card in his five-card hand."}
+    ]
+  },
+  {
+    "id": "0910",
+    "title": "Kaballa’s Market Two (Low)",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Reopens the store - New prices:<br>2 Dolla - for each Radish Card<br>1 Dolla - for each Milk Card<br>10 Dolla - for each Carrot"}
+    ]
+  },
+  {
+    "id": "0911",
+    "title": "Kaballa's Market Two (Closed)",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "CLOSED. Players may still take Carrots using Choose A Carrot cards."}
+    ]
+  },
+  {
+    "id": "0912",
+    "title": "Lucky Horseshoe – Quadruple (Bunny Modifier)",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Quadruple lowers the level of any weapon by four."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
+      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://card/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+    ]
+  },
+  {
+    "id": "0913",
+    "title": "Morden’s Metals Exchange – Gold",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "Metals may be bought or sold for the current Exchange Rate. All Metal dice may be re-rolled at the end of any turn during which a player received a Carrot. All Gold values are doubled."}
+    ]
+  },
+  {
+    "id": "0914",
+    "title": "Olympic Winner",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["ORANGE", "GREEN"],
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to discard any one of his saved Metal cards, add 20 to each of the numbers rolled and steal the Carrots with those numbers from either Kaballa or any opponents."}
+    ]
+  },
+  {
+    "id": "0915",
+    "title": "Slight of Hand",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to rearrange the positions of any one player's bunnies in The Bunny Circle."},
+      {"title": "Additional Rules", "text": "Any bunny that has it’s position changed must remain the property of the initial owner."}
+    ]
+  },
+  {
+    "id": "0916",
+    "title": "Squish Kebab",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["YELLOW"],
+    "rules": [
+      {"title": "Card Text", "text": "May be placed on any bunny. The player rolls the die and the two bunnies the same number of spaces away in The Bunny Circle as the number rolled are immediately killed."}
+    ]
+  },
+  {
+    "id": "0917",
+    "title": "Tranny Nanny (Bunny Modifier)",
+    "deck": "CONQUEST_YELLOW",
+    "type": "RUN",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny and always makes sure that it has enough food to eat. No Feed The Bunny cards affect this bunny."},
+      {"title": "Additional Rules", "text": "Tranny Nanny remains under the bunny while it is alive."}
+    ]
+  },
+  {
+    "id": "0918",
+    "title": "Beefed Up Production",
+    "deck": "CONQUEST_YELLOW",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to eliminate <a href=\"bunnypedia://card/804\">Angry Beet Farmer</a> or to counteract <a href=\"bunnypedia://card/832\">Sour Hour</a> before losing all of his Milk Units. This card  must be a saved Special to be used immediately."},
+      {"title": "Additional Rules", "text": "Unlike Very Special cards, Beefed Up Production may not be used to save other players’ bunnies from harm. This card is for the exclusive use of the player who has it saved."}
+    ]
+  },
+  {
+    "id": "0919",
+    "title": "Free Radish and Milk",
+    "deck": "CONQUEST_YELLOW",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to take one Radish Card and one Milk Card from Kaballa's Market Two."},
+      {"title": "Additional Rules", "text": "Free Radish And Milk may not be used if Kaballa’s Market Two is closed."}
+    ]
+  },
+  {
+    "id": "0920",
+    "title": "Quickdraw",
+    "deck": "CONQUEST_YELLOW",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to immediately play any weapon card directly from his five-card hand."}
+    ]
+  },
+  {
+    "id": "0921",
+    "title": "Shell Repel",
+    "deck": "CONQUEST_YELLOW",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to either eliminate <a href=\"bunnpedia://card/811\">Gremlins</a> or to counteract <a href=\"bunnypedia://card/833\">Starving Snails</a> before losing all of his Radish Units. This card must be a saved Special to be used immediately."},
+      {"title": "Additional Rules", "text": "Unlike Very Special cards, Shell Repel may not be used to save other players’ bunnies from harm. This card is for the exclusive use of the player who has it saved."}
+    ]
+  },
+  {
+    "id": "0922",
+    "title": "Suspended Animation",
+    "deck": "CONQUEST_YELLOW",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to place any one of his own bunnies from The Bunny Circle off to the side and to return it to The Bunny Circle just before the Magic Carrot is revealed."},
+      {"title": "Additional Rules", "text": "While off to the side, the bunny may not be attacked, made to feed, or be abducted by any opponent. A player with only this bunny may not play Aggressive cards."},
+      {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://card/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
+    ]
+  },
+  {
+    "id": "0923",
+    "title": "Top Run Rotate",
+    "deck": "CONQUEST_YELLOW",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once to force all players to rotate their Top Run card to the next player clockwise"}
+    ]
+  },
+  {
+    "id": "0924",
+    "title": "Banana Phone",
+    "deck": "CONQUEST_YELLOW",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to force any one opponent to return a Carrot to Kaballa's Market Two when his phone makes any type of noise (ring, vibration, bleep, etc.). May be used at any time!"}
+    ]
+  },
+  {
+    "id": "0925",
+    "title": "Raisin Hell",
+    "deck": "CONQUEST_YELLOW",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to immediately force any one opponent to discard all of the weapon cards in his five-card hand and those being played during the current turn. May be used at any time!"},
+      {"title": "Additional Rules", "text": "The opponent must immediately draw new cards from the Draw Pile."}
+    ]
+  },
+  {
+    "id": "0926",
+    "title": "Star 69",
+    "deck": "CONQUEST_YELLOW",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {"title": "Card Text", "text": "May be used once by a player to redirect any Feed The Bunny card placed on any bunny onto any other bunny. May be used at any time!"}
+    ]
+  },
+  {
+    "id": "0927",
+    "title": "Terrible Misfortune – Spartan",
+    "deck": "CONQUEST_YELLOW",
+    "type": "PLAY_IMMEDIATELY",
+    "rules": [
+      {"title": "Card Text", "text": "Without giving any thought to an exit strategy, one of your bunnies flippantly insults 300 Spartan warriors."},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>."},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ]
+  },
+  {
+    "id": "0928",
+    "title": "Terrible Misfortune – Sunny Day",
+    "deck": "CONQUEST_YELLOW",
+    "type": "PLAY_IMMEDIATELY",
+    "rules": [
+      {"title": "Card Text", "text": "While quenching his thirst for adventure, one of your bunnies attempts to fly with wax wings on a far too sunny day!"},
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>"},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://card/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://card/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://card/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ]
+  },
+  {
+    "id": "0929",
+    "canonicalId": 92,
+    "title": "2 Dolla",
+    "deck": "CONQUEST_YELLOW",
+    "type": "DOLLA"
+  },
+  {
+    "id": "0930",
+    "canonicalId": 98,
+    "title": "5 Dolla",
+    "deck": "CONQUEST_YELLOW",
+    "type": "DOLLA"
+  },
+  {
+    "id": "0931",
+    "canonicalId": 101,
+    "title": "10 Dolla",
+    "deck": "CONQUEST_YELLOW",
+    "type": "DOLLA"
+  },
+  {
+    "id": "0932",
+    "title": "Carrot #29 – Susanna",
+    "deck": "CONQUEST_YELLOW",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "0933",
+    "title": "Carrot #30 – Robin",
+    "deck": "CONQUEST_YELLOW",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "0934",
+    "title": "Carrot #31 – Wendi",
+    "deck": "CONQUEST_YELLOW",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "0935",
+    "title": "Carrot #32 – Vic",
+    "deck": "CONQUEST_YELLOW",
+    "type": "CARROT_SUPPLY"
+  }
+]

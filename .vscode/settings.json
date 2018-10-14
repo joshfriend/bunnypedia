@@ -7,5 +7,15 @@
         "**/*.jar": true,
         "**/build": true,
         "gradlew*": true
+    },
+    "editor.tabSize": 1,
+    "[kotlin]": {
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "[xml]": {
+        "editor.tabSize": 4
     }
 }
