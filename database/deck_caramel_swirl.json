@@ -299,7 +299,8 @@
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
       {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
-      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."}
+      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://card/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
     ]
   },
   {

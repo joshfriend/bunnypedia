@@ -21,6 +21,10 @@
     <color name="deck_steel">#c6cfd4</color>
     <color name="deck_khaki">#e3b58a</color>
     <color name="deck_chocolate">#663d1b</color>
+    <color name="deck_conquest_blue">@color/deck_blue</color>
+    <color name="deck_conquest_yellow">@color/deck_yellow</color>
+    <color name="deck_conquest_red">@color/deck_red</color>
+    <color name="deck_conquest_violet">@color/deck_violet</color>
     <color name="deck_fantastic">@color/deck_orange</color>
     <color name="deck_caramel">@color/deck_chocolate</color>
     <color name="deck_creature_feature">#83BD63</color>

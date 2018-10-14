@@ -266,7 +266,7 @@
     ],
     "rules": [
       {"title": "Card Text", "text": "May be given to any player who places General Tso in his area of The Bunny Circle. General Tso visits one player per round clockwise forcing players to return Carrots if tches any of their saved Zodiac cards."},
-      {"title": "Additional Rules", "text": "While General Tso is visiting, any player with at least one saved Chinese Zodiac card must roll the Chinese Zodiac die. If the symbol rolled is the same as any of the player's saved Chinese Zodiac cards, then the player must return a number of Carrots to any Kaballa's Market equal to the number of bunnies that he has in The Bunny Circle (including General Tso).<br><br>In addition to their Roaming Red Run capabilities, General Tso (and Lieutenant Tang) are also a double Yellow bunny and may be combined with another Yellow (or half Yellow) bunny to form a Bunny Triplet. General Tso may be attacked and eliminated using any Weapon card. The player who launched General Tso rolls for his defense against a Weapon card even if the same player also launched the weapon. Each of the General's chicken regiment acts like a <a href=\"bunnypedia://card/61\">Lucky Clover</a> or <a href=\"bunnypedia://card/1127\">Lucky Horseshoe</a> and lowers the level of any weapon used against him."},
+      {"title": "Additional Rules", "text": "While General Tso is visiting, any player with at least one saved Chinese Zodiac card must roll the Chinese Zodiac die. If the symbol rolled is the same as any of the player's saved Chinese Zodiac cards, then the player must return a number of Carrots to any Kaballa's Market equal to the number of bunnies that he has in The Bunny Circle (including General Tso).<br><br>In addition to their Roaming Red Run capabilities, General Tso (and Lieutenant Tang) are also a double Yellow bunny and may be combined with another Yellow (or half Yellow) bunny to form a Bunny Triplet. General Tso may be attacked and eliminated using any Weapon card. The player who launched General Tso rolls for his defense against a Weapon card even if the same player also launched the weapon. Each of the General's chicken regiment acts like a <a href=\"bunnypedia://card/61\">Lucky Clover</a> or <a href=\"bunnypedia://card/828\">Lucky Horseshoe</a> and lowers the level of any weapon used against him."},
       {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
     ]
   },
@@ -315,7 +315,8 @@
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
       {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
-      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."}
+      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://card/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
     ]
   },
   {

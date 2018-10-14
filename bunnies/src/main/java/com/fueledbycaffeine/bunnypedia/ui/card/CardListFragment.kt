@@ -227,9 +227,20 @@ class CardListFragment: DaggerFragment() {
   }
 
   private fun getAvailableDecks(): Set<Deck> {
-    return defaultSharedPreferences.getStringSet(
-      getString(R.string.pref_key_booster_decks),
-      resources.getStringArray(R.array.pref_all_booster_decks_values).toSet()
-    )!!.map { Deck.valueOf(it) }.toSet() + setOf(Deck.BLUE)
+    val allDecks = resources.getStringArray(R.array.pref_all_booster_decks_values).toSet()
+    val enabledDecks = defaultSharedPreferences
+      .getStringSet(
+        getString(R.string.pref_key_booster_decks),
+        allDecks
+      )!!
+
+    val decklist = when (enabledDecks.isNotEmpty()) {
+      true -> enabledDecks
+      else -> allDecks
+    }
+
+    return decklist.asSequence()
+      .map { Deck.valueOf(it) }
+      .toSet()
   }
 }

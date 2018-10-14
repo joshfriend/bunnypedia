@@ -32,6 +32,10 @@
     <string name="deck_ominous_onyx_booster">Ominous Onyx Booster</string>
     <string name="deck_wacky_khaki_booster">Wacky Khaki Booster</string>
     <string name="deck_chocolate_booster">Chocolate Booster</string>
+    <string name="deck_conquest_blue_starter">Conquest Blue Starter</string>
+    <string name="deck_conquest_yellow_booster">Conquest Yellow Booster</string>
+    <string name="deck_conquest_red_booster">Conquest Red Booster</string>
+    <string name="deck_conquest_violet_booster">Conquest Violet Booster</string>
     <string name="deck_fantastic_booster">Fantastic Booster</string>
     <string name="deck_caramel_swirl_booster">Caramel Swirl Booster</string>
     <string name="deck_creature_feature_booster">Creature Feature Booster</string>

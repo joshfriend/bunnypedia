@@ -18,6 +18,10 @@ enum class Deck {
   WACKY_KHAKI,
   OMINOUS_ONYX,
   CHOCOLATE,
+  CONQUEST_BLUE,
+  CONQUEST_YELLOW,
+  CONQUEST_RED,
+  CONQUEST_VIOLET,
   FANTASTIC,
   CARAMEL_SWIRL,
   CREATURE_FEATURE,
@@ -38,6 +42,10 @@ enum class Deck {
       OMINOUS_ONYX -> R.color.deck_onyx
       WACKY_KHAKI -> R.color.deck_khaki
       CHOCOLATE -> R.color.deck_chocolate
+      CONQUEST_BLUE -> R.color.deck_conquest_blue
+      CONQUEST_YELLOW -> R.color.deck_conquest_yellow
+      CONQUEST_RED -> R.color.deck_conquest_red
+      CONQUEST_VIOLET -> R.color.deck_conquest_violet
       FANTASTIC -> R.color.deck_fantastic
       CARAMEL_SWIRL -> R.color.deck_caramel
       CREATURE_FEATURE -> R.color.deck_creature_feature
@@ -59,10 +67,19 @@ enum class Deck {
       OMINOUS_ONYX -> R.string.deck_ominous_onyx_booster
       WACKY_KHAKI -> R.string.deck_wacky_khaki_booster
       CHOCOLATE -> R.string.deck_chocolate_booster
+      CONQUEST_BLUE -> R.string.deck_conquest_blue_starter
+      CONQUEST_YELLOW -> R.string.deck_conquest_yellow_booster
+      CONQUEST_RED -> R.string.deck_conquest_red_booster
+      CONQUEST_VIOLET -> R.string.deck_conquest_violet_booster
       FANTASTIC -> R.string.deck_fantastic_booster
       CARAMEL_SWIRL -> R.string.deck_caramel_swirl_booster
       CREATURE_FEATURE -> R.string.deck_creature_feature_booster
       PUMPKIN_SPICE -> R.string.deck_pumpkin_spice_booster
     }
+  }
+
+  val game: Game get() = when (this) {
+    CONQUEST_BLUE, CONQUEST_YELLOW, CONQUEST_RED, CONQUEST_VIOLET -> Game.CONQUEST
+    else -> Game.QUEST
   }
 }
