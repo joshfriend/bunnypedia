@@ -61,6 +61,7 @@
   },
   {
     "id": "1217",
+    "canonicalId": 1162,
     "title": "Choose A Carrot",
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
@@ -72,6 +73,7 @@
   },
   {
     "id": "1218",
+    "canonicalId": 1163,
     "title": "Choose 2 Carrots",
     "type": "RUN",
     "deck": "PUMPKIN_SPICE",
@@ -196,7 +198,8 @@
     "dice": ["BLACK"],
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within two spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> or <a href=\"bunnypedia://card/828\">Horseshoe</a> bunnies may survive."}
+      {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. All bunnies within two spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> or <a href=\"bunnypedia://card/828\">Horseshoe</a> bunnies may survive."},
+      {"title": "Holographic Bunny", "text": "Thermo-Nuclear Chicken Wings can be used to kill the <a href=\"bunnypedia://card/958\">Holographic Bunny</a>."}
     ]
   },
   {
@@ -380,7 +383,7 @@
     "dice": ["CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to end the game immediately if he can roll a 2, 10, 12, or 20 on the die. Any opponent may pay the player the amount rolled to counteract Tivy Telos and continue the game."},
-      {"title": "Additional Rules", "text": "Please note that Tivy Telos requires a player to have two bunnies in The Bunny Circle.<br><br>If Tivy Telos is successful, then all Carrots left at any Kaballa’s Market must be given to the player that has at least one bunny in The Bunny Circle and the most Kaballa Dolla saved."}
+      {"title": "Additional Rules", "text": "Please note that Tivy Telos requires a player to have two bunnies in The Bunny Circle.<br><br>If Tivy Telos is successful, then all Carrots left at any Kaballa's Market must be given to the player that has at least one bunny in The Bunny Circle and the most Kaballa Dolla saved."}
     ]
   },
   {
@@ -445,7 +448,7 @@
   },
   {
     "id": "1252",
-    "canonicalId": 1144,
+    "canonicalId": 975,
     "type": "SENATOR",
     "deck": "PUMPKIN_SPICE",
     "title": "Shiner Senator (Bunny Modifier)",
@@ -456,8 +459,8 @@
   },
   {
     "id": "1253",
-    "canonicalId": 1145,
-    "title": "Whiner Senator",
+    "canonicalId": 977,
+    "title": "Whiner Senator (Bunny Modifier)",
     "type": "SENATOR",
     "deck": "PUMPKIN_SPICE",
     "rules": [

@@ -1,0 +1,571 @@
+[{
+  "id": "0936",
+  "title": "Red Evil",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "This bunny may feed up to 3 Radish Units and 3 Milk Units per turn. Supplies may not be saved for another turn."},
+    {"title": "Additional Rules", "text": "The 3 Radish Units and 3 Milk Units are for the exclusive use of this bunny and may not be shared with other bunnies in The Bunny Circle."}
+  ]
+},
+{
+  "id": "0937",
+  "title": "Red Hypnotic",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "The player with this bunny may spend 3 Dolla per turn at any open store. Dolla may not be saved for another turn."}
+  ]
+},
+{
+  "id": "0938",
+  "title": "Red Ludicrous",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "This bunny has a <a href=\"bunnypedia://card/830\">Lucky Horseshoe Triple</a> which lowers the level of any weapon by three."}
+  ]
+},
+{
+  "id": "0939",
+  "title": "Red Spiffy",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "This bunny is protected by a Bounce Back Force Field. Any weapon that directly targets this bunny but is not successful is placed back onto one of the bunnies of the attacking player."}
+  ]
+},
+{
+  "id": "0940",
+  "title": "Red Truculent",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "The player with this bunny may re-roll any action during play that involves any die."}
+  ]
+},
+{
+  "id": "0941",
+  "canonicalId": 942,
+  "title": "Choose A Carrot",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "aggressive": false,
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
+  ]
+},
+{
+  "id": "0942",
+  "title": "Choose A Carrot",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "aggressive": false,
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
+  ]
+},
+{
+  "id": "0943",
+  "title": "Choose 2 Carrots",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "aggressive": false,
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
+  ]
+},
+{
+  "id": "0944",
+  "title": "Feed The Bunny 3/3",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "radish": 3,
+  "milk": 1,
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+  ]
+},
+{
+  "id": "0945",
+  "title": "Feel All Your Bunnies 1/1",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "radish": 1,
+  "milk": 1,
+  "rules": [
+    {"title": "Card Text", "text": "May be given to any opponent whose bunnies must each feed the amounts shown by the end of his next turn or die."},
+    {"title": "Additional Rules", "text": "Any bunnies that arrive in The Bunny Circle between the time that the card was played and the end of the player's turn do not have to feed."}
+  ]
+},
+{
+  "id": "0946",
+  "title": "Everyone Feed A Bunny 1/1",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "radish": 1,
+  "milk": 1,
+  "rules": [
+    {"title": "Card Text", "text": "May be given to all opponents with a bunny. Each must feed any one bunny the amounts shown by the end of their next turns or their bunny dies."},
+    {"title": "Additional Rules", "text": "When this card is played, each opponent that has at least one bunny must feed. If an opponent has more than one bunny, then the opponent may choose which bunny to feed. Any bunnies that arrive in The Bunny Circle between the time that the card was played and the end of the player's turn do not have to feed. If a player has the <a href=\"bunnypedia://card/936\">Red Evil Bunny</a>, <a href=\"bunnypedia://card/958\">Holographic Bunny</a. or a bunny with the <a href=\"bunnypedia://card/819\">Angle Wings</a>, then he may choose one of these bunnies since none of them need to feed."}
+  ]
+},
+{
+  "id": "0947",
+  "title": "Egg Slicer",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "weaponLevel": "1",
+  "dice": ["BLACK"],
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 1 to survive."}
+  ]
+},
+{
+  "id": "0948",
+  "title": "Hindenbomb",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "weaponLevel": "3",
+  "dice": ["BLACK"],
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 3 to survive."}
+  ]
+},
+{
+  "id": "0949",
+  "title": "Grapes of Wrath",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "weaponLevel": "5",
+  "dice": ["BLACK"],
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 5 to survive."}
+  ]
+},
+{
+  "id": "0950",
+  "title": "Black Ooze",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "weaponLevel": "7",
+  "dice": ["BLACK"],
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 7 to survive."}
+  ]
+},
+{
+  "id": "0951",
+  "title": "Faximilian",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "weaponLevel": "9",
+  "dice": ["BLACK"],
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 9 to survive."}
+  ]
+},
+{
+  "id": "0952",
+  "title": "Odd Job",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "weaponLevel": "11",
+  "dice": ["BLACK"],
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 12 to survive. Bunnies two spaces away must roll higher than 9 to survive. Bunnies four spaces away must roll higher than 7 to survive."},
+    {"title": "Additional Rules", "text": "Even though every other bunny is initially skipped, wrap around damage may cause a bunny to be hit in the other direction. If a bunny is two spaces to the left of the target bunny and four spaces to the right of the target bunny, then it will be hit twice!"}
+  ]
+},
+{
+  "id": "0953",
+  "title": "Barrier",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
+    {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://card/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+    {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
+    {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
+    {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
+    {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://card/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
+  ]
+},
+{
+  "id": "0954",
+  "title": "Barrier",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
+    {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://card/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://card/54\">Cyber Bunny</a> or <a href=\"bunnypedia://card/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+    {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://card/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://card/80\">Magic Spatula</a>."},
+    {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://card/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://card/287\">Boomerang</a><li><a href=\"bunnypedia://card/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://card/480\">Electron Tunneling</a><li><a href=\"bunnypedia://card/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://card/400\">Psychic Waves</a><li><a href=\"bunnypedia://card/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://card/343\">Snowball</a></ul>"},
+    {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://card/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
+    {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://card/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
+  ]
+},
+{
+  "id": "0955",
+  "title": "Bunnies On Film",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to retrieve any card from the discard pile that is a movie parody and to use it immediately if the player can name the movie reference. Special and Very Special cards may not be saved."}
+  ]
+},
+{
+  "id": "0956",
+  "title": "Carrot Exchange",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to force any opponent to exchange two of his Carrots for one of yours."},
+    {"title": "Additional Rules", "text": "In order to use this card, the opponent must have at least two Carrots. Carrot Exchange cannot be used for a one to one exchange. The player chooses all three Carrots in the exchange."},
+    {"title": "Bad Mood Ood", "text": "<a href=\"bunnypedia://card/1193\">Bad Mood Ood</a> may be used to eliminate this card."}
+  ]
+},
+{
+  "id": "0957",
+  "title": "Eight Is Enough",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be given to any player who may own a maximum of eight Carrots. Extra Carrots must be returned to Kaballa's Market Two. The player may pay 8 Dolla to remove this card from play."}
+  ]
+},
+{
+  "id": "0958",
+  "title": "Holographic Bunny",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "A Red Bunny that does not need to feed and cannot be used to win the game since it is not technically alive. This bunny can only be harmed by <a href=\"bunnypedia://card/806\">Quantum Singu-harity</a>, <a href=\"bunnypedia://card/809\">Ruby Laser Slippers</a>, <a href=\"bunnypedia://card/813\">Servo Pen</a>, <a href=\"bunnypedia://card/1006\">Blipverts</a>, <a href=\"bunnypedia://card/1113\">Magnetic Monopole</a>, <a href=\"bunnypedia://card/1228\">Thermo-Nuclear Chicken Wings</a>, and Spectral Cleansing."},
+    {"title": "Additional Rules", "text": "Holographic Bunny can be used to form a Bunny Triplet with other Red bunnies."}
+  ]
+},
+{
+  "id": "0959",
+  "title": "Kentucky Avenue",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED"],
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to roll each of the dice up to three times. If a 1-0-5-0 is rolled, then the player may reposition a Red (or half Red) bunny in The Bunny Circle."}
+  ]
+},
+{
+  "id": "0960",
+  "title": "Lucky Horseshoe – Quindruple (Bunny Modifier)",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Single lowers the level of any weapon by five."},
+    {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
+    {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
+    {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://card/49\">Area 51</a> or the <a href=\"bunnypedia://card/299\">Mothership</a>."},
+    {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://card/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+    {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://card/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+  ]
+},
+{
+  "id": "0961",
+  "title": "Morden's Metals Exchange",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "Metals may be bought or sold for the current Exchange Rate. All metal dice may be re-rolled at the end of any turn which a player received a Carrot. The Exchange Rate for Copper is doubled."}
+  ]
+},
+{
+  "id": "0962",
+  "title": "Orbital Missile Platform",
+  "deck": "CONQUEST_RED",
+  "type": "ROAMING_RED_RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["BLUE", "RED"],
+  "rules": [
+    {"title": "Card Text", "text": "OMP will attack one player every round in a counter-clockwise direction. The bunny that has the highest Card Identification Number is the direct target. The bunny attacked must roll higher than 9 to survive and adjacent bunnies must roll higher than 8 to survive."},
+    {"title": "Additional Rules", "text": "As Orbital Missile Platform travels from one player to the next, the player's bunny that has the highest Card Identification Number is the direct target of the attack.<br><br>Adjacent bunnies to the target bunny may belong to the same player of his opponents.<br><br>After the attack, Orbital Missile Platform moves to the next player counter-clockwise and waits until the next round of play. If the next player has not bunnies in The Bunny Circle, then Orbital Missile Platform does not attack. When Orbital Missile Platform encounters a <a href=\"bunnypedia://card/185\">Barrier</a>, it will change direction and attack the same player on consecutive turns.<br><br>Orbital Missile Platform may be immediately eliminated (discarded) anytime during an attack that a player rolls the same number on both 12-side dice (Blue and Red) without incurring any damage to the bunny."}
+  ]
+},
+{
+  "id": "0963",
+  "title": "Rooney's Weapons Emporium Two (Closed)",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "NO"
+},
+{
+  "id": "0964",
+  "title": "Scotty Doesn't Know",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must guess the type of the top five cards of the Draw Pile. The opponent must pay 1 Dolla for each incorrect guess."},
+    {"title": "Additional Rules", "text": "If the opponent does not have Dolla saved, then he must exchange metal cards for Dolla (as it is needed) at the current Exchange Rates. If the opponent has no Dolla and no Metal cards, then he does not have to pay.<br><br>If the word \"Scott\" appears in the opponent's name (first, middle or last), or the opponent is a noted fan of James Doohan (written proof required), then he must pay 2 Dolla for each incorrect guess."}
+  ]
+},
+{
+  "id": "0965",
+  "title": "Shuffleboard",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["BLACK", "RED"],
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to choose a Carrot if he can roll either a 7, 8 or 10 on both of the dice."}
+  ]
+},
+{
+  "id": "0966",
+  "title": "Surly Smelter",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to force any opponent to immediately discard all of his saved Metal cards."}
+  ]
+},
+{
+  "id": "0967",
+  "title": "What The Deuce",
+  "deck": "CONQUEST_RED",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to take two Radish Cards and two Milk Cards if he can correctly predict how many 2's will be rolled on the dice."},
+    {"title": "Additional Rules", "text": "They player must announce his prediction before he rolls the dice. What The Deuce cannot be played if Kaballa's Market is closed."}
+  ]
+},
+{
+  "id": "0968",
+  "title": "Free Radish And Milk",
+  "deck": "CONQUEST_RED",
+  "type": "SPECIAL",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to take one Radish Card and one Milk Card from Kaballa's Market Two."},
+    {"title": "Additional Rules", "text": "Free Radish and Milk may not be used if Kaballa's Market Two is closed."}
+  ]
+},
+{
+  "id": "0969",
+  "title": "Half Price Coupon (Kaballa's Market Two)",
+  "deck": "CONQUEST_RED",
+  "type": "SPECIAL",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used for one turn by a player to purchase any items from Kaballa's Market Two for half price."},
+    {"title": "Additional Rules", "text": "If the total price of an item or items requires a Half Dolla and no Half Dolla is available, then the player must round up to the nearest Dolla.<br><br>Half Price Coupon may not be used if Kaballa's Market Two is closed."}
+  ]
+},
+{
+  "id": "0970",
+  "title": "Witch's Spirit",
+  "deck": "CONQUEST_RED",
+  "type": "SPECIAL",
+  "bunnyRequirement": "PLAY",
+  "dice": ["RED"],
+  "pawn": "RED",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle.<ul><li>10-11-12 = Choose a Carrot from Kaballa's Market Two.</li><li>7-8-9 = Take one Radish Card and one Milk Card.</li><li>4-5-6 = Feed the bunny 1 Radish Unit and 1 Milk Unit!</li><li>2-3 = The bunny gets vaporized (discarded) by the irate witch!</li><li>1 = The spirit lashes out by killing the bunny and adjacent bunnies!</li></ul>"}
+  ]
+},
+{
+  "id": "0971",
+  "title": "Witch's Spirit",
+  "deck": "CONQUEST_RED",
+  "type": "SPECIAL",
+  "bunnyRequirement": "PLAY",
+  "dice": ["RED"],
+  "pawn": "RED",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle.<ul><li>10-11-12 = Choose a Carrot from Kaballa's Market Two.</li><li>7-8-9 = Take one Radish Card and one Milk Card.</li><li>4-5-6 = Feed the bunny 1 Radish Unit and 1 Milk Unit!</li><li>2-3 = The bunny gets vaporized (discarded) by the irate witch!</li><li>1 = The spirit lashes out by killing the bunny and adjacent bunnies!</li></ul>"},
+    {"title": "Additional Rules", "text": "If the consequence for a bunny is to feed, then it must be done immediately. An opponent with no saved Radish Units or Milk Units will not have the opportunity to buy supplies from Kaballa's Market Two or to exchange Metal cards since it will not be his turn. Carrots, Radish Cards and Milk Cards are taken from Kaballa's Market Two (if the market is open)."}
+  ]
+},
+{
+  "id": "0972",
+  "title": "Everybody's Dead Dave",
+  "deck": "CONQUEST_RED",
+  "type": "VERY_SPECIAL",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to immediately restore all bunnies back into their positions if all of the bunnies in The Bunny Circle were killed during the same turn. Bunny Modifiers are not returned. May be used at any time!"},
+    {"title": "Additional Rules", "text": "If even one bunny in The Bunny Circle survives, then Everybody's Dead Dave cannot be played because clearly everybody is not dead. Bunny Modifiers (such as <a href=\"bunnypedia://card/828\">Lucky Horseshoe</a> or <a href=\"bunnypedia://card/819\">Angel Wings</a>) are not returned. May be used at any time!"}
+  ]
+},
+{
+  "id": "0973",
+  "title": "Guardian Angel",
+  "deck": "CONQUEST_RED",
+  "type": "VERY_SPECIAL",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to eliminate any <a href=\"bunnypedia://card/83\">Terrible Misfortune</a>. May be used at any time!"},
+    {"title": "Additional Rules", "text": "Guardian Angel also eliminates Very and Extremely Terrible Misfortune. May be used at any time!"}
+  ]
+},
+{
+  "id": "0974",
+  "title": "Lobbyist",
+  "deck": "CONQUEST_RED",
+  "type": "VERY_SPECIAL",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to change any Senator's vote. May be used at any time!"}
+  ]
+},
+{
+  "id": "0975",
+  "title": "Shiner Senator (Bunny Modifier)",
+  "deck": "CONQUEST_RED",
+  "type": "SENATOR",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+  ]
+},
+{
+  "id": "0976",
+  "canonicalId": 975,
+  "title": "Shiner Senator (Bunny Modifier)",
+  "deck": "CONQUEST_RED",
+  "type": "SENATOR",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+  ]
+},
+{
+  "id": "0977",
+  "title": "Whiner Senator (Bunny Modifier)",
+  "deck": "CONQUEST_RED",
+  "type": "SENATOR",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+  ]
+},
+{
+  "id": "0978",
+  "canonicalId": 977,
+  "title": "Whiner Senator (Bunny Modifier)",
+  "deck": "CONQUEST_RED",
+  "type": "SENATOR",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+  ]
+},
+{
+  "id": "0979",
+  "title": "Terrible Misfortune (Casting) – Holy Grail",
+  "deck": "CONQUEST_RED",
+  "type": "PLAY_IMMEDIATELY",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "One of the bunnies in play attempts to find the Holy Grail and chooses poorly."}
+  ]
+},
+{
+  "id": "0980",
+  "title": "Terrible Misfortune (Casting) – Mordor",
+  "deck": "CONQUEST_RED",
+  "type": "PLAY_IMMEDIATELY",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "While attempting to destroy an evil ring, one of the bunnies in play simply walks into Mordor."}
+  ]
+},
+{
+  "id": "0981",
+  "canonicalId": 87,
+  "title": "1 Dolla",
+  "deck": "CONQUEST_RED",
+  "type": "DOLLA"
+},
+{
+  "id": "0982",
+  "canonicalId": 92,
+  "title": "2 Dolla",
+  "deck": "CONQUEST_RED",
+  "type": "DOLLA"
+},
+{
+  "id": "0983",
+  "canonicalId": 210,
+  "title": "3 Dolla",
+  "deck": "CONQUEST_RED",
+  "type": "DOLLA"
+},
+{
+  "id": "0984",
+  "canonicalId": 210,
+  "title": "3 Dolla",
+  "deck": "CONQUEST_RED",
+  "type": "DOLLA"
+},
+{
+  "id": "0985",
+  "canonicalId": 101,
+  "title": "10 Dolla",
+  "deck": "CONQUEST_RED",
+  "type": "DOLLA"
+},
+{
+  "id": "0986",
+  "title": "Rooney's Weapon's Emporium Two (Starter)",
+  "deck": "CONQUEST_RED",
+  "type": "STARTER",
+  "rules": [
+    {"title": "Card Text", "text": "Starting prices for supplies:<ul><li>3 Dolla - for each Defense Card</li><li>Level - for each Weapon Card (Weapons must be run through.)</li></ul>"}
+  ]
+},
+{
+  "id": "0987",
+  "title": "Carrot #33 – Amber",
+  "deck": "CONQUEST_RED",
+  "type": "CARROT_SUPPLY"
+},
+{
+  "id": "0988",
+  "title": "Carrot #34 – Egon",
+  "deck": "CONQUEST_RED",
+  "type": "CARROT_SUPPLY"
+},
+{
+  "id": "0989",
+  "title": "Carrot #35 – Joan",
+  "deck": "CONQUEST_RED",
+  "type": "CARROT_SUPPLY"
+},
+{
+  "id": "0990",
+  "title": "Carrot #36 – Neo",
+  "deck": "CONQUEST_RED",
+  "type": "CARROT_SUPPLY"
+}]

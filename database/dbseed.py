@@ -139,8 +139,13 @@ Rule.create_table(conn)
 conn.commit()
 
 for card_json in cards_data:
-    selectedCard = Card(**card_json)
-    selectedCard.insert(conn)
+    try:
+        selectedCard = Card(**card_json)
+        selectedCard.insert(conn)
+    except Exception as e:
+        print("%s: %s" % (e.__class__.__name__, e.message))
+        print("Card json: %s" % card_json)
+        raise e
 
     for rule_json in card_json.get('rules', []):
         rule = Rule(selectedCard.id, **rule_json)

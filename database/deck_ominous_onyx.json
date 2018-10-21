@@ -106,7 +106,6 @@
   },
   {
     "id": 617,
-    "canonicalId": 16,
     "title": "Choose A Carrot",
     "deck": "OMINOUS_ONYX",
     "type": "RUN",
@@ -118,7 +117,6 @@
   },
   {
     "id": 618,
-    "canonicalId": 21,
     "title": "Choose 2 Carrots",
     "deck": "OMINOUS_ONYX",
     "type": "RUN",

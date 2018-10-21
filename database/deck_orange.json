@@ -41,7 +41,6 @@
   },
   {
     "id": 280,
-    "canonicalId": 16,
     "title": "Choose A Carrot",
     "deck": "ORANGE",
     "type": "RUN",
@@ -53,7 +52,7 @@
   },
   {
     "id": 281,
-    "canonicalId": 16,
+    "canonicalId": 280,
     "title": "Choose A Carrot",
     "deck": "ORANGE",
     "type": "RUN",
@@ -65,7 +64,6 @@
   },
   {
     "id": 282,
-    "canonicalId": 21,
     "title": "Choose 2 Carrots",
     "deck": "ORANGE",
     "type": "RUN",

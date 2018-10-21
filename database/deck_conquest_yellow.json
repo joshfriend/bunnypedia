@@ -91,6 +91,7 @@
   },
   {
     "id": "0891",
+    "canonicalId": 786,
     "title": "Choose A Carrot",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
@@ -102,6 +103,7 @@
   },
   {
     "id": "0892",
+    "canonicalId": 786,
     "title": "Choose A Carrot",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
@@ -113,6 +115,7 @@
   },
   {
     "id": "0893",
+    "canonicalId": 792,
     "title": "Choose 2 Carrots",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
@@ -124,6 +127,7 @@
   },
   {
     "id": "0894",
+    "canonicalId": 792,
     "title": "Choose 2 Carrots",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
@@ -312,7 +316,7 @@
   },
   {
     "id": "0910",
-    "title": "Kaballa’s Market Two (Low)",
+    "title": "Kaballa's Market Two (Low)",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "bunnyRequirement": "NO",
@@ -347,7 +351,7 @@
   },
   {
     "id": "0913",
-    "title": "Morden’s Metals Exchange – Gold",
+    "title": "Morden's Metals Exchange – Gold",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "bunnyRequirement": "NO",
@@ -374,7 +378,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to rearrange the positions of any one player's bunnies in The Bunny Circle."},
-      {"title": "Additional Rules", "text": "Any bunny that has it’s position changed must remain the property of the initial owner."}
+      {"title": "Additional Rules", "text": "Any bunny that has it's position changed must remain the property of the initial owner."}
     ]
   },
   {
@@ -407,7 +411,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to eliminate <a href=\"bunnypedia://card/804\">Angry Beet Farmer</a> or to counteract <a href=\"bunnypedia://card/832\">Sour Hour</a> before losing all of his Milk Units. This card  must be a saved Special to be used immediately."},
-      {"title": "Additional Rules", "text": "Unlike Very Special cards, Beefed Up Production may not be used to save other players’ bunnies from harm. This card is for the exclusive use of the player who has it saved."}
+      {"title": "Additional Rules", "text": "Unlike Very Special cards, Beefed Up Production may not be used to save other players' bunnies from harm. This card is for the exclusive use of the player who has it saved."}
     ]
   },
   {
@@ -418,7 +422,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to take one Radish Card and one Milk Card from Kaballa's Market Two."},
-      {"title": "Additional Rules", "text": "Free Radish And Milk may not be used if Kaballa’s Market Two is closed."}
+      {"title": "Additional Rules", "text": "Free Radish And Milk may not be used if Kaballa's Market Two is closed."}
     ]
   },
   {
@@ -439,7 +443,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to either eliminate <a href=\"bunnpedia://card/811\">Gremlins</a> or to counteract <a href=\"bunnypedia://card/833\">Starving Snails</a> before losing all of his Radish Units. This card must be a saved Special to be used immediately."},
-      {"title": "Additional Rules", "text": "Unlike Very Special cards, Shell Repel may not be used to save other players’ bunnies from harm. This card is for the exclusive use of the player who has it saved."}
+      {"title": "Additional Rules", "text": "Unlike Very Special cards, Shell Repel may not be used to save other players' bunnies from harm. This card is for the exclusive use of the player who has it saved."}
     ]
   },
   {

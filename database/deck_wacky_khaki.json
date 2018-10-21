@@ -48,7 +48,7 @@
     },
     {
       "id": 556,
-      "canonicalId": 16,
+      "canonicalId": 752,
       "title": "Choose A Carrot",
       "deck": "WACKY_KHAKI",
       "type": "RUN",
@@ -60,7 +60,7 @@
     },
     {
       "id": 557,
-      "canonicalId": 16,
+      "canonicalId": 752,
       "title": "Choose A Carrot",
       "deck": "WACKY_KHAKI",
       "type": "RUN",
@@ -72,7 +72,7 @@
     },
     {
       "id": 558,
-      "canonicalId": 21,
+      "canonicalId": 393,
       "title": "Choose 2 Carrots",
       "deck": "WACKY_KHAKI",
       "type": "RUN",

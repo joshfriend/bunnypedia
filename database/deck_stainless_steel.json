@@ -51,7 +51,7 @@
   },
   {
     "id": 446,
-    "canonicalId": 16,
+    "canonicalId": 392,
     "title": "Choose A Carrot",
     "deck": "STAINLESS_STEEL",
     "type": "RUN",
@@ -63,7 +63,7 @@
   },
   {
     "id": 447,
-    "canonicalId": 16,
+    "canonicalId": 392,
     "title": "Choose A Carrot",
     "deck": "STAINLESS_STEEL",
     "type": "RUN",
@@ -75,7 +75,6 @@
   },
   {
     "id": 448,
-    "canonicalId": 21,
     "title": "Choose 2 Carrots",
     "deck": "STAINLESS_STEEL",
     "type": "RUN",

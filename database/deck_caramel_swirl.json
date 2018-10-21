@@ -37,7 +37,7 @@
   },
   {
     "id": 1105,
-    "canonicalId": 16,
+    "canonicalId": 1078,
     "title": "Choose A Carrot",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
@@ -49,7 +49,7 @@
   },
   {
     "id": 1106,
-    "canonicalId": 16,
+    "canonicalId": 1078,
     "title": "Choose A Carrot",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
@@ -61,7 +61,7 @@
   },
   {
     "id": 1107,
-    "canonicalId": 21,
+    "canonicalId": 1079,
     "title": "Choose 2 Carrots",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
@@ -140,7 +140,8 @@
     "weaponLevel": "16",
     "dice": ["CLEAR"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 16 to survive."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 16 to survive."},
+      {"title": "Holographic Bunny", "text": "Magnetic Monopole can be used to kill the <a href=\"bunnypedia://card/958\">Holographic Bunny</a>."}
     ]
   },
   {
@@ -321,7 +322,7 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to purchase a Violet item from any opponent for 5 Dolla: a Violet bunny, a Violet Pawn or a <a href=\"bunnypedia://card/1145\">Whiner Senator</a> Bunny Modifier card."}
+      {"title": "Card Text", "text": "May be used once by a player to purchase a Violet item from any opponent for 5 Dolla: a Violet bunny, a Violet Pawn or a '<a href=\"bunnypedia://card/977\">Whiner Senator</a> Bunny Modifier card."}
     ]
   },
   {
@@ -478,6 +479,7 @@
   },
   {
     "id": 1144,
+    "canonicalId": 975,
     "title": "Shiner Senator (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
     "type": "SENATOR",
@@ -488,6 +490,7 @@
   },
   {
     "id": 1145,
+    "canonicalId": 977,
     "title": "Whiner Senator (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
     "type": "SENATOR",

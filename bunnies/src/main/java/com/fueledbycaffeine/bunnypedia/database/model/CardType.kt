@@ -35,7 +35,7 @@ enum class CardType {
       RANK -> R.string.card_type_rank
       SENATOR -> R.string.card_type_senator
       CARROT_SUPPLY -> R.string.card_type_carrot_supply
-      STARTER -> R.string.card_type_play_immediately
+      STARTER -> R.string.card_type_starter
     }
   }
 }

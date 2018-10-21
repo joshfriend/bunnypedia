@@ -15,6 +15,7 @@
         <item>@string/deck_chocolate_booster</item>
         <item>@string/deck_conquest_blue_starter</item>
         <item>@string/deck_conquest_violet_booster</item>
+        <item>@string/deck_conquest_red_booster</item>
         <item>@string/deck_fantastic_booster</item>
         <item>@string/deck_caramel_swirl_booster</item>
         <item>@string/deck_creature_feature_booster</item>
@@ -37,6 +38,7 @@
         <item>CHOCOLATE</item>
         <item>CONQUEST_BLUE</item>
         <item>CONQUEST_YELLOW</item>
+        <item>CONQUEST_RED</item>
         <item>FANTASTIC</item>
         <item>CARAMEL_SWIRL</item>
         <item>CREATURE_FEATURE</item>

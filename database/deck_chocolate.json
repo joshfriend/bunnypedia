@@ -432,7 +432,6 @@
   },
   {
     "id": 752,
-    "canonicalId": 16,
     "deck": "CHOCOLATE",
     "title": "Choose A Carrot",
     "type": "RUN",
@@ -444,7 +443,6 @@
   },
   {
     "id": 753,
-    "canonicalId": 16,
     "deck": "CHOCOLATE",
     "title": "Choose A Carrot",
     "type": "RUN",
@@ -456,7 +454,6 @@
   },
   {
     "id": 754,
-    "canonicalId": 21,
     "deck": "CHOCOLATE",
     "title": "Choose 2 Carrots",
     "type": "RUN",
