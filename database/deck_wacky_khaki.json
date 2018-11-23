@@ -183,8 +183,10 @@
       "deck": "WACKY_KHAKI",
       "type": "RUN",
       "bunnyRequirement": "PLAY",
+      "symbols": ["JUPITER"],
       "rules": [
-        {"title": "Card Text", "text": "May be used once by a player to purchase a Green item from any opponent for 5 Dolla: a Green bunny, a Green Pawn or a saved Earth Zodiac card."}
+        {"title": "Card Text", "text": "May be used once by a player to purchase a Green item from any opponent for 5 Dolla: a Green bunny, a Green Pawn or a saved Earth Zodiac card."},
+        {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://card/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
       ]
     },
     {

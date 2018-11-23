@@ -32,8 +32,5 @@ data class Card(
     const val FTB_DATED= -2
   }
 
-//  @Relation(parentColumn = "id", entityColumn = "cardId")
-//  var rules: List<Rule> = emptyList()
-
   val imageURI: String get() = "file:///android_asset/card_thumbnails/${String.format("%04d.jpg", canonicalId ?: id)}"
 }
