@@ -90,10 +90,10 @@ class CardListFragment: DaggerFragment() {
         onNext = { result ->
           when (result) {
             is QueryResult.Found<*> -> {
-              val card = result.item as Card
+              val item = result.item as CardWithRules
               search.setQuery("", false)
               searchMenuItem.collapseActionView()
-              this.onCardSelected(card.id)
+              this.onCardSelected(item.card.id)
             }
             is QueryResult.Error -> Timber.w("${result.error}")
           }
