@@ -9,15 +9,15 @@ import androidx.paging.RxPagedListBuilder
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.model.Card
 import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
+import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import com.fueledbycaffeine.bunnypedia.ext.android.*
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
 import com.fueledbycaffeine.bunnypedia.ui.settings.SettingsActivity
-import com.jakewharton.rxbinding2.support.v7.widget.queryTextChangeEvents
+import com.jakewharton.rxbinding3.appcompat.queryTextChangeEvents
 import dagger.android.support.DaggerFragment
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -74,12 +74,12 @@ class CardListFragment: DaggerFragment() {
 
     val queryEvents = search.queryTextChangeEvents().share()
 
-    queryEvents.map { it.queryText().toString().trim() }
+    queryEvents.map { it.queryText.toString().trim() }
       .subscribe { querySubject.onNext(it) }
       .addTo(this.optionsMenuSubscribers)
 
     queryEvents.filter { it.isSubmitted }
-      .map { it.queryText().toString().trim() }
+      .map { it.queryText.toString().trim() }
       .map { it.toIntOrNull() ?: -1 }
       .observeOn(Schedulers.io())
       .flatMapSingle { cardId ->

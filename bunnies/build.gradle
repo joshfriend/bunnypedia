@@ -105,9 +105,9 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
     implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
     implementation 'io.reactivex.rxjava2:rxkotlin:2.3.0'
-    def rxBindingVersion = "2.1.1"
-    implementation "com.jakewharton.rxbinding2:rxbinding-kotlin:$rxBindingVersion"
-    implementation "com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:$rxBindingVersion"
+    def rxBindingVersion = "3.0.0-alpha1"
+    implementation "com.jakewharton.rxbinding3:rxbinding:$rxBindingVersion"
+    implementation "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBindingVersion"
 
     def glideVersion = '4.8.0'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
@@ -122,7 +122,7 @@ dependencies {
     implementation 'net.danlew:android.joda:2.9.9.1'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    def ankoVersion = "0.10.5"
+    def ankoVersion = "0.10.8"
     implementation "org.jetbrains.anko:anko-commons:$ankoVersion"
     implementation "org.jetbrains.anko:anko-sdk23:$ankoVersion"
 
