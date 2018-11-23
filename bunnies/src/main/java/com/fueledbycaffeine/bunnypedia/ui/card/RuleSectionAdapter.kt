@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.list_item_rule_section.*
 import me.saket.bettermovementmethod.BetterLinkMovementMethod
 import org.jetbrains.anko.layoutInflater
 
-class RuleSectionAdapter(val rules: List<Rule>): RecyclerView.Adapter<RuleSectionViewHolder>() {
+class RuleSectionAdapter(private val rules: List<Rule>): RecyclerView.Adapter<RuleSectionViewHolder>() {
   val linksClicked = PublishSubject.create<Uri>()
 
   override fun getItemCount() = rules.size

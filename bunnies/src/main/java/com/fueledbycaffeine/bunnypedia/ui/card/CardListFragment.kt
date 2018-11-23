@@ -3,6 +3,7 @@ package com.fueledbycaffeine.bunnypedia.ui.card
 import android.content.Intent
 import android.os.Bundle
 import android.view.*
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.paging.RxPagedListBuilder
@@ -15,6 +16,7 @@ import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import com.fueledbycaffeine.bunnypedia.ext.android.*
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
+import com.fueledbycaffeine.bunnypedia.ui.AboutDialogFragment
 import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
 import com.fueledbycaffeine.bunnypedia.ui.settings.SettingsActivity
 import com.jakewharton.rxbinding3.appcompat.queryTextChangeEvents
@@ -152,6 +154,10 @@ class CardListFragment: DaggerFragment() {
         setupLayoutManager()
         adapter.viewType = viewType
         activity?.invalidateOptionsMenu()
+        true
+      }
+      R.id.about -> {
+        AboutDialogFragment().show(fragmentManager, "about")
         true
       }
       else -> super.onOptionsItemSelected(item)
