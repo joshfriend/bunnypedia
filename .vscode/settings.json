@@ -17,5 +17,8 @@
     },
     "[xml]": {
         "editor.tabSize": 4
+    },
+    "[makefile]": {
+        "editor.tabSize": 4
     }
 }

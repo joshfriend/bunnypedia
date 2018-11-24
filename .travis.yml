@@ -14,7 +14,7 @@ cache:
   - "$HOME/.gradle/wrapper/"
   - "$HOME/.android/build-cache"
 script:
-  - python ./database/dbseed.py
+  - make
   - ./gradlew lintDebug
   - ./gradlew assembleRelease
 notifications:
