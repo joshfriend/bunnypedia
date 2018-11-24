@@ -6,5 +6,5 @@
     <string name="pref_key_view_settings">pref_key_view_settings</string>
     <string name="pref_key_booster_decks">available_booster_decks</string>
     <string name="pref_key_view_type">view_type</string>
-    <string name="pref_default_view_type">GRID</string>
+    <string name="pref_default_view_type">LIST</string>
 </resources>
