@@ -135,6 +135,6 @@
     <string name="card_type_metal">Metal</string>
     <string name="deck_pumpkin_spice_booster">Pumpkin Spice Booster</string>
     <string name="about">About</string>
-    <string name="about_title">About 🐰🥕</string>
+    <string name="about_title">Bunnypedia v%1$s 🐰🥕</string>
     <string name="about_content"><![CDATA[Bunnypedia is created by <a href="https://github.com/joshfriend/bunnypedia">Josh Friend</a>.<br><br>Special thanks to <a href="magiccarrot.com">Glenn Davis (TheDavii)</a> and <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1116936658">Matthew Lein (Mahobear8)</a> for their support in creating this app 💖.<br><br>Come join other fans of Killer Bunnies <a href="https://discord.gg/WSjq2Fu">on Discord!</a><br><br>Killer Bunnies is a registered trademark of Jeffrey Bellinger. All rights reserved. All copyrights and trademarks used under license.]]></string>
 </resources>

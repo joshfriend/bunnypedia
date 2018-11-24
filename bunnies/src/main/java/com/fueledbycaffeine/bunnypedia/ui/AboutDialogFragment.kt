@@ -6,6 +6,7 @@ import android.app.Dialog
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
 import androidx.fragment.app.DialogFragment
+import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.ext.android.setHtmlText
 import kotlinx.android.synthetic.main.fragment_about_dialog.view.*
@@ -19,7 +20,7 @@ class AboutDialogFragment: DialogFragment() {
     view.content.movementMethod = LinkMovementMethod.getInstance()
 
     return AlertDialog.Builder(requireContext())
-      .setTitle(R.string.about_title)
+      .setTitle(getString(R.string.about_title, BuildConfig.VERSION_NAME))
       .setView(view)
       .setPositiveButton(android.R.string.ok) { _, _ -> }
       .create()
