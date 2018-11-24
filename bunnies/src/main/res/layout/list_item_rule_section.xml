@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:linksClickable="true"
         tools:text="@string/placeholder_darth_plagueis2"
-        style="@style/TextAppearance.AppCompat.Body1"
+        style="@style/AppTheme.RuleTextContent"
         />
 
 </LinearLayout>

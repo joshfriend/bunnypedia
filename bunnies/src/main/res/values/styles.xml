@@ -29,4 +29,8 @@
         <item name="android:textSize" tools:ignore="SpUsage">26dp</item>
     </style>
 
+    <style name="AppTheme.RuleTextContent" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColorLink">@color/link</item>
+    </style>
+
 </resources>
