@@ -344,9 +344,11 @@
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
         "bunnyRequirement": "PLAY",
+        "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
             {"title": "Card Text", "text": "May be placed between any two players. Shockwave pushes all of the bunnies of the two players (one player on each side of the card) to the next adjacent player away from the Shockwave. Bunnies pushed against a <a href=\"bunnypedia://card/185\">Barrier</a> are squished."},
-            {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://card/728\">Spider Bunny</a> may be used to keep a player's bunnies in place during a Shockwave."}
+            {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://card/728\">Spider Bunny</a> may be used to keep a player's bunnies in place during a Shockwave."},
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
         ]
     },
     {
