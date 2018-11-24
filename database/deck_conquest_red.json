@@ -446,7 +446,8 @@
   "type": "SENATOR",
   "bunnyRequirement": "NO",
   "rules": [
-    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
+    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
   ]
 },
 {
@@ -457,7 +458,8 @@
   "type": "SENATOR",
   "bunnyRequirement": "NO",
   "rules": [
-    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
+    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
   ]
 },
 {
@@ -467,7 +469,8 @@
   "type": "SENATOR",
   "bunnyRequirement": "NO",
   "rules": [
-    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
+    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
   ]
 },
 {
@@ -478,7 +481,8 @@
   "type": "SENATOR",
   "bunnyRequirement": "NO",
   "rules": [
-    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."}
+    {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Whiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
+    {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://card/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
   ]
 },
 {
