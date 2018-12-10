@@ -537,8 +537,8 @@
     "weaponLevel": "12",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny. All bunnies within two spaces are also killed. <a href=\"bunnypedia://card/61\">Clover</a> bunnies may survive"},
-      {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Nuclear Warhead."},
-      {"title": "Holographic Bunny", "text": "The Nuclear Warhead can be used to kill the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
+      {"title": "Anti-Missile", "type": "COUNTER", "text": "The <a href=\"bunnypedia://card/258\">Anti-Missile</a> can be used to eliminate Nuclear Warhead."},
+      {"title": "Holographic Bunny", "type": "RELATED", "text": "The Nuclear Warhead can be used to kill the <a href=\"bunnypedia://card/191\">Holographic Bunny</a>."}
     ]
   },
   {

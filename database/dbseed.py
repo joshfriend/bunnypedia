@@ -76,7 +76,7 @@ class Rule:
     DDL = ("""
     CREATE TABLE Rule (
         id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, cardId INTEGER NOT NULL,
-        title TEXT NOT NULL, text TEXT NOT NULL,
+        title TEXT NOT NULL, type TEXT NOT NULL, text TEXT NOT NULL,
         FOREIGN KEY(cardId) REFERENCES Card(id) ON DELETE CASCADE
     );
     """,
@@ -87,15 +87,16 @@ class Rule:
 
     INSERT_STMT = """
     INSERT INTO Rule (
-        cardId, title, text
+        cardId, title, type, text
     ) VALUES (
-        :cardId, :title, :text
+        :cardId, :title, :type, :text
     );
     """
 
     def __init__(self, cardId, **kwargs):
         self.cardId = cardId
         self.title = kwargs['title']
+        self.type = kwargs.get('type', 'NONE')
         self.text = kwargs['text']
 
     @classmethod

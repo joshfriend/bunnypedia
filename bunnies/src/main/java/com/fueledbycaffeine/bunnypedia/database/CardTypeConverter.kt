@@ -48,4 +48,7 @@ class CardTypeConverter {
     "" -> emptyList()
     else -> symbols.split(",").map { Symbol.valueOf(it) }
   }
+
+  @TypeConverter fun ruleTypeToString(ruleType: RuleType) = ruleType.name
+  @TypeConverter fun stringToRuleType(string: String?) = string?.let { RuleType.valueOf(it) }
 }

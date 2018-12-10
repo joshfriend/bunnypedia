@@ -20,5 +20,6 @@ data class Rule(
   val cardId: Int,
 
   val title: String,
-  val text: String
+  val text: String,
+  val type: RuleType = RuleType.NONE
 )
