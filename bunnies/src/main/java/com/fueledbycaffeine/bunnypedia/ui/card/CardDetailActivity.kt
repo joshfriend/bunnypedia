@@ -2,15 +2,14 @@ package com.fueledbycaffeine.bunnypedia.ui.card
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
+import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentTransaction
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
 import dagger.android.support.DaggerAppCompatActivity
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
-import org.jetbrains.anko.bundleOf
 
 class CardDetailActivity: DaggerAppCompatActivity() {
   companion object {
