@@ -418,7 +418,7 @@
       "BROWN"
     ],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to roll the first die (Violet) and to take the Carrot from any opponent with the same number rolled. The player may roll the next die mber to the first and take another Carrot and so on."},
+      {"title": "Card Text", "text": "May be used once by a player to roll the first die (Violet) and to take the Carrot from any opponent with the same number rolled. The player may roll the next die (Orange), add the number to the first and take another Carrot and so on."},
       {"title": "Additional Rules", "text": "No Carrots may be taken from any Kaballa's Market. If any two dice roll the same number, then all of the Carrots are returned and the player loses a bunny. The player may stop rolling dice at any time."}
     ]
   },
