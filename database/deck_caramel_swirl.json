@@ -508,7 +508,8 @@
     "type": "PLAY_IMMEDIATELY",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "All Bunny Modifier cards under bunnies in The Bunny Circle are moved to the next bunny counter-clockwise."}
+      {"title": "Card Text", "text": "All Bunny Modifier cards under bunnies in The Bunny Circle are moved to the next bunny counter-clockwise."},
+      {"title": "Heavenly Halo", "text": "Counter-Clock Warlock is one of the few cards which can be used to remove <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> from a bunny."}
     ]
   },
   {

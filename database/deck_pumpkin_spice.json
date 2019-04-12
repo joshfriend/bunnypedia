@@ -402,7 +402,8 @@
     "deck": "PUMPKIN_SPICE",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate all Bunny Modifier cards under every bunny in The Bunny Circle."}
+      {"title": "Card Text", "text": "May be used once by a player to eliminate all Bunny Modifier cards under every bunny in The Bunny Circle."},
+      {"title": "Heavenly Halo", "text": "Under Blunder is one of the few cards which can be used to remove <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> from a bunny."}
     ]
   },
   {

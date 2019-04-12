@@ -266,7 +266,8 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to eliminate (discard) any Bunny Modifier under any bunny in The Bunny Circle."}
+      {"title": "Card Text", "text": "May be used once by a player to eliminate (discard) any Bunny Modifier under any bunny in The Bunny Circle."},
+      {"title": "Heavenly Halo", "text": "Hades Hayday is one of the few cards which can be used to remove <a href=\"bunnypedia://card/58\">The Heavenly Halo</a> from a bunny."}
     ]
   },
   {
