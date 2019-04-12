@@ -6,11 +6,11 @@ import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import timber.log.Timber
 
-class NavigationViewModel: ViewModel() {
+class NavigationViewModel : ViewModel() {
   sealed class Action {
-    object ShowList: Action()
-    data class ShowCard(val card: Card): Action()
-    object GoBack: Action()
+    object ShowList : Action()
+    data class ShowCard(val card: Card) : Action()
+    object GoBack : Action()
   }
 
   private val subject = PublishSubject.create<Action>()

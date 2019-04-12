@@ -11,7 +11,7 @@ import dagger.android.support.DaggerAppCompatActivity
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 
-class CardDetailActivity: DaggerAppCompatActivity() {
+class CardDetailActivity : DaggerAppCompatActivity() {
   companion object {
     private const val TAG_CARD_DETAIL = "cardDetail"
   }

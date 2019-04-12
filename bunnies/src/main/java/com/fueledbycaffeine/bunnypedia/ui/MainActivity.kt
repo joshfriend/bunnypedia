@@ -1,7 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
 import com.fueledbycaffeine.bunnypedia.R
@@ -11,8 +10,7 @@ import android.app.SearchManager
 import dagger.android.support.DaggerAppCompatActivity
 import timber.log.Timber
 
-
-class MainActivity: DaggerAppCompatActivity() {
+class MainActivity : DaggerAppCompatActivity() {
   companion object {
     private const val TAG_CARD_LIST = "cardList"
   }

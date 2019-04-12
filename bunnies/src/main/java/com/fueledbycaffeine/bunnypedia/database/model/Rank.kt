@@ -3,7 +3,8 @@ package com.fueledbycaffeine.bunnypedia.database.model
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.model.RankType.*
+import com.fueledbycaffeine.bunnypedia.database.model.RankType.ENLISTED
+import com.fueledbycaffeine.bunnypedia.database.model.RankType.OFFICER
 
 enum class Rank(val type: RankType, val grade: Int) {
   // Enlisted

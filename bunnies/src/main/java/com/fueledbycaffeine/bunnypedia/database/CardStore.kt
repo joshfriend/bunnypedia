@@ -1,7 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.database
 
 import androidx.paging.DataSource
-import com.fueledbycaffeine.bunnypedia.database.model.Card
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import io.reactivex.Single

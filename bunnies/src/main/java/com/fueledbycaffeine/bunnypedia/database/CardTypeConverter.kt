@@ -1,8 +1,19 @@
 package com.fueledbycaffeine.bunnypedia.database
 
 import androidx.room.TypeConverter
-import com.fueledbycaffeine.bunnypedia.database.model.*
+import com.fueledbycaffeine.bunnypedia.database.model.BunnyRequirement
+import com.fueledbycaffeine.bunnypedia.database.model.CardType
+import com.fueledbycaffeine.bunnypedia.database.model.Deck
+import com.fueledbycaffeine.bunnypedia.database.model.Die
+import com.fueledbycaffeine.bunnypedia.database.model.Pawn
+import com.fueledbycaffeine.bunnypedia.database.model.Psi
+import com.fueledbycaffeine.bunnypedia.database.model.Rank
+import com.fueledbycaffeine.bunnypedia.database.model.SpecialSeries
+import com.fueledbycaffeine.bunnypedia.database.model.Symbol
+import com.fueledbycaffeine.bunnypedia.database.model.ZodiacAnimal
+import com.fueledbycaffeine.bunnypedia.database.model.ZodiacType
 
+@Suppress("TooManyFunctions")
 class CardTypeConverter {
   @TypeConverter fun deckToString(deck: Deck) = deck.name
   @TypeConverter fun stringToDeck(deckName: String) = Deck.valueOf(deckName)
@@ -20,7 +31,8 @@ class CardTypeConverter {
   @TypeConverter fun stringToZodiacAnimal(zodiacName: String?) = zodiacName?.let { ZodiacAnimal.valueOf(it) }
 
   @TypeConverter fun bunnyRequirementToString(bunnyRequirement: BunnyRequirement) = bunnyRequirement.name
-  @TypeConverter fun stringToBunnyRequirement(bunnyRequirementName: String) = BunnyRequirement.valueOf(bunnyRequirementName)
+  @TypeConverter fun stringToBunnyRequirement(bunnyRequirementName: String) =
+    BunnyRequirement.valueOf(bunnyRequirementName)
 
   @TypeConverter fun pawnToString(pawn: Pawn) = pawn.name
   @TypeConverter fun stringToPawn(pawnName: String?) = pawnName?.let { Pawn.valueOf(it) }

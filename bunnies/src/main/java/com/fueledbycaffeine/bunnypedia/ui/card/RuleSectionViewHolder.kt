@@ -8,7 +8,9 @@ import com.fueledbycaffeine.bunnypedia.ext.android.setHtmlText
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.list_item_rule_section.*
 
-class RuleSectionViewHolder(override val containerView: View): RecyclerView.ViewHolder(containerView), LayoutContainer {
+class RuleSectionViewHolder(
+  override val containerView: View
+) : RecyclerView.ViewHolder(containerView), LayoutContainer {
 
   init {
     ruleText.movementMethod = LinkMovementMethod.getInstance()

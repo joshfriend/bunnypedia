@@ -12,7 +12,7 @@ import javax.inject.Singleton
   ActivityModule::class,
   DatabaseModule::class
 ])
-internal interface AppComponent: AndroidInjector<App> {
+internal interface AppComponent : AndroidInjector<App> {
   @Component.Builder
-  abstract class Builder: AndroidInjector.Builder<App>()
+  abstract class Builder : AndroidInjector.Builder<App>()
 }

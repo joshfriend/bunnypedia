@@ -2,7 +2,12 @@ package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.*
+import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.view.View
+import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.paging.RxPagedListBuilder
@@ -13,7 +18,15 @@ import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
-import com.fueledbycaffeine.bunnypedia.ext.android.*
+import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
+import com.fueledbycaffeine.bunnypedia.ext.android.isInMultiWindow
+import com.fueledbycaffeine.bunnypedia.ext.android.isNavBarAtBottom
+import com.fueledbycaffeine.bunnypedia.ext.android.navBarHeight
+import com.fueledbycaffeine.bunnypedia.ext.android.showsSoftwareNavBar
+import com.fueledbycaffeine.bunnypedia.ext.android.startActivity
+import com.fueledbycaffeine.bunnypedia.ext.android.startActivityForResult
+import com.fueledbycaffeine.bunnypedia.ext.android.statusBarHeight
+import com.fueledbycaffeine.bunnypedia.ext.android.updatePaddingRelative
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.ui.AboutDialogFragment
 import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment.Companion.ARG_CARD_ID
@@ -31,12 +44,13 @@ import kotlinx.android.synthetic.main.fragment_card_list.*
 import timber.log.Timber
 import javax.inject.Inject
 
-class CardListFragment: DaggerFragment() {
+class CardListFragment : DaggerFragment() {
   companion object {
     private const val REQ_SETTINGS = 1
   }
 
-  @Inject lateinit var cardStore: CardStore
+  @Inject
+  lateinit var cardStore: CardStore
   private lateinit var adapter: CardAdapter
   private var optionsMenuSubscribers = CompositeDisposable()
   private var subscribers = CompositeDisposable()

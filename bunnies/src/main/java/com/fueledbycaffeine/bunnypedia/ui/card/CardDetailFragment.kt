@@ -1,7 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.ui.card
 
 import android.content.Context
-import androidx.lifecycle.ViewModelProviders
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
@@ -12,9 +11,22 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.ViewModelProviders
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.*
-import com.fueledbycaffeine.bunnypedia.database.model.*
+import com.fueledbycaffeine.bunnypedia.database.CardStore
+import com.fueledbycaffeine.bunnypedia.database.QueryResult
+import com.fueledbycaffeine.bunnypedia.database.model.BunnyRequirement
+import com.fueledbycaffeine.bunnypedia.database.model.Card
+import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
+import com.fueledbycaffeine.bunnypedia.database.model.Die
+import com.fueledbycaffeine.bunnypedia.database.model.FeedTheBunny
+import com.fueledbycaffeine.bunnypedia.database.model.Pawn
+import com.fueledbycaffeine.bunnypedia.database.model.Psi
+import com.fueledbycaffeine.bunnypedia.database.model.Rank
+import com.fueledbycaffeine.bunnypedia.database.model.RankType
+import com.fueledbycaffeine.bunnypedia.database.model.SpecialSeries
+import com.fueledbycaffeine.bunnypedia.database.model.ZodiacAnimal
+import com.fueledbycaffeine.bunnypedia.database.model.ZodiacType
 import com.fueledbycaffeine.bunnypedia.ext.android.useDarkStatusBarStyle
 import com.fueledbycaffeine.bunnypedia.ext.android.useLightStatusBarStyle
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
@@ -36,7 +48,7 @@ import org.joda.time.format.DateTimeFormat
 import timber.log.Timber
 import javax.inject.Inject
 
-class CardDetailFragment: DaggerFragment() {
+class CardDetailFragment : DaggerFragment() {
   companion object {
     const val ARG_CARD_ID = "CARD_ID"
 
@@ -264,7 +276,7 @@ class CardDetailFragment: DaggerFragment() {
       .withTimeAtStartOfDay()
       .withDayOfMonth(endMonthDay.dayOfMonth)
       .withMonthOfYear(endMonthDay.monthOfYear)
-      .plusDays(1)  // Non-inclusive!
+      .plusDays(1) // Non-inclusive!
 
     val now = DateTime()
     val isCurrentSign = if (start <= now && end > now) {

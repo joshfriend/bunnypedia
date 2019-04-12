@@ -14,7 +14,7 @@ class CardAdapter(
   val fragment: Fragment,
   viewType: CardViewType,
   private val onCardSelected: (Int) -> Unit
-): PagedListAdapter<CardWithRules, CardViewHolder>(CARD_COMPARATOR), SectionTitleProvider {
+) : PagedListAdapter<CardWithRules, CardViewHolder>(CARD_COMPARATOR), SectionTitleProvider {
 
   companion object {
     private val CARD_COMPARATOR = object : DiffUtil.ItemCallback<CardWithRules>() {

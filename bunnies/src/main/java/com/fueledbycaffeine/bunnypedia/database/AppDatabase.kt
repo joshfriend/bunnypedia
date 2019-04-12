@@ -15,7 +15,7 @@ import com.fueledbycaffeine.bunnypedia.database.model.Rule
   exportSchema = false
 )
 @TypeConverters(CardTypeConverter::class)
-abstract class AppDatabase: RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
   companion object {
     const val DATABASE_NAME = "db.sqlite3"
   }

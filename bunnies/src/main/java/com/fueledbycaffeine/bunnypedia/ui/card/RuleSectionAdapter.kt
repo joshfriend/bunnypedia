@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.list_item_rule_section.*
 import me.saket.bettermovementmethod.BetterLinkMovementMethod
 import org.jetbrains.anko.layoutInflater
 
-class RuleSectionAdapter(private val rules: List<Rule>): RecyclerView.Adapter<RuleSectionViewHolder>() {
+class RuleSectionAdapter(private val rules: List<Rule>) : RecyclerView.Adapter<RuleSectionViewHolder>() {
   val linksClicked = PublishSubject.create<Uri>()
 
   override fun getItemCount() = rules.size
@@ -21,7 +21,7 @@ class RuleSectionAdapter(private val rules: List<Rule>): RecyclerView.Adapter<Ru
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RuleSectionViewHolder {
     val inflater = parent.context.layoutInflater
     val view = inflater.inflate(R.layout.list_item_rule_section, parent, false)
-    val holder =  RuleSectionViewHolder(view)
+    val holder = RuleSectionViewHolder(view)
 
     val mm = BetterLinkMovementMethod.linkify(Linkify.WEB_URLS, holder.ruleText)
     mm.setOnLinkClickListener { _, url ->

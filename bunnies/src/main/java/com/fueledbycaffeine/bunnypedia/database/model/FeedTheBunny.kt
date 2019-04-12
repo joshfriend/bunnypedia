@@ -9,7 +9,7 @@ data class FeedTheBunny(
   val radish: Int,
   val water: Int,
   val milk: Int
-): Parcelable {
+) : Parcelable {
   val applicable get() = cabbage != 0 || radish != 0 || water != 0 || milk != 0
 
   val cabbageAndWater get() = cabbage > 0 && water > 0
