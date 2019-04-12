@@ -3,16 +3,13 @@ package com.fueledbycaffeine.bunnypedia.database.model
 import androidx.room.Embedded
 import androidx.room.Relation
 
-class CardWithRules {
+data class CardWithRules(
   @Embedded
-  lateinit var card: Card
+  val card: Card,
 
   @Relation(
     parentColumn = "id",
     entityColumn = "cardId"
   )
-  var rules: List<Rule> = emptyList()
-
-  operator fun component1() = card
-  operator fun component2() = rules
-}
+  val rules: List<Rule> = emptyList()
+)

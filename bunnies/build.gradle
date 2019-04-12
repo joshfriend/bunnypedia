@@ -32,8 +32,10 @@ android {
     lintOptions {
         textReport true
         textOutput 'stdout'
+        quiet true
         lintConfig rootProject.file('lint.xml')
 
+        warningsAsErrors true
         checkDependencies true
         checkTestSources true
         explainIssues false
@@ -86,30 +88,31 @@ dependencies {
     def archComponentsVersion = "2.0.0"
     implementation "androidx.lifecycle:lifecycle-runtime:$archComponentsVersion"
     implementation "androidx.lifecycle:lifecycle-extensions:$archComponentsVersion"
-    def roomVersion = "2.0.0"
+    def roomVersion = "2.1.0-alpha06"
     implementation "androidx.room:room-runtime:$roomVersion"
     implementation "androidx.room:room-rxjava2:$roomVersion"
     kapt "androidx.room:room-compiler:$roomVersion"
-    implementation "androidx.paging:paging-runtime:$roomVersion"
-    implementation "androidx.paging:paging-rxjava2:$roomVersion"
+    def pagingVersion = "2.1.0"
+    implementation "androidx.paging:paging-runtime:$pagingVersion"
+    implementation "androidx.paging:paging-rxjava2:$pagingVersion"
     implementation 'com.github.humazed:RoomAsset:1.0.3'
 
     // Dependency injection
-    def daggerVersion = "2.19"
+    def daggerVersion = "2.22"
     implementation "com.google.dagger:dagger:$daggerVersion"
     implementation "com.google.dagger:dagger-android-support:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
 
     // Rx
-    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.2'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
     implementation 'io.reactivex.rxjava2:rxkotlin:2.3.0'
-    def rxBindingVersion = "3.0.0-alpha1"
+    def rxBindingVersion = "3.0.0-alpha2"
     implementation "com.jakewharton.rxbinding3:rxbinding:$rxBindingVersion"
     implementation "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBindingVersion"
 
-    def glideVersion = '4.8.0'
+    def glideVersion = '4.9.0'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
     kapt "com.github.bumptech.glide:compiler:$glideVersion"
     implementation "me.saket:better-link-movement-method:2"
@@ -126,7 +129,8 @@ dependencies {
     implementation "org.jetbrains.anko:anko-commons:$ankoVersion"
     implementation "org.jetbrains.anko:anko-sdk23:$ankoVersion"
 
-    implementation('com.crashlytics.sdk.android:crashlytics:2.9.7@aar') {
+    // https://docs.fabric.io/android/changelog.html#crashlytics
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.9@aar') {
         transitive = true
     }
 }
