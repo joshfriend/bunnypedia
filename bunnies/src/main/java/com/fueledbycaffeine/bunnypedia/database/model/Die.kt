@@ -39,7 +39,7 @@ enum class Die(val sides: Int) {
   fun getDrawable(context: Context): Drawable {
     val drawableRes = when (this) {
       CLEAR -> R.drawable.dice20
-      ZODIAC, CHINESE_ZODIAC -> R.drawable.dice12  // TODO
+      ZODIAC, CHINESE_ZODIAC -> R.drawable.dice12 // TODO
       else -> R.drawable.dice12
     }
     val drawable = ContextCompat.getDrawable(context, drawableRes)!!

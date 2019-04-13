@@ -1,7 +1,6 @@
 package com.fueledbycaffeine.bunnypedia.database.model
 
 import androidx.annotation.ColorRes
-import androidx.annotation.RawRes
 import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
 

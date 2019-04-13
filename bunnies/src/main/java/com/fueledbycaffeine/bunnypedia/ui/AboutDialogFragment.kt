@@ -12,7 +12,7 @@ import com.fueledbycaffeine.bunnypedia.ext.android.setHtmlText
 import kotlinx.android.synthetic.main.fragment_about_dialog.view.*
 import org.jetbrains.anko.layoutInflater
 
-class AboutDialogFragment: DialogFragment() {
+class AboutDialogFragment : DialogFragment() {
   @SuppressLint("InflateParams")
   override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
     val view = requireContext().layoutInflater.inflate(R.layout.fragment_about_dialog, null)

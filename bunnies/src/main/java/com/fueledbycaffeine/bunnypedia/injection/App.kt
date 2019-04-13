@@ -13,7 +13,7 @@ import net.danlew.android.joda.JodaTimeAndroid
 import org.jetbrains.anko.defaultSharedPreferences
 import timber.log.Timber
 
-class App: DaggerApplication() {
+class App : DaggerApplication() {
   companion object {
     private const val KEY_ROOM_ASSET_INSTANTIATED = "instantiated"
     private const val KEY_APP_VERSION = "app_version"

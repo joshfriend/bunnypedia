@@ -3,7 +3,18 @@ package com.fueledbycaffeine.bunnypedia.database.model
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
-import org.joda.time.DateTimeConstants.*
+import org.joda.time.DateTimeConstants.APRIL
+import org.joda.time.DateTimeConstants.AUGUST
+import org.joda.time.DateTimeConstants.DECEMBER
+import org.joda.time.DateTimeConstants.FEBRUARY
+import org.joda.time.DateTimeConstants.JANUARY
+import org.joda.time.DateTimeConstants.JULY
+import org.joda.time.DateTimeConstants.JUNE
+import org.joda.time.DateTimeConstants.MARCH
+import org.joda.time.DateTimeConstants.MAY
+import org.joda.time.DateTimeConstants.NOVEMBER
+import org.joda.time.DateTimeConstants.OCTOBER
+import org.joda.time.DateTimeConstants.SEPTEMBER
 import org.joda.time.MonthDay
 
 enum class ZodiacType(val element: ZodiacElement) {

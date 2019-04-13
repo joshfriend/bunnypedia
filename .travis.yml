@@ -15,6 +15,7 @@ cache:
   - "$HOME/.android/build-cache"
 script:
   - make
+  - ./gradlew detekt
   - ./gradlew lintDebug
   - ./gradlew assembleRelease
 notifications:

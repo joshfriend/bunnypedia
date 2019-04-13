@@ -15,11 +15,44 @@ buildscript {
     }
 }
 
+plugins {
+    // Variables can't be used in 'plugins' block,
+    // so duplication of detekt version string is unavoidable in Gradle Groovy DSL for now.
+    // Others experiencing it:  https://github.com/gradle/gradle/issues/3593
+    // Mozilla decided to live with the duplication:  https://github.com/mozilla-mobile/focus-android/issues/1886
+    // Possible solution that requires changing to Gradle Kotlin DSL:  https://github.com/gradle/gradle/issues/1697
+    id "io.gitlab.arturbosch.detekt" version "1.0.0-RC14"
+}
+
 allprojects {
     repositories {
         google()
         jcenter()
         maven { url "https://jitpack.io" }
+    }
+}
+
+subprojects {
+    def detektVersion = "1.0.0-RC14"
+
+    apply plugin: 'io.gitlab.arturbosch.detekt'
+
+    detekt {
+        toolVersion = detektVersion
+        config = files("$rootProject.projectDir/detekt-config.yml")
+        baseline = file("$rootProject.projectDir/detekt-baseline.xml")
+
+        reports {
+            html {
+                enabled = true
+                destination = file("$project.buildDir/reports/detekt.html")
+            }
+        }
+    }
+
+    // enable detekt formatting rules
+    dependencies {
+        detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:1.0.0-RC14"
     }
 }
 

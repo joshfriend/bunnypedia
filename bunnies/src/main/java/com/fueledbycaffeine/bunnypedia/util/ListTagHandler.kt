@@ -4,8 +4,7 @@ import android.text.Editable
 import android.text.Html.TagHandler
 import org.xml.sax.XMLReader
 
-
-class ListTagHandler: TagHandler {
+class ListTagHandler : TagHandler {
   private var first = true
   private var parent: String? = null
   private var index = 1

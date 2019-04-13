@@ -9,7 +9,7 @@ import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.card_view_grid_item.*
 
-class CardGridViewHolder(override val containerView: View): CardViewHolder(containerView), LayoutContainer {
+class CardGridViewHolder(override val containerView: View) : CardViewHolder(containerView), LayoutContainer {
   override fun bind(requestManager: RequestManager, cardAndRules: CardWithRules) {
     requestManager
       .load(cardAndRules.card.imageURI)

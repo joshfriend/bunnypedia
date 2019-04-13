@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 
-class CardNavigationViewModel: ViewModel() {
+class CardNavigationViewModel : ViewModel() {
   private val cardSubject = PublishSubject.create<Int>()
 
   fun viewCard(card: Int) {
