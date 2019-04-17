@@ -1,4 +1,4 @@
-package com.fueledbycaffeine.bunnypedia.ui.card
+package com.fueledbycaffeine.bunnypedia.ui.card.list
 
 import androidx.core.content.ContextCompat
 import android.view.View

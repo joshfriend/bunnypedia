@@ -1,4 +1,4 @@
-package com.fueledbycaffeine.bunnypedia.ui.card
+package com.fueledbycaffeine.bunnypedia.ui.card.list
 
 import android.content.res.ColorStateList
 import android.view.View

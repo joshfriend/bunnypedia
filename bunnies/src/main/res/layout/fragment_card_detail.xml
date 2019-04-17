@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.card.CardDetailFragment"
+    tools:context=".ui.card.details.CardDetailFragment"
     android:background="@color/background"
     >
 
@@ -28,6 +28,18 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_card_detail"/>
+    <androidx.recyclerview.widget.RecyclerView
+        tools:context=".ui.card.details.CardDetailFragment"
+        tools:showIn="@layout/fragment_card_detail"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/list_item_rule_section"
+        />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

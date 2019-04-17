@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/cardList"
-        android:name="com.fueledbycaffeine.bunnypedia.ui.card.CardListFragment"
+        android:name="com.fueledbycaffeine.bunnypedia.ui.card.list.CardListFragment"
         android:label="CardListFragment"
         >
         <deepLink app:uri="https://bunnypedia.app/cards"/>
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/cardDetail"
-        android:name="com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment"
+        android:name="com.fueledbycaffeine.bunnypedia.ui.card.details.CardDetailFragment"
         android:label="fragment_card_detail"
         tools:layout="@layout/fragment_card_detail"
         >

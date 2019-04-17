@@ -1,6 +1,6 @@
 @file:Suppress("HasPlatformType")
 
-package com.fueledbycaffeine.bunnypedia.ui
+package com.fueledbycaffeine.bunnypedia.ui.card.list
 
 import android.content.Context
 import androidx.lifecycle.LiveData

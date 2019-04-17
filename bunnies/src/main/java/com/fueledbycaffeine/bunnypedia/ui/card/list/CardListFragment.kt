@@ -1,4 +1,4 @@
-package com.fueledbycaffeine.bunnypedia.ui.card
+package com.fueledbycaffeine.bunnypedia.ui.card.list
 
 import android.content.Context
 import android.os.Bundle
@@ -24,7 +24,6 @@ import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.ui.AboutDialogFragment
-import com.fueledbycaffeine.bunnypedia.ui.CardsViewModel
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import com.jakewharton.rxbinding3.appcompat.queryTextChangeEvents
 import dagger.android.support.DaggerFragment

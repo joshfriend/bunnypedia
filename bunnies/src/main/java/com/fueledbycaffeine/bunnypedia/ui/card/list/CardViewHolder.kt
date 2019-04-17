@@ -1,4 +1,4 @@
-package com.fueledbycaffeine.bunnypedia.ui.card
+package com.fueledbycaffeine.bunnypedia.ui.card.list
 
 import android.view.View
 import com.bumptech.glide.RequestManager

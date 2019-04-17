@@ -1,7 +1,7 @@
 package com.fueledbycaffeine.bunnypedia.injection
 
-import com.fueledbycaffeine.bunnypedia.ui.card.CardDetailFragment
-import com.fueledbycaffeine.bunnypedia.ui.card.CardListFragment
+import com.fueledbycaffeine.bunnypedia.ui.card.details.CardDetailFragment
+import com.fueledbycaffeine.bunnypedia.ui.card.list.CardListFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
