@@ -388,7 +388,8 @@
     ],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to steal any four Zodiac cards and any four Carrot cards if he can roll any combination of numbers that multiply to 2000. Each die may be rolled three times."},
-      {"title": "Additional Rules", "text": "All four dice must be multiplied."}
+      {"title": "Additional Rules", "text": "All four dice must be multiplied."},
+      {"title": "Winning Combinations", "text": "There are only three combinations of dice that multiply to 2000:<ul><li>2, 10, 10, 10</li><li>4, 5, 10, 10</li><li>5, 5, 8, 10</li></ul>"}
     ]
   },
   {
