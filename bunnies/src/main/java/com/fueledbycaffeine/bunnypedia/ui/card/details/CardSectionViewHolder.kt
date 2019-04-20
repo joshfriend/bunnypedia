@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
+import com.bumptech.glide.request.target.Target
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.BunnyRequirement
 import com.fueledbycaffeine.bunnypedia.database.model.Card
@@ -34,6 +35,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
 
     GlideApp.with(context)
       .load(card.imageURI)
+      .override(Target.SIZE_ORIGINAL)
       .into(itemView.cardThumbnail)
 
     if (card.dice.isNotEmpty()) {
