@@ -7,6 +7,8 @@ import com.fueledbycaffeine.bunnypedia.R
 import dagger.android.support.DaggerAppCompatActivity
 
 class MainActivity : DaggerAppCompatActivity() {
+  private val navController get() = findNavController(this, R.id.navHostFragment)
+
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
@@ -14,6 +16,8 @@ class MainActivity : DaggerAppCompatActivity() {
 
   override fun onNewIntent(intent: Intent) {
     super.onNewIntent(intent)
-    findNavController(this, R.id.navHostFragment).handleDeepLink(intent)
+    navController.handleDeepLink(intent)
   }
+
+  override fun onSupportNavigateUp() = navController.navigateUp()
 }
