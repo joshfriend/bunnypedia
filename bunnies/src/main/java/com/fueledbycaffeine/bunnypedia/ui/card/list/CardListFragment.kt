@@ -22,6 +22,7 @@ import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
+import com.fueledbycaffeine.bunnypedia.ext.android.hideSoftKeyboard
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.ui.AboutDialogFragment
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
@@ -97,6 +98,7 @@ class CardListFragment : DaggerFragment() {
       .observeOn(AndroidSchedulers.mainThread())
       .subscribeBy(
         onNext = { result ->
+          hideSoftKeyboard()
           when (result) {
             is QueryResult.Found<*> -> {
               val item = result.item as CardWithRules
