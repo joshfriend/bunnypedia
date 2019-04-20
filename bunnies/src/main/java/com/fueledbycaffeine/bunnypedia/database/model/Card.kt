@@ -1,15 +1,27 @@
 package com.fueledbycaffeine.bunnypedia.database.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Embedded
 import androidx.room.Entity
+import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(
+  foreignKeys = [
+    ForeignKey(
+      entity = Card::class,
+      parentColumns = ["id"],
+      childColumns = ["canonicalId"]
+    )
+  ]
+)
 data class Card(
   @PrimaryKey
   val id: Int,
 
+  @ColumnInfo(index = true)
   val canonicalId: Int?,
+
   val title: String,
   val deck: Deck,
   val type: CardType,

@@ -7,8 +7,14 @@ import sqlite3
 import os
 from os.path import join, dirname, abspath
 
+class _Table:
+    @classmethod
+    def create_table(cls, conn):
+        for ddl in cls.DDL:
+            conn.execute(ddl)
 
-class Card:
+
+class Card(_Table):
     DDL = ("""
     CREATE TABLE Card (
         id INTEGER PRIMARY KEY NOT NULL, canonicalId INTEGER,
@@ -17,8 +23,12 @@ class Card:
         symbols TEXT NOT NULL, pawn TEXT, weaponLevel TEXT,
         cabbage INTEGER NOT NULL, radish INTEGER NOT NULL,
         water INTEGER NOT NULL, milk INTEGER NOT NULL, psi TEXT,
-        specialSeries TEXT
+        specialSeries TEXT,
+        FOREIGN KEY(canonicalId) REFERENCES Card(id)
     );
+    """,
+    """
+    CREATE INDEX index_Card_canonicalId ON Card(canonicalId);
     """,
     )
 
@@ -62,16 +72,11 @@ class Card:
         self.psi = kwargs.get('psi')
         self.specialSeries = kwargs.get('specialSeries')
 
-    @classmethod
-    def create_table(cls, conn):
-        for ddl in cls.DDL:
-            conn.execute(ddl)
-
     def insert(self, conn):
         conn.execute(self.INSERT_STMT, self.__dict__)
 
 
-class Rule:
+class Rule(_Table):
 
     DDL = ("""
     CREATE TABLE Rule (
@@ -98,13 +103,19 @@ class Rule:
         self.title = kwargs['title']
         self.text = kwargs['text']
 
-    @classmethod
-    def create_table(cls, conn):
-        for ddl in cls.DDL:
-            conn.execute(ddl)
-
     def insert(self, conn):
         conn.execute(self.INSERT_STMT, self.__dict__)
+
+
+class CardFts(_Table):
+    DDL = (
+    """
+    CREATE VIRTUAL TABLE IF NOT EXISTS CardFts USING FTS4(id, title, content=`Card`)
+    """,
+    """
+    INSERT INTO CardFts(CardFts) VALUES ('rebuild')
+    """
+    )
 
 
 ROOT_DIR = abspath(join(dirname(__file__), '..'))
@@ -150,6 +161,9 @@ for card_json in cards_data:
     for rule_json in card_json.get('rules', []):
         rule = Rule(selectedCard.id, **rule_json)
         rule.insert(conn)
+conn.commit()
+
+CardFts.create_table(conn)
 conn.commit()
 
 conn.execute("pragma user_version = 1")

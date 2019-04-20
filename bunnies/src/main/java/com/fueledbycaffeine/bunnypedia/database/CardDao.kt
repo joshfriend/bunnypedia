@@ -13,15 +13,15 @@ interface CardDao {
   @Transaction
   @Query("""
   SELECT * FROM Card
+  JOIN CardFts ON Card.id = CardFts.docid
   WHERE
     deck in (:decks)
-    AND (id LIKE :idQuery OR LOWER(title) LIKE :titleQuery)
-    ORDER BY id ASC
+    AND CardFts MATCH :ftsTerm
+  ORDER BY id ASC
   """)
   fun getCardsByDeckAndQuery(
     decks: Array<Deck>,
-    idQuery: String,
-    titleQuery: String
+    ftsTerm: String
   ): DataSource.Factory<Int, CardWithRules>
 
   @Transaction

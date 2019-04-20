@@ -7,9 +7,9 @@ import io.reactivex.Single
 
 class CardStore(private val dao: CardDao) {
   fun getCards(decks: Set<Deck>, query: String): DataSource.Factory<Int, CardWithRules> {
-    return if (query.isNotEmpty()) {
-      val idQuery = query.replace("^0+".toRegex(), "")
-      dao.getCardsByDeckAndQuery(decks.toTypedArray(), "$idQuery%", "%${query.toLowerCase()}%")
+    val ftsTerm = query.replace("^0+".toRegex(), "")
+    return if (ftsTerm.isNotEmpty()) {
+      dao.getCardsByDeckAndQuery(decks.toTypedArray(), "$ftsTerm*")
     } else {
       dao.getCardsByDeck(decks.toTypedArray())
     }

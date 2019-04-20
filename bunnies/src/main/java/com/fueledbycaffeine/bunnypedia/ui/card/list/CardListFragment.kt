@@ -125,6 +125,7 @@ class CardListFragment : DaggerFragment() {
     // TODO: https://github.com/bumptech/glide/tree/master/integration/recyclerview
     adapter = CardAdapter(this, viewType, this::onCardSelected)
     recyclerView.adapter = adapter
+    recyclerView.itemAnimator = null
     setupLayoutManager()
 
     fastScroller.setRecyclerView(recyclerView)

@@ -4,11 +4,13 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.fueledbycaffeine.bunnypedia.database.model.Card
+import com.fueledbycaffeine.bunnypedia.database.model.CardFts
 import com.fueledbycaffeine.bunnypedia.database.model.Rule
 
 @Database(
   entities = [
     Card::class,
+    CardFts::class,
     Rule::class
   ],
   version = 2,
