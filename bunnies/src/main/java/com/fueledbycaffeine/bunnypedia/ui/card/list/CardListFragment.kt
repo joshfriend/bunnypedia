@@ -11,7 +11,6 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.content.ContextCompat
-import androidx.core.os.bundleOf
 import androidx.lifecycle.ViewModelProviders
 import androidx.lifecycle.observe
 import androidx.navigation.fragment.findNavController
@@ -176,7 +175,7 @@ class CardListFragment : DaggerFragment() {
         true
       }
       R.id.about -> {
-        AboutDialogFragment().show(fragmentManager, "about")
+        AboutDialogFragment().show(requireFragmentManager(), "about")
         true
       }
       else -> super.onOptionsItemSelected(item)
@@ -207,6 +206,6 @@ class CardListFragment : DaggerFragment() {
   }
 
   private fun onCardSelected(cardId: Int) {
-    findNavController().navigate(R.id.showDetail, bundleOf("id" to cardId))
+    findNavController().navigate(CardListFragmentDirections.showDetail(cardId))
   }
 }

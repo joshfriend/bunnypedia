@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import android.view.animation.Animation
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
@@ -30,9 +30,7 @@ import timber.log.Timber
 import javax.inject.Inject
 
 class CardDetailFragment : DaggerFragment() {
-  private val cardIdArgument by lazy {
-    arguments!!.getInt("id")
-  }
+  private val args: CardDetailFragmentArgs by navArgs()
 
   @Inject lateinit var cardStore: CardStore
   private val reloadSubject = BehaviorSubject.createDefault(true)
@@ -48,7 +46,7 @@ class CardDetailFragment : DaggerFragment() {
     reloadSubject
       .observeOn(Schedulers.io())
       .flatMapSingle {
-        cardStore.getCard(cardIdArgument)
+        cardStore.getCard(args.id)
       }
       .observeOn(AndroidSchedulers.mainThread())
       .subscribeBy(
@@ -125,7 +123,7 @@ class CardDetailFragment : DaggerFragment() {
       .subscribe { result ->
         if (result is QueryResult.Found<*>) {
           val (selectedCard) = result.item as CardWithRules
-          findNavController().navigate(R.id.nextCard, bundleOf("id" to selectedCard.id))
+          findNavController().navigate(CardDetailFragmentDirections.nextCard(selectedCard.id))
         }
       }
       .addTo(subscribers)

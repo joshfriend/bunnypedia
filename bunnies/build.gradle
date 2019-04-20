@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: "androidx.navigation.safeargs.kotlin"
 apply plugin: 'io.fabric'
 
 androidExtensions {
@@ -89,12 +90,12 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime:$archComponentsVersion"
     implementation "androidx.lifecycle:lifecycle-extensions:$archComponentsVersion"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$archComponentsVersion"
-    def navVersion = "1.0.0"
-    implementation "android.arch.navigation:navigation-fragment:$navVersion"
-    implementation "android.arch.navigation:navigation-fragment-ktx:$navVersion"
-    implementation "android.arch.navigation:navigation-ui:$navVersion"
-    implementation "android.arch.navigation:navigation-ui-ktx:$navVersion"
-    implementation "android.arch.navigation:navigation-fragment:$navVersion"
+    def navVersion = "2.1.0-alpha02"
+    implementation "androidx.navigation:navigation-fragment:$navVersion"
+    implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
+    implementation "androidx.navigation:navigation-ui:$navVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
+    implementation "androidx.navigation:navigation-fragment:$navVersion"
     def roomVersion = "2.1.0-alpha06"
     implementation "androidx.room:room-runtime:$roomVersion"
     implementation "androidx.room:room-rxjava2:$roomVersion"
