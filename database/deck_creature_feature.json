@@ -387,7 +387,7 @@
       "BROWN"
     ],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to steal any four Zodiac cards and any four Carrot cards if he can roll any combination of numbers that multiply to 2000. Each die may be ."},
+      {"title": "Card Text", "text": "May be used once by a player to steal any four Zodiac cards and any four Carrot cards if he can roll any combination of numbers that multiply to 2000. Each die may be rolled three times."},
       {"title": "Additional Rules", "text": "All four dice must be multiplied."}
     ]
   },
