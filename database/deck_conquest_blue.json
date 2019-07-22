@@ -781,7 +781,7 @@
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "bunnyRequirement": "NO",
-  "pawn": "GREEN",
+  "pawn": "BLUE",
   "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
   "rules": [
     {"title": "Card Text", "text": "The color die that has the lowest roll is the supply taken by the player:<br><ul><li>Violet = A bunny card.</li><li>Orange = A Carrot card.</li><li>Green = A Radish card.</li><li>Yellow = A Metal card.</li><li>Blue = A Milk card.</li></ul>"},
@@ -794,7 +794,7 @@
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "bunnyRequirement": "NO",
-  "pawn": "GREEN",
+  "pawn": "BLUE",
   "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
   "rules": [
     {"title": "Card Text", "text": "The color die that has the lowest roll is the supply taken by the player:<br><ul><li>Violet = A bunny card.</li><li>Orange = A Carrot card.</li><li>Green = A Radish card.</li><li>Yellow = A Metal card.</li><li>Blue = A Milk card.</li></ul>"},
@@ -863,6 +863,7 @@
   "type": "SPECIAL",
   "bunnyRequirement": "NO",
   "dice": ["YELLOW"],
+  "pawn": "YELLOW",
   "rules": [
     {"title": "Card Text", "text": "May be used once by a player to roll the die and to take the same number of cards from the Draw Pile. The player may keep the best cards and discard the rest. The player must have five cards in his hand (and two cards down) at the end of his turn. Or may be used immediately by a player to eliminate the <a href=\"bunnypedia://cards/1144\">Shiner</a> vote. This card must be a saved Special to be used immediately."}
   ]
@@ -874,6 +875,7 @@
   "type": "RUN",
   "bunnyRequirement": "NO",
   "dice": ["YELLOW"],
+  "pawn": "YELLOW",
   "rules": [
     {"title": "Card Text", "text": "May be used once by a player to roll the die and to take the same number of cards from the Draw Pile. The player may keep the best cards and discard the rest. The player must have five cards in his hand (and two cards down) at the end of his turn. Or may be used immediately by a player to eliminate the <a href=\"bunnypedia://cards/1144\">Shiner</a> vote. This card must be a saved Special to be used immediately."}
   ]
