@@ -346,8 +346,10 @@
         "specialSeries": "OMEGA",
         "type": "VERY_SPECIAL",
         "bunnyRequirement": "NO",
+        "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to immediately cure all bunnies in The Bunny Circle of any sickness or hunger. May be used at any time!"}
+            {"title": "Card Text", "text": "May be used once by a player to immediately cure all bunnies in The Bunny Circle of any sickness or hunger. May be used at any time!"},
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
         ]
     },
     {
