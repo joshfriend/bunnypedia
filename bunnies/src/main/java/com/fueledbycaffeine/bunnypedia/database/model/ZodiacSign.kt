@@ -3,19 +3,8 @@ package com.fueledbycaffeine.bunnypedia.database.model
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
-import org.joda.time.DateTimeConstants.APRIL
-import org.joda.time.DateTimeConstants.AUGUST
-import org.joda.time.DateTimeConstants.DECEMBER
-import org.joda.time.DateTimeConstants.FEBRUARY
-import org.joda.time.DateTimeConstants.JANUARY
-import org.joda.time.DateTimeConstants.JULY
-import org.joda.time.DateTimeConstants.JUNE
-import org.joda.time.DateTimeConstants.MARCH
-import org.joda.time.DateTimeConstants.MAY
-import org.joda.time.DateTimeConstants.NOVEMBER
-import org.joda.time.DateTimeConstants.OCTOBER
-import org.joda.time.DateTimeConstants.SEPTEMBER
-import org.joda.time.MonthDay
+import org.threeten.bp.Month
+import org.threeten.bp.MonthDay
 
 enum class ZodiacSign(val element: ZodiacElement) {
   ARIES(ZodiacElement.FIRE),
@@ -66,20 +55,18 @@ enum class ZodiacSign(val element: ZodiacElement) {
     }
   }
 
-  val range: Pair<MonthDay, MonthDay> get() {
-    return when (this) {
-      CAPRICORN -> MonthDay(DECEMBER, 22) to MonthDay(JANUARY, 20)
-      AQUARIUS -> MonthDay(JANUARY, 21) to MonthDay(FEBRUARY, 19)
-      PISCES -> MonthDay(FEBRUARY, 20) to MonthDay(MARCH, 20)
-      ARIES -> MonthDay(MARCH, 21) to MonthDay(APRIL, 20)
-      TAURUS -> MonthDay(APRIL, 21) to MonthDay(MAY, 21)
-      GEMINI -> MonthDay(MAY, 22) to MonthDay(JUNE, 21)
-      CANCER -> MonthDay(JUNE, 22) to MonthDay(JULY, 23)
-      LEO -> MonthDay(JULY, 24) to MonthDay(AUGUST, 23)
-      VIRGO -> MonthDay(AUGUST, 24) to MonthDay(SEPTEMBER, 23)
-      LIBRA -> MonthDay(SEPTEMBER, 24) to MonthDay(OCTOBER, 23)
-      SCORPIO -> MonthDay(OCTOBER, 24) to MonthDay(NOVEMBER, 22)
-      SAGITTARIUS -> MonthDay(NOVEMBER, 22) to MonthDay(DECEMBER, 21)
-    }
+  val range: Pair<MonthDay, MonthDay> get() = when (this) {
+    CAPRICORN   -> MonthDay.of(Month.DECEMBER, 22)  to MonthDay.of(Month.JANUARY, 20)
+    AQUARIUS    -> MonthDay.of(Month.JANUARY, 21)   to MonthDay.of(Month.FEBRUARY, 19)
+    PISCES      -> MonthDay.of(Month.FEBRUARY, 20)  to MonthDay.of(Month.MARCH, 20)
+    ARIES       -> MonthDay.of(Month.MARCH, 21)     to MonthDay.of(Month.APRIL, 20)
+    TAURUS      -> MonthDay.of(Month.APRIL, 21)     to MonthDay.of(Month.MAY, 21)
+    GEMINI      -> MonthDay.of(Month.MAY, 22)       to MonthDay.of(Month.JUNE, 21)
+    CANCER      -> MonthDay.of(Month.JUNE, 22)      to MonthDay.of(Month.JULY, 23)
+    LEO         -> MonthDay.of(Month.JULY, 24)      to MonthDay.of(Month.AUGUST, 23)
+    VIRGO       -> MonthDay.of(Month.AUGUST, 24)    to MonthDay.of(Month.SEPTEMBER, 23)
+    LIBRA       -> MonthDay.of(Month.SEPTEMBER, 24) to MonthDay.of(Month.OCTOBER, 23)
+    SCORPIO     -> MonthDay.of(Month.OCTOBER, 24)   to MonthDay.of(Month.NOVEMBER, 22)
+    SAGITTARIUS -> MonthDay.of(Month.NOVEMBER, 22)  to MonthDay.of(Month.DECEMBER, 21)
   }
 }

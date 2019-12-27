@@ -7,7 +7,6 @@ import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.request.target.Target
 import com.fueledbycaffeine.bunnypedia.R
-import com.fueledbycaffeine.bunnypedia.database.model.BunnyRequirement
 import com.fueledbycaffeine.bunnypedia.database.model.Card
 import com.fueledbycaffeine.bunnypedia.database.model.Die
 import com.fueledbycaffeine.bunnypedia.database.model.FeedTheBunny
@@ -22,12 +21,13 @@ import com.fueledbycaffeine.bunnypedia.ui.EpoxyLayoutContainer
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.google.android.flexbox.FlexboxLayout
 import kotlinx.android.synthetic.main.card_hero_details.view.*
-import org.joda.time.DateTime
-import org.joda.time.format.DateTimeFormat
+import org.threeten.bp.LocalDate
+import org.threeten.bp.LocalDateTime
+import org.threeten.bp.format.DateTimeFormatter
 
 class CardSectionViewHolder : EpoxyLayoutContainer() {
   companion object {
-    private val ZODIAC_DATE_FMT = DateTimeFormat.forPattern("MMMM d")
+    private val ZODIAC_DATE_FMT = DateTimeFormatter.ofPattern("MMMM d")
   }
 
   fun display(card: Card) {
@@ -146,17 +146,24 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
     )
 
     val (startMonthDay, endMonthDay) = zodiac.range
-    val start = DateTime()
-      .withTimeAtStartOfDay()
-      .withDayOfMonth(startMonthDay.dayOfMonth)
-      .withMonthOfYear(startMonthDay.monthOfYear)
-    val end = DateTime()
-      .withTimeAtStartOfDay()
-      .withDayOfMonth(endMonthDay.dayOfMonth)
-      .withMonthOfYear(endMonthDay.monthOfYear)
+
+    val start = LocalDate
+      .of(
+        LocalDate.now().year,
+        startMonthDay.monthValue,
+        startMonthDay.dayOfMonth
+      )
+      .atStartOfDay()
+    val end = LocalDate
+      .of(
+        LocalDate.now().year,
+        endMonthDay.monthValue,
+        endMonthDay.dayOfMonth
+      )
+      .atStartOfDay()
       .plusDays(1) // Non-inclusive!
 
-    val now = DateTime()
+    val now = LocalDateTime.now()
     val isCurrentSign = if (start <= now && end > now) {
       true
     } else if (zodiac == ZodiacSign.CAPRICORN) {
@@ -174,14 +181,14 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
     if (isCurrentSign) {
       itemView.zodiacDate.text = getString(
         R.string.zodiac_date_range_current,
-        ZODIAC_DATE_FMT.print(start),
-        ZODIAC_DATE_FMT.print(end.minusDays(1))
+        start.format(ZODIAC_DATE_FMT),
+        end.minusDays(1).format(ZODIAC_DATE_FMT)
       )
     } else {
       itemView.zodiacDate.text = getString(
         R.string.zodiac_date_range,
-        ZODIAC_DATE_FMT.print(start),
-        ZODIAC_DATE_FMT.print(end.minusDays(1))
+        start.format(ZODIAC_DATE_FMT),
+        end.minusDays(1).format(ZODIAC_DATE_FMT)
       )
     }
   }
@@ -189,7 +196,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
   private fun setupZodiacAnimal(zodiacAnimal: ZodiacAnimal) {
     itemView.containerZodiacYears.visibility = View.VISIBLE
 
-    val currentYear = DateTime().year().get()
+    val currentYear = LocalDate.now().year
     val currentAnimal = ZodiacAnimal.values()[currentYear % 12]
     val isCurrentAnimal = zodiacAnimal == currentAnimal
 

@@ -6,10 +6,10 @@ import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.database.prepareDatabase
 import com.fueledbycaffeine.bunnypedia.util.CrashlyticsTree
 import com.fueledbycaffeine.bunnypedia.util.configureStrictMode
+import com.jakewharton.threetenabp.AndroidThreeTen
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
 import io.fabric.sdk.android.Fabric
-import net.danlew.android.joda.JodaTimeAndroid
 import timber.log.Timber
 
 class App : DaggerApplication() {
@@ -31,7 +31,7 @@ class App : DaggerApplication() {
       Timber.plant(CrashlyticsTree())
     }
 
-    JodaTimeAndroid.init(this)
+    AndroidThreeTen.init(this)
 
     this.configureStrictMode()
   }

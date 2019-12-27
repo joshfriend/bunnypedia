@@ -34,6 +34,8 @@ allprojects {
 
     tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
         kotlinOptions {
+            // TODO: AGP 4.0 remove threetenabp in favor of this
+//            coreLibraryDesugaringEnabled true
             allWarningsAsErrors = true
             jvmTarget = JavaVersion.VERSION_1_8
         }
