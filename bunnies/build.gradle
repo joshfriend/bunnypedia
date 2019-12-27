@@ -110,7 +110,6 @@ dependencies {
     def pagingVersion = "2.1.1"
     implementation "androidx.paging:paging-runtime:$pagingVersion"
     implementation "androidx.paging:paging-rxjava2:$pagingVersion"
-    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
 
     def epoxyVersion = "3.8.0"
     implementation "com.airbnb.android:epoxy:$epoxyVersion"
