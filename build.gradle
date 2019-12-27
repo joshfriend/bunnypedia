@@ -1,17 +1,18 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.3.21'
+    ext.kotlin_version = '1.3.61'
     repositories {
         google()
         jcenter()
         maven { url 'https://maven.fabric.io/public' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.0'
+        classpath 'com.android.tools.build:gradle:3.5.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'io.fabric.tools:gradle:1.28.1'
-        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.1.0-alpha02"
+        // https://docs.fabric.io/android/changelog.html#fabric-gradle-plugin
+        classpath 'io.fabric.tools:gradle:1.31.2'
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.1.0"
     }
 }
 
@@ -21,7 +22,7 @@ plugins {
     // Others experiencing it:  https://github.com/gradle/gradle/issues/3593
     // Mozilla decided to live with the duplication:  https://github.com/mozilla-mobile/focus-android/issues/1886
     // Possible solution that requires changing to Gradle Kotlin DSL:  https://github.com/gradle/gradle/issues/1697
-    id "io.gitlab.arturbosch.detekt" version "1.0.0-RC14"
+    id "io.gitlab.arturbosch.detekt" version "1.0.0-RC16"
 }
 
 allprojects {
@@ -30,10 +31,17 @@ allprojects {
         jcenter()
         maven { url "https://jitpack.io" }
     }
+
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+        kotlinOptions {
+            allWarningsAsErrors = true
+            jvmTarget = JavaVersion.VERSION_1_8
+        }
+    }
 }
 
 subprojects {
-    def detektVersion = "1.0.0-RC14"
+    def detektVersion = "1.0.0-RC16"
 
     apply plugin: 'io.gitlab.arturbosch.detekt'
 
@@ -52,7 +60,7 @@ subprojects {
 
     // enable detekt formatting rules
     dependencies {
-        detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:1.0.0-RC14"
+        detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:1.0.0-RC16"
     }
 }
 

@@ -13,6 +13,7 @@ import javax.inject.Singleton
   DatabaseModule::class
 ])
 internal interface AppComponent : AndroidInjector<App> {
+  @Suppress("DEPRECATION")
   @Component.Builder
   abstract class Builder : AndroidInjector.Builder<App>()
 }

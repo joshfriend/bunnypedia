@@ -12,6 +12,8 @@
     <issue id="CommitPrefEdits" severity="error" />
     <issue id="HardcodedText" severity="error" />
 
+    <issue id="GradleDependency" severity="informational" />
+
     <issue id="SyntheticAccessor" severity="ignore" /> <!-- Change back to error when https://issuetracker.google.com/issues/110243369 is fixed -->
     <!--<issue id="SyntheticAccessor" severity="informational">-->
     <!--<ignore path="src/test*/**"/>-->
