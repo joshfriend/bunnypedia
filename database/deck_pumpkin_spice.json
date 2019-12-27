@@ -341,7 +341,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once to force all players to discard all Forever small cards or any other card (saved and in their five-card hand) with the word Forever in the title."},
-      {"title": "Forever Cards", "text": "TBD"}
+      {"title": "Forever Cards", "text": "<ul><li><a href=\"bunnypedia://cards/316\">Bunny On The Edge Of Forever</a></li><li><a href=\"bunnypedia://cards/420\">Forever Fed</a></li></ul>"}
     ]
   },
   {
