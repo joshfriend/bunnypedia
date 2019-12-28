@@ -122,11 +122,11 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
       itemView.ftbRequirement.text = getString(R.string.ftb_cabbage, cabbage)
     } else if (water > 0) {
       itemView.ftbRequirement.text = getString(R.string.ftb_water, water)
-    } else if (cabbage == Card.FTB_RANDOM || radish == Card.FTB_RANDOM) {
+    } else if (cabbage == FeedTheBunny.RANDOM || radish == FeedTheBunny.RANDOM) {
       itemView.ftbRequirement.text = getString(R.string.ftb_random)
-    } else if (cabbage == Card.FTB_DATED) {
+    } else if (cabbage == FeedTheBunny.DATED) {
       itemView.ftbRequirement.text = getString(R.string.ftb_dated_cabbage)
-    } else if (water == Card.FTB_DATED) {
+    } else if (water == FeedTheBunny.DATED) {
       itemView.ftbRequirement.text = getString(R.string.ftb_dated_water)
     }
   }

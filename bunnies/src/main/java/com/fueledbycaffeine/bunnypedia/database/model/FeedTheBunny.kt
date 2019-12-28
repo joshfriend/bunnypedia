@@ -10,6 +10,11 @@ data class FeedTheBunny(
   val water: Int,
   val milk: Int
 ) : Parcelable {
+  companion object {
+    const val RANDOM = -1
+    const val DATED = -2
+  }
+
   val applicable get() = cabbage != 0 || radish != 0 || water != 0 || milk != 0
 
   val cabbageAndWater get() = cabbage > 0 && water > 0

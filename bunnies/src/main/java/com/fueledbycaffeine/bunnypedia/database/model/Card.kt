@@ -39,10 +39,5 @@ data class Card(
   @Embedded
   val ftb: FeedTheBunny
 ) {
-  companion object {
-    const val FTB_RANDOM = -1
-    const val FTB_DATED = -2
-  }
-
   val imageURI: String get() = "file:///android_asset/card_thumbnails/${String.format("%04d.jpg", canonicalId ?: id)}"
 }
