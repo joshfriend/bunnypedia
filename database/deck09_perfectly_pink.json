@@ -93,8 +93,8 @@
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
-    "cabbage": 1,
-    "water": 1,
+    "cabbage": 2,
+    "water": 2,
     "rules": [
         {"title": "Card Text", "text": "May be given to any opponent whose bunnies must each feed the amounts show above by the end of his next turn or die."}
     ]

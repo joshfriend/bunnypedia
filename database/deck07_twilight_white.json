@@ -412,7 +412,7 @@
         "title": "Free Pawn",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
-        "bunnyRequirement": "PLAY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to take any two Pawns from Weil's Pawn Shop."},
             {"title": "Additional Rules", "text": "Free Pawn may not be used if Weil's Pawn Shop is closed."}
@@ -512,7 +512,7 @@
         "title": "White Stuff",
         "deck": "TWILIGHT_WHITE",
         "type": "VERY_SPECIAL",
-        "bunnyRequirement": "PLAY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "The player with this card saved has exclusive use of the White die which may be rolled and substituted for the roll of any other 12-sided die any time during play. May be used once per card consequence."},
             {"title": "Additional Rules", "text": "Neither the <a href=\"bunnypedia://cards/170\">Red Timid Bunny</a> nor the White Pawn will allow a re-roll of the White die."},

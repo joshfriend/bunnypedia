@@ -19,8 +19,8 @@ class Card(_Table):
     CREATE TABLE Card (
         id INTEGER PRIMARY KEY NOT NULL, canonicalId INTEGER,
         title TEXT NOT NULL, deck TEXT NOT NULL, type TEXT NOT NULL, rank TEXT,
-        zodiacType TEXT, zodiacAnimal TEXT, bunnyRequirement TEXT NOT NULL, dice TEXT NOT NULL,
-        symbols TEXT NOT NULL, pawn TEXT, weaponLevel TEXT,
+        zodiacSign TEXT, zodiacAnimal TEXT, bunnyRequirement TEXT , dice TEXT,
+        symbols TEXT, pawn TEXT, weaponLevel TEXT,
         cabbage INTEGER NOT NULL, radish INTEGER NOT NULL,
         water INTEGER NOT NULL, milk INTEGER NOT NULL, psi TEXT,
         specialSeries TEXT,
@@ -34,10 +34,10 @@ class Card(_Table):
 
     INSERT_STMT = """
     INSERT INTO Card (
-        id, canonicalId, title, deck, type, rank, zodiacType, zodiacAnimal, bunnyRequirement,
+        id, canonicalId, title, deck, type, rank, zodiacSign, zodiacAnimal, bunnyRequirement,
         dice, symbols, pawn, weaponLevel, cabbage, radish, water, milk, psi, specialSeries
     ) VALUES (
-        :id, :canonicalId, :title, :deck, :type, :rank, :zodiacType,
+        :id, :canonicalId, :title, :deck, :type, :rank, :zodiacSign,
         :zodiacAnimal, :bunnyRequirement, :dice, :symbols, :pawn, :weaponLevel,
         :cabbage, :radish, :water, :milk, :psi, :specialSeries
     );
@@ -50,19 +50,13 @@ class Card(_Table):
         self.deck = kwargs.get('deck')
         self.type = kwargs.get('type')
         self.rank = kwargs.get('rank')
-        self.zodiacType = kwargs.get('zodiacType')
+        self.zodiacSign = kwargs.get('zodiacSign')
         self.zodiacAnimal = kwargs.get('zodiacAnimal')
-        self.bunnyRequirement = kwargs.get('bunnyRequirement', 'NOT_APPLICABLE')
-        dice = kwargs.get('dice')
-        if dice:
-            self.dice = ','.join(dice)
-        else:
-            self.dice = ''
-        symbols = kwargs.get('symbols')
-        if symbols:
-            self.symbols = ','.join(symbols)
-        else:
-            self.symbols = ''
+        self.bunnyRequirement = kwargs.get('bunnyRequirement')
+        dice = kwargs.get('dice', [])
+        self.dice = ','.join(dice) or None
+        symbols = kwargs.get('symbols', [])
+        self.symbols = ','.join(symbols) or None
         self.pawn = kwargs.get('pawn')
         self.weaponLevel = kwargs.get('weaponLevel')
         self.cabbage = kwargs.get('cabbage', 0)

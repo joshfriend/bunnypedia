@@ -1,6 +1,6 @@
 [{
   "id": "0771",
-  "title": "Blue Evil",
+  "title": "Blue Evil Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -9,7 +9,7 @@
 },
 {
   "id": "0772",
-  "title": "Blue Hypnotic",
+  "title": "Blue Hypnotic Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -18,7 +18,7 @@
 },
 {
   "id": "0773",
-  "title": "Blue Ludicrous",
+  "title": "Blue Ludicrous Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -27,7 +27,7 @@
 },
 {
   "id": "0774",
-  "title": "Blue Spiffy",
+  "title": "Blue Spiffy Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -36,7 +36,7 @@
 },
 {
   "id": "0775",
-  "title": "Blue Truculent",
+  "title": "Blue Truculent Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -45,7 +45,7 @@
 },
 {
   "id": "0776",
-  "title": "Green Evil",
+  "title": "Green Evil Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -54,7 +54,7 @@
 },
 {
   "id": "0777",
-  "title": "Green Hypnotic",
+  "title": "Green Hypnotic Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -63,7 +63,7 @@
 },
 {
   "id": "0778",
-  "title": "Green Ludicrous",
+  "title": "Green Ludicrous Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -72,7 +72,7 @@
 },
 {
   "id": "0779",
-  "title": "Green Spiffy",
+  "title": "Green Spiffy Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -81,7 +81,7 @@
 },
 {
   "id": "0780",
-  "title": "Green Truculent",
+  "title": "Green Truculent Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -90,7 +90,7 @@
 },
 {
   "id": "0781",
-  "title": "Orange Evil",
+  "title": "Orange Evil Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -99,7 +99,7 @@
 },
 {
   "id": "0782",
-  "title": "Orange Hypnotic",
+  "title": "Orange Hypnotic Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -108,7 +108,7 @@
 },
 {
   "id": "0783",
-  "title": "Orange Ludicrous",
+  "title": "Orange Ludicrous Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -117,7 +117,7 @@
 },
 {
   "id": "0784",
-  "title": "Orange Spiffy",
+  "title": "Orange Spiffy Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -126,7 +126,7 @@
 },
 {
   "id": "0785",
-  "title": "Orange Truculent",
+  "title": "Orange Truculent Bunny",
   "deck": "CONQUEST_BLUE",
   "type": "RUN",
   "rules": [
@@ -753,7 +753,7 @@
   "id": "0837",
   "title": "Bizarre Baccarat",
   "deck": "CONQUEST_BLUE",
-  "type": "RUN",
+  "type": "SPECIAL",
   "bunnyRequirement": "PLAY",
   "pawn": "GREEN",
   "dice": ["ORANGE", "GREEN"],
@@ -766,7 +766,7 @@
   "id": "0838",
   "title": "Bizarre Baccarat",
   "deck": "CONQUEST_BLUE",
-  "type": "RUN",
+  "type": "SPECIAL",
   "bunnyRequirement": "PLAY",
   "pawn": "GREEN",
   "dice": ["ORANGE", "GREEN"],
@@ -779,7 +779,7 @@
   "id": "0839",
   "title": "Blue Plate Special",
   "deck": "CONQUEST_BLUE",
-  "type": "RUN",
+  "type": "SPECIAL",
   "bunnyRequirement": "NO",
   "pawn": "BLUE",
   "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
@@ -792,7 +792,7 @@
   "id": "0840",
   "title": "Blue Plate Special",
   "deck": "CONQUEST_BLUE",
-  "type": "RUN",
+  "type": "SPECIAL",
   "bunnyRequirement": "NO",
   "pawn": "BLUE",
   "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE"],
@@ -941,8 +941,8 @@
 {
   "id": "0853",
   "title": "Terrible Misfortune – Defibrillator",
-  "deck": "PLAY_IMMEDIATELY",
-  "type": "RUN",
+  "deck": "CONQUEST_BLUE",
+  "type": "PLAY_IMMEDIATELY",
   "rules": [
     {"title": "Card Text", "text": "One of your bunnies becomes the victim of a poorly calibrated heart defibrillator."},
     {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
@@ -952,8 +952,8 @@
 {
   "id": "0854",
   "title": "Terrible Misfortune – High Rise",
-  "deck": "PLAY_IMMEDIATELY",
-  "type": "RUN",
+  "deck": "CONQUEST_BLUE",
+  "type": "PLAY_IMMEDIATELY",
   "rules": [
     {"title": "Card Text", "text": "One of your bunnies attempts to take over a high rise building on Christmas Eve and dies hard."},
     {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
@@ -963,8 +963,8 @@
 {
   "id": "0855",
   "title": "Terrible Misfortune – Rolling Rock",
-  "deck": "PLAY_IMMEDIATELY",
-  "type": "RUN",
+  "deck": "CONQUEST_BLUE",
+  "type": "PLAY_IMMEDIATELY",
   "rules": [
     {"title": "Card Text", "text": "While attempting to steal an ancient artifact, your bunny is squished by a giant rolling rock"},
     {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},

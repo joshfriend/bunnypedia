@@ -1,7 +1,7 @@
 [
   {
     "id": 441,
-    "title": "Violet Super Congenial",
+    "title": "Violet Super Congenial Bunny",
     "deck": "STAINLESS_STEEL",
     "type": "RUN",
     "rules": [
@@ -11,7 +11,7 @@
   },
   {
     "id": 442,
-    "title": "Orange Super Gleeful",
+    "title": "Orange Super Gleeful Bunny",
     "deck": "STAINLESS_STEEL",
     "type": "RUN",
     "rules": [
@@ -21,7 +21,7 @@
   },
   {
     "id": 443,
-    "title": "Blue Super Lumbering",
+    "title": "Blue Super Lumbering Bunny",
     "deck": "STAINLESS_STEEL",
     "type": "RUN",
     "rules": [
@@ -31,7 +31,7 @@
   },
   {
     "id": 444,
-    "title": "Green Super Sinister",
+    "title": "Green Super Sinister Bunny",
     "deck": "STAINLESS_STEEL",
     "type": "RUN",
     "rules": [
@@ -41,7 +41,7 @@
   },
   {
     "id": 445,
-    "title": "Yellow Super Timid",
+    "title": "Yellow Super Timid Bunny",
     "deck": "STAINLESS_STEEL",
     "type": "RUN",
     "rules": [
@@ -437,9 +437,11 @@
     "deck": "STAINLESS_STEEL",
     "type": "SPECIAL",
     "bunnyRequirement": "NO",
+    "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "Allows a player to eliminate the <a href=\"bunnypedia://cards/43\">Torus Ring</a> or to counteract the <a href=\"bunnypedia://cards/408\">E-M Pulse</a> before losing all of his Defense Units. This card must be a saved Special to be used immediately."},
-      {"title": "Additional Rules", "text": "Unlike Very Special cards, Magnetic Shielding may not be used to save other players' bunnies from harm. This card is for the exclusive use of the player who has it saved."}
+      {"title": "Additional Rules", "text": "Unlike Very Special cards, Magnetic Shielding may not be used to save other players' bunnies from harm. This card is for the exclusive use of the player who has it saved."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },
   {

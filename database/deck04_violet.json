@@ -1,7 +1,7 @@
 [
     {
         "id": 221,
-        "title": "Bunny O' Justice",
+        "title": "Bunny O' Justice - Single Specialty Bunny",
         "deck": "VIOLET",
         "type": "RUN",
         "rules": [
@@ -11,7 +11,7 @@
     },
     {
         "id": 222,
-        "title": "Bunnyheart",
+        "title": "Bunnyheart - Single Specialty Bunny",
         "deck": "VIOLET",
         "type": "RUN",
         "rules": [
@@ -21,7 +21,7 @@
     },
     {
         "id": 223,
-        "title": "Ye Royal Bunnies",
+        "title": "Ye Royal Bunnies - Double Specialty Bunny",
         "deck": "VIOLET",
         "type": "RUN",
         "rules": [
@@ -31,7 +31,7 @@
     },
     {
         "id": 224,
-        "title": "The Greatest American Bunny",
+        "title": "The Greatest American Bunny - Double Specialty Bunny",
         "deck": "VIOLET",
         "type": "RUN",
         "rules": [
@@ -41,7 +41,7 @@
     },
     {
         "id": 225,
-        "title": "Fabulous Bunnies",
+        "title": "Fabulous Bunnies - Triple Specialty Bunny",
         "deck": "VIOLET",
         "type": "RUN",
         "rules": [
@@ -285,7 +285,7 @@
         "title": "Rooney's Weapons Emporium - 5/Level",
         "deck": "VIOLET",
         "type": "RUN",
-        "bunnyRequirement": "PLAY",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "Reopens the Store. New prices:<br>5 Dolla - for each Defense Card<br>Level - for each Weapon card<br>(Weapons must be run through.)"}
         ]
@@ -368,7 +368,7 @@
         "canonicalId": 72,
         "title": "Large Prune Danish",
         "deck": "VIOLET",
-        "type": "RUN",
+        "type": "SPECIAL",
         "bunnyRequirement": "NO",
         "pawn": "VIOLET",
         "rules": [

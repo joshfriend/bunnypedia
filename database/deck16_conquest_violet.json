@@ -86,8 +86,8 @@
     "deck": "CONQUEST_VIOLET",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
-    "radish": 4,
-    "milk": 1,
+    "radish": 3,
+    "milk": 2,
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
     ]
@@ -439,7 +439,7 @@
     "title": "Shiner Senator (Bunny Modifier)",
     "deck": "CONQUEST_VIOLET",
     "type": "SENATOR",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Shiner Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
       {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
@@ -450,7 +450,7 @@
     "title": "Winer Senator (Bunny Modifier)",
     "deck": "CONQUEST_VIOLET",
     "type": "SENATOR",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny making it a Senator of the Winer Party. All Senators are allowed to vote for Casting Terrible Misfortune cards."},
       {"title": "Campaign Contributions", "text": "<a href=\"bunnypedia://cards/1021\">Campaign Contributions</a> may be used to control the votes of this senator's party."}
@@ -519,7 +519,7 @@
     "id": "1039",
     "title": "Copper",
     "deck": "CONQUEST_VIOLET",
-    "type": "DOLLA",
+    "type": "METAL",
     "rules": [
       {"title": "Card Text", "text": "This Metal card may be bought from or sold to Morden's Metals Exchange for the current Exchange Rate."}
     ]
@@ -528,7 +528,7 @@
     "id": "1040",
     "title": "Silver",
     "deck": "CONQUEST_VIOLET",
-    "type": "DOLLA",
+    "type": "METAL",
     "rules": [
       {"title": "Card Text", "text": "This Metal card may be bought from or sold to Morden's Metals Exchange for the current Exchange Rate."}
     ]

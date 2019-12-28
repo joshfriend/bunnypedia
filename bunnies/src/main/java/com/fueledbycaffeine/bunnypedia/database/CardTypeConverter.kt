@@ -11,7 +11,7 @@ import com.fueledbycaffeine.bunnypedia.database.model.Rank
 import com.fueledbycaffeine.bunnypedia.database.model.SpecialSeries
 import com.fueledbycaffeine.bunnypedia.database.model.Symbol
 import com.fueledbycaffeine.bunnypedia.database.model.ZodiacAnimal
-import com.fueledbycaffeine.bunnypedia.database.model.ZodiacType
+import com.fueledbycaffeine.bunnypedia.database.model.ZodiacSign
 
 @Suppress("TooManyFunctions")
 class CardTypeConverter {
@@ -24,15 +24,14 @@ class CardTypeConverter {
   @TypeConverter fun rankToString(rank: Rank) = rank.name
   @TypeConverter fun stringToRank(rankName: String?) = rankName?.let { Rank.valueOf(it) }
 
-  @TypeConverter fun zodiacToString(zodiacType: ZodiacType) = zodiacType.name
-  @TypeConverter fun stringToZodiac(zodiacName: String?) = zodiacName?.let { ZodiacType.valueOf(it) }
+  @TypeConverter fun zodiacToString(sign: ZodiacSign) = sign.name
+  @TypeConverter fun stringToZodiac(sign: String?) = sign?.let { ZodiacSign.valueOf(it) }
 
-  @TypeConverter fun zodiacAnimalToString(zodiacType: ZodiacAnimal) = zodiacType.name
-  @TypeConverter fun stringToZodiacAnimal(zodiacName: String?) = zodiacName?.let { ZodiacAnimal.valueOf(it) }
+  @TypeConverter fun zodiacAnimalToString(animal: ZodiacAnimal) = animal.name
+  @TypeConverter fun stringToZodiacAnimal(animal: String?) = animal?.let { ZodiacAnimal.valueOf(it) }
 
-  @TypeConverter fun bunnyRequirementToString(bunnyRequirement: BunnyRequirement) = bunnyRequirement.name
-  @TypeConverter fun stringToBunnyRequirement(bunnyRequirementName: String) =
-    BunnyRequirement.valueOf(bunnyRequirementName)
+  @TypeConverter fun bunnyRequirementToString(bunnyRequirement: BunnyRequirement?) = bunnyRequirement?.name
+  @TypeConverter fun stringToBunnyRequirement(name: String?) = name?.let { BunnyRequirement.valueOf(it) }
 
   @TypeConverter fun pawnToString(pawn: Pawn) = pawn.name
   @TypeConverter fun stringToPawn(pawnName: String?) = pawnName?.let { Pawn.valueOf(it) }
@@ -43,21 +42,9 @@ class CardTypeConverter {
   @TypeConverter fun seriesToString(series: SpecialSeries) = series.name
   @TypeConverter fun stringToSeries(seriesName: String?) = seriesName?.let { SpecialSeries.valueOf(it) }
 
-  @TypeConverter fun dieList(dice: List<Die>) = when (dice.isEmpty()) {
-    true -> ""
-    else -> dice.joinToString(",")
-  }
-  @TypeConverter fun dieList(dice: String) = when (dice) {
-    "" -> emptyList()
-    else -> dice.split(",").map { Die.valueOf(it) }
-  }
+  @TypeConverter fun dieList(dice: List<Die>?) = dice?.joinToString(",")
+  @TypeConverter fun dieList(dice: String?) = dice?.split(",")?.map { Die.valueOf(it) }
 
-  @TypeConverter fun symbolList(symbols: List<Symbol>) = when (symbols.isEmpty()) {
-    true -> ""
-    else -> symbols.joinToString(",")
-  }
-  @TypeConverter fun symbolList(symbols: String) = when (symbols) {
-    "" -> emptyList()
-    else -> symbols.split(",").map { Symbol.valueOf(it) }
-  }
+  @TypeConverter fun symbolList(symbols: List<Symbol>?) = symbols?.joinToString(",")
+  @TypeConverter fun symbolList(symbols: String?) = symbols?.split(",")?.map { Symbol.valueOf(it) }
 }

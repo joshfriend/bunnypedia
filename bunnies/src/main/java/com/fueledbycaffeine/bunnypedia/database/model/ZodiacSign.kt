@@ -17,7 +17,7 @@ import org.joda.time.DateTimeConstants.OCTOBER
 import org.joda.time.DateTimeConstants.SEPTEMBER
 import org.joda.time.MonthDay
 
-enum class ZodiacType(val element: ZodiacElement) {
+enum class ZodiacSign(val element: ZodiacElement) {
   ARIES(ZodiacElement.FIRE),
   LEO(ZodiacElement.FIRE),
   SAGITTARIUS(ZodiacElement.FIRE),

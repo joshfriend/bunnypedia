@@ -248,7 +248,7 @@
     "id": "1176",
     "title": "Funky Fungus Triple – (Bunny Modifier)",
     "type": "RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "deck": "CREATURE_FEATURE",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Triple raises the level of any weapon by three."},
@@ -508,7 +508,7 @@
     "id": "1196",
     "title": "Terrible Misfortune (Casting) – Hot Air Balloon",
     "type": "PLAY_IMMEDIATELY",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "deck": "CREATURE_FEATURE",
     "rules": [
       {"title": "Card Text", "text": "One of the bunnies in play goes hot air ballooning far too close to a high-speed industrial wind farm!"},

@@ -278,9 +278,11 @@
         "deck": "FANTASTIC",
         "specialSeries": "PHI",
         "type": "PLAY_IMMEDIATELY",
+        "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
             {"title": "Card Text", "text": "Forces all players to discard their Top and Bottom Run cards, and five-card hands. All saved cards and supplies remain. Players draw new cards."},
-            {"title": "Additional Rules", "text": "All players draw new cards, discarding any Play Immediately or Rank cards, saving any Kaballa Dolla cards, placing two cards down as the Top and Bottom Run cards and keeping five cards in their hands."}
+            {"title": "Additional Rules", "text": "All players draw new cards, discarding any Play Immediately or Rank cards, saving any Kaballa Dolla cards, placing two cards down as the Top and Bottom Run cards and keeping five cards in their hands."},
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
         ]
     },
     {
@@ -296,12 +298,11 @@
     },
     {
         "id": 1071,
-        "canonicalId": 1070,
         "title": "Angry Nerds",
         "deck": "FANTASTIC",
         "specialSeries": "OMEGA",
-        "type": "VERY_SPECIAL",
-        "bunnyRequirement": "NO",
+        "type": "RUN",
+        "bunnyRequirement": "PLAY",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to eliminate any one one opponent's bunny that forms a Bunny Triplet including a Triple Specialty Bunny or a Triple Celebrity Bunny. May not be used to eliminate an opponent's last bunny."}
         ]
@@ -311,7 +312,7 @@
         "title": "Omega Thirteen",
         "deck": "FANTASTIC",
         "specialSeries": "OMEGA",
-        "type": "RUN",
+        "type": "VERY_SPECIAL",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to force any one die roll by any player to be re-rolled. May be used at any time!"}
         ]
@@ -516,7 +517,7 @@
         "id": 1090,
         "title": "Zero Protection",
         "deck": "FANTASTIC",
-        "type": "RUN",
+        "type": "SPECIAL",
         "bunnyRequirement": "NO",
         "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [

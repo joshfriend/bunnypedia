@@ -1,6 +1,6 @@
 [{
   "id": "0936",
-  "title": "Red Evil",
+  "title": "Red Evil Bunny",
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "rules": [
@@ -10,7 +10,7 @@
 },
 {
   "id": "0937",
-  "title": "Red Hypnotic",
+  "title": "Red Hypnotic Bunny",
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "rules": [
@@ -19,7 +19,7 @@
 },
 {
   "id": "0938",
-  "title": "Red Ludicrous",
+  "title": "Red Ludicrous Bunny",
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "rules": [
@@ -28,7 +28,7 @@
 },
 {
   "id": "0939",
-  "title": "Red Spiffy",
+  "title": "Red Spiffy Bunny",
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "rules": [
@@ -37,7 +37,7 @@
 },
 {
   "id": "0940",
-  "title": "Red Truculent",
+  "title": "Red Truculent Bunny",
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "rules": [
@@ -85,7 +85,7 @@
   "type": "RUN",
   "bunnyRequirement": "PLAY",
   "radish": 3,
-  "milk": 1,
+  "milk": 3,
   "rules": [
     {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
   ]
@@ -225,8 +225,10 @@
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "bunnyRequirement": "NO",
+  "symbols": ["MYSTERIOUS_PLACE_BALL"],
   "rules": [
-    {"title": "Card Text", "text": "May be used once by a player to retrieve any card from the discard pile that is a movie parody and to use it immediately if the player can name the movie reference. Special and Very Special cards may not be saved."}
+    {"title": "Card Text", "text": "May be used once by a player to retrieve any card from the discard pile that is a movie parody and to use it immediately if the player can name the movie reference. Special and Very Special cards may not be saved."},
+    {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
   ]
 },
 {
@@ -267,9 +269,10 @@
   "deck": "CONQUEST_RED",
   "type": "RUN",
   "bunnyRequirement": "PLAY",
-  "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED"],
+  "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
   "rules": [
-    {"title": "Card Text", "text": "May be used once by a player to roll each of the dice up to three times. If a 1-0-5-0 is rolled, then the player may reposition a Red (or half Red) bunny in The Bunny Circle."}
+    {"title": "Card Text", "text": "May be used once by a player to roll each of the dice up to three times. If a 1-0-5-0 is rolled, then the player may reposition a Red (or half Red) bunny in The Bunny Circle."},
+    {"title": "Additional Rules", "text": "The Bunny Bits indicate that the Pink die is also rolled (to potentially move a Pink Bunny) even though the card does not indicate that Pink is rolled."}
   ]
 },
 {
@@ -292,7 +295,7 @@
   "title": "Morden's Metals Exchange",
   "deck": "CONQUEST_RED",
   "type": "RUN",
-  "bunnyRequirement": "PLAY",
+  "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "Metals may be bought or sold for the current Exchange Rate. All metal dice may be re-rolled at the end of any turn which a player received a Carrot. The Exchange Rate for Copper is doubled."}
   ]

@@ -1,7 +1,7 @@
 [
   {
     "id": "0881",
-    "title": "Yellow Evil",
+    "title": "Yellow Evil Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -10,7 +10,7 @@
   },
   {
     "id": "0882",
-    "title": "Yellow Hypnotic",
+    "title": "Yellow Hypnotic Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -19,7 +19,7 @@
   },
   {
     "id": "0883",
-    "title": "Yellow Ludicrous",
+    "title": "Yellow Ludicrous Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -28,7 +28,7 @@
   },
   {
     "id": "0884",
-    "title": "Yellow Spiffy",
+    "title": "Yellow Spiffy Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -37,7 +37,7 @@
   },
   {
     "id": "0885",
-    "title": "Yellow Truculent",
+    "title": "Yellow Truculent Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -46,7 +46,7 @@
   },
   {
     "id": "0886",
-    "title": "Violet Evil",
+    "title": "Violet Evil Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -55,7 +55,7 @@
   },
   {
     "id": "0887",
-    "title": "Violet Hypnotic",
+    "title": "Violet Hypnotic Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -64,7 +64,7 @@
   },
   {
     "id": "0888",
-    "title": "Violet Ludicrous",
+    "title": "Violet Ludicrous Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -73,7 +73,7 @@
   },
   {
     "id": "0889",
-    "title": "Violet Spiffy",
+    "title": "Violet Spiffy Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -82,7 +82,7 @@
   },
   {
     "id": "0890",
-    "title": "Violet Truculent",
+    "title": "Violet Truculent Bunny",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "rules": [
@@ -394,13 +394,13 @@
   },
   {
     "id": "0917",
-    "title": "Tranny Nanny (Bunny Modifier)",
+    "title": "Nanny (Bunny Modifier)",
     "deck": "CONQUEST_YELLOW",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny and always makes sure that it has enough food to eat. No Feed The Bunny cards affect this bunny."},
-      {"title": "Additional Rules", "text": "Tranny Nanny remains under the bunny while it is alive."}
+      {"title": "Additional Rules", "text": "Nanny remains under the bunny while it is alive."}
     ]
   },
   {

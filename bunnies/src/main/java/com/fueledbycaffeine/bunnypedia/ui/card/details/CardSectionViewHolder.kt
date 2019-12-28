@@ -17,7 +17,7 @@ import com.fueledbycaffeine.bunnypedia.database.model.Rank
 import com.fueledbycaffeine.bunnypedia.database.model.RankType
 import com.fueledbycaffeine.bunnypedia.database.model.SpecialSeries
 import com.fueledbycaffeine.bunnypedia.database.model.ZodiacAnimal
-import com.fueledbycaffeine.bunnypedia.database.model.ZodiacType
+import com.fueledbycaffeine.bunnypedia.database.model.ZodiacSign
 import com.fueledbycaffeine.bunnypedia.ui.EpoxyLayoutContainer
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.google.android.flexbox.FlexboxLayout
@@ -38,7 +38,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
       .override(Target.SIZE_ORIGINAL)
       .into(itemView.cardThumbnail)
 
-    if (card.dice.isNotEmpty()) {
+    if (!card.dice.isNullOrEmpty()) {
       setupDiceInfo(card.dice)
     }
 
@@ -51,7 +51,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
       itemView.weaponLevel.text = card.weaponLevel
     }
 
-    if (card.bunnyRequirement != BunnyRequirement.NOT_APPLICABLE) {
+    if (card.bunnyRequirement != null) {
       itemView.containerRequiresBunny.visibility = View.VISIBLE
       itemView.requiresBunny.text = getString(card.bunnyRequirement.description)
     }
@@ -72,8 +72,8 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
       setupSpecialSeriesInfo(card.specialSeries)
     }
 
-    if (card.zodiacType != null) {
-      setupZodiacInfo(card.zodiacType)
+    if (card.zodiacSign != null) {
+      setupZodiacInfo(card.zodiacSign)
     }
 
     if (card.zodiacAnimal != null) {
@@ -84,15 +84,18 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
   private fun setupDiceInfo(dice: List<Die>) {
     itemView.diceContainer.visibility = View.VISIBLE
     itemView.diceFlexLayout.removeAllViews()
-    for (die in dice) {
-      val img = ImageView(context)
-      img.setImageDrawable(die.getDrawable(context))
-      img.layoutParams = FlexboxLayout.LayoutParams(
-        ViewGroup.LayoutParams.WRAP_CONTENT,
-        ViewGroup.LayoutParams.WRAP_CONTENT
-      )
-      itemView.diceFlexLayout.addView(img)
-    }
+    val lp = FlexboxLayout.LayoutParams(
+      ViewGroup.LayoutParams.WRAP_CONTENT,
+      ViewGroup.LayoutParams.WRAP_CONTENT
+    )
+    dice.mapNotNull { die -> die.getDrawable(context) }
+      .map { drawable ->
+        ImageView(context).apply {
+          setImageDrawable(drawable)
+          layoutParams = lp
+        }
+      }
+      .forEach { img -> itemView.diceFlexLayout.addView(img) }
   }
 
   private fun setupPawnInfo(pawn: Pawn) {
@@ -128,7 +131,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
     }
   }
 
-  private fun setupZodiacInfo(zodiac: ZodiacType) {
+  private fun setupZodiacInfo(zodiac: ZodiacSign) {
     itemView.containerZodiacSign.visibility = View.VISIBLE
     itemView.containerZodiacDate.visibility = View.VISIBLE
 
@@ -156,7 +159,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
     val now = DateTime()
     val isCurrentSign = if (start <= now && end > now) {
       true
-    } else if (zodiac == ZodiacType.CAPRICORN) {
+    } else if (zodiac == ZodiacSign.CAPRICORN) {
       // Before new year?
       if (start.minusYears(1) <= now && end > now) {
         true

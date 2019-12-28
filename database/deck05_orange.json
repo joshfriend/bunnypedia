@@ -4,7 +4,7 @@
     "title": "Marilyn Bunroe - Single Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "This is a single Specialty Bunny. Players that have three or more down may play two cards per turn."}
     ]
@@ -14,7 +14,7 @@
     "title": "Bunnies Of Hazzard - Double Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "This is a double Specialty Bunny. Players that have three or more down may play two cards per turn."}
     ]
@@ -24,7 +24,7 @@
     "title": "Bunnylon 3 - Triple Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "This is a triple Specialty Bunny. The player with these bunnies down may play two cards per turn."}
     ]
@@ -34,7 +34,7 @@
     "title": "Those 70's Bunnies - Triple Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "This is a triple Specialty Bunny. The player with these bunnies down may play two cards per turn."}
     ]
@@ -262,7 +262,7 @@
     "title": "Lucky Clover – Heptdruple (Bunny Modifier)",
     "deck": "ORANGE",
     "type": "RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny. Heptdruple Lucky Clover lowers the strength of any weapon by seven."},
       {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://cards/462\">Miracle Growth</a> can be used to double the amount of clover"},
@@ -342,7 +342,6 @@
   },
   {
     "id": 305,
-    "canonicalId": 304,
     "title": "Carrot Top Royale",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -383,7 +382,7 @@
     "title": "Incredibly Magic Fountain",
     "deck": "ORANGE",
     "type": "RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "pawn": "ORANGE",
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
     "rules": [
@@ -394,11 +393,10 @@
   },
   {
     "id": 309,
-    "canonicalId": 308,
     "title": "Incredibly Magic Fountain",
     "deck": "ORANGE",
     "type": "RUN",
-    "bunnyRequirement": "PLAY",
+    "bunnyRequirement": "NO",
     "pawn": "ORANGE",
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "CLEAR"],
     "rules": [
@@ -423,7 +421,6 @@
   },
   {
     "id": 311,
-    "canonicalId": 310,
     "title": "Monumentally Mad Donnelaith Bakery",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -452,7 +449,6 @@
   },
   {
     "id": 313,
-    "canonicalId": 312,
     "title": "Super Supplies Surprise",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -479,7 +475,6 @@
   },
   {
     "id": 315,
-    "canonicalId": 314,
     "title": "Very Large Prune Danish",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -529,6 +524,7 @@
     "title": "Terrible Misfortune – Myopia",
     "deck": "ORANGE",
     "type": "PLAY_IMMEDIATELY",
+    "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies (suffering from acute myopia) jumps into a pool before checking the water level!"},

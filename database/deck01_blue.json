@@ -2,7 +2,7 @@
   {
     "id": 1,
     "deck": "BLUE",
-    "title": "Blue Congenial",
+    "title": "Blue Congenial Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "deck": "BLUE",
-    "title": "Blue Gleeful",
+    "title": "Blue Gleeful Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "deck": "BLUE",
-    "title": "Blue Lumbering",
+    "title": "Blue Lumbering Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "deck": "BLUE",
-    "title": "Blue Sinister",
+    "title": "Blue Sinister Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "deck": "BLUE",
-    "title": "Blue Timid",
+    "title": "Blue Timid Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "deck": "BLUE",
-    "title": "Green Congenial",
+    "title": "Green Congenial Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "deck": "BLUE",
-    "title": "Green Gleeful",
+    "title": "Green Gleeful Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "deck": "BLUE",
-    "title": "Green Lumbering",
+    "title": "Green Lumbering Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "deck": "BLUE",
-    "title": "Green Sinister",
+    "title": "Green Sinister Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "deck": "BLUE",
-    "title": "Green Timid",
+    "title": "Green Timid Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "deck": "BLUE",
-    "title": "Orange Congenial",
+    "title": "Orange Congenial Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "deck": "BLUE",
-    "title": "Orange Gleeful",
+    "title": "Orange Gleeful Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -110,7 +110,7 @@
   {
     "id": 13,
     "deck": "BLUE",
-    "title": "Orange Lumbering",
+    "title": "Orange Lumbering Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -119,7 +119,7 @@
   {
     "id": 14,
     "deck": "BLUE",
-    "title": "Orange Sinister",
+    "title": "Orange Sinister Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -128,7 +128,7 @@
   {
     "id": 15,
     "deck": "BLUE",
-    "title": "Orange Timid",
+    "title": "Orange Timid Bunny",
     "type": "RUN",
     "rules": [
       {"title": "Card Text", "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."}
@@ -780,7 +780,6 @@
   },
   {
     "id": 67,
-    "canonicalId": 66,
     "deck": "BLUE",
     "title": "Carrot Top Casino",
     "type": "SPECIAL",
@@ -820,7 +819,7 @@
     "id": 70,
     "deck": "BLUE",
     "title": "Geneva Convention",
-    "type": "RUN",
+    "type": "SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once to force any one player to discard all of the Weapon cards in his five-card hand. Bottom and Top Run cards are not affected."}
@@ -869,7 +868,7 @@
     "deck": "BLUE",
     "title": "The Mad, Mad Donnelaith Bakery",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO",
+    "bunnyRequirement": "PLAY",
     "pawn": "RED",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle<br>10-11-12 = Choose a Carrot from Kaballa's Market<br>7-8-9 = Take 1 Cabbage Card and 1 Water Card<br>4-5-6 = Feed the bunny 1 Cabbage Unit and 1 Water Unit<br>2-3 = The bunny gets whacked by the Mad Scotsman!<br>1 = A well-thrown pitchfork kills the bunny and adjacent bunnies!"},
@@ -879,11 +878,10 @@
   },
   {
     "id": 75,
-    "canonicalId": 74,
     "deck": "BLUE",
     "title": "The Mad, Mad Donnelaith Bakery",
     "type": "SPECIAL",
-    "bunnyRequirement": "NO",
+    "bunnyRequirement": "PLAY",
     "pawn": "RED",
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny in The Bunny Circle<br>10-11-12 = Choose a Carrot from Kaballa's Market<br>7-8-9 = Take 1 Cabbage Card and 1 Water Card<br>4-5-6 = Feed the bunny 1 Cabbage Unit and 1 Water Unit<br>2-3 = The bunny gets whacked by the Mad Scotsman!<br>1 = A well-thrown pitchfork kills the bunny and adjacent bunnies!"},
@@ -907,7 +905,6 @@
   },
   {
     "id": 77,
-    "canonicalId": 76,
     "deck": "BLUE",
     "title": "The Magic Fountain",
     "type": "SPECIAL",
@@ -936,7 +933,6 @@
   },
   {
     "id": 79,
-    "canonicalId": 78,
     "deck": "BLUE",
     "title": "Supplies Surprise",
     "type": "SPECIAL",
@@ -963,8 +959,8 @@
     "id": 81,
     "deck": "BLUE",
     "title": "Rooney's Reusables",
-    "type": "SPECIAL",
-    "bunnyRequirement": "NO",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to re-use any of his weapons a second time during the same turn of play before it is discarded. May be used at any time!"},
       {"title": "Additional Rules", "text": "If the weapon is <a href=\"bunnypedia://cards/46\">The Trojan Bunny</a> or <a href=\"bunnypedia://cards/47\">The Ebola Virus</a>, then the player may re-use the weapon immediately after it is removed from play (which could be many turns away). It is possible that this could happen during another player's turn.<br><br>Remember that <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> is not a weapon, and therefore cannot be re-used with Rooney's Reusables."}

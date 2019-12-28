@@ -4,7 +4,6 @@ import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
 
 enum class BunnyRequirement {
-  NOT_APPLICABLE,
   NO,
   PLAY,
   PLAY_X2,

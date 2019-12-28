@@ -2,7 +2,7 @@
   {
     "id": 111,
     "deck": "YELLOW",
-    "title": "Yellow Congenial",
+    "title": "Yellow Congenial Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -12,7 +12,7 @@
   {
     "id": 112,
     "deck": "YELLOW",
-    "title": "Yellow Gleeful",
+    "title": "Yellow Gleeful Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -22,7 +22,7 @@
   {
     "id": 113,
     "deck": "YELLOW",
-    "title": "Yellow Lumbering",
+    "title": "Yellow Lumbering Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -32,7 +32,7 @@
   {
     "id": 114,
     "deck": "YELLOW",
-    "title": "Yellow Sinister",
+    "title": "Yellow Sinister Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -42,7 +42,7 @@
   {
     "id": 115,
     "deck": "YELLOW",
-    "title": "Yellow Timid",
+    "title": "Yellow Timid Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -52,7 +52,7 @@
   {
     "id": 116,
     "deck": "YELLOW",
-    "title": "Violet Congenial",
+    "title": "Violet Congenial Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -62,7 +62,7 @@
   {
     "id": 117,
     "deck": "YELLOW",
-    "title": "Violet Gleeful",
+    "title": "Violet Gleeful Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -72,7 +72,7 @@
   {
     "id": 118,
     "deck": "YELLOW",
-    "title": "Violet Lumbering",
+    "title": "Violet Lumbering Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -82,7 +82,7 @@
   {
     "id": 119,
     "deck": "YELLOW",
-    "title": "Violet Sinister",
+    "title": "Violet Sinister Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -92,7 +92,7 @@
   {
     "id": 120,
     "deck": "YELLOW",
-    "title": "Violet Timid",
+    "title": "Violet Timid Bunny",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -105,7 +105,7 @@
     "deck": "YELLOW",
     "title": "Choose A Carrot",
     "type": "RUN",
-    "bunnyRequirement": "NO",
+    "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
@@ -117,7 +117,7 @@
     "deck": "YELLOW",
     "title": "Choose A Carrot",
     "type": "RUN",
-    "bunnyRequirement": "NO",
+    "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
@@ -129,7 +129,7 @@
     "deck": "YELLOW",
     "title": "Choose 2 Carrots",
     "type": "RUN",
-    "bunnyRequirement": "NO",
+    "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
@@ -141,7 +141,7 @@
     "deck": "YELLOW",
     "title": "Choose 2 Carrots",
     "type": "RUN",
-    "bunnyRequirement": "NO",
+    "bunnyRequirement": "PLAY",
     "aggressive": false,
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."}
@@ -225,7 +225,6 @@
     "title": "Sea Whiz Mount",
     "type": "RUN",
     "dice": ["BLACK"],
-    "symbols": ["JUPITER"],
     "bunnyRequirement": "PLAY",
     "weaponLevel": "10",
     "rules": [
@@ -239,6 +238,7 @@
     "title": "Miniature Black Hole",
     "type": "RUN",
     "dice": ["BLACK"],
+    "symbols": ["JUPITER"],
     "bunnyRequirement": "PLAY",
     "weaponLevel": "11",
     "rules": [

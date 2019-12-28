@@ -17,18 +17,27 @@ enum class Die(val sides: Int) {
   BLACK(12),
   BROWN(12),
   CLEAR(20),
+
+  // Zodiacs
   ZODIAC(12),
   CHINESE_ZODIAC(12),
+
+  // Dice from Kinder Bunnies:
+  ORANGE_D10(10),
+  YELLOW_D10(10),
+  GREEN_D10(10),
+  BLUE_D10(10),
+  VIOLET_D10(10),
   ;
 
   val color: Int @ColorRes get() {
     return when (this) {
       RED -> R.color.deck_red
-      ORANGE -> R.color.deck_orange
-      YELLOW -> R.color.deck_yellow
-      GREEN -> R.color.deck_green
-      BLUE -> R.color.deck_blue
-      VIOLET -> R.color.deck_violet
+      ORANGE, ORANGE_D10 -> R.color.deck_orange
+      YELLOW, YELLOW_D10 -> R.color.deck_yellow
+      GREEN, GREEN_D10 -> R.color.deck_green
+      BLUE, BLUE_D10 -> R.color.deck_blue
+      VIOLET, VIOLET_D10 -> R.color.deck_violet
       PINK -> R.color.deck_pink
       BLACK, ZODIAC -> R.color.deck_onyx
       BROWN -> R.color.deck_chocolate
@@ -36,13 +45,14 @@ enum class Die(val sides: Int) {
     }
   }
 
-  fun getDrawable(context: Context): Drawable {
+  fun getDrawable(context: Context): Drawable? {
     val drawableRes = when (this) {
       CLEAR -> R.drawable.dice20
-      ZODIAC, CHINESE_ZODIAC -> R.drawable.dice12 // TODO
+      ZODIAC, CHINESE_ZODIAC -> return null // TODO
+      ORANGE_D10, YELLOW_D10, GREEN_D10, BLUE_D10, VIOLET_D10 -> return null // TODO
       else -> R.drawable.dice12
     }
-    val drawable = ContextCompat.getDrawable(context, drawableRes)!!
+    val drawable = context.getDrawable(drawableRes)!!
     drawable.setTint(ContextCompat.getColor(context, color))
     return drawable
   }

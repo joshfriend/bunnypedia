@@ -49,7 +49,7 @@
   {
     "id": 720,
     "deck": "CHOCOLATE",
-    "title": "Lord Of The Bunnies - Semi-Super Specialty",
+    "title": "Lord Of The Bunnies - Semi-Super Specialty Bunny",
     "type": "RUN",
     "specialSeries": "OMEGA",
     "rules": [
@@ -60,7 +60,7 @@
   {
     "id": 721,
     "deck": "CHOCOLATE",
-    "title": "Number Six",
+    "title": "Number Six - Single Celebrity Bunny",
     "type": "RUN",
     "specialSeries": "OMEGA",
     "rules": [
@@ -205,7 +205,7 @@
     "title": "Hitchbunny's Guide",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
-    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK"],
+    "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "PINK", "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10"],
     "specialSeries": "PSI",
     "psi": "PSI06",
     "rules": [
@@ -318,7 +318,7 @@
     "type": "RUN",
     "specialSeries": "NU",
     "rules": [
-      {"title": "Card Text", "text": "This is a tripple Specialty Bunny. Players with this bunny in The Bunny Circle may play two cards per turn."}
+      {"title": "Card Text", "text": "This is a triple Specialty Bunny. Players with this bunny in The Bunny Circle may play two cards per turn."}
     ]
   },
   {

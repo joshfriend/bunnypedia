@@ -1,7 +1,7 @@
 [
   {
     "id": 1101,
-    "title": "Minion Bunny",
+    "title": "Minion Bunny - Single Specialty Bunny",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "rules": [
@@ -10,7 +10,7 @@
   },
   {
     "id": 1102,
-    "title": "Breaking Bunnies",
+    "title": "Breaking Bunnies - Double Specialty Bunny",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "rules": [
@@ -19,7 +19,7 @@
   },
   {
     "id": 1103,
-    "title": "Bang Bunnies",
+    "title": "Bang Bunnies - Triple Specialty Bunny",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "rules": [
@@ -28,7 +28,7 @@
   },
   {
     "id": 1104,
-    "title": "Yankee Doodle Bunnies",
+    "title": "Yankee Doodle Bunnies - Triple Specialty Bunny",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
     "rules": [
@@ -175,8 +175,10 @@
     "bunnyRequirement": "PLAY",
     "weaponLevel": "19",
     "dice": ["CLEAR"],
+    "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
-      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 19 to survive."}
+      {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 19 to survive."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },
   {

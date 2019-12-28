@@ -1,7 +1,7 @@
 [
     {
         "id": 166,
-        "title": "Red Congenial",
+        "title": "Red Congenial Bunny",
         "deck": "RED",
         "type": "RUN",
         "rules": [
@@ -10,7 +10,7 @@
     },
     {
         "id": 167,
-        "title": "Red Gleeful",
+        "title": "Red Gleeful Bunny",
         "deck": "RED",
         "type": "RUN",
         "rules": [
@@ -19,7 +19,7 @@
     },
     {
         "id": 168,
-        "title": "Red Lumbering",
+        "title": "Red Lumbering Bunny",
         "deck": "RED",
         "type": "RUN",
         "rules": [
@@ -28,7 +28,7 @@
     },
     {
         "id": 169,
-        "title": "Red Sinister",
+        "title": "Red Sinister Bunny",
         "deck": "RED",
         "type": "RUN",
         "rules": [
@@ -37,7 +37,7 @@
     },
     {
         "id": 170,
-        "title": "Red Timid",
+        "title": "Red Timid Bunny",
         "deck": "RED",
         "type": "RUN",
         "rules": [
@@ -418,7 +418,8 @@
         "id": 202,
         "title": "Show Me The Bunny",
         "deck": "RED",
-        "type": "RUN",
+        "type": "SPECIAL",
+        "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to force all opponents to show any bunnies in their five-card hand. The player may trade any one card in his five-card hand for any one opponent's bunny."}
         ]
@@ -484,56 +485,56 @@
         "canonicalId": 87,
         "title": "1 Dolla",
         "deck": "RED",
-        "type": "RUN"
+        "type": "DOLLA"
     },
     {
         "id": 209,
         "canonicalId": 92,
         "title": "2 Dolla",
         "deck": "RED",
-        "type": "RUN"
+        "type": "DOLLA"
     },
     {
         "id": 210,
         "canonicalId": 210,
         "title": "3 Dolla",
         "deck": "RED",
-        "type": "RUN"
+        "type": "DOLLA"
     },
     {
         "id": 211,
         "canonicalId": 210,
         "title": "3 Dolla",
         "deck": "RED",
-        "type": "RUN"
+        "type": "DOLLA"
     },
     {
         "id": 212,
         "canonicalId": 210,
         "title": "3 Dolla",
         "deck": "RED",
-        "type": "RUN"
+        "type": "DOLLA"
     },
     {
         "id": 213,
         "canonicalId": 98,
         "title": "5 Dolla",
         "deck": "RED",
-        "type": "RUN"
+        "type": "DOLLA"
     },
     {
         "id": 214,
         "canonicalId": 98,
         "title": "5 Dolla",
         "deck": "RED",
-        "type": "RUN"
+        "type": "DOLLA"
     },
     {
         "id": 215,
         "canonicalId": 101,
         "title": "10 Dolla",
         "deck": "RED",
-        "type": "RUN"
+        "type": "DOLLA"
     },
     {
         "id": 216,

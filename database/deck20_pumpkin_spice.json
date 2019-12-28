@@ -525,34 +525,34 @@
     "id": "1259",
     "canonicalId": 92,
     "title": "2 Dolla",
-    "type": "RUN",
+    "type": "DOLLA",
     "deck": "PUMPKIN_SPICE"
   },
   {
     "id": "1260",
     "canonicalId": 210,
     "title": "3 Dolla",
-    "type": "RUN",
+    "type": "DOLLA",
     "deck": "PUMPKIN_SPICE"
   },
   {
     "id": "1261",
     "canonicalId": 98,
     "title": "5 Dolla",
-    "type": "RUN",
+    "type": "DOLLA",
     "deck": "PUMPKIN_SPICE"
   },
   {
     "id": "1262",
     "canonicalId": 101,
     "title": "10 Dolla",
-    "type": "RUN",
+    "type": "DOLLA",
     "deck": "PUMPKIN_SPICE"
   },
   {
     "id": "1263",
     "title": "Billon (Copper/Silver)",
-    "type": "RUN",
+    "type": "METAL",
     "deck": "PUMPKIN_SPICE",
     "rules": [
       {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://cards/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
@@ -562,7 +562,7 @@
   {
     "id": "1264",
     "title": "Electrum (Silver/Gold)",
-    "type": "RUN",
+    "type": "METAL",
     "deck": "PUMPKIN_SPICE",
     "rules": [
       {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://cards/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
@@ -572,7 +572,7 @@
   {
     "id": "1265",
     "title": "Tumbaga (Gold/Copper)",
-    "type": "RUN",
+    "type": "METAL",
     "deck": "PUMPKIN_SPICE",
     "rules": [
       {"title": "Card Text", "text": "This Metal card may be bought from or sold to <a href=\"bunnypedia://cards/1128\">Morden's Metals Exchange</a> for the current Exchange Rate."},
