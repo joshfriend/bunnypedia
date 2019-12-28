@@ -339,7 +339,7 @@
         "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to replace all or some of his seven cards with new cards from the Draw Pile. These may include the Bottom and Top Run cards."},
-            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
         ]
     },
     {

@@ -16,7 +16,7 @@
     "symbols": ["JUPITER"],
     "rules": [
       {"title": "Card Text", "text": "This is a single Celebrity Bunny. Players that have three in The Bunny Circle may play two cards per turn."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -245,7 +245,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to take any card from the Discard Pile that has a title beginning with the same letter as the player's first name. The card taken must be used immediately."},
       {"title": "Additional Rules", "text": "If the title of a card has more than one word, then a player will have to match the first letter of the first word."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -783,7 +783,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to place any one of his bunnies from The Bunny Circle back into his five-card hand and to discard any unwanted card. May be used between any two player's turns!"},
       {"title": "Additional Rules", "text": "When bunnies are Rerun, they lose all of their Bunny Modifiers."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -951,7 +951,7 @@
   {
     "id": "0698",
     "deck": "OMINOUS_ONYX",
-    "title": "Senior Chief",
+    "title": "Senior Chief Rank E-8 (Bunny Modifier)",
     "type": "RANK",
     "rank": "E8",
     "rules": [
@@ -964,7 +964,7 @@
   {
     "id": "0699",
     "deck": "OMINOUS_ONYX",
-    "title": "Master Chief",
+    "title": "Master Chief Rank E-8 (Bunny Modifier)",
     "type": "RANK",
     "rank": "E9",
     "rules": [
@@ -977,7 +977,7 @@
   {
     "id": "0700",
     "deck": "OMINOUS_ONYX",
-    "title": "Lower Rear Admiral",
+    "title": "Lower Rear Admiral Rank O-7 (Bunny Modifier)",
     "type": "RANK",
     "rank": "O7",
     "rules": [
@@ -991,7 +991,7 @@
   {
     "id": "0701",
     "deck": "OMINOUS_ONYX",
-    "title": "Upper Rear Admiral",
+    "title": "Upper Rear Admiral Rank O-8 (Bunny Modifier)",
     "type": "RANK",
     "rank": "O8",
     "rules": [

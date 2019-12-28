@@ -90,7 +90,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to take <a href=\"bunnypedia://cards/80\">The Magic Spatula</a> or any <a href=\"bunnypedia://cards/76\">Magic Fountain</a> from the Discard Pile which may be used immediately or saved."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {

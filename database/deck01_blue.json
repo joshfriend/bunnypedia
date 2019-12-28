@@ -580,7 +580,7 @@
       {"title": "Card Text", "text": "May be given to any player forcing him to direct his next weapon onto one of his own bunnies."},
       {"title": "Additional Rules", "text": "Bad Karma may be given to any player forcing him to direct his next weapon onto one of his own bunnies. The Bad Karma card is given to a particular player, not placed on a bunny.<br><br>If the player has a Weapon card in either the Bottom or Top Run position, then he must play the Weapon card on one of his own bunnies (he may not discard it). If a player flips a Weapon card and has no bunny in The Bunny Circle, then the weapon is discarded (of course), but the Bad Karma will remain until the player launches a Weapon card at one of his own bunnies."},
       {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -975,7 +975,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to eliminate all pending <a href=\"bunnypedia://cards/24\">Feed The Bunny</a>, <a href=\"bunnypedia://cards/47\">The Ebola Virus</a>, <a href=\"bunnypedia://cards/291\">C.O.M.A.</a>, <a href=\"bunnypedia://cards/511\">Poison Cups</a>, and <a href=\"bunnypedia://cards/578\">Mad Bunny Disease</a>. Or may be exchanged once per game for <a href=\"bunnypedia://cards/430\">The White Stuff</a>. May be used at any time!"},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {

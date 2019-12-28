@@ -355,7 +355,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to challenge any opponent. The stakes are determined by the player and may be any amount of Dolla, saved Zodiac or Mysterious Place cards. Both players roll three 12-sided dice and keep all rolls of 7. The first player to get three 7s is the winner."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -414,7 +414,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player to slip the Pink box off any card. The card may be played without a bunny. May be used at any time!"},
       {"title": "Additional Rules", "text": "Since the card is no longer an Aggressive card, it may be played without a bunny in The Bunny Circle. May be used at any time!"},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -542,7 +542,7 @@
   {
     "id": "0545",
     "deck": "PERFECTLY_PINK",
-    "title": "Seaman Recruit",
+    "title": "Seaman Recruit Rank E-1 (Bunny Modifier)",
     "type": "RANK",
     "rank": "E1",
     "rules": [
@@ -555,7 +555,7 @@
   {
     "id": "0546",
     "deck": "PERFECTLY_PINK",
-    "title": "Seaman Apprentice",
+    "title": "Seaman Apprentice Rank E-2 (Bunny Modifier)",
     "type": "RANK",
     "rank": "E2",
     "rules": [
@@ -568,7 +568,7 @@
   {
     "id": "0547",
     "deck": "PERFECTLY_PINK",
-    "title": "Seaman",
+    "title": "Seaman Rank E-3 (Bunny Modifier)",
     "type": "RANK",
     "rank": "E3",
     "rules": [
@@ -581,7 +581,7 @@
   {
     "id": "0548",
     "deck": "PERFECTLY_PINK",
-    "title": "Petty Officer 3rd",
+    "title": "Petty Officer 3rd Rank E-4 (Bunny Modifier)",
     "type": "RANK",
     "rank": "E4",
     "rules": [
@@ -594,7 +594,7 @@
   {
     "id": "0549",
     "deck": "PERFECTLY_PINK",
-    "title": "Petty Officer 2nd",
+    "title": "Petty Officer 2nd Rank E-5 (Bunny Modifier)",
     "type": "RANK",
     "rank": "E5",
     "rules": [
@@ -607,7 +607,7 @@
   {
     "id": "0550",
     "deck": "PERFECTLY_PINK",
-    "title": "Petty Officer 1st",
+    "title": "Petty Officer 1st Rank E-6 (Bunny Modifier)",
     "type": "RANK",
     "rank": "E6",
     "rules": [

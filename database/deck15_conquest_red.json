@@ -228,7 +228,7 @@
   "symbols": ["MYSTERIOUS_PLACE_BALL"],
   "rules": [
     {"title": "Card Text", "text": "May be used once by a player to retrieve any card from the discard pile that is a movie parody and to use it immediately if the player can name the movie reference. Special and Very Special cards may not be saved."},
-    {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+    {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
   ]
 },
 {

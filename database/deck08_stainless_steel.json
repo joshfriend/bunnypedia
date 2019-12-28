@@ -95,7 +95,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -441,7 +441,7 @@
     "rules": [
       {"title": "Card Text", "text": "Allows a player to eliminate the <a href=\"bunnypedia://cards/43\">Torus Ring</a> or to counteract the <a href=\"bunnypedia://cards/408\">E-M Pulse</a> before losing all of his Defense Units. This card must be a saved Special to be used immediately."},
       {"title": "Additional Rules", "text": "Unlike Very Special cards, Magnetic Shielding may not be used to save other players' bunnies from harm. This card is for the exclusive use of the player who has it saved."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {

@@ -178,7 +178,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 19 to survive."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -258,7 +258,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "May be used once to force all players to sell their Metal cards and coins at the current Exchange Rate and to close Morden's Medals Exchange for one round of play. The shop opens again during the current player's next turn."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {
@@ -336,7 +336,7 @@
     "rules": [
       {"title": "Card Text", "text": "May be used once by the first opponent to sort the cards in his hand numerically to exchange any unwanted cards in his hand for new ones from the Draw Pile."},
       {"title": "Additional Rules", "text": "First, the player reads the card text out loud. Next, the player counts down (3 - 2 - 1 - Go!) and announces, \"Order Sorter\". Order Sorter may be used once by the first opponent to sort the cards in his five-card hand numerically (using the Card Identification Number) to exchange any unwanted cards in his five-card hand for new ones from the Draw Pile. The player may exchange any of the cards in his five-card hand for any cards discarded by the winning opponent."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {

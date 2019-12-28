@@ -282,7 +282,7 @@
         "rules": [
             {"title": "Card Text", "text": "Forces all players to discard their Top and Bottom Run cards, and five-card hands. All saved cards and supplies remain. Players draw new cards."},
             {"title": "Additional Rules", "text": "All players draw new cards, discarding any Play Immediately or Rank cards, saving any Kaballa Dolla cards, placing two cards down as the Top and Bottom Run cards and keeping five cards in their hands."},
-            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
         ]
     },
     {
@@ -350,7 +350,7 @@
         "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to immediately cure all bunnies in The Bunny Circle of any sickness or hunger. May be used at any time!"},
-            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
         ]
     },
     {
@@ -521,7 +521,7 @@
         "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
             {"title": "Card Text", "text": "The player with this card saved may immediately replace any Zero Value small card with a new one from the draw pile (if any exist)."},
-            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+            {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
         ]
     },
     {

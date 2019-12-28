@@ -363,7 +363,7 @@
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
       {"title": "Card Text", "text": "Allows any one player to protect his bunnies from <a href=\"bunnypedia://cards/294\">Plutonium</a>, <a href=\"bunnypedia://cards/182\">Cheese Balls</a>, and <a href=\"bunnypedia://cards/237\">Anti-Matter Rasins</a>. May be used at any time! (and kept for the duration of the game!)"},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
   {

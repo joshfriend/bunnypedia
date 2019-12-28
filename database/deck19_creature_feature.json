@@ -340,7 +340,7 @@
     ],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player and given to any opponent whose bunnies all take a two round nap. The opponent may not play any Aggressive cards during his next two turns."},
-      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."},
       {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://cards/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
     ]
   },
