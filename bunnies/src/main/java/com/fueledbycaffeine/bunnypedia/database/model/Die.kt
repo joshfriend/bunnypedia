@@ -47,10 +47,11 @@ enum class Die(val sides: Int) {
 
   fun getDrawable(context: Context): Drawable? {
     val drawableRes = when (this) {
-      CLEAR -> R.drawable.dice20
-      ZODIAC, CHINESE_ZODIAC -> return null // TODO
-      ORANGE_D10, YELLOW_D10, GREEN_D10, BLUE_D10, VIOLET_D10 -> return null // TODO
-      else -> R.drawable.dice12
+      CLEAR -> R.drawable.d20
+      ZODIAC -> R.drawable.z12
+      CHINESE_ZODIAC -> R.drawable.c12
+      ORANGE_D10, YELLOW_D10, GREEN_D10, BLUE_D10, VIOLET_D10 -> R.drawable.d10
+      else -> R.drawable.d12
     }
     val drawable = context.getDrawable(drawableRes)!!
     drawable.setTint(ContextCompat.getColor(context, color))

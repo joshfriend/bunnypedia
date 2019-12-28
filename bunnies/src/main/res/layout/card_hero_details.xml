@@ -91,7 +91,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/dice12"
+                    android:src="@drawable/d12"
                     android:tint="@color/deck_onyx"
                     android:visibility="gone"
                     android:layout_marginBottom="4dp"
@@ -102,7 +102,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/dice12"
+                    android:src="@drawable/d12"
                     android:tint="@color/deck_blue"
                     android:visibility="gone"
                     tools:visibility="visible"
