@@ -1,6 +1,6 @@
 [
   {
-    "id": 331,
+    "id": "0331",
     "title": "Yellow/Green Congenial",
     "deck": "GREEN",
     "type": "RUN",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "id": 332,
+    "id": "0332",
     "title": "Yellow/Blue Gleeful",
     "deck": "GREEN",
     "type": "RUN",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "id": 333,
+    "id": "0333",
     "title": "Violet/Yellow Lumbering",
     "deck": "GREEN",
     "type": "RUN",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "id": 334,
+    "id": "0334",
     "title": "Orange/Yellow Sinister",
     "deck": "GREEN",
     "type": "RUN",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "id": 335,
+    "id": "0335",
     "title": "Green/Blue Timid",
     "deck": "GREEN",
     "type": "RUN",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "id": 336,
+    "id": "0336",
     "canonicalId": 172,
     "title": "Choose A Carrot",
     "deck": "GREEN",
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "id": 337,
+    "id": "0337",
     "canonicalId": 172,
     "title": "Choose A Carrot",
     "deck": "GREEN",
@@ -69,7 +69,7 @@
     ]
   },
   {
-    "id": 338,
+    "id": "0338",
     "canonicalId": 21,
     "title": "Choose 2 Carrots",
     "deck": "GREEN",
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "id": 339,
+    "id": "0339",
     "canonicalId": 21,
     "title": "Choose 2 Carrots",
     "deck": "GREEN",
@@ -93,7 +93,7 @@
     ]
   },
   {
-    "id": 340,
+    "id": "0340",
     "title": "Feed The Bunny 1/2",
     "deck": "GREEN",
     "type": "RUN",
@@ -105,7 +105,7 @@
     ]
   },
   {
-    "id": 341,
+    "id": "0341",
     "title": "Feed The Bunny 4/3",
     "deck": "GREEN",
     "type": "RUN",
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "id": 342,
+    "id": "0342",
     "canonicalId": 286,
     "title": "Random FTB",
     "deck": "GREEN",
@@ -131,7 +131,7 @@
     "water": -1
   },
   {
-    "id": 343,
+    "id": "0343",
     "title": "Snowball",
     "deck": "GREEN",
     "type": "RUN",
@@ -143,7 +143,7 @@
     ]
   },
   {
-    "id": 344,
+    "id": "0344",
     "title": "Mudslide",
     "deck": "GREEN",
     "type": "RUN",
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "id": 345,
+    "id": "0345",
     "title": "Liquid Nitrogen",
     "deck": "GREEN",
     "type": "RUN",
@@ -167,7 +167,7 @@
     ]
   },
   {
-    "id": 346,
+    "id": "0346",
     "title": "Leviathan",
     "deck": "GREEN",
     "type": "RUN",
@@ -179,7 +179,7 @@
     ]
   },
   {
-    "id": 347,
+    "id": "0347",
     "title": "7th Whisk",
     "deck": "GREEN",
     "type": "RUN",
@@ -192,7 +192,7 @@
     ]
   },
   {
-    "id": 348,
+    "id": "0348",
     "title": "Day Of The Dead",
     "deck": "GREEN",
     "type": "RUN",
@@ -204,7 +204,7 @@
     ]
   },
   {
-    "id": 349,
+    "id": "0349",
     "title": "Fingercuffs",
     "deck": "GREEN",
     "type": "RUN",
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "id": 350,
+    "id": "0350",
     "title": "Hi – Low Cash",
     "deck": "GREEN",
     "type": "RUN",
@@ -227,7 +227,7 @@
     ]
   },
   {
-    "id": 351,
+    "id": "0351",
     "title": "Juxtapose",
     "deck": "GREEN",
     "type": "RUN",
@@ -238,7 +238,7 @@
     ]
   },
   {
-    "id": 352,
+    "id": "0352",
     "deck": "GREEN",
     "title": "Leif Carrotson",
     "type": "ROAMING_RED_RUN",
@@ -251,7 +251,7 @@
     ]
   },
   {
-    "id": 353,
+    "id": "0353",
     "title": "Lucky Clover – Octdruple (Bunny Modifier)",
     "deck": "GREEN",
     "type": "RUN",
@@ -266,7 +266,7 @@
     ]
   },
   {
-    "id": 354,
+    "id": "0354",
     "title": "Precession",
     "deck": "GREEN",
     "type": "RUN",
@@ -278,7 +278,7 @@
     ]
   },
   {
-    "id": 355,
+    "id": "0355",
     "title": "Weil's Pawn Shop – 7/10",
     "deck": "GREEN",
     "type": "RUN",
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "id": 356,
+    "id": "0356",
     "canonicalId": 303,
     "title": "Weil's Pawn Shop – Closed!",
     "deck": "GREEN",
@@ -296,7 +296,7 @@
     "bunnyRequirement": "NO"
   },
   {
-    "id": 357,
+    "id": "0357",
     "title": "Wheels Chocolate",
     "deck": "GREEN",
     "type": "RUN",
@@ -308,7 +308,7 @@
     ]
   },
   {
-    "id": 358,
+    "id": "0358",
     "title": "Zodiac Terminator",
     "deck": "GREEN",
     "type": "RUN",
@@ -321,7 +321,7 @@
     ]
   },
   {
-    "id": 359,
+    "id": "0359",
     "canonicalId": 199,
     "title": "Free Defense",
     "deck": "GREEN",
@@ -333,7 +333,7 @@
     ]
   },
   {
-    "id": 360,
+    "id": "0360",
     "title": "Gift Certificate (Kaballa's Market)",
     "deck": "GREEN",
     "type": "SPECIAL",
@@ -345,7 +345,7 @@
     ]
   },
   {
-    "id": 361,
+    "id": "0361",
     "title": "LA Tape Worm",
     "deck": "GREEN",
     "type": "SPECIAL",
@@ -355,7 +355,7 @@
     ]
   },
   {
-    "id": 362,
+    "id": "0362",
     "title": "Albino Baby 5000",
     "deck": "GREEN",
     "type": "VERY_SPECIAL",
@@ -367,7 +367,7 @@
     ]
   },
   {
-    "id": 363,
+    "id": "0363",
     "title": "Operation Spoilsport",
     "deck": "GREEN",
     "type": "VERY_SPECIAL",
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "id": 364,
+    "id": "0364",
     "title": "Roll-O-Lution",
     "deck": "GREEN",
     "type": "VERY_SPECIAL",
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "id": 365,
+    "id": "0365",
     "title": "Community Carrot",
     "deck": "GREEN",
     "type": "PLAY_IMMEDIATELY",
@@ -399,7 +399,7 @@
     ]
   },
   {
-    "id": 366,
+    "id": "0366",
     "title": "Terrible Misfortune – Hang Gliding",
     "deck": "GREEN",
     "type": "PLAY_IMMEDIATELY",
@@ -411,56 +411,56 @@
     ]
   },
   {
-    "id": 367,
+    "id": "0367",
     "canonicalId": 87,
     "title": "1 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
-    "id": 368,
+    "id": "0368",
     "canonicalId": 92,
     "title": "2 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
-    "id": 369,
+    "id": "0369",
     "canonicalId": 210,
     "title": "3 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
-    "id": 370,
+    "id": "0370",
     "canonicalId": 210,
     "title": "3 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
-    "id": 371,
+    "id": "0371",
     "canonicalId": 98,
     "title": "5 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
-    "id": 372,
+    "id": "0372",
     "canonicalId": 98,
     "title": "5 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
-    "id": 373,
+    "id": "0373",
     "canonicalId": 101,
     "title": "10 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
-    "id": 374,
+    "id": "0374",
     "deck": "GREEN",
     "title": "Aries",
     "type": "ZODIAC",
@@ -470,7 +470,7 @@
     ]
   },
   {
-    "id": 375,
+    "id": "0375",
     "deck": "GREEN",
     "title": "Taurus",
     "type": "ZODIAC",
@@ -480,7 +480,7 @@
     ]
   },
   {
-    "id": 376,
+    "id": "0376",
     "deck": "GREEN",
     "title": "Gemini",
     "type": "ZODIAC",
@@ -490,7 +490,7 @@
     ]
   },
   {
-    "id": 377,
+    "id": "0377",
     "deck": "GREEN",
     "title": "Cancer",
     "type": "ZODIAC",
@@ -500,7 +500,7 @@
     ]
   },
   {
-    "id": 378,
+    "id": "0378",
     "deck": "GREEN",
     "title": "Leo",
     "type": "ZODIAC",
@@ -510,7 +510,7 @@
     ]
   },
   {
-    "id": 379,
+    "id": "0379",
     "deck": "GREEN",
     "title": "Virgo",
     "type": "ZODIAC",
@@ -520,7 +520,7 @@
     ]
   },
   {
-    "id": 380,
+    "id": "0380",
     "deck": "GREEN",
     "title": "Libra",
     "type": "ZODIAC",
@@ -530,7 +530,7 @@
     ]
   },
   {
-    "id": 381,
+    "id": "0381",
     "deck": "GREEN",
     "title": "Scorpio",
     "type": "ZODIAC",
@@ -540,7 +540,7 @@
     ]
   },
   {
-    "id": 382,
+    "id": "0382",
     "deck": "GREEN",
     "title": "Sagittarius",
     "type": "ZODIAC",
@@ -550,7 +550,7 @@
     ]
   },
   {
-    "id": 383,
+    "id": "0383",
     "deck": "GREEN",
     "title": "Capricorn",
     "type": "ZODIAC",
@@ -560,7 +560,7 @@
     ]
   },
   {
-    "id": 384,
+    "id": "0384",
     "deck": "GREEN",
     "title": "Aquarius",
     "type": "ZODIAC",
@@ -570,7 +570,7 @@
     ]
   },
   {
-    "id": 385,
+    "id": "0385",
     "deck": "GREEN",
     "title": "Pisces",
     "type": "ZODIAC",

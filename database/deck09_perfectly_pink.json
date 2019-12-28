@@ -1,6 +1,6 @@
 [
   {
-    "id": 496,
+    "id": "0496",
     "title": "Pink Congenial",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "id": 497,
+    "id": "0497",
     "title": "Pink Gleeful",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "id": 498,
+    "id": "0498",
     "title": "Pink Lumbering",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "id": 499,
+    "id": "0499",
     "title": "Pink Sinister",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": 500,
+    "id": "0500",
     "title": "Pink Timid",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "id": 501,
+    "id": "0501",
     "canonicalId": 392,
     "title": "Choose A Carrot",
     "deck": "PERFECTLY_PINK",
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "id": 502,
+    "id": "0502",
     "canonicalId": 393,
     "title": "Choose 2 Carrots",
     "deck": "PERFECTLY_PINK",
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "id": 503,
+    "id": "0503",
     "title": "Feed The Bunny 4/5",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "id": 504,
+    "id": "0504",
     "title": "Feed All Your Bunnies 2/2",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "id": 505,
+    "id": "0505",
     "deck": "PERFECTLY_PINK",
     "title": "Everyone Feed A Bunny",
     "type": "RUN",
@@ -112,7 +112,7 @@
     "water": 2
   },
   {
-    "id": 506,
+    "id": "0506",
     "title": "Twister",
     "deck": "PERFECTLY_PINK",
     "type": "ROAMING_RED_RUN",
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "id": 507,
+    "id": "0507",
     "title": "Leaky Tiki Torch",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -138,7 +138,7 @@
     ]
   },
   {
-    "id": 508,
+    "id": "0508",
     "title": "Wood Chipper",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "id": 509,
+    "id": "0509",
     "title": "Necro Fasci",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -163,7 +163,7 @@
     ]
   },
   {
-    "id": 510,
+    "id": "0510",
     "title": "Fertile Turtle",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "id": 511,
+    "id": "0511",
     "title": "Poison Cups",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -194,7 +194,7 @@
     ]
   },
   {
-    "id": 512,
+    "id": "0512",
     "title": "Bunny Gump Shrimp",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "id": 513,
+    "id": "0513",
     "title": "Vampire Bats",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -221,7 +221,7 @@
     ]
   },
   {
-    "id": 514,
+    "id": "0514",
     "title": "Bitter's End",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -232,7 +232,7 @@
     ]
   },
   {
-    "id": 515,
+    "id": "0515",
     "title": "Blanch (Bunny Modifier)",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "id": 516,
+    "id": "0516",
     "title": "Blue Bunny Group",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -253,7 +253,7 @@
     ]
   },
   {
-    "id": 517,
+    "id": "0517",
     "title": "Bunny Gras",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -264,7 +264,7 @@
     ]
   },
   {
-    "id": 518,
+    "id": "0518",
     "title": "The Church Bunny",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -275,7 +275,7 @@
     ]
   },
   {
-    "id": 519,
+    "id": "0519",
     "title": "Lucky Clover – Hendecadruple (Bunny Modifier)",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -290,7 +290,7 @@
     ]
   },
   {
-    "id": 520,
+    "id": "0520",
     "title": "Mother Tucker",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -302,7 +302,7 @@
     ]
   },
   {
-    "id": 521,
+    "id": "0521",
     "title": "Pinky Tusca-Hare-O",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -312,7 +312,7 @@
     ]
   },
   {
-    "id": 522,
+    "id": "0522",
     "title": "Rank Exchange",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "id": 523,
+    "id": "0523",
     "title": "Tybo",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -336,7 +336,7 @@
     ]
   },
   {
-    "id": 524,
+    "id": "0524",
     "title": "Tug of War",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
@@ -347,17 +347,19 @@
     ]
   },
   {
-    "id": 525,
+    "id": "0525",
     "title": "Viva Las Vegas",
     "deck": "PERFECTLY_PINK",
     "type": "RUN",
     "bunnyRequirement": "PLAY",
+    "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to challenge any opponent. The stakes are determined by the player and may be any amount of Dolla, saved Zodiac or Mysterious Place cards. Both players roll three 12-sided dice and keep all rolls of 7. The first player to get three 7s is the winner."}
+      {"title": "Card Text", "text": "May be used once by a player to challenge any opponent. The stakes are determined by the player and may be any amount of Dolla, saved Zodiac or Mysterious Place cards. Both players roll three 12-sided dice and keep all rolls of 7. The first player to get three 7s is the winner."},
+      {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card."}
     ]
   },
   {
-    "id": 526,
+    "id": "0526",
     "title": "Appetite Suppressant",
     "deck": "PERFECTLY_PINK",
     "type": "SPECIAL",
@@ -369,7 +371,7 @@
     ]
   },
   {
-    "id": 527,
+    "id": "0527",
     "title": "Bingo Flamingo",
     "deck": "PERFECTLY_PINK",
     "type": "SPECIAL",
@@ -382,7 +384,7 @@
     ]
   },
   {
-    "id": 528,
+    "id": "0528",
     "title": "Paradise Syndrome",
     "deck": "PERFECTLY_PINK",
     "type": "SPECIAL",
@@ -393,7 +395,7 @@
     ]
   },
   {
-    "id": 529,
+    "id": "0529",
     "title": "Day Old Bread",
     "deck": "PERFECTLY_PINK",
     "type": "VERY_SPECIAL",
@@ -403,7 +405,7 @@
     ]
   },
   {
-    "id": 530,
+    "id": "0530",
     "title": "Pink Slip",
     "deck": "PERFECTLY_PINK",
     "type": "VERY_SPECIAL",
@@ -416,7 +418,7 @@
     ]
   },
   {
-    "id": 531,
+    "id": "0531",
     "title": "Transcendental Run",
     "deck": "PERFECTLY_PINK",
     "type": "VERY_SPECIAL",
@@ -429,7 +431,7 @@
     ]
   },
   {
-    "id": 532,
+    "id": "0532",
     "title": "Vel Crows",
     "deck": "PERFECTLY_PINK",
     "type": "VERY_SPECIAL",
@@ -440,7 +442,7 @@
     ]
   },
   {
-    "id": 533,
+    "id": "0533",
     "title": "Famine, Pestilence & Death",
     "deck": "PERFECTLY_PINK",
     "type": "PLAY_IMMEDIATELY",
@@ -451,7 +453,7 @@
     ]
   },
   {
-    "id": 534,
+    "id": "0534",
     "title": "Terrible Misfortune – Bunny Witch Project",
     "deck": "PERFECTLY_PINK",
     "type": "PLAY_IMMEDIATELY",
@@ -463,7 +465,7 @@
     ]
   },
   {
-    "id": 535,
+    "id": "0535",
     "title": "Terrible Misfortune – Van de Graaff Generator",
     "deck": "PERFECTLY_PINK",
     "type": "PLAY_IMMEDIATELY",
@@ -475,70 +477,70 @@
     ]
   },
   {
-    "id": 536,
+    "id": "0536",
     "canonicalId": 87,
     "title": "1 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 537,
+    "id": "0537",
     "canonicalId": 87,
     "title": "1 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 538,
+    "id": "0538",
     "canonicalId": 92,
     "title": "2 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 539,
+    "id": "0539",
     "canonicalId": 92,
     "title": "2 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 540,
+    "id": "0540",
     "canonicalId": 210,
     "title": "3 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 541,
+    "id": "0541",
     "canonicalId": 210,
     "title": "3 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 542,
+    "id": "0542",
     "canonicalId": 98,
     "title": "5 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 543,
+    "id": "0543",
     "canonicalId": 98,
     "title": "5 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 544,
+    "id": "0544",
     "canonicalId": 101,
     "title": "10 Dolla",
     "deck": "PERFECTLY_PINK",
     "type": "DOLLA"
   },
   {
-    "id": 545,
+    "id": "0545",
     "deck": "PERFECTLY_PINK",
     "title": "Seaman Recruit",
     "type": "RANK",
@@ -551,7 +553,7 @@
     ]
   },
   {
-    "id": 546,
+    "id": "0546",
     "deck": "PERFECTLY_PINK",
     "title": "Seaman Apprentice",
     "type": "RANK",
@@ -564,7 +566,7 @@
     ]
   },
   {
-    "id": 547,
+    "id": "0547",
     "deck": "PERFECTLY_PINK",
     "title": "Seaman",
     "type": "RANK",
@@ -577,7 +579,7 @@
     ]
   },
   {
-    "id": 548,
+    "id": "0548",
     "deck": "PERFECTLY_PINK",
     "title": "Petty Officer 3rd",
     "type": "RANK",
@@ -590,7 +592,7 @@
     ]
   },
   {
-    "id": 549,
+    "id": "0549",
     "deck": "PERFECTLY_PINK",
     "title": "Petty Officer 2nd",
     "type": "RANK",
@@ -603,7 +605,7 @@
     ]
   },
   {
-    "id": 550,
+    "id": "0550",
     "deck": "PERFECTLY_PINK",
     "title": "Petty Officer 1st",
     "type": "RANK",

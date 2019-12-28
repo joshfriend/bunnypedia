@@ -1,6 +1,6 @@
 [
     {
-    "id": 276,
+    "id": "0276",
     "title": "Marilyn Bunroe - Single Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "id": 277,
+    "id": "0277",
     "title": "Bunnies Of Hazzard - Double Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "id": 278,
+    "id": "0278",
     "title": "Bunnylon 3 - Triple Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "id": 279,
+    "id": "0279",
     "title": "Those 70's Bunnies - Triple Specialty Bunny",
     "deck": "ORANGE",
     "type": "RUN",
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "id": 280,
+    "id": "0280",
     "title": "Choose A Carrot",
     "deck": "ORANGE",
     "type": "RUN",
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "id": 281,
+    "id": "0281",
     "canonicalId": 280,
     "title": "Choose A Carrot",
     "deck": "ORANGE",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "id": 282,
+    "id": "0282",
     "title": "Choose 2 Carrots",
     "deck": "ORANGE",
     "type": "RUN",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "id": 283,
+    "id": "0283",
     "title": "Choose 3 Carrots",
     "deck": "ORANGE",
     "type": "RUN",
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "id": 284,
+    "id": "0284",
     "title": "Feed The Bunny 4/1",
     "deck": "ORANGE",
     "type": "RUN",
@@ -97,7 +97,7 @@
     ]
   },
   {
-    "id": 285,
+    "id": "0285",
     "title": "Feed The Bunny 1/5",
     "deck": "ORANGE",
     "type": "RUN",
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "id": 286,
+    "id": "0286",
     "title": "Random FTB",
     "deck": "ORANGE",
     "type": "RUN",
@@ -122,7 +122,7 @@
     "water": -1
   },
   {
-    "id": 287,
+    "id": "0287",
     "title": "Boomerang",
     "deck": "ORANGE",
     "type": "RUN",
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "id": 288,
+    "id": "0288",
     "title": "Rockslide",
     "deck": "ORANGE",
     "type": "RUN",
@@ -146,7 +146,7 @@
     ]
   },
   {
-    "id": 289,
+    "id": "0289",
     "title": "Torque Rings",
     "deck": "ORANGE",
     "type": "RUN",
@@ -158,7 +158,7 @@
     ]
   },
   {
-    "id": 290,
+    "id": "0290",
     "title": "Mons Meg",
     "deck": "ORANGE",
     "type": "RUN",
@@ -170,7 +170,7 @@
     ]
   },
   {
-    "id": 291,
+    "id": "0291",
     "title": "C.O.M.A. (Carrot Olfactory Mesmerizing Aroma)",
     "deck": "ORANGE",
     "type": "RUN",
@@ -184,7 +184,7 @@
     ]
   },
   {
-    "id": 292,
+    "id": "0292",
     "title": "F-18 Hornet",
     "deck": "ORANGE",
     "type": "ROAMING_RED_RUN",
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "id": 293,
+    "id": "0293",
     "title": "Radio Controlled Piranha",
     "deck": "ORANGE",
     "type": "RUN",
@@ -211,7 +211,7 @@
     ]
   },
   {
-    "id": 294,
+    "id": "0294",
     "title": "Plutonium Radiation",
     "deck": "ORANGE",
     "type": "RUN",
@@ -225,7 +225,7 @@
     ]
   },
   {
-    "id": 295,
+    "id": "0295",
     "title": "All Shops Open",
     "deck": "ORANGE",
     "type": "RUN",
@@ -235,7 +235,7 @@
     ]
   },
   {
-    "id": 296,
+    "id": "0296",
     "title": "Double Free Agent",
     "deck": "ORANGE",
     "type": "RUN",
@@ -246,7 +246,7 @@
     ]
   },
   {
-    "id": 297,
+    "id": "0297",
     "canonicalId": 296,
     "title": "Double Free Agent",
     "deck": "ORANGE",
@@ -258,7 +258,7 @@
     ]
   },
   {
-    "id": 298,
+    "id": "0298",
     "title": "Lucky Clover – Heptdruple (Bunny Modifier)",
     "deck": "ORANGE",
     "type": "RUN",
@@ -273,7 +273,7 @@
     ]
   },
   {
-    "id": 299,
+    "id": "0299",
     "title": "Mothership",
     "deck": "ORANGE",
     "type": "RUN",
@@ -287,7 +287,7 @@
     ]
   },
   {
-    "id": 300,
+    "id": "0300",
     "title": "Pilfer The Pawn",
     "deck": "ORANGE",
     "type": "RUN",
@@ -299,7 +299,7 @@
     ]
   },
   {
-    "id": 301,
+    "id": "0301",
     "title": "Rooney's Weapons Emporium – 1/Half Level",
     "deck": "ORANGE",
     "type": "RUN",
@@ -309,7 +309,7 @@
     ]
   },
   {
-    "id": 302,
+    "id": "0302",
     "title": "Selective Disclosure",
     "deck": "ORANGE",
     "type": "RUN",
@@ -319,14 +319,14 @@
     ]
   },
   {
-    "id": 303,
+    "id": "0303",
     "title": "Weil's Pawn Shop – Closed",
     "deck": "ORANGE",
     "type": "RUN",
     "bunnyRequirement": "NO"
   },
   {
-    "id": 304,
+    "id": "0304",
     "title": "Carrot Top Royale",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -341,7 +341,7 @@
     ]
   },
   {
-    "id": 305,
+    "id": "0305",
     "title": "Carrot Top Royale",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -356,7 +356,7 @@
     ]
   },
   {
-    "id": 306,
+    "id": "0306",
     "title": "Free Pawn",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -367,7 +367,7 @@
     ]
   },
   {
-    "id": 307,
+    "id": "0307",
     "title": "Half Price Coupon (Weil's Pawn Shop)",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "id": 308,
+    "id": "0308",
     "title": "Incredibly Magic Fountain",
     "deck": "ORANGE",
     "type": "RUN",
@@ -392,7 +392,7 @@
     ]
   },
   {
-    "id": 309,
+    "id": "0309",
     "title": "Incredibly Magic Fountain",
     "deck": "ORANGE",
     "type": "RUN",
@@ -406,7 +406,7 @@
     ]
   },
   {
-    "id": 310,
+    "id": "0310",
     "title": "Monumentally Mad Donnelaith Bakery",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -420,7 +420,7 @@
     ]
   },
   {
-    "id": 311,
+    "id": "0311",
     "title": "Monumentally Mad Donnelaith Bakery",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -434,7 +434,7 @@
     ]
   },
   {
-    "id": 312,
+    "id": "0312",
     "title": "Super Supplies Surprise",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -448,7 +448,7 @@
     ]
   },
   {
-    "id": 313,
+    "id": "0313",
     "title": "Super Supplies Surprise",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -462,7 +462,7 @@
     ]
   },
   {
-    "id": 314,
+    "id": "0314",
     "title": "Very Large Prune Danish",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -474,7 +474,7 @@
     ]
   },
   {
-    "id": 315,
+    "id": "0315",
     "title": "Very Large Prune Danish",
     "deck": "ORANGE",
     "type": "SPECIAL",
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "id": 316,
+    "id": "0316",
     "title": "Bunny On The Edge Of Forever",
     "deck": "ORANGE",
     "type": "VERY_SPECIAL",
@@ -499,7 +499,7 @@
     ]
   },
   {
-    "id": 317,
+    "id": "0317",
     "title": "Uriel's Machine",
     "deck": "ORANGE",
     "type": "VERY_SPECIAL",
@@ -510,7 +510,7 @@
     ]
   },
   {
-    "id": 318,
+    "id": "0318",
     "title": "Weilerware",
     "deck": "ORANGE",
     "type": "VERY_SPECIAL",
@@ -520,7 +520,7 @@
     ]
   },
   {
-    "id": 319,
+    "id": "0319",
     "title": "Terrible Misfortune – Myopia",
     "deck": "ORANGE",
     "type": "PLAY_IMMEDIATELY",
@@ -534,70 +534,70 @@
     ]
   },
   {
-    "id": 320,
+    "id": "0320",
     "canonicalId": 87,
     "title": "1 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 321,
+    "id": "0321",
     "canonicalId": 87,
     "title": "1 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 322,
+    "id": "0322",
     "canonicalId": 92,
     "title": "2 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 323,
+    "id": "0323",
     "canonicalId": 92,
     "title": "2 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 324,
+    "id": "0324",
     "canonicalId": 210,
     "title": "3 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 325,
+    "id": "0325",
     "canonicalId": 210,
     "title": "3 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 326,
+    "id": "0326",
     "canonicalId": 98,
     "title": "5 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 327,
+    "id": "0327",
     "canonicalId": 98,
     "title": "5 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 328,
+    "id": "0328",
     "canonicalId": 101,
     "title": "10 Dolla",
     "deck": "ORANGE",
     "type": "DOLLA"
   },
   {
-    "id": 329,
+    "id": "0329",
     "title": "Random Dolla",
     "deck": "ORANGE",
     "type": "DOLLA",
@@ -606,7 +606,7 @@
     ]
   },
   {
-    "id": 330,
+    "id": "0330",
     "title": "Weil's Pawn Shop – 5/10 (Starter)",
     "deck": "ORANGE",
     "type": "STARTER",

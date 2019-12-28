@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "0001",
     "deck": "BLUE",
     "title": "Blue Congenial Bunny",
     "type": "RUN",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "0002",
     "deck": "BLUE",
     "title": "Blue Gleeful Bunny",
     "type": "RUN",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": "0003",
     "deck": "BLUE",
     "title": "Blue Lumbering Bunny",
     "type": "RUN",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": "0004",
     "deck": "BLUE",
     "title": "Blue Sinister Bunny",
     "type": "RUN",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": "0005",
     "deck": "BLUE",
     "title": "Blue Timid Bunny",
     "type": "RUN",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": "0006",
     "deck": "BLUE",
     "title": "Green Congenial Bunny",
     "type": "RUN",
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": "0007",
     "deck": "BLUE",
     "title": "Green Gleeful Bunny",
     "type": "RUN",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": "0008",
     "deck": "BLUE",
     "title": "Green Lumbering Bunny",
     "type": "RUN",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": "0009",
     "deck": "BLUE",
     "title": "Green Sinister Bunny",
     "type": "RUN",
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": "010",
     "deck": "BLUE",
     "title": "Green Timid Bunny",
     "type": "RUN",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": "0011",
     "deck": "BLUE",
     "title": "Orange Congenial Bunny",
     "type": "RUN",
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": "0012",
     "deck": "BLUE",
     "title": "Orange Gleeful Bunny",
     "type": "RUN",
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": "0013",
     "deck": "BLUE",
     "title": "Orange Lumbering Bunny",
     "type": "RUN",
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": "0014",
     "deck": "BLUE",
     "title": "Orange Sinister Bunny",
     "type": "RUN",
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": "0015",
     "deck": "BLUE",
     "title": "Orange Timid Bunny",
     "type": "RUN",
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": "0016",
     "deck": "BLUE",
     "title": "Choose A Carrot",
     "type": "RUN",
@@ -146,7 +146,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": "0017",
     "canonicalId": 16,
     "deck": "BLUE",
     "title": "Choose A Carrot",
@@ -158,7 +158,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": "0018",
     "canonicalId": 16,
     "deck": "BLUE",
     "title": "Choose A Carrot",
@@ -170,7 +170,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": "0019",
     "canonicalId": 16,
     "deck": "BLUE",
     "title": "Choose A Carrot",
@@ -182,7 +182,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": "0020",
     "canonicalId": 16,
     "deck": "BLUE",
     "title": "Choose A Carrot",
@@ -194,7 +194,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": "0021",
     "deck": "BLUE",
     "title": "Choose 2 Carrots",
     "type": "RUN",
@@ -205,7 +205,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": "0022",
     "canonicalId": 21,
     "deck": "BLUE",
     "title": "Choose 2 Carrots",
@@ -217,7 +217,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": "0023",
     "canonicalId": 21,
     "deck": "BLUE",
     "title": "Choose 2 Carrots",
@@ -229,7 +229,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": "0024",
     "deck": "BLUE",
     "title": "Feed The Bunny 1/1",
     "type": "RUN",
@@ -241,7 +241,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": "0025",
     "deck": "BLUE",
     "title": "Feed The Bunny 2/1",
     "type": "RUN",
@@ -253,7 +253,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": "0026",
     "deck": "BLUE",
     "title": "Feed The Bunny 1/3",
     "type": "RUN",
@@ -265,7 +265,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": "0027",
     "deck": "BLUE",
     "title": "Feed The Bunny 3/1",
     "type": "RUN",
@@ -277,7 +277,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": "0028",
     "deck": "BLUE",
     "title": "Feed The Bunny 3/4",
     "type": "RUN",
@@ -289,7 +289,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": "0029",
     "deck": "BLUE",
     "title": "Feed The Bunny 5/4",
     "type": "RUN",
@@ -301,7 +301,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": "0030",
     "deck": "BLUE",
     "title": "Feed The Bunny 5/5",
     "type": "RUN",
@@ -313,7 +313,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": "0031",
     "deck": "BLUE",
     "title": "Kitchen Whisk",
     "type": "RUN",
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": "0032",
     "deck": "BLUE",
     "title": "Green Gelatin (with Evil Pineapple Chunks)",
     "type": "RUN",
@@ -337,7 +337,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": "0033",
     "deck": "BLUE",
     "title": "Ice Pick",
     "type": "RUN",
@@ -349,7 +349,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": "0034",
     "deck": "BLUE",
     "title": "Butcher's Cleaver",
     "type": "RUN",
@@ -361,7 +361,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": "0035",
     "deck": "BLUE",
     "title": "Food Processor",
     "type": "RUN",
@@ -373,7 +373,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": "0036",
     "deck": "BLUE",
     "title": "Boiling Tar",
     "type": "RUN",
@@ -385,7 +385,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": "0037",
     "deck": "BLUE",
     "title": "Roaches",
     "type": "RUN",
@@ -398,7 +398,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": "0038",
     "deck": "BLUE",
     "title": "Bow & Arrow",
     "type": "RUN",
@@ -410,7 +410,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": "0039",
     "deck": "BLUE",
     "title": "Chain Saw",
     "type": "RUN",
@@ -422,7 +422,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": "0040",
     "deck": "BLUE",
     "title": "Guillotine",
     "type": "RUN",
@@ -434,7 +434,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": "0041",
     "deck": "BLUE",
     "title": "Sword",
     "type": "RUN",
@@ -446,7 +446,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": "0042",
     "deck": "BLUE",
     "title": "Flame Thrower",
     "type": "RUN",
@@ -459,7 +459,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": "0043",
     "deck": "BLUE",
     "title": "Torus Ring",
     "type": "RUN",
@@ -472,7 +472,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": "0044",
     "deck": "BLUE",
     "title": "Fluorine Gas",
     "type": "RUN",
@@ -485,7 +485,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": "0045",
     "deck": "BLUE",
     "title": "Laser Gun",
     "type": "RUN",
@@ -498,7 +498,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": "0046",
     "deck": "BLUE",
     "title": "Trojan Bunny",
     "type": "RUN",
@@ -512,7 +512,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": "0047",
     "deck": "BLUE",
     "title": "Ebola Virus",
     "type": "ROAMING_RED_RUN",
@@ -528,7 +528,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": "0048",
     "deck": "BLUE",
     "title": "Nuclear Warhead",
     "type": "RUN",
@@ -542,7 +542,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": "0049",
     "deck": "BLUE",
     "title": "Area 51",
     "type": "RUN",
@@ -556,7 +556,7 @@
     ]
   },
   {
-    "id": 50,
+    "id": "0050",
     "deck": "BLUE",
     "title": "Area 51",
     "type": "RUN",
@@ -570,7 +570,7 @@
     ]
   },
   {
-    "id": 51,
+    "id": "0051",
     "deck": "BLUE",
     "title": "Bad Karma",
     "type": "RUN",
@@ -584,7 +584,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": "0052",
     "deck": "BLUE",
     "title": "Baker Street",
     "type": "RUN",
@@ -595,7 +595,7 @@
     ]
   },
   {
-    "id": 53,
+    "id": "0053",
     "deck": "BLUE",
     "title": "Black Cat",
     "type": "RUN",
@@ -607,7 +607,7 @@
     ]
   },
   {
-    "id": 54,
+    "id": "0054",
     "deck": "BLUE",
     "title": "Cyber Bunny",
     "type": "ROAMING_RED_RUN",
@@ -623,7 +623,7 @@
     ]
   },
   {
-    "id": 55,
+    "id": "0055",
     "deck": "BLUE",
     "title": "Defector Detector",
     "type": "RUN",
@@ -636,7 +636,7 @@
     ]
   },
   {
-    "id": 56,
+    "id": "0056",
     "deck": "BLUE",
     "title": "Drought",
     "type": "RUN",
@@ -648,7 +648,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": "0057",
     "deck": "BLUE",
     "title": "Free Agent",
     "type": "RUN",
@@ -660,7 +660,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": "0058",
     "deck": "BLUE",
     "title": "The Heavenly Halo (Bunny Modifier)",
     "type": "RUN",
@@ -675,7 +675,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": "0059",
     "deck": "BLUE",
     "title": "Kaballa's Market – 4/5",
     "type": "RUN",
@@ -685,7 +685,7 @@
     ]
   },
   {
-    "id": 60,
+    "id": "0060",
     "deck": "BLUE",
     "title": "Kaballa's Market – Closed",
     "type": "RUN",
@@ -695,7 +695,7 @@
     ]
   },
   {
-    "id": 61,
+    "id": "0061",
     "deck": "BLUE",
     "title": "Single Lucky Clover",
     "type": "RUN",
@@ -710,7 +710,7 @@
     ]
   },
   {
-    "id": 62,
+    "id": "0062",
     "deck": "BLUE",
     "title": "Double Lucky Clover",
     "type": "RUN",
@@ -725,7 +725,7 @@
     ]
   },
   {
-    "id": 63,
+    "id": "0063",
     "deck": "BLUE",
     "title": "Triple Lucky Clover",
     "type": "RUN",
@@ -740,7 +740,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": "0064",
     "deck": "BLUE",
     "title": "Maggots",
     "type": "RUN",
@@ -752,7 +752,7 @@
     ]
   },
   {
-    "id": 65,
+    "id": "0065",
     "deck": "BLUE",
     "title": "Poverty Poker",
     "type": "RUN",
@@ -764,7 +764,7 @@
     ]
   },
   {
-    "id": 66,
+    "id": "0066",
     "deck": "BLUE",
     "title": "Carrot Top Casino",
     "type": "SPECIAL",
@@ -779,7 +779,7 @@
     ]
   },
   {
-    "id": 67,
+    "id": "0067",
     "deck": "BLUE",
     "title": "Carrot Top Casino",
     "type": "SPECIAL",
@@ -794,7 +794,7 @@
     ]
   },
   {
-    "id": 68,
+    "id": "0068",
     "deck": "BLUE",
     "title": "Free Cabbage",
     "type": "SPECIAL",
@@ -805,7 +805,7 @@
     ]
   },
   {
-    "id": 69,
+    "id": "0069",
     "deck": "BLUE",
     "title": "Free Water",
     "type": "SPECIAL",
@@ -816,7 +816,7 @@
     ]
   },
   {
-    "id": 70,
+    "id": "0070",
     "deck": "BLUE",
     "title": "Geneva Convention",
     "type": "SPECIAL",
@@ -826,7 +826,7 @@
     ]
   },
   {
-    "id": 71,
+    "id": "0071",
     "deck": "BLUE",
     "title": "Half Price Coupon (Kaballa's Market)",
     "type": "SPECIAL",
@@ -837,7 +837,7 @@
     ]
   },
   {
-    "id": 72,
+    "id": "0072",
     "deck": "BLUE",
     "title": "Large Prune Danish",
     "type": "SPECIAL",
@@ -850,7 +850,7 @@
     ]
   },
   {
-    "id": 73,
+    "id": "0073",
     "canonicalId": 72,
     "deck": "BLUE",
     "title": "Large Prune Danish",
@@ -864,7 +864,7 @@
     ]
   },
   {
-    "id": 74,
+    "id": "0074",
     "deck": "BLUE",
     "title": "The Mad, Mad Donnelaith Bakery",
     "type": "SPECIAL",
@@ -877,7 +877,7 @@
     ]
   },
   {
-    "id": 75,
+    "id": "0075",
     "deck": "BLUE",
     "title": "The Mad, Mad Donnelaith Bakery",
     "type": "SPECIAL",
@@ -890,7 +890,7 @@
     ]
   },
   {
-    "id": 76,
+    "id": "0076",
     "deck": "BLUE",
     "title": "The Magic Fountain",
     "type": "SPECIAL",
@@ -904,7 +904,7 @@
     ]
   },
   {
-    "id": 77,
+    "id": "0077",
     "deck": "BLUE",
     "title": "The Magic Fountain",
     "type": "SPECIAL",
@@ -918,7 +918,7 @@
     ]
   },
   {
-    "id": 78,
+    "id": "0078",
     "deck": "BLUE",
     "title": "Supplies Surprise",
     "type": "SPECIAL",
@@ -932,7 +932,7 @@
     ]
   },
   {
-    "id": 79,
+    "id": "0079",
     "deck": "BLUE",
     "title": "Supplies Surprise",
     "type": "SPECIAL",
@@ -946,7 +946,7 @@
     ]
   },
   {
-    "id": 80,
+    "id": "0080",
     "deck": "BLUE",
     "title": "The Magic Spatula",
     "type": "VERY_SPECIAL",
@@ -956,7 +956,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": "0081",
     "deck": "BLUE",
     "title": "Rooney's Reusables",
     "type": "VERY_SPECIAL",
@@ -967,7 +967,7 @@
     ]
   },
   {
-    "id": 82,
+    "id": "0082",
     "deck": "BLUE",
     "title": "Sunny Day",
     "type": "VERY_SPECIAL",
@@ -979,7 +979,7 @@
     ]
   },
   {
-    "id": 83,
+    "id": "0083",
     "deck": "BLUE",
     "title": "Terrible Misfortune – Fiat",
     "type": "PLAY_IMMEDIATELY",
@@ -991,7 +991,7 @@
     ]
   },
   {
-    "id": 84,
+    "id": "0084",
     "deck": "BLUE",
     "title": "Terrible Misfortune – Hedge",
     "type": "PLAY_IMMEDIATELY",
@@ -1003,7 +1003,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": "0085",
     "deck": "BLUE",
     "title": "Terrible Misfortune – Plutonium",
     "type": "PLAY_IMMEDIATELY",
@@ -1015,7 +1015,7 @@
     ]
   },
   {
-    "id": 86,
+    "id": "0086",
     "deck": "BLUE",
     "title": "Terrible Misfortune – Yogurt",
     "type": "PLAY_IMMEDIATELY",
@@ -1027,108 +1027,108 @@
     ]
   },
   {
-    "id": 87,
+    "id": "0087",
     "deck": "BLUE",
     "title": "1 Dolla",
     "type": "DOLLA"
   },
   {
-    "id": 88,
+    "id": "0088",
     "deck": "BLUE",
     "title": "1 Dolla",
     "type": "DOLLA",
     "canonicalId": 87
   },
   {
-    "id": 89,
+    "id": "0089",
     "deck": "BLUE",
     "title": "1 Dolla",
     "type": "DOLLA",
     "canonicalId": 87
   },
   {
-    "id": 90,
+    "id": "0090",
     "deck": "BLUE",
     "title": "1 Dolla",
     "type": "DOLLA",
     "canonicalId": 87
   },
   {
-    "id": 91,
+    "id": "0091",
     "deck": "BLUE",
     "title": "1 Dolla",
     "type": "DOLLA",
     "canonicalId": 87
   },
   {
-    "id": 92,
+    "id": "0092",
     "deck": "BLUE",
     "title": "2 Dolla",
     "type": "DOLLA"
   },
   {
-    "id": 93,
+    "id": "0093",
     "deck": "BLUE",
     "title": "2 Dolla",
     "type": "DOLLA",
     "canonicalId": 92
   },
   {
-    "id": 94,
+    "id": "0094",
     "deck": "BLUE",
     "title": "2 Dolla",
     "type": "DOLLA",
     "canonicalId": 92
   },
   {
-    "id": 95,
+    "id": "0095",
     "deck": "BLUE",
     "title": "2 Dolla",
     "type": "DOLLA",
     "canonicalId": 92
   },
   {
-    "id": 96,
+    "id": "0096",
     "deck": "BLUE",
     "title": "2 Dolla",
     "type": "DOLLA",
     "canonicalId": 92
   },
   {
-    "id": 97,
+    "id": "0097",
     "deck": "BLUE",
     "title": "2 Dolla",
     "type": "DOLLA",
     "canonicalId": 92
   },
   {
-    "id": 98,
+    "id": "0098",
     "deck": "BLUE",
     "title": "5 Dolla",
     "type": "DOLLA"
   },
   {
-    "id": 99,
-    "deck": "BLUE",
-    "title": "5 Dolla",
-    "type": "DOLLA",
-    "canonicalId": 98
-  },
-  {
-    "id": 100,
+    "id": "0099",
     "deck": "BLUE",
     "title": "5 Dolla",
     "type": "DOLLA",
     "canonicalId": 98
   },
   {
-    "id": 101,
+    "id": "0100",
+    "deck": "BLUE",
+    "title": "5 Dolla",
+    "type": "DOLLA",
+    "canonicalId": 98
+  },
+  {
+    "id": "0101",
     "deck": "BLUE",
     "title": "10 Dolla",
     "type": "DOLLA"
   },
   {
-    "id": 102,
+    "id": "0102",
     "deck": "BLUE",
     "title": "Kaballa's Market",
     "type": "STARTER",
@@ -1138,25 +1138,25 @@
     ]
   },
   {
-    "id": 103,
+    "id": "0103",
     "deck": "BLUE",
     "title": "Carrot #01 – Tucker",
     "type": "CARROT_SUPPLY"
   },
   {
-    "id": 104,
+    "id": "0104",
     "deck": "BLUE",
     "title": "Carrot #02 – Abu",
     "type": "CARROT_SUPPLY"
   },
   {
-    "id": 105,
+    "id": "0105",
     "deck": "BLUE",
     "title": "Carrot #03 – Hikaru",
     "type": "CARROT_SUPPLY"
   },
   {
-    "id": 106,
+    "id": "0106",
     "deck": "BLUE",
     "title": "Carrot #04 – Flo",
     "type": "CARROT_SUPPLY",
@@ -1165,25 +1165,25 @@
     ]
   },
   {
-    "id": 107,
+    "id": "0107",
     "deck": "BLUE",
     "title": "Carrot #05 – Remington",
     "type": "CARROT_SUPPLY"
   },
   {
-    "id": 108,
+    "id": "0108",
     "deck": "BLUE",
     "title": "Carrot #06 – Butch",
     "type": "CARROT_SUPPLY"
   },
   {
-    "id": 109,
+    "id": "0109",
     "deck": "BLUE",
     "title": "Carrot #07 – Presto",
     "type": "CARROT_SUPPLY"
   },
   {
-    "id": 110,
+    "id": "0110",
     "deck": "BLUE",
     "title": "Carrot #08 – Seth",
     "type": "CARROT_SUPPLY"

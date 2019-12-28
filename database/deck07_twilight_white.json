@@ -1,6 +1,6 @@
 [
     {
-        "id": 386,
+        "id": "0386",
         "title": "Blue/Orange Congenial",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "id": 387,
+        "id": "0387",
         "title": "Violet/Green Gleeful",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "id": 388,
+        "id": "0388",
         "title": "Green/Orange Lumbering",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "id": 389,
+        "id": "0389",
         "title": "Blue/Violet Sinister",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "id": 390,
+        "id": "0390",
         "title": "Orange/Violet Timid",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": 391,
+        "id": "0391",
         "canonicalId": 392,
         "title": "Choose A Carrot",
         "deck": "TWILIGHT_WHITE",
@@ -57,7 +57,7 @@
         ]
     },
     {
-        "id": 392,
+        "id": "0392",
         "title": "Choose A Carrot",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -68,7 +68,7 @@
         ]
     },
     {
-        "id": 393,
+        "id": "0393",
         "title": "Choose 2 Carrots",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -79,7 +79,7 @@
         ]
     },
     {
-        "id": 394,
+        "id": "0394",
         "title": "Feed The Bunny 1/4",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "id": 395,
+        "id": "0395",
         "title": "Feed The Bunny 4/2",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -103,7 +103,7 @@
         ]
     },
     {
-        "id": 396,
+        "id": "0396",
         "canonicalId": 286,
         "title": "Random FTB",
         "deck": "TWILIGHT_WHITE",
@@ -117,7 +117,7 @@
         "water": -1
     },
     {
-        "id": 397,
+        "id": "0397",
         "title": "Potentially Poisonous Plant Spores",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -129,7 +129,7 @@
         ]
     },
     {
-        "id": 398,
+        "id": "0398",
         "title": "Anti-Strung Tennis Racket",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -141,7 +141,7 @@
         ]
     },
     {
-        "id": 399,
+        "id": "0399",
         "title": "Rocket Exhaust",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -153,7 +153,7 @@
         ]
     },
     {
-        "id": 400,
+        "id": "0400",
         "title": "Psychic Waves",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -166,7 +166,7 @@
         ]
     },
     {
-        "id": 401,
+        "id": "0401",
         "title": "Anode Anomaly",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -181,7 +181,7 @@
         ]
     },
     {
-        "id": 402,
+        "id": "0402",
         "title": "Dueling Grandmothers",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -196,7 +196,7 @@
         ]
     },
     {
-        "id": 403,
+        "id": "0403",
         "title": "Mob Hit",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -209,7 +209,7 @@
         ]
     },
     {
-        "id": 404,
+        "id": "0404",
         "canonicalId": 185,
         "title": "Barrier",
         "deck": "TWILIGHT_WHITE",
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "id": 405,
+        "id": "0405",
         "title": "Calcite Conundrum",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -236,7 +236,7 @@
         ]
     },
     {
-        "id": 406,
+        "id": "0406",
         "title": "Carousel",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -248,7 +248,7 @@
         ]
     },
     {
-        "id": 407,
+        "id": "0407",
         "title": "Cloning",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -259,7 +259,7 @@
         ]
     },
     {
-        "id": 408,
+        "id": "0408",
         "title": "E-M Pulse",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -270,7 +270,7 @@
         ]
     },
     {
-        "id": 409,
+        "id": "0409",
         "title": "Heavenly Halo Handoff",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -283,7 +283,7 @@
         ]
     },
     {
-        "id": 410,
+        "id": "0410",
         "title": "Lucky Clover - Nondruple (Bunny Modifier)",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -294,7 +294,7 @@
         ]
     },
     {
-        "id": 411,
+        "id": "0411",
         "title": "O. R. P. (Obnoxious Roaming Pest)",
         "deck": "TWILIGHT_WHITE",
         "type": "ROAMING_RED_RUN",
@@ -308,7 +308,7 @@
         ]
     },
     {
-        "id": 412,
+        "id": "0412",
         "title": "Pawn Recall",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -318,7 +318,7 @@
         ]
     },
     {
-        "id": 413,
+        "id": "0413",
         "title": "Random Rotational Roaming",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -329,7 +329,7 @@
         ]
     },
     {
-        "id": 414,
+        "id": "0414",
         "title": "Return A Carrot",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -339,7 +339,7 @@
         ]
     },
     {
-        "id": 415,
+        "id": "0415",
         "title": "Shockwave",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -352,7 +352,7 @@
         ]
     },
     {
-        "id": 416,
+        "id": "0416",
         "title": "Signs of Portent",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -364,7 +364,7 @@
         ]
     },
     {
-        "id": 417,
+        "id": "0417",
         "title": "Weil's Pawn Shop - 3/10",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -374,7 +374,7 @@
         ]
     },
     {
-        "id": 418,
+        "id": "0418",
         "title": "Zodiac Thief",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -386,7 +386,7 @@
         ]
     },
     {
-        "id": 419,
+        "id": "0419",
         "title": "Bonanza",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
@@ -396,7 +396,7 @@
         ]
     },
     {
-        "id": 420,
+        "id": "0420",
         "title": "Forever Fed",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
@@ -407,7 +407,7 @@
         ]
     },
     {
-        "id": 421,
+        "id": "0421",
         "canonicalId": 306,
         "title": "Free Pawn",
         "deck": "TWILIGHT_WHITE",
@@ -419,7 +419,7 @@
         ]
     },
     {
-        "id": 422,
+        "id": "0422",
         "title": "Free Weapon",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
@@ -431,7 +431,7 @@
         ]
     },
     {
-        "id": 423,
+        "id": "0423",
         "title": "Gift Certificate (Rooney's Weapons Emporium)",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
@@ -443,7 +443,7 @@
         ]
     },
     {
-        "id": 424,
+        "id": "0424",
         "title": "Golden Ratio (Almost)",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
@@ -453,7 +453,7 @@
         ]
     },
     {
-        "id": 425,
+        "id": "0425",
         "title": "Retrieval",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
@@ -464,7 +464,7 @@
         ]
     },
     {
-        "id": 426,
+        "id": "0426",
         "title": "Blue Angels",
         "deck": "TWILIGHT_WHITE",
         "type": "VERY_SPECIAL",
@@ -476,7 +476,7 @@
         ]
     },
     {
-        "id": 427,
+        "id": "0427",
         "title": "Defense Card Suspender",
         "deck": "TWILIGHT_WHITE",
         "type": "VERY_SPECIAL",
@@ -486,7 +486,7 @@
         ]
     },
     {
-        "id": 428,
+        "id": "0428",
         "title": "Return To Sender",
         "deck": "TWILIGHT_WHITE",
         "type": "VERY_SPECIAL",
@@ -496,7 +496,7 @@
         ]
     },
     {
-        "id": 429,
+        "id": "0429",
         "title": "Weapon Booster",
         "deck": "TWILIGHT_WHITE",
         "type": "VERY_SPECIAL",
@@ -508,7 +508,7 @@
         ]
     },
     {
-        "id": 430,
+        "id": "0430",
         "title": "White Stuff",
         "deck": "TWILIGHT_WHITE",
         "type": "VERY_SPECIAL",
@@ -521,7 +521,7 @@
         ]
     },
     {
-        "id": 431,
+        "id": "0431",
         "title": "Melding",
         "deck": "TWILIGHT_WHITE",
         "type": "PLAY_IMMEDIATELY",
@@ -530,7 +530,7 @@
         ]
     },
     {
-        "id": 432,
+        "id": "0432",
         "title": "Terrible Misfortune - Bungee",
         "deck": "TWILIGHT_WHITE",
         "type": "PLAY_IMMEDIATELY",
@@ -542,56 +542,56 @@
         ]
     },
     {
-        "id": 433,
+        "id": "0433",
         "canonicalId": 87,
         "title": "1 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
-        "id": 434,
+        "id": "0434",
         "canonicalId": 92,
         "title": "2 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
-        "id": 435,
+        "id": "0435",
         "canonicalId": 92,
         "title": "2 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
-        "id": 436,
+        "id": "0436",
         "canonicalId": 210,
         "title": "3 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
-        "id": 437,
+        "id": "0437",
         "canonicalId": 210,
         "title": "3 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
-        "id": 438,
+        "id": "0438",
         "canonicalId": 98,
         "title": "5 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
-        "id": 439,
+        "id": "0439",
         "canonicalId": 98,
         "title": "5 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
-        "id": 440,
+        "id": "0440",
         "canonicalId": 101,
         "title": "10 Dolla",
         "deck": "TWILIGHT_WHITE",

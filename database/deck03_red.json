@@ -1,6 +1,6 @@
 [
     {
-        "id": 166,
+        "id": "0166",
         "title": "Red Congenial Bunny",
         "deck": "RED",
         "type": "RUN",
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "id": 167,
+        "id": "0167",
         "title": "Red Gleeful Bunny",
         "deck": "RED",
         "type": "RUN",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "id": 168,
+        "id": "0168",
         "title": "Red Lumbering Bunny",
         "deck": "RED",
         "type": "RUN",
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "id": 169,
+        "id": "0169",
         "title": "Red Sinister Bunny",
         "deck": "RED",
         "type": "RUN",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "id": 170,
+        "id": "0170",
         "title": "Red Timid Bunny",
         "deck": "RED",
         "type": "RUN",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": 171,
+        "id": "0171",
         "canonicalId": 172,
         "title": "Choose A Carrot",
         "deck": "RED",
@@ -57,7 +57,7 @@
         ]
     },
     {
-        "id": 172,
+        "id": "0172",
         "title": "Choose A Carrot",
         "deck": "RED",
         "type": "RUN",
@@ -68,7 +68,7 @@
         ]
     },
     {
-        "id": 173,
+        "id": "0173",
         "canonicalId": 21,
         "title": "Choose 2 Carrots",
         "deck": "RED",
@@ -80,7 +80,7 @@
         ]
     },
     {
-        "id": 174,
+        "id": "0174",
         "title": "Feed The Bunny 3/3",
         "deck": "RED",
         "type": "RUN",
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "id": 175,
+        "id": "0175",
         "title": "Feed All Your Bunnies 1/1",
         "deck": "RED",
         "type": "RUN",
@@ -105,7 +105,7 @@
         ]
     },
     {
-        "id": 176,
+        "id": "0176",
         "canonicalId": 505,
         "deck": "RED",
         "title": "Everyone Feed A Bunny 1/1",
@@ -118,7 +118,7 @@
         "water": 1
     },
     {
-        "id": 177,
+        "id": "0177",
         "title": "Suction Cup",
         "deck": "RED",
         "type": "RUN",
@@ -130,7 +130,7 @@
         ]
     },
     {
-        "id": 178,
+        "id": "0178",
         "title": "Mousetrap",
         "deck": "RED",
         "type": "RUN",
@@ -142,7 +142,7 @@
         ]
     },
     {
-        "id": 179,
+        "id": "0179",
         "title": "Grappling Hook",
         "deck": "RED",
         "type": "RUN",
@@ -154,7 +154,7 @@
         ]
     },
     {
-        "id": 180,
+        "id": "0180",
         "title": "Centrifuge",
         "deck": "RED",
         "type": "RUN",
@@ -166,7 +166,7 @@
         ]
     },
     {
-        "id": 181,
+        "id": "0181",
         "title": "Cruise Missile Prime",
         "deck": "RED",
         "type": "ROAMING_RED_RUN",
@@ -182,7 +182,7 @@
         ]
     },
     {
-        "id": 182,
+        "id": "0182",
         "title": "Quite Irascible Diffractable Cheese Balls",
         "deck": "RED",
         "type": "RUN",
@@ -195,7 +195,7 @@
         ]
     },
     {
-        "id": 183,
+        "id": "0183",
         "title": "Activate: The Minilith",
         "deck": "RED",
         "type": "RUN",
@@ -207,7 +207,7 @@
         ]
     },
     {
-        "id": 184,
+        "id": "0184",
         "title": "Bankruptcy",
         "deck": "RED",
         "type": "RUN",
@@ -218,7 +218,7 @@
         ]
     },
     {
-        "id": 185,
+        "id": "0185",
         "title": "Barrier",
         "deck": "RED",
         "type": "RUN",
@@ -233,7 +233,7 @@
         ]
     },
     {
-        "id": 186,
+        "id": "0186",
         "canonicalId": 185,
         "title": "Barrier",
         "deck": "RED",
@@ -249,7 +249,7 @@
         ]
     },
     {
-        "id": 187,
+        "id": "0187",
         "title": "Carrot Exchange",
         "deck": "RED",
         "type": "RUN",
@@ -261,7 +261,7 @@
         ]
     },
     {
-        "id": 188,
+        "id": "0188",
         "title": "Clumsy Congenial",
         "deck": "RED",
         "type": "RUN",
@@ -272,7 +272,7 @@
         ]
     },
     {
-        "id": 189,
+        "id": "0189",
         "title": "Dude, Where's My Carrot?",
         "deck": "RED",
         "type": "RUN",
@@ -284,7 +284,7 @@
         ]
     },
     {
-        "id": 190,
+        "id": "0190",
         "title": "Europan Robotic Titanium Termites",
         "deck": "RED",
         "type": "RUN",
@@ -294,7 +294,7 @@
         ]
     },
     {
-        "id": 191,
+        "id": "0191",
         "title": "Holographic Bunny",
         "deck": "RED",
         "type": "RUN",
@@ -304,7 +304,7 @@
         ]
     },
     {
-        "id": 192,
+        "id": "0192",
         "title": "Lucky Clover – Quindruple (Bunny Modifier)",
         "deck": "RED",
         "type": "RUN",
@@ -315,7 +315,7 @@
         ]
     },
     {
-        "id": 193,
+        "id": "0193",
         "title": "The Mystery Urn",
         "deck": "RED",
         "type": "RUN",
@@ -329,7 +329,7 @@
         ]
     },
     {
-        "id": 194,
+        "id": "0194",
         "title": "Rainbo",
         "deck": "RED",
         "type": "RUN",
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "id": 195,
+        "id": "0195",
         "title": "Red Light District",
         "deck": "RED",
         "type": "RUN",
@@ -352,14 +352,14 @@
         ]
     },
     {
-        "id": 196,
+        "id": "0196",
         "title": "Rooney's Weapons Emporium – Closed",
         "deck": "RED",
         "type": "RUN",
         "bunnyRequirement": "NO"
     },
     {
-        "id": 197,
+        "id": "0197",
         "title": "Bounty Mounty",
         "deck": "RED",
         "type": "SPECIAL",
@@ -369,7 +369,7 @@
         ]
     },
     {
-        "id": 198,
+        "id": "0198",
         "canonicalId": 146,
         "title": "Free Cabbage and Free Water",
         "deck": "RED",
@@ -380,7 +380,7 @@
         ]
     },
     {
-        "id": 199,
+        "id": "0199",
         "title": "Free Defense",
         "deck": "RED",
         "type": "SPECIAL",
@@ -391,7 +391,7 @@
         ]
     },
     {
-        "id": 200,
+        "id": "0200",
         "title": "H. E. M. P. (Highly Explosive Missile Package)",
         "deck": "RED",
         "type": "SPECIAL",
@@ -405,7 +405,7 @@
         ]
     },
     {
-        "id": 201,
+        "id": "0201",
         "title": "Half Price Coupon (Rooney's Weapon Emporium)",
         "deck": "RED",
         "type": "SPECIAL",
@@ -415,7 +415,7 @@
         ]
     },
     {
-        "id": 202,
+        "id": "0202",
         "title": "Show Me The Bunny",
         "deck": "RED",
         "type": "SPECIAL",
@@ -425,7 +425,7 @@
         ]
     },
     {
-        "id": 203,
+        "id": "0203",
         "title": "Bunny To The Future",
         "deck": "RED",
         "type": "VERY_SPECIAL",
@@ -436,7 +436,7 @@
         ]
     },
     {
-        "id": 204,
+        "id": "0204",
         "title": "Guardian Angle",
         "deck": "RED",
         "type": "VERY_SPECIAL",
@@ -446,7 +446,7 @@
         ]
     },
     {
-        "id": 205,
+        "id": "0205",
         "title": "Terrible Misfortune – Gas Main",
         "deck": "RED",
         "type": "PLAY_IMMEDIATELY",
@@ -458,7 +458,7 @@
         ]
     },
     {
-        "id": 206,
+        "id": "0206",
         "title": "Terrible Misfortune – Quicksand",
         "deck": "RED",
         "type": "PLAY_IMMEDIATELY",
@@ -470,7 +470,7 @@
         ]
     },
     {
-        "id": 207,
+        "id": "0207",
         "title": "Zep Tepi",
         "deck": "RED",
         "type": "PLAY_IMMEDIATELY",
@@ -481,63 +481,63 @@
         ]
     },
     {
-        "id": 208,
+        "id": "0208",
         "canonicalId": 87,
         "title": "1 Dolla",
         "deck": "RED",
         "type": "DOLLA"
     },
     {
-        "id": 209,
+        "id": "0209",
         "canonicalId": 92,
         "title": "2 Dolla",
         "deck": "RED",
         "type": "DOLLA"
     },
     {
-        "id": 210,
+        "id": "0210",
         "canonicalId": 210,
         "title": "3 Dolla",
         "deck": "RED",
         "type": "DOLLA"
     },
     {
-        "id": 211,
+        "id": "0211",
         "canonicalId": 210,
         "title": "3 Dolla",
         "deck": "RED",
         "type": "DOLLA"
     },
     {
-        "id": 212,
+        "id": "0212",
         "canonicalId": 210,
         "title": "3 Dolla",
         "deck": "RED",
         "type": "DOLLA"
     },
     {
-        "id": 213,
+        "id": "0213",
         "canonicalId": 98,
         "title": "5 Dolla",
         "deck": "RED",
         "type": "DOLLA"
     },
     {
-        "id": 214,
+        "id": "0214",
         "canonicalId": 98,
         "title": "5 Dolla",
         "deck": "RED",
         "type": "DOLLA"
     },
     {
-        "id": 215,
+        "id": "0215",
         "canonicalId": 101,
         "title": "10 Dolla",
         "deck": "RED",
         "type": "DOLLA"
     },
     {
-        "id": 216,
+        "id": "0216",
         "title": "Rooney's Weapons Emporium – 3/Level (Starter)",
         "deck": "RED",
         "type": "STARTER",
@@ -546,25 +546,25 @@
         ]
     },
     {
-        "id": 217,
+        "id": "0217",
         "title": "Carrot #13 – Teal'c",
         "deck": "RED",
         "type": "CARROT_SUPPLY"
     },
     {
-        "id": 218,
+        "id": "0218",
         "title": "Carrot #14 – Russell",
         "deck": "RED",
         "type": "CARROT_SUPPLY"
     },
     {
-        "id": 219,
+        "id": "0219",
         "title": "Carrot #15 – Buck",
         "deck": "RED",
         "type": "CARROT_SUPPLY"
     },
     {
-        "id": 220,
+        "id": "0220",
         "title": "Carrot #16 – Gus",
         "deck": "RED",
         "type": "CARROT_SUPPLY"
