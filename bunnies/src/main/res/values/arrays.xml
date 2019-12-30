@@ -7,6 +7,8 @@
         <item>@string/deck_violet_booster</item>
         <item>@string/deck_orange_booster</item>
         <item>@string/deck_green_booster</item>
+        <item>@string/deck_kinder_sky_blue_starter</item>
+        <item>@string/deck_kinder_sunshine_yellow_booster</item>
         <item>@string/deck_twilight_white_booster</item>
         <item>@string/deck_stainless_steel_booster</item>
         <item>@string/deck_perfectly_pink_booster</item>
@@ -31,6 +33,8 @@
         <item>VIOLET</item>
         <item>ORANGE</item>
         <item>GREEN</item>
+        <item>KINDER_SKY_BLUE</item>
+        <item>KINDER_SUNSHINE_YELLOW</item>
         <item>TWILIGHT_WHITE</item>
         <item>STAINLESS_STEEL</item>
         <item>PERFECTLY_PINK</item>

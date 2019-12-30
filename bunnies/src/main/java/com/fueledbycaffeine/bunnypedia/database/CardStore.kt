@@ -7,15 +7,27 @@ import io.reactivex.Single
 
 class CardStore(private val dao: CardDao) {
   fun getCards(decks: Set<Deck>, query: String): DataSource.Factory<Int, CardWithRules> {
-    val ftsTerm = query.replace("^0+".toRegex(), "")
-    return if (ftsTerm.isNotEmpty()) {
-      dao.getCardsByDeckAndQuery(decks.toTypedArray(), "$ftsTerm*")
+    return if (query.isNotEmpty()) {
+      // String IDs must be matched with the prefix 0s, so build terms including those leading 0s
+      val ftsTerm = if (query.matches("^\\d+$".toRegex()) && query.length < 4) {
+        val terms = (query.length..4).map { size ->
+          String.format("%0${size}d*", query.toInt())
+        }
+        terms.joinToString(" OR ")
+      } else {
+        "$query*"
+      }
+      dao.getCardsByDeckAndQuery(decks.toTypedArray(), ftsTerm)
     } else {
       dao.getCardsByDeck(decks.toTypedArray())
     }
   }
 
-  fun getCard(id: Int): Single<CardWithRules> {
+  fun getCard(id: String): Single<CardWithRules> {
     return dao.getCard(id)
+  }
+
+  fun findCard(cardId: String): Single<List<CardWithRules>> {
+    return dao.findCard("%$cardId")
   }
 }

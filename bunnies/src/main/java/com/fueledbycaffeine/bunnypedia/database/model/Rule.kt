@@ -20,7 +20,7 @@ data class Rule(
   val id: Int,
 
   @ColumnInfo(index = true)
-  val cardId: Int,
+  val cardId: String,
 
   val title: String,
   val text: String

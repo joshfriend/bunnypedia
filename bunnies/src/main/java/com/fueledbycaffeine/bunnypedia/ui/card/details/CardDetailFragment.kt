@@ -86,7 +86,7 @@ class CardDetailFragment : DaggerFragment() {
       activity.supportActionBar?.apply {
         setDisplayHomeAsUpEnabled(true)
         title = card.title
-        subtitle = "${String.format("#%04d", card.id)} – ${getString(card.deck.description)}"
+        subtitle = "#${card.id} – ${getString(card.deck.description)}"
       }
     }
 
@@ -114,9 +114,7 @@ class CardDetailFragment : DaggerFragment() {
 
     controller.links
       .observeOn(Schedulers.io())
-      .map { uri ->
-        uri.pathSegments[0].toIntOrNull() ?: -1
-      }
+      .map { it.pathSegments[0] }
       .flatMapSingle { cardId ->
         cardStore.getCard(cardId).mapToResult()
       }

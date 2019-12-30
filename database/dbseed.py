@@ -17,7 +17,7 @@ class _Table:
 class Card(_Table):
     DDL = ("""
     CREATE TABLE Card (
-        id INTEGER PRIMARY KEY NOT NULL, canonicalId INTEGER,
+        pk INTEGER PRIMARY KEY NOT NULL, id TEXT NOT NULL, canonicalId TEXT,
         title TEXT NOT NULL, deck TEXT NOT NULL, type TEXT NOT NULL, rank TEXT,
         zodiacSign TEXT, zodiacAnimal TEXT, bunnyRequirement TEXT , dice TEXT,
         symbols TEXT, pawn TEXT, weaponLevel TEXT,
@@ -28,23 +28,27 @@ class Card(_Table):
     );
     """,
     """
+    CREATE UNIQUE INDEX index_Card_id ON Card(id);
+    """,
+    """
     CREATE INDEX index_Card_canonicalId ON Card(canonicalId);
     """,
     )
 
     INSERT_STMT = """
     INSERT INTO Card (
-        id, canonicalId, title, deck, type, rank, zodiacSign, zodiacAnimal, bunnyRequirement,
+        pk, id, canonicalId, title, deck, type, rank, zodiacSign, zodiacAnimal, bunnyRequirement,
         dice, symbols, pawn, weaponLevel, cabbage, radish, water, milk, psi, specialSeries
     ) VALUES (
-        :id, :canonicalId, :title, :deck, :type, :rank, :zodiacSign,
+        :pk, :id, :canonicalId, :title, :deck, :type, :rank, :zodiacSign,
         :zodiacAnimal, :bunnyRequirement, :dice, :symbols, :pawn, :weaponLevel,
         :cabbage, :radish, :water, :milk, :psi, :specialSeries
     );
     """
 
-    def __init__(self, **kwargs):
-        self.id = int(kwargs.get('id'))
+    def __init__(self, pk, **kwargs):
+        self.pk = pk
+        self.id = kwargs.get('id')
         self.canonicalId = kwargs.get('canonicalId')
         self.title = kwargs.get('title')
         self.deck = kwargs.get('deck')
@@ -74,7 +78,7 @@ class Rule(_Table):
 
     DDL = ("""
     CREATE TABLE Rule (
-        id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, cardId INTEGER NOT NULL,
+        id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, cardId TEXT NOT NULL,
         title TEXT NOT NULL, text TEXT NOT NULL,
         FOREIGN KEY(cardId) REFERENCES Card(id) ON DELETE CASCADE
     );
@@ -122,7 +126,8 @@ DB_FILE = join(DB_ASSETS_DIR, 'cards.sqlite3')
 DB_GZ_FILE = join(DB_ASSETS_DIR, 'cards.sqlite3.gz')
 
 cards_data = []
-for deck in glob.glob(JSON_FILES):
+decks = sorted(list(glob.glob(JSON_FILES)))
+for deck in decks:
     with open(deck, 'rb') as fp:
         try:
             data = json.load(fp)
@@ -148,9 +153,9 @@ Card.create_table(conn)
 Rule.create_table(conn)
 conn.commit()
 
-for card_json in cards_data:
+for pk, card_json in enumerate(cards_data):
     try:
-        selectedCard = Card(**card_json)
+        selectedCard = Card(pk + 1, **card_json)
         selectedCard.insert(conn)
     except Exception as e:
         print("%s: %s" % (e.__class__.__name__, e.message))

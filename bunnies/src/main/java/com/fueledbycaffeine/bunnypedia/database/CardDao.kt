@@ -13,11 +13,11 @@ interface CardDao {
   @Transaction
   @Query("""
   SELECT * FROM Card
-  JOIN CardFts ON Card.id = CardFts.docid
+  JOIN CardFts ON Card.pk = CardFts.docid
   WHERE
     deck in (:decks)
     AND CardFts MATCH :ftsTerm
-  ORDER BY id ASC
+  ORDER BY pk ASC
   """)
   fun getCardsByDeckAndQuery(
     decks: Array<Deck>,
@@ -25,10 +25,14 @@ interface CardDao {
   ): DataSource.Factory<Int, CardWithRules>
 
   @Transaction
-  @Query("SELECT * FROM Card WHERE deck in (:decks) ORDER BY id ASC")
+  @Query("SELECT * FROM Card WHERE deck in (:decks) ORDER BY pk ASC")
   fun getCardsByDeck(decks: Array<Deck>): DataSource.Factory<Int, CardWithRules>
 
   @Transaction
   @Query("SELECT * FROM Card WHERE id = :cardId")
-  fun getCard(cardId: Int): Single<CardWithRules>
+  fun getCard(cardId: String): Single<CardWithRules>
+
+  @Transaction
+  @Query("SELECT * FROM Card WHERE id LIKE :term")
+  fun findCard(term: String): Single<List<CardWithRules>>
 }

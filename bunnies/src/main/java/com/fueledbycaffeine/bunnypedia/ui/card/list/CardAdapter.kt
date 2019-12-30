@@ -13,7 +13,7 @@ import org.jetbrains.anko.layoutInflater
 class CardAdapter(
   val fragment: Fragment,
   viewType: CardViewType,
-  private val onCardSelected: (Int) -> Unit
+  private val onCardSelected: (String) -> Unit
 ) : PagedListAdapter<CardWithRules, CardViewHolder>(CARD_COMPARATOR), SectionTitleProvider {
 
   companion object {

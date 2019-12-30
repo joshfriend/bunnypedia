@@ -89,10 +89,9 @@ class CardListFragment : DaggerFragment() {
 
     queryEvents.filter { it.isSubmitted }
       .map { it.queryText.toString().trim() }
-      .map { it.toIntOrNull() ?: -1 }
       .observeOn(Schedulers.io())
       .flatMapSingle { cardId ->
-        cardStore.getCard(cardId).mapToResult()
+        cardStore.findCard(cardId).mapToResult()
       }
       .observeOn(AndroidSchedulers.mainThread())
       .subscribeBy(
@@ -100,10 +99,13 @@ class CardListFragment : DaggerFragment() {
           hideSoftKeyboard()
           when (result) {
             is QueryResult.Found<*> -> {
-              val item = result.item as CardWithRules
-              search.setQuery("", false)
-              searchMenuItem.collapseActionView()
-              this.onCardSelected(item.card.id)
+              @Suppress("UNCHECKED_CAST")
+              val items = result.item as List<CardWithRules>
+              if (items.size == 1) {
+                search.setQuery("", false)
+                searchMenuItem.collapseActionView()
+                this.onCardSelected(items.first().card.id)
+              }
             }
             is QueryResult.Error -> Timber.w("${result.error}")
           }
@@ -205,7 +207,7 @@ class CardListFragment : DaggerFragment() {
     }
   }
 
-  private fun onCardSelected(cardId: Int) {
+  private fun onCardSelected(cardId: String) {
     findNavController().navigate(CardListFragmentDirections.showDetail(cardId))
   }
 }

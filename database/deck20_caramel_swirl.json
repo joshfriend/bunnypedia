@@ -37,7 +37,7 @@
   },
   {
     "id": "1105",
-    "canonicalId": 1078,
+    "canonicalId": "1078",
     "title": "Choose A Carrot",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
@@ -49,7 +49,7 @@
   },
   {
     "id": "1106",
-    "canonicalId": 1078,
+    "canonicalId": "1078",
     "title": "Choose A Carrot",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
@@ -61,7 +61,7 @@
   },
   {
     "id": "1107",
-    "canonicalId": 1079,
+    "canonicalId": "1079",
     "title": "Choose 2 Carrots",
     "deck": "CARAMEL_SWIRL",
     "type": "RUN",
@@ -141,7 +141,7 @@
     "dice": ["CLEAR"],
     "rules": [
       {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 16 to survive."},
-      {"title": "Holographic Bunny", "text": "Magnetic Monopole can be used to kill the <a href=\"bunnypedia://cards/958\">Holographic Bunny</a>."}
+      {"title": "Holographic Bunny", "text": "Magnetic Monopole can be used to kill the <a href=\"bunnypedia://cards/0958\">Holographic Bunny</a>."}
     ]
   },
   {
@@ -235,7 +235,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Single raises the level of any weapon by one."},
-      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."}
+      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/0049\">Area 51</a> or the <a href=\"bunnypedia://cards/0299\">Mothership</a>."}
     ]
   },
   {
@@ -246,7 +246,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Funky Fungus Double raises the level of any weapon by one."},
-      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."}
+      {"title": "Abduction", "text": "Funky Fungus modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/0049\">Area 51</a> or the <a href=\"bunnypedia://cards/0299\">Mothership</a>."}
     ]
   },
   {
@@ -301,9 +301,9 @@
       {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Heptdruple lowers the level of any weapon by seven."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
-      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."},
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/0049\">Area 51</a> or the <a href=\"bunnypedia://cards/0299\">Mothership</a>."},
       {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://cards/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
-      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://cards/822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://cards/0822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
     ]
   },
   {
@@ -324,7 +324,7 @@
     "type": "RUN",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a player to purchase a Violet item from any opponent for 5 Dolla: a Violet bunny, a Violet Pawn or a '<a href=\"bunnypedia://cards/977\">Whiner Senator</a> Bunny Modifier card."}
+      {"title": "Card Text", "text": "May be used once by a player to purchase a Violet item from any opponent for 5 Dolla: a Violet bunny, a Violet Pawn or a '<a href=\"bunnypedia://cards/0977\">Whiner Senator</a> Bunny Modifier card."}
     ]
   },
   {
@@ -466,7 +466,7 @@
     "type": "VERY_SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once by a left-handed player while the direction of play is counter-clockwise to immediately choose any five Carrots from Kaballa's Market. Or may be used immediately to eliminate <a href=\"bunnypedia://cards/561\">Baseball Blues</a> or <a href=\"bunnypedia://cards/1183\">Narcoleptic Dog</a>. May be used at any time!"}
+      {"title": "Card Text", "text": "May be used once by a left-handed player while the direction of play is counter-clockwise to immediately choose any five Carrots from Kaballa's Market. Or may be used immediately to eliminate <a href=\"bunnypedia://cards/0561\">Baseball Blues</a> or <a href=\"bunnypedia://cards/1183\">Narcoleptic Dog</a>. May be used at any time!"}
     ]
   },
   {
@@ -481,7 +481,7 @@
   },
   {
     "id": "1144",
-    "canonicalId": 975,
+    "canonicalId": "0975",
     "title": "Shiner Senator (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
     "type": "SENATOR",
@@ -493,7 +493,7 @@
   },
   {
     "id": "1145",
-    "canonicalId": 977,
+    "canonicalId": "0977",
     "title": "Whiner Senator (Bunny Modifier)",
     "deck": "CARAMEL_SWIRL",
     "type": "SENATOR",
@@ -511,7 +511,7 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "All Bunny Modifier cards under bunnies in The Bunny Circle are moved to the next bunny counter-clockwise."},
-      {"title": "Heavenly Halo", "text": "Counter-Clock Warlock is one of the few cards which can be used to remove <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> from a bunny."}
+      {"title": "Heavenly Halo", "text": "Counter-Clock Warlock is one of the few cards which can be used to remove <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> from a bunny."}
     ]
   },
   {
@@ -533,7 +533,7 @@
     "rules": [
       {"title": "Card Text", "text": "While water skiing in the Arctic Circle, one of your bunnies hits a frozen fjord!"},
       {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
@@ -545,26 +545,26 @@
     "rules": [
       {"title": "Card Text", "text": "One of your bunnies caught his head in a mechanical rice picker!"},
       {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
     "id": "1150",
-    "canonicalId": 87,
+    "canonicalId": "0087",
     "title": "1 Dolla",
     "deck": "CARAMEL_SWIRL",
     "type": "DOLLA"
   },
   {
     "id": "1151",
-    "canonicalId": 210,
+    "canonicalId": "0210",
     "title": "3 Dolla",
     "deck": "CARAMEL_SWIRL",
     "type": "DOLLA"
   },
   {
     "id": "1152",
-    "canonicalId": 101,
+    "canonicalId": "0101",
     "title": "10 Dolla",
     "deck": "CARAMEL_SWIRL",
     "type": "DOLLA"

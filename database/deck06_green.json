@@ -46,7 +46,7 @@
   },
   {
     "id": "0336",
-    "canonicalId": 172,
+    "canonicalId": "0172",
     "title": "Choose A Carrot",
     "deck": "GREEN",
     "type": "RUN",
@@ -58,7 +58,7 @@
   },
   {
     "id": "0337",
-    "canonicalId": 172,
+    "canonicalId": "0172",
     "title": "Choose A Carrot",
     "deck": "GREEN",
     "type": "RUN",
@@ -70,7 +70,7 @@
   },
   {
     "id": "0338",
-    "canonicalId": 21,
+    "canonicalId": "0021",
     "title": "Choose 2 Carrots",
     "deck": "GREEN",
     "type": "RUN",
@@ -82,7 +82,7 @@
   },
   {
     "id": "0339",
-    "canonicalId": 21,
+    "canonicalId": "0021",
     "title": "Choose 2 Carrots",
     "deck": "GREEN",
     "type": "RUN",
@@ -118,7 +118,7 @@
   },
   {
     "id": "0342",
-    "canonicalId": 286,
+    "canonicalId": "0286",
     "title": "Random FTB",
     "deck": "GREEN",
     "type": "RUN",
@@ -200,7 +200,7 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "RED", "PINK"],
     "rules": [
       {"title": "Card Text", "text": "Each die may be rolled three times. Put rolls of six aside. If three sixes are rolled then the player revives three bunnies (of those colors) back from the dead or discard pile (if available)."},
-      {"title": "Additional Rules", "text": "Half color bunnies may be revived as well provided that at least one of the colors match. <a href=\"bunnypedia://cards/57\">Free Agent</a>, Specialty bunnies and Celebrity bunnies may not be revived using this card. The maximum number of bunnies that a player may revive is three. Extra rolls of 6 may give a player more color choices, but not more bunnies."}
+      {"title": "Additional Rules", "text": "Half color bunnies may be revived as well provided that at least one of the colors match. <a href=\"bunnypedia://cards/0057\">Free Agent</a>, Specialty bunnies and Celebrity bunnies may not be revived using this card. The maximum number of bunnies that a player may revive is three. Extra rolls of 6 may give a player more color choices, but not more bunnies."}
     ]
   },
   {
@@ -210,8 +210,8 @@
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "May be used once to connect the fate of two adjacent bunnies. Bunnies share <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a>, <a href=\"bunnypedia://cards/61\">Clover</a>, <a href=\"bunnypedia://cards/239\">Bunny Booster</a>, <a href=\"bunnypedia://cards/151\">Containment Suit</a>, and Rank."},
-      {"title": "Additional Rules", "text": "If one bunny is killed, then the other one dies as well. Bunnies separated by a Barrier may not be joined. Any object (a bunny, a <a href=\"bunnypedia://cards/185\">Barrier</a> or <a href=\"bunnypedia://cards/717\">The Djarnak</a>) placed between two joined bunnies breaks the connection and discards the Fingercuffs."}
+      {"title": "Card Text", "text": "May be used once to connect the fate of two adjacent bunnies. Bunnies share <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a>, <a href=\"bunnypedia://cards/0061\">Clover</a>, <a href=\"bunnypedia://cards/0239\">Bunny Booster</a>, <a href=\"bunnypedia://cards/0151\">Containment Suit</a>, and Rank."},
+      {"title": "Additional Rules", "text": "If one bunny is killed, then the other one dies as well. Bunnies separated by a Barrier may not be joined. Any object (a bunny, a <a href=\"bunnypedia://cards/0185\">Barrier</a> or <a href=\"bunnypedia://cards/0717\">The Djarnak</a>) placed between two joined bunnies breaks the connection and discards the Fingercuffs."}
     ]
   },
   {
@@ -258,11 +258,11 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "May be placed under any bunny. Octdruple Lucky Clover lowers the level of any weapon by eight."},
-      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://cards/462\">Miracle Growth</a> can be used to double the amount of clover"},
-      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://cards/53\">Black Cat</a> can remove clover modifiers from a bunny."},
+      {"title": "Miracle Growth", "text": "<a href=\"bunnypedia://cards/0462\">Miracle Growth</a> can be used to double the amount of clover"},
+      {"title": "Black Cat", "text": "The <a href=\"bunnypedia://cards/0053\">Black Cat</a> can remove clover modifiers from a bunny."},
       {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by clover modifiers."},
       {"title": "Gender Weapons", "text": "Gender Weapons are not affected by clover modifiers."},
-      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a>."}
+      {"title": "Abduction", "text": "Clover modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/0049\">Area 51</a> or the <a href=\"bunnypedia://cards/0299\">Mothership</a>."}
     ]
   },
   {
@@ -274,7 +274,7 @@
     "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "BLACK", "RED", "ZODIAC"],
     "rules": [
       {"title": "Card Text", "text": "The player may roll the dice as many times as the numerical value of the current month. If the Zodiac is either the player's sign or the current sign and the numbers 2 - 1 - 6 - 10 appear on at least one die each then the player receives all of the remaining Zodiac Cards from the Draw Pile."},
-      {"title": "Additional Rules", "text": "While rolling for Precession, a player may not save a die roll from one attempt to the next. All dice must be rolled for each attempt. Since the current age in the zodiac is <a href=\"bunnypedia://cards/385\">Pisces</a>, any player rolling the Pisces zodiac sign during any attempt will win Precession automatically regardless of the outcome of the other seven 12-sided dice.<br><br>If you are still playing Killer Bunnies® and the Quest for the Magic Carrot in the year 2060, the automatic win zodiac sign will change to <a href=\"bunnypedia://cards/384\">Aquarius</a>. Please note that the exact date for the ‘Dawning of the Age of Aquarius' is not known with any certainty. So please accept the year 2060 as our best bunny guess."}
+      {"title": "Additional Rules", "text": "While rolling for Precession, a player may not save a die roll from one attempt to the next. All dice must be rolled for each attempt. Since the current age in the zodiac is <a href=\"bunnypedia://cards/0385\">Pisces</a>, any player rolling the Pisces zodiac sign during any attempt will win Precession automatically regardless of the outcome of the other seven 12-sided dice.<br><br>If you are still playing Killer Bunnies® and the Quest for the Magic Carrot in the year 2060, the automatic win zodiac sign will change to <a href=\"bunnypedia://cards/0384\">Aquarius</a>. Please note that the exact date for the ‘Dawning of the Age of Aquarius' is not known with any certainty. So please accept the year 2060 as our best bunny guess."}
     ]
   },
   {
@@ -289,7 +289,7 @@
   },
   {
     "id": "0356",
-    "canonicalId": 303,
+    "canonicalId": "0303",
     "title": "Weil's Pawn Shop – Closed!",
     "deck": "GREEN",
     "type": "RUN",
@@ -317,12 +317,12 @@
     "rules": [
       {"title": "Card Text", "text": "If any die rolled matches the current day of the month then the player holding the Zodiac Card that matches the symbol rolled on the Zodiac die must discard all possessions, draw new cards and start the game over."},
       {"title": "Additional Rules", "text": "Zodiac Terminator cannot be played after the 20th day of any month since no die rolled for this card has more than twenty sides."},
-      {"title": "Happy Scrappy Hero Pup", "text": "<a href=\"bunnypedia://cards/482\">Happy Scrappy Hero Pup</a> can be used to eliminate the Zodiac Terminator."}
+      {"title": "Happy Scrappy Hero Pup", "text": "<a href=\"bunnypedia://cards/0482\">Happy Scrappy Hero Pup</a> can be used to eliminate the Zodiac Terminator."}
     ]
   },
   {
     "id": "0359",
-    "canonicalId": 199,
+    "canonicalId": "0199",
     "title": "Free Defense",
     "deck": "GREEN",
     "type": "SPECIAL",
@@ -351,7 +351,7 @@
     "type": "SPECIAL",
     "bunnyRequirement": "PLAY",
     "rules": [
-      {"title": "Card Text", "text": "May be used once to double the amount of cabbage on any pending <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> card."}
+      {"title": "Card Text", "text": "May be used once to double the amount of cabbage on any pending <a href=\"bunnypedia://cards/0024\">Feed The Bunny</a> card."}
     ]
   },
   {
@@ -362,7 +362,7 @@
     "bunnyRequirement": "NO",
     "symbols": ["MYSTERIOUS_PLACE_BALL"],
     "rules": [
-      {"title": "Card Text", "text": "Allows any one player to protect his bunnies from <a href=\"bunnypedia://cards/294\">Plutonium</a>, <a href=\"bunnypedia://cards/182\">Cheese Balls</a>, and <a href=\"bunnypedia://cards/237\">Anti-Matter Rasins</a>. May be used at any time! (and kept for the duration of the game!)"},
+      {"title": "Card Text", "text": "Allows any one player to protect his bunnies from <a href=\"bunnypedia://cards/0294\">Plutonium</a>, <a href=\"bunnypedia://cards/0182\">Cheese Balls</a>, and <a href=\"bunnypedia://cards/0237\">Anti-Matter Rasins</a>. May be used at any time! (and kept for the duration of the game!)"},
       {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
     ]
   },
@@ -374,7 +374,7 @@
     "bunnyRequirement": "PLAY",
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player. Any consequence of death suffered by the player's bunny (or bunnies) will also befall the opponent's bunny (or bunnies). May be used at any time!"},
-      {"title": "Additional Rules", "text": "Operation Spoilsport may be used by a player to avenge only his own bunny (or bunnies). Any consequence of death suffered by the player's bunny (or bunnies) in The Bunny Circle will also be suffered by the opponent's bunny (or bunnies) in The Bunny Circle. For example, let's suppose that an opponent kills a player's bunny with a <a href=\"bunnypedia://cards/346\">Leviathan</a>. The player may use Operation Spoilsport to automatically kill one of the opponent's bunnies. The player must, however, use Operation Spoilsport before the next player starts his turn. For another example, if the opponent uses the <a href=\"bunnypedia://cards/131\">Sea Whiz Mount</a> on the player and kills three of his bunnies, then the player may immediately use Operation Spoilsport to kill up to three of the opponent's bunnies (if the opponent has three bunnies in The Bunny Circle)."}
+      {"title": "Additional Rules", "text": "Operation Spoilsport may be used by a player to avenge only his own bunny (or bunnies). Any consequence of death suffered by the player's bunny (or bunnies) in The Bunny Circle will also be suffered by the opponent's bunny (or bunnies) in The Bunny Circle. For example, let's suppose that an opponent kills a player's bunny with a <a href=\"bunnypedia://cards/0346\">Leviathan</a>. The player may use Operation Spoilsport to automatically kill one of the opponent's bunnies. The player must, however, use Operation Spoilsport before the next player starts his turn. For another example, if the opponent uses the <a href=\"bunnypedia://cards/0131\">Sea Whiz Mount</a> on the player and kills three of his bunnies, then the player may immediately use Operation Spoilsport to kill up to three of the opponent's bunnies (if the opponent has three bunnies in The Bunny Circle)."}
     ]
   },
   {
@@ -406,55 +406,55 @@
     "bunnyRequirement": "NO",
     "rules": [
       {"title": "Card Text", "text": "While hang gliding for the first time one of your bunnies is caught in a serious down draft!"},
-      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
-      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a>"},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
     ]
   },
   {
     "id": "0367",
-    "canonicalId": 87,
+    "canonicalId": "0087",
     "title": "1 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
     "id": "0368",
-    "canonicalId": 92,
+    "canonicalId": "0092",
     "title": "2 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
     "id": "0369",
-    "canonicalId": 210,
+    "canonicalId": "0210",
     "title": "3 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
     "id": "0370",
-    "canonicalId": 210,
+    "canonicalId": "0210",
     "title": "3 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
     "id": "0371",
-    "canonicalId": 98,
+    "canonicalId": "0098",
     "title": "5 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
     "id": "0372",
-    "canonicalId": 98,
+    "canonicalId": "0098",
     "title": "5 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"
   },
   {
     "id": "0373",
-    "canonicalId": 101,
+    "canonicalId": "0101",
     "title": "10 Dolla",
     "deck": "GREEN",
     "type": "DOLLA"

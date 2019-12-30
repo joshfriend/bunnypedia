@@ -95,7 +95,7 @@
         "specialSeries": "THETA",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://cards/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://cards/744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://cards/136\">Carrot Thief</a>, or <a href=\"bunnypedia://cards/243\">Low Jack Kojak</a>."},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://cards/0189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://cards/0744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://cards/0136\">Carrot Thief</a>, or <a href=\"bunnypedia://cards/0243\">Low Jack Kojak</a>."},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://cards/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot."}
         ]
     },
@@ -106,7 +106,7 @@
         "specialSeries": "THETA",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://cards/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://cards/744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://cards/136\">Carrot Thief</a>, or <a href=\"bunnypedia://cards/243\">Low Jack Kojak</a>."},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://cards/0189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://cards/0744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://cards/0136\">Carrot Thief</a>, or <a href=\"bunnypedia://cards/0243\">Low Jack Kojak</a>."},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://cards/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot."}
         ]
     },
@@ -144,7 +144,7 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be given to any player who must correctly guess either the Violet or the Green roll to be the higher number for all of his bunnies in The Bunny Circle to survive."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://cards/429\">Weapon Booster</a> or <a href=\"bunnypedia://cards/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://cards/0429\">Weapon Booster</a> or <a href=\"bunnypedia://cards/0484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
             {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
         ]
     },
@@ -245,7 +245,7 @@
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to place any one Aggressive card from his hand off to the side and to use it just after the last Carrot is claimed."},
             {"title": "Additional Rules", "text": "Fat Bunny Sings may be used once by a player to place any one Aggressive card (a card with a Pink Rectangular Box) from his hand off to the side and to use it just after the last Carrot is claimed but before any of the small cards (Mysterious Place, Zodiac or Carrot) are revealed. The player must still have a bunny in The Bunny Circle to use the Aggressive card."},
-            {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://cards/16\">Choose A Carrot</a> (any amount of Carrots) cards."}
+            {"title": "Aggressive Cards", "text": "All cards that have a Pink rectangular box on the left border of the card are considered to be Aggressive cards with the exception of <a href=\"bunnypedia://cards/0016\">Choose A Carrot</a> (any amount of Carrots) cards."}
         ]
     },
     {
@@ -439,11 +439,11 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
-            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://cards/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> or <a href=\"bunnypedia://cards/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
-            {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://cards/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://cards/80\">Magic Spatula</a>."},
-            {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://cards/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://cards/287\">Boomerang</a><li><a href=\"bunnypedia://cards/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://cards/480\">Electron Tunneling</a><li><a href=\"bunnypedia://cards/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://cards/400\">Psychic Waves</a><li><a href=\"bunnypedia://cards/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://cards/343\">Snowball</a></ul>"},
-            {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://cards/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
-            {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://cards/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://cards/0048\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://cards/0054\">Cyber Bunny</a> or <a href=\"bunnypedia://cards/0181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://cards/0190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://cards/0080\">Magic Spatula</a>."},
+            {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://cards/0565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://cards/0287\">Boomerang</a><li><a href=\"bunnypedia://cards/0188\">Clumsy Congenial</a><li><a href=\"bunnypedia://cards/0480\">Electron Tunneling</a><li><a href=\"bunnypedia://cards/0292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://cards/0400\">Psychic Waves</a><li><a href=\"bunnypedia://cards/0452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://cards/0343\">Snowball</a></ul>"},
+            {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://cards/0349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
+            {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://cards/0480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
         ]
     },
     {
@@ -488,7 +488,7 @@
         "bunnyRequirement": "PLAY",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player and given to any opponent who must immediately attempt to kill one of his own bunnies. The opponent may use only the cards from his five-card hand. If none of his bunnies has been killed, then the opponent must discard the remaining cards in his five-card hand and all of his bunnies in The Bunny Circle."},
-            {"title": "Additional Rules", "text": "Gazpacho Soup may be used once by a player and given to any opponent who must immediately attempt to kill one of his own bunnies. The opponent may use only the cards from his five-card hand. These cards may be weapon cards or other cards that kill bunnies during the same turn (not <a href=\"bunnypedia://cards/24\">Feed The Bunny</a> cards). If the opponent has exhausted all of his options and none of his bunnies has been killed, then the opponent must discard the remaining cards in his five-card hand and all of his bunnies (including <a href=\"bunnypedia://cards/191\">Holographic</a>) in The bunny Circle. Bunnies with a <a href=\"bunnypedia://cards/58\">Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a> bunny modifier remain. The opponent must draw five new cards from the Draw Pile."}
+            {"title": "Additional Rules", "text": "Gazpacho Soup may be used once by a player and given to any opponent who must immediately attempt to kill one of his own bunnies. The opponent may use only the cards from his five-card hand. These cards may be weapon cards or other cards that kill bunnies during the same turn (not <a href=\"bunnypedia://cards/0024\">Feed The Bunny</a> cards). If the opponent has exhausted all of his options and none of his bunnies has been killed, then the opponent must discard the remaining cards in his five-card hand and all of his bunnies (including <a href=\"bunnypedia://cards/0191\">Holographic</a>) in The bunny Circle. Bunnies with a <a href=\"bunnypedia://cards/0058\">Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a> bunny modifier remain. The opponent must draw five new cards from the Draw Pile."}
         ]
     },
     {
@@ -553,13 +553,13 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "During a freak thunderstorm near a clocktower at exactly 10:04pm, one of your bunnies is struck by a bolt of lightning!"},
-            {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
-            {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+            {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a>"},
+            {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
         ]
     },
     {
         "id": "1094",
-        "canonicalId": 101,
+        "canonicalId": "0101",
         "title": "10 Dolla",
         "deck": "FANTASTIC",
         "type": "DOLLA"
@@ -575,7 +575,7 @@
     },
     {
         "id": "1096",
-        "canonicalId": 329,
+        "canonicalId": "0329",
         "title": "Random Dolla",
         "deck": "FANTASTIC",
         "type": "DOLLA",
@@ -589,7 +589,7 @@
         "deck": "FANTASTIC",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://cards/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://cards/744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://cards/136\">Carrot Thief</a>, or <a href=\"bunnypedia://cards/243\">Low Jack Kojak</a>."},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://cards/0189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://cards/0744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://cards/0136\">Carrot Thief</a>, or <a href=\"bunnypedia://cards/0243\">Low Jack Kojak</a>."},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://cards/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot."}
         ]
     },
@@ -599,7 +599,7 @@
         "deck": "FANTASTIC",
         "type": "CARROT_SUPPLY",
         "rules": [
-            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://cards/189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://cards/744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://cards/136\">Carrot Thief</a>, or <a href=\"bunnypedia://cards/243\">Low Jack Kojak</a>."},
+            {"title": "Special Numbering", "text": "Unlike the first 20 carrots, This carrot has a letter instead of a number as its identifier. This means that this carrot cannot be taken by <a href=\"bunnypedia://cards/0189\">Dude Where's My Carrot?</a>, <a href=\"bunnypedia://cards/0744\">Even Stephen Odd Todd</a>, <a href=\"bunnypedia://cards/0136\">Carrot Thief</a>, or <a href=\"bunnypedia://cards/0243\">Low Jack Kojak</a>."},
             {"title": "Dollar Make Me Holler", "text": "Alpha carrots may be stolen using <a href=\"bunnypedia://cards/1085\">Dollar Make Me Holler</a> if the city identification letter of the winning Dollar bill matches the alpha designation of the carrot."}
         ]
     },

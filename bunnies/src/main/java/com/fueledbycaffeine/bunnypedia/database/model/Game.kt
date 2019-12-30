@@ -4,6 +4,6 @@ enum class Game {
   QUEST,
   CONQUEST,
   KINDER,
-  JUPITER,
+  // JUPITER,
   ;
 }

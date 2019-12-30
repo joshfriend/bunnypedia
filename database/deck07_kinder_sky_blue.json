@@ -1,0 +1,656 @@
+[
+  {
+    "id": "001",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Blue Hero Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "002",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Blue Perky Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "003",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Blue Smart Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "004",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Blue Sporty Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "005",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Green Hero Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "006",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Green Perky Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "007",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Green Smart Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "008",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Green Sporty Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "009",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Orange Hero Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "010",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Orange Perky Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "011",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Orange Smart Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "012",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Orange Sporty Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "013",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Violet Hero Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "014",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Violet Perky Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "015",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Violet Smart Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "016",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Violet Sporty Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "017",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "018",
+    "canonicalId": "017",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "019",
+    "canonicalId": "017",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "020",
+    "canonicalId": "017",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "021",
+    "canonicalId": "017",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Take a Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "022",
+    "canonicalId": "017",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Take a Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "023",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Feed The Bunny - Cabbage",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "024",
+    "canonicalId": "023",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Feed The Bunny - Cabbage",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "025",
+    "canonicalId": "023",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Feed The Bunny - Cabbage",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "cabbage": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "026",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Feed The Bunny - Water",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "water": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "027",
+    "canonicalId": "026",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Feed The Bunny - Water",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "water": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "028",
+    "canonicalId": "026",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Feed The Bunny - Water",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "water": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "029",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Pot Handle - Safety Hazard 01",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "030",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Tall Stairs - Safety Hazard 02",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "symbols": ["MYSTERIOUS_PLACE_BALL"],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      },
+      {
+        "title": "Mysterious Place",
+        "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."
+      }
+    ]
+  },
+  {
+    "id": "031",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Icy Sidewalk - Safety Hazard 03",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "032",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Electrical Outlet - Safety Hazard 04",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "033",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Matches - Safety Hazard 05",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "034",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Broken Glass - Safety Hazard 06",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "035",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Cabbage",
+    "type": "SPECIAL",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to take a Cabbage Card from Kaballa's Market."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Cabbage may not be used if Kaballa's Market is closed."
+      }
+    ]
+  },
+  {
+    "id": "036",
+    "canonicalId": "035",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Cabbage",
+    "type": "SPECIAL",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to take a Cabbage Card from Kaballa's Market."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Cabbage may not be used if Kaballa's Market is closed."
+      }
+    ]
+  },
+  {
+    "id": "037",
+    "canonicalId": "035",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Cabbage",
+    "type": "SPECIAL",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to take a Cabbage Card from Kaballa's Market."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Cabbage may not be used if Kaballa's Market is closed."
+      }
+    ]
+  },
+  {
+    "id": "038",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Water",
+    "type": "SPECIAL",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to take a Water Card from Kaballa's Market."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Water may not be used if Kaballa's Market is closed."
+      }
+    ]
+  },
+  {
+    "id": "039",
+    "canonicalId": "038",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Water",
+    "type": "SPECIAL",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to take a Water Card from Kaballa's Market."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Water may not be used if Kaballa's Market is closed."
+      }
+    ]
+  },
+  {
+    "id": "040",
+    "canonicalId": "038",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Water",
+    "type": "SPECIAL",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to take a Water Card from Kaballa's Market."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Water may not be used if Kaballa's Market is closed."
+      }
+    ]
+  },
+  {
+    "id": "041",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "1 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "042",
+    "canonicalId": "041",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "1 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "043",
+    "canonicalId": "041",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "1 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "044",
+    "canonicalId": "041",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "1 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "045",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "2 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "046",
+    "canonicalId": "045",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "2 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "047",
+    "canonicalId": "045",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "2 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "048",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "5 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "049",
+    "canonicalId": "048",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "5 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "050",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Carrot A – Athena",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "051",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Carrot B – Beverly",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "052",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Carrot C – Cleopatra",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "053",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Carrot D – Dave",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "054",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Carrot E – Eunice",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "055",
+    "deck": "KINDER_SKY_BLUE",
+    "title": "Carrot F – Fonzie",
+    "type": "CARROT_SUPPLY"
+  }
+]

@@ -41,7 +41,7 @@
         <deepLink app:uri="bunnypedia://cards/{id}"/>
         <argument
             android:name="id"
-            app:argType="integer"
+            app:argType="string"
             />
         <action
             android:id="@+id/nextCard"

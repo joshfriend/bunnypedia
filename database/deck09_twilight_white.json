@@ -46,7 +46,7 @@
     },
     {
         "id": "0391",
-        "canonicalId": 392,
+        "canonicalId": "0392",
         "title": "Choose A Carrot",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -104,7 +104,7 @@
     },
     {
         "id": "0396",
-        "canonicalId": 286,
+        "canonicalId": "0286",
         "title": "Random FTB",
         "deck": "TWILIGHT_WHITE",
         "type": "RUN",
@@ -125,7 +125,7 @@
         "dice": ["CLEAR"],
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 17 to survive."},
-            {"title": "Containment Suit", "text": "The <a href=\"bunnypedia://cards/151\">Containment Suit</a> will protect a bunny against Plant Spores."}
+            {"title": "Containment Suit", "text": "The <a href=\"bunnypedia://cards/0151\">Containment Suit</a> will protect a bunny against Plant Spores."}
         ]
     },
     {
@@ -161,8 +161,8 @@
         "weaponLevel": "20",
         "dice": ["CLEAR"],
         "rules": [
-            {"title": "Card Text", "text": "Before playing Psychic Waves on any opponent's bunny the player must secretly write down one of the six symbols. If the opponent guesses the incorrect symbol then his bunny dies (<a href=\"bunnypedia://cards/61\">Clover</a> bunnies may survive). Psychic Waves is then placed on the next bunny clockwise and the process is repeated."},
-            {"title": "Additional Rules", "text": "Before playing Psychic Waves on any opponent's bunny in The Bunny Circle, the player must secretly write down one of the six symbols (Triangle, Rectangle, Spiral, Ellipse, Star or Cross) on a piece of paper hidden from all of the other players.<br><br>The opponent whose bunny was targeted by Psychic Waves will try to guess the symbol chosen by the player. If the opponent guesses the incorrect symbol, then his bunny dies. Clover bunnies (bunnies with Clover cards underneath them) may survive since Clovers lower the level of an attacking weapon.<br><br>Psychic Waves is then placed on the next bunny clockwise in The Bunny Circle and the process is repeated. This continues up to five times, or until the correct symbol is guessed. Obviously as Psychic Waves continues, it becomes easier to guess the symbol with fewer choices.<br><br>Psychic Waves is played during one player's turn, and no <a href=\"bunnypedia://cards/185\">Barrier</a> can stop Psychic Waves."}
+            {"title": "Card Text", "text": "Before playing Psychic Waves on any opponent's bunny the player must secretly write down one of the six symbols. If the opponent guesses the incorrect symbol then his bunny dies (<a href=\"bunnypedia://cards/0061\">Clover</a> bunnies may survive). Psychic Waves is then placed on the next bunny clockwise and the process is repeated."},
+            {"title": "Additional Rules", "text": "Before playing Psychic Waves on any opponent's bunny in The Bunny Circle, the player must secretly write down one of the six symbols (Triangle, Rectangle, Spiral, Ellipse, Star or Cross) on a piece of paper hidden from all of the other players.<br><br>The opponent whose bunny was targeted by Psychic Waves will try to guess the symbol chosen by the player. If the opponent guesses the incorrect symbol, then his bunny dies. Clover bunnies (bunnies with Clover cards underneath them) may survive since Clovers lower the level of an attacking weapon.<br><br>Psychic Waves is then placed on the next bunny clockwise in The Bunny Circle and the process is repeated. This continues up to five times, or until the correct symbol is guessed. Obviously as Psychic Waves continues, it becomes easier to guess the symbol with fewer choices.<br><br>Psychic Waves is played during one player's turn, and no <a href=\"bunnypedia://cards/0185\">Barrier</a> can stop Psychic Waves."}
         ]
     },
     {
@@ -176,7 +176,7 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing correctly either the Cathode (Black) or Anode (Red) roll to be the higher number."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://cards/429\">Weapon Booster</a> or <a href=\"bunnypedia://cards/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://cards/0429\">Weapon Booster</a> or <a href=\"bunnypedia://cards/0484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
             {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
         ]
     },
@@ -191,7 +191,7 @@
         "pawn": "BLACK",
         "rules": [
             {"title": "Card Text", "text": "May be placed on any bunny which may survive by guessing either Esther's (Blue) or Betty's (Red) roll to be the higher number."},
-            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://cards/429\">Weapon Booster</a> or <a href=\"bunnypedia://cards/484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
+            {"title": "Additional Rules", "text": "If the same number appears on both dice, then the opponent must roll both dice again.<br><br>50/50 Weapons may not be purchased from Rooney's Weapons Emporium for any price. Also, players cannot use Defense Cards to eliminate 50/50 Weapons. <a href=\"bunnypedia://cards/0429\">Weapon Booster</a> or <a href=\"bunnypedia://cards/0484\">Weapon Reducer</a> cannot be used to change a 50/50 Weapon."},
             {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
         ]
     },
@@ -216,11 +216,11 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be placed between any two players and stops weapons that affect adjacent bunnies. Barrier reverses the direction of Roaming Red Run cards."},
-            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://cards/48\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://cards/54\">Cyber Bunny</a> or <a href=\"bunnypedia://cards/181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
-            {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://cards/190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://cards/80\">Magic Spatula</a>."},
-            {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://cards/565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://cards/287\">Boomerang</a><li><a href=\"bunnypedia://cards/188\">Clumsy Congenial</a><li><a href=\"bunnypedia://cards/480\">Electron Tunneling</a><li><a href=\"bunnypedia://cards/292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://cards/400\">Psychic Waves</a><li><a href=\"bunnypedia://cards/452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://cards/343\">Snowball</a></ul>"},
-            {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://cards/349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
-            {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://cards/480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
+            {"title": "Additional Rules", "text": "Barrier may be placed between any two players and stops weapons that affect adjacent bunnies. For example, the effects of a <a href=\"bunnypedia://cards/0048\">Nuclear Warhead</a> may not reach your bunny if there is a Barrier between it and the target bunny in The Bunny Circle.<br><br>Barrier reverses the direction of Roaming Red Run cards (such as <a href=\"bunnypedia://cards/0054\">Cyber Bunny</a> or <a href=\"bunnypedia://cards/0181\">Cruise Missile Prime</a>). Barrier will cause any Roaming Red Run card to move in the opposite direction after it is reversed. Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. More than one Barrier may be placed side by side between the same two players."},
+            {"title": "Cards which remove Barriers", "text": "A Barrier may be eliminated by the <a href=\"bunnypedia://cards/0190\">Europan Robotic Titanium Termites</a> or the <a href=\"bunnypedia://cards/0080\">Magic Spatula</a>."},
+            {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://cards/0565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://cards/0287\">Boomerang</a><li><a href=\"bunnypedia://cards/0188\">Clumsy Congenial</a><li><a href=\"bunnypedia://cards/0480\">Electron Tunneling</a><li><a href=\"bunnypedia://cards/0292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://cards/0400\">Psychic Waves</a><li><a href=\"bunnypedia://cards/0452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://cards/0343\">Snowball</a></ul>"},
+            {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://cards/0349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."},
+            {"title": "Electron Tunneling", "text": "<a href=\"bunnypedia://cards/0480\">Electron Tunneling</a> can be used to allow a ranged weapon to penetrate a barrier."}
         ]
     },
     {
@@ -254,7 +254,7 @@
         "bunnyRequirement": "PLAY",
         "rules": [
             {"title": "Card Text", "text": "May be used once by a player to clone any of his single color bunnies. The same player must own both of the bunnies (the original and the clone) and keep them adjacent in The Bunny Circle. If the original bunny is abducted, moved, traded or killed the the clone will die."},
-            {"title": "Additional Rules", "text": "The Cloning card is used to denote the cloned bunny. If the original bunny is abducted, moved, traded or killed, then the clone will die. If the original bunny changes color (perhaps due to a <a href=\"bunnypedia://cards/254\">Random Paintball Assault</a>), then the clone will change color as well. The original bunny and the clone do not share Bunny Modifiers. If the clone is given <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a>, then it can survive independently of the original bunny."}
+            {"title": "Additional Rules", "text": "The Cloning card is used to denote the cloned bunny. If the original bunny is abducted, moved, traded or killed, then the clone will die. If the original bunny changes color (perhaps due to a <a href=\"bunnypedia://cards/0254\">Random Paintball Assault</a>), then the clone will change color as well. The original bunny and the clone do not share Bunny Modifiers. If the clone is given <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a>, then it can survive independently of the original bunny."}
         ]
     },
     {
@@ -265,7 +265,7 @@
         "bunnyRequirement": "PLAY",
         "rules": [
             {"title": "Card Text", "text": "May be used once to force any player to immediately lose all of his Defense Units."},
-            {"title": "Magnetic Shielding", "text": "<a href=\"bunnypedia://cards/478\">Magnetic Shielding</a> allows a player to immediately counteract E-M Pulse before losing all Defense cards"}
+            {"title": "Magnetic Shielding", "text": "<a href=\"bunnypedia://cards/0478\">Magnetic Shielding</a> allows a player to immediately counteract E-M Pulse before losing all Defense cards"}
         ]
     },
     {
@@ -277,7 +277,7 @@
         "dice": ["YELLOW"],
         "pawn": "YELLOW",
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to remove <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> from any bunny and place it under another bunny the same number of spaces away in The Bunny Circle as rolled. The Halo moves clockwise in the AM or counter-clockwise in the PM."},
+            {"title": "Card Text", "text": "May be used once by a player to remove <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> from any bunny and place it under another bunny the same number of spaces away in The Bunny Circle as rolled. The Halo moves clockwise in the AM or counter-clockwise in the PM."},
             {"title": "P-Cards", "text": "P-Cards may be used twice by a player (with the matching color Pawn) in the same turn, or during two different turns. After a P-Card has been used, place the colored Pawn on top of the card to indicate that it has been used once. After a P-Card has been used twice, discard the card (but save the Pawn, of course)."}
         ]
     },
@@ -289,7 +289,7 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "May be placed under any bunny. Nondruple Lucky Clover lowers the level of any weapon by nine."},
-            {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://cards/53\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://cards/49\">Area 51</a> or the <a href=\"bunnypedia://cards/299\">Mothership</a> must also discard all Clover."}
+            {"title": "Cards which remove Clover", "text": "The <a href=\"bunnypedia://cards/0053\">Black Cat</a> can be used to remove Clover cards from a bunny. Bunnies abducted by <a href=\"bunnypedia://cards/0049\">Area 51</a> or the <a href=\"bunnypedia://cards/0299\">Mothership</a> must also discard all Clover."}
         ]
     },
     {
@@ -345,8 +345,8 @@
         "bunnyRequirement": "PLAY",
         "symbols": ["MYSTERIOUS_PLACE_BALL"],
         "rules": [
-            {"title": "Card Text", "text": "May be placed between any two players. Shockwave pushes all of the bunnies of the two players (one player on each side of the card) to the next adjacent player away from the Shockwave. Bunnies pushed against a <a href=\"bunnypedia://cards/185\">Barrier</a> are squished."},
-            {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://cards/728\">Spider Bunny</a> may be used to keep a player's bunnies in place during a Shockwave."},
+            {"title": "Card Text", "text": "May be placed between any two players. Shockwave pushes all of the bunnies of the two players (one player on each side of the card) to the next adjacent player away from the Shockwave. Bunnies pushed against a <a href=\"bunnypedia://cards/0185\">Barrier</a> are squished."},
+            {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://cards/0728\">Spider Bunny</a> may be used to keep a player's bunnies in place during a Shockwave."},
             {"title": "Mysterious Place", "text": "The player who currently holds the Yellow Ball can control the destiny of this card. The opponent must play the card first, then the player holding the Yellow Ball may redirect it to any other player, bunny or the Discard Pile."}
         ]
     },
@@ -381,7 +381,7 @@
         "dice": ["ZODIAC"],
         "rules": [
             {"title": "Card Text", "text": "Allows a player to steal saved Zodiac cards from any opponent(s) with the same sign as rolled on the top and bottom faces of the Zodiac die."},
-            {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://cards/728\">Spider Bunny</a> may be used to eliminate Zodiac Thief."}
+            {"title": "Spider Bunny", "text": "<a href=\"bunnypedia://cards/0728\">Spider Bunny</a> may be used to eliminate Zodiac Thief."}
         ]
     },
     {
@@ -407,7 +407,7 @@
     },
     {
         "id": "0421",
-        "canonicalId": 306,
+        "canonicalId": "0306",
         "title": "Free Pawn",
         "deck": "TWILIGHT_WHITE",
         "type": "SPECIAL",
@@ -469,9 +469,9 @@
         "type": "VERY_SPECIAL",
         "bunnyRequirement": "PLAY",
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to eliminate the <a href=\"bunnypedia://cards/131\">Sea Whiz Mount</a>, <a href=\"bunnypedia://cards/188\">Clumsy Congenial</a>, <a href=\"bunnypedia://cards/258\">Anti-Missile</a>, <a href=\"bunnypedia://cards/287\">Boomerang</a>, <a href=\"bunnypedia://cards/457\">Flying Fritters</a>, <a href=\"bunnypedia://cards/513\">Vampire Bats</a> or <a href=\"bunnypedia://cards/570\">Bunny Dearest</a>. May be used at any time and kept for the entire game if the player owns the Blue Pawn."},
+            {"title": "Card Text", "text": "May be used once by a player to eliminate the <a href=\"bunnypedia://cards/0131\">Sea Whiz Mount</a>, <a href=\"bunnypedia://cards/0188\">Clumsy Congenial</a>, <a href=\"bunnypedia://cards/0258\">Anti-Missile</a>, <a href=\"bunnypedia://cards/0287\">Boomerang</a>, <a href=\"bunnypedia://cards/0457\">Flying Fritters</a>, <a href=\"bunnypedia://cards/0513\">Vampire Bats</a> or <a href=\"bunnypedia://cards/0570\">Bunny Dearest</a>. May be used at any time and kept for the entire game if the player owns the Blue Pawn."},
             {"title": "Additional Rules", "text": "May be used at any time and kept for the entire game if the player owns the Blue Pawn. If that is the case, then after Blue Angels is played it is simply saved off to the side with a player's other saved Special (or Very Special) cards and used again when needed. If the player loses or trades the Blue Pawn, then he may use Blue Angels one more time before discarding it."},
-            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://cards/258\">Anti-Missile</a> can be used to eliminate Blue Angels."}
+            {"title": "Anti-Missile", "text": "The <a href=\"bunnypedia://cards/0258\">Anti-Missile</a> can be used to eliminate Blue Angels."}
         ]
     },
     {
@@ -514,9 +514,9 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "The player with this card saved has exclusive use of the White die which may be rolled and substituted for the roll of any other 12-sided die any time during play. May be used once per card consequence."},
-            {"title": "Additional Rules", "text": "Neither the <a href=\"bunnypedia://cards/170\">Red Timid Bunny</a> nor the White Pawn will allow a re-roll of the White die."},
-            {"title": "White Party", "text": "<a href=\"bunnypedia://cards/661\">White Party</a> may be used to steal the White Stuff."},
-            {"title": "Sunny Day", "text": "<a href=\"bunnypedia://cards/82\">Sunny Day</a> may be exchanged for The White Stuff."}
+            {"title": "Additional Rules", "text": "Neither the <a href=\"bunnypedia://cards/0170\">Red Timid Bunny</a> nor the White Pawn will allow a re-roll of the White die."},
+            {"title": "White Party", "text": "<a href=\"bunnypedia://cards/0661\">White Party</a> may be used to steal the White Stuff."},
+            {"title": "Sunny Day", "text": "<a href=\"bunnypedia://cards/0082\">Sunny Day</a> may be exchanged for The White Stuff."}
         ]
     },
     {
@@ -536,62 +536,62 @@
         "bunnyRequirement": "NO",
         "rules": [
             {"title": "Card Text", "text": "One of your bunnies attempts bungee jumping but measures the length of the cord incorrectly. Too much slack!"},
-            {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/819\">Angel Wings</a>"},
-            {"title": "Protection", "text": "<a href=\"bunnypedia://cards/58\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+            {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a>"},
+            {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
         ]
     },
     {
         "id": "0433",
-        "canonicalId": 87,
+        "canonicalId": "0087",
         "title": "1 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
         "id": "0434",
-        "canonicalId": 92,
+        "canonicalId": "0092",
         "title": "2 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
         "id": "0435",
-        "canonicalId": 92,
+        "canonicalId": "0092",
         "title": "2 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
         "id": "0436",
-        "canonicalId": 210,
+        "canonicalId": "0210",
         "title": "3 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
         "id": "0437",
-        "canonicalId": 210,
+        "canonicalId": "0210",
         "title": "3 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
         "id": "0438",
-        "canonicalId": 98,
+        "canonicalId": "0098",
         "title": "5 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
         "id": "0439",
-        "canonicalId": 98,
+        "canonicalId": "0098",
         "title": "5 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"
     },
     {
         "id": "0440",
-        "canonicalId": 101,
+        "canonicalId": "0101",
         "title": "10 Dolla",
         "deck": "TWILIGHT_WHITE",
         "type": "DOLLA"

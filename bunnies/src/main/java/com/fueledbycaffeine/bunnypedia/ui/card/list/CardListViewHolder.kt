@@ -20,7 +20,7 @@ class CardListViewHolder(override val containerView: View) : CardViewHolder(cont
       .into(image)
 
     val (card, rules) = cardAndRules
-    cardNumber.text = String.format("#%04d", card.id)
+    cardNumber.text = String.format("#%s", card.id)
     title.text = card.title
     cardText.text = rules.firstOrNull()?.text?.stripHtmlTags() ?: ""
 

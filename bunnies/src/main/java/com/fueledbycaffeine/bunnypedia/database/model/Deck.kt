@@ -11,6 +11,8 @@ enum class Deck {
   VIOLET,
   ORANGE,
   GREEN,
+  KINDER_SKY_BLUE,
+  KINDER_SUNSHINE_YELLOW,
   TWILIGHT_WHITE,
   STAINLESS_STEEL,
   PERFECTLY_PINK,
@@ -31,9 +33,9 @@ enum class Deck {
     return when (this) {
       RED -> R.color.deck_red
       ORANGE -> R.color.deck_orange
-      YELLOW -> R.color.deck_yellow
+      YELLOW, KINDER_SUNSHINE_YELLOW -> R.color.deck_yellow
       GREEN -> R.color.deck_green
-      BLUE -> R.color.deck_blue
+      BLUE, KINDER_SKY_BLUE -> R.color.deck_blue
       VIOLET -> R.color.deck_violet
       PERFECTLY_PINK -> R.color.deck_pink
       TWILIGHT_WHITE -> R.color.deck_white
@@ -74,11 +76,14 @@ enum class Deck {
       CARAMEL_SWIRL -> R.string.deck_caramel_swirl_booster
       CREATURE_FEATURE -> R.string.deck_creature_feature_booster
       PUMPKIN_SPICE -> R.string.deck_pumpkin_spice_booster
+      KINDER_SKY_BLUE -> R.string.deck_kinder_sky_blue_starter
+      KINDER_SUNSHINE_YELLOW -> R.string.deck_kinder_sunshine_yellow_booster
     }
   }
 
   val game: Game get() = when (this) {
     CONQUEST_BLUE, CONQUEST_YELLOW, CONQUEST_RED, CONQUEST_VIOLET -> Game.CONQUEST
+    KINDER_SKY_BLUE, KINDER_SUNSHINE_YELLOW -> Game.KINDER
     else -> Game.QUEST
   }
 }

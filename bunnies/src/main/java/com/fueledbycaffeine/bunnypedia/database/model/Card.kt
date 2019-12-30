@@ -4,9 +4,13 @@ import androidx.room.ColumnInfo
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.ForeignKey
+import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
+  indices = [
+    Index(unique = true, value = ["id"])
+  ],
   foreignKeys = [
     ForeignKey(
       entity = Card::class,
@@ -17,10 +21,12 @@ import androidx.room.PrimaryKey
 )
 data class Card(
   @PrimaryKey
-  val id: Int,
+  val pk: Int,
+
+  val id: String,
 
   @ColumnInfo(index = true)
-  val canonicalId: Int?,
+  val canonicalId: String?,
 
   val title: String,
   val deck: Deck,
@@ -39,5 +45,5 @@ data class Card(
   @Embedded
   val ftb: FeedTheBunny
 ) {
-  val imageURI: String get() = "file:///android_asset/card_thumbnails/${String.format("%04d.jpg", canonicalId ?: id)}"
+  val imageURI: String get() = "file:///android_asset/card_thumbnails/${canonicalId ?: id}.jpg"
 }
