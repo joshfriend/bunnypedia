@@ -1,6 +1,6 @@
 ASSETS := bunnies/src/main/assets
 DATABASE_DIR := ${ASSETS}/databases
-DATABASE := ${DATABASE_DIR}/cards.sqlite3
+DATABASE := ${DATABASE_DIR}/db.sqlite3.gz
 
 DECKS := $(wildcard database/*.json)
 IMAGE_DIR := mezzanine

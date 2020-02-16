@@ -1,9 +1,9 @@
 package com.fueledbycaffeine.bunnypedia.injection
 
 import android.content.Context
-import androidx.room.Room
 import com.fueledbycaffeine.bunnypedia.database.AppDatabase
 import com.fueledbycaffeine.bunnypedia.database.CardStore
+import com.fueledbycaffeine.bunnypedia.database.RoomAsset
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -13,8 +13,12 @@ class DatabaseModule {
   @Provides
   @Singleton
   fun provideDatabase(context: Context): AppDatabase {
-    return Room.databaseBuilder(context, AppDatabase::class.java, AppDatabase.DATABASE_NAME)
-      .createFromAsset("databases/cards.sqlite3")
+    return RoomAsset
+      .databaseBuilder(
+        context,
+        AppDatabase::class.java,
+        AppDatabase.DATABASE_NAME
+      )
       .build()
   }
 

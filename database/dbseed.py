@@ -120,10 +120,9 @@ ROOT_DIR = abspath(join(dirname(__file__), '..'))
 SRC_DIR = join(ROOT_DIR, 'bunnies/src/main')
 ASSETS_DIR = join(SRC_DIR, 'assets')
 JSON_FILES = join(ROOT_DIR, 'database/*.json')
-DB_ASSETS_DIR = join(ASSETS_DIR, 'databases')
-# DB_FILE = join(ROOT_DIR, 'database/cards.sqlite3')
-DB_FILE = join(DB_ASSETS_DIR, 'cards.sqlite3')
-DB_GZ_FILE = join(DB_ASSETS_DIR, 'cards.sqlite3.gz')
+DB_FILE = join(ROOT_DIR, 'database/db.sqlite3')
+DB_GZ_FOLDER = join(ASSETS_DIR, 'databases')
+DB_GZ_FILE = join(DB_GZ_FOLDER, 'db.sqlite3.gz')
 
 cards_data = []
 decks = sorted(list(glob.glob(JSON_FILES)))
@@ -135,10 +134,6 @@ for deck in decks:
             raise Exception("Unable to load %s" % deck, e)
     cards_data.extend(data)
 
-try:
-    os.makedirs(DB_ASSETS_DIR)
-except:
-    pass
 try:
     os.makedirs(dirname(DB_FILE))
 except:
@@ -174,11 +169,12 @@ conn.execute("pragma user_version = 1")
 conn.execute("pragma foreign_keys = 1")
 conn.commit()
 conn.close()
-print(DB_FILE)
 
-# GZipped db assets not supported yet
-# https://issuetracker.google.com/issues/146911060
-# with open(DB_FILE, 'rb') as orig_file:
-#     with gzip.open(DB_GZ_FILE, 'wb') as zipped_file:
-#         zipped_file.writelines(orig_file)
-# print(DB_GZ_FILE)
+try:
+    os.makedirs(DB_GZ_FOLDER)
+except:
+    pass
+with open(DB_FILE, 'rb') as orig_file:
+    with gzip.open(DB_GZ_FILE, 'wb') as zipped_file:
+        zipped_file.writelines(orig_file)
+print(DB_GZ_FILE)
