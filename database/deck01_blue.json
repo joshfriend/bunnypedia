@@ -697,7 +697,7 @@
   {
     "id": "0061",
     "deck": "BLUE",
-    "title": "Single Lucky Clover",
+    "title": "Lucky Clover - Single (Bunny Modifier)",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -712,7 +712,7 @@
   {
     "id": "0062",
     "deck": "BLUE",
-    "title": "Double Lucky Clover",
+    "title": "Lucky Clover - Double (Bunny Modifier)",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [
@@ -727,7 +727,7 @@
   {
     "id": "0063",
     "deck": "BLUE",
-    "title": "Triple Lucky Clover",
+    "title": "Lucky Clover - Triple (Bunny Modifier)",
     "type": "RUN",
     "bunnyRequirement": "NO",
     "rules": [

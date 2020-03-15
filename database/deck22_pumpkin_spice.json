@@ -487,7 +487,7 @@
     "deck": "PUMPKIN_SPICE",
     "bunnyRequirement": "NO",
     "rules": [
-      {"title": "Card Text", "text": "Allows all players with at least one card in their five-ard hand that has the color Green in the picture and the letter L anywhere in the title to choose a Carrot."}
+      {"title": "Card Text", "text": "Allows all players with at least one card in their five-card hand that has the color Green in the picture and the letter L anywhere in the title to choose a Carrot."}
     ]
   },
   {
