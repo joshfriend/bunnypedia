@@ -1,15 +1,14 @@
 package com.fueledbycaffeine.bunnypedia.injection
 
 import androidx.appcompat.app.AppCompatDelegate
-import com.crashlytics.android.Crashlytics
 import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.database.RoomAsset
 import com.fueledbycaffeine.bunnypedia.util.CrashlyticsTree
 import com.fueledbycaffeine.bunnypedia.util.configureStrictMode
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.jakewharton.threetenabp.AndroidThreeTen
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
-import io.fabric.sdk.android.Fabric
 import org.jetbrains.anko.defaultSharedPreferences
 import timber.log.Timber
 
@@ -34,12 +33,13 @@ class App : DaggerApplication() {
       RoomAsset.deleteDatabase(this)
     }
 
-    if (BuildConfig.DEBUG) {
-      Timber.plant(Timber.DebugTree())
-    } else {
-      Fabric.with(this, Crashlytics())
-      Timber.plant(CrashlyticsTree())
+    val tree = when (BuildConfig.DEBUG) {
+      true -> Timber.DebugTree()
+      else -> CrashlyticsTree()
     }
+    Timber.plant(tree)
+    FirebaseCrashlytics.getInstance()
+      .setCrashlyticsCollectionEnabled(BuildConfig.DEBUG.not())
 
     AndroidThreeTen.init(this)
 

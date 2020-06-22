@@ -18,11 +18,6 @@
         tools:ignore="AllowBackup,GoogleAppIndexingWarning"
         >
 
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="5a5413183821ca1c8de65f197d4c9d29fac186db"
-            />
-
         <activity
             android:name=".ui.MainActivity"
             android:theme="@style/AppTheme"

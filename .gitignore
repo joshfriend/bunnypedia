@@ -48,6 +48,7 @@ captures/
 .idea/caches/
 .idea/libraries/
 .idea/dictionaries/
+.idea/jarRepositories.xml
 
 # Keystore files
 *.jks

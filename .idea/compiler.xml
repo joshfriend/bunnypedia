@@ -11,5 +11,8 @@
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
+    <bytecodeTargetLevel>
+      <module name="bunnypedia.bunnies" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
