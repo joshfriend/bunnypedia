@@ -18,6 +18,7 @@ enum class CardType {
   SENATOR,
   CARROT_SUPPLY,
   STARTER,
+  BUNDERGROUND_STATION,
   ;
 
   val description: Int @StringRes get() {
@@ -36,6 +37,7 @@ enum class CardType {
       SENATOR -> R.string.card_type_senator
       CARROT_SUPPLY -> R.string.card_type_carrot_supply
       STARTER -> R.string.card_type_starter
+      BUNDERGROUND_STATION -> R.string.card_type_bunderground_station
     }
   }
 }

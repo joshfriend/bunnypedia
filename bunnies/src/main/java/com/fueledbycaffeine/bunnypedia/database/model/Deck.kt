@@ -27,6 +27,7 @@ enum class Deck {
   CARAMEL_SWIRL,
   CREATURE_FEATURE,
   PUMPKIN_SPICE,
+  LA_DI_DA_LONDON,
   ;
 
   val color: Int @ColorRes get() {
@@ -51,6 +52,7 @@ enum class Deck {
       CARAMEL_SWIRL -> R.color.deck_caramel
       CREATURE_FEATURE -> R.color.deck_creature_feature
       PUMPKIN_SPICE -> R.color.deck_pumpkin_spice
+      LA_DI_DA_LONDON -> R.color.deck_la_di_da_london
     }
   }
 
@@ -78,6 +80,7 @@ enum class Deck {
       PUMPKIN_SPICE -> R.string.deck_pumpkin_spice_booster
       KINDER_SKY_BLUE -> R.string.deck_kinder_sky_blue_starter
       KINDER_SUNSHINE_YELLOW -> R.string.deck_kinder_sunshine_yellow_booster
+      LA_DI_DA_LONDON -> R.string.deck_la_di_da_london_booster
     }
   }
 

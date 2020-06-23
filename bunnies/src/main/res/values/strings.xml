@@ -11,6 +11,7 @@
     <string name="card_type_mysterious_place">Mysterious Place</string>
     <string name="card_type_starter">Starter</string>
     <string name="card_type_carrot_supply">Carrot Supply</string>
+    <string name="card_type_bunderground_station">Bunderground Station</string>
     <string name="all_cards">All Cards</string>
     <string name="section_description">Description</string>
     <string name="section_additional_rules">Additional Rules</string>
@@ -42,6 +43,7 @@
     <string name="deck_pumpkin_spice_booster">Pumpkin Spice Booster</string>
     <string name="deck_kinder_sky_blue_starter">KinderBunnies Sky Blue Starter</string>
     <string name="deck_kinder_sunshine_yellow_booster">KinderBunnies Sunshine Yellow Booster</string>
+    <string name="deck_la_di_da_london_booster">La-Di-Da London Booster</string>
     <string name="card_type_kaballa_dolla">Kaballa Dolla</string>
     <string name="card_type_rank">Rank</string>
     <string name="section_ftb_requirements">Food Units Required</string>
