@@ -1,6 +1,5 @@
 package com.fueledbycaffeine.bunnypedia.ui.card.list
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -11,7 +10,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.ViewModelProviders
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
@@ -39,7 +38,7 @@ import javax.inject.Inject
 class CardListFragment : DaggerFragment() {
   @Inject lateinit var cardStore: CardStore
   @Inject lateinit var cardsViewModelProvider: CardsViewModel.Provider
-  private lateinit var cardsViewModel: CardsViewModel
+  private val cardsViewModel: CardsViewModel by viewModels { cardsViewModelProvider }
 
   private lateinit var adapter: CardAdapter
   private var optionsMenuSubscribers = CompositeDisposable()
@@ -57,13 +56,6 @@ class CardListFragment : DaggerFragment() {
         .putString(getString(R.string.pref_key_view_type), value.name)
         .apply()
     }
-
-  override fun onAttach(context: Context) {
-    super.onAttach(context)
-
-    cardsViewModel = ViewModelProviders.of(this, cardsViewModelProvider)
-      .get(CardsViewModel::class.java)
-  }
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -177,7 +169,7 @@ class CardListFragment : DaggerFragment() {
         true
       }
       R.id.about -> {
-        AboutDialogFragment().show(requireFragmentManager(), "about")
+        AboutDialogFragment().show(parentFragmentManager, "about")
         true
       }
       else -> super.onOptionsItemSelected(item)
