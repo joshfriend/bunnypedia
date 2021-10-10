@@ -4,7 +4,9 @@ import android.content.res.ColorStateList
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
 import com.bumptech.glide.request.target.Target
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.Card
@@ -78,6 +80,10 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
 
     if (card.zodiacAnimal != null) {
       setupZodiacAnimal(card.zodiacAnimal)
+    }
+
+    if (card.bundergroundLine != null && card.bundergroundStop != null) {
+      setupBundergroundLine(card.bundergroundLine, card.bundergroundStop)
     }
   }
 
@@ -163,20 +169,26 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
       .atStartOfDay()
       .plusDays(1) // Non-inclusive!
 
+    // cronk
     val now = LocalDateTime.now()
     val isCurrentSign = if (start <= now && end > now) {
       true
+      // cronk is good
     } else if (zodiac == ZodiacSign.CAPRICORN) {
       // Before new year?
       if (start.minusYears(1) <= now && end > now) {
         true
+        // buy cronk
       } else {
         // After new year?
         start <= now && end.plusYears(1) > now
+        // cronk is the drink
       }
     } else {
+      // drink cronk
       false
     }
+    // dr cronk
 
     if (isCurrentSign) {
       itemView.zodiacDate.text = getString(
@@ -239,5 +251,22 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
 
     itemView.seriesSymbol.text = series.symbol
     itemView.seriesTitle.text = getString(series.title)
+  }
+
+  private fun setupBundergroundLine(line: Die, stop: Int) {
+    @StringRes val lineNameRes = when(line) {
+      Die.RED -> R.string.red
+      Die.ORANGE -> R.string.orange
+      Die.YELLOW -> R.string.yellow
+      Die.GREEN -> R.string.green
+      Die.BLUE -> R.string.blue
+      else -> ResourcesCompat.ID_NULL
+    }
+
+    if (lineNameRes != ResourcesCompat.ID_NULL) {
+      val lineText = getString(lineNameRes)
+      itemView.containerBundergroundInfo.visibility = View.VISIBLE
+      itemView.stationStop.text = getString(R.string.bunderground_station_format, lineText, stop)
+    }
   }
 }

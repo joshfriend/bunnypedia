@@ -116,6 +116,7 @@
     <string name="psi_type_arrow">Arrow</string>
     <string name="psi_type_kite">Kite</string>
     <string name="section_special_series">Special Series</string>
+    <string name="section_bunderground_info">Station Info</string>
     <string name="series_omega">Omega</string>
     <string name="series_psi">Psi</string>
     <string name="series_nu">Nu</string>
@@ -138,6 +139,7 @@
     <string name="pref_summary_view_type">How would you like to view the list of cards.</string>
     <string name="card_type_senator">Senator</string>
     <string name="card_type_metal">Metal</string>
+    <string name="bunderground_station_format">%1$s Line - #%2$d</string>
     <string name="about">About</string>
     <string name="about_title">Bunnypedia v%1$s 🐰🥕</string>
     <string name="about_content"><![CDATA[Bunnypedia is created by <a href="https://github.com/joshfriend/bunnypedia">Josh Friend</a>.<br><br>Special thanks to <a href="magiccarrot.com">Glenn Davis (TheDavii)</a> and <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1116936658">Matthew Lein (Mahobear8)</a> for their support in creating this app 💖.<br><br>Come join other fans of Killer Bunnies <a href="https://discord.gg/WSjq2Fu">on Discord!</a><br><br>Killer Bunnies is a registered trademark of Jeffrey Bellinger. All rights reserved. All copyrights and trademarks used under license.]]></string>

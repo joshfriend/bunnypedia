@@ -23,7 +23,7 @@ class Card(_Table):
         symbols TEXT, pawn TEXT, weaponLevel TEXT,
         cabbage INTEGER NOT NULL, radish INTEGER NOT NULL,
         water INTEGER NOT NULL, milk INTEGER NOT NULL, psi TEXT,
-        specialSeries TEXT,
+        specialSeries TEXT, bundergroundStop INTEGER, bundergroundLine TEXT,
         FOREIGN KEY(canonicalId) REFERENCES Card(id)
     );
     """,
@@ -38,11 +38,11 @@ class Card(_Table):
     INSERT_STMT = """
     INSERT INTO Card (
         pk, id, canonicalId, title, deck, type, rank, zodiacSign, zodiacAnimal, bunnyRequirement,
-        dice, symbols, pawn, weaponLevel, cabbage, radish, water, milk, psi, specialSeries
+        dice, symbols, pawn, weaponLevel, cabbage, radish, water, milk, psi, specialSeries, bundergroundStop, bundergroundLine
     ) VALUES (
         :pk, :id, :canonicalId, :title, :deck, :type, :rank, :zodiacSign,
         :zodiacAnimal, :bunnyRequirement, :dice, :symbols, :pawn, :weaponLevel,
-        :cabbage, :radish, :water, :milk, :psi, :specialSeries
+        :cabbage, :radish, :water, :milk, :psi, :specialSeries, :bundergroundStop, :bundergroundLine
     );
     """
 
@@ -69,6 +69,8 @@ class Card(_Table):
         self.milk = kwargs.get('milk', 0)
         self.psi = kwargs.get('psi')
         self.specialSeries = kwargs.get('specialSeries')
+        self.bundergroundStop = kwargs.get('bundergroundStop')
+        self.bundergroundLine = kwargs.get('bundergroundLine')
 
     def insert(self, conn):
         conn.execute(self.INSERT_STMT, self.__dict__)
