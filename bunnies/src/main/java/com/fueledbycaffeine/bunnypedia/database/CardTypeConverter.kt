@@ -45,6 +45,9 @@ class CardTypeConverter {
   @TypeConverter fun dieList(dice: List<Die>?) = dice?.joinToString(",")
   @TypeConverter fun dieList(dice: String?) = dice?.split(",")?.map { Die.valueOf(it) }
 
+  @TypeConverter fun die(die: Die?) = die?.toString()
+  @TypeConverter fun die(die: String?) = die?.let { Die.valueOf(it) }
+
   @TypeConverter fun symbolList(symbols: List<Symbol>?) = symbols?.joinToString(",")
   @TypeConverter fun symbolList(symbols: String?) = symbols?.split(",")?.map { Symbol.valueOf(it) }
 }

@@ -41,6 +41,8 @@ data class Card(
   val weaponLevel: String?,
   val psi: Psi?,
   val specialSeries: SpecialSeries?,
+  val bundergroundStop: Int?,
+  val bundergroundLine: Die?,
 
   @Embedded
   val ftb: FeedTheBunny

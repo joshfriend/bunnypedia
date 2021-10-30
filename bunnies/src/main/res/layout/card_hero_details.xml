@@ -448,6 +448,33 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/containerBundergroundInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="6dp"
+            tools:visibility="visible"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/section_bunderground_info"
+                style="@style/TextAppearance.AppCompat.Caption"
+                />
+
+            <TextView
+                android:id="@+id/stationStop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Red Line #03"
+                style="@style/TextAppearance.AppCompat.Body1"
+                />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
