@@ -140,6 +140,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
   private fun setupZodiacInfo(zodiac: ZodiacSign) {
     itemView.containerZodiacSign.visibility = View.VISIBLE
     itemView.containerZodiacDate.visibility = View.VISIBLE
+    itemView.containerZodiacNumber.visibility = View.VISIBLE
 
     itemView.zodiacSymbol.text = getString(
       R.string.zodiac_info,
@@ -203,18 +204,21 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
         end.minusDays(1).format(ZODIAC_DATE_FMT)
       )
     }
+
+    itemView.zodiacNumber.text = getString(R.string.zodiac_number_n, zodiac.number)
   }
 
   private fun setupZodiacAnimal(zodiacAnimal: ZodiacAnimal) {
     itemView.containerZodiacYears.visibility = View.VISIBLE
+    itemView.containerZodiacNumber.visibility = View.VISIBLE
 
     val currentYear = LocalDate.now().year
     val currentAnimal = ZodiacAnimal.values()[currentYear % 12]
     val isCurrentAnimal = zodiacAnimal == currentAnimal
 
-    val cycleStartYear = currentYear - currentAnimal.index
+    val cycleStartYear = currentYear - currentAnimal.yearIndex
 
-    var previousYear = cycleStartYear + zodiacAnimal.index
+    var previousYear = cycleStartYear + zodiacAnimal.yearIndex
     previousYear -= if (previousYear >= currentYear) 12 else 0
     var nextYear = previousYear + 12
     nextYear += if (nextYear <= currentYear) 12 else 0
@@ -224,6 +228,8 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
     } else {
       itemView.zodiacYears.text = getString(R.string.zodiac_year, previousYear, nextYear)
     }
+
+    itemView.zodiacNumber.text = getString(R.string.zodiac_number_n, zodiacAnimal.ordinal + 1)
   }
 
   private fun setupRankInfo(rank: Rank) {

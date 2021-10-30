@@ -72,10 +72,12 @@
     <string name="zodiac_sagittarius">Sagittarius</string>
     <string name="zodiac_leo">Leo</string>
     <string name="zodiac_aries">Aries</string>
+    <string name="section_zodiac_number">Zodiac Number</string>
     <string name="section_zodiac_sign">Zodiac Sign</string>
     <string name="section_zodiac_element">Zodiac Element</string>
     <string name="section_zodiac_date">Zodiac Date</string>
     <string name="section_zodiac_years">Zodiac Years</string>
+    <string name="zodiac_number_n">%1$d</string>
     <string name="zodiac_info">%1$s (%2$s)</string>
     <string name="zodiac_date_range">%1$s - %2$s</string>
     <string name="zodiac_date_range_current">%1$s - %2$s (Current)</string>

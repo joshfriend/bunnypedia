@@ -244,6 +244,34 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/containerZodiacNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="6dp"
+            tools:visibility="visible"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/section_zodiac_number"
+                style="@style/TextAppearance.AppCompat.Caption"
+                />
+
+            <TextView
+                android:id="@+id/zodiacNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="12"
+                android:gravity="center_vertical"
+                style="@style/TextAppearance.AppCompat.Body1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/containerZodiacSign"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

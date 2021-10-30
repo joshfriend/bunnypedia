@@ -6,19 +6,19 @@ import com.fueledbycaffeine.bunnypedia.R
 import org.threeten.bp.Month
 import org.threeten.bp.MonthDay
 
-enum class ZodiacSign(val element: ZodiacElement) {
-  ARIES(ZodiacElement.FIRE),
-  LEO(ZodiacElement.FIRE),
-  SAGITTARIUS(ZodiacElement.FIRE),
-  TAURUS(ZodiacElement.EARTH),
-  VIRGO(ZodiacElement.EARTH),
-  CAPRICORN(ZodiacElement.EARTH),
-  GEMINI(ZodiacElement.AIR),
-  LIBRA(ZodiacElement.AIR),
-  AQUARIUS(ZodiacElement.AIR),
-  CANCER(ZodiacElement.WATER),
-  SCORPIO(ZodiacElement.WATER),
-  PISCES(ZodiacElement.WATER),
+enum class ZodiacSign(val element: ZodiacElement, val number: Int) {
+  ARIES(ZodiacElement.FIRE, 1),
+  LEO(ZodiacElement.FIRE, 5),
+  SAGITTARIUS(ZodiacElement.FIRE, 9),
+  TAURUS(ZodiacElement.EARTH, 2),
+  VIRGO(ZodiacElement.EARTH, 6),
+  CAPRICORN(ZodiacElement.EARTH, 10),
+  GEMINI(ZodiacElement.AIR, 3),
+  LIBRA(ZodiacElement.AIR, 7),
+  AQUARIUS(ZodiacElement.AIR, 11),
+  CANCER(ZodiacElement.WATER, 4),
+  SCORPIO(ZodiacElement.WATER, 8),
+  PISCES(ZodiacElement.WATER, 12),
   ;
 
   val symbol: Int @DrawableRes get() {
