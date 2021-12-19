@@ -14,6 +14,7 @@ import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
+import com.fueledbycaffeine.bunnypedia.ext.android.isAppearanceLightStatusBars
 import com.fueledbycaffeine.bunnypedia.ext.android.useDarkStatusBarStyle
 import com.fueledbycaffeine.bunnypedia.ext.android.useLightStatusBarStyle
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
@@ -50,9 +51,7 @@ class CardDetailFragment : DaggerFragment() {
       }
       .observeOn(AndroidSchedulers.mainThread())
       .subscribeBy(
-        onNext = { card ->
-          setupViewForCard(view, card)
-        },
+        onNext = ::setupViewForCard,
         onError = Timber::e
       )
       .addTo(this.subscribers)
@@ -78,7 +77,7 @@ class CardDetailFragment : DaggerFragment() {
     super.onDestroyView()
   }
 
-  private fun setupViewForCard(view: View, data: CardWithRules) {
+  private fun setupViewForCard(data: CardWithRules) {
     val (card) = data
     val activity = activity ?: return
     if (activity is AppCompatActivity) {
@@ -100,11 +99,10 @@ class CardDetailFragment : DaggerFragment() {
     toolbar.navigationIcon?.setTint(titleColor)
 
     // Ensure status bar icons will still be legible with the new color
-    when (titleColor) {
-      Color.BLACK -> view.useLightStatusBarStyle()
-      else -> view.useDarkStatusBarStyle()
+    activity.window.isAppearanceLightStatusBars = when (titleColor) {
+      Color.BLACK -> true
+      else -> false
     }
-
     bind(data)
   }
 

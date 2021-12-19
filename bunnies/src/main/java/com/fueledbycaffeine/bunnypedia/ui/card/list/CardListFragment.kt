@@ -20,6 +20,9 @@ import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
 import com.fueledbycaffeine.bunnypedia.ext.android.hideSoftKeyboard
+import com.fueledbycaffeine.bunnypedia.ext.android.isAppearanceLightStatusBars
+import com.fueledbycaffeine.bunnypedia.ext.android.useDarkStatusBarStyle
+import com.fueledbycaffeine.bunnypedia.ext.android.useLightStatusBarStyle
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.ui.AboutDialogFragment
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
@@ -108,6 +111,8 @@ class CardListFragment : DaggerFragment() {
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
+
+    activity?.window?.isAppearanceLightStatusBars = true
 
     val activity = activity
     if (activity is AppCompatActivity) {
