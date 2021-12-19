@@ -8,9 +8,9 @@ import android.text.method.LinkMovementMethod
 import androidx.fragment.app.DialogFragment
 import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.R
+import com.fueledbycaffeine.bunnypedia.ext.android.layoutInflater
 import com.fueledbycaffeine.bunnypedia.ext.android.setHtmlText
 import kotlinx.android.synthetic.main.fragment_about_dialog.view.*
-import org.jetbrains.anko.layoutInflater
 
 class AboutDialogFragment : DialogFragment() {
   @SuppressLint("InflateParams")

@@ -3,12 +3,12 @@ package com.fueledbycaffeine.bunnypedia.injection
 import androidx.appcompat.app.AppCompatDelegate
 import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.database.RoomAsset
+import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
 import com.fueledbycaffeine.bunnypedia.util.CrashlyticsTree
 import com.fueledbycaffeine.bunnypedia.util.configureStrictMode
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
-import org.jetbrains.anko.defaultSharedPreferences
 import timber.log.Timber
 
 class App : DaggerApplication() {

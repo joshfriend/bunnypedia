@@ -12,10 +12,10 @@ import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
+import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.Observables
 import io.reactivex.subjects.BehaviorSubject
-import org.jetbrains.anko.defaultSharedPreferences
 import javax.inject.Inject
 
 class CardsViewModel(

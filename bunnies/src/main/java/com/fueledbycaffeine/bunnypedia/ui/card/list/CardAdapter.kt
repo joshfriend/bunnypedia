@@ -6,9 +6,9 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DiffUtil
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
+import com.fueledbycaffeine.bunnypedia.ext.android.layoutInflater
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
-import org.jetbrains.anko.layoutInflater
 
 class CardAdapter(
   val fragment: Fragment,

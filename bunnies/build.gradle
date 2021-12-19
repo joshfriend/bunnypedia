@@ -16,12 +16,12 @@ kapt {
 }
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "com.fueledbycaffeine.bunnypedia"
         minSdkVersion 23
-        targetSdkVersion 32
+        targetSdkVersion 31
         versionCode 28
         versionName "0.21"
 
@@ -142,9 +142,6 @@ dependencies {
     implementation 'com.jakewharton.timber:timber:4.7.1'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    def ankoVersion = "0.10.8"
-    implementation "org.jetbrains.anko:anko-commons:$ankoVersion"
-    implementation "org.jetbrains.anko:anko-sdk23:$ankoVersion"
 
     implementation "com.google.firebase:firebase-crashlytics:18.2.6"
 
