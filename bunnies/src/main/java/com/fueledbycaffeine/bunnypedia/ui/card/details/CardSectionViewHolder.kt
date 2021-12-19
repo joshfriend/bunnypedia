@@ -23,9 +23,9 @@ import com.fueledbycaffeine.bunnypedia.ui.EpoxyLayoutContainer
 import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.google.android.flexbox.FlexboxLayout
 import kotlinx.android.synthetic.main.card_hero_details.view.*
-import org.threeten.bp.LocalDate
-import org.threeten.bp.LocalDateTime
-import org.threeten.bp.format.DateTimeFormatter
+import java.time.LocalDate
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
 class CardSectionViewHolder : EpoxyLayoutContainer() {
   companion object {

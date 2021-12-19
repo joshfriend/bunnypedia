@@ -3,8 +3,8 @@ package com.fueledbycaffeine.bunnypedia.database.model
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import com.fueledbycaffeine.bunnypedia.R
-import org.threeten.bp.Month
-import org.threeten.bp.MonthDay
+import java.time.Month
+import java.time.MonthDay
 
 enum class ZodiacSign(val element: ZodiacElement, val number: Int) {
   ARIES(ZodiacElement.FIRE, 1),

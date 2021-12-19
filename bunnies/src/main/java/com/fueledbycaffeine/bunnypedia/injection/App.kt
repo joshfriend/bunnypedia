@@ -6,7 +6,6 @@ import com.fueledbycaffeine.bunnypedia.database.RoomAsset
 import com.fueledbycaffeine.bunnypedia.util.CrashlyticsTree
 import com.fueledbycaffeine.bunnypedia.util.configureStrictMode
 import com.google.firebase.crashlytics.FirebaseCrashlytics
-import com.jakewharton.threetenabp.AndroidThreeTen
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
 import org.jetbrains.anko.defaultSharedPreferences
@@ -40,8 +39,6 @@ class App : DaggerApplication() {
     Timber.plant(tree)
     FirebaseCrashlytics.getInstance()
       .setCrashlyticsCollectionEnabled(BuildConfig.DEBUG.not())
-
-    AndroidThreeTen.init(this)
 
     this.configureStrictMode()
   }
