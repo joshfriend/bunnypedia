@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION") // TODO: FIX ME
+
 package com.fueledbycaffeine.bunnypedia.ext.android
 
 import android.graphics.Paint

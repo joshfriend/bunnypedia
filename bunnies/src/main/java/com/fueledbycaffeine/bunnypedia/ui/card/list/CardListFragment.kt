@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.observe
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -125,7 +124,7 @@ class CardListFragment : DaggerFragment() {
 
     cardsViewModel.observe()
       .subscribe { data ->
-        data.observe(this, adapter::submitList)
+        data.observe(this.viewLifecycleOwner, adapter::submitList)
       }
       .addTo(this.subscribers)
   }

@@ -40,7 +40,7 @@ class CardAdapter(
   }
 
   override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
-    val cardWithRules = getItem(holder.adapterPosition)
+    val cardWithRules = getItem(holder.bindingAdapterPosition)
     if (cardWithRules == null) {
       holder.clear()
     } else {

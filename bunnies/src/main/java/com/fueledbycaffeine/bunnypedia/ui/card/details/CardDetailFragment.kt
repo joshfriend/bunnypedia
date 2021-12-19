@@ -118,6 +118,7 @@ class CardDetailFragment : DaggerFragment() {
       .flatMapSingle { cardId ->
         cardStore.getCard(cardId).mapToResult()
       }
+      .observeOn(AndroidSchedulers.mainThread())
       .subscribe { result ->
         if (result is QueryResult.Found<*>) {
           val (selectedCard) = result.item as CardWithRules

@@ -44,6 +44,7 @@
     <string name="deck_kinder_sky_blue_starter">KinderBunnies Sky Blue Starter</string>
     <string name="deck_kinder_sunshine_yellow_booster">KinderBunnies Sunshine Yellow Booster</string>
     <string name="deck_la_di_da_london_booster">La-Di-Da London Booster</string>
+    <string name="deck_cake_batter">Cake Batter Booster</string>
     <string name="card_type_kaballa_dolla">Kaballa Dolla</string>
     <string name="card_type_rank">Rank</string>
     <string name="section_ftb_requirements">Food Units Required</string>
@@ -115,6 +116,7 @@
     <string name="violet">Violet</string>
     <string name="pink">Pink</string>
     <string name="black">Black</string>
+    <string name="brown">Brown</string>
     <string name="psi_type_arrow">Arrow</string>
     <string name="psi_type_kite">Kite</string>
     <string name="section_special_series">Special Series</string>

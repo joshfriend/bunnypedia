@@ -47,5 +47,5 @@ data class Card(
   @Embedded
   val ftb: FeedTheBunny
 ) {
-  val imageURI: String get() = "file:///android_asset/card_thumbnails/${canonicalId ?: id}.jpg"
+  val imageURI: String get() = "file:///android_asset/card_thumbnails/${canonicalId ?: id}.webp"
 }

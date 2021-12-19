@@ -13,6 +13,7 @@ inline val Fragment.defaultSharedPreferences: SharedPreferences
 inline fun <reified T : Activity> Fragment.startActivity(vararg params: Pair<String, Any?>) =
   AnkoInternals.internalStartActivity(requireActivity(), T::class.java, params)
 
+@Suppress("DEPRECATION") // TODO: FIX ME
 inline fun <reified T : Activity> Fragment.startActivityForResult(requestCode: Int, vararg params: Pair<String, Any?>) =
   startActivityForResult(AnkoInternals.createIntent(requireActivity(), T::class.java, params), requestCode)
 

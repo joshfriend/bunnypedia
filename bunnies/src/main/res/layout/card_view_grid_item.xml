@@ -57,7 +57,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/titleBackground"
-            tools:text="@string/placeholder_darth_plagueis2"
+            tools:text="Nuclear Warhead"
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

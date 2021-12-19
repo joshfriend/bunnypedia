@@ -13,6 +13,7 @@ enum class Pawn {
   VIOLET,
   PINK,
   BLACK,
+  BROWN,
   ;
 
   val color: Int @ColorRes get() {
@@ -25,6 +26,7 @@ enum class Pawn {
       VIOLET -> R.color.deck_violet
       PINK -> R.color.deck_pink
       BLACK -> R.color.deck_onyx
+      BROWN -> R.color.deck_caramel
     }
   }
 
@@ -38,6 +40,7 @@ enum class Pawn {
       VIOLET -> R.string.violet
       PINK -> R.string.pink
       BLACK -> R.string.black
+      BROWN -> R.string.brown
     }
   }
 }

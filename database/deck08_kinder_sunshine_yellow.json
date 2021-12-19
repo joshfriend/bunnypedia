@@ -579,7 +579,8 @@
       {
         "title": "Card Text",
         "text": "Aliens take all of your bunnies to the discard pile."
-      }
+      },
+      {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/0733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
     ]
   },
   {

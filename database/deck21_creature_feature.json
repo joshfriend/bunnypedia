@@ -371,7 +371,7 @@
     ],
     "rules": [
       {"title": "Card Text", "text": "May be used once by a player and given to the opponent who has the most Carrots. If the opponent rolls the digits of the current year, then he loses all of his ."},
-      {"title": "Additional Rules", "text": "A roll of 10 is used as a Zero, and rolls of 11 and 12 do not count at all. All Carrots are returned to any Kaballa's Market. If no opponent has the most Carrots, then Swordfish Of Damocles must be discarded. Any player(s) with a matching pair of saved Atomic Pastry may use (discard) them to eliminate Swordfish Of Damocles before the opponent is forced to roll the dice."}
+      {"title": "Additional Rules", "text": "A roll of 10 is used as a Zero, and rolls of 11 and 12 do not count at all. All Carrots are returned to any Kaballa's Market. If no opponent has the most Carrots, then Swordfish Of Damocles must be discarded. Any player(s) with a matching pair of saved <a href=\"bunnypedia://cards/1349\">Atomic Pastry</a> may use (discard) them to eliminate Swordfish Of Damocles before the opponent is forced to roll the dice."}
     ]
   },
   {
