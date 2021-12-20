@@ -15,8 +15,6 @@ import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.ext.android.isAppearanceLightStatusBars
-import com.fueledbycaffeine.bunnypedia.ext.android.useDarkStatusBarStyle
-import com.fueledbycaffeine.bunnypedia.ext.android.useLightStatusBarStyle
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import dagger.android.support.DaggerFragment

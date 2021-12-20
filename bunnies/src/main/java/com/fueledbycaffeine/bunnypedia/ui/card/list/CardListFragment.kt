@@ -112,8 +112,7 @@ class CardListFragment : DaggerFragment() {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
 
-    activity?.window?.isAppearanceLightStatusBars = true
-
+    activity?.window?.isAppearanceLightStatusBars = false
     val activity = activity
     if (activity is AppCompatActivity) {
       activity.setSupportActionBar(toolbar)
