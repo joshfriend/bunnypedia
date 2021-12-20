@@ -13,11 +13,16 @@ interface CardDao {
   @Transaction
   @Query("""
   SELECT * FROM Card
-  JOIN CardFts ON Card.pk = CardFts.docid
-  WHERE
-    deck in (:decks)
-    AND CardFts MATCH :ftsTerm
-  ORDER BY pk ASC
+  LEFT OUTER JOIN (
+    SELECT cardPk FROM RuleFts WHERE RuleFts MATCH :ftsTerm
+  ) AS rule_fts ON rule_fts.cardPk = Card.pk
+  LEFT OUTER JOIN (
+    SELECT pk as cardPk FROM CardFts WHERE CardFts MATCH :ftsTerm
+  ) AS card_fts ON card_fts.cardPk = Card.pk
+  WHERE 
+    Card.deck in (:decks)
+    AND COALESCE(rule_fts.cardPk, card_fts.cardPk) IS NOT NULL
+  ORDER BY Card.pk ASC
   """)
   fun getCardsByDeckAndQuery(
     decks: Array<Deck>,

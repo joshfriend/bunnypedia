@@ -9,8 +9,8 @@ import androidx.room.PrimaryKey
   foreignKeys = [
     ForeignKey(
       entity = Card::class,
-      parentColumns = ["id"],
-      childColumns = ["cardId"],
+      parentColumns = ["pk"],
+      childColumns = ["cardPk"],
       onDelete = ForeignKey.CASCADE
     )
   ]
@@ -20,7 +20,7 @@ data class Rule(
   val id: Int,
 
   @ColumnInfo(index = true)
-  val cardId: String,
+  val cardPk: Int,
 
   val title: String,
   val text: String

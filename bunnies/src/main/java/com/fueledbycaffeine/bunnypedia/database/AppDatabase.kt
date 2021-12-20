@@ -6,12 +6,14 @@ import androidx.room.TypeConverters
 import com.fueledbycaffeine.bunnypedia.database.model.Card
 import com.fueledbycaffeine.bunnypedia.database.model.CardFts
 import com.fueledbycaffeine.bunnypedia.database.model.Rule
+import com.fueledbycaffeine.bunnypedia.database.model.RuleFts
 
 @Database(
   entities = [
     Card::class,
     CardFts::class,
-    Rule::class
+    Rule::class,
+    RuleFts::class,
   ],
   version = 2,
   exportSchema = false

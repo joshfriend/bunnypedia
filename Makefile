@@ -16,7 +16,7 @@ all: ${THUMBNAIL_DIR} ${DATABASE} ${THUMBNAILS}
 ${DATABASE_DIR}:
 	mkdir -p $@
 
-${DATABASE}: ${DATABASE_DIR} ${DECKS}
+${DATABASE}: ${DATABASE_DIR} ${DECKS} ./database/dbseed.py
 	./database/dbseed.py
 
 .PHONY: clean

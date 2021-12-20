@@ -8,8 +8,8 @@ data class CardWithRules(
   val card: Card,
 
   @Relation(
-    parentColumn = "id",
-    entityColumn = "cardId"
+    parentColumn = "pk",
+    entityColumn = "cardPk"
   )
   val rules: List<Rule> = emptyList()
 )

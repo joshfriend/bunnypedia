@@ -77,29 +77,30 @@ class Card(_Table):
 
 
 class Rule(_Table):
-
     DDL = ("""
     CREATE TABLE Rule (
-        id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, cardId TEXT NOT NULL,
-        title TEXT NOT NULL, text TEXT NOT NULL,
-        FOREIGN KEY(cardId) REFERENCES Card(id) ON DELETE CASCADE
+        id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+        title TEXT NOT NULL,
+        text TEXT NOT NULL,
+        cardPk INTEGER NOT NULL,
+        FOREIGN KEY(cardPk) REFERENCES Card(pk) ON DELETE CASCADE
     );
     """,
     """
-    CREATE INDEX index_Rule_cardId ON Rule(cardId)
+    CREATE INDEX index_Rule_cardPk ON Rule(cardPk)
     """,
     )
 
     INSERT_STMT = """
     INSERT INTO Rule (
-        cardId, title, text
+        cardPk, title, text
     ) VALUES (
-        :cardId, :title, :text
+        :cardPk, :title, :text
     );
     """
 
-    def __init__(self, cardId, **kwargs):
-        self.cardId = cardId
+    def __init__(self, cardPk, **kwargs):
+        self.cardPk = cardPk
         self.title = kwargs['title']
         self.text = kwargs['text']
 
@@ -110,10 +111,20 @@ class Rule(_Table):
 class CardFts(_Table):
     DDL = (
     """
-    CREATE VIRTUAL TABLE IF NOT EXISTS CardFts USING FTS4(id, title, content=`Card`)
+    CREATE VIRTUAL TABLE IF NOT EXISTS CardFts USING FTS4(pk, title, content=`Card`)
     """,
     """
     INSERT INTO CardFts(CardFts) VALUES ('rebuild')
+    """
+    )
+
+class RuleFts(_Table):
+    DDL = (
+    """
+    CREATE VIRTUAL TABLE IF NOT EXISTS RuleFts USING FTS4(cardPk, title, text, content=`Rule`)
+    """,
+    """
+    INSERT INTO RuleFts(RuleFts) VALUES ('rebuild')
     """
     )
 
@@ -160,11 +171,12 @@ for pk, card_json in enumerate(cards_data):
         raise e
 
     for rule_json in card_json.get('rules', []):
-        rule = Rule(selectedCard.id, **rule_json)
+        rule = Rule(selectedCard.pk, **rule_json)
         rule.insert(conn)
 conn.commit()
 
 CardFts.create_table(conn)
+RuleFts.create_table(conn)
 conn.commit()
 
 conn.execute("pragma user_version = 1")

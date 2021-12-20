@@ -4,6 +4,7 @@ import androidx.paging.DataSource
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import io.reactivex.Single
+import timber.log.Timber
 
 class CardStore(private val dao: CardDao) {
   fun getCards(decks: Set<Deck>, query: String): DataSource.Factory<Int, CardWithRules> {
@@ -15,7 +16,10 @@ class CardStore(private val dao: CardDao) {
         }
         terms.joinToString(" OR ")
       } else {
-        "$query*"
+        // TODO: Fix crashes
+        // https://www.raywenderlich.com/14292824-full-text-search-in-room-tutorial-getting-started
+        val escapedQuery = query.replace(Regex.fromLiteral("\""), "\"\"")
+        "*\"$escapedQuery\"*"
       }
       dao.getCardsByDeckAndQuery(decks.toTypedArray(), ftsTerm)
     } else {

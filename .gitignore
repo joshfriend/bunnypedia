@@ -49,6 +49,7 @@ captures/
 .idea/libraries/
 .idea/dictionaries/
 .idea/jarRepositories.xml
+.idea/deploymentTargetDropDown.xml
 
 # Keystore files
 *.jks
