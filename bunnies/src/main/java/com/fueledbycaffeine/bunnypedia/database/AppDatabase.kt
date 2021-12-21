@@ -15,7 +15,7 @@ import com.fueledbycaffeine.bunnypedia.database.model.RuleFts
     Rule::class,
     RuleFts::class,
   ],
-  version = 2,
+  version = 1,
   exportSchema = false
 )
 @TypeConverters(CardTypeConverter::class)

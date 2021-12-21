@@ -2,7 +2,7 @@ package com.fueledbycaffeine.bunnypedia.injection
 
 import androidx.appcompat.app.AppCompatDelegate
 import com.fueledbycaffeine.bunnypedia.BuildConfig
-import com.fueledbycaffeine.bunnypedia.database.RoomAsset
+import com.fueledbycaffeine.bunnypedia.database.AppDatabase
 import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
 import com.fueledbycaffeine.bunnypedia.util.CrashlyticsTree
 import com.fueledbycaffeine.bunnypedia.util.configureStrictMode
@@ -29,7 +29,7 @@ class App : DaggerApplication() {
         .putInt(KEY_APP_VERSION, BuildConfig.VERSION_CODE)
         .apply()
 
-      RoomAsset.deleteDatabase(this)
+      getDatabasePath(AppDatabase.DATABASE_NAME).delete()
     }
 
     val tree = when (BuildConfig.DEBUG) {
