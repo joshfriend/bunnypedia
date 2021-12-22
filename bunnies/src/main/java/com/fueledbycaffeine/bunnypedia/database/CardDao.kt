@@ -22,6 +22,7 @@ interface CardDao {
   WHERE 
     Card.deck in (:decks)
     AND COALESCE(rule_fts.cardPk, card_fts.cardPk) IS NOT NULL
+  GROUP BY Card.pk
   ORDER BY Card.pk ASC
   """)
   fun getCardsByDeckAndQuery(
