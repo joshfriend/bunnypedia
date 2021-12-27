@@ -111,7 +111,7 @@ class Rule(_Table):
 class CardFts(_Table):
     DDL = (
     """
-    CREATE VIRTUAL TABLE IF NOT EXISTS CardFts USING FTS4(pk, title, content=`Card`)
+    CREATE VIRTUAL TABLE IF NOT EXISTS CardFts USING FTS4(id, title, content=`Card`)
     """,
     """
     INSERT INTO CardFts(CardFts) VALUES ('rebuild')
@@ -121,7 +121,7 @@ class CardFts(_Table):
 class RuleFts(_Table):
     DDL = (
     """
-    CREATE VIRTUAL TABLE IF NOT EXISTS RuleFts USING FTS4(cardPk, title, text, content=`Rule`)
+    CREATE VIRTUAL TABLE IF NOT EXISTS RuleFts USING FTS4(title, text, content=`Rule`)
     """,
     """
     INSERT INTO RuleFts(RuleFts) VALUES ('rebuild')

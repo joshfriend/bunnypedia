@@ -16,11 +16,10 @@ class CardStore(private val dao: CardDao) {
         }
         terms.joinToString(" OR ")
       } else {
-        // TODO: Fix crashes
-        // https://www.raywenderlich.com/14292824-full-text-search-in-room-tutorial-getting-started
         val escapedQuery = query.replace(Regex.fromLiteral("\""), "\"\"")
         "*\"$escapedQuery\"*"
       }
+      Timber.i("ftsTerm: $ftsTerm")
       dao.getCardsByDeckAndQuery(decks.toTypedArray(), ftsTerm)
     } else {
       dao.getCardsByDeck(decks.toTypedArray())

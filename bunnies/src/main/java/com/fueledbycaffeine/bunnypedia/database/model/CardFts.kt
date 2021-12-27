@@ -6,6 +6,6 @@ import androidx.room.Fts4
 @Fts4(contentEntity = Card::class)
 @Entity
 class CardFts(
-  val pk: String,
+  val id: String,
   val title: String
 )
