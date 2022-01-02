@@ -258,7 +258,7 @@
     "rules": [
       {
         "title": "Card Text",
-        "text": "All PLayers roll one of the dice. Any player that rolled a 9 skips their next turn."
+        "text": "All Players roll one of the dice. Any player that rolled a 9 skips their next turn."
       }
     ]
   },
