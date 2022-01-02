@@ -4,9 +4,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.database.AppDatabase
 import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
-import com.fueledbycaffeine.bunnypedia.util.CrashlyticsTree
 import com.fueledbycaffeine.bunnypedia.util.configureStrictMode
-import com.google.firebase.crashlytics.FirebaseCrashlytics
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
 import timber.log.Timber
@@ -32,13 +30,9 @@ class App : DaggerApplication() {
       getDatabasePath(AppDatabase.DATABASE_NAME).delete()
     }
 
-    val tree = when (BuildConfig.DEBUG) {
-      true -> Timber.DebugTree()
-      else -> CrashlyticsTree()
+    if (BuildConfig.DEBUG) {
+      Timber.plant(Timber.DebugTree())
     }
-    Timber.plant(tree)
-    FirebaseCrashlytics.getInstance()
-      .setCrashlyticsCollectionEnabled(BuildConfig.DEBUG.not())
 
     this.configureStrictMode()
   }
