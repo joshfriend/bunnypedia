@@ -508,8 +508,7 @@
   "id": "1367",
   "deck": "CAKE_BATTER",
   "title": "Terrible Misfortune (Dinosaurs)",
-  "type": "RUN",
-  "bunnyRequirement": "PLAY",
+  "type": "PLAY_IMMEDIATELY",
   "rules": [
     {"title": "Card Text", "text": "A duo of dinosaurs enacts a tetherball dido using one of your bunnies as the ball!"},
     {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a>"},
@@ -520,8 +519,7 @@
   "id": "1368",
   "deck": "CAKE_BATTER",
   "title": "Terrible Misfortune (Safari)",
-  "type": "RUN",
-  "bunnyRequirement": "PLAY",
+  "type": "PLAY_IMMEDIATELY",
   "rules": [
     {"title": "Card Text", "text": "While on safari in Africa, one of your bunnies is crushed after an anserous musth!"},
     {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a>"},
