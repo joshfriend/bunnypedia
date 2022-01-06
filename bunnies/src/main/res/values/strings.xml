@@ -140,6 +140,10 @@
     <string name="grid_view">Grid View</string>
     <string name="pref_view_settings">View Settings</string>
     <string name="pref_title_view_type">Cards View</string>
+    <string name="pref_view_reset_data">Reset Data</string>
+    <string name="pref_title_reset_database">Card Database</string>
+    <string name="pref_summary_reset_database">If you experience issues with the database, like no cards showing up, use this option.</string>
+    <string name="reset">Reset</string>
     <string name="pref_summary_view_type">How would you like to view the list of cards.</string>
     <string name="card_type_senator">Senator</string>
     <string name="card_type_metal">Metal</string>

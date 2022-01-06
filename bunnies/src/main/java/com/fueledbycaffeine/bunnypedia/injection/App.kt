@@ -21,6 +21,10 @@ class App : DaggerApplication() {
   override fun onCreate() {
     super.onCreate()
 
+    if (BuildConfig.DEBUG) {
+      Timber.plant(Timber.DebugTree())
+    }
+
     val previousVersion = defaultSharedPreferences.getInt(KEY_APP_VERSION, 0)
     if (BuildConfig.DEBUG || previousVersion < BuildConfig.VERSION_CODE) {
       defaultSharedPreferences.edit()
@@ -28,10 +32,6 @@ class App : DaggerApplication() {
         .apply()
 
       getDatabasePath(AppDatabase.DATABASE_NAME).delete()
-    }
-
-    if (BuildConfig.DEBUG) {
-      Timber.plant(Timber.DebugTree())
     }
 
     this.configureStrictMode()

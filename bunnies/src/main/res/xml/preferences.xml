@@ -35,4 +35,18 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/pref_view_reset_data"
+        android:key="@null"
+        >
+
+        <Preference
+            android:key="@string/pref_key_reset_card_db"
+            android:persistent="false"
+            android:title="@string/pref_title_reset_database"
+            android:summary="@string/pref_summary_reset_database"
+            />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
