@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.fueledbycaffeine.bunnypedia.ui.card.list
 
 import android.os.Bundle

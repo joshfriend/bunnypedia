@@ -36,9 +36,9 @@ class SettingsFragment : PreferenceFragmentCompat() {
     }
   }
 
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
     val view = super.onCreateView(inflater, container, savedInstanceState)
-    view?.setBackgroundColor(requireContext().getColor(R.color.black))
+    view.setBackgroundColor(requireContext().getColor(R.color.black))
     return view
   }
 
