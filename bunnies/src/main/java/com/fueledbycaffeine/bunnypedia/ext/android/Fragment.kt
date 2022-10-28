@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.preference.PreferenceManager
 
 inline val Fragment.defaultSharedPreferences: SharedPreferences
-  get() = PreferenceManager.getDefaultSharedPreferences(activity)
+  get() = PreferenceManager.getDefaultSharedPreferences(requireContext())
 
 fun Fragment.hideSoftKeyboard() {
   val windowToken = view?.rootView?.windowToken
