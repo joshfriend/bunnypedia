@@ -7,4 +7,5 @@ import androidx.preference.PreferenceManager
 
 inline val Context.layoutInflater: LayoutInflater get() = LayoutInflater.from(this)
 
-inline val Context.defaultSharedPreferences: SharedPreferences get() = PreferenceManager.getDefaultSharedPreferences(this)
+inline val Context.defaultSharedPreferences: SharedPreferences
+  get() = PreferenceManager.getDefaultSharedPreferences(this)
