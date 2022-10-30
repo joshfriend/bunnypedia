@@ -10,7 +10,6 @@ import com.fueledbycaffeine.bunnypedia.database.CardStore
 import dagger.Module
 import dagger.Provides
 import timber.log.Timber
-import javax.inject.Singleton
 
 @Module
 class DatabaseModule {
@@ -21,7 +20,7 @@ class DatabaseModule {
         AppDatabase::class.java,
         DATABASE_NAME
       )
-      .createFromAsset("databases/${DATABASE_NAME}", object : RoomDatabase.PrepackagedDatabaseCallback() {
+      .createFromAsset("databases/$DATABASE_NAME", object : RoomDatabase.PrepackagedDatabaseCallback() {
         override fun onOpenPrepackagedDatabase(db: SupportSQLiteDatabase) {
           Timber.i("Copying packaged db asset: ${db.path}")
         }

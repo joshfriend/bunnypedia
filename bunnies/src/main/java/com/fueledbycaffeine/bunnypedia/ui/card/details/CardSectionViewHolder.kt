@@ -260,7 +260,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
   }
 
   private fun setupBundergroundLine(line: Die, stop: Int) {
-    @StringRes val lineNameRes = when(line) {
+    @StringRes val lineNameRes = when (line) {
       Die.RED -> R.string.red
       Die.ORANGE -> R.string.orange
       Die.YELLOW -> R.string.yellow

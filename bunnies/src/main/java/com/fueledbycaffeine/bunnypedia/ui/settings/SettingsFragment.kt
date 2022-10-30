@@ -6,14 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.Animation
-import android.widget.Button
-import androidx.core.content.IntentCompat
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.AppDatabase
-import com.fueledbycaffeine.bunnypedia.ui.MainActivity
-import timber.log.Timber
 
 class SettingsFragment : PreferenceFragmentCompat() {
   override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {

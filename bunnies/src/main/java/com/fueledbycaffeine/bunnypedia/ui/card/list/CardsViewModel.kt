@@ -64,7 +64,7 @@ class CardsViewModel(
     return decks.map { Deck.valueOf(it) }.toSet() + setOf(Deck.BLUE)
   }
 
-  //<editor-fold desc="Factory">
+  // <editor-fold desc="Factory">
   @Suppress("UNCHECKED_CAST")
   class Provider @Inject constructor(
     private val context: Context,
@@ -77,5 +77,5 @@ class CardsViewModel(
       throw IllegalArgumentException("Unknown ViewModel class!")
     }
   }
-  //</editor-fold>
+  // </editor-fold>
 }
