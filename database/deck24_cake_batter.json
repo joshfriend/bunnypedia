@@ -501,7 +501,7 @@
   "bunnyRequirement": "NO",
   "rules": [
     {"title": "Card Text", "text": "May be used once by the player who can form the longest word using the letters on his saved Carrots to choose a Carrot from any Kaballa's Market."},
-    {"title": "Additional Rules", "text": "Only the single letter designations of KinderBunnies Carrots may be used (the letters in the names of any Carrots may not be used). If there is a tie for the longest word, then no player may choose a Carrot."}
+    {"title": "Additional Rules", "text": "Dr. Shoe may be used once by the player who can form the longest word within one minute using the letters on his saved KinderBunnies Carrots to choose a Carrot from any Kaballa’s Market. Only the single letter designations of KinderBunnies Carrots may be used (the letters in the names of any Carrots may not be used). If there is a tie for the longest word, then no player may choose a Carrot."}
   ]
 },
 {
