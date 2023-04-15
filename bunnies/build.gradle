@@ -76,7 +76,6 @@ android {
 repositories {
     google()
     mavenCentral()
-    maven { url 'https://maven.fabric.io/public' }
 
     // Still get fastscroll dep from here
     //noinspection JcenterRepositoryObsolete
