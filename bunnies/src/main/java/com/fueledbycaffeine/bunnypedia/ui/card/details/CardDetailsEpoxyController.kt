@@ -15,13 +15,13 @@ class CardDetailsEpoxyController(private val details: CardWithRules) : EpoxyCont
   override fun buildModels() {
     cardSection {
       id("card")
-      card(details.card)
+      card(this@CardDetailsEpoxyController.details.card)
     }
     details.rules.forEach { rule ->
       ruleSection {
         id(rule.id)
         rule(rule)
-        linkListener(links::onNext)
+        linkListener(this@CardDetailsEpoxyController.links::onNext)
       }
     }
   }
