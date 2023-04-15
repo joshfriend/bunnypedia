@@ -5,6 +5,7 @@ import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.database.model.Deck
 import io.reactivex.Single
 import timber.log.Timber
+import java.util.Locale
 
 class CardStore(private val dao: CardDao) {
   fun getCards(decks: Set<Deck>, query: String): DataSource.Factory<Int, CardWithRules> {
@@ -12,7 +13,7 @@ class CardStore(private val dao: CardDao) {
       // String IDs must be matched with the prefix 0s, so build terms including those leading 0s
       val ftsTerm = if (query.matches("^\\d+$".toRegex()) && query.length < 4) {
         val terms = (query.length..4).map { size ->
-          String.format("%0${size}d*", query.toInt())
+          String.format(Locale.US, "%0${size}d*", query.toInt())
         }
         terms.joinToString(" OR ")
       } else {

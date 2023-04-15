@@ -11,25 +11,27 @@ import io.reactivex.Single
 @Dao
 interface CardDao {
   @Transaction
-  @Query("""
-  SELECT
-    Card.*,
-    CASE Card.id WHEN CAST(:ftsTerm AS INTEGER) then 1 ELSE 0 END AS _rank
-  FROM Card
-  LEFT OUTER JOIN (
-    SELECT Rule.cardPk as cardPk from Rule
-    JOIN RuleFts on RuleFts.docid = Rule.id
-    WHERE RuleFts MATCH :ftsTerm
-  ) AS rule_fts ON rule_fts.cardPk = Card.pk
-  LEFT OUTER JOIN (
-    SELECT docid as cardPk FROM CardFts WHERE CardFts MATCH :ftsTerm
-  ) AS card_fts ON card_fts.cardPk = Card.pk
-  WHERE 
-    Card.deck in (:decks)
-    AND COALESCE(rule_fts.cardPk, card_fts.cardPk) IS NOT NULL
-  GROUP BY Card.pk
-  ORDER BY _rank DESC, Card.pk ASC
-  """)
+  @Query(
+    """
+    SELECT
+      Card.*,
+      CASE Card.id WHEN CAST(:ftsTerm AS INTEGER) then 1 ELSE 0 END AS _rank
+    FROM Card
+    LEFT OUTER JOIN (
+      SELECT Rule.cardPk as cardPk from Rule
+      JOIN RuleFts on RuleFts.docid = Rule.id
+      WHERE RuleFts MATCH :ftsTerm
+    ) AS rule_fts ON rule_fts.cardPk = Card.pk
+    LEFT OUTER JOIN (
+      SELECT docid as cardPk FROM CardFts WHERE CardFts MATCH :ftsTerm
+    ) AS card_fts ON card_fts.cardPk = Card.pk
+    WHERE 
+      Card.deck in (:decks)
+      AND COALESCE(rule_fts.cardPk, card_fts.cardPk) IS NOT NULL
+    GROUP BY Card.pk
+    ORDER BY _rank DESC, Card.pk ASC
+    """
+  )
   fun getCardsByDeckAndQuery(
     decks: Array<Deck>,
     ftsTerm: String

@@ -1,8 +1,8 @@
 package com.fueledbycaffeine.bunnypedia.ui.card.list
 
-import androidx.paging.PagedListAdapter
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules

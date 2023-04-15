@@ -15,16 +15,20 @@ import timber.log.Timber
 class DatabaseModule {
   @Provides
   fun provideDatabase(context: Context): AppDatabase {
-    return Room.databaseBuilder(
+    return Room
+      .databaseBuilder(
         context,
         AppDatabase::class.java,
         DATABASE_NAME
       )
-      .createFromAsset("databases/$DATABASE_NAME", object : RoomDatabase.PrepackagedDatabaseCallback() {
-        override fun onOpenPrepackagedDatabase(db: SupportSQLiteDatabase) {
-          Timber.i("Copying packaged db asset: ${db.path}")
+      .createFromAsset(
+        "databases/$DATABASE_NAME",
+        object : RoomDatabase.PrepackagedDatabaseCallback() {
+          override fun onOpenPrepackagedDatabase(db: SupportSQLiteDatabase) {
+            Timber.i("Copying packaged db asset: ${db.path}")
+          }
         }
-      })
+      )
       .build()
   }
 
