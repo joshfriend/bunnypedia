@@ -1,8 +1,11 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-kapt'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: "androidx.navigation.safeargs.kotlin"
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
+    id "androidx.navigation.safeargs.kotlin"
+    id 'com.google.devtools.ksp'
+}
 
 androidExtensions {
     experimental = true
@@ -104,14 +107,14 @@ dependencies {
     def roomVersion = "2.4.3"
     implementation "androidx.room:room-runtime:$roomVersion"
     implementation "androidx.room:room-rxjava2:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
+    ksp "androidx.room:room-compiler:$roomVersion"
     def pagingVersion = "2.1.2"
     implementation "androidx.paging:paging-runtime-ktx:$pagingVersion"
     implementation "androidx.paging:paging-rxjava2-ktx:$pagingVersion"
 
-    def epoxyVersion = "4.6.4"
+    def epoxyVersion = "5.1.1"
     implementation "com.airbnb.android:epoxy:$epoxyVersion"
-    kapt "com.airbnb.android:epoxy-processor:$epoxyVersion"
+    ksp "com.airbnb.android:epoxy-processor:$epoxyVersion"
 
     // Dependency injection
     def daggerVersion = "2.44"
@@ -128,9 +131,9 @@ dependencies {
     implementation "com.jakewharton.rxbinding3:rxbinding:$rxBindingVersion"
     implementation "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBindingVersion"
 
-    def glideVersion = '4.13.2'
+    def glideVersion = '4.15.1'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
-    kapt "com.github.bumptech.glide:compiler:$glideVersion"
+    ksp "com.github.bumptech.glide:compiler:$glideVersion"
     implementation "me.saket:better-link-movement-method:2"
     implementation 'com.futuremind.recyclerfastscroll:fastscroll:0.2.5'
 

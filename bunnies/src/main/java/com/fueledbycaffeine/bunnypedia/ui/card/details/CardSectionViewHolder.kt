@@ -7,6 +7,7 @@ import android.widget.ImageView
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
+import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.Target
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.Card
@@ -20,7 +21,6 @@ import com.fueledbycaffeine.bunnypedia.database.model.SpecialSeries
 import com.fueledbycaffeine.bunnypedia.database.model.ZodiacAnimal
 import com.fueledbycaffeine.bunnypedia.database.model.ZodiacSign
 import com.fueledbycaffeine.bunnypedia.ui.EpoxyLayoutContainer
-import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.google.android.flexbox.FlexboxLayout
 import kotlinx.android.synthetic.main.card_hero_details.view.*
 import java.time.LocalDate
@@ -35,7 +35,7 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
   fun display(card: Card) {
     itemView.cardType.text = getString(card.type.description)
 
-    GlideApp.with(context)
+    Glide.with(context)
       .load(card.imageURI)
       .override(Target.SIZE_ORIGINAL)
       .into(itemView.cardThumbnail)

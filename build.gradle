@@ -23,6 +23,7 @@ plugins {
     // Mozilla decided to live with the duplication:  https://github.com/mozilla-mobile/focus-android/issues/1886
     // Possible solution that requires changing to Gradle Kotlin DSL:  https://github.com/gradle/gradle/issues/1697
     id "io.gitlab.arturbosch.detekt" version "1.23.1"
+    id "com.google.devtools.ksp" version "1.7.22-1.0.8"
 }
 
 allprojects {

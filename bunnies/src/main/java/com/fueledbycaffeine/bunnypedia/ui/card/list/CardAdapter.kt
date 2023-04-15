@@ -4,10 +4,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
+import com.bumptech.glide.Glide
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
 import com.fueledbycaffeine.bunnypedia.ext.android.layoutInflater
-import com.fueledbycaffeine.bunnypedia.ui.GlideApp
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
 
 class CardAdapter(
@@ -44,7 +44,7 @@ class CardAdapter(
     if (cardWithRules == null) {
       holder.clear()
     } else {
-      holder.bind(GlideApp.with(fragment), cardWithRules)
+      holder.bind(Glide.with(fragment), cardWithRules)
       holder.itemView.setOnClickListener { onCardSelected(cardWithRules.card.id) }
     }
   }
@@ -66,6 +66,6 @@ class CardAdapter(
 
   override fun getSectionTitle(position: Int): String {
     val (card) = getItem(position) ?: return "???"
-    return card.id.toString()
+    return card.id
   }
 }
