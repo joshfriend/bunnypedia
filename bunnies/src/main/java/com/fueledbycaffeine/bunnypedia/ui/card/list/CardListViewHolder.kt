@@ -11,6 +11,7 @@ import com.fueledbycaffeine.bunnypedia.ext.android.stripHtmlTags
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.card_view_list_item.*
+import java.util.Locale
 
 class CardListViewHolder(override val containerView: View) : CardViewHolder(containerView), LayoutContainer {
   override fun bind(requestManager: RequestManager, cardAndRules: CardWithRules) {
@@ -20,7 +21,7 @@ class CardListViewHolder(override val containerView: View) : CardViewHolder(cont
       .into(image)
 
     val (card, rules) = cardAndRules
-    cardNumber.text = String.format("#%s", card.id)
+    cardNumber.text = String.format(Locale.US, "#%s", card.id)
     title.text = card.title
     cardText.text = rules.firstOrNull()?.text?.stripHtmlTags() ?: ""
 

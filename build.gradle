@@ -1,3 +1,6 @@
+import io.gitlab.arturbosch.detekt.Detekt
+import io.gitlab.arturbosch.detekt.DetektCreateBaselineTask
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
@@ -19,7 +22,7 @@ plugins {
     // Others experiencing it:  https://github.com/gradle/gradle/issues/3593
     // Mozilla decided to live with the duplication:  https://github.com/mozilla-mobile/focus-android/issues/1886
     // Possible solution that requires changing to Gradle Kotlin DSL:  https://github.com/gradle/gradle/issues/1697
-    id "io.gitlab.arturbosch.detekt" version "1.16.0"
+    id "io.gitlab.arturbosch.detekt" version "1.23.1"
 }
 
 allprojects {
@@ -38,29 +41,39 @@ allprojects {
 }
 
 subprojects {
-    def detektVersion = "1.16.0"
-
     apply plugin: 'io.gitlab.arturbosch.detekt'
 
     detekt {
-        toolVersion = detektVersion
+        buildUponDefaultConfig = true // preconfigure defaults
+        allRules = false // activate all available (even unstable) rules.
         config = files("$rootProject.projectDir/detekt-config.yml")
         baseline = file("$rootProject.projectDir/detekt-baseline.xml")
-
-        reports {
-            html {
-                enabled = true
-                destination = file("$project.buildDir/reports/detekt.html")
-            }
-        }
     }
 
     // enable detekt formatting rules
     dependencies {
-        detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:$detektVersion"
+        detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:1.23.1"
+        detektPlugins "io.gitlab.arturbosch.detekt:detekt-rules-style:1.23.1"
+    }
+    tasks.withType(Detekt).configureEach {
+        jvmTarget = "1.8"
+        reports {
+            html.required = true
+        }
+    }
+    tasks.withType(DetektCreateBaselineTask).configureEach {
+        jvmTarget = "1.8"
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+//buildCache {
+//    local {
+//        directory = new File(rootDir, '.gradle/build-cache')
+//        removeUnusedEntriesAfterDays = 30
+//    }
+//}

@@ -55,6 +55,7 @@ enum class ZodiacSign(val element: ZodiacElement, val number: Int) {
     }
   }
 
+  @Suppress("NoMultipleSpaces")
   val range: Pair<MonthDay, MonthDay> get() = when (this) {
     CAPRICORN   -> MonthDay.of(Month.DECEMBER, 22)  to MonthDay.of(Month.JANUARY, 20)
     AQUARIUS    -> MonthDay.of(Month.JANUARY, 21)   to MonthDay.of(Month.FEBRUARY, 19)

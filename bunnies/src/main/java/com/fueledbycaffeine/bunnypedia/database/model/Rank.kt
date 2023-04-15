@@ -7,26 +7,24 @@ import com.fueledbycaffeine.bunnypedia.database.model.RankType.ENLISTED
 import com.fueledbycaffeine.bunnypedia.database.model.RankType.OFFICER
 
 enum class Rank(val type: RankType, val grade: Int) {
-  // Enlisted
-  E1(ENLISTED, 1),  // Seaman Recruit
-  E2(ENLISTED, 2),  // Seaman Apprentice
-  E3(ENLISTED, 3),  // Seaman
-  E4(ENLISTED, 4),  // Petty Officer 3rd Class
-  E5(ENLISTED, 5),  // Petty Officer 2nd Class
-  E6(ENLISTED, 6),  // Petty Officer 1st Class
-  E7(ENLISTED, 7),  // Chief Petty Officer
-  E8(ENLISTED, 8),  // Senior Chief Petty Officer
-  E9(ENLISTED, 9),  // Master Chief Petty Officer
-  // Officer
-  O1(OFFICER, 1),  // Ensign
-  O2(OFFICER, 2),  // Lieutenant JG
-  O3(OFFICER, 3),  // Lieutenant
-  O4(OFFICER, 4),  // Lieutenant Commander
-  O5(OFFICER, 5),  // Commander
-  O6(OFFICER, 6),  // Captain
-  O7(OFFICER, 7),  // Lower Rear Admiral
-  O8(OFFICER, 8),  // Upper Rear Admiral
-  O9(OFFICER, 9),  // Vice Admiral
+  E1(ENLISTED, 1), // Seaman Recruit
+  E2(ENLISTED, 2), // Seaman Apprentice
+  E3(ENLISTED, 3), // Seaman
+  E4(ENLISTED, 4), // Petty Officer 3rd Class
+  E5(ENLISTED, 5), // Petty Officer 2nd Class
+  E6(ENLISTED, 6), // Petty Officer 1st Class
+  E7(ENLISTED, 7), // Chief Petty Officer
+  E8(ENLISTED, 8), // Senior Chief Petty Officer
+  E9(ENLISTED, 9), // Master Chief Petty Officer
+  O1(OFFICER, 1), // Ensign
+  O2(OFFICER, 2), // Lieutenant JG
+  O3(OFFICER, 3), // Lieutenant
+  O4(OFFICER, 4), // Lieutenant Commander
+  O5(OFFICER, 5), // Commander
+  O6(OFFICER, 6), // Captain
+  O7(OFFICER, 7), // Lower Rear Admiral
+  O8(OFFICER, 8), // Upper Rear Admiral
+  O9(OFFICER, 9), // Vice Admiral
   ;
 
   val description: Int @StringRes get() {
