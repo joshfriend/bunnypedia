@@ -51,7 +51,7 @@ android {
 
     signingConfigs {
         release {
-            def password = getPassword(defaultConfig.applicationId)
+            def password = getPassword()
             storeFile file("$rootProject.projectDir/bunnypedia.jks")
             storePassword password
             keyAlias 'bunnypedia'
@@ -143,19 +143,12 @@ dependencies {
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
 }
 
-def getPassword(String item) {
+def getPassword() {
     if (System.getenv('CI') != null) {
         System.getenv('ANDROID_KEYSTORE_PASSWORD')
     } else {
-        def stdout = new ByteArrayOutputStream()
-        def stderr = new ByteArrayOutputStream()
-        exec {
-            commandLine 'security', '-q', 'find-generic-password', '-s', item, '-w'
-            standardOutput = stdout
-            errorOutput = stderr
-            ignoreExitValue true
-        }
-        //noinspection GroovyAssignabilityCheck
-        stdout.toString().trim()
+        def properties = new Properties()
+        properties.load(project.rootProject.file("local.properties").newDataInputStream())
+        properties.getProperty('keystorePassword')
     }
 }
