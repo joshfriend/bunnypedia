@@ -18,13 +18,13 @@ kapt {
 android {
     namespace = "com.fueledbycaffeine.bunnypedia"
 
-    compileSdkVersion 33
+    compileSdkVersion 34
     defaultConfig {
         applicationId "com.fueledbycaffeine.bunnypedia"
         minSdkVersion 23
-        targetSdkVersion 33
-        versionCode 33
-        versionName "0.26"
+        targetSdkVersion 34
+        versionCode 34
+        versionName "0.27"
 
         multiDexEnabled true
     }
