@@ -4,13 +4,13 @@ import io.gitlab.arturbosch.detekt.DetektCreateBaselineTask
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.7.20'
+    ext.kotlin_version = '1.7.22'
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath 'com.android.tools.build:gradle:7.4.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.5.3"
     }
@@ -23,19 +23,19 @@ plugins {
     // Mozilla decided to live with the duplication:  https://github.com/mozilla-mobile/focus-android/issues/1886
     // Possible solution that requires changing to Gradle Kotlin DSL:  https://github.com/gradle/gradle/issues/1697
     id "io.gitlab.arturbosch.detekt" version "1.23.1"
+    id "com.google.devtools.ksp" version "1.7.22-1.0.8"
 }
 
 allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url "https://jitpack.io" }
     }
 
-    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
         kotlinOptions {
             allWarningsAsErrors = true
-//            jvmTarget = JavaVersion.VERSION_11
+            jvmTarget = JavaVersion.VERSION_1_8
         }
     }
 }

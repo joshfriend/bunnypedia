@@ -1,8 +1,11 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-kapt'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: "androidx.navigation.safeargs.kotlin"
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
+    id "androidx.navigation.safeargs.kotlin"
+    id 'com.google.devtools.ksp'
+}
 
 androidExtensions {
     experimental = true
@@ -13,8 +16,9 @@ kapt {
 }
 
 android {
-    compileSdkVersion 33
+    namespace = "com.fueledbycaffeine.bunnypedia"
 
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.fueledbycaffeine.bunnypedia"
         minSdkVersion 23
@@ -31,10 +35,6 @@ android {
         // Sets Java compatibility to Java 8
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    dexOptions {
-        preDexLibraries true
     }
 
     lintOptions {
@@ -54,7 +54,7 @@ android {
 
     signingConfigs {
         release {
-            def password = getPassword(defaultConfig.applicationId)
+            def password = getPassword()
             storeFile file("$rootProject.projectDir/bunnypedia.jks")
             storePassword password
             keyAlias 'bunnypedia'
@@ -79,7 +79,6 @@ android {
 repositories {
     google()
     mavenCentral()
-    maven { url 'https://maven.fabric.io/public' }
 
     // Still get fastscroll dep from here
     //noinspection JcenterRepositoryObsolete
@@ -108,14 +107,14 @@ dependencies {
     def roomVersion = "2.4.3"
     implementation "androidx.room:room-runtime:$roomVersion"
     implementation "androidx.room:room-rxjava2:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
+    ksp "androidx.room:room-compiler:$roomVersion"
     def pagingVersion = "2.1.2"
     implementation "androidx.paging:paging-runtime-ktx:$pagingVersion"
     implementation "androidx.paging:paging-rxjava2-ktx:$pagingVersion"
 
-    def epoxyVersion = "3.9.0"
+    def epoxyVersion = "5.1.1"
     implementation "com.airbnb.android:epoxy:$epoxyVersion"
-    kapt "com.airbnb.android:epoxy-processor:$epoxyVersion"
+    ksp "com.airbnb.android:epoxy-processor:$epoxyVersion"
 
     // Dependency injection
     def daggerVersion = "2.44"
@@ -132,9 +131,9 @@ dependencies {
     implementation "com.jakewharton.rxbinding3:rxbinding:$rxBindingVersion"
     implementation "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBindingVersion"
 
-    def glideVersion = '4.13.2'
+    def glideVersion = '4.15.1'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
-    kapt "com.github.bumptech.glide:compiler:$glideVersion"
+    ksp "com.github.bumptech.glide:compiler:$glideVersion"
     implementation "me.saket:better-link-movement-method:2"
     implementation 'com.futuremind.recyclerfastscroll:fastscroll:0.2.5'
 
@@ -146,19 +145,12 @@ dependencies {
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
 }
 
-def getPassword(String item) {
+def getPassword() {
     if (System.getenv('CI') != null) {
         System.getenv('ANDROID_KEYSTORE_PASSWORD')
     } else {
-        def stdout = new ByteArrayOutputStream()
-        def stderr = new ByteArrayOutputStream()
-        exec {
-            commandLine 'security', '-q', 'find-generic-password', '-s', item, '-w'
-            standardOutput = stdout
-            errorOutput = stderr
-            ignoreExitValue true
-        }
-        //noinspection GroovyAssignabilityCheck
-        stdout.toString().trim()
+        def properties = new Properties()
+        properties.load(project.rootProject.file("local.properties").newDataInputStream())
+        properties.getProperty('keystorePassword')
     }
 }
