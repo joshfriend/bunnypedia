@@ -243,7 +243,8 @@
         "type": "RUN",
         "bunnyRequirement": "NO",
         "rules": [
-            {"title": "Card Text", "text": "May be used once by a player to eliminate any one <a href=\"bunnypedia://cards/0185\">Barrier</a>. Cannot be used to eliminate a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>."}
+            {"title": "Card Text", "text": "May be used once by a player to eliminate any one <a href=\"bunnypedia://cards/0185\">Barrier</a>. Cannot be used to eliminate a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>."},
+            {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/0733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter"}
         ]
     },
     {

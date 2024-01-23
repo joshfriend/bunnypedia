@@ -29,6 +29,7 @@ enum class Deck {
   PUMPKIN_SPICE,
   LA_DI_DA_LONDON,
   CAKE_BATTER,
+  RADIOACTIVE_ROBOTS,
   ;
 
   val color: Int @ColorRes get() {
@@ -55,6 +56,7 @@ enum class Deck {
       PUMPKIN_SPICE -> R.color.deck_pumpkin_spice
       LA_DI_DA_LONDON -> R.color.deck_la_di_da_london
       CAKE_BATTER -> R.color.deck_cake_batter
+      RADIOACTIVE_ROBOTS -> R.color.deck_radioactive_robots
     }
   }
 
@@ -84,6 +86,7 @@ enum class Deck {
       KINDER_SUNSHINE_YELLOW -> R.string.deck_kinder_sunshine_yellow_booster
       LA_DI_DA_LONDON -> R.string.deck_la_di_da_london_booster
       CAKE_BATTER -> R.string.deck_cake_batter
+      RADIOACTIVE_ROBOTS -> R.string.deck_radioactive_robots
     }
   }
 

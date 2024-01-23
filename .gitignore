@@ -50,6 +50,8 @@ captures/
 .idea/dictionaries/
 .idea/jarRepositories.xml
 .idea/deploymentTargetDropDown.xml
+.idea/migrations.xml
+.idea/compiler.xml
 
 # Keystore files
 *.jks
@@ -65,3 +67,6 @@ card_thumbnails/
 *.gz
 *.sqlite3
 *.db
+
+# macOS bs
+.DS_Store

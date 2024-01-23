@@ -1,0 +1,605 @@
+[{
+  "id": "1376",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Robot Bunny - Blue",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "A Blue Robot Bunny that may be used to play Aggressive cards, but may not be used to win the game. A Robot Bunny becomes activated when a bunny of the same color (or half color) is placed under it."},
+    {"title": "Additional Rules", "text": "A player may place a Robot Bunny in his area of The Bunny Circle. A Robot Bunny may be used to play Aggressive cards, does not need to feed, and cannot be used to win the game since it is not technically alive.<br><br>A Robot Bunny cannot be assigned a Bunny Modifier card (only a Robot Bunny Modifier card).<br><br>A robot Bunny may be used to form a Bunny Triplet with any two bunnies of the same color (or half color). A player may form a Bunny Triplet if he has three Robot Bunny cards (any colors) in his area of The Bunny Circle<br><br>If attacked by a weapon, a Robot Bunny may add 5 to any die roll used to defend against the weapon. This rolling bonus may be used for weapons with a set or variable weapon level (not a 50/50 or Gender weapon)."},
+    {"title": "Activated Robot Bunny", "text": "During his turn, a player may activate a Robot Bunny in his area of The Bunny Circle by placing a bunny that is also in his area of The Bunny Circle and has the same color (or half color), under the Robot Bunny. The bunny and Robot Bunny become one single entity called an activated Robot Bunny.<br><br>A player may place a Robot Bunny in his area of The Bunny Circle and activate it during the same turn (if a bunny of the same color or half color is available). An activated Robot Bunny may be used to win the game since it contains a bunny that is alive.<br><br>A bunny that is not alive, such as a <a href=\"bunnypedia://cards/0191\">Holographic Bunny</a>, may not be used to activate a Robot Bunny. A bunny with any Bunny Modifier cards under it may not be used to activate a Robot Bunny. A player may not remove the Bunny Modifier cards under any bunny unless specifically instructed to do so by a card in play.<br><br>The bunny under a Robot Bunny (forming an activated Robot Bunny) may not be directly targeted by any Aggressive card. In order to eliminate the bunny under a Robot Bunny, an opponent must eliminate the Robot Bunny as well. Once any activated Robot Bunny has been eliminated, then both the Robot Bunny and the bunny under the Robot Bunny are discarded.<br><br>An activated Robot Bunny may be used to form a Bunny Triplet with any one bunny of the same color (or half color).<br><br>At the end of his turn, a player may remove any of his bunnies from under a Robot Bunny card. The Robot Bunny card must be discarded. The bunny remains in the same position in The Bunny Circle."},
+    {"title": "Activated Robot Bunny Radiation", "text": "Once formed, an activated Robot Bunny emits radiation harmful to the bunnies in The Bunny Circle. At the start of each player's turn, any activated Robot Bunny in the player's area of The Bunny Circle will irradiate both adjacent bunnies with a single dose of radiation. Adjacent bunnies in The Bunny Circle may belong to the player or to an opponent. Players may keep track of these doses by placing a Radiation Marker on the adjacent bunnies, showing 1 on the marker for the first dose, flipping it over and showing 2 on the marker for the second dose. If a bunny collects three doses of radiation, it is immediately discarded.<br><br>A bunny with <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a> is not affected by radiation, however, the radiation will pass through it to the next adjacent bunny. An alien in The Bunny Circle is not affected by radiation. Both an alien in The Bunny Circle, and a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>, block radiation. No aliens are included in the Radioactive Robots booster deck.<br><br>At the start of each player's turn, any of his bunnies that are no longer adjacent to an activated Robot Bunny must remove a Radiation Marker (if the bunny has one)."},
+    {"title": "More Bot Bits", "text": "Once a Robot Bunny has been eliminated (or discarded), it cannot be purchased from any Weil's Pawn Shop, nor can it be brought back into the game for any reason using any card. Once an activated Robot Bunny has been eliminated (or discarded), then again the Robot Bunny cannot be purchased, however the bunny that was under the Robot Bunny may be purchased again from any Weil's Pawn Shop.<br><br>During his turn, any player with an activated Robot Bunny in his area of The Bunny Circle may challenge any other player's activated Robot Bunny in The Bunny Circle. Both players roll the Clear 20-sided die. The player with the higher roll wins the challenge forcing the player with the lower roll to discard his activated Robot Bunny. If both players roll the same number, then both players must discard their activated Robot Bunny."},
+    {"title": "Radiation Suit", "text": "The <a href=\"bunnypedia://cards/1406\">Radiation Suit</a> Bunny Modifier will protect a bunny from radiation produced by an activated Robot Bunny."}
+  ]
+},
+{
+  "id": "1377",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Robot Bunny - Green",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "A Green Robot Bunny that may be used to play Aggressive cards, but may not be used to win the game. A Robot Bunny becomes activated when a bunny of the same color (or half color) is placed under it."},
+    {"title": "Additional Rules", "text": "A player may place a Robot Bunny in his area of The Bunny Circle. A Robot Bunny may be used to play Aggressive cards, does not need to feed, and cannot be used to win the game since it is not technically alive.<br><br>A Robot Bunny cannot be assigned a Bunny Modifier card (only a Robot Bunny Modifier card).<br><br>A robot Bunny may be used to form a Bunny Triplet with any two bunnies of the same color (or half color). A player may form a Bunny Triplet if he has three Robot Bunny cards (any colors) in his area of The Bunny Circle<br><br>If attacked by a weapon, a Robot Bunny may add 5 to any die roll used to defend against the weapon. This rolling bonus may be used for weapons with a set or variable weapon level (not a 50/50 or Gender weapon)."},
+    {"title": "Activated Robot Bunny", "text": "During his turn, a player may activate a Robot Bunny in his area of The Bunny Circle by placing a bunny that is also in his area of The Bunny Circle and has the same color (or half color), under the Robot Bunny. The bunny and Robot Bunny become one single entity called an activated Robot Bunny.<br><br>A player may place a Robot Bunny in his area of The Bunny Circle and activate it during the same turn (if a bunny of the same color or half color is available). An activated Robot Bunny may be used to win the game since it contains a bunny that is alive.<br><br>A bunny that is not alive, such as a <a href=\"bunnypedia://cards/0191\">Holographic Bunny</a>, may not be used to activate a Robot Bunny. A bunny with any Bunny Modifier cards under it may not be used to activate a Robot Bunny. A player may not remove the Bunny Modifier cards under any bunny unless specifically instructed to do so by a card in play.<br><br>The bunny under a Robot Bunny (forming an activated Robot Bunny) may not be directly targeted by any Aggressive card. In order to eliminate the bunny under a Robot Bunny, an opponent must eliminate the Robot Bunny as well. Once any activated Robot Bunny has been eliminated, then both the Robot Bunny and the bunny under the Robot Bunny are discarded.<br><br>An activated Robot Bunny may be used to form a Bunny Triplet with any one bunny of the same color (or half color).<br><br>At the end of his turn, a player may remove any of his bunnies from under a Robot Bunny card. The Robot Bunny card must be discarded. The bunny remains in the same position in The Bunny Circle."},
+    {"title": "Activated Robot Bunny Radiation", "text": "Once formed, an activated Robot Bunny emits radiation harmful to the bunnies in The Bunny Circle. At the start of each player's turn, any activated Robot Bunny in the player's area of The Bunny Circle will irradiate both adjacent bunnies with a single dose of radiation. Adjacent bunnies in The Bunny Circle may belong to the player or to an opponent. Players may keep track of these doses by placing a Radiation Marker on the adjacent bunnies, showing 1 on the marker for the first dose, flipping it over and showing 2 on the marker for the second dose. If a bunny collects three doses of radiation, it is immediately discarded.<br><br>A bunny with <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a> is not affected by radiation, however, the radiation will pass through it to the next adjacent bunny. An alien in The Bunny Circle is not affected by radiation. Both an alien in The Bunny Circle, and a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>, block radiation. No aliens are included in the Radioactive Robots booster deck.<br><br>At the start of each player's turn, any of his bunnies that are no longer adjacent to an activated Robot Bunny must remove a Radiation Marker (if the bunny has one)."},
+    {"title": "More Bot Bits", "text": "Once a Robot Bunny has been eliminated (or discarded), it cannot be purchased from any Weil's Pawn Shop, nor can it be brought back into the game for any reason using any card. Once an activated Robot Bunny has been eliminated (or discarded), then again the Robot Bunny cannot be purchased, however the bunny that was under the Robot Bunny may be purchased again from any Weil's Pawn Shop.<br><br>During his turn, any player with an activated Robot Bunny in his area of The Bunny Circle may challenge any other player's activated Robot Bunny in The Bunny Circle. Both players roll the Clear 20-sided die. The player with the higher roll wins the challenge forcing the player with the lower roll to discard his activated Robot Bunny. If both players roll the same number, then both players must discard their activated Robot Bunny."},
+    {"title": "Radiation Suit", "text": "The <a href=\"bunnypedia://cards/1406\">Radiation Suit</a> Bunny Modifier will protect a bunny from radiation produced by an activated Robot Bunny."}
+  ]
+},
+{
+  "id": "1378",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Robot Bunny - Orange",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "An Orange Robot Bunny that may be used to play Aggressive cards, but may not be used to win the game. A Robot Bunny becomes activated when a bunny of the same color (or half color) is placed under it."},
+    {"title": "Additional Rules", "text": "A player may place a Robot Bunny in his area of The Bunny Circle. A Robot Bunny may be used to play Aggressive cards, does not need to feed, and cannot be used to win the game since it is not technically alive.<br><br>A Robot Bunny cannot be assigned a Bunny Modifier card (only a Robot Bunny Modifier card).<br><br>A robot Bunny may be used to form a Bunny Triplet with any two bunnies of the same color (or half color). A player may form a Bunny Triplet if he has three Robot Bunny cards (any colors) in his area of The Bunny Circle<br><br>If attacked by a weapon, a Robot Bunny may add 5 to any die roll used to defend against the weapon. This rolling bonus may be used for weapons with a set or variable weapon level (not a 50/50 or Gender weapon)."},
+    {"title": "Activated Robot Bunny", "text": "During his turn, a player may activate a Robot Bunny in his area of The Bunny Circle by placing a bunny that is also in his area of The Bunny Circle and has the same color (or half color), under the Robot Bunny. The bunny and Robot Bunny become one single entity called an activated Robot Bunny.<br><br>A player may place a Robot Bunny in his area of The Bunny Circle and activate it during the same turn (if a bunny of the same color or half color is available). An activated Robot Bunny may be used to win the game since it contains a bunny that is alive.<br><br>A bunny that is not alive, such as a <a href=\"bunnypedia://cards/0191\">Holographic Bunny</a>, may not be used to activate a Robot Bunny. A bunny with any Bunny Modifier cards under it may not be used to activate a Robot Bunny. A player may not remove the Bunny Modifier cards under any bunny unless specifically instructed to do so by a card in play.<br><br>The bunny under a Robot Bunny (forming an activated Robot Bunny) may not be directly targeted by any Aggressive card. In order to eliminate the bunny under a Robot Bunny, an opponent must eliminate the Robot Bunny as well. Once any activated Robot Bunny has been eliminated, then both the Robot Bunny and the bunny under the Robot Bunny are discarded.<br><br>An activated Robot Bunny may be used to form a Bunny Triplet with any one bunny of the same color (or half color).<br><br>At the end of his turn, a player may remove any of his bunnies from under a Robot Bunny card. The Robot Bunny card must be discarded. The bunny remains in the same position in The Bunny Circle."},
+    {"title": "Activated Robot Bunny Radiation", "text": "Once formed, an activated Robot Bunny emits radiation harmful to the bunnies in The Bunny Circle. At the start of each player's turn, any activated Robot Bunny in the player's area of The Bunny Circle will irradiate both adjacent bunnies with a single dose of radiation. Adjacent bunnies in The Bunny Circle may belong to the player or to an opponent. Players may keep track of these doses by placing a Radiation Marker on the adjacent bunnies, showing 1 on the marker for the first dose, flipping it over and showing 2 on the marker for the second dose. If a bunny collects three doses of radiation, it is immediately discarded.<br><br>A bunny with <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a> is not affected by radiation, however, the radiation will pass through it to the next adjacent bunny. An alien in The Bunny Circle is not affected by radiation. Both an alien in The Bunny Circle, and a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>, block radiation. No aliens are included in the Radioactive Robots booster deck.<br><br>At the start of each player's turn, any of his bunnies that are no longer adjacent to an activated Robot Bunny must remove a Radiation Marker (if the bunny has one)."},
+    {"title": "More Bot Bits", "text": "Once a Robot Bunny has been eliminated (or discarded), it cannot be purchased from any Weil's Pawn Shop, nor can it be brought back into the game for any reason using any card. Once an activated Robot Bunny has been eliminated (or discarded), then again the Robot Bunny cannot be purchased, however the bunny that was under the Robot Bunny may be purchased again from any Weil's Pawn Shop.<br><br>During his turn, any player with an activated Robot Bunny in his area of The Bunny Circle may challenge any other player's activated Robot Bunny in The Bunny Circle. Both players roll the Clear 20-sided die. The player with the higher roll wins the challenge forcing the player with the lower roll to discard his activated Robot Bunny. If both players roll the same number, then both players must discard their activated Robot Bunny."},
+    {"title": "Radiation Suit", "text": "The <a href=\"bunnypedia://cards/1406\">Radiation Suit</a> Bunny Modifier will protect a bunny from radiation produced by an activated Robot Bunny."}
+  ]
+},
+{
+  "id": "1379",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Robot Bunny - Yellow",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "A Yellow Robot Bunny that may be used to play Aggressive cards, but may not be used to win the game. A Robot Bunny becomes activated when a bunny of the same color (or half color) is placed under it."},
+    {"title": "Additional Rules", "text": "A player may place a Robot Bunny in his area of The Bunny Circle. A Robot Bunny may be used to play Aggressive cards, does not need to feed, and cannot be used to win the game since it is not technically alive.<br><br>A Robot Bunny cannot be assigned a Bunny Modifier card (only a Robot Bunny Modifier card).<br><br>A robot Bunny may be used to form a Bunny Triplet with any two bunnies of the same color (or half color). A player may form a Bunny Triplet if he has three Robot Bunny cards (any colors) in his area of The Bunny Circle<br><br>If attacked by a weapon, a Robot Bunny may add 5 to any die roll used to defend against the weapon. This rolling bonus may be used for weapons with a set or variable weapon level (not a 50/50 or Gender weapon)."},
+    {"title": "Activated Robot Bunny", "text": "During his turn, a player may activate a Robot Bunny in his area of The Bunny Circle by placing a bunny that is also in his area of The Bunny Circle and has the same color (or half color), under the Robot Bunny. The bunny and Robot Bunny become one single entity called an activated Robot Bunny.<br><br>A player may place a Robot Bunny in his area of The Bunny Circle and activate it during the same turn (if a bunny of the same color or half color is available). An activated Robot Bunny may be used to win the game since it contains a bunny that is alive.<br><br>A bunny that is not alive, such as a <a href=\"bunnypedia://cards/0191\">Holographic Bunny</a>, may not be used to activate a Robot Bunny. A bunny with any Bunny Modifier cards under it may not be used to activate a Robot Bunny. A player may not remove the Bunny Modifier cards under any bunny unless specifically instructed to do so by a card in play.<br><br>The bunny under a Robot Bunny (forming an activated Robot Bunny) may not be directly targeted by any Aggressive card. In order to eliminate the bunny under a Robot Bunny, an opponent must eliminate the Robot Bunny as well. Once any activated Robot Bunny has been eliminated, then both the Robot Bunny and the bunny under the Robot Bunny are discarded.<br><br>An activated Robot Bunny may be used to form a Bunny Triplet with any one bunny of the same color (or half color).<br><br>At the end of his turn, a player may remove any of his bunnies from under a Robot Bunny card. The Robot Bunny card must be discarded. The bunny remains in the same position in The Bunny Circle."},
+    {"title": "Activated Robot Bunny Radiation", "text": "Once formed, an activated Robot Bunny emits radiation harmful to the bunnies in The Bunny Circle. At the start of each player's turn, any activated Robot Bunny in the player's area of The Bunny Circle will irradiate both adjacent bunnies with a single dose of radiation. Adjacent bunnies in The Bunny Circle may belong to the player or to an opponent. Players may keep track of these doses by placing a Radiation Marker on the adjacent bunnies, showing 1 on the marker for the first dose, flipping it over and showing 2 on the marker for the second dose. If a bunny collects three doses of radiation, it is immediately discarded.<br><br>A bunny with <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a> is not affected by radiation, however, the radiation will pass through it to the next adjacent bunny. An alien in The Bunny Circle is not affected by radiation. Both an alien in The Bunny Circle, and a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>, block radiation. No aliens are included in the Radioactive Robots booster deck.<br><br>At the start of each player's turn, any of his bunnies that are no longer adjacent to an activated Robot Bunny must remove a Radiation Marker (if the bunny has one)."},
+    {"title": "More Bot Bits", "text": "Once a Robot Bunny has been eliminated (or discarded), it cannot be purchased from any Weil's Pawn Shop, nor can it be brought back into the game for any reason using any card. Once an activated Robot Bunny has been eliminated (or discarded), then again the Robot Bunny cannot be purchased, however the bunny that was under the Robot Bunny may be purchased again from any Weil's Pawn Shop.<br><br>During his turn, any player with an activated Robot Bunny in his area of The Bunny Circle may challenge any other player's activated Robot Bunny in The Bunny Circle. Both players roll the Clear 20-sided die. The player with the higher roll wins the challenge forcing the player with the lower roll to discard his activated Robot Bunny. If both players roll the same number, then both players must discard their activated Robot Bunny."},
+    {"title": "Radiation Suit", "text": "The <a href=\"bunnypedia://cards/1406\">Radiation Suit</a> Bunny Modifier will protect a bunny from radiation produced by an activated Robot Bunny."}
+  ]
+},
+{
+  "id": "1380",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Robot Bunny - Violet",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "A Violet bunny that may be used to attack any other Cathexis Bunny. Roll the die the same color as the bunny. The lower number must discard his bunny."},
+    {"title": "Additional Rules", "text": "A player may place a Robot Bunny in his area of The Bunny Circle. A Robot Bunny may be used to play Aggressive cards, does not need to feed, and cannot be used to win the game since it is not technically alive.<br><br>A Robot Bunny cannot be assigned a Bunny Modifier card (only a Robot Bunny Modifier card).<br><br>A robot Bunny may be used to form a Bunny Triplet with any two bunnies of the same color (or half color). A player may form a Bunny Triplet if he has three Robot Bunny cards (any colors) in his area of The Bunny Circle<br><br>If attacked by a weapon, a Robot Bunny may add 5 to any die roll used to defend against the weapon. This rolling bonus may be used for weapons with a set or variable weapon level (not a 50/50 or Gender weapon)."},
+    {"title": "Activated Robot Bunny", "text": "During his turn, a player may activate a Robot Bunny in his area of The Bunny Circle by placing a bunny that is also in his area of The Bunny Circle and has the same color (or half color), under the Robot Bunny. The bunny and Robot Bunny become one single entity called an activated Robot Bunny.<br><br>A player may place a Robot Bunny in his area of The Bunny Circle and activate it during the same turn (if a bunny of the same color or half color is available). An activated Robot Bunny may be used to win the game since it contains a bunny that is alive.<br><br>A bunny that is not alive, such as a <a href=\"bunnypedia://cards/0191\">Holographic Bunny</a>, may not be used to activate a Robot Bunny. A bunny with any Bunny Modifier cards under it may not be used to activate a Robot Bunny. A player may not remove the Bunny Modifier cards under any bunny unless specifically instructed to do so by a card in play.<br><br>The bunny under a Robot Bunny (forming an activated Robot Bunny) may not be directly targeted by any Aggressive card. In order to eliminate the bunny under a Robot Bunny, an opponent must eliminate the Robot Bunny as well. Once any activated Robot Bunny has been eliminated, then both the Robot Bunny and the bunny under the Robot Bunny are discarded.<br><br>An activated Robot Bunny may be used to form a Bunny Triplet with any one bunny of the same color (or half color).<br><br>At the end of his turn, a player may remove any of his bunnies from under a Robot Bunny card. The Robot Bunny card must be discarded. The bunny remains in the same position in The Bunny Circle."},
+    {"title": "Activated Robot Bunny Radiation", "text": "Once formed, an activated Robot Bunny emits radiation harmful to the bunnies in The Bunny Circle. At the start of each player's turn, any activated Robot Bunny in the player's area of The Bunny Circle will irradiate both adjacent bunnies with a single dose of radiation. Adjacent bunnies in The Bunny Circle may belong to the player or to an opponent. Players may keep track of these doses by placing a Radiation Marker on the adjacent bunnies, showing 1 on the marker for the first dose, flipping it over and showing 2 on the marker for the second dose. If a bunny collects three doses of radiation, it is immediately discarded.<br><br>A bunny with <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a> is not affected by radiation, however, the radiation will pass through it to the next adjacent bunny. An alien in The Bunny Circle is not affected by radiation. Both an alien in The Bunny Circle, and a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>, block radiation. No aliens are included in the Radioactive Robots booster deck.<br><br>At the start of each player's turn, any of his bunnies that are no longer adjacent to an activated Robot Bunny must remove a Radiation Marker (if the bunny has one)."},
+    {"title": "More Bot Bits", "text": "Once a Robot Bunny has been eliminated (or discarded), it cannot be purchased from any Weil's Pawn Shop, nor can it be brought back into the game for any reason using any card. Once an activated Robot Bunny has been eliminated (or discarded), then again the Robot Bunny cannot be purchased, however the bunny that was under the Robot Bunny may be purchased again from any Weil's Pawn Shop.<br><br>During his turn, any player with an activated Robot Bunny in his area of The Bunny Circle may challenge any other player's activated Robot Bunny in The Bunny Circle. Both players roll the Clear 20-sided die. The player with the higher roll wins the challenge forcing the player with the lower roll to discard his activated Robot Bunny. If both players roll the same number, then both players must discard their activated Robot Bunny."},
+    {"title": "Radiation Suit", "text": "The <a href=\"bunnypedia://cards/1406\">Radiation Suit</a> Bunny Modifier will protect a bunny from radiation produced by an activated Robot Bunny."}
+  ]
+},
+{
+  "id": "1381",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Robot Bunny - Red",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "A Red Robot Bunny that may be used to play Aggressive cards, but may not be used to win the game. A Robot Bunny becomes activated when a bunny of the same color (or half color) is placed under it."},
+    {"title": "Additional Rules", "text": "A player may place a Robot Bunny in his area of The Bunny Circle. A Robot Bunny may be used to play Aggressive cards, does not need to feed, and cannot be used to win the game since it is not technically alive.<br><br>A Robot Bunny cannot be assigned a Bunny Modifier card (only a Robot Bunny Modifier card).<br><br>A robot Bunny may be used to form a Bunny Triplet with any two bunnies of the same color (or half color). A player may form a Bunny Triplet if he has three Robot Bunny cards (any colors) in his area of The Bunny Circle<br><br>If attacked by a weapon, a Robot Bunny may add 5 to any die roll used to defend against the weapon. This rolling bonus may be used for weapons with a set or variable weapon level (not a 50/50 or Gender weapon)."},
+    {"title": "Activated Robot Bunny", "text": "During his turn, a player may activate a Robot Bunny in his area of The Bunny Circle by placing a bunny that is also in his area of The Bunny Circle and has the same color (or half color), under the Robot Bunny. The bunny and Robot Bunny become one single entity called an activated Robot Bunny.<br><br>A player may place a Robot Bunny in his area of The Bunny Circle and activate it during the same turn (if a bunny of the same color or half color is available). An activated Robot Bunny may be used to win the game since it contains a bunny that is alive.<br><br>A bunny that is not alive, such as a <a href=\"bunnypedia://cards/0191\">Holographic Bunny</a>, may not be used to activate a Robot Bunny. A bunny with any Bunny Modifier cards under it may not be used to activate a Robot Bunny. A player may not remove the Bunny Modifier cards under any bunny unless specifically instructed to do so by a card in play.<br><br>The bunny under a Robot Bunny (forming an activated Robot Bunny) may not be directly targeted by any Aggressive card. In order to eliminate the bunny under a Robot Bunny, an opponent must eliminate the Robot Bunny as well. Once any activated Robot Bunny has been eliminated, then both the Robot Bunny and the bunny under the Robot Bunny are discarded.<br><br>An activated Robot Bunny may be used to form a Bunny Triplet with any one bunny of the same color (or half color).<br><br>At the end of his turn, a player may remove any of his bunnies from under a Robot Bunny card. The Robot Bunny card must be discarded. The bunny remains in the same position in The Bunny Circle."},
+    {"title": "Activated Robot Bunny Radiation", "text": "Once formed, an activated Robot Bunny emits radiation harmful to the bunnies in The Bunny Circle. At the start of each player's turn, any activated Robot Bunny in the player's area of The Bunny Circle will irradiate both adjacent bunnies with a single dose of radiation. Adjacent bunnies in The Bunny Circle may belong to the player or to an opponent. Players may keep track of these doses by placing a Radiation Marker on the adjacent bunnies, showing 1 on the marker for the first dose, flipping it over and showing 2 on the marker for the second dose. If a bunny collects three doses of radiation, it is immediately discarded.<br><br>A bunny with <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a> is not affected by radiation, however, the radiation will pass through it to the next adjacent bunny. An alien in The Bunny Circle is not affected by radiation. Both an alien in The Bunny Circle, and a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>, block radiation. No aliens are included in the Radioactive Robots booster deck.<br><br>At the start of each player's turn, any of his bunnies that are no longer adjacent to an activated Robot Bunny must remove a Radiation Marker (if the bunny has one)."},
+    {"title": "More Bot Bits", "text": "Once a Robot Bunny has been eliminated (or discarded), it cannot be purchased from any Weil's Pawn Shop, nor can it be brought back into the game for any reason using any card. Once an activated Robot Bunny has been eliminated (or discarded), then again the Robot Bunny cannot be purchased, however the bunny that was under the Robot Bunny may be purchased again from any Weil's Pawn Shop.<br><br>During his turn, any player with an activated Robot Bunny in his area of The Bunny Circle may challenge any other player's activated Robot Bunny in The Bunny Circle. Both players roll the Clear 20-sided die. The player with the higher roll wins the challenge forcing the player with the lower roll to discard his activated Robot Bunny. If both players roll the same number, then both players must discard their activated Robot Bunny."},
+    {"title": "Radiation Suit", "text": "The <a href=\"bunnypedia://cards/1406\">Radiation Suit</a> Bunny Modifier will protect a bunny from radiation produced by an activated Robot Bunny."}
+  ]
+},
+{
+  "id": "1382",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Robot Bunny - Pink",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "A Pink Robot Bunny that may be used to play Aggressive cards, but may not be used to win the game. A Robot Bunny becomes activated when a bunny of the same color (or half color) is placed under it."},
+    {"title": "Additional Rules", "text": "A player may place a Robot Bunny in his area of The Bunny Circle. A Robot Bunny may be used to play Aggressive cards, does not need to feed, and cannot be used to win the game since it is not technically alive.<br><br>A Robot Bunny cannot be assigned a Bunny Modifier card (only a Robot Bunny Modifier card).<br><br>A robot Bunny may be used to form a Bunny Triplet with any two bunnies of the same color (or half color). A player may form a Bunny Triplet if he has three Robot Bunny cards (any colors) in his area of The Bunny Circle<br><br>If attacked by a weapon, a Robot Bunny may add 5 to any die roll used to defend against the weapon. This rolling bonus may be used for weapons with a set or variable weapon level (not a 50/50 or Gender weapon)."},
+    {"title": "Activated Robot Bunny", "text": "During his turn, a player may activate a Robot Bunny in his area of The Bunny Circle by placing a bunny that is also in his area of The Bunny Circle and has the same color (or half color), under the Robot Bunny. The bunny and Robot Bunny become one single entity called an activated Robot Bunny.<br><br>A player may place a Robot Bunny in his area of The Bunny Circle and activate it during the same turn (if a bunny of the same color or half color is available). An activated Robot Bunny may be used to win the game since it contains a bunny that is alive.<br><br>A bunny that is not alive, such as a <a href=\"bunnypedia://cards/0191\">Holographic Bunny</a>, may not be used to activate a Robot Bunny. A bunny with any Bunny Modifier cards under it may not be used to activate a Robot Bunny. A player may not remove the Bunny Modifier cards under any bunny unless specifically instructed to do so by a card in play.<br><br>The bunny under a Robot Bunny (forming an activated Robot Bunny) may not be directly targeted by any Aggressive card. In order to eliminate the bunny under a Robot Bunny, an opponent must eliminate the Robot Bunny as well. Once any activated Robot Bunny has been eliminated, then both the Robot Bunny and the bunny under the Robot Bunny are discarded.<br><br>An activated Robot Bunny may be used to form a Bunny Triplet with any one bunny of the same color (or half color).<br><br>At the end of his turn, a player may remove any of his bunnies from under a Robot Bunny card. The Robot Bunny card must be discarded. The bunny remains in the same position in The Bunny Circle."},
+    {"title": "Activated Robot Bunny Radiation", "text": "Once formed, an activated Robot Bunny emits radiation harmful to the bunnies in The Bunny Circle. At the start of each player's turn, any activated Robot Bunny in the player's area of The Bunny Circle will irradiate both adjacent bunnies with a single dose of radiation. Adjacent bunnies in The Bunny Circle may belong to the player or to an opponent. Players may keep track of these doses by placing a Radiation Marker on the adjacent bunnies, showing 1 on the marker for the first dose, flipping it over and showing 2 on the marker for the second dose. If a bunny collects three doses of radiation, it is immediately discarded.<br><br>A bunny with <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a> is not affected by radiation, however, the radiation will pass through it to the next adjacent bunny. An alien in The Bunny Circle is not affected by radiation. Both an alien in The Bunny Circle, and a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>, block radiation. No aliens are included in the Radioactive Robots booster deck.<br><br>At the start of each player's turn, any of his bunnies that are no longer adjacent to an activated Robot Bunny must remove a Radiation Marker (if the bunny has one)."},
+    {"title": "More Bot Bits", "text": "Once a Robot Bunny has been eliminated (or discarded), it cannot be purchased from any Weil's Pawn Shop, nor can it be brought back into the game for any reason using any card. Once an activated Robot Bunny has been eliminated (or discarded), then again the Robot Bunny cannot be purchased, however the bunny that was under the Robot Bunny may be purchased again from any Weil's Pawn Shop.<br><br>During his turn, any player with an activated Robot Bunny in his area of The Bunny Circle may challenge any other player's activated Robot Bunny in The Bunny Circle. Both players roll the Clear 20-sided die. The player with the higher roll wins the challenge forcing the player with the lower roll to discard his activated Robot Bunny. If both players roll the same number, then both players must discard their activated Robot Bunny."},
+    {"title": "Radiation Suit", "text": "The <a href=\"bunnypedia://cards/1406\">Radiation Suit</a> Bunny Modifier will protect a bunny from radiation produced by an activated Robot Bunny."}
+  ]
+},
+{
+  "id": "1383",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Choose A Carrot",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "aggressive": false,
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market."}
+  ]
+},
+{
+  "id": "1384",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Choose A Carrot",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "aggressive": false,
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to choose a Carrot from Kaballa's Market."}
+  ]
+},
+{
+  "id": "1385",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Choose 2 Carrots",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "aggressive": false,
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to choose two Carrots from Kaballa's Market."}
+  ]
+},
+{
+  "id": "1386",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Feed The Bunny 1/5",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "radish": 1,
+  "milk": 5,
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+  ]
+},
+{
+  "id": "1387",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Feed The Bunny 4/2",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "radish": 4,
+  "milk": 2,
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."}
+  ]
+},
+{
+  "id": "1388",
+  "title": "Random FTB",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "dice": ["GREEN", "BLUE"],
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any Bunny which must feed the amounts rolled by the end of its next turn or die."}
+  ],
+  "radish": -1,
+  "milk": -1
+},
+{
+  "id": "1389",
+  "title": "Lorna Doom",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["CLEAR"],
+  "weaponLevel": "14",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 14 to survive."}
+  ]
+},
+{
+  "id": "1390",
+  "title": "Strawberry Blondes",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["CLEAR"],
+  "weaponLevel": "16",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 16 to survive."}
+  ]
+},
+{
+  "id": "1391",
+  "title": "Vengeful Sea",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["CLEAR"],
+  "weaponLevel": "18",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which must roll higher than 18 to survive."}
+  ]
+},
+{
+  "id": "1392",
+  "title": "Pyroclastic Flo",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["CLEAR"],
+  "weaponLevel": "20",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed on any bunny which dies immediately. The adjacent bunny must roll higher than 19 to survive, the bunny two spaces away must roll higher than 18 to survive and so on."},
+    {"title": "Additional Rules", "text": "Pyroclastic Flo may be placed on any bunny which dies immediately. The adjacent bunny must roll higher than 19 to survive, the bunny two spaces away must roll higher than 18 to survive and so on. Pyroclastic Flo flows in only one direction (opposite the direction of play). Pyroclastic Flo is eliminated as soon as a bunny defeats it.<br><br>If a player has <a href=\"bunnypedia://cards/0106\">Flo (Carrot #4)</a>, then Pyroclastic Flo goes around all of his bunnies and resumes with the next player's bunnies (as if the player's bunnies weren't there). Any player may stop Pyroclastic Flo at any time by discarding his Forever Water or Forever Milk small card. Pyroclastic Flo is not stopped by a <a href=\"bunnypedia://cards/0185\">Barrier</a>, but is discarded if it hits a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>.<br><br>If there are no bunnies left in The Bunny Circle, then Pyroclastic Flo will begin to target player's Carrots. Starting with the player where Pyroclastic Flo killed the last bunny, each player (opposite the direction of play) must roll against the weapon. The weapon level of Pyroclastic Flo continues to decrease. If a player cannot defeat Pyroclastic Flo, then he must return a Carrot to any Kaballa's Market. Once again, Pyroclastic Flo is eliminated as soon as a player defeats it."}
+  ]
+},
+{
+  "id": "1393",
+  "title": "Bellicose Bumpkin",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["PINK"],
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to flip all <a href=\"bunnypedia://cards/1376\">Robot Bunny</a> cards face down. Any bunnies that were underneath a Robot Bunny card must roll higher than 6 to survive."},
+    {"title": "Additional Rules", "text": "Bellicose Bumpkin may be used once by a player to flip all Robot Bunny cards face down (and underneath the bunny if the Robot Bunny was activated). Any bunnies that were underneath a Robot Bunny card must roll higher than 6 to survive. Each player's surviving bunnies may become the target of weapon cards until the Robot Bunny cards are flipped back to their original positions. A player may flip one Robot Bunny card back to its original position at the beginning of each of his turns."}
+  ]
+},
+{
+  "id": "1394",
+  "title": "Berseem Bundler",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to gather all of the <a href=\"bunnypedia://cards/0061\">Lucky Clover</a> and <a href=\"bunnypedia://cards/0828\">Lucky Horseshoe Bunny Modifier</a> cards in play and to place them all under any one bunny in The Bunny Circle."}
+  ]
+},
+{
+  "id": "1395",
+  "title": "Blown Fuse",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "dice": ["VIOLET", "ORANGE", "GREEN", "YELLOW", "BLUE", "RED", "PINK", "BROWN"],
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to roll al the dice and to discard all <a href=\"bunnypedia://cards/1376\">Robot Bunny</a> cards in The Bunny Circle with the same color as any die that rolled a two-digit number."},
+    {"title": "Additional Rules", "text": "Blown Fuse may be used once by a player to roll the dice and to discard all Robot Bunny cards in The Bunny Circle with the same color as any die that rolled a two-digit number (10 - 11 - 12).<br><br>Bunnies underneath discarded Robot Bunny cards remain in the same position in The Bunny Circle. Any player that lost a Robot Bunny card from their area of The Bunny Circle may remove every Radiation Marker from all of his bunnies in The Bunny Circle"}
+  ]
+},
+{
+  "id": "1396",
+  "title": "Double Free Agent",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "May be used by a player as any two bunnies of any color (except Red or Pink)"},
+    {"title": "Additional Rules", "text": "Double Free Agent bunnies may be used by a player as any two bunnies of any two kinds (Congenial, Gleeful, Lumbering, Sinister or Timid) and of any two colors (except Red or Pink). The identity of the two bunnies may be the same or different bunnies. The identity of the two bunnies may change at any time during play as the need arises. Double Free Agent bunnies make forming a Bunny Triplet much easier. A Double Free Agent must be treated as a single target when hit with a weapon or <a href=\"bunnypedia://cards/0024\">Feed The Bunny</a> card. Double Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies"},
+    {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://cards/0407\">Cloned</a>"}
+  ]
+},
+{
+  "id": "1397",
+  "canonicalId": "1396",
+  "title": "Double Free Agent",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "May be used by a player as any two bunnies of any color (except Red or Pink)"},
+    {"title": "Additional Rules", "text": "Double Free Agent bunnies may be used by a player as any two bunnies of any two kinds (Congenial, Gleeful, Lumbering, Sinister or Timid) and of any two colors (except Red or Pink). The identity of the two bunnies may be the same or different bunnies. The identity of the two bunnies may change at any time during play as the need arises. Double Free Agent bunnies make forming a Bunny Triplet much easier. A Double Free Agent must be treated as a single target when hit with a weapon or <a href=\"bunnypedia://cards/0024\">Feed The Bunny</a> card. Double Free Agent bunnies cannot become Specialty bunnies or Celebrity bunnies"},
+    {"title": "Cloning", "text": "This bunny cannot be <a href=\"bunnypedia://cards/0407\">Cloned</a>"}
+  ]
+},
+{
+  "id": "1398",
+  "title": "E-M Pulsed",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "May be used to force any player who does not have the 0 Units Defense Card to immediately lose all of his Defense Units."}
+  ]
+},
+{
+  "id": "1399",
+  "title": "Enginerds",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "rules": [
+    {"title": "Card Text", "text": "The player with Enginerds negates every opponent's <a href=\"bunnypedia://cards/1376\">Robot Bunny</a> rolling bonus against weapons launched by the player. Enginerds is a double Green bunny and may be combined with another Green (or half Green) bunny to form a Bunny Triplet."}
+  ]
+},
+{
+  "id": "1400",
+  "title": "Europan Robotic Titanium Termites",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to eliminate any one <a href=\"bunnypedia://cards/0185\">Barrier</a>. Cannot be used to eliminate a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>."},
+    {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/0733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter"}
+  ]
+},
+{
+  "id": "1401",
+  "title": "Lucky Horseshoe – Hendecadruple (Bunny Modifier)",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Single lowers the level of any weapon by eleven."},
+    {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
+    {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
+    {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/0049\">Area 51</a> or the <a href=\"bunnypedia://cards/0299\">Mothership</a>."},
+    {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://cards/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+    {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://cards/0822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+  ]
+},
+{
+  "id": "1402",
+  "title": "Maniacal Mechanical Matter Mover",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to force an opponent to exchange two of his <a href=\"bunnypedia://cards/1376\">Robot Bunny</a> cards in The Bunny Circle for one of yours."},
+    {"title": "Additional Rules", "text": "Maniacal Mechanical Matter Mover may be used once by a player to force any opponent to exchange two of his Robot Bunny cards in The Bunny Circle for one of yours. Robot Bunny cards in the exchange may or may not be activated. For example, Carol may exchange a single Robot Bunny card for an opponent's two activated Robot Bunny cards. In order to use this card against an opponent, that player must have at least two Robot Bunny cards in The Bunny Circle. Maniacal Mechanical Matter Mover cannot be used for a one to one exchange.<br><br>The player chooses all three Robot Bunny cards in the exchange."}
+  ]
+},
+{
+  "id": "1403",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Neutronium Barrier",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be placed between any two adjacent players and stops weapons that affect adjacent bunnies. Roaming Red Run cards that contact a Neutronium Barrier are eliminated."},
+    {"title": "Additional Rules", "text": "More than one Barrier (regular or Neutronium) may be placed between any two adjacent players. It is important to place the two (or more) Barrier cards side by side between the players especially if one of the Barriers is a Neutronium Barrier. This becomes important when a Roaming Red Run card encounters the Barriers. By placing the cards side by side, players will be able to determine if a Roaming Red Run will encounter a regular Barrier and change direction, or a Neutronium Barrier and be eliminated."},
+    {"title": "Cards which are unaffected by Barriers", "text": "Barrier does not stop any multi-target, non-Roaming Red Run card circumstances. This includes:<ul><li><a href=\"bunnypedia://cards/0565\">Army of the 12 Bunnies</a><li><a href=\"bunnypedia://cards/0287\">Boomerang</a><li><a href=\"bunnypedia://cards/0188\">Clumsy Congenial</a><li><a href=\"bunnypedia://cards/0480\">Electron Tunneling</a><li><a href=\"bunnypedia://cards/0292\">F-18 Hornet (even though it is a Roaming Red Run card)</a><li><a href=\"bunnypedia://cards/0400\">Psychic Waves</a><li><a href=\"bunnypedia://cards/0452\">Pumpkin Ridge</a><li><a href=\"bunnypedia://cards/0343\">Snowball</a></ul>"},
+    {"title": "Cards that Barrier eliminates", "text": "A Barrier placed between bunnies joined by the <a href=\"bunnypedia://cards/0349\">Fingercuffs</a> separates those bunnies and the Fingercuffs are discarded."}
+  ]
+},
+{
+  "id": "1404",
+  "title": "Pusillanimous Peculation",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to force an opponent to move a <a href=\"bunnypedia://cards/1376\">Robot Bunny</a> card off a matching color bunny in The Bunny Circle and place it onto any other bunny of the same color (or half color) in The Bunny Circle."}
+  ]
+},
+{
+  "id": "1405",
+  "title": "Radiation Suit",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May placed under any bunny and protects the bunny from radiation produced by an activated <a href=\"bunnypedia://cards/1376\">Robot Bunny</a>."}
+  ]
+},
+{
+  "id": "1406",
+  "title": "Radiation Suit",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May placed under any bunny and protects the bunny from radiation produced by an activated <a href=\"bunnypedia://cards/1376\">Robot Bunny</a>."}
+  ]
+},
+{
+  "id": "1407",
+  "title": "Radiation Suit",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May placed under any bunny and protects the bunny from radiation produced by an activated <a href=\"bunnypedia://cards/1376\">Robot Bunny</a>."}
+  ]
+},
+{
+  "id": "1408",
+  "title": "Return A Carrot",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to force any opponent to return any one of his Carrots to Kaballa's Market."}
+  ]
+},
+{
+  "id": "1409",
+  "title": "Ten Forward",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "RUN",
+  "bunnyRequirement": "PLAY",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to exchange the position of any bunny in The Bunny Circle with any other bunny in The Bunny Circle ten spaces away in the forward direction of play."}
+  ]
+},
+{
+  "id": "1410",
+  "title": "Aunt Acid",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "SPECIAL",
+  "bunnyRequirement": "PLAY_AND_SAVE",
+  "rules": [
+    {"title": "Card Text", "text": "The player with this card saved cannot be the direct target of an <a href=\"bunnypedia://cards/1349\">Atomic Pastry</a>. If at any time the player has no bunnies in The Bunny Circle then Aunt Acid is discarded."},
+    {"title": "Additional Rules", "text": "The player with this card saved cannot be the direct target of an Atomic Pastry. All Atomic Pastry under the player's bunnies in The Bunny Circle are immediately discarded when Aunt Acid is saved. The bunnies that belong to the player with Aunt Acid saved will automatically survive if an adjacent bunny (belonging to an opponent) is the direct target of an Atomic Pastry. If at any time the player has no bunnies in The Bunny Circle, then Aunt Acid is discarded immediately."}
+  ]
+},
+{
+  "id": "1411",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Blueberry Crumble – Atomic Pastry",
+  "type": "SPECIAL",
+  "bunnyRequirement": "PLAY",
+  "dice": ["BROWN"],
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny and explodes when an identical Atomic Pastry is placed under the same bunny. The bunny must roll higher than 10 to survive. Adjacent bunnies must roll higher than 8 to survive."},
+    {"title": "Additional Rules", "text": "An Atomic Pastry may be placed under any bunny in The Bunny Circle and explodes with half force when any other (non identical) Atomic Pastry is placed under the same bunny. The target bunny must roll higher than 5 to survive, and adjacent bunnies must roll higher than 4 to survive.<br><br>A single Atomic Pastry may be exploded with full force under any bunny in The Bunny Circle that is wearing a shirt with an identical fruit symbol.<br><br>All Atomic Pastry are Special cards and may either be saved or immediately placed under any bunny in The Bunny Circle. A saved Atomic Pastry may only be placed under a bunny in The Bunny Circle during the turn of the player who owns the pastry.<br><br>Atomic Pastry explosions may eliminate bunnies, but they are not weapons. Therefore, cards that affect weapons will have no effect on an Atomic Pastry. Atomic Pastry explosions are not affected by a <a href=\"bunnypedia://cards/0185\">Barrier</a> or a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>. If a bunny is <a href=\"bunnypedia://cards/0049\">abducted by aliens</a>, then all Atomic Pastry under the bunny are consumed immediately by the aliens (discarded)."}
+  ]
+},
+{
+  "id": "1412",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Blueberry Crumble – Atomic Pastry",
+  "type": "SPECIAL",
+  "bunnyRequirement": "PLAY",
+  "dice": ["BROWN"],
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny and explodes when an identical Atomic Pastry is placed under the same bunny. The bunny must roll higher than 10 to survive. Adjacent bunnies must roll higher than 8 to survive."},
+    {"title": "Additional Rules", "text": "An Atomic Pastry may be placed under any bunny in The Bunny Circle and explodes with half force when any other (non identical) Atomic Pastry is placed under the same bunny. The target bunny must roll higher than 5 to survive, and adjacent bunnies must roll higher than 4 to survive.<br><br>A single Atomic Pastry may be exploded with full force under any bunny in The Bunny Circle that is wearing a shirt with an identical fruit symbol.<br><br>All Atomic Pastry are Special cards and may either be saved or immediately placed under any bunny in The Bunny Circle. A saved Atomic Pastry may only be placed under a bunny in The Bunny Circle during the turn of the player who owns the pastry.<br><br>Atomic Pastry explosions may eliminate bunnies, but they are not weapons. Therefore, cards that affect weapons will have no effect on an Atomic Pastry. Atomic Pastry explosions are not affected by a <a href=\"bunnypedia://cards/0185\">Barrier</a> or a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>. If a bunny is <a href=\"bunnypedia://cards/0049\">abducted by aliens</a>, then all Atomic Pastry under the bunny are consumed immediately by the aliens (discarded)."}
+  ]
+},
+{
+  "id": "1413",
+  "title": "Forever And Ever Fed",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "SPECIAL",
+  "bunnyRequirement": "PLAY_AND_SAVE",
+  "rules": [
+    {"title": "Card Text", "text": "The player with this card saved has no need to feed. If at any time the player has no bunnies in The Bunny Circle then Forever And Ever Fed is discarded."},
+    {"title": "Nothing Is Forever", "text": "<a href=\"bunnypedia://cards/1241\">Nothing Is Forever</a> may be used to eliminate this card."}
+  ]
+},
+{
+  "id": "1414",
+  "title": "Free Defense",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "SPECIAL",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to take two Defense Cards from Rooney's Weapons Emporium."},
+    {"title": "Additional Rules", "text": "Free Defense may not be used if Rooney's Weapons Emporium is closed."}
+  ]
+},
+{
+  "id": "1415",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Marbled Coffee Cake – Atomic Pastry",
+  "type": "SPECIAL",
+  "bunnyRequirement": "PLAY",
+  "dice": ["BROWN"],
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny and explodes when an identical Atomic Pastry is placed under the same bunny. The bunny must roll higher than 10 to survive. Adjacent bunnies must roll higher than 8 to survive."},
+    {"title": "Additional Rules", "text": "An Atomic Pastry may be placed under any bunny in The Bunny Circle and explodes with half force when any other (non identical) Atomic Pastry is placed under the same bunny. The target bunny must roll higher than 5 to survive, and adjacent bunnies must roll higher than 4 to survive.<br><br>A single Atomic Pastry may be exploded with full force under any bunny in The Bunny Circle that is wearing a shirt with an identical fruit symbol.<br><br>All Atomic Pastry are Special cards and may either be saved or immediately placed under any bunny in The Bunny Circle. A saved Atomic Pastry may only be placed under a bunny in The Bunny Circle during the turn of the player who owns the pastry.<br><br>Atomic Pastry explosions may eliminate bunnies, but they are not weapons. Therefore, cards that affect weapons will have no effect on an Atomic Pastry. Atomic Pastry explosions are not affected by a <a href=\"bunnypedia://cards/0185\">Barrier</a> or a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>. If a bunny is <a href=\"bunnypedia://cards/0049\">abducted by aliens</a>, then all Atomic Pastry under the bunny are consumed immediately by the aliens (discarded)."}
+  ]
+},
+{
+  "id": "1416",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Marbled Coffee Cake – Atomic Pastry",
+  "type": "SPECIAL",
+  "bunnyRequirement": "PLAY",
+  "dice": ["BROWN"],
+  "rules": [
+    {"title": "Card Text", "text": "May be placed under any bunny and explodes when an identical Atomic Pastry is placed under the same bunny. The bunny must roll higher than 10 to survive. Adjacent bunnies must roll higher than 8 to survive."},
+    {"title": "Additional Rules", "text": "An Atomic Pastry may be placed under any bunny in The Bunny Circle and explodes with half force when any other (non identical) Atomic Pastry is placed under the same bunny. The target bunny must roll higher than 5 to survive, and adjacent bunnies must roll higher than 4 to survive.<br><br>A single Atomic Pastry may be exploded with full force under any bunny in The Bunny Circle that is wearing a shirt with an identical fruit symbol.<br><br>All Atomic Pastry are Special cards and may either be saved or immediately placed under any bunny in The Bunny Circle. A saved Atomic Pastry may only be placed under a bunny in The Bunny Circle during the turn of the player who owns the pastry.<br><br>Atomic Pastry explosions may eliminate bunnies, but they are not weapons. Therefore, cards that affect weapons will have no effect on an Atomic Pastry. Atomic Pastry explosions are not affected by a <a href=\"bunnypedia://cards/0185\">Barrier</a> or a <a href=\"bunnypedia://cards/0463\">Neutronium Barrier</a>. If a bunny is <a href=\"bunnypedia://cards/0049\">abducted by aliens</a>, then all Atomic Pastry under the bunny are consumed immediately by the aliens (discarded)."}
+  ]
+},
+{
+  "id": "1417",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Sapid Sampler",
+  "type": "SPECIAL",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to feed the bunny any amounts of Cabbage Units, Water Units, Radish Units and milk Units with an <a href=\"bunnypedia://cards/1349\">Atomic Pastry</a> positioned under any one of his own bunnies. The Atomic Pastry used to feed the bunny is discarded"}
+  ]
+},
+{
+  "id": "1418",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Abstinence Program",
+  "type": "VERY_SPECIAL",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player force all players with bunnies that have <a href=\"bunnypedia://cards/0975\">Senator Modifier</a> cards to abstain from voting for a <a href=\"bunnypedia://cards/0979\">Casting Terrible Misfortune</a>. May be used at any time!"}
+  ]
+},
+{
+  "id": "1419",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Hanging Chad",
+  "type": "VERY_SPECIAL",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by a player to immediately change a <a href=\"bunnypedia://cards/0979\">Casting Terrible Misfortune</a> to a regular <a href=\"bunnypedia://cards/0083\">Terrible Misfortune</a>. May be played immediately after a Casting Terrible Misfortune is drawn!"}
+  ]
+},
+{
+  "id": "1420",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "title": "Bunny Of Thrones",
+  "type": "PLAY_IMMEDIATELY",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "May be used once by all players int he direction of play to take a bunny from the Discard Pile and to place it directly into their area of The Bunny Circle."}
+  ]
+},
+{
+  "id": "1421",
+  "title": "Terrible Misfortune (Casting) – Craters Of The Moon",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "PLAY_IMMEDIATELY",
+  "bunnyRequirement": "NO",
+  "rules": [
+    {"title": "Card Text", "text": "While spelunking in Craters Of The Moon, one of the bunnies in play is terminated by a treacherous tephra!"},
+    {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
+    {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."},
+    {"title": "Hanging Chad", "text": "<a href=\"bunnypedia://cards/1419\">Hanging Chad</a> can be used to turn a Casting Terrible Misfortune into a regular <a href=\"bunnypedia://cards/0083\">Terrible Misfortune</a>"}
+  ]
+},
+{
+  "id": "1422",
+  "title": "1 Bunny Byte",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "DOLLA",
+  "rules": [
+    {"title": "Conversion Rate", "text": "One Bunny Byte equals exactly one Kaballa Dolla (amazing)!"}
+  ]
+},
+{
+  "id": "1423",
+  "title": "2 Bunny Bytes",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "DOLLA",
+  "rules": [
+    {"title": "Conversion Rate", "text": "One Bunny Byte equals exactly one Kaballa Dolla (amazing)!"}
+  ]
+},
+{
+  "id": "1424",
+  "title": "3 Bunny Bytes",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "DOLLA",
+  "rules": [
+    {"title": "Conversion Rate", "text": "One Bunny Byte equals exactly one Kaballa Dolla (amazing)!"}
+  ]
+},
+{
+  "id": "1425",
+  "title": "5 Bunny Bytes",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "DOLLA",
+  "rules": [
+    {"title": "Conversion Rate", "text": "One Bunny Byte equals exactly one Kaballa Dolla (amazing)!"}
+  ]
+},
+{
+  "id": "1426",
+  "title": "10 Bunny Bytes",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "DOLLA",
+  "rules": [
+    {"title": "Conversion Rate", "text": "One Bunny Byte equals exactly one Kaballa Dolla (amazing)!"}
+  ]
+},
+{
+  "id": "1427",
+  "title": "Carrot #53 – Daniel",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "CARROT_SUPPLY"
+},
+{
+  "id": "1428",
+  "title": "Carrot #54 – Felix",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "CARROT_SUPPLY"
+},
+{
+  "id": "1429",
+  "title": "Carrot #55 – Hal",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "CARROT_SUPPLY"
+},
+{
+  "id": "1430",
+  "title": "Carrot #56 – Robbie",
+  "deck": "RADIOACTIVE_ROBOTS",
+  "type": "CARROT_SUPPLY"
+}]

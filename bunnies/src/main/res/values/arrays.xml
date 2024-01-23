@@ -25,6 +25,7 @@
         <item>@string/deck_pumpkin_spice_booster</item>
         <item>@string/deck_la_di_da_london_booster</item>
         <item>@string/deck_cake_batter</item>
+        <item>@string/deck_radioactive_robots</item>
     </string-array>
 
     <!-- These should match the enum names in Deck.kt -->
@@ -53,6 +54,7 @@
         <item>PUMPKIN_SPICE</item>
         <item>LA_DI_DA_LONDON</item>
         <item>CAKE_BATTER</item>
+        <item>RADIOACTIVE_ROBOTS</item>
     </string-array>
 
     <string-array name="pref_all_view_type_names">

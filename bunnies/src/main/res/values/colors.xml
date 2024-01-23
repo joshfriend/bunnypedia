@@ -31,6 +31,7 @@
     <color name="deck_pumpkin_spice">#D79240</color>
     <color name="deck_la_di_da_london">@color/deck_blue</color>
     <color name="deck_cake_batter">@color/deck_yellow</color>
+    <color name="deck_radioactive_robots">@color/deck_steel</color>
 
     <color name="zodiac_element_fire">@color/deck_red</color>
     <color name="zodiac_element_earth">@color/deck_green</color>

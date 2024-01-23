@@ -497,7 +497,8 @@
   "rules": [
     {"title": "Card Text", "text": "One of the bunnies in play attempts to find the Holy Grail and chooses poorly."},
     {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
-    {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."},
+    {"title": "Hanging Chad", "text": "<a href=\"bunnypedia://cards/1419\">Hanging Chad</a> can be used to turn a Casting Terrible Misfortune into a regular <a href=\"bunnypedia://cards/0083\">Terrible Misfortune</a>"}
   ]
 },
 {
@@ -509,7 +510,8 @@
   "rules": [
     {"title": "Card Text", "text": "While attempting to destroy an evil ring, one of the bunnies in play simply walks into Mordor."},
     {"title": "Additional Rules", "text": "A Terrible Misfortune (Casting) card requires that all Shiner Senators and Whiner Senators vote to decide which bunny suffers the consequences. The bunny does not have to belong to the person who drew the card. Each player receives one vote per Senator Bunny they own. If two or more bunnies are tied on votes, then the player who drew the card decides which of the tied bunnies dies. If there are no Senator bunnies in play, then the player who drew the card decides which bunny in the Bunny Circle dies (it does not have to be his own)."},
-    {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."},
+    {"title": "Hanging Chad", "text": "<a href=\"bunnypedia://cards/1419\">Hanging Chad</a> can be used to turn a Casting Terrible Misfortune into a regular <a href=\"bunnypedia://cards/0083\">Terrible Misfortune</a>"}
   ]
 },
 {
