@@ -1,0 +1,838 @@
+[
+  {
+    "id": "1431",
+    "title": "Evil Bunny (Green/Yellow)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either an Evil Bunny (Green) or an Evil Bunny (Yellow)."
+      }
+    ]
+  },
+  {
+    "id": "1432",
+    "title": "Hypnotic Bunny (Blue/Yellow)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Hypnotic Bunny (Blue) or a Hypnotic Bunny (Yellow)."
+      }
+    ]
+  },
+  {
+    "id": "1433",
+    "title": "Ludicrous Bunny (Yellow/Violet)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Ludicrous Bunny (Yellow) or a Ludicrous Bunny (Violet)."
+      }
+    ]
+  },
+  {
+    "id": "1434",
+    "title": "Spiffy Bunny (Yellow/Orange)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Spiffy Bunny (Yellow) or a Spiffy Bunny (Orange)."
+      }
+    ]
+  },
+  {
+    "id": "1435",
+    "title": "Truculent Bunny (Blue/Green)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Truculent Bunny (Blue) or a Truculent Bunny (Green)."
+      }
+    ]
+  },
+  {
+    "id": "1436",
+    "title": "Evil Bunny (Orange/Blue)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either an Evil Bunny (Orange) or an Evil Bunny (Blue)."
+      }
+    ]
+  },
+  {
+    "id": "1437",
+    "title": "Hypnotic Bunny (Green/Violet)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Hypnotic Bunny (Green) or a Hypnotic Bunny (Violet)."
+      }
+    ]
+  },
+  {
+    "id": "1438",
+    "title": "Ludicrous Bunny (Orange/Green)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Ludicrous Bunny (Orange) or a Ludicrous Bunny (Green)."
+      }
+    ]
+  },
+  {
+    "id": "1439",
+    "title": "Spiffy Bunny (Violet/Blue)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Spiffy Bunny (Violet) or a Spiffy Bunny (Blue)."
+      }
+    ]
+  },
+  {
+    "id": "1440",
+    "title": "Truculent Bunny (Violet/Orange)",
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used to form Bunny Triplets (three matching bunnies) as either a Truculent Bunny (Violet) or a Truculent Bunny (Orange)."
+      }
+    ]
+  },
+  {
+    "id": "1441",
+    "deck": "ALMOND_CRISP",
+    "title": "Choose A Carrot",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from any Kaballa's Market."
+      }
+    ],
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false
+  },
+  {
+    "id": "1442",
+    "deck": "ALMOND_CRISP",
+    "title": "Choose 2 Carrots",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose two Carrots from any Kaballa's Market."
+      }
+    ],
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false
+  },
+  {
+    "id": "1443",
+    "deck": "ALMOND_CRISP",
+    "radish": 2,
+    "milk": 3,
+    "title": "Feed The Bunny",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ],
+    "type": "RUN",
+    "bunnyRequirement": "PLAY"
+  },
+  {
+    "id": "1444",
+    "deck": "ALMOND_CRISP",
+    "radish": 2,
+    "milk": 4,
+    "title": "Feed The Bunny",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ],
+    "type": "RUN",
+    "bunnyRequirement": "PLAY"
+  },
+  {
+    "id": "1445",
+    "deck": "ALMOND_CRISP",
+    "radish": 5,
+    "milk": 1,
+    "title": "Feed The Bunny",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ],
+    "type": "RUN",
+    "bunnyRequirement": "PLAY"
+  },
+  {
+    "id": "1446",
+    "title": "Mean Aubergine",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must roll higher than 13 to survive."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "weaponLevel": "13"
+  },
+  {
+    "id": "1447",
+    "title": "Log Lady",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must roll higher than 14 to survive."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "weaponLevel": "14"
+  },
+  {
+    "id": "1448",
+    "title": "Saskatoon Platoon",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must roll higher than 15 to survive."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "weaponLevel": "15"
+  },
+  {
+    "id": "1449",
+    "title": "Epideme Virus",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must roll higher than 16 to survive."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "weaponLevel": "16"
+  },
+  {
+    "id": "1450",
+    "title": "Bird Flu",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must roll higher than 17 to survive."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "weaponLevel": "17"
+  },
+  {
+    "id": "1451",
+    "title": "Vipers",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Allows the player to attack one or multiple bunnies with weapon level or levels that equals 18 when added together. Targets and weapon levels must be declared by the player before any opponent rolls."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Example: Carol may target a single bunny with Vipers at level 18, two bunnies at levels 7 and 11 or even three bunnies at levels 6, 6, and 6."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "weaponLevel": "18"
+  },
+  {
+    "id": "1452",
+    "title": "Replicators",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must roll higher than 19 to survive."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "weaponLevel": "19"
+  },
+  {
+    "id": "1453",
+    "title": "Urban Plague",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny. The bunny and all other bunnies in The Bunny Circle belonging to the same player die immediately. <a href=\"bunnypedia://cards/0828\">Horseshoe</a> bunnies may survive."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": ["CLEAR"],
+    "weaponLevel": "20"
+  },
+  {
+    "id": "1454",
+    "title": "Demonic Barbecue Sauce",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to remove <a href=\"bunnypedia://cards/0819\">Angel Wings</a> from any bunny in The Bunny Circle and place it under another bunny the same number of spaces away in The Bunny Circle as rolled on the Yellow 12-sided die. Angel Wings moves counter-clockwise in the AM or clockwise in the PM in The Bunny Circle."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "If Angel Wings returns to the original bunny from which it was taken, then the player who owns that bunny may choose a Carrot from any Kaballa's Market."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "dice": [
+      "YELLOW"
+    ],
+    "pawn": "YELLOW",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1455",
+    "title": "Four Seasons",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose four Carrots if the only die to roll the highest number is the current season."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Blue = Winter<br>Green = Spring<br>Yellow = Summer<br>Orange = Fall<br>If exact yearly data is not available, then use the following dates:<br>Winter: December 22 - March 20<br>Spring: March 21 - June 21<br>Summer: June 22 - September 23<br>Fall (Autumn): September 24 - December 21"
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": [
+      "ORANGE",
+      "GREEN",
+      "YELLOW",
+      "BLUE"
+    ]
+  },
+  {
+    "id": "1456",
+    "deck": "ALMOND_CRISP",
+    "title": "Lucky Horseshoe - Bunny Modifier",
+    "rules": [
+      {"title": "Card Text", "text": "May be placed under any bunny. Lucky Horseshoe Single lowers the level of any weapon by one."},
+      {"title": "50/50 Weapons", "text": "50/50 Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Gender Weapons", "text": "Gender Weapons are not affected by Horseshoe modifiers."},
+      {"title": "Abduction", "text": "Horseshoe modifiers are discarded when a bunny is abducted by <a href=\"bunnypedia://cards/0049\">Area 51</a> or the <a href=\"bunnypedia://cards/0299\">Mothership</a>."},
+      {"title": "Horseshoes and Hand Grenade", "text": "<a href=\"bunnypedia://cards/1254\">Horseshoes and Hand Grenade</a> can be used to kill Horseshoe Bunnies by forcing them to roll higher than their total number of horseshoes to survive."},
+      {"title": "Bamboozled Blacksmith", "text": "<a href=\"bunnypedia://cards/0822\">Bamboozled Blacksmith</a> can be used to remove Horseshoes from a bunny."}
+    ],
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1457",
+    "title": "Pink Tank",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be given to any player whose cards (in hand, in the Bottom and Top Run positions, or saved) will all have a Pink rectangular box on the left border. All new cards drawn by the player will also have a Pink Rectangular box on the left border. Remember that all cards with a Pink rectangular box require the player to have a bunny in The Bunny Circle to use."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "During any of his turns only, the player may pay 10 Dolla to discard Pink Tank."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY"
+  },
+  {
+    "id": "1458",
+    "title": "Rocky Bottom",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player with no Radish Units or Milk Units to take half the Radish Units and Milk Units from the player with the most."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "If a player wishes to use Rocky Bottom, then he must have no Radish Units to get Radish Units from an opponent, and no Milk Units to get Milk Units from an opponent. A player may get both supplies if he starts with no Radish Units and no Milk Units.<br><br>The opponent with the greatest amount of Radish Units gives the player (who is using Rocky Bottom) half of his Radish Units, and the opponent with the greatest amount of Milk Units gives the player half of his Milk Units. To find the total amount of Radish Units or Milk Units, an opponent must add all of the units on all of his cards and Vouchers.<br><br>If there is a tie and two or more opponents have the same number of Radish Units or Milk Units, then the player may decide from which opponent he will take the supplies. If the opponent has an odd number of Radish Units or Milk Units that cannot be divided equally, then he will keep the extra unit for himself."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY"
+  },
+  {
+    "id": "1459",
+    "title": "Squid Sandwich",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to take any two <a href=\"bunnypedia://cards/1349\">Atomic Pastry</a> cards already placed under bunnies in The Bunny Circle and to bring them together to detonate under any bunny in The Bunny Circle."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY"
+  },
+  {
+    "id": "1460",
+    "title": "Weil's Pawn Shop Two (High)",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Reopens the store * New prices:<br>7 Dolla - for each Pawn<br>10 Dolla - for each bunny<br>(Bunnies must be run through.)"
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1461",
+    "title": "Weil's Pawn Shop Two (Closed)",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "CLOSED!"
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1462",
+    "title": "Zero Zero",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player and given to any opponent who must roll the dice. If two or more zeroes are rolled (zeroes on a 10-sided die or 10s on a 12-sided die), then the player must discard all of his bunnies in The Bunny Circle or return all of his Carrots to any Kaballa's Market."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "dice": [
+      "VIOLET",
+      "ORANGE",
+      "GREEN",
+      "YELLOW",
+      "BLUE",
+      "VIOLET_D10",
+      "ORANGE_D10",
+      "GREEN_D10",
+      "YELLOW_D10",
+      "BLUE_D10"
+    ]
+  },
+  {
+    "id": "1463",
+    "title": "Baccaratatouille",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any two adjacent bunnies in The Bunny Circle that belong to the same player.<br>Roll the dice and add the numbers (Modulo 10).<br>6-7-8-9 = Choose two Carrots from any Kaballa's Market and two Metal (cards or coins) from Morden's Metals Exchange!<br>4-5 = Feed each bunny 2 Radish Units and 2 Milk Units!<br>2-3 = Pay 10 Dolla for each bunny or the Metal equivalent or the bunnies die!<br>0-1= The bunnies explode taking the adjacent bunnies on both sides with them!"
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Modulo 10:<br>Adding numbers Modulo 10 means to add the numbers together, but only to pay attention to the last digit. For example, if the two dice total 9, then the number is just 9. If the two dice total 13, then the number is just 3."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "dice": [
+      "ORANGE",
+      "GREEN"
+    ],
+    "pawn": "GREEN"
+  },
+  {
+    "id": "1464",
+    "title": "Baccaratatouille",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any two adjacent bunnies in The Bunny Circle that belong to the same player.<br>Roll the dice and add the numbers (Modulo 10).<br>6-7-8-9 = Choose two Carrots from any Kaballa's Market and two Metal (cards or coins) from Morden's Metals Exchange!<br>4-5 = Feed each bunny 2 Radish Units and 2 Milk Units!<br>2-3 = Pay 10 Dolla for each bunny or the Metal equivalent or the bunnies die!<br>0-1= The bunnies explode taking the adjacent bunnies on both sides with them!"
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Modulo 10:<br>Adding numbers Modulo 10 means to add the numbers together, but only to pay attention to the last digit. For example, if the two dice total 9, then the number is just 9. If the two dice total 13, then the number is just 3."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "dice": [
+      "ORANGE",
+      "GREEN"
+    ],
+    "pawn": "GREEN"
+  },
+  {
+    "id": "1465",
+    "title": "Big Bonanza",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Allows a player to take one Radish Card, Milk Card, Defense Card and Pawn from any open stores."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1466",
+    "title": "Blue Platter Special",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "The color die that has the lowest roll is the supply taken by the player.<br><ul><li>Violet 12-sided die = Two bunny cards from any Weil's Pawn Shop.</li><li>Orange 12-sided die = Two Carrot Cards from any Kaballa's Market.</li><li>Green 12-sided die = Two Radish Cards from Kaballa's Market Two.</li><li>Yellow 12-sided die = 20 Dolla from the Discard Pile or the Metal equivalent from Morden's Metals Exchange.</li><li>Blue 12-sided die = Two Milk Cards from Kaballa's Market Two.</li><li>Black  12-sided die = Two Defense Cards from any Rooney's Weapons Emporium.</li><li>Red 12-sided die = Two Pawns from any Weil's Pawn Shop.</li><li>Clear 20-sided die = All of the items listed above.</li></ul>"
+      },
+      {
+        "title": "Additional Rules",
+        "text": "If two or more dice roll the lowest number, then the player may take more than one supply."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "dice": [
+      "VIOLET",
+      "ORANGE",
+      "GREEN",
+      "YELLOW",
+      "BLUE",
+      "BLACK",
+      "RED",
+      "CLEAR"
+    ],
+    "pawn": "BLUE",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1467",
+    "title": "Blue Platter Special",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "The color die that has the lowest roll is the supply taken by the player.<br><ul><li>Violet 12-sided die = Two bunny cards from any Weil's Pawn Shop.</li><li>Orange 12-sided die = Two Carrot Cards from any Kaballa's Market.</li><li>Green 12-sided die = Two Radish Cards from Kaballa's Market Two.</li><li>Yellow 12-sided die = 20 Dolla from the Discard Pile or the Metal equivalent from Morden's Metals Exchange.</li><li>Blue 12-sided die = Two Milk Cards from Kaballa's Market Two.</li><li>Black  12-sided die = Two Defense Cards from any Rooney's Weapons Emporium.</li><li>Red 12-sided die = Two Pawns from any Weil's Pawn Shop.</li><li>Clear 20-sided die = All of the items listed above.</li></ul>"
+      },
+      {
+        "title": "Additional Rules",
+        "text": "If two or more dice roll the lowest number, then the player may take more than one supply."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "dice": [
+      "VIOLET",
+      "ORANGE",
+      "GREEN",
+      "YELLOW",
+      "BLUE",
+      "BLACK",
+      "RED",
+      "CLEAR"
+    ],
+    "pawn": "BLUE",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1468",
+    "deck": "ALMOND_CRISP",
+    "title": "Free Pawn",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to take any two Pawns from any Weil's Pawn Shop."
+      },
+      {
+        "title": "Additional Rules",
+        "text": "Free Pawn may not be used if Weil's Pawn Shop is closed."
+      }
+    ],
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1469",
+    "title": "Half Price Coupon - Weil's Pawn Shop Two",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used for one turn by a player to purchase any items from Weil's Pawn Shop Two at half price."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1470",
+    "title": "Jumbo Chocolate Eclair",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to feed any (or all) of the bunnies in The Bunny Circle. All bunnies are fed any amounts of Radish Units and Milk Units."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "pawn": "VIOLET",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1471",
+    "title": "Jumbo Chocolate Eclair",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to feed any (or all) of the bunnies in The Bunny Circle. All bunnies are fed any amounts of Radish Units and Milk Units."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "pawn": "VIOLET",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1472",
+    "title": "Lemon Super Squeezie",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to roll the die and to take twice the number of cards from the Draw Pile as the number rolled. The player may keep the best cards and discard the rest. The player must have five cards in his hand (and two cards down) at the end of his turn."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "pawn": "YELLOW",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1473",
+    "title": "Lemon Super Squeezie",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to roll the die and to take twice the number of cards from the Draw Pile as the number rolled. The player may keep the best cards and discard the rest. The player must have five cards in his hand (and two cards down) at the end of his turn."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "pawn": "YELLOW",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1474",
+    "title": "Wonderous Witch's World",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any two adjacent bunnies n The Bunny Circle that belong to the same player. Roll the die.<br><ul><li>10-11-12 = Choose two Carrots from any Kaballa's Market.</li><li>7-8-9 = Take two Radish Cards and two Milk Cards from Kaballa's Market Two.</li><li>4-5-6 = Feed each bunny 2 Radish Units and 2 Milk Units!</li><li>2-3 = The bunnies are turned into frogs and eaten (discarded)!</li><li>1 = All bunnies belonging to the player who owned the target bunnies disappear (discarded)!</li>/ul>"
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "dice": [
+      "RED"
+    ],
+    "pawn": "RED"
+  },
+  {
+    "id": "1475",
+    "title": "Wonderous Witch's World",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any two adjacent bunnies n The Bunny Circle that belong to the same player. Roll the die.<br><ul><li>10-11-12 = Choose two Carrots from any Kaballa's Market.</li><li>7-8-9 = Take two Radish Cards and two Milk Cards from Kaballa's Market Two.</li><li>4-5-6 = Feed each bunny 2 Radish Units and 2 Milk Units!</li><li>2-3 = The bunnies are turned into frogs and eaten (discarded)!</li><li>1 = All bunnies belonging to the player who owned the target bunnies disappear (discarded)!</li>/ul>"
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "bunnyRequirement": "PLAY",
+    "dice": [
+      "RED"
+    ],
+    "pawn": "RED"
+  },
+  {
+    "id": "1476",
+    "symbols": [
+      "MYSTERIOUS_PLACE_BALL"
+    ],
+    "title": "Zoftig Zoology",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a number (1-12) and to roll the dice. The number of correct rolls is the number of bunnies the player may revive from the Discard Pile or any Weil's Pawn Shop and immediately place in The Bunny Circle."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "dice": [
+      "VIOLET",
+      "ORANGE",
+      "GREEN",
+      "YELLOW",
+      "BLUE",
+      "RED",
+      "PINK",
+      "BROWN"
+    ],
+    "pawn": "ORANGE",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1477",
+    "title": "Zoftig Zoology",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a number (1-12) and to roll the dice. The number of correct rolls is the number of bunnies the player may revive from the Discard Pile or any Weil's Pawn Shop and immediately place in The Bunny Circle."
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "SPECIAL",
+    "dice": [
+      "VIOLET",
+      "ORANGE",
+      "GREEN",
+      "YELLOW",
+      "BLUE",
+      "RED",
+      "PINK",
+      "BROWN"
+    ],
+    "pawn": "ORANGE",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1478",
+    "title": "Grand Gamp Dole",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player and allows his Defense cards to cover all players bunnies against a single weapon. May be used at any time!"
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "VERY_SPECIAL",
+    "bunnyRequirement": "NO"
+  },
+  {
+    "id": "1479",
+    "title": "Terrible Misfortune (Cats)",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "While petting a litter of kittens, one of your bunnies is unknowingly nibbled to death by capricious cats! "
+      },
+      {"title": "Additional Rules", "text": "If a player draws a PLAY IMMEDIATELY card but has no bunny in The Bunny Circle, then he must place the card on an opponent's bunny in The Bunny Circle causing it to die (discarded). This is also true if the player's only bunny in The Bunny Circle is protected by <a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> or <a href=\"bunnypedia://cards/0819\">Angel Wings</a>"},
+      {"title": "Protection", "text": "<a href=\"bunnypedia://cards/0058\">The Heavenly Halo</a> and <a href=\"bunnypedia://cards/0819\">Angel Wings</a> will protect a bunny from any terrible misfortune. The <a href=\"bunnypedia://cards/0204\">Guardian Angle</a> can be used to eliminate a Terrible Misfortune."}
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "PLAY_IMMEDIATELY"
+  },
+  {
+    "id": "1480",
+    "canonicalId": "0087",
+    "title": "1 Dolla",
+    "deck": "ALMOND_CRISP",
+    "type": "DOLLA"
+  },
+  {
+    "id": "1481",
+    "canonicalId": "0092",
+    "title": "2 Dolla",
+    "deck": "ALMOND_CRISP",
+    "type": "DOLLA"
+  },
+  {
+    "id": "1482",
+    "canonicalId": "0087",
+    "title": "3 Dolla",
+    "deck": "ALMOND_CRISP",
+    "type": "DOLLA"
+  },
+  {
+    "id": "1483",
+    "canonicalId": "0098",
+    "title": "5 Dolla",
+    "deck": "ALMOND_CRISP",
+    "type": "DOLLA"
+  },
+  {
+    "id": "1484",
+    "canonicalId": "0101",
+    "title": "10 Dolla",
+    "deck": "ALMOND_CRISP",
+    "type": "DOLLA"
+  },
+  {
+    "id": "1485",
+    "title": "Weil's Pawn Shop Two (Starter)",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Starting prices for supplies: "
+      },
+      {
+        "title": "Additional Rules",
+        "text": "5 Dolla - for each Pawn \n10 Dolla - for each Bunny \n(Bunnies must be run through.)"
+      }
+    ],
+    "deck": "ALMOND_CRISP",
+    "type": "STARTER"
+  }
+]
