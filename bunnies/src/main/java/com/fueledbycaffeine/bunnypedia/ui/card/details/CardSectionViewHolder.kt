@@ -20,9 +20,9 @@ import com.fueledbycaffeine.bunnypedia.database.model.RankType
 import com.fueledbycaffeine.bunnypedia.database.model.SpecialSeries
 import com.fueledbycaffeine.bunnypedia.database.model.ZodiacAnimal
 import com.fueledbycaffeine.bunnypedia.database.model.ZodiacSign
+import com.fueledbycaffeine.bunnypedia.databinding.CardHeroDetailsBinding
 import com.fueledbycaffeine.bunnypedia.ui.EpoxyLayoutContainer
 import com.google.android.flexbox.FlexboxLayout
-import kotlinx.android.synthetic.main.card_hero_details.view.*
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
@@ -31,14 +31,21 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
   companion object {
     private val ZODIAC_DATE_FMT = DateTimeFormatter.ofPattern("MMMM d")
   }
+  
+  private lateinit var binding: CardHeroDetailsBinding
+
+  override fun bindView(itemView: View) {
+    super.bindView(itemView)
+    binding = CardHeroDetailsBinding.bind(itemView)
+  }
 
   fun display(card: Card) {
-    itemView.cardType.text = getString(card.type.description)
+    binding.cardType.text = getString(card.type.description)
 
     Glide.with(context)
       .load(card.imageURI)
       .override(Target.SIZE_ORIGINAL)
-      .into(itemView.cardThumbnail)
+      .into(binding.cardThumbnail)
 
     if (!card.dice.isNullOrEmpty()) {
       setupDiceInfo(card.dice)
@@ -49,13 +56,13 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
     }
 
     if (card.weaponLevel != null) {
-      itemView.weaponLevelContainer.visibility = View.VISIBLE
-      itemView.weaponLevel.text = card.weaponLevel
+      binding.weaponLevelContainer.visibility = View.VISIBLE
+      binding.weaponLevel.text = card.weaponLevel
     }
 
     if (card.bunnyRequirement != null) {
-      itemView.containerRequiresBunny.visibility = View.VISIBLE
-      itemView.requiresBunny.text = getString(card.bunnyRequirement.description)
+      binding.containerRequiresBunny.visibility = View.VISIBLE
+      binding.requiresBunny.text = getString(card.bunnyRequirement.description)
     }
 
     if (card.ftb.applicable) {
@@ -88,8 +95,8 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
   }
 
   private fun setupDiceInfo(dice: List<Die>) {
-    itemView.diceContainer.visibility = View.VISIBLE
-    itemView.diceFlexLayout.removeAllViews()
+    binding.diceContainer.visibility = View.VISIBLE
+    binding.diceFlexLayout.removeAllViews()
     val lp = FlexboxLayout.LayoutParams(
       ViewGroup.LayoutParams.WRAP_CONTENT,
       ViewGroup.LayoutParams.WRAP_CONTENT
@@ -101,54 +108,54 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
           layoutParams = lp
         }
       }
-      .forEach { img -> itemView.diceFlexLayout.addView(img) }
+      .forEach { img -> binding.diceFlexLayout.addView(img) }
   }
 
   private fun setupPawnInfo(pawn: Pawn) {
-    itemView.containerPawnInfo.visibility = View.VISIBLE
+    binding.containerPawnInfo.visibility = View.VISIBLE
 
-    itemView.pawnSymbol.imageTintList = ColorStateList.valueOf(
+    binding.pawnSymbol.imageTintList = ColorStateList.valueOf(
       ContextCompat.getColor(context, pawn.color)
     )
-    itemView.pawnName.text = getString(pawn.pawnName)
+    binding.pawnName.text = getString(pawn.pawnName)
   }
 
   private fun setupFtbInfo(ftb: FeedTheBunny) {
     val (cabbage, radish, water, milk) = ftb
-    itemView.containerFtb.visibility = View.VISIBLE
+    binding.containerFtb.visibility = View.VISIBLE
     if (ftb.cabbageAndWater) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_cabbage_water, cabbage, water)
+      binding.ftbRequirement.text = getString(R.string.ftb_cabbage_water, cabbage, water)
     } else if (ftb.radishAndMilk) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_radish_milk, radish, milk)
+      binding.ftbRequirement.text = getString(R.string.ftb_radish_milk, radish, milk)
     } else if (ftb.cabbageOrRadish) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_cabbage_radish, cabbage)
+      binding.ftbRequirement.text = getString(R.string.ftb_cabbage_radish, cabbage)
     } else if (ftb.waterOrMilk) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_water_milk, water)
+      binding.ftbRequirement.text = getString(R.string.ftb_water_milk, water)
     } else if (cabbage > 0) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_cabbage, cabbage)
+      binding.ftbRequirement.text = getString(R.string.ftb_cabbage, cabbage)
     } else if (water > 0) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_water, water)
+      binding.ftbRequirement.text = getString(R.string.ftb_water, water)
     } else if (cabbage == FeedTheBunny.RANDOM || radish == FeedTheBunny.RANDOM) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_random)
+      binding.ftbRequirement.text = getString(R.string.ftb_random)
     } else if (cabbage == FeedTheBunny.DATED) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_dated_cabbage)
+      binding.ftbRequirement.text = getString(R.string.ftb_dated_cabbage)
     } else if (water == FeedTheBunny.DATED) {
-      itemView.ftbRequirement.text = getString(R.string.ftb_dated_water)
+      binding.ftbRequirement.text = getString(R.string.ftb_dated_water)
     }
   }
 
   private fun setupZodiacInfo(zodiac: ZodiacSign) {
-    itemView.containerZodiacSign.visibility = View.VISIBLE
-    itemView.containerZodiacDate.visibility = View.VISIBLE
-    itemView.containerZodiacNumber.visibility = View.VISIBLE
+    binding.containerZodiacSign.visibility = View.VISIBLE
+    binding.containerZodiacDate.visibility = View.VISIBLE
+    binding.containerZodiacNumber.visibility = View.VISIBLE
 
-    itemView.zodiacSymbol.text = getString(
+    binding.zodiacSymbol.text = getString(
       R.string.zodiac_info,
       getString(zodiac.description),
       getString(zodiac.element.description)
     )
-    itemView.zodiacSymbol.setCompoundDrawablesWithIntrinsicBounds(zodiac.symbol, 0, 0, 0)
-    itemView.zodiacSymbol.compoundDrawableTintList = ColorStateList.valueOf(
+    binding.zodiacSymbol.setCompoundDrawablesWithIntrinsicBounds(zodiac.symbol, 0, 0, 0)
+    binding.zodiacSymbol.compoundDrawableTintList = ColorStateList.valueOf(
       ContextCompat.getColor(context, zodiac.element.tintColor)
     )
 
@@ -192,25 +199,25 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
     // dr cronk
 
     if (isCurrentSign) {
-      itemView.zodiacDate.text = getString(
+      binding.zodiacDate.text = getString(
         R.string.zodiac_date_range_current,
         start.format(ZODIAC_DATE_FMT),
         end.minusDays(1).format(ZODIAC_DATE_FMT)
       )
     } else {
-      itemView.zodiacDate.text = getString(
+      binding.zodiacDate.text = getString(
         R.string.zodiac_date_range,
         start.format(ZODIAC_DATE_FMT),
         end.minusDays(1).format(ZODIAC_DATE_FMT)
       )
     }
 
-    itemView.zodiacNumber.text = getString(R.string.zodiac_number_n, zodiac.number)
+    binding.zodiacNumber.text = getString(R.string.zodiac_number_n, zodiac.number)
   }
 
   private fun setupZodiacAnimal(zodiacAnimal: ZodiacAnimal) {
-    itemView.containerZodiacYears.visibility = View.VISIBLE
-    itemView.containerZodiacNumber.visibility = View.VISIBLE
+    binding.containerZodiacYears.visibility = View.VISIBLE
+    binding.containerZodiacNumber.visibility = View.VISIBLE
 
     val currentYear = LocalDate.now().year
     val currentAnimal = ZodiacAnimal.values()[currentYear % 12]
@@ -224,28 +231,28 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
     nextYear += if (nextYear <= currentYear) 12 else 0
 
     if (isCurrentAnimal) {
-      itemView.zodiacYears.text = getString(R.string.zodiac_year_current, previousYear, nextYear)
+      binding.zodiacYears.text = getString(R.string.zodiac_year_current, previousYear, nextYear)
     } else {
-      itemView.zodiacYears.text = getString(R.string.zodiac_year, previousYear, nextYear)
+      binding.zodiacYears.text = getString(R.string.zodiac_year, previousYear, nextYear)
     }
 
-    itemView.zodiacNumber.text = getString(R.string.zodiac_number_n, zodiacAnimal.ordinal + 1)
+    binding.zodiacNumber.text = getString(R.string.zodiac_number_n, zodiacAnimal.ordinal + 1)
   }
 
   private fun setupRankInfo(rank: Rank) {
-    itemView.containerRank.visibility = View.VISIBLE
+    binding.containerRank.visibility = View.VISIBLE
 
     val payGrade = when (rank.type) {
       RankType.ENLISTED -> "E-${rank.grade}"
       RankType.OFFICER -> "O-${rank.grade}"
     }
-    itemView.rankTitle.text = getString(R.string.rank_pay_grade, getString(rank.description), payGrade)
-    itemView.rankSymbol.setImageResource(rank.symbol)
+    binding.rankTitle.text = getString(R.string.rank_pay_grade, getString(rank.description), payGrade)
+    binding.rankSymbol.setImageResource(rank.symbol)
   }
 
   private fun setupPsiInfo(psi: Psi) {
-    itemView.containerPsiInfo.visibility = View.VISIBLE
-    itemView.psiTitle.text = getString(
+    binding.containerPsiInfo.visibility = View.VISIBLE
+    binding.psiTitle.text = getString(
       R.string.psi_symbol_title,
       getString(psi.color.colorName),
       getString(psi.type.description)
@@ -253,10 +260,10 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
   }
 
   private fun setupSpecialSeriesInfo(series: SpecialSeries) {
-    itemView.containerSpecialSeries.visibility = View.VISIBLE
+    binding.containerSpecialSeries.visibility = View.VISIBLE
 
-    itemView.seriesSymbol.text = series.symbol
-    itemView.seriesTitle.text = getString(series.title)
+    binding.seriesSymbol.text = series.symbol
+    binding.seriesTitle.text = getString(series.title)
   }
 
   private fun setupBundergroundLine(line: Die, stop: Int) {
@@ -271,8 +278,8 @@ class CardSectionViewHolder : EpoxyLayoutContainer() {
 
     if (lineNameRes != ResourcesCompat.ID_NULL) {
       val lineText = getString(lineNameRes)
-      itemView.containerBundergroundInfo.visibility = View.VISIBLE
-      itemView.stationStop.text = getString(R.string.bunderground_station_format, lineText, stop)
+      binding.containerBundergroundInfo.visibility = View.VISIBLE
+      binding.stationStop.text = getString(R.string.bunderground_station_format, lineText, stop)
     }
   }
 }

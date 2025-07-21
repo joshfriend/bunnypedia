@@ -14,6 +14,7 @@ import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
+import com.fueledbycaffeine.bunnypedia.databinding.FragmentCardDetailBinding
 import com.fueledbycaffeine.bunnypedia.ext.android.isAppearanceLightStatusBars
 import com.fueledbycaffeine.bunnypedia.ext.rx.mapToResult
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
@@ -24,7 +25,6 @@ import io.reactivex.rxkotlin.addTo
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
-import kotlinx.android.synthetic.main.fragment_card_detail.*
 import timber.log.Timber
 import javax.inject.Inject
 
@@ -35,8 +35,12 @@ class CardDetailFragment : DaggerFragment() {
   private val reloadSubject = BehaviorSubject.createDefault(true)
   private val subscribers = CompositeDisposable()
 
+  private lateinit var binding: FragmentCardDetailBinding
+
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    return inflater.inflate(R.layout.fragment_card_detail, container, false)
+    val view = inflater.inflate(R.layout.fragment_card_detail, container, false)
+    binding = FragmentCardDetailBinding.bind(view)
+    return view
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -79,7 +83,7 @@ class CardDetailFragment : DaggerFragment() {
     val (card) = data
     val activity = activity ?: return
     if (activity is AppCompatActivity) {
-      activity.setSupportActionBar(toolbar)
+      activity.setSupportActionBar(binding.toolbar)
       activity.supportActionBar?.apply {
         setDisplayHomeAsUpEnabled(true)
         title = card.title
@@ -88,13 +92,14 @@ class CardDetailFragment : DaggerFragment() {
     }
 
     val deckColor = ContextCompat.getColor(activity, card.deck.color)
-    toolbar.setBackgroundColor(deckColor)
+    binding.toolbar.setBackgroundColor(deckColor)
     val titleColor = ColorUtil.contrastColor(deckColor)
-    toolbar.setTitleTextColor(titleColor)
-    toolbar.setSubtitleTextColor(titleColor)
+    binding.toolbar.setTitleTextColor(titleColor)
+    binding.toolbar.setSubtitleTextColor(titleColor)
     val statusbarColor = ColorUtil.darkenColor(deckColor, byAmount = 0.20f)
+    @Suppress("DEPRECATION")
     activity.window?.statusBarColor = statusbarColor
-    toolbar.navigationIcon?.setTint(titleColor)
+    binding.toolbar.navigationIcon?.setTint(titleColor)
 
     // Ensure status bar icons will still be legible with the new color
     activity.window.isAppearanceLightStatusBars = when (titleColor) {
@@ -106,7 +111,7 @@ class CardDetailFragment : DaggerFragment() {
 
   private fun bind(data: CardWithRules) {
     val controller = CardDetailsEpoxyController(data)
-    recyclerView.adapter = controller.adapter
+    binding.recyclerView.adapter = controller.adapter
 
     controller.links
       .observeOn(Schedulers.io())

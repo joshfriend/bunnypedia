@@ -5,28 +5,31 @@ import android.text.method.LinkMovementMethod
 import android.text.util.Linkify
 import android.view.View
 import com.fueledbycaffeine.bunnypedia.database.model.Rule
+import com.fueledbycaffeine.bunnypedia.databinding.ListItemRuleSectionBinding
 import com.fueledbycaffeine.bunnypedia.ext.android.setHtmlText
 import com.fueledbycaffeine.bunnypedia.ui.EpoxyLayoutContainer
-import kotlinx.android.synthetic.main.list_item_rule_section.view.*
 import me.saket.bettermovementmethod.BetterLinkMovementMethod
+import androidx.core.net.toUri
 
 class RuleSectionViewHolder : EpoxyLayoutContainer() {
   lateinit var linkListener: ((Uri) -> Unit)
+  private lateinit var binding: ListItemRuleSectionBinding
 
   override fun bindView(itemView: View) {
     super.bindView(itemView)
-    itemView.ruleText.movementMethod = LinkMovementMethod.getInstance()
+    binding = ListItemRuleSectionBinding.bind(itemView)
+    binding.ruleText.movementMethod = LinkMovementMethod.getInstance()
 
-    val mm = BetterLinkMovementMethod.linkify(Linkify.WEB_URLS, itemView.ruleText)
+    val mm = BetterLinkMovementMethod.linkify(Linkify.WEB_URLS, binding.ruleText)
     mm.setOnLinkClickListener { _, url ->
-      val uri = Uri.parse(url)
+      val uri = url.toUri()
       linkListener(uri)
       uri.scheme == "bunnypedia"
     }
   }
 
   fun display(rule: Rule) {
-    itemView.ruleTitle.text = rule.title
-    itemView.ruleText.setHtmlText(rule.text)
+    binding.ruleTitle.text = rule.title
+    binding.ruleText.setHtmlText(rule.text)
   }
 }

@@ -7,37 +7,39 @@ import com.bumptech.glide.RequestManager
 import com.bumptech.glide.request.target.Target
 import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
+import com.fueledbycaffeine.bunnypedia.databinding.CardViewListItemBinding
 import com.fueledbycaffeine.bunnypedia.ext.android.stripHtmlTags
 import com.fueledbycaffeine.bunnypedia.util.ColorUtil
 import kotlinx.android.extensions.LayoutContainer
-import kotlinx.android.synthetic.main.card_view_list_item.*
 import java.util.Locale
 
 class CardListViewHolder(override val containerView: View) : CardViewHolder(containerView), LayoutContainer {
+  private val binding = CardViewListItemBinding.bind(containerView)
+
   override fun bind(requestManager: RequestManager, cardAndRules: CardWithRules) {
     requestManager
       .load(cardAndRules.card.imageURI)
       .override(Target.SIZE_ORIGINAL)
-      .into(image)
+      .into(binding.image)
 
     val (card, rules) = cardAndRules
-    cardNumber.text = String.format(Locale.US, "#%s", card.id)
-    title.text = card.title
-    cardText.text = rules.firstOrNull()?.text?.stripHtmlTags() ?: ""
+    binding.cardNumber.text = String.format(Locale.US, "#%s", card.id)
+    binding.title.text = card.title
+    binding.cardText.text = rules.firstOrNull()?.text?.stripHtmlTags() ?: ""
 
     val chipColor = ContextCompat.getColor(itemView.context, card.deck.color)
-    cardNumber.backgroundTintList = ColorStateList.valueOf(chipColor)
-    cardNumber.setTextColor(ColorUtil.contrastColor(chipColor))
+    binding.cardNumber.backgroundTintList = ColorStateList.valueOf(chipColor)
+    binding.cardNumber.setTextColor(ColorUtil.contrastColor(chipColor))
   }
 
   override fun clear() {
-    title.text = ""
-    cardNumber.text = "#???"
-    cardText.text = ""
-    cardNumber.setTextColor(
+    binding.title.text = ""
+    binding.cardNumber.text = "#???"
+    binding.cardText.text = ""
+    binding.cardNumber.setTextColor(
       ContextCompat.getColor(itemView.context, R.color.white)
     )
-    cardNumber.backgroundTintList = ColorStateList.valueOf(
+    binding.cardNumber.backgroundTintList = ColorStateList.valueOf(
       ContextCompat.getColor(itemView.context, R.color.deck_blue)
     )
   }

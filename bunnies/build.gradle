@@ -2,13 +2,9 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
-    id 'kotlin-android-extensions'
+    id 'kotlin-parcelize'
     id "androidx.navigation.safeargs.kotlin"
     id 'com.google.devtools.ksp'
-}
-
-androidExtensions {
-    experimental = true
 }
 
 kapt {
@@ -18,15 +14,20 @@ kapt {
 android {
     namespace = "com.fueledbycaffeine.bunnypedia"
 
-    compileSdk 34
+    compileSdkVersion 35
     defaultConfig {
         applicationId "com.fueledbycaffeine.bunnypedia"
         minSdkVersion 23
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode 37
         versionName "0.30"
 
         multiDexEnabled true
+    }
+
+    buildFeatures {
+        viewBinding true
+        buildConfig true
     }
 
     compileOptions {
@@ -81,8 +82,7 @@ repositories {
     mavenCentral()
 
     // Still get fastscroll dep from here
-    //noinspection JcenterRepositoryObsolete
-    jcenter()
+    maven { url = 'https://repo.gradle.org/artifactory/jcenter-backup/' }
 }
 
 dependencies {
@@ -117,7 +117,7 @@ dependencies {
     ksp "com.airbnb.android:epoxy-processor:$epoxyVersion"
 
     // Dependency injection
-    def daggerVersion = "2.44"
+    def daggerVersion = "2.57"
     implementation "com.google.dagger:dagger:$daggerVersion"
     implementation "com.google.dagger:dagger-android-support:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
@@ -131,10 +131,10 @@ dependencies {
     implementation "com.jakewharton.rxbinding3:rxbinding:$rxBindingVersion"
     implementation "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBindingVersion"
 
-    def glideVersion = '4.15.1'
+    def glideVersion = '4.16.0'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
     ksp "com.github.bumptech.glide:compiler:$glideVersion"
-    implementation "me.saket:better-link-movement-method:2"
+    implementation "me.saket:better-link-movement-method:2.2.0"
     implementation 'com.futuremind.recyclerfastscroll:fastscroll:0.2.5'
 
     // Logging
@@ -142,7 +142,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
 }
 
 def getPassword() {

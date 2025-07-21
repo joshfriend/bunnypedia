@@ -20,6 +20,7 @@ import com.fueledbycaffeine.bunnypedia.R
 import com.fueledbycaffeine.bunnypedia.database.CardStore
 import com.fueledbycaffeine.bunnypedia.database.QueryResult
 import com.fueledbycaffeine.bunnypedia.database.model.CardWithRules
+import com.fueledbycaffeine.bunnypedia.databinding.FragmentCardListBinding
 import com.fueledbycaffeine.bunnypedia.ext.android.defaultSharedPreferences
 import com.fueledbycaffeine.bunnypedia.ext.android.hideSoftKeyboard
 import com.fueledbycaffeine.bunnypedia.ext.android.isAppearanceLightStatusBars
@@ -33,9 +34,9 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.rxkotlin.addTo
 import io.reactivex.rxkotlin.subscribeBy
 import io.reactivex.schedulers.Schedulers
-import kotlinx.android.synthetic.main.fragment_card_list.*
 import timber.log.Timber
 import javax.inject.Inject
+import androidx.core.content.edit
 
 class CardListFragment : DaggerFragment() {
   @Inject lateinit var cardStore: CardStore
@@ -54,10 +55,12 @@ class CardListFragment : DaggerFragment() {
       )!!
     )
     set(value) {
-      defaultSharedPreferences.edit()
-        .putString(getString(R.string.pref_key_view_type), value.name)
-        .apply()
+      defaultSharedPreferences.edit {
+        putString(getString(R.string.pref_key_view_type), value.name)
+      }
     }
+
+  private lateinit var binding: FragmentCardListBinding
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -66,7 +69,9 @@ class CardListFragment : DaggerFragment() {
   }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    return inflater.inflate(R.layout.fragment_card_list, container, false)
+    val view = inflater.inflate(R.layout.fragment_card_list, container, false)
+    binding = FragmentCardListBinding.bind(view)
+    return view
   }
 
   override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -115,16 +120,16 @@ class CardListFragment : DaggerFragment() {
     activity?.window?.isAppearanceLightStatusBars = false
     val activity = activity
     if (activity is AppCompatActivity) {
-      activity.setSupportActionBar(toolbar)
+      activity.setSupportActionBar(binding.toolbar)
     }
 
     // TODO: https://github.com/bumptech/glide/tree/master/integration/recyclerview
     adapter = CardAdapter(this, viewType, this::onCardSelected)
-    recyclerView.adapter = adapter
-    recyclerView.itemAnimator = null
+    binding.recyclerView.adapter = adapter
+    binding.recyclerView.itemAnimator = null
     setupLayoutManager()
 
-    fastScroller.setRecyclerView(recyclerView)
+    binding.fastScroller.setRecyclerView(binding.recyclerView)
 
     cardsViewModel.observe()
       .subscribe { data ->
@@ -194,10 +199,10 @@ class CardListFragment : DaggerFragment() {
       CardAdapter.CardViewType.GRID -> {
         val displayMetrics = resources.displayMetrics
         val columns = (displayMetrics.widthPixels / resources.getDimension(R.dimen.card_width)).toInt()
-        recyclerView.layoutManager = GridLayoutManager(requireContext(), columns)
+        binding.recyclerView.layoutManager = GridLayoutManager(requireContext(), columns)
       }
       else -> {
-        recyclerView.layoutManager = LinearLayoutManager(requireContext())
+        binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
       }
     }
   }

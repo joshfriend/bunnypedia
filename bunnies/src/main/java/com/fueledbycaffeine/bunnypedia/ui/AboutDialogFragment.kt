@@ -8,16 +8,17 @@ import android.text.method.LinkMovementMethod
 import androidx.fragment.app.DialogFragment
 import com.fueledbycaffeine.bunnypedia.BuildConfig
 import com.fueledbycaffeine.bunnypedia.R
+import com.fueledbycaffeine.bunnypedia.databinding.FragmentAboutDialogBinding
 import com.fueledbycaffeine.bunnypedia.ext.android.layoutInflater
 import com.fueledbycaffeine.bunnypedia.ext.android.setHtmlText
-import kotlinx.android.synthetic.main.fragment_about_dialog.view.*
 
 class AboutDialogFragment : DialogFragment() {
   @SuppressLint("InflateParams")
   override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
     val view = requireContext().layoutInflater.inflate(R.layout.fragment_about_dialog, null)
-    view.content.setHtmlText(getString(R.string.about_content))
-    view.content.movementMethod = LinkMovementMethod.getInstance()
+    val binding = FragmentAboutDialogBinding.bind(view)
+    binding.content.setHtmlText(getString(R.string.about_content))
+    binding.content.movementMethod = LinkMovementMethod.getInstance()
 
     return AlertDialog.Builder(requireContext())
       .setTitle(getString(R.string.about_title, BuildConfig.VERSION_NAME))
