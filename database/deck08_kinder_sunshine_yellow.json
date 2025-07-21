@@ -50,7 +50,7 @@
   {
     "id": "060",
     "deck": "KINDER_SUNSHINE_YELLOW",
-    "title": "Adventure Bunny Bunny",
+    "title": "Adventure Bunny",
     "type": "RUN",
     "rules": [
       {
@@ -565,7 +565,7 @@
     "rules": [
       {
         "title": "Card Text",
-        "text": "This card may be used once at any time to stop any Bad News card."
+        "text": "This card may be used once at any time to stop any <a href=\"bunnypedia://cards/097\">Bad News</a> card."
       }
     ]
   },
@@ -580,6 +580,7 @@
         "title": "Card Text",
         "text": "Aliens take all of your bunnies to the discard pile."
       },
+      {"title": "Sunshine Day", "text": "<a href=\"bunnypedia://cards/206\">Sunshine Day</a> can be used to eliminate Bad News."},
       {"title": "Hitchbunny's Guide", "text": "<a href=\"bunnypedia://cards/0733\">Hitchbunny's Guide</a> can be used to retrieve this card from the discard pile because it contains a picture of the planet Jupiter."}
     ]
   },
@@ -592,7 +593,8 @@
       {
         "title": "Card Text",
         "text": "A Bad News Bear scares one of your bunnies into the discard pile."
-      }
+      },
+      {"title": "Sunshine Day", "text": "<a href=\"bunnypedia://cards/206\">Sunshine Day</a> can be used to eliminate Bad News."}
     ]
   },
   {
@@ -604,7 +606,8 @@
       {
         "title": "Card Text",
         "text": "One of your bunnies eats too much candy and goes to the discard pile."
-      }
+      },
+      {"title": "Sunshine Day", "text": "<a href=\"bunnypedia://cards/206\">Sunshine Day</a> can be used to eliminate Bad News."}
     ]
   },
   {
@@ -616,7 +619,8 @@
       {
         "title": "Card Text",
         "text": "A tornado hits! You must return all but one Carrot and discard all but one bunny."
-      }
+      },
+      {"title": "Sunshine Day", "text": "<a href=\"bunnypedia://cards/206\">Sunshine Day</a> can be used to eliminate Bad News."}
     ]
   },
   {

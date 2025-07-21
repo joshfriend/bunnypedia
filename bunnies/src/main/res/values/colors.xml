@@ -33,6 +33,8 @@
     <color name="deck_cake_batter">@color/deck_yellow</color>
     <color name="deck_radioactive_robots">@color/deck_steel</color>
     <color name="deck_almond_crisp">@color/deck_khaki</color>
+    <color name="deck_kinder_ruby_red">@color/deck_red</color>
+    <color name="deck_kinder_pesky_purple">@color/deck_violet</color>
 
     <color name="zodiac_element_fire">@color/deck_red</color>
     <color name="zodiac_element_earth">@color/deck_green</color>

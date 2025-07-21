@@ -1,0 +1,601 @@
+[
+  {
+    "id": "111",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Blue Creative Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "112",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Blue Helpful Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "113",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Blue Magical Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "114",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Blue Travel Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "115",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Green Creative Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "116",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Green Helpful Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "117",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Green Magical Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "118",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Green Travel Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "119",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Orange Creative Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "120",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Orange Helpful Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "121",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Orange Magical Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "122",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Orange Travel Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "123",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Violet Creative Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "124",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Violet Helpful Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "125",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Violet Magical Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "126",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Violet Travel Bunny",
+    "type": "RUN",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "Players that have three bunnies in The Bunny Circle of the same color or kinds may play two cards per turn."
+      }
+    ]
+  },
+  {
+    "id": "127",
+    "canonicalId": "017",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "128",
+    "canonicalId": "017",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "129",
+    "canonicalId": "017",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "130",
+    "canonicalId": "017",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "131",
+    "canonicalId": "017",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "132",
+    "canonicalId": "017",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Take A Carrot",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "aggressive": false,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be used once by a player to choose a Carrot from Kaballa's Market. When all the carrots are taken from Kaballa's Market the game is over and The Magic Carrot is revealed."
+      }
+    ]
+  },
+  {
+    "id": "133",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Feed The Bunny - Milk",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "milk": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "134",
+    "canonicalId": "133",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Feed The Bunny - Milk",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "milk": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "135",
+    "canonicalId": "133",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Feed The Bunny - Milk",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "milk": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "136",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Feed The Bunny - Radish",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "radish": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "137",
+    "canonicalId": "136",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Feed The Bunny - Radish",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "radish": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "138",
+    "canonicalId": "136",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Feed The Bunny - Radish",
+    "type": "RUN",
+    "bunnyRequirement": "PLAY",
+    "radish": 1,
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "May be placed on any bunny which must feed the amounts shown by the end of its next turn or die."
+      }
+    ]
+  },
+  {
+    "id": "139",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Safety Hazard 01 Door Hinges",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "140",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Safety Hazard 02 Dishwasher Of Doom",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "141",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Safety Hazard 03 Balloons",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "142",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Safety Hazard 04 Darts",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "143",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Safety Hazard 05 Nut Allergies",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "144",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Safety Hazard 06 Feisty Feline",
+    "type": "RUN",
+    "dice": [ "VIOLET_D10", "ORANGE_D10", "GREEN_D10", "YELLOW_D10", "BLUE_D10" ],
+    "bunnyRequirement": "PLAY",
+    "rules": [
+      {
+        "title": "Card Text",
+        "text": "If any of the dice rolled match the Safety Hazard number, then your bunny is safe and the hazard is discarded. If none of the numbers match, then your bunny is discarded."
+      }
+    ]
+  },
+  {
+    "id": "145",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Radish",
+    "type": "SPECIAL",
+    "rules": []
+  },
+  {
+    "id": "146",
+    "canonicalId": "145",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Radish",
+    "type": "SPECIAL",
+    "rules": []
+  },
+  {
+    "id": "147",
+    "canonicalId": "145",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Radish",
+    "type": "SPECIAL",
+    "rules": []
+  },
+  {
+    "id": "148",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Milk",
+    "type": "SPECIAL",
+    "rules": []
+  },
+  {
+    "id": "149",
+    "canonicalId": "148",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Milk",
+    "type": "SPECIAL",
+    "rules": []
+  },
+  {
+    "id": "150",
+    "canonicalId": "148",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Milk",
+    "type": "SPECIAL",
+    "rules": []
+  },
+  {
+    "id": "151",
+    "canonicalId": "041",
+    "deck": "KINDER_RUBY_RED",
+    "title": "1 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "152",
+    "canonicalId": "041",
+    "deck": "KINDER_RUBY_RED",
+    "title": "1 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "153",
+    "canonicalId": "041",
+    "deck": "KINDER_RUBY_RED",
+    "title": "1 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "154",
+    "canonicalId": "041",
+    "deck": "KINDER_RUBY_RED",
+    "title": "1 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "155",
+    "canonicalId": "045",
+    "deck": "KINDER_RUBY_RED",
+    "title": "2 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "156",
+    "canonicalId": "045",
+    "deck": "KINDER_RUBY_RED",
+    "title": "2 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "157",
+    "canonicalId": "045",
+    "deck": "KINDER_RUBY_RED",
+    "title": "2 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "158",
+    "canonicalId": "048",
+    "deck": "KINDER_RUBY_RED",
+    "title": "5 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "159",
+    "canonicalId": "048",
+    "deck": "KINDER_RUBY_RED",
+    "title": "5 Bunny Buck",
+    "type": "DOLLA"
+  },
+  {
+    "id": "160",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Carrot Q - Quinn",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "161",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Carrot R - Ralph",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "162",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Carrot S - Samantha",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "163",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Carrot T - Tab",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "164",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Carrot U - Uhura",
+    "type": "CARROT_SUPPLY"
+  },
+  {
+    "id": "165",
+    "deck": "KINDER_RUBY_RED",
+    "title": "Carrot V - Vincent",
+    "type": "CARROT_SUPPLY"
+  }
+]

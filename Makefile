@@ -31,4 +31,4 @@ ${THUMBNAIL_DIR}:
 	mkdir -p $@
 
 ${THUMBNAIL_DIR}/%.webp: ${IMAGE_DIR}/%.*
-	convert $^ -resize 200 -quality 70 $@
+	magick $^ -resize 200 -quality 70 $@

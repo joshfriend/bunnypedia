@@ -47,6 +47,8 @@
     <string name="deck_cake_batter">Cake Batter Booster</string>
     <string name="deck_radioactive_robots">Radioactive Robots</string>
     <string name="deck_almond_crisp">Almond Crisp</string>
+    <string name="deck_kinder_ruby_red">KinderBunnies Ruby Red Starter</string>
+    <string name="deck_kinder_pesky_purple">KinderBunnies Pesky Purple Booster</string>
     <string name="card_type_kaballa_dolla">Kaballa Dolla</string>
     <string name="card_type_rank">Rank</string>
     <string name="section_ftb_requirements">Food Units Required</string>

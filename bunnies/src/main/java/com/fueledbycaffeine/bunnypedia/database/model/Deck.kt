@@ -31,6 +31,8 @@ enum class Deck {
   CAKE_BATTER,
   RADIOACTIVE_ROBOTS,
   ALMOND_CRISP,
+  KINDER_RUBY_RED,
+  KINDER_PESKY_PURPLE,
   ;
 
   val color: Int @ColorRes get() {
@@ -59,6 +61,8 @@ enum class Deck {
       CAKE_BATTER -> R.color.deck_cake_batter
       RADIOACTIVE_ROBOTS -> R.color.deck_radioactive_robots
       ALMOND_CRISP -> R.color.deck_almond_crisp
+      KINDER_RUBY_RED -> R.color.deck_kinder_ruby_red
+      KINDER_PESKY_PURPLE -> R.color.deck_kinder_pesky_purple
     }
   }
 
@@ -90,12 +94,14 @@ enum class Deck {
       CAKE_BATTER -> R.string.deck_cake_batter
       RADIOACTIVE_ROBOTS -> R.string.deck_radioactive_robots
       ALMOND_CRISP -> R.string.deck_almond_crisp
+      KINDER_RUBY_RED -> R.string.deck_kinder_ruby_red
+      KINDER_PESKY_PURPLE -> R.string.deck_kinder_pesky_purple
     }
   }
 
   val game: Game get() = when (this) {
     CONQUEST_BLUE, CONQUEST_YELLOW, CONQUEST_RED, CONQUEST_VIOLET -> Game.CONQUEST
-    KINDER_SKY_BLUE, KINDER_SUNSHINE_YELLOW -> Game.KINDER
+    KINDER_SKY_BLUE, KINDER_SUNSHINE_YELLOW, KINDER_RUBY_RED, KINDER_PESKY_PURPLE -> Game.KINDER
     else -> Game.QUEST
   }
 }
