@@ -10,7 +10,6 @@ import io.reactivex.Single
 
 @Dao
 interface CardDao {
-  @Transaction
   @Query(
     """
     SELECT
